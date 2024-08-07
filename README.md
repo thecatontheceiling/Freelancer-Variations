@@ -1,2 +1,2 @@
-# Freelancer-Variations
-Mirror of Kevin-Rudd's HITMAN 3 mod Freelancer Variations
+# Freelancer Variations
+https://www.nexusmods.com/hitman3/mods/437
