@@ -1,0 +1,22 @@
+{
+    "tempHash": "00CC1BC4C1815542",
+    "tbluHash": "009AAF75FF18DFD9",
+    "patch": [
+     
+        {
+            "SubEntityOperation": [
+                "43062614439d509e",
+                {
+                    "AddPropertyAliasConnection": [
+                        "FloodLight",
+                        {
+                            "originalProperty": "m_bVisible",
+                            "originalEntity": "255df13c9717e365"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

@@ -1,0 +1,1282 @@
+{
+	"tempHash": "000156EC8B9DF26C",
+	"tbluHash": "00600F8CDA8854D2",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"c61d900e9330db15": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Stashes",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entityblueprint"
+		},
+		"c8ed44c86c26a206": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32_03",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "c61d900e9330db15"
+				}
+			}
+		},
+		"94692df136f36ab3": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Safes",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entityblueprint"
+		},
+		"243d8fe914797de2": {
+			"parent": "834864eca858f84e",
+			"name": "Sound",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"d4bda8f1ab80beef": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Mules",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entityblueprint"
+		},
+		"3bcc7e48a761bdd1": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Suppliers",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entityblueprint"
+		},
+		"fcf20198a14359d3": {
+			"parent": "834864eca858f84e",
+			"name": "Any exit used",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feeddfed2340264c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "feed066a789c8a45",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "feeda798dbdf99ed",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			},
+			"events": {
+				"OnTrue": { "ExitTriggered": ["fc590d6cc896d971"] }
+			}
+		},
+		"2a4c5ae131266493": {
+			"parent": "834864eca858f84e",
+			"name": "Helper_Evergreen_Spawn_Targets",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rSeed": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b73d9349324f8074",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feed23261a0d1d06",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed15fdb093218c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed7b4543c73f2d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed73d358577a14",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed8dc02cb891cb",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feede73dcf0bdad0",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedd6b58324e940",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed86b447df7170",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed06d4a92f6004",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed876191835801",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedd20c47c9c403",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedbce7b4c154d6",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed571303c65cd0",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed97dd62554212",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feede8aefc1f8f9e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed17f6ff6f747b",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feeda0f6ab719490",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feeddb84c7812576",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed90fbee0fe444",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed22a65b70d1bf",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed07e2707bf8b0",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedda15c2f4b24c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feede924a795c0ed",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedb9bdfc73d109",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed3c6a29d707d4",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed9381a5131d2e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedd138f48133ea",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedb08bbed49e3d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed43fc0e015fe1",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feeddc8e8417cfad",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed00720558dd09",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed3f6b941b9bce",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed38cf684fb974",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed2226c9864900",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed8aeac0a2e9d9",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed009c56e39d8e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed09c04fe1483f",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedccf7b147bcbc",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedb9b053b66884",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed197072f61798",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						"feedba92abb01ed1",
+						"feede753f2a51844",
+						"feed2d64360457b0",
+						{
+							"ref": "6deb9a936e452fdf",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "46828ba06543b22c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f1222f3c06d1a609",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "cdd9558a70377e80",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a457b1fce30203e8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "e39a97460ab2d730",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "5a1311726e8e3070",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "3d3f5f061be21756",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "11c95836db4e4aaa",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "9e0f78148d0f7978",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "4bfa51f1666edeae",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f41360144e3d8724",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "631fd67d8a2d99d8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "41578abd53353af6",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "c25503fc71cebf10",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f8c9762407fc0e68",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafea2d4601ec845",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe4507b39cbc0c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafebfe6d8949b50",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe87ba5022e96e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed8c220f84ce8f",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe745544adcfd2",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe3b6df17beaf9",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe6b5123c25697",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafea2ab6666b3c2",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe7f3a71aca63c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe5e1b09b8ad93",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe94ee40fa1ca4",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe36345a28dd8d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe356b9bf667f4",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe423de1f570f8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe1fce9dccc2a2",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafebac8af3e01a6",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe8cf288665f31",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafec07db94364a5",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafefd82303c7af6",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"5805374f1da748bf": {
+			"parent": "243d8fe914797de2",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": {
+				"EventOccurred": {
+					"TransmitEvent": ["94edae33db6e37ba"],
+					"InsideMildMission": ["dd61a068007b9d01"]
+				}
+			}
+		},
+		"94edae33db6e37ba": {
+			"parent": "243d8fe914797de2",
+			"name": "EventChannelTransmitter_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "23bf5ab5be929545",
+					"postInit": true
+				}
+			}
+		},
+		"8a714049091f2e53": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32_02",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "94692df136f36ab3"
+				}
+			}
+		},
+		"dd61a068007b9d01": {
+			"parent": "243d8fe914797de2",
+			"name": "evergreen_mission_specific_mix",
+			"factory": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entitytype",
+			"blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entityblueprint",
+			"properties": {
+				"m_sDefaultState": {
+					"type": "ZString",
+					"value": "InsideMildMission"
+				}
+			}
+		},
+		"e13665b6a18a667b": {
+			"parent": "d4646bf8866a311b",
+			"name": "Stashes value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnValue": { "TransmitEvent": ["c8ed44c86c26a206"] }
+			}
+		},
+		"fc590d6cc896d971": {
+			"parent": "834864eca858f84e",
+			"name": "Setpiece_Evergreen_SyndicateMissionGenerator_Unique",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ClientReq03": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq03"
+				},
+				"ClientReq02": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq02"
+				},
+				"MildTargets_ID": {
+					"type": "ZString",
+					"value": "MildHex_Targets"
+				},
+				"ClientReq01": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq01"
+				},
+				"Safes_ID": {
+					"type": "ZString",
+					"value": "MildHex_Safes"
+				},
+				"Vendors_ID": {
+					"type": "ZString",
+					"value": "MildHex_Vendors"
+				},
+				"MoneyMules_ID": {
+					"type": "ZString",
+					"value": "MildHex_MoneyMules"
+				},
+				"ClientReqsFailed_ID": {
+					"type": "ZString",
+					"value": "MildHex_ClientReqsFailed"
+				},
+				"Completed_ID": {
+					"type": "ZString",
+					"value": "MildHex_MissionCompleted"
+				},
+				"Failed_ID": {
+					"type": "ZString",
+					"value": "MildHex_MissionFailed"
+				},
+				"Stashes_ID": {
+					"type": "ZString",
+					"value": "MildHex_Stashes"
+				},
+				"Active_ID": {
+					"type": "ZString",
+					"value": "MildHex_Active"
+				},
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "48961e20-18f2-438b-a30b-dacb8f868b13"
+				},
+				"MyPayout": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "dace50c4615269ff",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"Alerted_ID": {
+					"type": "ZString",
+					"value": "MildHex_Alerted"
+				},
+				"ClientReq04": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq04"
+				},
+				"ClientReq05": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq05"
+				},
+				"ClientReq06": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq06"
+				},
+				"ClientReq07": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq07"
+				},
+				"ClientReq08": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq08"
+				},
+				"MissionFlowIndex": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8b7ec53cdb27b412",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"difficultyRank": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f93db2efce3612cf",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"isHardcore": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8923ff8900a05b8e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"MildBasePayout_ID": {
+					"type": "ZString",
+					"value": "MildHex_BasePayout"
+				}
+			}
+		},
+		"834864eca858f84e": {
+			"parent": "fffffffffffffffe",
+			"name": "Mission Mild Hex",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"b73ab76317b4f6d5": {
+			"parent": "d4646bf8866a311b",
+			"name": "Supplier value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"events": {
+				"OnValue": { "TransmitEvent": ["b07d20438fca1aba"] }
+			}
+		},
+		"23bf5ab5be929545": {
+			"parent": "243d8fe914797de2",
+			"name": "EventToken_Sound_Evergreen_Evergreen_Active",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entityblueprint"
+		},
+		"1bee5e879e8f254f": {
+			"parent": "d4646bf8866a311b",
+			"name": "Money Mules value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				}
+			},
+			"events": {
+				"OnValue": { "TransmitEvent": ["9ec12b3ac09c7b9a"] }
+			}
+		},
+		"9ec12b3ac09c7b9a": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "d4bda8f1ab80beef"
+				}
+			}
+		},
+		"b07d20438fca1aba": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32_04",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "3bcc7e48a761bdd1"
+				}
+			}
+		},
+		"e6116291b7735171": {
+			"parent": "d4646bf8866a311b",
+			"name": "Safes value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				}
+			},
+			"events": {
+				"OnValue": { "TransmitEvent": ["8a714049091f2e53"] }
+			}
+		},
+		"d4646bf8866a311b": {
+			"parent": "834864eca858f84e",
+			"name": "Stash mules and safe transfers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				},
+				"m_rValueEntity2": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				},
+				"m_rValueEntity3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					}
+				},
+				"m_rValueEntity4": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"propertyAliases": {
+				"m_rValueEntity": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "1bee5e879e8f254f"
+					}
+				],
+				"m_rValueEntity2": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "e6116291b7735171"
+					}
+				],
+				"m_rValueEntity3": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "e13665b6a18a667b"
+					}
+				],
+				"m_rValueEntity4": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "b73ab76317b4f6d5"
+					}
+				]
+			}
+		},
+		"feed8a47e3a95241": {
+			"parent": "834864eca858f84e",
+			"name": "Custom Targets",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feeda6c06817df27": {
+			"parent": "feed8a47e3a95241",
+			"name": "Assassin Sit then stare window M",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed7940e2bd0710"]
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"feed560c6fbfd391": {
+			"parent": "feeda6c06817df27",
+			"name": "act_mr_stand_inspect_front",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_front.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_front.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 78.59118236396903
+						},
+						"position": {
+							"x": -1.3789103,
+							"y": 391.0855,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 20 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7940e2bd0710",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feedaa97ed23822f"] }
+			},
+			"subsets": {}
+		},
+		"feedaa97ed23822f": {
+			"parent": "feeda6c06817df27",
+			"name": "act_mr_sit_read_book",
+			"factory": "004253317418FBE4",
+			"blueprint": "000CF980EF37F729",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.6411560395016656
+						},
+						"position": {
+							"x": 0.29626137,
+							"y": 400.48495,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 55 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7940e2bd0710",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feed560c6fbfd391"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed7940e2bd0710": {
+			"parent": "feeda6c06817df27",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedba92abb01ed1",
+					"postInit": true
+				}
+			}
+		},
+		"feede9fbaf2a025a": {
+			"parent": "feeda6c06817df27",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda6c06817df27",
+					"postInit": true
+				}
+			},
+			"events": { "OnStart": { "Start": ["feed560c6fbfd391"] } }
+		},
+		"feedba92abb01ed1": {
+			"parent": "feeda6c06817df27",
+			"name": "CHAR_Assassin 02",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "6da20dcc-30b8-43f4-a377-113fc1ea4faa"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "9ebf4963-5f6b-4770-8d28-444a9008b858"
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 3 },
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Ronald Cheney"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed560c6fbfd391",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_bStartEnabled": { "type": "bool", "value": false }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"feed7c7332583ea0": {
+			"parent": "feed8a47e3a95241",
+			"name": "Bar then Sit F",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed0ca79678f21b"]
+				}
+			}
+		},
+		"feed36897f1d9952": {
+			"parent": "feed7c7332583ea0",
+			"name": "act_fr_sit_bench_phone_text",
+			"factory": "00E55F99AB2CA9EB",
+			"blueprint": "00D65FFB3B999D65",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -93.98642875317776
+						},
+						"position": {
+							"x": -1.3050528,
+							"y": 347.39322,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 45 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0ca79678f21b",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feed520b191d0075"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed520b191d0075": {
+			"parent": "feed7c7332583ea0",
+			"name": "act_fr_sit_chair_080cm",
+			"factory": "001C0908AE72120E",
+			"blueprint": "0076E1F2540E1A11",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 157.24035303399145
+						},
+						"position": {
+							"x": -1.7044373,
+							"y": 372.57797,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 50 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0ca79678f21b",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feed36897f1d9952"] }
+			},
+			"subsets": {}
+		},
+		"feed0ca79678f21b": {
+			"parent": "feed7c7332583ea0",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feede753f2a51844",
+					"postInit": true
+				}
+			}
+		},
+		"feedb603e6bbb259": {
+			"parent": "feed7c7332583ea0",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c7332583ea0",
+					"postInit": true
+				}
+			},
+			"events": { "OnStart": { "Start": ["feed36897f1d9952"] } }
+		},
+		"feede753f2a51844": {
+			"parent": "feed7c7332583ea0",
+			"name": "CHAR_Passenger_F_05",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "34a1bacb-1eae-4852-8a57-207e40d01c4c"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "34cb98d8-d551-4c2f-b0ff-43c5d5c63016"
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 7 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Cathleen Sullins"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed36897f1d9952",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_bStartEnabled": { "type": "bool", "value": false }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"feed367033891da5": {
+			"parent": "feed8a47e3a95241",
+			"name": "Office Staff",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feede72ed3fac2d5"]
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		"feed2d64360457b0": {
+			"parent": "feed367033891da5",
+			"name": "CHAR_Trapped_Worker_Office_F_01",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -3.039744528494828e-8
+						},
+						"position": {
+							"x": -5.143056114320643e-8,
+							"y": 0.00000332851595885586,
+							"z": 0
+						}
+					}
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Analisa Cournoyer"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "3ebd4b9b-7ead-44a6-a23c-22e248b98baf"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "7cceb648-68ab-4ebb-a12e-998ec0134c56"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9710c36dd66b",
+					"postInit": true
+				},
+				"m_bStartEnabled": { "type": "bool", "value": false }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"feede72ed3fac2d5": {
+			"parent": "feed367033891da5",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2d64360457b0"
+				}
+			}
+		},
+		"feed9710c36dd66b": {
+			"parent": "feed367033891da5",
+			"name": "Act_FR_Sit_Work_Desk_075cm_Use_Intercom",
+			"factory": "00E3D9BE1A811BCF",
+			"blueprint": "00B6ED6E2F415717",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.9272513272387101
+						},
+						"position": {
+							"x": 0.32489818,
+							"y": 674.78644,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 50 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede72ed3fac2d5",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feed650c2a2e8cf9"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedc0323f0830b2": {
+			"parent": "feed367033891da5",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed367033891da5",
+					"postInit": true
+				}
+			},
+			"events": { "OnStart": { "Start": ["feed9710c36dd66b"] } }
+		},
+		"feed650c2a2e8cf9": {
+			"parent": "feed367033891da5",
+			"name": "Act_FR_Stand_Tablet_Work",
+			"factory": "0022DF7F48F420EF",
+			"blueprint": "004B4586E3998EDD",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 97.03670927423542
+						},
+						"position": {
+							"x": 0.015411377,
+							"y": 625.2168,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 25 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede72ed3fac2d5",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feed9710c36dd66b"] }
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "cafe75d2aa9ebf75",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "78477425-7330-4092-ad71-6548e07ccc93"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feedd0a3cc185c94",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "d08b7d6d-9b1f-4131-bb44-4ebd2cdb1cec"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feede61cf1cdcc66",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "0f13f00b-abb4-4cdd-bd9d-748514b941d5"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

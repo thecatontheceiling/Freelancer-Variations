@@ -1,0 +1,217 @@
+{
+    "tempHash": "006864DBF5FD7CD4",
+    "tbluHash": "00C681E41ADBD918",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "fa4ed11e388d3204",
+                {
+                    "AddEventConnection": [
+                        "Out",
+                        "Poll",
+                        "feed51919955c6ba"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "fa4ed11e388d3204",
+                {
+                    "AddEventConnection": [
+                        "Out",
+                        "Poll",
+                        "feedb8c27aa943ad"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e5fba23086834966",
+                {
+                    "AddEventConnection": [
+                        "hotHex",
+                        "HotHex",
+                        "f11cfb35e7573822"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e5fba23086834966",
+                {
+                    "AddEventConnection": [
+                        "mildHex",
+                        "MildHex",
+                        "f11cfb35e7573822"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "f11cfb35e7573822",
+                {
+                    "AddInputCopyConnection": [
+                        "MildHex",
+                        "SetTrue",
+                        "feed564a7512076c"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "f11cfb35e7573822",
+                {
+                    "AddInputCopyConnection": [
+                        "HotHex",
+                        "SetTrue",
+                        "feed00827f7d912d"
+                    ]
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed598fe688de2c",
+                {
+                    "parent": "f11cfb35e7573822",
+                    "name": "UI_Splash_Mission_Helper_MissionSlate_HotHex",
+                    "factory": "00E79210C11996CF",
+                    "blueprint": "00DB52364A1C9BBF",
+                    "properties": {
+                        "m_pTitleResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/localization/hitman6/conversations/ui/pro/menutext_s2.sweetmenutext?/ui_location_newzealand_name.sweetline].pc_sweetline",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_pDescriptionResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/localization/hitman6/conversations/ui/pro/gamemode_evergreen/evergreen_safehouse.sweetmenutext?/ui_everegreen_safehouse_worldmap_territoryheadline_hotmission_title.sweetline].pc_sweetline",
+                                "flag": "5F"
+                            }
+                        }
+                    },
+                    "events": {
+                        "Closed": {
+                            "SetTrue": [
+                                "a862e2e3ec1b3d8c"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed31cebd00cabf",
+                {
+                    "parent": "f11cfb35e7573822",
+                    "name": "UI_Splash_Mission_Helper_MissionSlate_MildHex",
+                    "factory": "00E79210C11996CF",
+                    "blueprint": "00DB52364A1C9BBF",
+                    "properties": {
+                        "m_pTitleResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/localization/hitman6/conversations/ui/pro/menutext_s2.sweetmenutext?/ui_location_newzealand_name.sweetline].pc_sweetline",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_pDescriptionResource": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "000E4B049F8E9037",
+                                "flag": "5F"
+                            }
+                        }
+                    },
+                    "events": {
+                        "Closed": {
+                            "SetTrue": [
+                                "a862e2e3ec1b3d8c"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed00827f7d912d",
+                {
+                    "parent": "fda049ec78bd12dc",
+                    "name": "ValueBool_Basic_42 Hot Hex",
+                    "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed564a7512076c",
+                {
+                    "parent": "fda049ec78bd12dc",
+                    "name": "ValueBool_Basic_41 Mild Hex",
+                    "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed51919955c6ba",
+                {
+                    "parent": "352e28f0f7c970a6",
+                    "name": "ValueBool_Poll_40 Mild Hex",
+                    "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_rValueEntity": {
+                            "type": "SEntityTemplateReference",
+                            "value": "feed564a7512076c"
+                        }
+                    },
+                    "events": {
+                        "PollTrue": {
+                            "Show": [
+                                "feed31cebd00cabf"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feedb8c27aa943ad",
+                {
+                    "parent": "352e28f0f7c970a6",
+                    "name": "ValueBool_Poll_41 Hot Hex",
+                    "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_rValueEntity": {
+                            "type": "SEntityTemplateReference",
+                            "value": "feed00827f7d912d"
+                        }
+                    },
+                    "events": {
+                        "PollTrue": {
+                            "Show": [
+                                "feed598fe688de2c"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

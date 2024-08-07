@@ -1,0 +1,621 @@
+{
+    "tempHash": "00017E828AD48225",
+    "tbluHash": "0069AADB45E069A9",
+    "rootEntity": "fffffffffffffffe",
+    "entities": {
+        "fe9bf297c247c260": {
+            "parent": {
+                "ref": "f0a46ac499be4f2f",
+                "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+            },
+            "name": "ContractCreation_Flu",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "fffffffffffffffe": {
+            "parent": null,
+            "name": "Scene",
+            "factory": "[modules:/zspatialentity.class].pc_entitytype",
+            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+        },
+        "99a18da416479582": {
+            "parent": "fe9bf297c247c260",
+            "name": "Antidote_Container_A_Empty",
+            "factory": "00DAF771AF210457",
+            "blueprint": "0092DFE6E003B973",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.7674434781074524
+                        },
+                        "position": {
+                            "x": 0.47251391410827637,
+                            "y": 3.869878053665161,
+                            "z": 0.9025480151176453
+                        }
+                    }
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": {
+                        "ref": "f0a46ac499be4f2f",
+                        "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+                    }
+                }
+            }
+        }
+    },
+    "propertyOverrides": [
+        {
+            "entities": [
+                {
+                    "ref": "a9474a8dd8653ca6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 49.00000000000001
+                        },
+                        "position": {
+                            "x": -57.9182,
+                            "y": 84.3788,
+                            "z": 3.93424
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "bbd7875e3b1c5f85",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 140.7879638671875
+                        },
+                        "position": {
+                            "x": -82.7,
+                            "y": 66.2,
+                            "z": 3.9342219829559326
+                        },
+                        "scale": {
+                            "x": 0.9999999999999999,
+                            "y": 0.9999999999999999,
+                            "z": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "b816ab35d4ab0682",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -1.0866224765777588
+                        },
+                        "position": {
+                            "x": -72.3903,
+                            "y": 57.0537,
+                            "z": 3.93422
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "bc39e57d333f762d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 146
+                        },
+                        "position": {
+                            "x": -69.07998,
+                            "y": 94.13077,
+                            "z": 8.334296
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "a52c80b8991f6a19",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 57.12335205078125
+                        },
+                        "position": {
+                            "x": -88.5423,
+                            "y": 62.9778,
+                            "z": 3.93421
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "56b4be8925b853e1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 129.40237344885207
+                        },
+                        "position": {
+                            "x": -82.05105,
+                            "y": 77.502304,
+                            "z": 3.9341505
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "ce93ec0c559f1103",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -47
+                        },
+                        "position": {
+                            "x": -69.3285,
+                            "y": 85.4148,
+                            "z": 3.98716
+                        },
+                        "scale": {
+                            "x": 0.9999999999999999,
+                            "y": 0.9999999999999999,
+                            "z": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "cb52bde9935b5338",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 110.32317573833775
+                        },
+                        "position": {
+                            "x": -84.30956,
+                            "y": 59.68733,
+                            "z": 3.982477
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "64f0892aa7fea10d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 84.60060136179969
+                        },
+                        "position": {
+                            "x": -80.21308,
+                            "y": 55.92791,
+                            "z": 3.9342144
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "ebeb014aa802dbb1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 42.00288899981869
+                        },
+                        "position": {
+                            "x": -76.918,
+                            "y": 54.4187,
+                            "z": 3.93421
+                        },
+                        "scale": {
+                            "x": 0.9999999999999998,
+                            "y": 0.9999999999999998,
+                            "z": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "6cfe2fe299267991",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 130.4998722674967
+                        },
+                        "position": {
+                            "x": -75.6232,
+                            "y": 88.1484,
+                            "z": 3.9341
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "c1105d387135125",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -136.0520113374921
+                        },
+                        "position": {
+                            "x": -82.4692,
+                            "y": 81.7002,
+                            "z": 3.93475
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "dd0df1b353e34234",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -45.01851455844338
+                        },
+                        "position": {
+                            "x": -78.7185,
+                            "y": 63.991,
+                            "z": 8.3343
+                        },
+                        "scale": {
+                            "x": 1.0000000000000002,
+                            "y": 1.0000000000000002,
+                            "z": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "9d763cc2714e2e42",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -80.1,
+                            "y": 72.5,
+                            "z": 4.354238986968994
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "9bed4e63a017c908",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -135
+                        },
+                        "position": {
+                            "x": -65.7999,
+                            "y": 54.4145,
+                            "z": -0.465887
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "9c353c006f3400c6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -46.694671630859375
+                        },
+                        "position": {
+                            "x": -85.6277,
+                            "y": 75.714,
+                            "z": -0.465827
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "d3d333a58c4f6489",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -45
+                        },
+                        "position": {
+                            "x": -67.5,
+                            "y": 59.4,
+                            "z": -0.465828
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "4cdba5a4bcb9ffc1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_sId": {
+                    "type": "ZGuid",
+                    "value": "1e7dd303-c9bb-42cc-aca0-70499931d098"
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "896c372a50983183",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_sId": {
+                    "type": "ZGuid",
+                    "value": "0e7dd303-c9bb-42cc-aca0-70499931d098"
+                }
+            }
+        }, {
+            "entities": [
+                {
+                    "ref": "f37a5c356a2bdedf",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {"rotation":{"x":-0,"y":0,"z":-134.28814436594558},"position":{"x":-67.61929,"y":74.13202,"z":3.934169}}
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "15f6c21fae666780",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {"rotation":{"x":-0,"y":0,"z":45.80508589499224},"position":{"x":-78.88164,"y":69.42914,"z":4.929069}}
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "db923704043b3180",
+                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 117.32601160000091
+                        },
+                        "position": {
+                            "x": -73.954414,
+                            "y": 63.08831,
+                            "z": 4.9390893
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "overrideDeletes": [
+        {
+            "ref": "5116b4d5a06c9de",
+            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+        },
+        {
+            "ref": "7dc77d48e899bd88",
+            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+        },
+        {
+            "ref": "581ab55c286067a1",
+            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+        },
+        {
+            "ref": "26b240f303f218f7",
+            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+        },
+        {
+            "ref": "55bd6ccdad588e93",
+            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+        },
+        {
+            "ref": "1c55e25d3058f974",
+            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+        }
+    ],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [
+        "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype",
+        "0096E183A97D24AF",
+        "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/hokkaido/mission_hot_shogi.brick].pc_entitytype"
+    ],
+    "subType": "brick",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

@@ -1,0 +1,152 @@
+{
+	"tempHash": "002E610E27175FAF",
+	"tbluHash": "005A1A684F93C034",
+	"rootEntity": "05a39b3408348bfd",
+	"entities": {
+		"e0783259302124a6": {
+			"parent": "05a39b3408348bfd",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"e47fe2333bff2c0e"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"bed9eebd52e72f3b": {
+			"parent": "8469b4dba941c692",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_nightmare.template?/outfit_nightmare_diana_child_actor_v0.entitytemplate].pc_entitytype",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"8469b4dba941c692": {
+			"parent": "05a39b3408348bfd",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"bed9eebd52e72f3b",
+						"feed4e4d0a87feae",
+						"feed4d7b3a4dac1d"
+					]
+				}
+			}
+		},
+		"6bc772ec90024d00": {
+			"parent": "3a91822c7896cf4b",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"05a39b3408348bfd": {
+			"parent": null,
+			"name": "charset_nightmare_diana_child_f",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"8469b4dba941c692",
+						"e0783259302124a6",
+						"3a91822c7896cf4b"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"e47fe2333bff2c0e": {
+			"parent": "e0783259302124a6",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"3a91822c7896cf4b": {
+			"parent": "05a39b3408348bfd",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"6bc772ec90024d00"
+					]
+				}
+			}
+		},
+		"feed4e4d0a87feae": {
+			"parent": "8469b4dba941c692",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_nightmare.template?/outfit_nightmare_nancyburnwood_f_actor_v0.entitytemplate].pc_entitytype",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"feed4d7b3a4dac1d": {
+			"parent": "8469b4dba941c692",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_nightmare.template?/outfit_nightmare_peterburnwood_m_actor_v0.entitytemplate].pc_entitytype",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

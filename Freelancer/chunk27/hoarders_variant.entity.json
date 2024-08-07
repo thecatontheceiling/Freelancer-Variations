@@ -1,0 +1,211 @@
+{
+	"tempHash": "005E652CEDB215D6",
+	"tbluHash": "00AF3660C069E20B",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"abcd0dd65b63049c": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger stuff upon game start",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"GetIndex": [
+						"abcd47d73e2ef6a9"
+					],
+					"SetTrue": [
+						{
+							"ref": "89624d958a42deea",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "24c9fd6228955a86",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "75583b95e699879a",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "08cb2b5cb40a5788",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "f2d5b11535b7674d",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"abcd47d73e2ef6a9": {
+			"parent": "abcd0dd65b63049c",
+			"name": "zmultiparentspatialentity",
+			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "89624d958a42deea",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "c2fc382540da9871",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "6828ecbbeda605fd",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "cb42497326fe419c",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "056bea294522b406",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "f6c8f3c68170e9d4",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "6dc4200698911216",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "28aab529a006ecb1",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "0da2d0bf99f3c44c",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "3cd6dde641bb69b8",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "cd7590a1cf9e70aa",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "6ddf62ae1ad628f0",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bValue": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},{
+			"entities": [
+				{
+					"ref": "8c5bd9082c8599ff",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/tod_sunset.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/lut/lut_e3_paris_grade.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f9902dacbcd8a2ea",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/tod_sunset.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/lut/lut_paris_night.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "1a0729c994bac228",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/location_parisnoel.brick].pc_entitytype"
+		},
+		{
+			"ref": "b7e3e9fe85e60758",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/location_parisnoel.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/location_parisnoel.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/tod_sunset.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

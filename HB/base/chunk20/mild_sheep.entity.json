@@ -1,0 +1,3167 @@
+{
+	"tempHash": "00ADE2D26F0F591B",
+	"tbluHash": "0075EEF5C9EF4AB7",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"8eedea04e13c41e0": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventChannelTransmitter_int32",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "5ed13dcd0e7e5734",
+					"postInit": true
+				}
+			}
+		},
+		"ef1efb277ef470e4": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventChannelTransmitter_int32_02",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "228173f2cd4c2665",
+					"postInit": true
+				}
+			}
+		},
+		"228173f2cd4c2665": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventToken_Evergreen_Persistent_Safes",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entityblueprint"
+		},
+		"5ed13dcd0e7e5734": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventToken_Evergreen_Persistent_Mules",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entityblueprint"
+		},
+		"7bfc07d27835a059": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventChannelTransmitter_int32_04",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "0aed24a70d720a5e",
+					"postInit": true
+				}
+			}
+		},
+		"109a72b1eee0adc8": {
+			"parent": "6d08605b13cadd63",
+			"name": "Sound",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"7a7e2860e94dfb30": {
+			"parent": "2a5acb97e273406f",
+			"name": "Safes value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"ef1efb277ef470e4"
+					]
+				}
+			}
+		},
+		"c3ba3a4092650d64": {
+			"parent": "6d08605b13cadd63",
+			"name": "Any exit used",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "3b98fd686f33955e",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "feed8122886a0ad6",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "feed5ad5a189f7fc",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"ExitTriggered": [
+						"d5f77ef38954d199"
+					]
+				}
+			}
+		},
+		"e06f84cd3bbed23e": {
+			"parent": "109a72b1eee0adc8",
+			"name": "EventToken_Sound_Evergreen_Evergreen_Active",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entityblueprint"
+		},
+		"b64e74550c4abddf": {
+			"parent": "109a72b1eee0adc8",
+			"name": "EventChannelTransmitter_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "e06f84cd3bbed23e"
+				}
+			}
+		},
+		"7ec2352413214177": {
+			"parent": "109a72b1eee0adc8",
+			"name": "evergreen_mission_specific_mix",
+			"factory": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entitytype",
+			"blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entityblueprint",
+			"properties": {
+				"m_sDefaultState": {
+					"type": "ZString",
+					"value": "InsideMildMission"
+				}
+			}
+		},
+		"3243e407532834a0": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventToken_Evergreen_Persistent_Stashes",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entityblueprint"
+		},
+		"d5f77ef38954d199": {
+			"parent": "6d08605b13cadd63",
+			"name": "Setpiece_Evergreen_SyndicateMissionGenerator_Unique",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ClientReq03": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq03"
+				},
+				"ClientReq02": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq02"
+				},
+				"MildTargets_ID": {
+					"type": "ZString",
+					"value": "MildHex_Targets"
+				},
+				"ClientReq01": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq01"
+				},
+				"Safes_ID": {
+					"type": "ZString",
+					"value": "MildHex_Safes"
+				},
+				"Vendors_ID": {
+					"type": "ZString",
+					"value": "MildHex_Vendors"
+				},
+				"MoneyMules_ID": {
+					"type": "ZString",
+					"value": "MildHex_MoneyMules"
+				},
+				"ClientReqsFailed_ID": {
+					"type": "ZString",
+					"value": "MildHex_ClientReqsFailed"
+				},
+				"Completed_ID": {
+					"type": "ZString",
+					"value": "MildHex_MissionCompleted"
+				},
+				"Failed_ID": {
+					"type": "ZString",
+					"value": "MildHex_MissionFailed"
+				},
+				"Stashes_ID": {
+					"type": "ZString",
+					"value": "MildHex_Stashes"
+				},
+				"Active_ID": {
+					"type": "ZString",
+					"value": "MildHex_Active"
+				},
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "48961e20-18f2-438b-a30b-dacb8f868b13"
+				},
+				"MyPayout": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "dace50c4615269ff",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"Alerted_ID": {
+					"type": "ZString",
+					"value": "MildHex_Alerted"
+				},
+				"ClientReq04": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq04"
+				},
+				"ClientReq05": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq05"
+				},
+				"ClientReq06": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq06"
+				},
+				"ClientReq07": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq07"
+				},
+				"ClientReq08": {
+					"type": "ZString",
+					"value": "MildHex_ClientReq08"
+				},
+				"MissionFlowIndex": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8b7ec53cdb27b412",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"difficultyRank": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f93db2efce3612cf",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"isHardcore": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8923ff8900a05b8e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"MildBasePayout_ID": {
+					"type": "ZString",
+					"value": "MildHex_BasePayout"
+				}
+			}
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"afc212bb866edfd3": {
+			"parent": "109a72b1eee0adc8",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": {
+				"EventOccurred": {
+					"TransmitEvent": [
+						"b64e74550c4abddf"
+					],
+					"InsideMildMission": [
+						"7ec2352413214177"
+					]
+				}
+			}
+		},
+		"0aed24a70d720a5e": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventToken_Evergreen_Persistent_Suppliers",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entityblueprint"
+		},
+		"b81df2dd49a35506": {
+			"parent": "2a5acb97e273406f",
+			"name": "Money Mules value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"8eedea04e13c41e0"
+					]
+				}
+			}
+		},
+		"123d26152394a9df": {
+			"parent": "6d08605b13cadd63",
+			"name": "Helper_Evergreen_Spawn_Targets",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rSeed": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b73d9349324f8074",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedc4dac549491d",
+						"feed21b84234fb09",
+						"feed12915628a164",
+						"feed584d8bcd3571",
+						"feed4d4c29bf9a44",
+						"feed40c5cab25e9e",
+						"feed3a40d149481a",
+						"feed6578a88b827c",
+						"feed48d188ebfb99",
+						"feedca54c79fe251",
+						"feed819a345c8655",
+						"feed68bbc4c67377",
+						{
+							"ref": "bc20abb183b402b2",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "65969952e08f8f4a",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "44f01529acb46005",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "db52fb2515b1879a",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "420aab2341461b53",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "1b5ef287803668be",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "e1849546da171282",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "1df05d320c525136",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedcda3baed33f2",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed83fcd9e131b8",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed81d636d0c05a",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed4278c12c631a",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed9503de8ad73b",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedd6fb87ebe3b4",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6d08605b13cadd63": {
+			"parent": "fffffffffffffffe",
+			"name": "Mission Mild HB Hex (Poker)",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"467b6805c827d08d": {
+			"parent": "2a5acb97e273406f",
+			"name": "Supplier value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"7bfc07d27835a059"
+					]
+				}
+			}
+		},
+		"158b43a1aa8999d7": {
+			"parent": "2a5acb97e273406f",
+			"name": "EventChannelTransmitter_int32_03",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "3243e407532834a0"
+				}
+			}
+		},
+		"0fc4a693e786f32e": {
+			"parent": "2a5acb97e273406f",
+			"name": "Stashes value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					}
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"158b43a1aa8999d7"
+					]
+				}
+			}
+		},
+		"2a5acb97e273406f": {
+			"parent": "6d08605b13cadd63",
+			"name": "Stash mules and safe transfers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				},
+				"m_rValueEntity2": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				},
+				"m_rValueEntity3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					}
+				},
+				"m_rValueEntity4": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d5f77ef38954d199",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"propertyAliases": {
+				"m_rValueEntity": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "b81df2dd49a35506"
+					}
+				],
+				"m_rValueEntity2": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "7a7e2860e94dfb30"
+					}
+				],
+				"m_rValueEntity3": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "0fc4a693e786f32e"
+					}
+				],
+				"m_rValueEntity4": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "467b6805c827d08d"
+					}
+				]
+			}
+		},
+		"feed6b238e1b10e8": {
+			"parent": "6d08605b13cadd63",
+			"name": "Custom Targets",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedc4dac549491d": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_01",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -142.8384089797396
+						},
+						"position": {
+							"x": -11.297160148620605,
+							"y": -38.6038703918457,
+							"z": 4.400000095367432
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "4f03f5e1-9d59-4787-b345-1f01c72efdf4"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "626ec66c37cf637c",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						}
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed4d4c29bf9a44": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_06",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 123.30133429349486
+						},
+						"position": {
+							"x": 0.11279553,
+							"y": -32.433357,
+							"z": 0.012472879
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "b5f024a7-3488-4121-a385-600422d7b304"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 4
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed68bbc4c67377": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_58",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -142.8384089797396
+						},
+						"position": {
+							"x": 10.09961986541748,
+							"y": -24.21632957458496,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "4adabbc2-ae5d-437c-b650-7fd1abbcc97d"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Darnell Hunt"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 4
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "626ec66c37cf637c",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						}
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed75be7f7e68ab": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 4",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed638b2f376282"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed48d188ebfb99",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feed638b2f376282"
+					}
+				]
+			}
+		},
+		"feed819a345c8655": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_57",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 113.98102312834138
+						},
+						"position": {
+							"x": 3.159364938735962,
+							"y": -32.861568450927734,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "44a02c8e-e2fb-454b-9372-fda60506a330"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Darnell Hunt"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 3
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedca54c79fe251": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_55",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 20.085298235635545
+						},
+						"position": {
+							"x": -17.274857,
+							"y": -4.3645797,
+							"z": 0.99999994
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "39f9c98d-9868-49bf-8d3f-ffdc3881dc2a"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Darnell Hunt"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed12915628a164": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_03",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 10.774844543069493
+						},
+						"position": {
+							"x": -6.6771107,
+							"y": -18.476063,
+							"z": 4.4
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "f563cd85-2deb-4abd-98c7-85159662c0c6"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 2
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6ecab91923b8": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 5",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedca9518b0e244"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed584d8bcd3571",
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feedca9518b0e244"
+					}
+				]
+			}
+		},
+		"feed48d188ebfb99": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_52",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -4.341944159035306
+						},
+						"position": {
+							"x": 55.8635368347168,
+							"y": -32.54608917236328,
+							"z": -1.3643540143966675
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "14edcb73-7748-4c8f-ba14-640ed1147def"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Darnell Hunt"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 1
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed21b84234fb09": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_02",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -142.8384089797396
+						},
+						"position": {
+							"x": -15.885169982910156,
+							"y": -16.649839401245117,
+							"z": 8.800000190734863
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "91bdc9fa-8307-4f61-b781-ce7f02d373c7"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 1
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed584d8bcd3571": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_05",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -103.33852184024516
+						},
+						"position": {
+							"x": -5.339396,
+							"y": -11.822786,
+							"z": -4.8428774e-8
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "10242e8f-40e6-4001-9893-bdd026bd82cb"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 3
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6578a88b827c": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_12",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -142.8384089797396
+						},
+						"position": {
+							"x": -17.48933982849121,
+							"y": -32.76346969604492,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "701c9076-5a62-459e-a5da-8c12adae0ee5"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 5
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 1
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedd1bb001aed3f": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 03",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed7acf9ae1eb4f"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed12915628a164"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feed7acf9ae1eb4f"
+					}
+				]
+			}
+		},
+		"feed3a40d149481a": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_11",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -67.42186907957095
+						},
+						"position": {
+							"x": 9.21047592163086,
+							"y": -20.56679916381836,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "d0a6aa4f-1082-43b5-93cb-459f6a93f3e9"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 0
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed90f65ac7604c": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 02",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedcadbb08c0464"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed21b84234fb09"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feedcadbb08c0464"
+					}
+				]
+			}
+		},
+		"feed3b350c66c318": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 10",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb5f91999f588"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed68bbc4c67377"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feedb5f91999f588"
+					}
+				]
+			}
+		},
+		"feed40c5cab25e9e": {
+			"parent": "feed6b238e1b10e8",
+			"name": "Target_08",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 56.60973482227873
+						},
+						"position": {
+							"x": -11.560556,
+							"y": -41.90509,
+							"z": 4.4188843
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "10ac8358-d842-4891-91e4-455711dca3e5"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c50937f8-394f-4563-8218-61704698cc24"
+				},
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Mark Chase"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 5
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed030e9432398a": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 11",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedbffb03766214"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed3a40d149481a"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feedbffb03766214"
+					}
+				]
+			}
+		},
+		"feedf320c3168bec": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 12",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede0fe11003d2c"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6578a88b827c"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feede0fe11003d2c"
+					}
+				]
+			}
+		},
+		"feed62bff9c30e17": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 9",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed7cc810ec4f9e"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed819a345c8655"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feed7cc810ec4f9e"
+					}
+				]
+			}
+		},
+		"feedfb839b6b5158": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 01",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed35fb13d530a9"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc4dac549491d"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feed35fb13d530a9"
+					}
+				]
+			}
+		},
+		"feed11792476147f": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 6",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede510fe01162f"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4d4c29bf9a44"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feede510fe01162f"
+					}
+				]
+			}
+		},
+		"feed56f34a7fda59": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 8",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed2df59d94accf"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed40c5cab25e9e"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feed2df59d94accf"
+					}
+				]
+			}
+		},
+		"feed4390c1011172": {
+			"parent": "feed6b238e1b10e8",
+			"name": "DramaSituation 7",
+			"factory": "005B2A6454B76874",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed120253466a38"
+					]
+				},
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedca54c79fe251"
+				}
+			},
+			"propertyAliases": {
+				"m_rActorProvider": [
+					{
+						"originalProperty": "m_rActorProvider",
+						"originalEntity": "feed120253466a38"
+					}
+				]
+			}
+		},
+		"feed638b2f376282": {
+			"parent": "feed75be7f7e68ab",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed48d188ebfb99",
+					"postInit": true
+				}
+			}
+		},
+		"feedd60d6d2d78c7": {
+			"parent": "feed75be7f7e68ab",
+			"name": "Act_MR_Stand_Smoke",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -4.341944159035306
+						},
+						"position": {
+							"x": 55.8635368347168,
+							"y": -32.54608917236328,
+							"z": -1.3643540143966675
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed638b2f376282",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd41e7667113c"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedd41e7667113c": {
+			"parent": "feed75be7f7e68ab",
+			"name": "Act_MR_Stand_Phone_Text_Pace",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 126.71109144660771
+						},
+						"position": {
+							"x": 11.925867080688477,
+							"y": -53.41923522949219,
+							"z": -0.3730749785900116
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed638b2f376282",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_bValueGenericDialog": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd60d6d2d78c7"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedd873f98e372e": {
+			"parent": "feed75be7f7e68ab",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed75be7f7e68ab"
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedd60d6d2d78c7"
+					]
+				}
+			}
+		},
+		"feedca9518b0e244": {
+			"parent": "feed6ecab91923b8",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed584d8bcd3571",
+					"postInit": true
+				}
+			}
+		},
+		"feedbd996d7bf382": {
+			"parent": "feed6ecab91923b8",
+			"name": "Act_MR_Suspicious_Stand_NervousWaiting_01",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_suspicious_stand_nervouswaiting_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_suspicious_stand_nervouswaiting_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -103.33852184024516
+						},
+						"position": {
+							"x": -5.339396,
+							"y": -11.822786,
+							"z": -4.8428774e-8
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedca9518b0e244",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed965e9b528732"
+					]
+				}
+			}
+		},
+		"feed965e9b528732": {
+			"parent": "feed6ecab91923b8",
+			"name": "Act_MR_Stand_Phone_Filming",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_filming.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_filming.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -150.73480275522942
+						},
+						"position": {
+							"x": -24.565647,
+							"y": -21.370773,
+							"z": -1.0803342e-7
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 12
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedca9518b0e244",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedbd996d7bf382"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedff4e9cde2c0e": {
+			"parent": "feed6ecab91923b8",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6ecab91923b8"
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedbd996d7bf382"
+					]
+				}
+			}
+		},
+		"feed7acf9ae1eb4f": {
+			"parent": "feedd1bb001aed3f",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed12915628a164",
+					"postInit": true
+				}
+			}
+		},
+		"feed41ad2fcb1ac6": {
+			"parent": "feedd1bb001aed3f",
+			"name": "Act_MR_Stand_Tablet_Work",
+			"factory": "0020347E15A9BF25",
+			"blueprint": "00E5CA8DF936EA1C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 10.774844543069493
+						},
+						"position": {
+							"x": -6.6771107,
+							"y": -18.476063,
+							"z": 4.4
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 27
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7acf9ae1eb4f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed116007e0bc5b"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedc9bbf3fdab9e": {
+			"parent": "feedd1bb001aed3f",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd1bb001aed3f",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed41ad2fcb1ac6"
+					]
+				}
+			}
+		},
+		"feed116007e0bc5b": {
+			"parent": "feedd1bb001aed3f",
+			"name": "Act_MR_Stand_LookAtCar_Wave",
+			"factory": "007A5C545250D320",
+			"blueprint": "003C07C8B31AF9E7",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -91.69220919210551
+						},
+						"position": {
+							"x": 4.8746333,
+							"y": -24.361439,
+							"z": 4.3999996
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 17
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7acf9ae1eb4f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed41ad2fcb1ac6"
+					]
+				}
+			},
+			"subsets": {
+
+			}
+		},
+		"feedc973b0503a07": {
+			"parent": "feed90f65ac7604c",
+			"name": "Act_MR_Stand_Look_Binoculars",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -160.06091561806784
+						},
+						"position": {
+							"x": -11.885049819946289,
+							"y": -9.663934707641602,
+							"z": 8.800000190734863
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedcadbb08c0464",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed7423e581470c"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed30245bd5c697": {
+			"parent": "feed90f65ac7604c",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed90f65ac7604c",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed7423e581470c"
+					]
+				}
+			}
+		},
+		"feed7423e581470c": {
+			"parent": "feed90f65ac7604c",
+			"name": "Act_MR_Stand_Smoke_ArmHip",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -4.3419607598392265
+						},
+						"position": {
+							"x": -17.96855926513672,
+							"y": -20.452289581298828,
+							"z": 8.800000190734863
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedcadbb08c0464",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedc973b0503a07"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedcadbb08c0464": {
+			"parent": "feed90f65ac7604c",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed21b84234fb09",
+					"postInit": true
+				}
+			}
+		},
+		"feedb5f91999f588": {
+			"parent": "feed3b350c66c318",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed68bbc4c67377",
+					"postInit": true
+				}
+			}
+		},
+		"feedb4493386df82": {
+			"parent": "feed3b350c66c318",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed3b350c66c318",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed68d0d4465dce"
+					]
+				}
+			}
+		},
+		"feedd3a56018ebd9": {
+			"parent": "feed3b350c66c318",
+			"name": "Act_MR_Stand_Mirror_Macho",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_mirror_macho.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_mirror_macho.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -77.56211853627903
+						},
+						"position": {
+							"x": 12.605669975280762,
+							"y": -19.3037109375,
+							"z": 0
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5f91999f588",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed68d0d4465dce"
+					]
+				}
+			}
+		},
+		"feed68d0d4465dce": {
+			"parent": "feed3b350c66c318",
+			"name": "Act_MR_Stand_Phone_Text",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -120.9703970181156
+						},
+						"position": {
+							"x": 10.647150039672852,
+							"y": -23.137020111083984,
+							"z": 0
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5f91999f588",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_bValueGenericDialog": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd3a56018ebd9"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6a735370e1f4": {
+			"parent": "feed030e9432398a",
+			"name": "ACT_MR_Stand_Pain_Left_Lower_Back",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_pain_left_lower_back.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_pain_left_lower_back.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -95.28828292992128
+						},
+						"position": {
+							"x": 23.642179489135742,
+							"y": -17.718019485473633,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbffb03766214",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed7c3be1292390"
+					]
+				}
+			}
+		},
+		"feed78ec09b8ab74": {
+			"parent": "feed030e9432398a",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed030e9432398a",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed6a735370e1f4"
+					]
+				}
+			}
+		},
+		"feed7c3be1292390": {
+			"parent": "feed030e9432398a",
+			"name": "Act_MR_Stand_Sweating",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_sweating.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_sweating.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -54.929269117167195
+						},
+						"position": {
+							"x": 24.803850173950195,
+							"y": -35.0346794128418,
+							"z": 4.400000095367432
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbffb03766214",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed6a735370e1f4"
+					]
+				}
+			}
+		},
+		"feedbffb03766214": {
+			"parent": "feed030e9432398a",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed3a40d149481a",
+					"postInit": true
+				}
+			}
+		},
+		"feede0fe11003d2c": {
+			"parent": "feedf320c3168bec",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6578a88b827c",
+					"postInit": true
+				}
+			}
+		},
+		"feedd4abf8dd8e56": {
+			"parent": "feedf320c3168bec",
+			"name": "Act_MR_Stand_Look_Up",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_up.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_up.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -160.06097019451505
+						},
+						"position": {
+							"x": -6.743206024169922,
+							"y": -24.029659271240234,
+							"z": 0.0009289999725297093
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede0fe11003d2c",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedff0703b8df93"
+					]
+				}
+			}
+		},
+		"feedff0703b8df93": {
+			"parent": "feedf320c3168bec",
+			"name": "Act_MR_Stand_Phone_Text_Pace",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -15.114477802997026
+						},
+						"position": {
+							"x": -0.5431412,
+							"y": -45.28265,
+							"z": -4.8428774e-8
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede0fe11003d2c",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_bValueGenericDialog": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd4abf8dd8e56"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf51c3d9b6ee3": {
+			"parent": "feedf320c3168bec",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf320c3168bec",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedff0703b8df93"
+					]
+				}
+			}
+		},
+		"feedd9d9cb32ab17": {
+			"parent": "feed62bff9c30e17",
+			"name": "Act_MR_Stand_Rail_Lean",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.67060461014782
+						},
+						"position": {
+							"x": 0.5849339962005615,
+							"y": -33.13323974609375,
+							"z": 4.400000095367432
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7cc810ec4f9e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed8e8638936938"
+					]
+				}
+			}
+		},
+		"feedba8259d83447": {
+			"parent": "feed62bff9c30e17",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed62bff9c30e17",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedd9d9cb32ab17"
+					]
+				}
+			}
+		},
+		"feed7cc810ec4f9e": {
+			"parent": "feed62bff9c30e17",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed819a345c8655"
+				}
+			}
+		},
+		"feed8e8638936938": {
+			"parent": "feed62bff9c30e17",
+			"name": "Act_MR_Stand_Smoke",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.8987211336158594
+						},
+						"position": {
+							"x": 4.499313831329346,
+							"y": -38.30376052856445,
+							"z": 4.400000095367432
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7cc810ec4f9e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd9d9cb32ab17"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedd106434be057": {
+			"parent": "feedfb839b6b5158",
+			"name": "Act_MR_Stand_Smoke_ArmHip",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -4.3419607598392265
+						},
+						"position": {
+							"x": -2.094994068145752,
+							"y": -43.792030334472656,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed35fb13d530a9",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed9f817dfc999a"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda36bb385e4b1": {
+			"parent": "feedfb839b6b5158",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb839b6b5158",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedd106434be057"
+					]
+				}
+			}
+		},
+		"feed35fb13d530a9": {
+			"parent": "feedfb839b6b5158",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc4dac549491d"
+				}
+			}
+		},
+		"feed9f817dfc999a": {
+			"parent": "feedfb839b6b5158",
+			"name": "Act_MR_Stand_Look_Binoculars",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 38.854241343788516
+						},
+						"position": {
+							"x": -19.722230911254883,
+							"y": -62.837921142578125,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed35fb13d530a9",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd106434be057"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedc522a0df3c5e": {
+			"parent": "feed11792476147f",
+			"name": "Act_MR_Stand_Look_Binoculars",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -83.87192946038604
+						},
+						"position": {
+							"x": 12.587785,
+							"y": -31.018227,
+							"z": -1.0803342e-7
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 17
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede510fe01162f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed835d5f60ae60"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedb7fcff680eed": {
+			"parent": "feed11792476147f",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed11792476147f",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedc522a0df3c5e"
+					]
+				}
+			}
+		},
+		"feede510fe01162f": {
+			"parent": "feed11792476147f",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4d4c29bf9a44"
+				}
+			}
+		},
+		"feed835d5f60ae60": {
+			"parent": "feed11792476147f",
+			"name": "Act_MR_Stand_Tablet_Read",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_tablet_read.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_tablet_read.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 123.30133429349486
+						},
+						"position": {
+							"x": 0.11279553,
+							"y": -32.433357,
+							"z": 0.012472879
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede510fe01162f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedc522a0df3c5e"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda240052ed37f": {
+			"parent": "feed56f34a7fda59",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed56f34a7fda59",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed83ccac74b91f"
+					]
+				}
+			}
+		},
+		"feed83ccac74b91f": {
+			"parent": "feed56f34a7fda59",
+			"name": "act_mr_sit_phone_text_lean_forward",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_lean_forward.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_lean_forward.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -50
+						},
+						"position": {
+							"x": -9.482964,
+							"y": -22.656263,
+							"z": 0.001924526
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 45
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2df59d94accf",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_bValueGenericDialog": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feeddd61074002fa"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed2df59d94accf": {
+			"parent": "feed56f34a7fda59",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed40c5cab25e9e"
+				}
+			}
+		},
+		"feeddd61074002fa": {
+			"parent": "feed56f34a7fda59",
+			"name": "Act_MR_Stand_Inspect_100cm",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 56.60973482227873
+						},
+						"position": {
+							"x": -11.560556,
+							"y": -41.90509,
+							"z": 4.4188843
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2df59d94accf",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed83ccac74b91f"
+					]
+				}
+			}
+		},
+		"feedd38c154a93e9": {
+			"parent": "feed4390c1011172",
+			"name": "Act_MR_Stand_Phone_Pace",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_pace.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_pace.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 12.05371806420528
+						},
+						"position": {
+							"x": -12.046092,
+							"y": -42.974655,
+							"z": -4.8428774e-8
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed120253466a38",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_bValueGenericDialog": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed81d6cfd1d655"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed38003d232cb3": {
+			"parent": "feed4390c1011172",
+			"name": "DramaSituationProxy",
+			"factory": "000C288A323918F9",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4390c1011172",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed81d6cfd1d655"
+					]
+				}
+			}
+		},
+		"feed81d6cfd1d655": {
+			"parent": "feed4390c1011172",
+			"name": "Act_MR_Stand_Smoke_ArmHip",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -85.66659581575274
+						},
+						"position": {
+							"x": -25.911083,
+							"y": -23.818493,
+							"z": 0.11077668
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 45
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed120253466a38",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedd38c154a93e9"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed120253466a38": {
+			"parent": "feed4390c1011172",
+			"name": "Role 1",
+			"factory": "00808A03B82188F7",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedca54c79fe251"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

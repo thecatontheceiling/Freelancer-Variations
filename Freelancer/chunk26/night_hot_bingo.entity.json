@@ -1,0 +1,2985 @@
+{
+    "tempHash": "00E4918F02BC042E",
+    "tbluHash": "0020ECD2D1DA4AE6",
+    "rootEntity": "fffffffffffffffe",
+    "entities": {
+        "fffffffffffffffe": {
+            "parent": null,
+            "name": "Scene",
+            "factory": "[modules:/zspatialentity.class].pc_entitytype",
+            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+        },
+        "feed961dbd3d01ac": {
+            "parent": "fffffffffffffffe",
+            "name": "Night NPCs",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "feed0534dcf1d382": {
+            "parent": "feed961dbd3d01ac",
+            "name": "Church Staff",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "feed94d923af730b": {
+            "parent": "feed0534dcf1d382",
+            "name": "Church Staff Worker01",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feeda15753a79e29",
+                    "postInit": true
+                },
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feede2f37a428df6"
+                    ],
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed733ef94109ad"
+                    }
+                ]
+            }
+        },
+        "feed3a0c305514b1": {
+            "parent": "feed0534dcf1d382",
+            "name": "CHAR_Worker_Staff_Church_Male03",
+            "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -46.69686197689038
+                        },
+                        "position": {
+                            "x": -71.93412780761719,
+                            "y": 100.85769653320312,
+                            "z": 3.2679240703582764
+                        }
+                    }
+                },
+                "RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "f39aa951-7d0b-4144-8854-3b87bbf7cc57"
+                },
+                "m_sActorName": {
+                    "type": "ZString",
+                    "value": "Vittore Bianchi"
+                },
+                "m_OutfitRepositoryID": {
+                    "type": "ZGuid",
+                    "value": "5440b347-026f-402c-9cd4-3b4e142804ce"
+                },
+                "m_eRequiredVoiceVariation": {
+                    "type": "EActorVoiceVariation",
+                    "value": "eAVV_CIVMALE01"
+                },
+                "m_nOutfitVariation": {
+                    "type": "int32",
+                    "value": 2
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "fffffffffffffffe"
+                ],
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed60e6ec8d0d66": {
+            "parent": "feed0534dcf1d382",
+            "name": "Church Staff Worker02",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed3a0c305514b1"
+                    ]
+                },
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed2cb2a08aa661",
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed7527a5870494"
+                    }
+                ]
+            }
+        },
+        "feedfbee72b3ea93": {
+            "parent": "feed0534dcf1d382",
+            "name": "CHAR_Worker_Staff_Church_Male02",
+            "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -52.91952133178711,
+                            "y": 91.74481201171875,
+                            "z": 4.868721008300781
+                        }
+                    }
+                },
+                "RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "a66d5c7c-79cb-4472-9e66-4008c51f6f02"
+                },
+                "m_sActorName": {
+                    "type": "ZString",
+                    "value": "Ettore De Marco"
+                },
+                "m_OutfitRepositoryID": {
+                    "type": "ZGuid",
+                    "value": "5440b347-026f-402c-9cd4-3b4e142804ce"
+                },
+                "m_eRequiredVoiceVariation": {
+                    "type": "EActorVoiceVariation",
+                    "value": "eAVV_CIVMALE01"
+                },
+                "m_nOutfitVariation": {
+                    "type": "int32",
+                    "value": 1
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "fffffffffffffffe"
+                ],
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed2a63e0a90c04": {
+            "parent": "feed0534dcf1d382",
+            "name": "Church Staff Worker",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed2ffdd155bebe"
+                },
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feedfbee72b3ea93"
+                    ]
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed15d1a247fd82"
+                    }
+                ]
+            }
+        },
+        "feede2f37a428df6": {
+            "parent": "feed0534dcf1d382",
+            "name": "CHAR_Sapienza_Worker_Gardener_M_HPA489",
+            "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 105.26679772977856
+                        },
+                        "position": {
+                            "x": -58.79486083984375,
+                            "y": 119.58100128173828,
+                            "z": 3.731595993041992
+                        }
+                    }
+                },
+                "RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "a79da7e1-5910-4f9d-801b-7c93cfe446cd"
+                },
+                "m_sActorName": {
+                    "type": "ZString",
+                    "value": "Beppe Calabresi"
+                },
+                "m_OutfitRepositoryID": {
+                    "type": "ZGuid",
+                    "value": "d788ff58-8a7a-4a85-acdd-c0e5693525f0"
+                },
+                "m_eRequiredVoiceVariation": {
+                    "type": "EActorVoiceVariation",
+                    "value": "eAVV_CIVMALE01"
+                },
+                "m_nOutfitVariation": {
+                    "type": "int32",
+                    "value": 0
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "fffffffffffffffe"
+                ],
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed6ab5781ad2cb": {
+            "parent": "feed94d923af730b",
+            "name": "Act_MR_Sit_Listen",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_listen.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_listen.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 134.83166144588776
+                        },
+                        "position": {
+                            "x": -59.83723068237305,
+                            "y": 118.98989868164062,
+                            "z": 3.7048180103302
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 20
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed733ef94109ad",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feede330070a24cb"
+                    ]
+                }
+            }
+        },
+        "feede330070a24cb": {
+            "parent": "feed94d923af730b",
+            "name": "Act_MR_Stand_Rail_Lean",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 133.99750424992263
+                        },
+                        "position": {
+                            "x": -60.74679946899414,
+                            "y": 127.39769744873047,
+                            "z": 3.8733129501342773
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 45
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed733ef94109ad",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Done": [
+                        "feeda15753a79e29"
+                    ]
+                }
+            }
+        },
+        "feed733ef94109ad": {
+            "parent": "feed94d923af730b",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feede2f37a428df6"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "feeda15753a79e29": {
+            "parent": "feed94d923af730b",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed733ef94109ad"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed6ab5781ad2cb"
+                    ]
+                }
+            }
+        },
+        "feed7520e4a7539a": {
+            "parent": "feed3a0c305514b1",
+            "name": "Prof_Sapienza_Worker_Gardener",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entityblueprint"
+        },
+        "feed3aa2ac10bc88": {
+            "parent": "feed3a0c305514b1",
+            "name": "Prof_Sapienza_Unique_Priest",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_priest.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_priest.entitytemplate].pc_entityblueprint"
+        },
+        "feedbe4dcd8aa823": {
+            "parent": "feed3a0c305514b1",
+            "name": "Prof_Sapienza_Worker_ChurchStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_churchstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_churchstaff.entitytemplate].pc_entityblueprint"
+        },
+        "feed3c95c61df973": {
+            "parent": "feed60e6ec8d0d66",
+            "name": "Act_MR_Stand_Wall_Lean_Smoke_Shoulder_Left",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_wall_lean_smoke_shoulder_left.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_wall_lean_smoke_shoulder_left.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -138.43157994186046
+                        },
+                        "position": {
+                            "x": -74.1172866821289,
+                            "y": 97.76522064208984,
+                            "z": 3.19671893119812
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 20
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed7527a5870494",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed70f275468924"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed70f275468924": {
+            "parent": "feed60e6ec8d0d66",
+            "name": "Act_MR_HotelStaff_Stand_Dusting_120CM",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_hotelstaff_stand_dusting_120cm.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_hotelstaff_stand_dusting_120cm.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -56.475451911053305
+                        },
+                        "position": {
+                            "x": -72.22927856445312,
+                            "y": 100.08519744873047,
+                            "z": 3.2825820446014404
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed7527a5870494",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Done": [
+                        "feed2cb2a08aa661"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed7527a5870494": {
+            "parent": "feed60e6ec8d0d66",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed3a0c305514b1"
+                    ]
+                }
+            }
+        },
+        "feed2cb2a08aa661": {
+            "parent": "feed60e6ec8d0d66",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed7527a5870494"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed3c95c61df973"
+                    ]
+                }
+            }
+        },
+        "feedda5da20f354a": {
+            "parent": "feedfbee72b3ea93",
+            "name": "Prof_Sapienza_Worker_Gardener",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entityblueprint"
+        },
+        "feed681fd22c7f08": {
+            "parent": "feedfbee72b3ea93",
+            "name": "Prof_Sapienza_Unique_Priest",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_priest.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_priest.entitytemplate].pc_entityblueprint"
+        },
+        "feed4155c58c36ea": {
+            "parent": "feedfbee72b3ea93",
+            "name": "Prof_Sapienza_Worker_ChurchStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_churchstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_churchstaff.entitytemplate].pc_entityblueprint"
+        },
+        "feed51646d9b6758": {
+            "parent": "feed2a63e0a90c04",
+            "name": "Act_MR_Stand_ArmsBack",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsback.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsback.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -73.7785790344708
+                        },
+                        "position": {
+                            "x": -54.07183837890625,
+                            "y": 91.08889770507812,
+                            "z": 4.868721008300781
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 30
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed15d1a247fd82",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feede983088fb0e8"
+                    ]
+                }
+            }
+        },
+        "feede983088fb0e8": {
+            "parent": "feed2a63e0a90c04",
+            "name": "Act_MR_HotelStaff_Stand_Dusting_100CM",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_hotelstaff_stand_dusting_100cm.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_hotelstaff_stand_dusting_100cm.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 124.96110164195284
+                        },
+                        "position": {
+                            "x": -58.46916961669922,
+                            "y": 87.06459045410156,
+                            "z": 4.868721008300781
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 14
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed15d1a247fd82",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed71b2454dcb93"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed2ffdd155bebe": {
+            "parent": "feed2a63e0a90c04",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed15d1a247fd82"
+                    ],
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed71b2454dcb93"
+                    ]
+                }
+            }
+        },
+        "feed71b2454dcb93": {
+            "parent": "feed2a63e0a90c04",
+            "name": "Act_MR_Stand_Clean_Surface_100cm",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_clean_surface_100cm.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_clean_surface_100cm.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 132.2812846033848
+                        },
+                        "position": {
+                            "x": -64.63326263427734,
+                            "y": 92.80422973632812,
+                            "z": 4.916294097900391
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 15
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#164f2f"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed15d1a247fd82",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed51646d9b6758"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed15d1a247fd82": {
+            "parent": "feed2a63e0a90c04",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feedfbee72b3ea93"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "feedd8ac84a4209d": {
+            "parent": "feede2f37a428df6",
+            "name": "Prof_Sapienza_Unique_Priest",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_priest.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_unique_priest.entitytemplate].pc_entityblueprint"
+        },
+        "feed25b12373ed33": {
+            "parent": "feede2f37a428df6",
+            "name": "Prof_Sapienza_Worker_ChurchStaff",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_churchstaff.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_churchstaff.entitytemplate].pc_entityblueprint"
+        },
+        "feed7eda3b14d3ad": {
+            "parent": "feede2f37a428df6",
+            "name": "Prof_Sapienza_Worker_Gardener",
+            "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_gardener.entitytemplate].pc_entityblueprint"
+        },
+        "feed86f1388c5cf1": {
+            "parent": "feed961dbd3d01ac",
+            "name": "Ebola Modifications",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "feed2bc31511f640": {
+            "parent": "feed86f1388c5cf1",
+            "name": "Civ on the beach walking toward soda machine",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed64a0b72f2b84"
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                }
+            }
+        },
+        "feed34f223a5931f": {
+            "parent": "feed2bc31511f640",
+            "name": "Act_MR_Stand_Inspect_Front",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_front.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_front.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 3.4648967176083154
+                        },
+                        "position": {
+                            "x": -39.79533004760742,
+                            "y": 6.545857906341553,
+                            "z": 0.3486579954624176
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 20
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed36cacc340c29",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Done": [
+                        "feed64a0b72f2b84"
+                    ]
+                }
+            }
+        },
+        "feed36cacc340c29": {
+            "parent": "feed2bc31511f640",
+            "name": "Worker",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "ee847883f9aa15c6",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        "feed64a0b72f2b84": {
+            "parent": "feed2bc31511f640",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed36cacc340c29"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed920bec57c60e"
+                    ]
+                }
+            }
+        },
+        "feed920bec57c60e": {
+            "parent": "feed2bc31511f640",
+            "name": "Act_FR_Lie_Back_04",
+            "factory": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_lie_back_04.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/fr.template?/act_fr_lie_back_04.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 5.862414929476989
+                        },
+                        "position": {
+                            "x": -45.003639221191406,
+                            "y": 30.091859817504883,
+                            "z": -1.0372439622879028
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 60
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed36cacc340c29",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed34f223a5931f"
+                    ]
+                }
+            }
+        },
+        "feeda6fe51bac0f5": {
+            "parent": "feed86f1388c5cf1",
+            "name": "Sleeping civ_Apartment shared",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                },
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feeddc6efa1a4db4",
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed87deed519014"
+                    }
+                ]
+            }
+        },
+        "feed87deed519014": {
+            "parent": "feeda6fe51bac0f5",
+            "name": "Worker",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "bb9f00761009c802",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        "feeddc6efa1a4db4": {
+            "parent": "feeda6fe51bac0f5",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed87deed519014"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed59d50b889f57"
+                    ]
+                }
+            }
+        },
+        "feed59d50b889f57": {
+            "parent": "feeda6fe51bac0f5",
+            "name": "Act_MR_Lying_Side",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_lying_side.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_lying_side.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -169.3750129721063
+                        },
+                        "position": {
+                            "x": 13.312780380249023,
+                            "y": 0.6787769794464111,
+                            "z": 20.36341094970703
+                        }
+                    }
+                },
+                "m_AlignRotation": {
+                    "type": "ZActBehaviorEntity.ERotationAlignment",
+                    "value": "RA_EXACT"
+                },
+                "m_bAlignPosition": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_ePerceptionSensitivity": {
+                    "type": "EActorPerceptionSensitivity",
+                    "value": "APS_AMBIENT_SLEEPING"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed87deed519014",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            }
+        },
+        "feedebe5b95d4cff": {
+            "parent": "feed86f1388c5cf1",
+            "name": "Guard mod",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "feed7ee2857c64d4": {
+            "parent": "feedebe5b95d4cff",
+            "name": "IdleGuard01",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                },
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed990a8db780fd",
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed9edb6c3ac032"
+                    }
+                ]
+            }
+        },
+        "feed7857e680f713": {
+            "parent": "feedebe5b95d4cff",
+            "name": "Guard close to App",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                },
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed0962aaaa9654",
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feedf41fa6c9cd22"
+                    }
+                ]
+            }
+        },
+        "feed841870c4237b": {
+            "parent": "feedebe5b95d4cff",
+            "name": "Guard mving",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                },
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed1b5e08d3653b",
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed3ab35624c24b"
+                    }
+                ]
+            }
+        },
+        "feedc8c2f46da66a": {
+            "parent": "feedebe5b95d4cff",
+            "name": "Guard mving01",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                },
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed656bf674395e",
+                    "postInit": true
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed2cd597dd22aa"
+                    }
+                ]
+            }
+        },
+        "feedc93589722c4c": {
+            "parent": "feedebe5b95d4cff",
+            "name": "Guard close to app2",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed0708fa90903d"
+                },
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feedd7b6dab38cd2"
+                    }
+                ]
+            }
+        },
+        "feed9edb6c3ac032": {
+            "parent": "feed7ee2857c64d4",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "551e8f442f49f9a9",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        "feed188f79b22105": {
+            "parent": "feed7ee2857c64d4",
+            "name": "Act_MR_Stand_Lean_Back_Wall",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_back_wall.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_back_wall.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -46.5162214538702
+                        },
+                        "position": {
+                            "x": -32.29985809326172,
+                            "y": 51.46717071533203,
+                            "z": 1.4285260438919067
+                        }
+                    }
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#a3a3a3"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed9edb6c3ac032",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed88f79e909e0b"
+                    ]
+                }
+            }
+        },
+        "feed88f79e909e0b": {
+            "parent": "feed7ee2857c64d4",
+            "name": "Act_MR_Stand_Smoke_ArmHip",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 96.9545556273253
+                        },
+                        "position": {
+                            "x": -42.61362075805664,
+                            "y": 46.83517837524414,
+                            "z": 1.3427220582962036
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 15
+                },
+                "m_Color": {
+                    "type": "SColorRGB",
+                    "value": "#a3a3a3"
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed9edb6c3ac032",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed188f79b22105"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed990a8db780fd": {
+            "parent": "feed7ee2857c64d4",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed9edb6c3ac032"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed188f79b22105"
+                    ]
+                }
+            }
+        },
+        "feedf41fa6c9cd22": {
+            "parent": "feed7857e680f713",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint"
+        },
+        "feed0962aaaa9654": {
+            "parent": "feed7857e680f713",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feedf41fa6c9cd22"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed5a7e13bbea15"
+                    ]
+                }
+            }
+        },
+        "feed5a7e13bbea15": {
+            "parent": "feed7857e680f713",
+            "name": "Act_MR_Stand_Lean_Back_Wall",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_back_wall.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_back_wall.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 177.96935622426193
+                        },
+                        "position": {
+                            "x": -9.47676944732666,
+                            "y": 15.527219772338867,
+                            "z": 1.3426920175552368
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": -1
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feedf41fa6c9cd22",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            }
+        },
+        "feed9af7a0660683": {
+            "parent": "feed841870c4237b",
+            "name": "Act_MR_Sit_Phone_Text_LegsCrossed",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -12.499965305217055
+                        },
+                        "position": {
+                            "x": -69.80642700195312,
+                            "y": 2.9912710189819336,
+                            "z": 6.948567867279053
+                        }
+                    }
+                },
+                "m_bValueGenericDialog": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 35
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed3ab35624c24b",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed307128f20ea0"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed3ab35624c24b": {
+            "parent": "feed841870c4237b",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "297e4e7738d5ebfe",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        "feed307128f20ea0": {
+            "parent": "feed841870c4237b",
+            "name": "Act_MR_Stand_Rail_Lean",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 179.76342494111296
+                        },
+                        "position": {
+                            "x": -13.2289400100708,
+                            "y": 7.986569881439209,
+                            "z": 9.348654747009277
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 35
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed3ab35624c24b",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed9af7a0660683"
+                    ]
+                }
+            }
+        },
+        "feed1b5e08d3653b": {
+            "parent": "feed841870c4237b",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed3ab35624c24b"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed9af7a0660683"
+                    ]
+                }
+            }
+        },
+        "feed8389849f8083": {
+            "parent": "feedc8c2f46da66a",
+            "name": "Act_MR_Stand_Smoke_CigTimer",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_cigtimer.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_cigtimer.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 77.49997801434567
+                        },
+                        "position": {
+                            "x": -8.953234672546387,
+                            "y": 18.515600204467773,
+                            "z": 1.3426949977874756
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 35
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed2cd597dd22aa",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed6a9a923fd535"
+                    ]
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed6a9a923fd535": {
+            "parent": "feedc8c2f46da66a",
+            "name": "Act_MR_Sit_Sleeping",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 44.75687356042307
+                        },
+                        "position": {
+                            "x": -4.36794376373291,
+                            "y": 15.269960403442383,
+                            "z": 2.7427051067352295
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 35
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed2cd597dd22aa",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed8389849f8083"
+                    ]
+                }
+            }
+        },
+        "feed2cd597dd22aa": {
+            "parent": "feedc8c2f46da66a",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "33c5cf36f87c2344",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        "feed656bf674395e": {
+            "parent": "feedc8c2f46da66a",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed2cd597dd22aa"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed8389849f8083"
+                    ]
+                }
+            }
+        },
+        "feedb8fd9ff351e2": {
+            "parent": "feedc93589722c4c",
+            "name": "Act_MR_Stand_Rail_Lean",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 166.70722757526252
+                        },
+                        "position": {
+                            "x": -69.13813018798828,
+                            "y": 7.101718902587891,
+                            "z": 6.952548027038574
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 35
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feedd7b6dab38cd2",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            }
+        },
+        "feedfdc0c0213581": {
+            "parent": "feedc93589722c4c",
+            "name": "Act_MR_Stand_Smoke",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -13.383924199218013
+                        },
+                        "position": {
+                            "x": -34.483489990234375,
+                            "y": 10.238639831542969,
+                            "z": 9.348657608032227
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 35
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feedd7b6dab38cd2",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed0708fa90903d": {
+            "parent": "feedc93589722c4c",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feedd7b6dab38cd2"
+                    ],
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feedfdc0c0213581"
+                    ]
+                }
+            }
+        },
+        "feedd7b6dab38cd2": {
+            "parent": "feedc93589722c4c",
+            "name": "Role",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "df7328d121270091",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        "feeda62c95615693": {
+            "parent": "feed961dbd3d01ac",
+            "name": "CHAR_Sapienza_Guard_BodyGuard_M_HPA1141",
+            "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 177.48539771980185
+                        },
+                        "position": {
+                            "x": 77.59998321533203,
+                            "y": -37.40222930908203,
+                            "z": 21.400320053100586
+                        }
+                    }
+                },
+                "m_bStartEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_sActorName": {
+                    "type": "ZString",
+                    "value": "Marco Pizzaiolo"
+                },
+                "RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "8f8c2be2-d99c-4a71-89df-2e3ee4a77fa0"
+                },
+                "m_nOutfitVariation": {
+                    "type": "int32",
+                    "value": 10
+                },
+                "m_OutfitRepositoryID": {
+                    "type": "ZGuid",
+                    "value": "bf9629e0-f25c-4e71-9561-4a99a93a43e8"
+                },
+                "m_bBlockDisguisePickup": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "fffffffffffffffe"
+                ],
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed7974f8165185": {
+            "parent": "feed961dbd3d01ac",
+            "name": "CHAR_Sapienza_Unique_Lawyer_M_HPA868",
+            "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -56.46933407534943
+                        },
+                        "position": {
+                            "x": 78.52159118652344,
+                            "y": -34.54124069213867,
+                            "z": 21.400320053100586
+                        }
+                    }
+                },
+                "m_bStartEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_sActorName": {
+                    "type": "ZString",
+                    "value": "Salvatore Bravuomo"
+                },
+                "RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "fb3b5baf-8e2d-4e22-aeba-78651e628842"
+                },
+                "m_nOutfitVariation": {
+                    "type": "int32",
+                    "value": 0
+                },
+                "m_OutfitRepositoryID": {
+                    "type": "ZGuid",
+                    "value": "7766b295-35f3-45a8-b73d-10b222ed18ef"
+                },
+                "m_bBlockDisguisePickup": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "subsets": {
+                "AudioEmitters": [
+                    "fffffffffffffffe"
+                ],
+                "Replicable": [
+                    "fffffffffffffffe"
+                ]
+            }
+        },
+        "feed516aa0108250": {
+            "parent": "feeda62c95615693",
+            "name": "ActorDeath",
+            "factory": "[modules:/zactordeathentity.class].pc_entitytype",
+            "blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+            "properties": {
+                "m_rActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feeda62c95615693",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnDead": {
+                    "SetTrue": [
+                        "feedd8970f1395ce",
+                        "feed1f0aaba06f5b"
+                    ]
+                },
+                "OnPacified": {
+                    "SetTrue": [
+                        "feed1f0aaba06f5b"
+                    ]
+                }
+            }
+        },
+        "feed1f0aaba06f5b": {
+            "parent": "feeda62c95615693",
+            "name": "Craig DeadorPacified",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+        },
+        "feed10206e5bf9a3": {
+            "parent": "feeda62c95615693",
+            "name": "ActorEventEmitter",
+            "factory": "[modules:/zactoreventemitter.class].pc_entitytype",
+            "blueprint": "[modules:/zactoreventemitter.class].pc_entityblueprint",
+            "properties": {
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feeda62c95615693"
+                }
+            }
+        },
+        "feedd8970f1395ce": {
+            "parent": "feeda62c95615693",
+            "name": "VB_isTargetDead",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+        },
+        "feed2ea7108939a5": {
+            "parent": "feeda62c95615693",
+            "name": "Guard at office",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed950ed693792e"
+                },
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feeda62c95615693"
+                    ]
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed8d69cf76b41c"
+                    }
+                ]
+            }
+        },
+        "feed9289db5430d6": {
+            "parent": "feed7974f8165185",
+            "name": "ActorEventEmitter",
+            "factory": "[modules:/zactoreventemitter.class].pc_entitytype",
+            "blueprint": "[modules:/zactoreventemitter.class].pc_entityblueprint",
+            "properties": {
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed7974f8165185"
+                }
+            }
+        },
+        "feed3b73725e2dba": {
+            "parent": "feed7974f8165185",
+            "name": "ActorDeath",
+            "factory": "[modules:/zactordeathentity.class].pc_entitytype",
+            "blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+            "properties": {
+                "m_rActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed7974f8165185"
+                }
+            },
+            "events": {
+                "OnDead": {
+                    "SetTrue": [
+                        "feed9c988efa12ab",
+                        "feed49c4dd830116"
+                    ]
+                },
+                "OnPacified": {
+                    "SetTrue": [
+                        "feed49c4dd830116"
+                    ]
+                }
+            }
+        },
+        "feed9c988efa12ab": {
+            "parent": "feed7974f8165185",
+            "name": "VB_isTargetDead",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+        },
+        "feed49c4dd830116": {
+            "parent": "feed7974f8165185",
+            "name": "Craig DeadorPacified",
+            "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+        },
+        "feed7475d7171964": {
+            "parent": "feed7974f8165185",
+            "name": "Lawyer Loop",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_rDrama": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feedb1bd4f77ceeb"
+                },
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed7974f8165185"
+                    ]
+                },
+                "m_nPriority": {
+                    "type": "int32",
+                    "value": 10
+                }
+            },
+            "propertyAliases": {
+                "m_aActors": [
+                    {
+                        "originalProperty": "m_aActors",
+                        "originalEntity": "feed50e828f0ac89"
+                    }
+                ]
+            }
+        },
+        "feedb1bd4f77ceeb": {
+            "parent": "feed7475d7171964",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed50e828f0ac89"
+                    ],
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed87a5cba67ee8"
+                    ]
+                }
+            }
+        },
+        "feed2365717a4f88": {
+            "parent": "feed7475d7171964",
+            "name": "Act_MR_Stand_Inspect_100cm",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -85.14973625395103
+                        },
+                        "position": {
+                            "x": 81.6076431274414,
+                            "y": -31.817630767822266,
+                            "z": 21.400320053100586
+                        }
+                    }
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed50e828f0ac89",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feedb1fa36b8a54d"
+                    ]
+                }
+            }
+        },
+        "feedb1fa36b8a54d": {
+            "parent": "feed7475d7171964",
+            "name": "Act_MR_Stand_Inspect_100cm01",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_inspect_100cm.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 176.08215625556517
+                        },
+                        "position": {
+                            "x": 72.31743621826172,
+                            "y": -27.273059844970703,
+                            "z": 21.400320053100586
+                        }
+                    }
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed50e828f0ac89",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed87a5cba67ee8"
+                    ]
+                }
+            }
+        },
+        "feed50e828f0ac89": {
+            "parent": "feed7475d7171964",
+            "name": "Lawyer",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed7974f8165185"
+                    ]
+                }
+            }
+        },
+        "feed87a5cba67ee8": {
+            "parent": "feed7475d7171964",
+            "name": "Act_FR_Stand_Type_Keyboard_100cm",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_type_keyboard_100cm.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_type_keyboard_100cm.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": -101.91246240936849
+                        },
+                        "position": {
+                            "x": 73.32801055908203,
+                            "y": -31.492429733276367,
+                            "z": 21.421409606933594
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 30
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed50e828f0ac89",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            },
+            "events": {
+                "OnActTimeout": {
+                    "Start": [
+                        "feed2365717a4f88"
+                    ]
+                }
+            }
+        },
+        "feed8d69cf76b41c": {
+            "parent": "feed2ea7108939a5",
+            "name": "Lawyer",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_aActors": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feeda62c95615693"
+                    ]
+                }
+            }
+        },
+        "feed950ed693792e": {
+            "parent": "feed2ea7108939a5",
+            "name": "Screenplay",
+            "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Roles": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "feed8d69cf76b41c"
+                    ]
+                }
+            },
+            "events": {
+                "OnStart": {
+                    "Start": [
+                        "feed1a4de351d21e"
+                    ]
+                }
+            }
+        },
+        "feed1a4de351d21e": {
+            "parent": "feed2ea7108939a5",
+            "name": "Act_MR_Stand_Lean_Back_Wall",
+            "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_back_wall.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_back_wall.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 176.93871996300965
+                        },
+                        "position": {
+                            "x": 77.71665954589844,
+                            "y": -37.244258880615234,
+                            "z": 21.400320053100586
+                        }
+                    }
+                },
+                "m_fActTimeout": {
+                    "type": "float32",
+                    "value": 30
+                },
+                "m_pActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": "feed8d69cf76b41c",
+                    "postInit": true
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "fffffffffffffffe",
+                    "postInit": true
+                }
+            }
+        },
+        "feed1b96bc47f3e1": {
+            "parent": "fffffffffffffffe",
+            "name": "MusicCore_S2_Collector",
+            "blueprint": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "Composition_PlayEvent": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00A673DE177DD451",
+                        "flag": "5F"
+                    }
+                },
+                "Composition_Vol": {
+                    "type": "float32",
+                    "value": 3
+                },
+                "Themes_Allowed": {
+                    "type": "bool",
+                    "value": true
+                },
+                "LayerKeywordRule_Enabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "PlayThemes_AsStingers": {
+                    "type": "bool",
+                    "value": true
+                },
+                "DynamicExitpoint": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                },
+                "Start_As_AmbBio_1": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_sDefaultState": {
+                    "type": "ZString",
+                    "value": "AmbientBiome_01"
+                },
+                "Start_As_Silent": {
+                    "type": "bool",
+                    "value": false
+                },
+                "ExitPoint_VolumeBoxes": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [],
+                    "postInit": true
+                }
+            },
+            "events": {},
+            "subsets": {
+                "AudioEmitters": [
+                    "fffffffffffffffe"
+                ]
+            },
+            "factory": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entitytype"
+        }
+    },
+    "propertyOverrides": [
+        {
+            "entities": [
+                {
+                    "ref": "ea644d82fa749c68",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_bIsLocked": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },{
+            "entities": [
+                {
+                    "ref": "061395967072b20f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_bValue": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "1bc19c72512449d9",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "CustomEventStart": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00BEC018B38CE1AC",
+                        "flag": "5F"
+                    }
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "9546fc50ee512573",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c50c6e25c2ff757d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "Composition_PlayEvent": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "002D13CBD4A83C05",
+                        "flag": "5F"
+                    }
+                },
+                "ProceduralMoment_PlayEvent": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "002122FCBD908161",
+                        "flag": "5F"
+                    }
+                },
+                "ProceduralMoment_StopEvent": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "002DC84A0DE2DA4E",
+                        "flag": "5F"
+                    }
+                },
+                "CustomEventStart": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00C0E6C908249779",
+                        "flag": "5F"
+                    }
+                },
+                "Start_as_AmbientZone": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "bce35cf6331b4274",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2181aee152de0d95",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "dfb269c20f375b0f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "91ebd576435d41b4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "48e54c3398cee29c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "On": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "c20a31cb7e091436",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_rActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": null
+                },
+                "m_bStartEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bValue": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "b0ea55163865e871",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                },
+                {
+                    "ref": "90cb9e17f0e3dedc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                },
+                {
+                    "ref": "61395967072b20f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_bValue": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_rActor": {
+                    "type": "SEntityTemplateReference",
+                    "value": null
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "c6eea3bb71b8bd43",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e03979ab2a7bc928",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b0fa415803376777",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d2f1e98e2eb62d37",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9031e85d02f15c33",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_bStartEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bValue": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "bb9f00761009c802",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "RepositoryId": {
+                    "type": "ZGuid",
+                    "value": "3ed1c7e6-7707-48b4-a0f0-b933bc851fdb"
+                },
+                "m_sActorName": {
+                    "type": "ZString",
+                    "value": "Craig \"Rocco\" McVeigh"
+                },
+                "m_nOutfitVariation": {
+                    "type": "int32",
+                    "value": 0
+                },
+                "m_OutfitRepositoryID": {
+                    "type": "ZGuid",
+                    "value": "d3bdbcfe-8e46-4774-a642-17daa98a7f69"
+                },
+                "m_eRequiredVoiceVariation": {
+                    "type": "EActorVoiceVariation",
+                    "value": "eAVV_CIVMALE03"
+                },
+                "m_nOutfitCharset": {
+                    "type": "int32",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "49b161b247503aa1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_AllowedProfessions": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "b064bc8bbdbafe2d",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "2cd951f9de99dd2b",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "dbd7657d1cf2812b",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "9b6b9f92cc22bfab",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mamba_outfits.brick].pc_entitytype"
+                        }
+                    ]
+                },
+                "m_KeeperProfessions": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "b064bc8bbdbafe2d",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "2cd951f9de99dd2b",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "dbd7657d1cf2812b",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "9b6b9f92cc22bfab",
+                            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mamba_outfits.brick].pc_entitytype"
+                        },
+                        {
+                            "ref": "86ad2d9648df7cff",
+                            "externalScene": "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "abcdb3e4266e4b97",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_eRequiredVoiceVariation": {
+                    "type": "EActorVoiceVariation",
+                    "value": "eAVV_THUGES01"
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "b45508eb607769ab",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "7b0c1be8c7e515cf",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a03bda9c7acd1bc2",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "94c0555417055a20",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e80d667057746ad4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "372ccde6cf46b2a4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9b2edeb8cc81a700",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b45508eb607769ab",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8f2d8c6edead744c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "5c23efbc371616a0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1513b1ec3648185f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e4af73b008f9b9da",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8ffe4f202696708f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "5c6748f4cd8972a5",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "98066979e8115abc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "dcd3aaf1c2260b11",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b11d4d884f390940",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "238948d558ebba94",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "734f6b21ec6ebb8f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "DiffusePower": {
+                    "type": "float32",
+                    "value": 5
+                },
+                "GlowPower": {
+                    "type": "float32",
+                    "value": 100
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "c898a4a56b4cdb32",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "956057dfddbf120f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8249c0f9b8a61dfc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "5218cfe99aa0704b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "94ddedcd719f1e14",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3e15128a93a051b4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fdeb42b99218dc05",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "34427d5d14373c6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                },
+                {
+                    "ref": "245e7699d29d1db3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_PostfilterParametersID": {
+                    "type": "int32",
+                    "value": 0
+                }
+            }
+        }
+    ],
+    "overrideDeletes": [
+        {
+            "ref": "5b0f4cbbc99f5fe4",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "71a0d0fe23705838",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "5ce406d29bab53f1",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "3d52fdb907f70990",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "f53f85087e3b2e07",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "5e299b13876fb457",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "eb84586aee311883",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "fe67d77fd5810c74",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "5e4eac485a015b8c",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "39122418c5b2367",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "24edddd259754d94",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "a6cf516332175c83",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+        },
+        {
+            "ref": "e0b169fa15de769",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "5eb797b36d2ecf72",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "6da03cff7c0f57d4",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "4561591d06e72c01",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "7fe4c0beefcb8411",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "a8190affa2234f2e",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "a513f67792232f2d",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "2ea54f0b1d4b9bd8",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "c23fcb2feca226a4",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "70335b9d20a7f281",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "1c9188ccd0c0ae9c",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "d29b115b95f978d6",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "9e5a34de90d98815",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "cdf78bf83a46acc7",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "633507f4f3b0c029",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "2472ec87a703eb5e",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "7c1231fa8fb52c28",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "4b3ad3e8e62701cd",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "2e97adbdaf69b49e",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "ea1714d0d5dc7fcc",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "aad58dea4d9985f3",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "4c80b0204516344",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "8f873425d55e1751",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+        },
+        {
+            "ref": "289032f2851359b2",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+        },
+        {
+            "ref": "84b3c6e2cf1a8dcb",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+        },
+        {
+            "ref": "eed1c96dfc26c2b3",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+        },
+        {
+            "ref": "aecd72010665a9fb",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+        },
+        {
+            "ref": "b010e912bf2e905c",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+        }
+    ],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/tod_ebola_night.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_opportunities_killopportunities_methlab.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_night.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/gamechangers_lockalldoors_church.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/mamba_outfits.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_night.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/coastaltown/mission_hot_bingo.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
+    ],
+    "subType": "brick",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

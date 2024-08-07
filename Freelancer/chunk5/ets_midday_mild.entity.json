@@ -1,0 +1,561 @@
+{
+	"tempHash": "004A331D36336B7B",
+	"tbluHash": "0098A494E058A5DC",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"abcdf0566079d96a": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger stuff upon game start",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "GetIndex": ["abcd7a16f1a136d8"] }
+			}
+		},
+		"abcd7a16f1a136d8": {
+			"parent": "abcdf0566079d96a",
+			"name": "zmultiparentspatialentity",
+			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "00c594397ea7af0b",
+					"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f36d9d08ef38e7f8",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "d74a9257e8f75805",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "8326076be8dfc29b",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "7f124b5a3869f845",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "f678f67bda1e23c8",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "7da348f7f5679c3d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "1134d4007e2c2897",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "2940715f07d166af",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "2b1a2a0d53c598c4",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "8cf2787c7661cc8d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "a17a0f2b4175c082",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "e5e8f2699dfbf17f",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "0d023acb3b3afb4b",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "fc73b8af096c01f1",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "72a35026164d844a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "aebd52a21a12aa83",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "f63ef9df1ea844b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype"
+						},
+						{
+							"ref": "5f143077f930c3bb",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "bcde6fcb83e1b890",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "d01603ef138850a5",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "0b85cf8a7005354d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "eca0cf8aaf436c9f",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "840dc996ddcb68dd",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "2545427e914c69e6",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype"
+						},
+						{
+							"ref": "3a7ea3288ded58c2",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "aae678cf8accfed2",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "b33ece69d90d11ee",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "4ab8f9362a0f50b4",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "a9947c142dfd257f",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "6f926e0fb5f49208",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "9877e8e228b6e69d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "e37d21df0e939de6",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "83e237855808bb32",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "bec4e3052e17683e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "2fccc467bbf7717a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "3a2424f52fcb6d6a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "fa1af09f69932f9c",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "56ffe11a9c1d1390",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "12488dc7eb68bf1f",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "8f27c85afe61302b",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "2f01dd7c34676069",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "b59fa20130592ba6",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "7d595c88111dc02f",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "b9baf5fd688f8356",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "eaaf9af3491951dd",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "2ea04e135b614130",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "c11dbba3ab82ea98",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "7b8ad5711d4a543e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "670c7210da6b8293",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "9142257b06a7ce47",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "152163f691a05011",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "05fa002949dfdb11",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "5c653431bc10734f",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "c0c74d1b4f165c1a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "7fd8825bad6385b9",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "a550c3b2bf6d4651",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "1018693b0ad31959",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "9ea44c0eb9af1379",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "339c9c9700502f6a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "836c787167b15a98",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "fd322792afd514fd",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "a4db6698dfc48ae7",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "90aabcd4918d673d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "8eb7efc113f887e3",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "20afa97639eaa91b",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "7fc4c22ca667aae6",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "316696f43479a25c",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "2984e2bc24c071f2",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "d2088bb8e0621a6c",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "8284dce17d9bd259",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "8620c955c8c0b4dc",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "ad0e01d2837336fe",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "627e2c84e0ed79b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "86098d176d46f21b",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "f09c8a33740b5384",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "fe0875ca5f937bf4",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "5cce28d4b2a57447",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "dd8f9d4784b39fe5",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "4a8c95da768a43a7",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "3490dd4fa514a894",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "811803a93654be2a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "f98a186cf7132f60",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "6f2387afd2f5726c",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "7d2fbd8764bd0caf",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "a75f825d80ef904a",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "3d3e0a5662331b67",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "64fb9d0c835e097",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "f6f4d3e05d35d665",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "1d6f2a52de714353",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "2c506f2bcb2e46ab",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "2d354029840c97a6",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "442751334a4290f4",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "5d9cbbb55bc17e98",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "6114cbc4bf8e8322",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "d4b6ed08a5b3a6dc",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "fb3f45150233ea7c",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "a73908cc699a0ec8",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "d7adecd82339dc20",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "5954f03ca944dc87",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "37119c4f4dde38a3",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "049310250e54140b",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8a55715ff9db2ead",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8bcff83528123aec",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "656c73cdaa151c39",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "ac1667c61b6f1f75",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "313b8157fbf0c473",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "4eb2e222f4adf8b8",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "0fbe52311d051bfd",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "808cc00f9c2a45f9",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "021ba670e131fefb",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "b9d9742bc730a9b6",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "b5bd3c16b1a7cca8",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+						},
+						{
+							"ref": "053fd07f44cd66fd",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "cf9cc4bdcbdfda6e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "4eedef6fe6ecd4e8",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "f3a8eee41fea465e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "1a34fb1196b05d0e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "6e36b72b7e1e8674",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe0455403bc943",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe6f1e36606808",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe75d46330b77c",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafefcc63c701ea5",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"00FF73F4CA07E38B",
+		"[assembly:/_pro/scenes/missions/elegant/elusive_jockeyclub.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/elegant/elusive_clerico.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/elegant/mission_mild_sapo.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

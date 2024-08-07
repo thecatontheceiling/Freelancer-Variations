@@ -1,0 +1,379 @@
+{
+	"tempHash": "00E241FEF376ED3F",
+	"tbluHash": "00A36F30EACEC47F",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "62a4e1f5fa384cca",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/override_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "78fcc1c0-5612-4284-924f-c20d9e322c96"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "be8f8f0637b39e1b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90 },
+						"position": {
+							"x": 111.68119049072266,
+							"y": -77.31285858154297,
+							"z": 65.31646728515625
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a0be39862c956fbe",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/override_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -129.05065968773144
+						},
+						"position": {
+							"x": 68.1197,
+							"y": -75.711235,
+							"z": 65.29728
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "ebf40efbf0c0e8b6",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/override_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.18557191403825
+						},
+						"position": {
+							"x": 110.44925,
+							"y": -79.67084,
+							"z": 65.31649
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "61efd4c27bb4894",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "a62b9866aab3d1b2",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "2908543968976820",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "23611a06c195ba2a",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "f83d8b79079b12a",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "d8f3b77b9a74d2a4",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "5dd7bfc5ae796a20",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "5b513b6bdce2e082",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "e43a3cd60b6eaf00",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "639b3e0b3283b487",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "ae911b301434e868",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "f46de10039b9d318",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "b86be28bde077d8d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "2a214183f1734f9f",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "ccfbb7d9690081ea",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "7bf09d969be912af",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "bbaa30da7561d91d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "d24d8c0f879749f5",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "83ae532e46c67c7b",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8d56b84dfc7449c2",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "7e8e950bacff8e18",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "9436444f363becdd",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "f94004e971e14ab3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "740a4ed12055c14d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "6dc4da0b16e44e30",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "c74c14a9a7a31a66",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "14865498c0eccfdb",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "17314d5ecd334087",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "9e07a86a86485d7d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "458b1219aecd6fc3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "a93d9aa8365762ca",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "9f094a69554ad77b",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "648405540936200c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "f7de613b3c9eb7fc",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8c538992ef6ba234",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "7bf9fcd54c2ed29c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "d762e4aa215b6a40",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "2fea73147f11fb62",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "20cef790c413a6f3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "4977b979b55bc7d6",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "2a2b29c317b8723b",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "be2838b0ae2632b0",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "e60f66ef40b91a26",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "75fc33581bd74acd",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "3cd424813d034125",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "38bb4af6e98deeb6",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "c5801aa6cc6d6a14",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "5133f771bbf9478f",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "69e0785af03fb585",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "d9015c361f1cdb8c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "80d185c776d237ba",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "7dc22ddee1beb8fd",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "19e807ad92cff4ee",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "dbc6e06c5dfb15f5",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "748e31dc40e08857",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "2ff9f72d4c5048ef",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "e14a94c8055392b0",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "f9475b04badd2b94",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "cf5cbefb71161165",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "d37257c8c7a7f70d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "9717cc20aad1b072",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "d8e9c0e2e0876ab0",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						},
+						{
+							"ref": "08e7c01a9b8478f7",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/bangkok/mission_zika.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/override_sicbo.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

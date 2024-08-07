@@ -1,0 +1,16 @@
+{
+    "tempHash": "00E4691BD97E440C",
+    "tbluHash": "0004E49101268772",
+    "patch": [
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+        }
+    ],
+    "patchVersion": 6
+}

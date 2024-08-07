@@ -1,0 +1,58 @@
+{
+    "tempHash": "00614DC46EC0D2AF",
+    "tbluHash": "00FE2273B402D1E7",
+    "rootEntity": "fffffffffffffffe",
+    "entities": {
+        "fffffffffffffffe": {
+            "parent": null,
+            "name": "Scene",
+            "factory": "[modules:/zspatialentity.class].pc_entitytype",
+            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+        },
+        "abcdda5116b3226e": {
+            "parent": "fffffffffffffffe",
+            "name": "Trigger stuff upon game start",
+            "factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+            "blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+            "properties": {
+                "m_eEvent": {
+                    "type": "EGameEventType",
+                    "value": "GET_GameplayStart"
+                }
+            },
+            "events": {
+                "EventOccurred": {
+                    "GetIndex": [
+                        "abcd4be6399231c3"
+                    ]
+                }
+            }
+        },
+        "abcd4be6399231c3": {
+            "parent": "abcdda5116b3226e",
+            "name": "zmultiparentspatialentity",
+            "factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+            "blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+            "properties": {
+                "m_aParents": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": []
+                }
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [
+        "[assembly:/_pro/scenes/missions/salty/mission_seagull/mission_hot_hantu_hex.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/salty/mission_seagull/rain.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/salty/mission_seagull/night.brick].pc_entitytype","[assembly:/_pro/scenes/missions/salty/mission_seagull/scenario_seagull_sandbox.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/evergreen_hot_data.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/override_hantu.brick].pc_entitytype", "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype", "[assembly:/_pro/scenes/missions/salty/mission_seagull/outfits_seagull.brick].pc_entitytype"
+    ],
+    "subType": "brick",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

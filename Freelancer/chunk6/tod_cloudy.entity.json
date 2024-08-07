@@ -1,0 +1,3304 @@
+{
+    "tempHash": "00128D349DB5E02E",
+    "tbluHash": "0069006DBF2C7BC3",
+    "rootEntity": "fffffffffffffffe",
+    "entities": {
+        "fffffffffffffffe": {
+            "parent": null,
+            "name": "Scene",
+            "factory": "[modules:/zspatialentity.class].pc_entitytype",
+            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+        },
+        "abcd03f4298b8b99": {
+            "parent": "fffffffffffffffe",
+            "name": "GlobalLighting",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "abcd50ac21f92f66": {
+            "parent": "abcd03f4298b8b99",
+            "name": "GlobalLight",
+            "factory": "[modules:/zgloballightentity.class].pc_entitytype",
+            "blueprint": "[modules:/zgloballightentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -48.717041015625,
+                            "y": 71.20594024658203,
+                            "z": -1.0288339853286743
+                        }
+                    }
+                },
+                "m_GlobalLightFrontColor": {
+                    "type": "SColorRGB",
+                    "value": "#add9ff"
+                },
+                "m_GlobalLightBackColor": {
+                    "type": "SColorRGB",
+                    "value": "#add9ff"
+                },
+                "m_fGlobalLightFrontIntensity": {
+                    "type": "float32",
+                    "value": 0.20000000298023224
+                },
+                "m_fGlobalLightBackIntensity": {
+                    "type": "float32",
+                    "value": 0.20000000298023224
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fGlobalLightPhong": {
+                    "type": "float32",
+                    "value": 1
+                }
+            }
+        },
+        "abcd5a137e4c8995": {
+            "parent": "abcd03f4298b8b99",
+            "name": "BoxReflection",
+            "factory": "[modules:/zboxreflectionentity.class].pc_entitytype",
+            "blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
+            "properties": {
+                "m_vGlobalSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 1000,
+                        "y": 1000,
+                        "z": 1000
+                    }
+                },
+                "m_vSampleOffset": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 5
+                    }
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_eType": {
+                    "type": "ZBoxReflectionEntity.EType",
+                    "value": "eFallback"
+                },
+                "m_eBoundsType": {
+                    "type": "ZBoxReflectionEntity.EBoundsType",
+                    "value": "eBox"
+                }
+            }
+        },
+        "abcd40fe8aeddea9": {
+            "parent": "abcd03f4298b8b99",
+            "name": "RenderAtmosphericScattering",
+            "factory": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
+            "blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": -32.81127166748047,
+                            "y": -633.622314453125,
+                            "z": 51.343788146972656
+                        }
+                    }
+                },
+                "m_fWorldScale": {
+                    "type": "float32",
+                    "value": 3
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC"
+                },
+                "m_bForceVisible": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisibleInBoxReflection": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fMieAnisotropy": {
+                    "type": "float32",
+                    "value": 0.30000001192092896
+                },
+                "m_fShadowedInscatterIntensity": {
+                    "type": "float32",
+                    "value": 15
+                },
+                "m_fFakeMultipleScattering": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fSunIntensityScale": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fShadowedRayleighDepthScale": {
+                    "type": "float32",
+                    "value": 2
+                },
+                "m_fHeightAboveSeaLevel": {
+                    "type": "float32",
+                    "value": 1000
+                },
+                "m_fInscatterIntensity": {
+                    "type": "float32",
+                    "value": 0.10000000149011612
+                },
+                "m_fSunRadiusScale": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fShadowedRange": {
+                    "type": "float32",
+                    "value": 100
+                },
+                "m_RayleighColor": {
+                    "type": "SColorRGB",
+                    "value": "#96bcfa"
+                }
+            }
+        },
+        "abcd106536444c31": {
+            "parent": "abcd03f4298b8b99",
+            "name": "Light_CSM",
+            "factory": "[modules:/zlightentity.class].pc_entitytype",
+            "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+            "properties": {
+                "m_eLightType": {
+                    "type": "ILightEntity.ELightType",
+                    "value": "LT_DIRECTIONAL"
+                },
+                "m_vBoxSize": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 143.49600219726565,
+                        "y": 270.9339904785156,
+                        "z": 178.67300415039065
+                    }
+                },
+                "m_bCastCSMShadows": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fDiffusePower": {
+                    "type": "float32",
+                    "value": 100
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_eRoomLightFlow": {
+                    "type": "ILightEntity.ERoomLightFlow",
+                    "value": "AUTOMATIC"
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 6.640474769020945,
+                            "y": 60.572954500562666,
+                            "z": -33.8314741091177
+                        },
+                        "position": {
+                            "x": -91.81511688232422,
+                            "y": 56.4038200378418,
+                            "z": 87.93312072753906
+                        },
+                        "scale": {
+                            "x": 1.0000000000000002,
+                            "y": 1,
+                            "z": 1
+                        }
+                    }
+                },
+                "m_diffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_fAspectXByY": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fCapsuleHeight": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_ProjectorMap": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "003A6D2273AE4D97",
+                        "flag": "5F"
+                    }
+                },
+                "m_vProjectorMapTiling": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 2,
+                        "y": 2
+                    }
+                },
+                "m_vProjectorMapOffset": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "m_vProjectorMapUVVelocity": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.019999999552965164,
+                        "y": 0.009999999776482582
+                    }
+                },
+                "m_vBoxFadeNeg": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "m_vBoxFadePos": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "m_fLightFadeDistance": {
+                    "type": "float32",
+                    "value": 20
+                },
+                "m_fLightFadeLength": {
+                    "type": "float32",
+                    "value": 10
+                },
+                "m_vAreaQuadSize": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 5,
+                        "y": 5
+                    }
+                },
+                "m_fAreaQuadViewFactorThreshold": {
+                    "type": "float32",
+                    "value": 0.019999999552965164
+                },
+                "m_bCastOmniShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bCrowdCastShadows": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bHighShadowPriority": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bPCCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bCutsceneLight": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bEnableLightFade": {
+                    "type": "bool",
+                    "value": false
+                },
+                "BillboardTexture": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "m_bForceVisible": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bHQStaticShadowMap": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        "abcdc377c4cf3251": {
+            "parent": "abcd03f4298b8b99",
+            "name": "Postfilters",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "abcd0411d589e38b": {
+            "parent": "abcd03f4298b8b99",
+            "name": "TimeOfDayConfig",
+            "factory": "[modules:/ztimeofdayconfig.class].pc_entitytype",
+            "blueprint": "[modules:/ztimeofdayconfig.class].pc_entityblueprint",
+            "properties": {
+                "m_fTimeOfDay": {
+                    "type": "float32",
+                    "value": 16
+                }
+            }
+        },
+        "abcdad083fa551d3": {
+            "parent": "abcdc377c4cf3251",
+            "name": "PostfilterParameters_0_Outside",
+            "factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+            "blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+            "properties": {
+                "m_bColorCorrectionEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_nParameterId": {
+                    "type": "int32",
+                    "value": 1
+                },
+                "m_bHDREnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_eHDRGlareType": {
+                    "type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+                    "value": "eNatural"
+                },
+                "m_vHDRAdaptationSpeed": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 3,
+                        "y": 3
+                    }
+                },
+                "m_bHDRLensFlareEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bHDRGlareEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_vHDRAdaptationLuminanceMinMax": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5,
+                        "y": 10
+                    }
+                },
+                "ColorCorrectionTextureHDR": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00333DA97534256B",
+                        "flag": "5F"
+                    }
+                },
+                "m_bVignetteEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fVignetteStrength": {
+                    "type": "float32",
+                    "value": 0.6499999761581421
+                },
+                "m_bSSAOEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bNoiseEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fASSAORadius": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fASSAOMultiplier": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_vASSAOFadeInRange": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": -5,
+                        "y": 10
+                    }
+                },
+                "m_fNoiseScale": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "m_fNoiseIntensity": {
+                    "type": "float32",
+                    "value": 0.029999999329447746
+                },
+                "m_fHDRBloomScale": {
+                    "type": "float32",
+                    "value": 0.2
+                },
+                "m_fHDRBrightPassThreshold": {
+                    "type": "float32",
+                    "value": 0.30000001192092896
+                },
+                "m_fHDRBrightPassMaxPercentage": {
+                    "type": "float32",
+                    "value": 90
+                },
+                "m_fHDRBloomFalloff": {
+                    "type": "float32",
+                    "value": 1.5
+                },
+                "m_vHDRBloomMinFalloffDistanceMinMax": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": -5,
+                        "y": 5
+                    }
+                },
+                "m_fHDRLensFlareAttenuation": {
+                    "type": "float32",
+                    "value": 0.699999988079071
+                },
+                "m_fVignetteSharpenStrength": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fHDRExposureMeteringSize": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "m_HDRColorTint": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "m_fSSRGlossFadeOut": {
+                    "type": "float32",
+                    "value": 0.4000000059604645
+                },
+                "m_fSSRGlossFadeIn": {
+                    "type": "float32",
+                    "value": 0.699999988079071
+                },
+                "m_fVignetteMin": {
+                    "type": "float32",
+                    "value": 0.20000000298023224
+                },
+                "m_HDRAdaptionMiddleGrayCurveEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "abcdc76b9205a72d",
+                    "postInit": true
+                }
+            },
+            "platformSpecificProperties": {
+                "XBONE": {
+                    "m_fSSRGlossFadeOut": {
+                        "type": "float32",
+                        "value": 0.5
+                    }
+                },
+                "PS4": {
+                    "m_fSSRGlossFadeOut": {
+                        "type": "float32",
+                        "value": 0.5
+                    }
+                },
+                "PS4_PRO": {
+                    "m_fSSRGlossFadeOut": {
+                        "type": "float32",
+                        "value": 0.5
+                    }
+                },
+                "XBONE_X": {
+                    "m_fSSRGlossFadeOut": {
+                        "type": "float32",
+                        "value": 0.5
+                    }
+                }
+            }
+        },
+        "abcdec1ebafa66d3": {
+            "parent": "abcdc377c4cf3251",
+            "name": "FX_PF_PostfilterController",
+            "factory": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
+            "blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_nMaxMirrors": {
+                    "type": "uint32",
+                    "value": 2
+                },
+                "m_bDepthCull": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcdc76b9205a72d": {
+            "parent": "abcdc377c4cf3251",
+            "name": "MiddleGrayCurve_Inside_Outside",
+            "factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+            "blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+            "properties": {
+                "m_Remap": {
+                    "type": "ZCurve",
+                    "value": {
+                        "data": [
+                            [
+                                -5.5689520835876465,
+                                0.007641185075044632,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.042741402983665466,
+                                0.007641185075044632
+                            ],
+                            [
+                                -1.6116151809692383,
+                                0.0503825880587101,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.007765652611851692,
+                                0.0503825880587101
+                            ],
+                            [
+                                -1.0586421489715576,
+                                0.05814823880791664,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.016214413568377495,
+                                0.05814823880791664
+                            ],
+                            [
+                                -0.4582182466983795,
+                                0.07436265051364899,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.01879412867128849,
+                                0.07436265051364899
+                            ],
+                            [
+                                0.0014200065052136779,
+                                0.09315678477287292,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.019700469449162483,
+                                0.09315678477287292
+                            ],
+                            [
+                                0.47639167308807373,
+                                0.11285725235939026,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.018473809584975243,
+                                0.11285725235939026
+                            ],
+                            [
+                                1.0335047245025635,
+                                0.13133105635643005,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.010041758418083191,
+                                0.13133105635643005
+                            ],
+                            [
+                                1.6361351013183594,
+                                0.14137281477451324,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.14137281477451324
+                            ]
+                        ]
+                    }
+                }
+            }
+        },
+        "abcd07ba5ac8d779": {
+            "parent": "abcdc377c4cf3251",
+            "name": "Original",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "abcd36096f082ce3": {
+            "parent": "abcd07ba5ac8d779",
+            "name": "PostfilterParameters_Indoor",
+            "factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+            "blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+            "properties": {
+                "m_bColorCorrectionEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bHDRLensFlareEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fHDRBloomFalloff": {
+                    "type": "float32",
+                    "value": 1.4800000190734863
+                },
+                "m_bNoiseEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bHDRGlareEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_eHDRGlareType": {
+                    "type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+                    "value": "eFilterSunnyCrossSpectral"
+                },
+                "m_bSSAOEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bVignetteEnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bGaussianBlurEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_fGaussianBlurriness": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fSpatialBlurriness": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_bRadialBlurEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bSpatialBlurEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_fHDRBloomScale": {
+                    "type": "float32",
+                    "value": 0.3
+                },
+                "m_fNoiseIntensity": {
+                    "type": "float32",
+                    "value": 0.029999999329447743
+                },
+                "m_fNoiseScale": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "m_VignetteColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "m_fVignetteStrength": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "ColorCorrectionTextureHDR": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00D835ABD86937DA",
+                        "flag": "5F"
+                    }
+                },
+                "m_fHDRLensFlareAttenuation": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fRadialBlurStart": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fRadialBlurriness": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_fRadialBlurFadeFactor": {
+                    "type": "float32",
+                    "value": 0.10999999940395357
+                },
+                "m_vVignetteGradientLightColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "m_fVignetteGradientLightSize": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fVignetteGradientLightStrength": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fHDRBrightPassMaxPercentage": {
+                    "type": "float32",
+                    "value": 50
+                },
+                "m_bHDREnabled": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fSSAOOcclusionRange": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_HDRAdaptionMiddleGrayCurveEntity": {
+                    "type": "SEntityTemplateReference",
+                    "value": "abcdc6966303f49e"
+                },
+                "m_fHDRBrightPassThreshold": {
+                    "type": "float32",
+                    "value": 0.10000000149011612
+                },
+                "m_nParameterId": {
+                    "type": "int32",
+                    "value": 0
+                },
+                "m_vSSAOStrengthNearFar": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0,
+                        "y": 10
+                    }
+                },
+                "m_vSSAODistanceNearFar": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 5,
+                        "y": 15
+                    }
+                },
+                "m_vSSAOScreenSpaceRadiusLimits": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 46.86000061035156,
+                        "y": 100
+                    }
+                },
+                "m_vRadialBlurCenter": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+                },
+                "m_vSpatialBlurCenter": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "m_fSpatialBlurStart": {
+                    "type": "float32",
+                    "value": 0
+                },
+                "m_fSpatialBlurFade": {
+                    "type": "float32",
+                    "value": 10
+                },
+                "m_vHDRAdaptationLuminanceMinMax": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 1,
+                        "y": 20
+                    }
+                },
+                "m_HDRLensFlareColorA": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "m_fHDRLensFlareThresholdA": {
+                    "type": "float32",
+                    "value": 0.4699999988079071
+                },
+                "m_HDRLensFlareColorB": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "m_fHDRLensFlareThresholdB": {
+                    "type": "float32",
+                    "value": 0.4300000071525574
+                },
+                "m_HDRLensFlareColorC": {
+                    "type": "SColorRGB",
+                    "value": "#414a80"
+                },
+                "m_fHDRLensFlareThresholdC": {
+                    "type": "float32",
+                    "value": 0.009999999776482582
+                },
+                "m_HDRLensFlareColorD": {
+                    "type": "SColorRGB",
+                    "value": "#3b2e1f"
+                },
+                "m_fHDRLensFlareThresholdD": {
+                    "type": "float32",
+                    "value": 0.009999999776482582
+                },
+                "m_fSSAOAngleOffset": {
+                    "type": "float32",
+                    "value": 0.30000001192092896
+                },
+                "m_fHDRExposureMeteringSize": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "m_fHDRStarScale": {
+                    "type": "float32",
+                    "value": 0.029999999329447743
+                },
+                "m_vHDRBloomMinFalloffDistanceMinMax": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 0,
+                        "y": 5
+                    }
+                },
+                "m_fASSAORadius": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_vHDRAdaptationSpeed": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": 2,
+                        "y": 1
+                    }
+                },
+                "BillboardTexture": {
+                    "type": "ZRuntimeResourceID",
+                    "value": null
+                },
+                "m_fVignetteSharpenStrength": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_vASSAOFadeInRange": {
+                    "type": "SVector2",
+                    "value": {
+                        "x": -5,
+                        "y": 10
+                    }
+                },
+                "m_fASSAOMultiplier": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_bDepthOfFieldEnabled": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bForegroundBlur": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bDepthOfFieldUseNew": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_fDepthOfFieldAperture": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "m_fDepthOfFieldFocalDistance": {
+                    "type": "float32",
+                    "value": 5
+                },
+                "m_fLensBlur": {
+                    "type": "float32",
+                    "value": 10
+                },
+                "m_fVignetteMin": {
+                    "type": "float32",
+                    "value": 0.30000001192092896
+                }
+            }
+        },
+        "abcdc6966303f49e": {
+            "parent": "abcd36096f082ce3",
+            "name": "MiddleGrayCurve",
+            "factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+            "blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+            "properties": {
+                "m_Remap": {
+                    "type": "ZCurve",
+                    "value": {
+                        "data": [
+                            [
+                                -0.0025752028450369835,
+                                0.03265639394521713,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.04172108322381973,
+                                0.03265639394521713
+                            ],
+                            [
+                                1.0030720233917236,
+                                0.07437747716903687,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.048574768006801605,
+                                0.07437747716903687
+                            ],
+                            [
+                                2.0498881340026855,
+                                0.12295224517583848,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0,
+                                0.12295224517583848
+                            ]
+                        ]
+                    }
+                }
+            }
+        },
+        "abcd847bc03df8d2": {
+            "parent": "abcd03f4298b8b99",
+            "name": "Clouds",
+            "factory": "[modules:/zentity.class].pc_entitytype",
+            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+        },
+        "abcd11a87390a8cf": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_03",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 161.99988166853575
+                        },
+                        "position": {
+                            "x": 137.2174072265625,
+                            "y": -239.7978973388672,
+                            "z": 0.3444249927997589
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 5,
+                        "y": 0.4638650119304657,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd832d8bc69110": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_10",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -36.484271068647175
+                        },
+                        "position": {
+                            "x": -50.20479965209961,
+                            "y": 214.99020385742188,
+                            "z": 2.820770025253296
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd221c1ec551b4": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_07",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 73.04957744223904
+                        },
+                        "position": {
+                            "x": 205.8105010986328,
+                            "y": -85.39415740966797,
+                            "z": 2.298809051513672
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd1e9420ed1f60": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_13",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -90
+                        },
+                        "position": {
+                            "x": -360.0451965332031,
+                            "y": -68.08065795898438,
+                            "z": 4.023091793060303
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 18.741899490356445,
+                        "y": 1.0578900575637817,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd0327e48b28c4": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_01",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -90
+                        },
+                        "position": {
+                            "x": -170.91299438476563,
+                            "y": -6.280055999755859,
+                            "z": 1.2410550117492676
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 5,
+                        "y": 0.4638650119304657,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd3705a688bb2f": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_12",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 68.93830458428863
+                        },
+                        "position": {
+                            "x": 105.16449737548828,
+                            "y": 131.77369689941406,
+                            "z": 2.820780038833618
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcdc7eee56a04d5": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_11",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 12.215957096465317
+                        },
+                        "position": {
+                            "x": 67.98133087158203,
+                            "y": 221.39300537109375,
+                            "z": 2.8207809925079346
+                        },
+                        "scale": {
+                            "x": 0.9999999999999999,
+                            "y": 0.9999999999999999,
+                            "z": 1
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcde2308643ad4f": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_05",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 167.72927954207242
+                        },
+                        "position": {
+                            "x": 157.29249572753906,
+                            "y": -459.5968933105469,
+                            "z": 1.2744590044021606
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcdb23f8542e1e6": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_cheap_Cold",
+            "factory": "[assembly:/_pro/environment/materials/backdrop/sky/clouds/cloud_d_cheap.mi].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/materials/backdrop/sky/clouds/cloud_d_cheap.mi].pc_entityblueprint",
+            "properties": {
+                "281600028": {
+                    "type": "bool",
+                    "value": true
+                },
+                "907024231": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "937663560": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "1787395739": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "2400348683": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 84.81629679195196,
+                            "y": -1.4605130123156926,
+                            "z": -105.90911005604822
+                        },
+                        "position": {
+                            "x": 866.7623291015625,
+                            "y": 308.12939453125,
+                            "z": 28.18539047241211
+                        },
+                        "scale": {
+                            "x": 1,
+                            "y": 1.0000000000000002,
+                            "z": 0.9999999999999999
+                        }
+                    }
+                },
+                "ConstantColorRGB_02_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantVector1D_09_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantVector1D_09_Value": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "Texture2DHeightMap_01": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "0056E27700BE15CB",
+                        "flag": "5F"
+                    }
+                },
+                "Override": {
+                    "type": "bool",
+                    "value": true
+                },
+                "ConstantVector1D_21_Value": {
+                    "type": "float32",
+                    "value": 0.6000000238418579
+                },
+                "ConstantVector1D_07_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eLeave"
+                },
+                "ConstantVector1D_07_Value": {
+                    "type": "float32",
+                    "value": 0.5
+                },
+                "SoftDepthIntersect_01_RcpFadeTreshold": {
+                    "type": "float32",
+                    "value": 0.019999999552965164
+                },
+                "ConstantColorRGB_02_Value": {
+                    "type": "SColorRGB",
+                    "value": "#f5f9ff"
+                },
+                "ConstantVector3D_01_Value": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 0.0020000000949949026,
+                        "y": 0.0020000000949949026,
+                        "z": 0.0020000000949949026
+                    }
+                },
+                "ConstantVector1D_03_Value": {
+                    "type": "float32",
+                    "value": -0.009999999776482582
+                },
+                "Active": {
+                    "type": "bool",
+                    "value": true
+                },
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "abcd5365f26394ea",
+                        "abcd0327e48b28c4",
+                        "abcda2062cf2879a",
+                        "abcd11a87390a8cf",
+                        "abcd71ca42d19313",
+                        "abcde2308643ad4f",
+                        "abcdfffe06d79600",
+                        "abcd221c1ec551b4",
+                        "abcd006dfbd3d54b",
+                        "abcd22b32d9c1296",
+                        "abcd832d8bc69110",
+                        "abcdc7eee56a04d5",
+                        "abcd3705a688bb2f",
+                        "abcd1e9420ed1f60"
+                    ],
+                    "postInit": true
+                }
+            }
+        },
+        "abcd006dfbd3d54b": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_08",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -58.82999085168091
+                        },
+                        "position": {
+                            "x": -261.8699035644531,
+                            "y": 93.3555679321289,
+                            "z": 3.1937429904937744
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcda2062cf2879a": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_02",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 115.58095998874045
+                        },
+                        "position": {
+                            "x": 178.07789611816406,
+                            "y": -202.6116943359375,
+                            "z": 0.3444240093231201
+                        },
+                        "scale": {
+                            "x": 0.9999999999999999,
+                            "y": 0.9999999999999999,
+                            "z": 1
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 5,
+                        "y": 0.4638650119304657,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd5365f26394ea": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -104.51118077752469
+                        },
+                        "position": {
+                            "x": -109.65489959716797,
+                            "y": -53.174190521240234,
+                            "z": 0.4216249883174896
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 5,
+                        "y": 0.4638650119304657,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcdfffe06d79600": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_06",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 167.72927954207242
+                        },
+                        "position": {
+                            "x": 222.92660522460938,
+                            "y": -300.9930114746094,
+                            "z": 2.1126561164855957
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd71ca42d19313": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_04",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": 167.72927954207242
+                        },
+                        "position": {
+                            "x": 81.56886291503906,
+                            "y": -211.57119750976563,
+                            "z": 1.2745170593261719
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 5.397900104522705,
+                        "y": 0.4638650119304657,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd22b32d9c1296": {
+            "parent": "abcd847bc03df8d2",
+            "name": "cloud_d_HighResTexture_Giant_Bottom_09",
+            "factory": "00889CCA1EBA10DB",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": -90,
+                            "y": 0,
+                            "z": -36.484271068647175
+                        },
+                        "position": {
+                            "x": -183.1945037841797,
+                            "y": 175.8397979736328,
+                            "z": 3.1937460899353027
+                        }
+                    }
+                },
+                "m_eRoomBehaviour": {
+                    "type": "ZSpatialEntity.ERoomBehaviour",
+                    "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+                },
+                "m_bCastShadows": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_bIsPrivate": {
+                    "type": "bool",
+                    "value": true
+                },
+                "m_PrimitiveScale": {
+                    "type": "SVector3",
+                    "value": {
+                        "x": 10.144399642944336,
+                        "y": 1.110260009765625,
+                        "z": 1
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        },
+        "abcd873f12cf48a8": {
+            "parent": "abcd03f4298b8b99",
+            "name": "Sky_Sunset_v2_033_bulldog",
+            "factory": "00464EE06E4AA17D",
+            "blueprint": "00DFDFB9A720E8E1",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 102.7439763663997
+                        },
+                        "position": {
+                            "x": 0.6654052734375,
+                            "y": 0.0476989746094,
+                            "z": -300.324951171875
+                        }
+                    }
+                },
+                "ConstantColorRGB_01_Value": {
+                    "type": "SColorRGB",
+                    "value": "#ffffff"
+                },
+                "ConstantVector1D_07_Value": {
+                    "type": "float32",
+                    "value": 4
+                },
+                "m_bVisible": {
+                    "type": "bool",
+                    "value": true
+                },
+                "ConstantVector1D_02_Value": {
+                    "type": "float32",
+                    "value": 1
+                },
+                "m_bForceVisible": {
+                    "type": "bool",
+                    "value": true
+                }
+            }
+        }
+    },
+    "propertyOverrides": [
+        {
+            "entities": [
+                {
+                    "ref": "9f087eae1608ae01",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "220309615ac882a4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8d014ced9d5dba0c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "6921974db67ec15",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "57c7222780f9d91f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "49d724efd9ceea4a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "834e1fd8d1681d6c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8e6fe29cd94ae722",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "cb21e42e52a6732f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "eecf5b55cd0247ad",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "5951a11b77aa21e1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f9b20670df128f7d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fbb4b2b576d38ea1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d4d7b28bffd3380a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d0ae57753b96e9d6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e66ccbb74eb5cf12",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "844e2301fa138eb6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ae0024b63960af36",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3aabe3456f5dea35",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e193e635cc395fef",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2ac11fef59a8c38a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "cf0f549d50ca9f37",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "21c337a0a4125f62",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2dee9eb775763a7c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d75d865ff5fcd63a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "7fd77a27b429bd20",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "af14a2908248348d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "38ebb5e234497bff",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "92e5753f46c36d6e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8121b6b5afa00758",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "48156b241ef34290",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ebc49eb038a0f7b0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "63a57d7ad6e196ae",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fb52794f211a29a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "54128fcd69b744fa",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a83f635ba80ebaf6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ff380c0ac8a3db91",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b71d7312b239b648",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "be699ce5a515a421",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fd061af912ed6e2e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "51427738fe4dbebc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "aa5d210c6c28b1f0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ce374338ecfcffc6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2eca6f890043bd51",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d251eea9046806bd",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "273cc1033868bc51",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "755cbddbe8b4125f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4d07cb4039b94f56",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d39c2b868c5d272d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "54bc9cdf88b92362",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1c12bec826159e13",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ac05635f8d41dd9b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2a0013570c0f00d0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bc136b8db308dc8c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "96fc698fc5440e8e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "eae98f55aeacdac5",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bcd67fbd459888c4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8114f4c6c8e369d4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fd1343366a14318e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "18ce749530b6245b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8afdd298fec36076",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b0163cc14f705de1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "dfebe7c081561f86",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "35d52bd5624fd661",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1eb6860ab61a4a75",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bcf4f0a20f4d4342",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4bbf0699cc28ac3c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8be574a7252911b1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "588b9baee591c898",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8dc5534efa41c663",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "22979e81a6edd951",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d76a081a3d8b9f46",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "435289a3f9ee50b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4c186a8710c77903",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1fa95043ce6ae8a5",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d797d7d1c0b7d64d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c1b9322bf96ee715",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b1742253b8648547",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ddb8d4320811e230",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "406cf7c331de3a68",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d20d7f897a3e4f26",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "aabff85e98e4b86e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3fe2194b1504156e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "79c6eb0d38b38778",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f1a97c73ec82db13",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "82c670d51eb51319",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9f61f23ec75d969",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "eafa4df78518421c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "270162b7155a3944",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "81947cd37df888ff",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8720f128e67bc93f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "650cd04386ede852",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b4eb0ee42a3ae8f4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3935543f137541f8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9123ddc8d75d9ee4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "344b6df6bb053fc8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "5951fd3b4875434b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4813c4a419803020",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "256ddf12e37a45cc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "15ade490603ef8ae",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bf7286b1fc7befe3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "6eb79b0b15c8a747",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "6c3de51c819b596d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "47eaf04fe5781e79",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3e9f05dc0a9b4787",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "7a4c1375068e1638",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "327579cf613e2d2a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f807d42219b2aa20",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a4ee5bae5c6a653f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ed1780e4c86b4c1b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1f1140a9d6b460aa",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3b8029d8e85ad2f7",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "409514fa4d8375dc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d4fd14d568598fff",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f0903018ac0bd7ee",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "68dd714b11d83329",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ea2114c33253ccdb",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "27a94f79db867852",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "63221bdc90b5c602",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b4ea856ef70a7ad",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b25a8e57c26046ba",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f0e961714e8b51ad",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9d582ea04d54f832",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "6264763fa1d7f914",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "27b4556272899146",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bfcdf07862f963c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Light_On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "IgnoreTimeOfDay": {
+                    "type": "bool",
+                    "value": false
+                },
+                "LightOn": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "90f2f290a151ea49",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "88f0c10e343d29b4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "91c8156e6c7642ad",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "IgnoreTimeOfDay": {
+                    "type": "bool",
+                    "value": false
+                },
+                "LightOn": {
+                    "type": "bool",
+                    "value": false
+                },
+                "m_diffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "DiffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Light_On": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "7373377a3d5e99dd",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8510103bbf17090b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ec1a6dfd4622f5fc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4e1f15ae7a8f8a2e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d4cc5463909bf34a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f4af9b886e722c45",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a09a4ab780043f48",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "62a1352d03546e96",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8a5ce1cbc84fd8e7",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "aad55eac2d05644d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "799276c7f555bb64",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "af03e9547a9b968c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "cb05f5e4f836473b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "956e4a329ce2e83a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e3064334cc6bbd89",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c69dc80748af6086",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c59226ada6575349",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bd254eb79b3b1bd1",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9b4357414b9a7ecd",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "43883fd48cce94c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "33cf8efa56bb719f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c8f90cccc9d90b8f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fc35cfa0531d7149",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8a36d30e3d4a2b89",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2c27ad5b7eb1facb",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "875c7a9eb61243e3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9fd41fce399e3f25",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9accc5aa429139dc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "bfd248b545fa8d4c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d38ac1acd8b2bfca",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_diffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "DiffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Light_On": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "a4aba4e2287d16e7",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e3b21e53d0c2500a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c9231f2b6912c3c9",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "17de1ff4193fe17b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3e75b1b56f3b32f9",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "daf54872fe986337",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "11033cf2789e4d5a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "44646a0f1a722a89",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "78eb9d8a25525bb3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "6de92d96e07c79ea",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "85bcb40a9946af5b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a570ed8965632706",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "991980d921d856fd",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "177c9b7d3bf3a5b4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "63dbb04f504052eb",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9026353d07b9409a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "80e85bea0d9cf4a7",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "73950f9056338e5d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_diffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Light_On": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "34980ce9e4a1a003",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "77885e36c2f69b3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b562774864e447be",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "522b5fada884f61c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ffca0620a3524bd4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2e552ccfc2d36a9e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "522edd251776822c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "25922be918c5fbec",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4a63a8210fe949f9",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "763eaaf90903a1cb",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3c74140e032f160f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "432c25b1682987c3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1b2cc293a4926641",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "57b319c30f852fda",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b2457780927c197e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3fa009da474c5b38",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3b94057b640668cf",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "10c628f7292fda2f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d437866e9b6f207",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a349afa475ef566f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8905601624135892",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "71fe5e1072107a87",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9f5e2f4e823b2421",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "4cdd7e1e695367cc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "cdae4a373c05de86",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f2d434d90c172886",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c7077bb0b28fe310",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8aaa03c059621b93",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a98affbae58cca9b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2cc9ffe77ff6ecc2",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a84ee64089e4b20d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a2cf5e1dad15dbde",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9224d8a86469c67",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "edc3c2af72afc139",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "34d7858b91c046e8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "29fdfb31d7b1bd2b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fe815c507a492a01",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "6ac94c801bf12b9d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "95bfae42b5f88ef2",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "40d2456f1e1c6a7f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2b05c1eb881e6624",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "95716e24bad2e72c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c224294601557292",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fa6d825d5a176db4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e4990ec3a926dcf8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2c98f0e9dbf5c503",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f2ca9b628d594a54",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d498b3922390291f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "edd007b2d57365fd",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "847770d176731eb6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "72d09a7142e1bd34",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "420f03a77e8509f0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b7e31b4091634079",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "8bf1a6258c7f3df8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e1c3186eb3b5ed53",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c800987f4816f9d3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "772953102ac937b0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "298046b736c3cd33",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f1d2dd927dba0092",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "385817bdff8f0985",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a4f1860ec26cb502",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "35f62812ef704eb6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "12c93a29330d9576",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "75989532d3b738f2",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "446f77d500714829",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "cf6cdeff6c898b83",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "810f7766c0af6713",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "aa4afdff84d28987",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e2aa9aafac74d26c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1f9169e79785591c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "9f8b858e52fdedab",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d2c1d2387936c0f5",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c94c6dcf69ba5ce",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "48ef9f701298ce35",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ee047733324d9737",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "7d278773a9476b6c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "358398c0db2c369",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b2d296a35a7ff6dc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f69254f965c46bbf",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "841301da1b6c5803",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d37c16bf356c888a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "23203c92ec295040",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e2d070da28d01fd0",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d7bd1fa6dbf33ab4",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d1ca0f9a2bf22962",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3652d782c545ae82",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "5e6c14110fa4458a",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e6fd480a5b7c63e9",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "47f9cb6287ddd35f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "dedb8f4cd5bb5b6e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a91588164d97af0d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c1bb80f78994845f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c4e9b70acaff776d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "cb971fab7e0bab3e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3acb75066c0a1851",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "a58776e421e856f3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d12624a22ab22192",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "28a9440d2e59292b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d31a1208d60b8498",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "370203b353ebafa",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "703203554852340b",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "da8faa6083d0c762",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "887e8c5c5cb34c3e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "b91355a88a3b34c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "42d218aec20d97fd",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "eb5d6e401c77e747",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "1de0521b3c1dc80d",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "fa05694d104ed7f6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c9930e57fbb6c5f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "22344f5ac3c2cfdc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "18f5d325f9f531d6",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "3b6dcfdc3f14daab",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "c5c22a37183d0b56",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e827d8fc0e663786",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "f1254d954c025bfc",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "ConstantColorRGB_01_Value": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "Emissive_Colour": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "m_diffuseColor": {
+                    "type": "SColorRGB",
+                    "value": "#000000"
+                },
+                "On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Light_On": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        },
+        {
+            "entities": [
+                {
+                    "ref": "22c51624dd0b7a82",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d7630bd1c0bc339c",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "e385610a6661cb7e",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "ea365bb483121775",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "d195ab06c6bf5743",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "63df287ec5c06970",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "731aabf2da94314",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "11864f210ea8c7c3",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                },
+                {
+                    "ref": "2574e45b32181e93",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "Light_On": {
+                    "type": "bool",
+                    "value": false
+                },
+                "IgnoreTimeOfDay": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        }, {
+            "entities": [
+                {
+                    "ref": "5c8cca2f7f1fbe50",
+                    "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+                }
+            ],
+            "properties": {
+                "m_bValue": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        }
+    ],
+    "overrideDeletes": [
+        {
+            "ref": "35e117f3235ca91f",
+            "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+        },
+        {
+            "ref": "315f1cd69f8d1e8a",
+            "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+        },
+        {
+            "ref": "6f512b5e9551463c",
+            "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+        }
+    ],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [
+        "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype",
+        "[assembly:/_pro/scenes/missions/wet/mission_hot_mahjong.brick].pc_entitytype"
+    ],
+    "subType": "scene",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

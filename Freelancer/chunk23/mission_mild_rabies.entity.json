@@ -1,0 +1,360 @@
+{
+	"tempHash": "00CB1E8CAE3EF7B9",
+	"tbluHash": "007FCBDB40D73C57",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"e382895dc5f5294f": {
+			"parent": {
+				"ref": "67dc0a10e95877a5",
+				"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/lighting_day.brick].pc_entitytype"
+			},
+			"name": "BoxReflection",
+			"factory": "[modules:/zboxreflectionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1000,
+						"y": 1000,
+						"z": 1000
+					}
+				},
+				"m_vSampleOffset": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 5
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eType": {
+					"type": "ZBoxReflectionEntity.EType",
+					"value": "eFallback"
+				},
+				"m_eBoundsType": {
+					"type": "ZBoxReflectionEntity.EBoundsType",
+					"value": "eBox"
+				}
+			}
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "7bc8436345790d03",
+					"externalScene": "0055FB7FD3AA2DA1"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "66eab305c3279edc",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "ba34c31ee4608640",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "a65ac20f074570a2",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "37f36af2a9b346fe",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "143b7cf8ec4d803d",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "772e0d6ccb8bb30b",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "9d948ae9c8926d83",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "effdadded72e585b",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "2bc16b2f224736e6",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "835a96dd2fb87d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "1039891339154d9a",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "a514a55642b7b662",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "558f0b2e4084b95f",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "898d00dce4742727",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "5764cb400005f35c",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "ebe1a5fa1dba7f12",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "90e9d3cda0bc98b0",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "7dba59bf5dcfcff8",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "d015a005ade27a44",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "effdadded72e585b",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "aa659984a6fba2ba",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "8ddcacb4c0f13c59",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "95207dd79cea13aa",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "fdc1bc6342d2def4",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "4b31098fe9375fb6",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "369388f28f64948e",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "309922505c80d32e",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "ca2b99ddfc092175",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "672df1ece725e810",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "61c1b3feaded8a64",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "2e369c08a9b4ba0d",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "e3b4ce7ec24318a3",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "105009bd1f592a94",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "b377f91b3fbec97a",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "e94a625d3a195caa",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "402b7e11c2dab0c7",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "2b68852ee1490fbc",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "7bd143ba74591701",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "d52c99fa795b2087",
+							"externalScene": "[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+						},
+						{
+							"ref": "451b618df102e7d6",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "d48bc2e029266f80",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "a24bb52e0674ab5a",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "2fbb28a154dd6130",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "8b3e6a18d004dbfb",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "07983110b82f2bc8",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "1773d680fa42695e",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "9aa100e35f5fcf59",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "85710000ddd6b3d3",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "5e5248955b807b39",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "5c99bcd74094384f",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "18fe8fda64816a5c",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "d5f0858971f6a54f",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "b13fd5865d6f8040",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "a550bece1383c844",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "67e38cb1984e6673",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "79bbe875d8af7808",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "428a1fd361b52f55",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "44dbe27de5ca8ede",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "2ecf1bbe82db2ab1",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "a5b751c64677bc33",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "cf8ef97cf439fe32",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "8ab8678f34cd22e5",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						},
+						{
+							"ref": "4efa3d1d06f94d93",
+							"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/colorado_2/scenario_rabies_spades.brick].pc_entitytype",
+		"0073F46C0CD9A6F3",
+		"[assembly:/_pro/scenes/missions/colorado_2/lighting_day.brick].pc_entitytype",
+		"0055FB7FD3AA2DA1",
+		"[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype",
+		"[assembly:/_PRO/Scenes/Missions/Colorado_2/difficulty_pro1_bull.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
