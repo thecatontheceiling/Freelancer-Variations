@@ -1,0 +1,16 @@
+{
+	"tempHash": "0033074CBF17B2F7",
+	"tbluHash": "00640E246D68DC56",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/override_hilo.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/mission_hot_hilo.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

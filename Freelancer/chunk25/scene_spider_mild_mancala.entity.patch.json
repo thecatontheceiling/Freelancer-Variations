@@ -1,0 +1,1417 @@
+{
+    "tempHash": "00CFB992491F397C",
+    "tbluHash": "00372E15AFF8C26E",
+    "patch": [
+        {
+            "AddEntity": [
+                "abcdaed0e370a680",
+                {
+                    "parent": "fffffffffffffffe",
+                    "name": "Default",
+                    "factory": "[modules:/zentity.class].pc_entitytype",
+                    "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcde5e7147c221a",
+                {
+                    "parent": "abcdaed0e370a680",
+                    "name": "IntroCut",
+                    "factory": "[modules:/zentity.class].pc_entitytype",
+                    "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd7fbcbb1051a1",
+                {
+                    "parent": "abcdaed0e370a680",
+                    "name": "HeroSpawn_MainEntrance",
+                    "factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_mTransform": {
+                            "type": "SMatrix43",
+                            "value": {
+                                "rotation": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 24.9999814532722
+                                },
+                                "position": {
+                                    "x": 72.9784164428711,
+                                    "y": 45.06401062011719,
+                                    "z": 0.010010999627411366
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1
+                                }
+                            }
+                        },
+                        "m_sId": {
+                            "type": "ZGuid",
+                            "value": "6d84301a-5780-41db-8c6d-479b471c03bb"
+                        },
+                        "m_bDefaultHeroSpawn": {
+                            "type": "bool",
+                            "value": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcdb7b5ec456038",
+                {
+                    "parent": "abcde5e7147c221a",
+                    "name": "IntroCut_Short",
+                    "factory": "[modules:/zsequenceentity.class].pc_entitytype",
+                    "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+                    "properties": {
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 11324620
+                            }
+                        },
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_eLetterBoxAspect": {
+                            "type": "ZSequenceEntity.ELetterBoxAspect",
+                            "value": "LETTERBOXASPECT_CINEMASCOPE"
+                        },
+                        "m_bLetterbox": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_letterboxFadeOut": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 1572864
+                            }
+                        },
+                        "m_aTracksAndGroups": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd1a3f9c9fd8fe",
+                                "abcd0962c7ca6f38",
+                                "abcd5185cced5552",
+                                "abcdc531cdbd84a9",
+                                "abcd586697171312"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd76fb82212970",
+                {
+                    "parent": "abcde5e7147c221a",
+                    "name": "HeroSpawnSequenceDirector_IntroCut_Short",
+                    "factory": "00A6F689FB19B096",
+                    "blueprint": "005AEBE4BDFCD1C9",
+                    "properties": {
+                        "m_aSequences": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcdb7b5ec456038"
+                            ]
+                        },
+                        "m_nPriority": {
+                            "type": "uint32",
+                            "value": 0
+                        },
+                        "m_rSpawner": {
+                            "type": "SEntityTemplateReference",
+                            "value": "abcd7fbcbb1051a1"
+                        },
+                        "m_bHideItems": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_bPlaceLeftHandItem": {
+                            "type": "bool",
+                            "value": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd1a3f9c9fd8fe",
+                {
+                    "parent": "abcdb7b5ec456038",
+                    "name": "EntityTrack_ Cafe_Chair_Marrakesh_A_00_03",
+                    "factory": "[modules:/zentitygroup.class].pc_entitytype",
+                    "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+                    "properties": {
+                        "m_targetEntity": {
+                            "type": "SEntityTemplateReference",
+                            "value": {
+                                "ref": "4314a4eea5ad3f2f",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+                            }
+                        },
+                        "m_aTracksAndGroups": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd3e25bbc784fb"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd5185cced5552",
+                {
+                    "parent": "abcdb7b5ec456038",
+                    "name": "EntityTrack_ IntroCutCamera",
+                    "factory": "[modules:/zentitygroup.class].pc_entitytype",
+                    "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+                    "properties": {
+                        "m_targetEntity": {
+                            "type": "SEntityTemplateReference",
+                            "value": {
+                                "ref": "ab4a982fa5e95a70",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+                                "exposedEntity": "CameraEntity01"
+                            }
+                        },
+                        "m_aTracksAndGroups": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd2aa609960735"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcdc531cdbd84a9",
+                {
+                    "parent": "abcdb7b5ec456038",
+                    "name": "EntityTrack_Hitman",
+                    "factory": "[modules:/zentitygroup.class].pc_entitytype",
+                    "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+                    "properties": {
+                        "m_targetEntity": {
+                            "type": "SEntityTemplateReference",
+                            "value": {
+                                "ref": "ab4a982fa5e95a70",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+                            }
+                        },
+                        "m_aTracksAndGroups": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd53bebeaf935b",
+                                "abcdf9b8c554c9cd"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd0962c7ca6f38",
+                {
+                    "parent": "abcdb7b5ec456038",
+                    "name": "EntityTrack_ FX_PF_PostfilterController",
+                    "factory": "[modules:/zentitygroup.class].pc_entitytype",
+                    "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+                    "properties": {
+                        "m_targetEntity": {
+                            "type": "SEntityTemplateReference",
+                            "value": {
+                                "ref": "de8abf9e3b7573db",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+                            }
+                        },
+                        "m_aTracksAndGroups": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd85949026d1a8"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd586697171312",
+                {
+                    "parent": "abcdb7b5ec456038",
+                    "name": "Active Camera Track",
+                    "factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+                    "blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+                    "properties": {
+                        "m_aItems": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcdcdb02bfae1cc"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd808e1f34fbc5",
+                {
+                    "parent": "abcdb7b5ec456038",
+                    "name": "Cam_Dummy_Spider_IntroCut_04",
+                    "factory": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_mTransform": {
+                            "type": "SMatrix43",
+                            "value": {
+                                "rotation": {
+                                    "x": -90.00000250447808,
+                                    "y": 0,
+                                    "z": -80.00009769274969
+                                },
+                                "position": {
+                                    "x": 72.01177978515625,
+                                    "y": 43.966400146484375,
+                                    "z": 2.5830299854278564
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1,
+                                    "z": 1.0
+                                }
+                            }
+                        },
+                        "m_eProjectionType": {
+                            "type": "ICameraEntity.EProjectionType",
+                            "value": "ePerspectiveRH"
+                        },
+                        "m_fFovYDeg": {
+                            "type": "float32",
+                            "value": 50
+                        },
+                        "m_fAspectWByH": {
+                            "type": "float32",
+                            "value": 1
+                        },
+                        "m_fNearZ": {
+                            "type": "float32",
+                            "value": 0.15000000596046448
+                        },
+                        "m_fFarZ": {
+                            "type": "float32",
+                            "value": 3000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd3e25bbc784fb",
+                {
+                    "parent": "abcd1a3f9c9fd8fe",
+                    "name": "TrajectoryTrack",
+                    "factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+                    "blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+                    "properties": {
+                        "m_entityGroup": {
+                            "type": "SEntityTemplateReference",
+                            "value": "abcd1a3f9c9fd8fe"
+                        },
+                        "m_aItems": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd0ccdbbf741fe"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd0ccdbbf741fe",
+                {
+                    "parent": "abcd3e25bbc784fb",
+                    "name": "CurveTrajectoryItem",
+                    "factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+                    "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 11324620
+                            }
+                        },
+                        "m_CurveX": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        -0.3199999928474426,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -0.3199999928474426
+                                    ],
+                                    [
+                                        1,
+                                        -0.3199999928474426,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -0.3199999928474426
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotX": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveY": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0.949999988079071,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.949999988079071
+                                    ],
+                                    [
+                                        1,
+                                        0.949999988079071,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.949999988079071
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotY": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveZ": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0.07999999821186066,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.07999999821186066
+                                    ],
+                                    [
+                                        1,
+                                        0.07999999821186066,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.07999999821186066
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotZ": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        -171.70187377929688,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.0018768310546875,
+                                        -171.70187377929688
+                                    ],
+                                    [
+                                        1,
+                                        -171.6999969482422,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -171.6999969482422
+                                    ]
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd2aa609960735",
+                {
+                    "parent": "abcd5185cced5552",
+                    "name": "TrajectoryTrack",
+                    "factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+                    "blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+                    "properties": {
+                        "m_aItems": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd60562af9374e",
+                                "abcd9007381e9f26"
+                            ]
+                        },
+                        "m_bRestoreValueAfterEnd": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "m_entityGroup": {
+                            "type": "SEntityTemplateReference",
+                            "value": "abcd5185cced5552",
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd9007381e9f26",
+                {
+                    "parent": "abcd2aa609960735",
+                    "name": "CurveTrajectoryItem",
+                    "factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+                    "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 1793064
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 9531556
+                            }
+                        },
+                        "m_CurveX": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        73.9000015258789,
+                                        -0.770056962966919,
+                                        1.4446533918380735,
+                                        -0.2547418773174286,
+                                        -0.8987511396408081,
+                                        0,
+                                        73.9000015258789
+                                    ],
+                                    [
+                                        0.758337140083313,
+                                        73.42110443115234,
+                                        0.1781328320503235,
+                                        -0.1846693456172943,
+                                        0.07529867440462112,
+                                        -0.08801724761724472,
+                                        -0.20184831321239471,
+                                        73.42110443115234
+                                    ],
+                                    [
+                                        1,
+                                        73.19999694824219,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        73.19999694824219
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotX": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        -96.5999984741211,
+                                        9.994738578796388,
+                                        -13.31443214416504,
+                                        -5.163238048553467,
+                                        14.437295913696287,
+                                        0,
+                                        -96.5999984741211
+                                    ],
+                                    [
+                                        0.758337140083313,
+                                        -90.64563751220705,
+                                        2.7600462436676025,
+                                        -12.4130277633667,
+                                        17.273529052734375,
+                                        -9.59379768371582,
+                                        3.218883752822876,
+                                        -90.64563751220705
+                                    ],
+                                    [
+                                        1,
+                                        -89.4000015258789,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -89.4000015258789
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveY": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        48.099998474121094,
+                                        -1.6769118309020996,
+                                        3.2050065994262695,
+                                        -0.327763170003891,
+                                        -2.4889228343963623,
+                                        0,
+                                        48.099998474121094
+                                    ],
+                                    [
+                                        0.758337140083313,
+                                        46.81140899658203,
+                                        0.3811926543712616,
+                                        -0.3153400123119354,
+                                        0.02372778207063675,
+                                        -0.11479732394218443,
+                                        -0.4861918091773987,
+                                        46.81140899658203
+                                    ],
+                                    [
+                                        1,
+                                        46.29999923706055,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        46.29999923706055
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotY": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    [
+                                        0.758337140083313,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveZ": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0.8999999761581421,
+                                        1.448805570602417,
+                                        -2.1069998741149902,
+                                        0.2782454490661621,
+                                        0.8001951575279236,
+                                        0,
+                                        0.8999999761581421
+                                    ],
+                                    [
+                                        0.758337140083313,
+                                        1.320246338844299,
+                                        -0.12020567059516908,
+                                        -0.2586440443992615,
+                                        0.6171094179153442,
+                                        -0.3072175979614258,
+                                        0.3987115621566773,
+                                        1.320246338844299
+                                    ],
+                                    [
+                                        1,
+                                        1.649999976158142,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1.649999976158142
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotZ": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        190.3999938964844,
+                                        10.792884826660156,
+                                        -14.187070846557615,
+                                        -5.795656204223633,
+                                        15.640403747558594,
+                                        0,
+                                        190.3999938964844
+                                    ],
+                                    [
+                                        0.758337140083313,
+                                        196.85055541992188,
+                                        2.9572970867156982,
+                                        -13.490159034729004,
+                                        18.950021743774418,
+                                        -10.60819149017334,
+                                        3.5404701232910156,
+                                        196.85055541992188
+                                    ],
+                                    [
+                                        1,
+                                        198.1999969482422,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        198.1999969482422
+                                    ]
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd60562af9374e",
+                {
+                    "parent": "abcd2aa609960735",
+                    "name": "CurveTrajectoryItem01",
+                    "factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+                    "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 1793064
+                            }
+                        },
+                        "m_CurveX": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        73.9000015258789,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        73.9000015258789
+                                    ],
+                                    [
+                                        1,
+                                        73.9000015258789,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        73.9000015258789
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotX": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        -96.5999984741211,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -96.5999984741211
+                                    ],
+                                    [
+                                        1,
+                                        -96.5999984741211,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -96.5999984741211
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveY": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        48.099998474121094,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        48.099998474121094
+                                    ],
+                                    [
+                                        1,
+                                        48.099998474121094,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        48.099998474121094
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotY": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveZ": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0.8999999761581421,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.8999999761581421
+                                    ],
+                                    [
+                                        1,
+                                        0.8999999761581421,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0.8999999761581421
+                                    ]
+                                ]
+                            }
+                        },
+                        "m_CurveRotZ": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        190.3999938964844,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        190.3999938964844
+                                    ],
+                                    [
+                                        1,
+                                        190.3999938964844,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        190.3999938964844
+                                    ]
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcdf9b8c554c9cd",
+                {
+                    "parent": "abcdc531cdbd84a9",
+                    "name": "MorphemeBoneTrack",
+                    "factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+                    "blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+                    "properties": {
+                        "m_entityGroup": {
+                            "type": "SEntityTemplateReference",
+                            "value": "abcdc531cdbd84a9"
+                        },
+                        "m_sSlotName": {
+                            "type": "ZString",
+                            "value": "FullBody"
+                        },
+                        "m_bUpperBody": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "m_bRunAIInGaps": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_aItems": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcda3c94e661288",
+                                "abcd9beb333b5a1e"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd53bebeaf935b",
+                {
+                    "parent": "abcdc531cdbd84a9",
+                    "name": "MorphemeTrajectoryTrack",
+                    "factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+                    "blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+                    "properties": {
+                        "m_entityGroup": {
+                            "type": "SEntityTemplateReference",
+                            "value": "abcdc531cdbd84a9"
+                        },
+                        "m_bRunAIInGaps": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_bRestoreValueAfterEnd": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "m_aItems": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcd2fa69fac2ffe",
+                                "abcdcb9e89f281bf"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd9beb333b5a1e",
+                {
+                    "parent": "abcdf9b8c554c9cd",
+                    "name": "BoneResourceItem",
+                    "factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+                    "blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 3565158
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 7759462
+                            }
+                        },
+                        "m_animationResourceID": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/animations/cinematics/s01_l02_italy/s01_l02_italy_intro/hm_sit_reading.xmd?/exit.xmdtake](cutsequence).pc_animation",
+                                "flag": "5F"
+                            }
+                        },
+                        "m_fBlendOut": {
+                            "type": "float32",
+                            "value": 0.49658724665641785
+                        },
+                        "m_fBlendIn": {
+                            "type": "float32",
+                            "value": 0.18428437411785129
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcda3c94e661288",
+                {
+                    "parent": "abcdf9b8c554c9cd",
+                    "name": "BoneResourceItem01",
+                    "factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+                    "blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 3565158
+                            }
+                        },
+                        "m_animationResourceID": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/animations/cinematics/s01_l02_italy/s01_l02_italy_intro/hm_sit_reading.xmd?/swipe.xmdtake](cutsequence).pc_animation",
+                                "flag": "5F"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcdcb9e89f281bf",
+                {
+                    "parent": "abcd53bebeaf935b",
+                    "name": "TrajectoryResourceItem",
+                    "factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+                    "blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 3565158
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 7759462
+                            }
+                        },
+                        "m_eCoordinateSpace": {
+                            "type": "ECoordinateSpace",
+                            "value": "CSPACE_CHARACTER_RELATIVE"
+                        },
+                        "m_animationResourceID": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/animations/cinematics/s01_l02_italy/s01_l02_italy_intro/hm_sit_reading.xmd?/exit.xmdtake](cutsequence).pc_animation",
+                                "flag": "5F"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd2fa69fac2ffe",
+                {
+                    "parent": "abcd53bebeaf935b",
+                    "name": "TrajectoryResourceItem01",
+                    "factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+                    "blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 3565158
+                            }
+                        },
+                        "m_eCoordinateSpace": {
+                            "type": "ECoordinateSpace",
+                            "value": "CSPACE_CHARACTER_RELATIVE"
+                        },
+                        "m_animationResourceID": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/animations/cinematics/s01_l02_italy/s01_l02_italy_intro/hm_sit_reading.xmd?/swipe.xmdtake](cutsequence).pc_animation",
+                                "flag": "5F"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcd85949026d1a8",
+                {
+                    "parent": "abcd0962c7ca6f38",
+                    "name": "BlackWeight Track",
+                    "factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+                    "blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+                    "properties": {
+                        "m_sPropertyName": {
+                            "type": "ZString",
+                            "value": "BlackWeight"
+                        },
+                        "m_entityGroup": {
+                            "type": "SEntityTemplateReference",
+                            "value": "abcd0962c7ca6f38"
+                        },
+                        "m_bRestoreValueAfterEnd": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "m_aItems": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "abcdab61103a988a",
+                                "abcda05bf825e6dd"
+                            ],
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcda05bf825e6dd",
+                {
+                    "parent": "abcd85949026d1a8",
+                    "name": "CurveItem",
+                    "factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+                    "blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 9227468
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 2097152
+                            }
+                        },
+                        "m_curve": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcdab61103a988a",
+                {
+                    "parent": "abcd85949026d1a8",
+                    "name": "CurveItem01",
+                    "factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+                    "blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 4823449
+                            }
+                        },
+                        "m_curve": {
+                            "type": "ZCurve",
+                            "value": {
+                                "data": [
+                                    [
+                                        0,
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1
+                                    ],
+                                    [
+                                        0.41086962819099426,
+                                        1,
+                                        0.09248895198106766,
+                                        0.09165294468402864,
+                                        1.529904007911682,
+                                        -2.7011685371398926,
+                                        -0.0128775080665946,
+                                        1
+                                    ],
+                                    [
+                                        1,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "abcdcdb02bfae1cc",
+                {
+                    "parent": "abcd586697171312",
+                    "name": "ActiveCameraItem",
+                    "factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+                    "blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+                    "properties": {
+                        "m_startTime": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 0
+                            }
+                        },
+                        "m_duration": {
+                            "type": "ZGameTime",
+                            "value": {
+                                "m_nTicks": 11324620
+                            }
+                        },
+                        "m_pCamera": {
+                            "type": "SEntityTemplateReference",
+                            "value": {
+                                "ref": "ab4a982fa5e95a70",
+                                "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+                                "exposedEntity": "CameraEntity01"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/override_mancala.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_mild_mancala.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/dev_mild_mancala.brick].pc_entitytype"
+        },
+        {
+            "AddExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+        }],
+    "patchVersion": 6
+}

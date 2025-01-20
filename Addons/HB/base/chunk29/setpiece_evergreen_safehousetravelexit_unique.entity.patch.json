@@ -1,0 +1,33 @@
+{
+    "tempHash": "00ADC6014E14C03F",
+    "tbluHash": "003AA459A008110B",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "9b18c8c97f4926d8",
+                {
+                    "PatchArrayPropertyValue": [
+                        "m_aValues",
+                        [
+                            {
+                                "AddItemAfter": [
+                                    {
+                                        "ref": "d3876d1ca7d16ac1",
+                                        "externalScene": null,
+                                        "exposedEntity": "blackjackActive"
+                                    },
+                                    {
+                                        "ref": "d3876d1ca7d16ac1",
+                                        "externalScene": null,
+                                        "exposedEntity": "hexActive"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

@@ -148,6 +148,10 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
 						},
 						{
+							"ref": "0135f91c993e9208",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
 							"ref": "2e914e76b3458223",
 							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
 						},
@@ -336,8 +340,8 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
 						},
 						{
-							"ref": "2ab466be17f714e8",
-							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+							"ref": "76aabfd28f209f0e",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype"
 						},
 						{
 							"ref": "13a383e9d7ede8d6",

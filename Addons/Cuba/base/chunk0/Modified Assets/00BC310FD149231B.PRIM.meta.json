@@ -1,0 +1,37 @@
+{
+    "hash_value": "00BC310FD149231B",
+    "hash_offset": 0,
+    "hash_size": 2147484648,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 58,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 1000,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ground/ground_colorado_grass_blend_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ground/ground_colorado_dirt_blend_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ground/ground_colorado_mud_hay_blend_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/ground/colombia_blend_sandstone_mud_dirt_g.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_tractorrracks_a_nodiffuse.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/colorado/terrain_vista_blend_grass_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

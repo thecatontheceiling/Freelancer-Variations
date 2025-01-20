@@ -1,0 +1,148 @@
+{
+    "tempHash": "00CCBBBFEC9178D3",
+    "tbluHash": "007C9E3AA45F7B6D",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "b65aea5ad455e1dc",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "DiffusePower",
+                        "value": 40
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "b65aea5ad455e1dc",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "GlowPower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "76ab2cb9e7c498f1",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDiffusePower",
+                        "value": 40
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "76ab2cb9e7c498f1",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vAreaQuadSize",
+                        "value": {
+                            "x": 5,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "76ab2cb9e7c498f1",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFarAttenuation",
+                        "value": {
+                            "x": 1,
+                            "y": 6
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "76ab2cb9e7c498f1",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_bEnableLightFade",
+                        "value": false
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "76ab2cb9e7c498f1",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_bCastShadows",
+                        "value": true
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "76ab2cb9e7c498f1",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLightFadeDistance",
+                        "value": 20
+                    }
+                }
+            ]
+        },
+       {
+            "SubEntityOperation": [
+                "efedd231c2b0a38b",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "GlowPower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "efedd231c2b0a38b",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "DiffusePower",
+                        "value": 40
+                    }
+                }
+            ]
+        },
+       {
+            "SubEntityOperation": [
+                "60ddb699ce9f8e68",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vAreaQuadSize",
+                        "value": {
+                            "x": 5,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "60ddb699ce9f8e68",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_bEnableLightFade",
+                        "value": false
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

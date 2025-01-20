@@ -1,0 +1,1670 @@
+{
+    "tempHash": "00CD308847615F61",
+    "tbluHash": "002D61B40D514129",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "4c2205c586d7c95b",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_Remap",
+                        "value": {
+                            "data": [
+                                [
+                                    -5.5689520835876465,
+                                    0.007641185075044632,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.00602375715970993,
+                                    0.007641185075044632
+                                ],
+                                [
+                                    -2.9935874938964844,
+                                    0.013664942234754562,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.002074485644698143,
+                                    0.013664942234754562
+                                ],
+                                [
+                                    -1.9920704364776611,
+                                    0.015739427879452705,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.018679179251194,
+                                    0.015739427879452705
+                                ],
+                                [
+                                    -0.7365027666091919,
+                                    0.034418608993291855,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.035680148750543594,
+                                    0.034418608993291855
+                                ],
+                                [
+                                    0.02846931666135788,
+                                    0.07009875774383545,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.10769851505756378,
+                                    0.07009875774383545
+                                ],
+                                [
+                                    1.0065537691116333,
+                                    0.17779727280139923,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.2098160982131958,
+                                    0.17779727280139923
+                                ],
+                                [
+                                    2.1726832389831543,
+                                    0.38761335611343384,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.05244901031255722,
+                                    0.38761335611343384
+                                ],
+                                [
+                                    3.4492881298065186,
+                                    0.44006237387657166,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0.44006237387657166
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "df598a7a1bb246ff",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -21.15621235871308
+                            },
+                            "position": {
+                                "x": -24.095619201660156,
+                                "y": -11.457799911499023,
+                                "z": 25.56053924560547
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "df598a7a1bb246ff",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fStrength",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "df598a7a1bb246ff",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fAngularDeviationY",
+                        "value": 110
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "df598a7a1bb246ff",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fAngularDeviationZ",
+                        "value": 20
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "df598a7a1bb246ff",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fStrengthFrequency",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "df598a7a1bb246ff",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDirectionFrequency",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "dd0a3d4b61fa79c4",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": -48.717041015625,
+                                "y": 71.20594024658203,
+                                "z": -1.0288339853286743
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocalDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fGaussianBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSpatialBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocusEnd",
+                        "value": 50
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocalFadeFar",
+                        "value": 25
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDistortionWobbleScale",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vDistortionWobbleSpeed",
+                        "value": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldAperture",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFogNearDistances",
+                        "value": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFogTurbulenceNearScale",
+                        "value": {
+                            "x": 10,
+                            "y": 10,
+                            "z": 10
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fRadialBlurStart",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fRadialBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fVignetteGradientLightStrength",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHDRBrightPassMaxPercentage",
+                        "value": 20
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocusStart",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSSAOOcclusionRange",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHDRWhitePoint",
+                        "value": 11
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSSAOStrengthNearFar",
+                        "value": {
+                            "x": 0,
+                            "y": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSSAODistanceNearFar",
+                        "value": {
+                            "x": 0,
+                            "y": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSSAOScreenSpaceRadiusLimits",
+                        "value": {
+                            "x": 15,
+                            "y": 100
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSpatialBlurCenter",
+                        "value": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSpatialBlurStart",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSpatialBlurFade",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLabsDofAnamorphic",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLabsDofSwirl",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionEyeSeparation",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionSpeed1",
+                        "value": 147
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionSpeed2",
+                        "value": 109
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionScaleSpeed1",
+                        "value": 121
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionScaleSpeed2",
+                        "value": 97
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionBlendSpeed",
+                        "value": 80
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vHDRAdaptationSpeed",
+                        "value": {
+                            "x": 5,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c2d23cf2759dd1fd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vHDRAdaptationLuminanceMinMax",
+                        "value": {
+                            "x": 0.009999999776482582,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "7e917d3738f8ec28",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fTimeOfDay",
+                        "value": 22
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHDRBloomFalloff",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHDRBrightPassThreshold",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocalDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fGaussianBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSpatialBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocusEnd",
+                        "value": 50
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocalFadeFar",
+                        "value": 25
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDistortionWobbleScale",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vDistortionWobbleSpeed",
+                        "value": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldAperture",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFogNearDistances",
+                        "value": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFogTurbulenceNearScale",
+                        "value": {
+                            "x": 10,
+                            "y": 10,
+                            "z": 10
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fRadialBlurStart",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fRadialBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fVignetteGradientLightStrength",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldBlurriness",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHDRBrightPassMaxPercentage",
+                        "value": 20
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDepthOfFieldFocusStart",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSSAOOcclusionRange",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHDRWhitePoint",
+                        "value": 11
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSSAOStrengthNearFar",
+                        "value": {
+                            "x": 0,
+                            "y": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSSAODistanceNearFar",
+                        "value": {
+                            "x": 0,
+                            "y": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSSAOScreenSpaceRadiusLimits",
+                        "value": {
+                            "x": 15,
+                            "y": 100
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vSpatialBlurCenter",
+                        "value": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSpatialBlurStart",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSpatialBlurFade",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLabsDofAnamorphic",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLabsDofSwirl",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionEyeSeparation",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionSpeed1",
+                        "value": 147
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionSpeed2",
+                        "value": 109
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionScaleSpeed1",
+                        "value": 121
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionScaleSpeed2",
+                        "value": 97
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDoubleVisionBlendSpeed",
+                        "value": 80
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vHDRAdaptationSpeed",
+                        "value": {
+                            "x": 5,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "02f8ea54af286365",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vHDRAdaptationLuminanceMinMax",
+                        "value": {
+                            "x": 0.05000000074505806,
+                            "y": 1000
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "35f3a62b8a4c2814",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -33.52728454803627
+                            },
+                            "position": {
+                                "x": -13.23427963256836,
+                                "y": 54.867618560791016,
+                                "z": 124.80770111083984
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "35f3a62b8a4c2814",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "ConstantVector1D_04_Value",
+                        "value": 1500
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "35f3a62b8a4c2814",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "ConstantVector1D_07_Value",
+                        "value": 2400
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "35f3a62b8a4c2814",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "Add_02_V2",
+                        "value": 2000
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDiffusePower",
+                        "value": 130
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": -4.23832060655446,
+                                "y": 81.34082012008443,
+                                "z": -42.393476445460514
+                            },
+                            "position": {
+                                "x": -9.29331874847412,
+                                "y": 43.4874382019043,
+                                "z": 14.850159645080566
+                            },
+                            "scale": {
+                                "x": 0.9999999999999998,
+                                "y": 1,
+                                "z": 1
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFarAttenuation",
+                        "value": {
+                            "x": 8,
+                            "y": 10
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fAspectXByY",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fCapsuleHeight",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vProjectorMapTiling",
+                        "value": {
+                            "x": 1,
+                            "y": 1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vProjectorMapOffset",
+                        "value": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vProjectorMapUVVelocity",
+                        "value": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vCSMCascadeRadii",
+                        "value": {
+                            "x": -1,
+                            "y": -1,
+                            "z": 25
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vCSMSplitFades",
+                        "value": {
+                            "x": -1,
+                            "y": -1,
+                            "z": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vBoxFadeNeg",
+                        "value": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vBoxFadePos",
+                        "value": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowFadeDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowFadeLength",
+                        "value": 5
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowBlurWidth",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLightFadeDistance",
+                        "value": 20
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLightFadeLength",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59054ad16583f56a",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vAreaQuadSize",
+                        "value": {
+                            "x": 5,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 65.85529327392578,
+                                "y": -67.98452758789062,
+                                "z": 51.188621520996094
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fSunIntensityScale",
+                        "value": 70
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fRayleighHeightScale",
+                        "value": 5000
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fHeightAboveSeaLevel",
+                        "value": 500
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fWorldScale",
+                        "value": 15
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowedMieDepthScale",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowedInscatterIntensity",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fMieHeightScale",
+                        "value": 1200
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fAmbientInscatterFraction",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fFakeMultipleScattering",
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowedRayleighDepthScale",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fWorldScale_LowQuality",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "e539e8b481c559db",
+                {
+                    "SetPlatformSpecificPropertyValue": {
+                        "platform": "VR_PS4",
+                        "property_name": "m_fWorldScale",
+                        "value": 3
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed7f4ffe8923f5",
+                {
+                    "parent": "da2e17618bcbc115",
+                    "name": "BoxReflectionCache",
+                    "factory": "[modules:/zboxreflectioncacheentity.class].pc_entitytype",
+                    "blueprint": "[modules:/zboxreflectioncacheentity.class].pc_entityblueprint",
+                    "properties": {
+                        "m_pBoxReflectionCache": {
+                            "type": "ZRuntimeResourceID",
+                            "value": {
+                                "resource": "[assembly:/runtimeresources/boxreflections/_pro/scenes/missions/colorado_2/_scene_mission_bull.boxc].pc_boxc",
+                                "flag": "5F"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "ba2995a5e1b8c035",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "DiffusePower",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 90.0
+                }
+            }
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "ba2995a5e1b8c035",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "GlowPower",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 20.0
+                }
+            }
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "dbdec10bc3601b28",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fDiffusePower",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 500.0
+                }
+            }
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "b826924694c353a8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fGlobalLightOverrideBackIntensity",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 1.0
+                }
+            }
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "b826924694c353a8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fGlobalLightOverrideFrontIntensity",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 1.0
+                }
+            }
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "b826924694c353a8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fMiddleGrayMultiplier",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 1.0
+                }
+            }
+        },
+        {
+            "AddPropertyOverrideConnection": {
+                "entity": {
+                    "ref": "ba2995a5e1b8c035",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "DiffusePower",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 90
+                }
+            }
+        },
+        {
+            "AddPropertyOverrideConnection": {
+                "entity": {
+                    "ref": "ba2995a5e1b8c035",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "GlowPower",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 20
+                }
+            }
+        },
+        {
+            "AddPropertyOverrideConnection": {
+                "entity": {
+                    "ref": "dbdec10bc3601b28",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fDiffusePower",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 500
+                }
+            }
+        },
+        {
+            "AddPropertyOverrideConnection": {
+                "entity": {
+                    "ref": "b826924694c353a8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fGlobalLightOverrideBackIntensity",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 1
+                }
+            }
+        },
+        {
+            "AddPropertyOverrideConnection": {
+                "entity": {
+                    "ref": "b826924694c353a8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fGlobalLightOverrideFrontIntensity",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 1
+                }
+            }
+        },
+        {
+            "AddPropertyOverrideConnection": {
+                "entity": {
+                    "ref": "b826924694c353a8",
+                    "externalScene": "[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+                },
+                "propertyName": "m_fMiddleGrayMultiplier",
+                "propertyOverride": {
+                    "type": "float32",
+                    "value": 1
+                }
+            }
+        }
+    ],
+    "patchVersion": 6
+}

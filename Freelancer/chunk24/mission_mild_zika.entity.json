@@ -14,6 +14,21 @@
 		{
 			"entities": [
 				{
+					"ref": "9e07a86a86485d7d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "3dd1467a-72d2-4590-93d8-10807c9f1645"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 1 }
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "62a4e1f5fa384cca",
 					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/override_sicbo.brick].pc_entitytype"
 				}
@@ -85,7 +100,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90.18557191403825
+							"z": 90.18557191403823
 						},
 						"position": {
 							"x": 110.44925,
@@ -205,10 +220,6 @@
 						},
 						{
 							"ref": "c74c14a9a7a31a66",
-							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
-						},
-						{
-							"ref": "14865498c0eccfdb",
 							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
 						},
 						{

@@ -1,0 +1,58 @@
+{
+    "tempHash": "001EC1885E9D84E6",
+    "tbluHash": "006CE08E685EAC38",
+    "rootEntity": "2ed3aa8cc1e0b74f",
+    "entities": {
+        "2ed3aa8cc1e0b74f": {
+            "parent": null,
+            "name": "GeomEntity01",
+            "factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zgeomentity.class].entitytype,[modules:/zstaticphysicsaspect.class].entitytype,[modules:/zcollisionresourceshapeaspect.class].entitytype).pc_entitytype",
+            "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zgeomentity.class].entitytype,[modules:/zstaticphysicsaspect.class].entitytype,[modules:/zcollisionresourceshapeaspect.class].entitytype).pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                },
+                "m_ResourceID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "00AB1E2E339A12AF",
+                        "flag": "5F"
+                    }
+                },
+                "m_CollisionResourceID": {
+                    "type": "ZRuntimeResourceID",
+                    "value": {
+                        "resource": "0076703DB5C5344A",
+                        "flag": "5F"
+                    }
+                },
+                "m_bRemovePhysics": {
+                    "type": "bool",
+                    "value": false
+                }
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": "template",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

@@ -24,10 +24,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "2232910ef8a371d2",
@@ -39,18 +36,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"b8fd2f90ea053ea8"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["b8fd2f90ea053ea8"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"66fb3378134f6cc9": {
 			"parent": "a59e21fb58eb64b2",
@@ -71,17 +58,10 @@
 							"y": 30.6063,
 							"z": 7.36899
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "213392680c82aa4b",
@@ -93,13 +73,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"4bfc5701ea26410d"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["4bfc5701ea26410d"] } }
 		},
 		"a5b1c6c659191af2": {
 			"parent": "c36f3fe1e6dcc962",
@@ -110,11 +84,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 130
-						},
+						"rotation": { "x": 0, "y": 0, "z": 130 },
 						"position": {
 							"x": 55.3139,
 							"y": -49.914,
@@ -122,10 +92,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "4ef741e2f7d8958e",
@@ -138,17 +105,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"dfbf2d58c416f7bc"
-					]
-				}
+				"OnActTimeout": { "Start": ["dfbf2d58c416f7bc"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"2232910ef8a371d2": {
 			"parent": "acc4e7e57a9d3f2c",
@@ -172,27 +131,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 174.095703125
-						},
+						"rotation": { "x": 0, "y": 0, "z": 174.095703125 },
 						"position": {
 							"x": 82.26487731933594,
 							"y": -6.318304061889648,
 							"z": 12.820340156555176
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "4106102f47c463c8",
@@ -205,17 +153,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"c6fa697c41a63140"
-					]
-				}
+				"OnActTimeout": { "Start": ["c6fa697c41a63140"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"71a6348c0ec2f293": {
 			"parent": "085209ce20effd56",
@@ -232,14 +172,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 87.37457275390625,
-							"y": -13.402440071105957,
+							"y": -13.402440071105955,
 							"z": 12.681650161743164
 						}
 					}
@@ -252,18 +188,12 @@
 					"type": "ZGuid",
 					"value": "eb15e523-713f-41ba-ad67-d33b02de43c6"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 2
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Gregorio Fricano"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_bBlockDisguisePickup": {
 					"type": "bool",
 					"value": true
@@ -305,12 +235,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"c1e99ba8c6d52ecf": {
@@ -321,9 +247,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4106102f47c463c8"
-					],
+					"value": ["4106102f47c463c8"],
 					"postInit": true
 				}
 			}
@@ -350,11 +274,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 44.938140869140625,
 							"y": -42.650611877441406,
@@ -383,17 +303,10 @@
 							"y": 0,
 							"z": -96.80193518189458
 						},
-						"position": {
-							"x": 84,
-							"y": -26.1,
-							"z": 30.2005
-						}
+						"position": { "x": 84, "y": -26.1, "z": 30.2005 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "8ef182c9b098346a",
@@ -405,13 +318,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"6f4af607c5cf47d8"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Done": ["6f4af607c5cf47d8"] } }
 		},
 		"eae902af0afc8c4b": {
 			"parent": "e3c275632bd78f83",
@@ -442,18 +349,12 @@
 					"type": "ZGuid",
 					"value": "c7ceaee9-de44-4162-a577-7bd0365679ad"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 2
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Rino Triano"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_DESANTIS"
@@ -499,12 +400,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"b77d3d09f4462f74": {
@@ -516,11 +413,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 66.19954681396484,
 							"y": -21.932889938354492,
@@ -543,9 +436,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a10960b036fd5d75"
-					],
+					"value": ["a10960b036fd5d75"],
 					"postInit": true
 				}
 			}
@@ -559,11 +450,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -36
-						},
+						"rotation": { "x": 0, "y": 0, "z": -36 },
 						"position": {
 							"x": 71.24603,
 							"y": 8.489362,
@@ -571,10 +458,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "7622fcdfbae63d4d",
@@ -586,18 +470,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"248f005c6fc7b455"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["248f005c6fc7b455"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"753e250c0d7ce218": {
 			"parent": "e3c275632bd78f83",
@@ -608,11 +482,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 41.4063,
 							"y": 10.8135,
@@ -628,18 +498,12 @@
 					"type": "ZGuid",
 					"value": "94a0d283-bea4-468d-ad8f-ec2735008511"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 3
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Paulo Coletta"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -647,12 +511,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"5cbf49595a3f9007": {
@@ -791,13 +651,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"18afd6cdfc2064b7"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["18afd6cdfc2064b7"] } }
 		},
 		"d9d21f936a3c9ec3": {
 			"parent": "1f6ff03b0e4c006d",
@@ -808,11 +662,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 20
-						},
+						"rotation": { "x": 0, "y": 0, "z": 20 },
 						"position": {
 							"x": 85.2553,
 							"y": -46.1194,
@@ -831,18 +681,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"e6470e896a4d280f"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["e6470e896a4d280f"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"1eb7d6c31661b532": {
 			"parent": "fb596a1fe4ff4215",
@@ -878,11 +718,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 64.55753326416016,
 							"y": -44.02827835083008,
@@ -898,18 +734,12 @@
 					"type": "ZGuid",
 					"value": "9c4874e5-71a1-473d-a95d-91b2817c3e61"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 4
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Massimo Dugo"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -917,12 +747,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"2d64296e8a1dc9dc": {
@@ -965,11 +791,7 @@
 				}
 			},
 			"events": {
-				"OnTrue": {
-					"ExitTriggered": [
-						"5cbf49595a3f9007"
-					]
-				}
+				"OnTrue": { "ExitTriggered": ["5cbf49595a3f9007"] }
 			}
 		},
 		"248f005c6fc7b455": {
@@ -984,13 +806,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"54be811adea61ece"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["54be811adea61ece"] } }
 		},
 		"95d6c432bdfb7d5d": {
 			"parent": "c36f3fe1e6dcc962",
@@ -1004,13 +820,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"f1c2d845f3e8b09e"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["f1c2d845f3e8b09e"] } }
 		},
 		"91657038fc00e4b4": {
 			"parent": "fb2794401ae1683c",
@@ -1031,21 +841,11 @@
 							"y": -52.5257,
 							"z": 12.81871
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 7
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 7 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "fd2f9a6bf3eac822",
@@ -1066,13 +866,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"b7923f38563d29f9"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["b7923f38563d29f9"] } }
 		},
 		"04d583b21b936682": {
 			"parent": "085209ce20effd56",
@@ -1107,14 +901,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "8ef182c9b098346a",
@@ -1126,13 +914,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"5507dc49c74dd561"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["5507dc49c74dd561"] } }
 		},
 		"a59e21fb58eb64b2": {
 			"parent": "e3c275632bd78f83",
@@ -1142,9 +924,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"213392680c82aa4b"
-					],
+					"value": ["213392680c82aa4b"],
 					"postInit": true
 				}
 			}
@@ -1158,11 +938,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 87.3394,
 							"y": -23.7558,
@@ -1192,11 +968,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
+						"rotation": { "x": 0, "y": 0, "z": 90 },
 						"position": {
 							"x": 61.9248,
 							"y": -8.33906,
@@ -1204,10 +976,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 25
-				},
+				"m_fActTimeout": { "type": "float32", "value": 25 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "4ef741e2f7d8958e",
@@ -1219,18 +988,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"95d6c432bdfb7d5d"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["95d6c432bdfb7d5d"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"1b37e50bd1becae0": {
 			"parent": "fb596a1fe4ff4215",
@@ -1241,11 +1000,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -140
-						},
+						"rotation": { "x": 0, "y": 0, "z": -140 },
 						"position": {
 							"x": 50.0144,
 							"y": -32.8336,
@@ -1253,14 +1008,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 10 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "1eb7d6c31661b532",
@@ -1272,13 +1021,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"17ce502f09a162d2"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["17ce502f09a162d2"] } }
 		},
 		"ff9cfb863fb7bdf8": {
 			"parent": "acc4e7e57a9d3f2c",
@@ -1301,14 +1044,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 30
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 30 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "2232910ef8a371d2",
@@ -1320,13 +1057,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"aa4b1a33ac7eaa4c"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["aa4b1a33ac7eaa4c"] } }
 		},
 		"23de044d22c1c19f": {
 			"parent": "085209ce20effd56",
@@ -1386,13 +1117,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActDone": {
-					"Done": [
-						"0eccf82f4168f057"
-					]
-				}
-			}
+			"events": { "OnActDone": { "Done": ["0eccf82f4168f057"] } }
 		},
 		"17ce502f09a162d2": {
 			"parent": "fb596a1fe4ff4215",
@@ -1403,21 +1128,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -70
-						},
+						"rotation": { "x": 0, "y": 0, "z": -70 },
 						"position": {
 							"x": 78.577,
 							"y": -43.6629,
 							"z": 12.0004
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
 				"m_pActor": {
@@ -1436,13 +1153,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"bb36cd94fa02c771"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Done": ["bb36cd94fa02c771"] } }
 		},
 		"a088386a53b08b22": {
 			"parent": "31372e2a67a574cb",
@@ -1456,7 +1167,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 178.42788696289063
+							"z": 178.42788696289065
 						},
 						"position": {
 							"x": 76.3615,
@@ -1470,10 +1181,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "2742e87748b609ad",
@@ -1485,18 +1193,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"c9fca12ced2ba330"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["c9fca12ced2ba330"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"7df4518cb020d7de": {
 			"parent": "085209ce20effd56",
@@ -1513,11 +1211,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 64.4698715209961,
 							"y": -51.613868713378906,
@@ -1553,10 +1247,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "7622fcdfbae63d4d",
@@ -1564,9 +1255,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"01cee46532d442af"
-					],
+					"value": ["01cee46532d442af"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1575,13 +1264,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"7aa33857cd85222f"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["7aa33857cd85222f"] } }
 		},
 		"945ea5402c197a6c": {
 			"parent": "1f6ff03b0e4c006d",
@@ -1592,11 +1275,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 130
-						},
+						"rotation": { "x": 0, "y": 0, "z": 130 },
 						"position": {
 							"x": 71.0657,
 							"y": -27.7375,
@@ -1604,10 +1283,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "6342606cc1b8311b",
@@ -1619,13 +1295,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"d9d21f936a3c9ec3"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["d9d21f936a3c9ec3"] } }
 		},
 		"3e8be5d8f739a153": {
 			"parent": "fb2794401ae1683c",
@@ -1636,14 +1306,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 58.2783088684082,
-							"y": -14.610930442810059,
+							"y": -14.61093044281006,
 							"z": 12.818599700927734
 						}
 					}
@@ -1664,13 +1330,9 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
-							"x": 38.707679748535156,
+							"x": 38.70767974853515,
 							"y": -24.438629150390625,
 							"z": 12.818599700927734
 						}
@@ -1691,9 +1353,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6342606cc1b8311b"
-					],
+					"value": ["6342606cc1b8311b"],
 					"postInit": true
 				}
 			}
@@ -1706,9 +1366,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8ef182c9b098346a"
-					]
+					"value": ["8ef182c9b098346a"]
 				}
 			}
 		},
@@ -1736,13 +1394,7 @@
 					"value": "a59e21fb58eb64b2"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"66fb3378134f6cc9"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["66fb3378134f6cc9"] } }
 		},
 		"87dd99185f5b12e2": {
 			"parent": "1f6ff03b0e4c006d",
@@ -1753,26 +1405,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": 79.7,
-							"y": -20.9,
-							"z": 21.4003
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": { "x": 79.7, "y": -20.9, "z": 21.4003 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "6342606cc1b8311b",
@@ -1785,17 +1423,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"945ea5402c197a6c"
-					]
-				}
+				"OnActTimeout": { "Start": ["945ea5402c197a6c"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"4ebd1390a0c17295": {
 			"parent": "d1f5dce14ea90a3b",
@@ -1818,10 +1448,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "a10960b036fd5d75",
@@ -1843,13 +1470,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"772430ae6bbc1d9d"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["772430ae6bbc1d9d"] } }
 		},
 		"8a4cc0bd547b6146": {
 			"parent": "fb596a1fe4ff4215",
@@ -1874,13 +1495,7 @@
 					"value": "1f6ff03b0e4c006d"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"d125dddacf4f3926"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["d125dddacf4f3926"] } }
 		},
 		"acc4e7e57a9d3f2c": {
 			"parent": "e3c275632bd78f83",
@@ -1890,9 +1505,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2232910ef8a371d2"
-					]
+					"value": ["2232910ef8a371d2"]
 				}
 			}
 		},
@@ -1907,13 +1520,7 @@
 					"value": "acc4e7e57a9d3f2c"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"102e9153d89ac0ff"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["102e9153d89ac0ff"] } }
 		},
 		"9d65177252d0d167": {
 			"parent": "d6f3163f4d105aad",
@@ -1922,12 +1529,8 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"InsideMildMission": [
-						"397975b30f80f691"
-					],
-					"TransmitEvent": [
-						"8e89c543adbb2fb4"
-					]
+					"InsideMildMission": ["397975b30f80f691"],
+					"TransmitEvent": ["8e89c543adbb2fb4"]
 				}
 			}
 		},
@@ -1940,11 +1543,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 43.97724151611328,
 							"y": -22.356380462646484,
@@ -2110,9 +1709,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1eb7d6c31661b532"
-					]
+					"value": ["1eb7d6c31661b532"]
 				}
 			}
 		},
@@ -2132,11 +1729,7 @@
 				}
 			},
 			"events": {
-				"OnValue": {
-					"TransmitEvent": [
-						"aa5d6531d475635c"
-					]
-				}
+				"OnValue": { "TransmitEvent": ["aa5d6531d475635c"] }
 			}
 		},
 		"31372e2a67a574cb": {
@@ -2147,9 +1740,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2742e87748b609ad"
-					]
+					"value": ["2742e87748b609ad"]
 				}
 			}
 		},
@@ -2162,11 +1753,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 140
-						},
+						"rotation": { "x": 0, "y": 0, "z": 140 },
 						"position": {
 							"x": 46.1409,
 							"y": -47.3904,
@@ -2174,10 +1761,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "1eb7d6c31661b532",
@@ -2190,17 +1774,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"1b37e50bd1becae0"
-					]
-				}
+				"OnActTimeout": { "Start": ["1b37e50bd1becae0"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"696e02346284ef7d": {
 			"parent": "947f780fcb9dac8f",
@@ -2211,11 +1787,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -38.09809112548828,
 							"y": 33.14305114746094,
@@ -2239,11 +1811,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 74.4012,
 							"y": -63.1134,
@@ -2259,18 +1827,12 @@
 					"type": "ZGuid",
 					"value": "79a767f7-5473-4380-b778-e93028e4fc2f"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Monica Camara"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -2278,12 +1840,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"4bfc5701ea26410d": {
@@ -2295,27 +1853,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 119.99999999999999
-						},
+						"rotation": { "x": 0, "y": 0, "z": 120.0 },
 						"position": {
 							"x": 29.388,
 							"y": 33.5481,
 							"z": 7.36899
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "213392680c82aa4b",
@@ -2327,13 +1874,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"3f51e8a593a3ad1e"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["3f51e8a593a3ad1e"] } }
 		},
 		"772430ae6bbc1d9d": {
 			"parent": "d1f5dce14ea90a3b",
@@ -2356,14 +1897,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "a10960b036fd5d75",
@@ -2375,13 +1910,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"25eb52db3021bee8"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["25eb52db3021bee8"] } }
 		},
 		"aa5d6531d475635c": {
 			"parent": "085209ce20effd56",
@@ -2417,10 +1946,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "2232910ef8a371d2",
@@ -2432,13 +1958,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"ff9cfb863fb7bdf8"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["ff9cfb863fb7bdf8"] } }
 		},
 		"c6fa697c41a63140": {
 			"parent": "c1e99ba8c6d52ecf",
@@ -2459,17 +1979,10 @@
 							"y": -19.041990280151367,
 							"z": 16.600250244140625
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
+				"m_fActTimeout": { "type": "float32", "value": 10 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "4106102f47c463c8",
@@ -2481,13 +1994,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"a53bfb415d77e8f9"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["a53bfb415d77e8f9"] } }
 		},
 		"7590b4599efd4704": {
 			"parent": "e3c275632bd78f83",
@@ -2498,11 +2005,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 47.8106,
 							"y": 41.6131,
@@ -2518,18 +2021,12 @@
 					"type": "ZGuid",
 					"value": "6112380e-07b5-40a8-9066-7f24541e9dc4"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Imelda Meccia"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_CIVFEMES03"
@@ -2571,12 +2068,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"05acf075e3ba7603": {
@@ -2588,11 +2081,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 30.0303,
 							"y": -17.9672,
@@ -2608,18 +2097,12 @@
 					"type": "ZGuid",
 					"value": "d3c9a494-64c8-428e-9dfd-a40713d32519"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Iolanda Baldacci"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_DESANTIS"
@@ -2631,12 +2114,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"1d4ee2599e324045": {
@@ -2648,11 +2127,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 77.4343,
 							"y": -14.5552,
@@ -2668,18 +2143,12 @@
 					"type": "ZGuid",
 					"value": "3e503af9-d0e4-4597-964f-ee17b1ac50bb"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Gisella Bartoletii"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_CIVFEMES03"
@@ -2691,12 +2160,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f8b44f77e4f1d7a9": {
@@ -2714,15 +2179,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -35.786529541015625,
 							"y": 39.3502197265625,
-							"z": 1.3574579954147339
+							"z": 1.357457995414734
 						}
 					}
 				},
@@ -2742,11 +2203,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -43.19554901123047,
 							"y": 35.22114944458008,
@@ -2782,14 +2239,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "2742e87748b609ad",
@@ -2801,13 +2252,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"a088386a53b08b22"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["a088386a53b08b22"] } }
 		},
 		"a84e3d534b76f5c1": {
 			"parent": "d6f3163f4d105aad",
@@ -2830,22 +2275,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -68
-						},
-						"position": {
-							"x": 56.3,
-							"y": -47.3,
-							"z": 16.6004
-						}
+						"rotation": { "x": 0, "y": 0, "z": -68 },
+						"position": { "x": 56.3, "y": -47.3, "z": 16.6004 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "fd2f9a6bf3eac822",
@@ -2867,17 +2301,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"91657038fc00e4b4"
-					]
-				}
+				"OnActTimeout": { "Start": ["91657038fc00e4b4"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"0eccf82f4168f057": {
 			"parent": "c1e99ba8c6d52ecf",
@@ -2890,13 +2316,7 @@
 					"value": "c1e99ba8c6d52ecf"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"3004144e028001da"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["3004144e028001da"] } }
 		},
 		"0214ddfe843acae3": {
 			"parent": "085209ce20effd56",
@@ -2914,11 +2334,7 @@
 				}
 			},
 			"events": {
-				"OnValue": {
-					"TransmitEvent": [
-						"04d583b21b936682"
-					]
-				}
+				"OnValue": { "TransmitEvent": ["04d583b21b936682"] }
 			}
 		},
 		"c36f3fe1e6dcc962": {
@@ -2929,9 +2345,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4ef741e2f7d8958e"
-					],
+					"value": ["4ef741e2f7d8958e"],
 					"postInit": true
 				}
 			}
@@ -2957,10 +2371,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "4ef741e2f7d8958e",
@@ -2972,18 +2383,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActDone": {
-					"Start": [
-						"64f09496022ebcea"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActDone": { "Start": ["64f09496022ebcea"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"9a372d198f99c728": {
 			"parent": "fb2794401ae1683c",
@@ -2997,13 +2398,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"26eb1e92434f1e96"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["26eb1e92434f1e96"] } }
 		},
 		"b2bd95eda08246eb": {
 			"parent": "d1f5dce14ea90a3b",
@@ -3014,15 +2409,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 63.06953048706055,
 							"y": -28.717369079589844,
-							"z": 12.817680358886719
+							"z": 12.81768035888672
 						}
 					}
 				},
@@ -3043,13 +2434,7 @@
 					"value": "31372e2a67a574cb"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"0d10a9ce0b1f3878"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["0d10a9ce0b1f3878"] } }
 		},
 		"155bb4babfe2d68c": {
 			"parent": "e3c275632bd78f83",
@@ -3060,11 +2445,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 77.703,
 							"y": -29.2417,
@@ -3080,18 +2461,12 @@
 					"type": "ZGuid",
 					"value": "aab7f28d-84d9-47d1-be52-d142f5970086"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Elmo Barilla"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -3133,12 +2508,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"85b1e696c479325d": {
@@ -3157,11 +2528,7 @@
 				}
 			},
 			"events": {
-				"OnValue": {
-					"TransmitEvent": [
-						"2d64296e8a1dc9dc"
-					]
-				}
+				"OnValue": { "TransmitEvent": ["2d64296e8a1dc9dc"] }
 			}
 		},
 		"fd2f9a6bf3eac822": {
@@ -3186,11 +2553,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 73.6319,
 							"y": 21.2077,
@@ -3206,18 +2569,12 @@
 					"type": "ZGuid",
 					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Beltramo Ruisi"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -3225,12 +2582,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"bdca5014fee143c1": {
@@ -3244,13 +2597,7 @@
 					"value": "d1f5dce14ea90a3b"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"4ebd1390a0c17295"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["4ebd1390a0c17295"] } }
 		},
 		"a0a21a86d45ca1d1": {
 			"parent": "e3c275632bd78f83",
@@ -3261,11 +2608,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 86.6447,
 							"y": -26.0389,
@@ -3281,18 +2624,12 @@
 					"type": "ZGuid",
 					"value": "6fc200e6-740e-425c-858e-bb9413bf3969"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 2
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Rosita Masi"
 				},
-				"m_bStartEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_CIVFEMES03"
@@ -3304,12 +2641,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"bdefc8ca73e204dd": {
@@ -3321,11 +2654,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 65.49910736083984,
 							"y": -37.44935989379883,
@@ -3348,31 +2677,17 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 160
-						},
+						"rotation": { "x": 0, "y": 0, "z": 160 },
 						"position": {
 							"x": 38.3358,
 							"y": 5.80788,
 							"z": 12.9213
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "4ef741e2f7d8958e",
@@ -3384,13 +2699,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"a5b1c6c659191af2"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["a5b1c6c659191af2"] } }
 		},
 		"aa811fc36bfa98c7": {
 			"parent": "fffffffffffffffe",
@@ -3419,15 +2728,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 61.95534133911133,
-							"y": -15.010890007019043,
-							"z": 12.827850341796875
+							"y": -15.010890007019045,
+							"z": 12.827850341796877
 						}
 					}
 				},
@@ -3456,17 +2761,10 @@
 							"y": -35.0543,
 							"z": 30.2667
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "2742e87748b609ad",
@@ -3479,17 +2777,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"61a92cac0e08ffae"
-					]
-				}
+				"OnActTimeout": { "Start": ["61a92cac0e08ffae"] }
 			},
-			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"bd5cbab0ba9c29f3": {
 			"parent": "affe4dbc9b0a46e3",
@@ -3500,11 +2790,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 80.0145,
 							"y": -36.1086,
@@ -3512,10 +2798,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "8ef182c9b098346a",
@@ -3527,13 +2810,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"ef6c5359a6ffcccf"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["ef6c5359a6ffcccf"] } }
 		},
 		"4ef741e2f7d8958e": {
 			"parent": "c36f3fe1e6dcc962",
@@ -3556,11 +2833,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 58.03919982910156,
 							"y": -39.40446853637695,
@@ -3583,11 +2856,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
+						"rotation": { "x": 0, "y": 0, "z": -180 },
 						"position": {
 							"x": 39.21242,
 							"y": -63.769093,
@@ -3595,10 +2864,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "a10960b036fd5d75",
@@ -3610,18 +2876,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"bdca5014fee143c1"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["bdca5014fee143c1"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"3f51e8a593a3ad1e": {
 			"parent": "a59e21fb58eb64b2",
@@ -3635,7 +2891,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -92.40357208251953
+							"z": -92.40357208251952
 						},
 						"position": {
 							"x": 34.766,
@@ -3656,17 +2912,9 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"a33199b1e1daf515"
-					]
-				}
+				"OnActTimeout": { "Start": ["a33199b1e1daf515"] }
 			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"778dba2965723ce8": {
 			"parent": "085209ce20effd56",
@@ -3683,15 +2931,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": -48.681209564208984,
 							"y": 38.13658905029297,
-							"z": -1.5104479789733887
+							"z": -1.510447978973389
 						}
 					}
 				},
@@ -3727,14 +2971,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "7622fcdfbae63d4d",
@@ -3746,13 +2984,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"d91cd951d65f79ac"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["d91cd951d65f79ac"] } }
 		},
 		"d125dddacf4f3926": {
 			"parent": "1f6ff03b0e4c006d",
@@ -3763,11 +2995,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
+						"rotation": { "x": 0, "y": 0, "z": 90 },
 						"position": {
 							"x": 70.148,
 							"y": -17.6415,
@@ -3775,10 +3003,7 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "6342606cc1b8311b",
@@ -3790,13 +3015,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"87dd99185f5b12e2"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["87dd99185f5b12e2"] } }
 		},
 		"6f4af607c5cf47d8": {
 			"parent": "affe4dbc9b0a46e3",
@@ -3809,13 +3028,7 @@
 					"value": "affe4dbc9b0a46e3"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"bd5cbab0ba9c29f3"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["bd5cbab0ba9c29f3"] } }
 		},
 		"947f780fcb9dac8f": {
 			"parent": "e3c275632bd78f83",
@@ -3825,9 +3038,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7622fcdfbae63d4d"
-					]
+					"value": ["7622fcdfbae63d4d"]
 				}
 			}
 		},
@@ -3859,11 +3070,7 @@
 				}
 			},
 			"events": {
-				"OnValue": {
-					"TransmitEvent": [
-						"23de044d22c1c19f"
-					]
-				}
+				"OnValue": { "TransmitEvent": ["23de044d22c1c19f"] }
 			}
 		},
 		"085209ce20effd56": {
@@ -3940,9 +3147,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fd2f9a6bf3eac822"
-					]
+					"value": ["fd2f9a6bf3eac822"]
 				}
 			}
 		},
@@ -3967,14 +3172,10 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 42.005859375,
-							"y": -37.056949615478516,
+							"y": -37.05694961547851,
 							"z": 12.818710327148438
 						}
 					}
@@ -4006,16 +3207,10 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 5
-				},
+				"m_fActTimeout": { "type": "float32", "value": 5 },
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bdefc8ca73e204dd",
-						"c9e9b499f6eeb89b"
-					]
+					"value": ["bdefc8ca73e204dd", "c9e9b499f6eeb89b"]
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -4028,13 +3223,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"9a372d198f99c728"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Done": ["9a372d198f99c728"] } }
 		},
 		"a33199b1e1daf515": {
 			"parent": "a59e21fb58eb64b2",
@@ -4045,11 +3234,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 35.1046,
 							"y": 38.8953,
@@ -4057,14 +3242,8 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bAlignPosition": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "213392680c82aa4b",
@@ -4076,18 +3255,8 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Done": [
-						"73282fd5ab4a7387"
-					]
-				}
-			},
-			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
-			}
+			"events": { "OnActTimeout": { "Done": ["73282fd5ab4a7387"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
 		},
 		"54f751ea526b6c15": {
 			"parent": "d1f5dce14ea90a3b",
@@ -4098,11 +3267,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 62.06264114379883,
 							"y": -31.151039123535156,
@@ -4183,25 +3348,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdc5260a87c4d9"
 				},
-				"m_nPriority": {
-					"type": "int32",
-					"value": 1999
-				},
+				"m_nPriority": { "type": "int32", "value": 1999 },
 				"m_EnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd659b70ed7f07"
-					],
+					"value": ["abcd659b70ed7f07"],
 					"postInit": true
 				}
 			},
-			"inputCopying": {
-				"Done": {
-					"Done": [
-						"abcdc5260a87c4d9"
-					]
-				}
-			}
+			"inputCopying": { "Done": { "Done": ["abcdc5260a87c4d9"] } }
 		},
 		"abcd575516727853": {
 			"parent": "abcdd7e39be9ca23",
@@ -4211,14 +3365,9 @@
 			"properties": {
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
-				"m_bLetterbox": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bLetterbox": { "type": "bool", "value": true },
 				"m_eLetterBoxAspect": {
 					"type": "ZSequenceEntity.ELetterBoxAspect",
 					"value": "LETTERBOXASPECT_CINEMASCOPE"
@@ -4239,13 +3388,7 @@
 			"name": "ValueBool_Basic",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"events": {
-				"OnFalse": {
-					"Done": [
-						"abcdf8aa8aae3764"
-					]
-				}
-			}
+			"events": { "OnFalse": { "Done": ["abcdf8aa8aae3764"] } }
 		},
 		"abcd53a2cf42bda8": {
 			"parent": "abcdd7e39be9ca23",
@@ -4255,43 +3398,20 @@
 			"properties": {
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd575516727853"
-					]
+					"value": ["abcd575516727853"]
 				},
 				"m_rSpawner": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd7950b44408a1"
 				},
-				"m_nPriority": {
-					"type": "uint32",
-					"value": 10
-				},
-				"m_bHideItems": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bPlaceLeftHandItem": {
-					"type": "bool",
-					"value": false
-				}
+				"m_nPriority": { "type": "uint32", "value": 10 },
+				"m_bHideItems": { "type": "bool", "value": false },
+				"m_bPlaceLeftHandItem": { "type": "bool", "value": false }
 			},
 			"events": {
-				"OnPlay": {
-					"SetTrue": [
-						"abcd659b70ed7f07"
-					]
-				},
-				"OnStop": {
-					"SetFalse": [
-						"abcd659b70ed7f07"
-					]
-				},
-				"OnSkip": {
-					"SetFalse": [
-						"abcd659b70ed7f07"
-					]
-				}
+				"OnPlay": { "SetTrue": ["abcd659b70ed7f07"] },
+				"OnStop": { "SetFalse": ["abcd659b70ed7f07"] },
+				"OnSkip": { "SetFalse": ["abcd659b70ed7f07"] }
 			}
 		},
 		"abcd035ed24ef96a": {
@@ -4302,9 +3422,7 @@
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			}
@@ -4317,18 +3435,10 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd035ed24ef96a"
-					]
+					"value": ["abcd035ed24ef96a"]
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"abcdbf6af3f0103f"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["abcdbf6af3f0103f"] } }
 		},
 		"abcdbf6af3f0103f": {
 			"parent": "abcdf8aa8aae3764",
@@ -4374,7 +3484,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 100.21043976802315
+							"z": 100.21043976802316
 						},
 						"position": {
 							"x": 43.18960952758789,
@@ -4387,10 +3497,7 @@
 					"type": "ZGuid",
 					"value": "c113315d-ffcc-4878-9e70-bb35aadf0211"
 				},
-				"m_bDefaultHeroSpawn": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": false },
 				"m_InitialAmbience": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -4425,22 +3532,13 @@
 					"type": "ICameraEntity.EProjectionType",
 					"value": "ePerspectiveRH"
 				},
-				"m_fFovYDeg": {
-					"type": "float32",
-					"value": 45
-				},
-				"m_fAspectWByH": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fFovYDeg": { "type": "float32", "value": 45 },
+				"m_fAspectWByH": { "type": "float32", "value": 1 },
 				"m_fNearZ": {
 					"type": "float32",
 					"value": 0.15000000596046448
 				},
-				"m_fFarZ": {
-					"type": "float32",
-					"value": 3000
-				}
+				"m_fFarZ": { "type": "float32", "value": 3000 }
 			}
 		},
 		"abcdde7b23b00ed2": {
@@ -4451,9 +3549,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd25f645cb1889"
-					],
+					"value": ["abcd25f645cb1889"],
 					"postInit": true
 				}
 			}
@@ -4474,9 +3570,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdc50edfe12a78"
-					]
+					"value": ["abcdc50edfe12a78"]
 				}
 			}
 		},
@@ -4495,9 +3589,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd3442e8115889"
-					],
+					"value": ["abcd3442e8115889"],
 					"postInit": true
 				}
 			}
@@ -4510,15 +3602,11 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 0
-					}
+					"value": { "m_nTicks": 0 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
 				"m_pCamera": {
 					"type": "SEntityTemplateReference",
@@ -4547,9 +3635,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd950f47f5a546"
-					],
+					"value": ["abcd950f47f5a546"],
 					"postInit": true
 				}
 			}
@@ -4562,38 +3648,22 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 0
-					}
+					"value": { "m_nTicks": 0 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
 				"m_CurveX": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
 							[
-								0,
-								45.650596618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, 45.650596618652344, 0, 0, 0, 0, 0,
 								45.650596618652344
 							],
 							[
-								1,
-								45.650596618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 45.650596618652344, 0, 0, 0, 0, 0,
 								45.650596618652344
 							]
 						]
@@ -4604,23 +3674,11 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-89.92867279052734,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, -89.92867279052734, 0, 0, 0, 0, 0,
 								-89.92867279052734
 							],
 							[
-								1,
-								-89.92867279052734,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, -89.92867279052734, 0, 0, 0, 0, 0,
 								-89.92867279052734
 							]
 						]
@@ -4631,24 +3689,12 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-115.07133483886719,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-115.07133483886719
+								0, -115.0713348388672, 0, 0, 0, 0, 0,
+								-115.0713348388672
 							],
 							[
-								1,
-								-115.07133483886719,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-115.07133483886719
+								1, -115.0713348388672, 0, 0, 0, 0, 0,
+								-115.0713348388672
 							]
 						]
 					}
@@ -4658,24 +3704,12 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-106.86913299560547,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-106.86913299560547
+								0, -106.86913299560548, 0, 0, 0, 0, 0,
+								-106.86913299560548
 							],
 							[
-								1,
-								-106.86913299560547,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-106.86913299560547
+								1, -106.86913299560548, 0, 0, 0, 0, 0,
+								-106.86913299560548
 							]
 						]
 					}
@@ -4685,23 +3719,13 @@
 					"value": {
 						"data": [
 							[
-								0,
-								16.950000762939453,
-								5.481295585632324,
-								-14.987748146057129,
-								12.660667419433594,
-								0.8758079409599304,
-								-7.277319431304932,
+								0, 16.950000762939453, 5.481295585632324,
+								-14.987748146057127, 12.660667419433594,
+								0.8758079409599304, -7.277319431304932,
 								16.950000762939453
 							],
 							[
-								1,
-								13.702703475952148,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 13.702703475952148, 0, 0, 0, 0, 0,
 								13.702703475952148
 							]
 						]
@@ -4712,23 +3736,11 @@
 					"value": {
 						"data": [
 							[
-								0,
-								23.559999465942383,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, 23.559999465942383, 0, 0, 0, 0, 0,
 								23.559999465942383
 							],
 							[
-								1,
-								23.559999465942383,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 23.559999465942383, 0, 0, 0, 0, 0,
 								23.559999465942383
 							]
 						]
@@ -4752,9 +3764,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd94377cca7871"
-					]
+					"value": ["abcd94377cca7871"]
 				}
 			}
 		},
@@ -4766,40 +3776,18 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 4236247
-					}
+					"value": { "m_nTicks": 4236247 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 2097152
-					}
+					"value": { "m_nTicks": 2097152 }
 				},
 				"m_curve": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				}
@@ -4817,7 +3805,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -103.20830298968073
+							"z": -103.20830298968072
 						},
 						"position": {
 							"x": 33.690738677978516,
@@ -4883,11 +3871,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 87.7625,
 							"y": -24.411,
@@ -4927,9 +3911,7 @@
 				},
 				"m_aVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd93800e656972"
-					],
+					"value": ["abcd93800e656972"],
 					"postInit": true
 				},
 				"m_aPotentialOperators": {
@@ -4969,25 +3951,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 8,
-						"y": 8,
-						"z": 4
-					}
+					"value": { "x": 8, "y": 8, "z": 4 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -5014,25 +3984,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdd9805622df9f"
 				},
-				"m_nPriority": {
-					"type": "int32",
-					"value": 1999
-				},
+				"m_nPriority": { "type": "int32", "value": 1999 },
 				"m_EnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdf0b9c0482607"
-					],
+					"value": ["abcdf0b9c0482607"],
 					"postInit": true
 				}
 			},
-			"inputCopying": {
-				"Done": {
-					"Done": [
-						"abcdd9805622df9f"
-					]
-				}
-			}
+			"inputCopying": { "Done": { "Done": ["abcdd9805622df9f"] } }
 		},
 		"abcd8926f1426232": {
 			"parent": "abcd8578aac3f60f",
@@ -5042,14 +4001,9 @@
 			"properties": {
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
-				"m_bLetterbox": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bLetterbox": { "type": "bool", "value": true },
 				"m_eLetterBoxAspect": {
 					"type": "ZSequenceEntity.ELetterBoxAspect",
 					"value": "LETTERBOXASPECT_CINEMASCOPE"
@@ -5070,13 +4024,7 @@
 			"name": "ValueBool_Basic",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"events": {
-				"OnFalse": {
-					"Done": [
-						"abcd2943b380b43d"
-					]
-				}
-			}
+			"events": { "OnFalse": { "Done": ["abcd2943b380b43d"] } }
 		},
 		"abcd52373556ed61": {
 			"parent": "abcd8578aac3f60f",
@@ -5086,43 +4034,20 @@
 			"properties": {
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd8926f1426232"
-					]
+					"value": ["abcd8926f1426232"]
 				},
 				"m_rSpawner": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd8ffd9844b876"
 				},
-				"m_nPriority": {
-					"type": "uint32",
-					"value": 10
-				},
-				"m_bHideItems": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bPlaceLeftHandItem": {
-					"type": "bool",
-					"value": false
-				}
+				"m_nPriority": { "type": "uint32", "value": 10 },
+				"m_bHideItems": { "type": "bool", "value": false },
+				"m_bPlaceLeftHandItem": { "type": "bool", "value": false }
 			},
 			"events": {
-				"OnPlay": {
-					"SetTrue": [
-						"abcdf0b9c0482607"
-					]
-				},
-				"OnStop": {
-					"SetFalse": [
-						"abcdf0b9c0482607"
-					]
-				},
-				"OnSkip": {
-					"SetFalse": [
-						"abcdf0b9c0482607"
-					]
-				}
+				"OnPlay": { "SetTrue": ["abcdf0b9c0482607"] },
+				"OnStop": { "SetFalse": ["abcdf0b9c0482607"] },
+				"OnSkip": { "SetFalse": ["abcdf0b9c0482607"] }
 			}
 		},
 		"abcd8ffd9844b876": {
@@ -5137,7 +4062,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 100.21043976802315
+							"z": 100.21043976802316
 						},
 						"position": {
 							"x": 43.18960952758789,
@@ -5150,10 +4075,7 @@
 					"type": "ZGuid",
 					"value": "a73d92c4-cd4b-4bd2-9485-943aa613a79c"
 				},
-				"m_bDefaultHeroSpawn": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": false },
 				"m_InitialAmbience": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -5171,9 +4093,7 @@
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			}
@@ -5186,18 +4106,10 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd906909282d2e"
-					]
+					"value": ["abcd906909282d2e"]
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"abcd68e2bf91b80f"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["abcd68e2bf91b80f"] } }
 		},
 		"abcd68e2bf91b80f": {
 			"parent": "abcd2943b380b43d",
@@ -5256,22 +4168,13 @@
 					"type": "ICameraEntity.EProjectionType",
 					"value": "ePerspectiveRH"
 				},
-				"m_fFovYDeg": {
-					"type": "float32",
-					"value": 45
-				},
-				"m_fAspectWByH": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fFovYDeg": { "type": "float32", "value": 45 },
+				"m_fAspectWByH": { "type": "float32", "value": 1 },
 				"m_fNearZ": {
 					"type": "float32",
 					"value": 0.15000000596046448
 				},
-				"m_fFarZ": {
-					"type": "float32",
-					"value": 3000
-				}
+				"m_fFarZ": { "type": "float32", "value": 3000 }
 			}
 		},
 		"abcdd4699381e807": {
@@ -5282,9 +4185,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdf930dd9bba33"
-					],
+					"value": ["abcdf930dd9bba33"],
 					"postInit": true
 				}
 			}
@@ -5305,9 +4206,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdc0b62c0456d6"
-					]
+					"value": ["abcdc0b62c0456d6"]
 				}
 			}
 		},
@@ -5326,9 +4225,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd0604c6f59a2a"
-					],
+					"value": ["abcd0604c6f59a2a"],
 					"postInit": true
 				}
 			}
@@ -5341,15 +4238,11 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 0
-					}
+					"value": { "m_nTicks": 0 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
 				"m_pCamera": {
 					"type": "SEntityTemplateReference",
@@ -5378,9 +4271,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd5759c30cfef4"
-					],
+					"value": ["abcd5759c30cfef4"],
 					"postInit": true
 				}
 			}
@@ -5393,38 +4284,22 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 0
-					}
+					"value": { "m_nTicks": 0 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
 				"m_CurveX": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
 							[
-								0,
-								45.650596618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, 45.650596618652344, 0, 0, 0, 0, 0,
 								45.650596618652344
 							],
 							[
-								1,
-								45.650596618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 45.650596618652344, 0, 0, 0, 0, 0,
 								45.650596618652344
 							]
 						]
@@ -5435,23 +4310,11 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-89.92867279052734,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, -89.92867279052734, 0, 0, 0, 0, 0,
 								-89.92867279052734
 							],
 							[
-								1,
-								-89.92867279052734,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, -89.92867279052734, 0, 0, 0, 0, 0,
 								-89.92867279052734
 							]
 						]
@@ -5462,24 +4325,12 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-115.07133483886719,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-115.07133483886719
+								0, -115.0713348388672, 0, 0, 0, 0, 0,
+								-115.0713348388672
 							],
 							[
-								1,
-								-115.07133483886719,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-115.07133483886719
+								1, -115.0713348388672, 0, 0, 0, 0, 0,
+								-115.0713348388672
 							]
 						]
 					}
@@ -5489,24 +4340,12 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-106.86913299560547,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-106.86913299560547
+								0, -106.86913299560548, 0, 0, 0, 0, 0,
+								-106.86913299560548
 							],
 							[
-								1,
-								-106.86913299560547,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-106.86913299560547
+								1, -106.86913299560548, 0, 0, 0, 0, 0,
+								-106.86913299560548
 							]
 						]
 					}
@@ -5516,23 +4355,13 @@
 					"value": {
 						"data": [
 							[
-								0,
-								16.950000762939453,
-								5.481295585632324,
-								-14.987748146057129,
-								12.660667419433594,
-								0.8758079409599304,
-								-7.277319431304932,
+								0, 16.950000762939453, 5.481295585632324,
+								-14.987748146057127, 12.660667419433594,
+								0.8758079409599304, -7.277319431304932,
 								16.950000762939453
 							],
 							[
-								1,
-								13.702703475952148,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 13.702703475952148, 0, 0, 0, 0, 0,
 								13.702703475952148
 							]
 						]
@@ -5543,23 +4372,11 @@
 					"value": {
 						"data": [
 							[
-								0,
-								23.559999465942383,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, 23.559999465942383, 0, 0, 0, 0, 0,
 								23.559999465942383
 							],
 							[
-								1,
-								23.559999465942383,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 23.559999465942383, 0, 0, 0, 0, 0,
 								23.559999465942383
 							]
 						]
@@ -5583,9 +4400,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd2394df045a65"
-					]
+					"value": ["abcd2394df045a65"]
 				}
 			}
 		},
@@ -5597,40 +4412,18 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 4236247
-					}
+					"value": { "m_nTicks": 4236247 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 2097152
-					}
+					"value": { "m_nTicks": 2097152 }
 				},
 				"m_curve": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				}
@@ -5652,25 +4445,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd593e155748bf"
 				},
-				"m_nPriority": {
-					"type": "int32",
-					"value": 1999
-				},
+				"m_nPriority": { "type": "int32", "value": 1999 },
 				"m_EnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcded2e91fc37f1"
-					],
+					"value": ["abcded2e91fc37f1"],
 					"postInit": true
 				}
 			},
-			"inputCopying": {
-				"Done": {
-					"Done": [
-						"abcd593e155748bf"
-					]
-				}
-			}
+			"inputCopying": { "Done": { "Done": ["abcd593e155748bf"] } }
 		},
 		"abcdcc7e3449c40b": {
 			"parent": "abcda239bebdc6c8",
@@ -5680,14 +4462,9 @@
 			"properties": {
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
-				"m_bLetterbox": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bLetterbox": { "type": "bool", "value": true },
 				"m_eLetterBoxAspect": {
 					"type": "ZSequenceEntity.ELetterBoxAspect",
 					"value": "LETTERBOXASPECT_CINEMASCOPE"
@@ -5708,13 +4485,7 @@
 			"name": "ValueBool_Basic",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"events": {
-				"OnFalse": {
-					"Done": [
-						"abcde402c8ddab9a"
-					]
-				}
-			}
+			"events": { "OnFalse": { "Done": ["abcde402c8ddab9a"] } }
 		},
 		"abcd57384d6294ca": {
 			"parent": "abcda239bebdc6c8",
@@ -5724,43 +4495,20 @@
 			"properties": {
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdcc7e3449c40b"
-					]
+					"value": ["abcdcc7e3449c40b"]
 				},
 				"m_rSpawner": {
 					"type": "SEntityTemplateReference",
 					"value": "abcd8ad768de3d19"
 				},
-				"m_nPriority": {
-					"type": "uint32",
-					"value": 10
-				},
-				"m_bHideItems": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bPlaceLeftHandItem": {
-					"type": "bool",
-					"value": false
-				}
+				"m_nPriority": { "type": "uint32", "value": 10 },
+				"m_bHideItems": { "type": "bool", "value": false },
+				"m_bPlaceLeftHandItem": { "type": "bool", "value": false }
 			},
 			"events": {
-				"OnPlay": {
-					"SetTrue": [
-						"abcded2e91fc37f1"
-					]
-				},
-				"OnStop": {
-					"SetFalse": [
-						"abcded2e91fc37f1"
-					]
-				},
-				"OnSkip": {
-					"SetFalse": [
-						"abcded2e91fc37f1"
-					]
-				}
+				"OnPlay": { "SetTrue": ["abcded2e91fc37f1"] },
+				"OnStop": { "SetFalse": ["abcded2e91fc37f1"] },
+				"OnSkip": { "SetFalse": ["abcded2e91fc37f1"] }
 			}
 		},
 		"abcd8ad768de3d19": {
@@ -5775,7 +4523,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 100.21043976802315
+							"z": 100.21043976802316
 						},
 						"position": {
 							"x": 43.18960952758789,
@@ -5788,10 +4536,7 @@
 					"type": "ZGuid",
 					"value": "a72bd197-f996-4e3b-b494-11f62296a2b3"
 				},
-				"m_bDefaultHeroSpawn": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": false },
 				"m_InitialAmbience": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -5809,9 +4554,7 @@
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			}
@@ -5824,18 +4567,10 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd77ac00075cbb"
-					]
+					"value": ["abcd77ac00075cbb"]
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"abcdce340af9fb7c"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["abcdce340af9fb7c"] } }
 		},
 		"abcdce340af9fb7c": {
 			"parent": "abcde402c8ddab9a",
@@ -5894,22 +4629,13 @@
 					"type": "ICameraEntity.EProjectionType",
 					"value": "ePerspectiveRH"
 				},
-				"m_fFovYDeg": {
-					"type": "float32",
-					"value": 45
-				},
-				"m_fAspectWByH": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fFovYDeg": { "type": "float32", "value": 45 },
+				"m_fAspectWByH": { "type": "float32", "value": 1 },
 				"m_fNearZ": {
 					"type": "float32",
 					"value": 0.15000000596046448
 				},
-				"m_fFarZ": {
-					"type": "float32",
-					"value": 3000
-				}
+				"m_fFarZ": { "type": "float32", "value": 3000 }
 			}
 		},
 		"abcd0551f6eda8b3": {
@@ -5920,9 +4646,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd5fbd9b7ab8f2"
-					],
+					"value": ["abcd5fbd9b7ab8f2"],
 					"postInit": true
 				}
 			}
@@ -5943,9 +4667,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd1939e7d0f061"
-					]
+					"value": ["abcd1939e7d0f061"]
 				}
 			}
 		},
@@ -5964,9 +4686,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd9d453904c0f8"
-					],
+					"value": ["abcd9d453904c0f8"],
 					"postInit": true
 				}
 			}
@@ -5979,15 +4699,11 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 0
-					}
+					"value": { "m_nTicks": 0 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
 				"m_pCamera": {
 					"type": "SEntityTemplateReference",
@@ -6016,9 +4732,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdf4b6b741a32c"
-					],
+					"value": ["abcdf4b6b741a32c"],
 					"postInit": true
 				}
 			}
@@ -6031,38 +4745,22 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 0
-					}
+					"value": { "m_nTicks": 0 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 6333399
-					}
+					"value": { "m_nTicks": 6333399 }
 				},
 				"m_CurveX": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
 							[
-								0,
-								45.650596618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, 45.650596618652344, 0, 0, 0, 0, 0,
 								45.650596618652344
 							],
 							[
-								1,
-								45.650596618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 45.650596618652344, 0, 0, 0, 0, 0,
 								45.650596618652344
 							]
 						]
@@ -6073,23 +4771,11 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-89.92867279052734,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, -89.92867279052734, 0, 0, 0, 0, 0,
 								-89.92867279052734
 							],
 							[
-								1,
-								-89.92867279052734,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, -89.92867279052734, 0, 0, 0, 0, 0,
 								-89.92867279052734
 							]
 						]
@@ -6100,24 +4786,12 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-115.07133483886719,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-115.07133483886719
+								0, -115.0713348388672, 0, 0, 0, 0, 0,
+								-115.0713348388672
 							],
 							[
-								1,
-								-115.07133483886719,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-115.07133483886719
+								1, -115.0713348388672, 0, 0, 0, 0, 0,
+								-115.0713348388672
 							]
 						]
 					}
@@ -6127,24 +4801,12 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-106.86913299560547,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-106.86913299560547
+								0, -106.86913299560548, 0, 0, 0, 0, 0,
+								-106.86913299560548
 							],
 							[
-								1,
-								-106.86913299560547,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-106.86913299560547
+								1, -106.86913299560548, 0, 0, 0, 0, 0,
+								-106.86913299560548
 							]
 						]
 					}
@@ -6154,23 +4816,13 @@
 					"value": {
 						"data": [
 							[
-								0,
-								16.950000762939453,
-								5.481295585632324,
-								-14.987748146057129,
-								12.660667419433594,
-								0.8758079409599304,
-								-7.277319431304932,
+								0, 16.950000762939453, 5.481295585632324,
+								-14.987748146057127, 12.660667419433594,
+								0.8758079409599304, -7.277319431304932,
 								16.950000762939453
 							],
 							[
-								1,
-								13.702703475952148,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 13.702703475952148, 0, 0, 0, 0, 0,
 								13.702703475952148
 							]
 						]
@@ -6181,23 +4833,11 @@
 					"value": {
 						"data": [
 							[
-								0,
-								23.559999465942383,
-								0,
-								0,
-								0,
-								0,
-								0,
+								0, 23.559999465942383, 0, 0, 0, 0, 0,
 								23.559999465942383
 							],
 							[
-								1,
-								23.559999465942383,
-								0,
-								0,
-								0,
-								0,
-								0,
+								1, 23.559999465942383, 0, 0, 0, 0, 0,
 								23.559999465942383
 							]
 						]
@@ -6221,9 +4861,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd7abcbc95c897"
-					]
+					"value": ["abcd7abcbc95c897"]
 				}
 			}
 		},
@@ -6235,40 +4873,18 @@
 			"properties": {
 				"m_startTime": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 4236247
-					}
+					"value": { "m_nTicks": 4236247 }
 				},
 				"m_duration": {
 					"type": "ZGameTime",
-					"value": {
-						"m_nTicks": 2097152
-					}
+					"value": { "m_nTicks": 2097152 }
 				},
 				"m_curve": {
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				}
@@ -6283,11 +4899,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 140
-						},
+						"rotation": { "x": 0, "y": 0, "z": 140 },
 						"position": {
 							"x": 75.4163,
 							"y": -32.930004,
@@ -6303,10 +4915,7 @@
 					"type": "ZGuid",
 					"value": "78fcc1c0-5612-4284-924f-c20d9e322c96"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 5
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Michael Peterson"
@@ -6351,12 +4960,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"abcd5c73c8bb5c05": {
@@ -6369,21 +4974,14 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcd760d9aabc863"
 				},
-				"m_nPriority": {
-					"type": "int32",
-					"value": 400
-				},
+				"m_nPriority": { "type": "int32", "value": 400 },
 				"m_EnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdda4bb6078672"
-					],
+					"value": ["abcdda4bb6078672"],
 					"postInit": true
 				}
 			},
@@ -6405,11 +5003,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
 							"x": 73.2237,
 							"y": -31.6993,
@@ -6417,15 +5011,10 @@
 						}
 					}
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 20
-				},
+				"m_fActTimeout": { "type": "float32", "value": 20 },
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -6442,19 +5031,11 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd318fc1438ffc"
-					],
+					"value": ["abcd318fc1438ffc"],
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"abcd5a45f010d1c6"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["abcd5a45f010d1c6"] } }
 		},
 		"abcd318fc1438ffc": {
 			"parent": "abcd5c73c8bb5c05",
@@ -6464,15 +5045,34 @@
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdda4bb6078672"
-					],
+					"value": ["abcdda4bb6078672"],
 					"postInit": true
 				}
 			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "f4bfbc679e57741e",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/override_bonusmissions.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -65 },
+						"position": {
+							"x": 63.257171630859375,
+							"y": -41.26870346069336,
+							"z": 12.000399589538574
+						}
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -6498,10 +5098,7 @@
 				}
 			],
 			"properties": {
-				"m_bIsLocked": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bIsLocked": { "type": "bool", "value": true },
 				"m_bValueUnlockIfOpened": {
 					"type": "bool",
 					"value": true
@@ -6523,11 +5120,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
+						"rotation": { "x": 0, "y": 0, "z": -90 },
 						"position": {
 							"x": 79.7,
 							"y": -18.7862,
@@ -6552,11 +5145,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -20
-						},
+						"rotation": { "x": 0, "y": 0, "z": -20 },
 						"position": {
 							"x": 70.9371,
 							"y": -14.9742,
@@ -6578,10 +5167,7 @@
 					"type": "ZGuid",
 					"value": "94a0d283-bea4-468d-ad8f-ec2735008511"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 7
-				}
+				"m_nOutfitVariation": { "type": "int32", "value": 7 }
 			}
 		},
 		{
@@ -6688,11 +5274,7 @@
 							"y": -23.8178,
 							"z": 26.2116
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -6866,13 +5448,9 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90.33203097274111
+							"z": -90.33203097274112
 						},
-						"position": {
-							"x": 74.8,
-							"y": -31.4,
-							"z": 22.41
-						}
+						"position": { "x": 74.8, "y": -31.4, "z": 22.41 }
 					}
 				}
 			}
@@ -6956,7 +5534,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90.33203097274111
+							"z": -90.33203097274112
 						},
 						"position": {
 							"x": 81.55451965332031,
@@ -7049,10 +5627,7 @@
 				}
 			],
 			"properties": {
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 4
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
 					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
@@ -7070,11 +5645,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 175
-						},
+						"rotation": { "x": 0, "y": 0, "z": 175 },
 						"position": {
 							"x": 71.8059,
 							"y": -12.2,
@@ -7098,7 +5669,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 91.94663170359975
+							"z": 91.94663170359976
 						},
 						"position": {
 							"x": 67.387,
@@ -7130,11 +5701,7 @@
 							"y": -6.28564,
 							"z": 15.0004
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7160,11 +5727,7 @@
 							"y": -15.2047,
 							"z": 26.2006
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7215,11 +5778,7 @@
 							"y": -14.6315,
 							"z": 26.2006
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7245,11 +5804,7 @@
 							"y": -23.9959,
 							"z": 26.2006
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7297,11 +5852,7 @@
 							"y": -82.0758,
 							"z": 12.7995
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7392,11 +5943,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 175
-						},
+						"rotation": { "x": 0, "y": 0, "z": 175 },
 						"position": {
 							"x": 44.7764,
 							"y": -45.2337,
@@ -7420,7 +5967,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 109.08338795320887
+							"z": 109.08338795320888
 						},
 						"position": {
 							"x": 68.2777,
@@ -7477,11 +6024,7 @@
 							"y": -84.2104,
 							"z": 12.7911
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7511,9 +6054,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd089eab9f6d17"
-					]
+					"value": ["abcd089eab9f6d17"]
 				}
 			}
 		},
@@ -7542,9 +6083,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd089eab9f6d17"
-					]
+					"value": ["abcd089eab9f6d17"]
 				}
 			}
 		},
@@ -7569,18 +6108,12 @@
 							"y": -38.0021,
 							"z": 16.6004
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd089eab9f6d17"
-					]
+					"value": ["abcd089eab9f6d17"]
 				}
 			}
 		},
@@ -7595,11 +6128,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 25
-						},
+						"rotation": { "x": 0, "y": 0, "z": 25 },
 						"position": {
 							"x": 90.3222,
 							"y": -36.2,
@@ -7623,7 +6152,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -111.09448847990035
+							"z": -111.09448847990036
 						},
 						"position": {
 							"x": 78.3754,
@@ -7645,11 +6174,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 173
-						},
+						"rotation": { "x": 0, "y": 0, "z": 173 },
 						"position": {
 							"x": 72.8264,
 							"y": -24.2,
@@ -7705,11 +6230,7 @@
 							"y": -25.999,
 							"z": 12.8228
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7775,21 +6296,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -100
-						},
+						"rotation": { "x": 0, "y": 0, "z": -100 },
 						"position": {
 							"x": 41.0901,
 							"y": 9.69875,
 							"z": 12.9424
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -7956,11 +6469,7 @@
 							"y": 2.24236,
 							"z": 13.2431
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				}
 			}
@@ -8078,9 +6587,7 @@
 			"toPin": "Trigger"
 		}
 	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
@@ -8100,15 +6607,8 @@
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
-		{
-			"resource": "00D83737AB89E92C",
-			"flag": "5F"
-		}
+		{ "resource": "00D83737AB89E92C", "flag": "5F" }
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

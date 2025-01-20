@@ -1,0 +1,414 @@
+{
+    "tempHash": "00DBAB3189CD2176",
+    "tbluHash": "00B0A6E4003E4929",
+    "patch": [
+        {
+            "RemoveEntityByID": "0d507a149b1cfc74"
+        },
+        {
+            "RemoveEntityByID": "0913ae84b9cc5aa9"
+        },
+        {
+            "SubEntityOperation": [
+                "8a5719bdf47cc693",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 58.47623062133789
+                            },
+                            "position": {
+                                "x": 78.34764862060547,
+                                "y": -31.020809173583984,
+                                "z": -0.013372999615967274
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "8a5719bdf47cc693",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fActTimeout",
+                        "value": 40
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "d507a149b1cfc74",
+                {
+                    "parent": "bd16afbda43f9ede",
+                    "name": "Act_MR_Guard_Stand_ArmsCrossed",
+                    "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_mTransform": {
+                            "type": "SMatrix43",
+                            "value": {
+                                "rotation": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 56.4277458190918
+                                },
+                                "position": {
+                                    "x": 1.5272810459136963,
+                                    "y": 52.41484069824219,
+                                    "z": 0.000011000000085914508
+                                }
+                            }
+                        },
+                        "m_fActTimeout": {
+                            "type": "float32",
+                            "value": 20
+                        },
+                        "m_AlignRotation": {
+                            "type": "ZActBehaviorEntity.ERotationAlignment",
+                            "value": "RA_LOOSE"
+                        },
+                        "m_pActor": {
+                            "type": "SEntityTemplateReference",
+                            "value": "b93da9c22358a725",
+                            "postInit": true
+                        },
+                        "m_eidParent": {
+                            "type": "SEntityTemplateReference",
+                            "value": "fffffffffffffffe",
+                            "postInit": true
+                        }
+                    },
+                    "events": {
+                        "OnActTimeout": {
+                            "Start": [
+                                "576f7d4048c36d2e"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c6e664bb77532e19",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 49.63534164428711
+                            },
+                            "position": {
+                                "x": 78.17709350585938,
+                                "y": -30.962549209594727,
+                                "z": 0.1320279985666275
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "6ab8797259318676",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -132.97637939453125
+                            },
+                            "position": {
+                                "x": -6.1545209884643555,
+                                "y": 50.46179962158203,
+                                "z": 0.000011000000085914508
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "ebd13564145eebcd",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_rDrama",
+                        "value": "913ae84b9cc5aa9"
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "3d2ba42cfcfa8b44",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -132.97640991210938
+                            },
+                            "position": {
+                                "x": 38.60163879394531,
+                                "y": 24.320350646972656,
+                                "z": 0.000011000000085914508
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c75b3dd9dc03b69a",
+                {
+                    "RemoveEventConnection": [
+                        "OnStart",
+                        "Start",
+                        "0d507a149b1cfc74"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c75b3dd9dc03b69a",
+                {
+                    "AddEventConnection": [
+                        "OnStart",
+                        "Start",
+                        "d507a149b1cfc74"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "576f7d4048c36d2e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -61.32550430297851
+                            },
+                            "position": {
+                                "x": -9.312041282653809,
+                                "y": 53.91598892211914,
+                                "z": 0.000011000000085914508
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "576f7d4048c36d2e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fActTimeout",
+                        "value": 5
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "576f7d4048c36d2e",
+                {
+                    "RemoveEventConnection": [
+                        "OnActTimeout",
+                        "Start",
+                        "0d507a149b1cfc74"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "576f7d4048c36d2e",
+                {
+                    "AddEventConnection": [
+                        "OnActTimeout",
+                        "Start",
+                        "d507a149b1cfc74"
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "f437201221ed9c2e",
+                {
+                    "SetParent": null
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "913ae84b9cc5aa9",
+                {
+                    "parent": "ebd13564145eebcd",
+                    "name": "Screenplay",
+                    "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+                    "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "Roles": {
+                            "type": "TArray<SEntityTemplateReference>",
+                            "value": [
+                                "7db3b73654852a03"
+                            ]
+                        }
+                    },
+                    "events": {
+                        "OnStart": {
+                            "Start": [
+                                "48c27afe3305c4ea"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "16dedfda914827fb",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 78.40028381347656
+                            },
+                            "position": {
+                                "x": 71.41908264160156,
+                                "y": -28.10157012939453,
+                                "z": -0.0013780000153928995
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "16dedfda914827fb",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fActTimeout",
+                        "value": 15
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "48c27afe3305c4ea",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -127.94023895263672
+                            },
+                            "position": {
+                                "x": 38.651329040527344,
+                                "y": 23.8976993560791,
+                                "z": 0.000011000000085914508
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "48c27afe3305c4ea",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fActTimeout",
+                        "value": 40
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "d0ba2a49f60ff349",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 118.39608001708984
+                            },
+                            "position": {
+                                "x": 44.50756072998047,
+                                "y": 24.50341033935547,
+                                "z": 0.000011000000085914508
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "d0ba2a49f60ff349",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fActTimeout",
+                        "value": 15
+                    }
+                }
+            ]
+        },
+        {
+            "RemovePropertyOverrideConnection": {
+                "entity": {
+                    "ref": "1155213f3ea7e51f",
+                    "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+                },
+                "propertyName": "m_AllowedProfessions",
+                "propertyOverride": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        {
+                            "ref": "90c6e677597587c1",
+                            "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+                        },
+                        "f437201221ed9c2e"
+                    ]
+                }
+            }
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+        }],
+    "patchVersion": 6
+}

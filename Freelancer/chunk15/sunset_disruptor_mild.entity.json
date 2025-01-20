@@ -198,7 +198,7 @@
 				},
 				"m_fFogDensity": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_FogColor": { "type": "SColorRGB", "value": "#171c21" },
 				"m_bVignetteEnabled": { "type": "bool", "value": true },
@@ -305,7 +305,7 @@
 				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vVignetteGradientLightColor": {
 					"type": "SColorRGB",
@@ -394,8 +394,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
 					}
 				},
 				"m_bDistortionWobbleUseRealTime": {
@@ -540,7 +540,7 @@
 						"position": {
 							"x": 111.38710021972656,
 							"y": 342.9883117675781,
-							"z": 19.643390655517578
+							"z": 19.643390655517575
 						},
 						"scale": {
 							"x": 1,
@@ -584,13 +584,9 @@
 						"position": {
 							"x": -60.65182876586914,
 							"y": 8.699393272399902,
-							"z": -94.23999786376953
+							"z": -94.23999786376952
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
 				"ConstantVector1D_02_Value": {
@@ -663,7 +659,7 @@
 						"position": {
 							"x": -87.16488647460938,
 							"y": 12.760069847106934,
-							"z": 0.15403009951114655
+							"z": 0.15403009951114657
 						}
 					}
 				},
@@ -734,15 +730,11 @@
 							"z": -135.3194432733932
 						},
 						"position": {
-							"x": 190.17269897460938,
+							"x": 190.17269897460935,
 							"y": -64.07421875,
 							"z": -0.0703049972653389
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 0.9999999999999999
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1.0 }
 					}
 				},
 				"m_eRoomBehaviour": {
@@ -911,7 +903,7 @@
 				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vVignetteGradientLightColor": {
 					"type": "SColorRGB",
@@ -1010,8 +1002,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
 					}
 				},
 				"m_bDistortionWobbleUseRealTime": {
@@ -1813,10 +1805,6 @@
 						},
 						{
 							"ref": "c928764e9b2bba70",
-							"externalScene": "[assembly:/_pro/scenes/missions/theark/mission_mild_whist.brick].pc_entitytype"
-						},
-						{
-							"ref": "9ca5b7185b57e64c",
 							"externalScene": "[assembly:/_pro/scenes/missions/theark/mission_mild_whist.brick].pc_entitytype"
 						},
 						{

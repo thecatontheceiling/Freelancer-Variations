@@ -1,0 +1,41 @@
+{
+	"tempHash": "009276DCA2CEDD16",
+	"tbluHash": "0079B9417E68C410",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "0ccdef9f63929360",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_hot_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "143c6d01-93a3-45ed-93ab-bd102b2bcf81"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/mission_hot_cuba.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/hot_cuba_day.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

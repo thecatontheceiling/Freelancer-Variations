@@ -1,0 +1,255 @@
+{
+    "tempHash": "008A806FBBC0F580",
+    "tbluHash": "004ECA8564667E6B",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "248747363390ac34",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": -180,
+                                "y": 0,
+                                "z": -180
+                            },
+                            "position": {
+                                "x": 0.00418699998408556,
+                                "y": 0,
+                                "z": 0.09094200283288956
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "248747363390ac34",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowFadeDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "248747363390ac34",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowFadeLength",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "248747363390ac34",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLightFadeDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": -180,
+                                "y": 0,
+                                "z": -180
+                            },
+                            "position": {
+                                "x": 0.00418699998408556,
+                                "y": 0,
+                                "z": 0.1187260001897812
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fDiffusePower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_bCastShadows",
+                        "value": true
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFarAttenuation",
+                        "value": {
+                            "x": 1,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowFadeDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fShadowFadeLength",
+                        "value": 1
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "627048eadeaaad3e",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLightFadeDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "8b0b00682622df14",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "DiffusePower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "8b0b00682622df14",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "GlowPower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "8b0b00682622df14",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "IgnoreTimeOfDay",
+                        "value": false
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59236fb151fd3829",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_mTransform",
+                        "value": {
+                            "rotation": {
+                                "x": -180,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "position": {
+                                "x": 0.7808250188827515,
+                                "y": -3.09142804145813,
+                                "z": 4.095694065093994
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59236fb151fd3829",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "GlowPower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59236fb151fd3829",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "DiffusePower",
+                        "value": 60
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59236fb151fd3829",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_vFarAttenuation",
+                        "value": {
+                            "x": 1,
+                            "y": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "59236fb151fd3829",
+                {
+                    "SetPropertyValue": {
+                        "property_name": "m_fLightFadeDistance",
+                        "value": 10
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

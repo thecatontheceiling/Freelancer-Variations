@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/trapped/lynx/target_reveal.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+        "type": "WavFile",
+        "wavName": "dr21613_47weaponsdemofabareturns_47_002",
+        "soundtag": "In-world_Maincharacter",
+        "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21613_47weaponsdemofabareturns_47_002.wav].pc_wes",
+        "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/miami/21000_elusive/21000_sambuca/21000_sambuca_story/dr21613_47weaponsdemofabareturns_47_002.animset].pc_animset",
+        "languages": {
+            "en": "//(0,30)\\\\Ah, there you are.",
+            "fr": "//(0,30)\\\\Ah, vous voilà.",
+            "it": "//(0,30)\\\\Ah, eccola.",
+            "de": "//(0,30)\\\\Ah, da sind Sie ja.",
+            "es": "//(0,30)\\\\Ah, ahí está.",
+            "ru": "//(0,30)\\\\А, вы здесь.",
+            "cn": "//(0,30)\\\\啊，你来了。",
+            "tc": "//(0,30)\\\\啊，你在這裡啊。",
+            "jp": "//(0,30)\\\\ああ、そこにおられましたか。"
+        }
+    }
+}

@@ -1,0 +1,3434 @@
+{
+	"tempHash": "00717934B2736B17",
+	"tbluHash": "00FC99E28C6C23D0",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"b89ac9243fde99e5": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_101",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 77.95269775390625,
+							"y": 194.26199340820312,
+							"z": 1.4088000059127808
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"d3f2ad1ee94d5d91": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_102",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 87.52130126953125,
+							"y": 206.8560028076172,
+							"z": 1.2979700565338137
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"7945ddf8b666d938": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_103",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 90.52469635009766,
+							"y": 220.4080047607422,
+							"z": 1.1614999771118164
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"c6205f84ce7ff0fc": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_104",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 69.07039642333984,
+							"y": 227.0229949951172,
+							"z": 1.3477400541305542
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"7834ccbba2160fa1": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_105",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 53.79690170288086,
+							"y": 229.1150054931641,
+							"z": 1.0890599489212036
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"9049b9842e302bdd": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_106",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 41.06840133666992,
+							"y": 219.96099853515625,
+							"z": 1.0934300422668457
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"21f0fe43f2f5bc33": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_107",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 38.62649917602539,
+							"y": 211.48399353027344,
+							"z": 1.1733200550079346
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"f301d9b17b934ed4": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_108",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 50.73440170288086,
+							"y": 185.10299682617188,
+							"z": 0.9398859739303588
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"65decfb658d33361": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_109",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 56.1599006652832,
+							"y": 184.031005859375,
+							"z": 1.0452300310134888
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"df2523f0657ba53d": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_110",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 54.7130012512207,
+							"y": 173.6439971923828,
+							"z": 1.0680700540542605
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"507ca1dfa5b5f70d": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_111",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 48.3754997253418,
+							"y": 174.51100158691406,
+							"z": 1.0023200511932373
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd63bc7222a553": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_112",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 75.30120086669922,
+							"y": 208.05799865722656,
+							"z": 1.382889986038208
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd75a7865a961d": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_113",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 75.98529815673828,
+							"y": 212.21299743652344,
+							"z": 1.382889986038208
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd26e72e32a8f4": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_114",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 62.13470077514648,
+							"y": 223.70599365234375,
+							"z": 4.120629787445068
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd3a05975bcc79": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_115",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 63.65719985961914,
+							"y": 210.9929962158203,
+							"z": 4.120629787445068
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd8feae037de05": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_116",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 35.13029861450195,
+							"y": 270.0509948730469,
+							"z": 1.1202499866485596
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd9ca7a197763c": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_117",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -63.124698638916016,
+							"y": 95.1082992553711,
+							"z": 6.123290061950684
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd671f02858a0f": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_118",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -3.0923099517822266,
+							"y": 281.55499267578125,
+							"z": 1.2734400033950806
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd6638e0c3f077": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_119",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -65.47579956054688,
+							"y": 100.8010025024414,
+							"z": 6.123290061950684
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd5ef9df710533": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_120",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -81.85209655761719,
+							"y": 131.04400634765625,
+							"z": 5.123290061950684
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd59c98e780390": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_121",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -72.20230102539062,
+							"y": 181.6540069580078,
+							"z": 1.4033900499343872
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcdcc87f377bc80": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_122",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -74.93769836425781,
+							"y": 159.61500549316406,
+							"z": 1.4746999740600586
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd0d2ea1f8c038": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_123",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -72.72090148925781,
+							"y": 162.7729949951172,
+							"z": 1.4746999740600586
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"abcd9d569c7bdec9": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_124",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -25.082599639892575,
+							"y": 167.8679962158203,
+							"z": 1.3848799467086792
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"8ed0d1996a273a4c": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_125",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 72.95269775390625,
+							"y": 226.5050048828125,
+							"z": 1.3579000234603882
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"16b7186a4271f550": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_126",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 68.20829772949219,
+							"y": 99.05670166015624,
+							"z": 1.4028500318527222
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"b393385493e675e8": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_127",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 61.42789840698242,
+							"y": 90.29530334472656,
+							"z": 1.294819951057434
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"4aaf71b3b694d1d1": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_128",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": 23.32489967346191,
+							"y": 74.25830078125,
+							"z": 1.3318899869918823
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"2447f6cd491bbeeb": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_129",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -78.86199951171875,
+							"y": 123.81300354003906,
+							"z": 5.123290061950684
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"fa81e19498d84fc2": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_130",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -2.9137399196624756,
+							"y": 146.8209991455078,
+							"z": 2.4000799655914307
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"b4467bcf6cbcd9c9": {
+			"parent": "fffffffffffffffe",
+			"name": "Lamp_Floor_Standing_StingRay_A_00_131",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.11755173885204
+						},
+						"position": {
+							"x": -2.9137399196624756,
+							"y": 146.8209991455078,
+							"z": 2.4000799655914307
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe5b0"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"a043a41834593a56": {
+			"parent": "fffffffffffffffe",
+			"name": "TimeOfDay",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"822c908f7ff01900": {
+			"parent": "a043a41834593a56",
+			"name": "Time of day",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"b37cb6f7ad77b9b5": {
+			"parent": "822c908f7ff01900",
+			"name": "GlobalLight",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"566072e15cfa125e": {
+			"parent": "b37cb6f7ad77b9b5",
+			"name": "Sky_Storm_Before_After",
+			"factory": "00A01A2790FF4E7D",
+			"blueprint": "0099A3EBCAF12090",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 130.69410983867502
+						},
+						"position": {
+							"x": -60.65182113647461,
+							"y": 8.69940185546875,
+							"z": -42.55730056762695
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 1.25
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"7c237deed5cdebf0": {
+			"parent": "822c908f7ff01900",
+			"name": "Postfilters",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"7b53b07537f9e9d4": {
+			"parent": "7c237deed5cdebf0",
+			"name": "MiddleGrayCurve_Outside",
+			"factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Remap": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								-0.000584167952183634, 0.05114661529660225,
+								0, 0, 0, 0, 0.01706637442111969,
+								0.05114661529660225
+							],
+							[
+								0.546176552772522, 0.06821298599243164, 0,
+								0, 0, 0, 0.025000235065817833,
+								0.06821298599243164
+							],
+							[
+								0.9037901163101196, 0.09321322292089462, 0,
+								0, 0, 0, 0.05598142743110657,
+								0.09321322292089462
+							],
+							[
+								1.253089427947998, 0.1491946578025818, 0,
+								0, 0, 0, 0.04560791701078415,
+								0.1491946578025818
+							],
+							[
+								1.5089538097381592, 0.19480256736278537, 0,
+								0, 0, 0, 0.0445951446890831,
+								0.19480256736278537
+							],
+							[
+								1.710018515586853, 0.23939771950244904, 0,
+								0, 0, 0, 0.040469758212566376,
+								0.23939771950244904
+							],
+							[
+								1.8214142322540283, 0.2798674702644348, 0,
+								0, 0, 0, 0.4586101174354553,
+								0.2798674702644348
+							],
+							[
+								2.3663201332092285, 0.7384775876998901, 0,
+								0, 0, 0, 0, 0.7384775876998901
+							]
+						]
+					}
+				}
+			}
+		},
+		"afeabf1aa8e75e2b": {
+			"parent": "7c237deed5cdebf0",
+			"name": "PostfilterParameters_1_Outside",
+			"factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDistortionBarrelEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRLensFlareEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fHDRBloomFalloff": {
+					"type": "float32",
+					"value": 1.2999999523162842
+				},
+				"m_bNoiseEnabled": { "type": "bool", "value": false },
+				"m_bHDRGlareEnabled": { "type": "bool", "value": true },
+				"m_eHDRGlareType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+					"value": "eFilterSunnyCrossSpectral"
+				},
+				"m_bSSAOEnabled": { "type": "bool", "value": true },
+				"m_bFogEnabled": { "type": "bool", "value": false },
+				"m_fFogDensity": { "type": "float32", "value": 1 },
+				"m_FogColor": { "type": "SColorRGB", "value": "#ffffff" },
+				"m_bVignetteEnabled": { "type": "bool", "value": true },
+				"m_bDepthOfFieldEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldFocalDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fLensBlur": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_bGaussianBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fGaussianBlurriness": { "type": "float32", "value": 1 },
+				"m_fSpatialBlurriness": { "type": "float32", "value": 1 },
+				"m_fDepthOfFieldFocusEnd": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_fDepthOfFieldFocalFadeNear": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bRadialBlurEnabled": { "type": "bool", "value": false },
+				"m_bSpatialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fHDRBloomScale": { "type": "float32", "value": 0.25 },
+				"m_fDepthOfFieldFocalFadeFar": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_bDistortionWobbleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionWobbleScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vDistortionWobbleSpeed": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 1 }
+				},
+				"m_fNoiseIntensity": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fNoiseScale": {
+					"type": "float32",
+					"value": 0.949999988079071
+				},
+				"m_bFogGlobal": { "type": "bool", "value": false },
+				"m_VignetteColor": {
+					"type": "SColorRGB",
+					"value": "#0d0d0d"
+				},
+				"m_fVignetteStrength": { "type": "float32", "value": 0.5 },
+				"m_bDepthOfFieldUseNew": { "type": "bool", "value": true },
+				"m_fDepthOfFieldAperture": {
+					"type": "float32",
+					"value": 3
+				},
+				"m_vDistortionBarrel": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2199999988079071,
+						"y": 0.05999999865889549
+					}
+				},
+				"m_bForegroundBlur": { "type": "bool", "value": false },
+				"m_eBlurQuality": {
+					"type": "ZRenderPostfilterParametersEntity.EDOFBlurType",
+					"value": "eLowRezLensBlurSoft"
+				},
+				"m_vFogNearDistances": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 0 }
+				},
+				"m_bFogUseQuarterRes": { "type": "bool", "value": false },
+				"m_vFogTurbulenceNearScale": {
+					"type": "SVector3",
+					"value": { "x": 10, "y": 10, "z": 10 }
+				},
+				"m_fFogTurbulenceOpacity": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fRadialBlurStart": { "type": "float32", "value": 0 },
+				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
+				"m_fRadialBlurFadeFactor": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_vVignetteGradientLightColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fVignetteGradientLightSize": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fVignetteGradientLightStrength": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDepthOfFieldBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vFogTurbulenceVelocity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 0.5,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_fHDRBrightPassMaxPercentage": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_eHDRToneMapType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRToneMapType",
+					"value": "eFilmicRGB"
+				},
+				"m_fFogTurbulenceChaos": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bHDREnabled": { "type": "bool", "value": true },
+				"m_fDepthOfFieldFocusStart": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fSSAOOcclusionRange": { "type": "float32", "value": 5 },
+				"m_vHDRAdaptationSpeed": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 1 }
+				},
+				"m_HDRColorTint": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fHDRWhitePoint": { "type": "float32", "value": 11 },
+				"m_fHDRBrightPassThreshold": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_nParameterId": { "type": "int32", "value": 0 },
+				"m_vSSAOStrengthNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 10 }
+				},
+				"m_vSSAOScreenSpaceRadiusLimits": {
+					"type": "SVector2",
+					"value": { "x": 0.9700000286102296, "y": 100 }
+				},
+				"m_vRadialBlurCenter": {
+					"type": "SVector2",
+					"value": { "x": 0.5, "y": 0.5 }
+				},
+				"m_vSpatialBlurCenter": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_fSpatialBlurStart": { "type": "float32", "value": 0 },
+				"m_fSpatialBlurFade": { "type": "float32", "value": 10 },
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EE7987F0153DE1",
+						"flag": "5F"
+					}
+				},
+				"m_fLabsDofAnamorphic": { "type": "float32", "value": 0 },
+				"m_fLabsDofSwirl": { "type": "float32", "value": 0 },
+				"m_bDistortionBarrelUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vDistortionWobbleWaveLength": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
+					}
+				},
+				"m_bDistortionWobbleUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDoubleVisionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDoubleVisionStrength": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionEyeSeparation": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDoubleVisionSpeed1": {
+					"type": "float32",
+					"value": 147
+				},
+				"m_fDoubleVisionSpeed2": {
+					"type": "float32",
+					"value": 109
+				},
+				"m_fDoubleVisionScaleSpeed1": {
+					"type": "float32",
+					"value": 121
+				},
+				"m_fDoubleVisionScaleSpeed2": {
+					"type": "float32",
+					"value": 97
+				},
+				"m_fDoubleVisionMinScale": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fDoubleVisionMaxScale": {
+					"type": "float32",
+					"value": 0.09000000357627869
+				},
+				"m_fDoubleVisionBlendSpeed": {
+					"type": "float32",
+					"value": 80
+				},
+				"m_fDoubleVisionBlendStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fDoubleVisionTrailStrength": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 100 }
+				},
+				"m_HDRLensFlareColorC": {
+					"type": "SColorRGB",
+					"value": "#5363a3"
+				},
+				"m_fHDRLensFlareThresholdC": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_HDRLensFlareColorD": {
+					"type": "SColorRGB",
+					"value": "#9c5819"
+				},
+				"m_fHDRLensFlareThresholdD": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_fSSAOAngleOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fHDRExposureMeteringSize": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_HDRAdaptionMiddleGrayCurveEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "7b53b07537f9e9d4",
+					"postInit": true
+				},
+				"ColorCorrectionTextureHDR": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001EA6CFE28385E3",
+						"flag": "5F"
+					}
+				},
+				"m_vSSAODistanceNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 30 }
+				},
+				"m_vHDRBloomMinFalloffDistanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 10 }
+				},
+				"m_vASSAOFadeInRange": {
+					"type": "SVector2",
+					"value": { "x": -5, "y": 10 }
+				}
+			}
+		},
+		"abcdbacda4418f5e": {
+			"parent": "7c237deed5cdebf0",
+			"name": "FX_PF_PostfilterController",
+			"factory": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"BlackWeight": { "type": "float32", "value": 0 },
+				"WhiteWeight": { "type": "float32", "value": 0 },
+				"m_nMaxMirrors": { "type": "uint32", "value": 3 },
+				"m_bDepthCull": { "type": "bool", "value": true },
+				"m_fMaxMirrorDistance": { "type": "float32", "value": 25 },
+				"m_bColorCorrectionHDR": {
+					"type": "bool",
+					"value": false
+				},
+				"ColorCorrectionBlendInDuration": {
+					"type": "float32",
+					"value": 50
+				},
+				"ColorCorrectionTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00EE7987F0153DE1",
+						"flag": "5F"
+					}
+				},
+				"ColorCorrectionWeight": { "type": "float32", "value": 0 },
+				"ColorCorrectionBlendOutDuration": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fWaterReflectionAndRefractionCullDistance": {
+					"type": "float32",
+					"value": 100
+				}
+			}
+		},
+		"a33608324cde0d0d": {
+			"parent": "822c908f7ff01900",
+			"name": "Light_CSM",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_DIRECTIONAL"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": { "x": 400, "y": 400, "z": 400 }
+				},
+				"m_bCastCSMShadows": { "type": "bool", "value": true },
+				"m_fDiffusePower": { "type": "float32", "value": 2 },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -10.105911680523096,
+							"y": 69.1018548331708,
+							"z": -59.15813893326441
+						},
+						"position": {
+							"x": 53.38496017456055,
+							"y": 111.18240356445312,
+							"z": 1.8689689636230469
+						},
+						"scale": { "x": 1, "y": 1, "z": 1.0 }
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#b9ceff"
+				},
+				"m_fWrappedDiffuse": { "type": "float32", "value": 0 },
+				"m_fLightBleedingReduction": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_vCSMCascadeRadii": {
+					"type": "SVector3",
+					"value": { "x": -1, "y": -1, "z": 7.5 }
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cdc86efd19dea3c0": {
+			"parent": "822c908f7ff01900",
+			"name": "RenderAtmosphericScattering",
+			"factory": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+			"properties": {
+				"252335555": { "type": "SColorRGB", "value": "#575757" },
+				"1067642691": { "type": "bool", "value": true },
+				"1884680034": { "type": "SColorRGB", "value": "#000000" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": 65.85529327392578,
+							"y": -67.98451232910156,
+							"z": 50.82094955444336
+						}
+					}
+				},
+				"m_fSunIntensityScale": {
+					"type": "float32",
+					"value": 500
+				},
+				"m_fSunRadiusScale": { "type": "float32", "value": 1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWorldScale": { "type": "float32", "value": 1 },
+				"m_fInscatterIntensity": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"m_RayleighColor": {
+					"type": "SColorRGB",
+					"value": "#bdd6ff"
+				},
+				"m_fMieAnisotropy": {
+					"type": "float32",
+					"value": 0.47999998927116394
+				},
+				"m_fShadowedRange": { "type": "float32", "value": 100 },
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fAmbientInscatterFraction": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fMieHeightScale": { "type": "float32", "value": 75 },
+				"m_fRayleighHeightScale": {
+					"type": "float32",
+					"value": 500
+				},
+				"m_fMieDepthScale": { "type": "float32", "value": 0.25 },
+				"m_fWaterPlaneHeight": { "type": "float32", "value": 0 },
+				"m_fShadowedInscatterIntensity": {
+					"type": "float32",
+					"value": 90
+				},
+				"m_MieColor": { "type": "SColorRGB", "value": "#daedff" }
+			}
+		},
+		"cafed44b496e1111": {
+			"parent": "a043a41834593a56",
+			"name": "DefaultActorVision",
+			"factory": "0075BA3EA6C4BF62",
+			"blueprint": "00FA6FF080D08333"
+		},
+		"cafe22c6e63cea67": {
+			"parent": "cafee52afacd73f7",
+			"name": "Wedge",
+			"factory": "[modules:/zaivisionwedgeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionwedgeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.0000001599597008,
+							"y": 0.0,
+							"z": 180.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.10000000149011612,
+							"z": 0.0
+						}
+					}
+				},
+				"m_Angle": { "type": "float32", "value": 160.0 }
+			}
+		},
+		"cafef971b09d78a4": {
+			"parent": "cafe32ce6066245b",
+			"name": "NearFrustums",
+			"factory": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 0.0, "z": 180.0 },
+						"position": {
+							"x": 0.0,
+							"y": -0.14399999380111694,
+							"z": 1.6579999923706057
+						}
+					}
+				},
+				"m_NearDepth": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_NearPlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612
+					}
+				},
+				"m_FarDepth": {
+					"type": "float32",
+					"value": 4.599999904632568
+				},
+				"m_MiddlePlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.600000023841858,
+						"y": 1.600000023841858
+					}
+				},
+				"m_FarPlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.200000047683716,
+						"y": 2.5999999046325684
+					}
+				},
+				"m_MiddlePlaneOffset": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": -0.5 }
+				}
+			}
+		},
+		"cafe79e67db8f43b": {
+			"parent": "cafe32ce6066245b",
+			"name": "MainFrustums",
+			"factory": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.0004130000015720725,
+							"y": -0.09194999933242798,
+							"z": 1.6930010318756104
+						}
+					}
+				},
+				"m_NearDepth": { "type": "float32", "value": 0.5 },
+				"m_NearPlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612
+					}
+				},
+				"m_FarDepth": { "type": "float32", "value": 25.0 },
+				"m_FarPlaneSize": {
+					"type": "SVector2",
+					"value": { "x": 16.5, "y": 7.5 }
+				},
+				"m_MiddlePlaneSize": {
+					"type": "SVector2",
+					"value": { "x": 6.0, "y": 1.7999999523162842 }
+				},
+				"m_MiddlePlaneOffset": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": -0.5 }
+				},
+				"m_FarPlaneOffset": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 0.800000011920929 }
+				}
+			}
+		},
+		"cafe07b360cd6a61": {
+			"parent": "cafe32ce6066245b",
+			"name": "NearWedge",
+			"factory": "[modules:/zaivisionwedgeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionwedgeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.0000001599597008,
+							"y": 0.0,
+							"z": 180.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.10000000149011612,
+							"z": 0.0
+						}
+					}
+				},
+				"m_Angle": { "type": "float32", "value": 160.0 }
+			}
+		},
+		"cafe4579138e38a9": {
+			"parent": "cafe0b03cd84c9ba",
+			"name": "Wedge",
+			"factory": "[modules:/zaivisionwedgeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionwedgeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.0000001599597008,
+							"y": 0.0,
+							"z": 180.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 0.10000000149011612,
+							"z": 0.0
+						}
+					}
+				},
+				"m_Angle": { "type": "float32", "value": 160.0 }
+			}
+		},
+		"cafeeb36455d7479": {
+			"parent": "cafee52afacd73f7",
+			"name": "CombinedFrustums",
+			"factory": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 0.0, "z": 180.0 },
+						"position": {
+							"x": 0.0,
+							"y": -0.14399999380111694,
+							"z": 1.6579999923706057
+						}
+					}
+				},
+				"m_NearDepth": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_NearPlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612
+					}
+				},
+				"m_FarDepth": {
+					"type": "float32",
+					"value": 2.200000047683716
+				},
+				"m_MiddlePlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158
+					}
+				},
+				"m_FarPlaneSize": {
+					"type": "SVector2",
+					"value": { "x": 2.0, "y": 2.0 }
+				},
+				"m_MiddlePlaneOffset": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": -0.5 }
+				}
+			}
+		},
+		"cafe6cd834c06f19": {
+			"parent": "cafe32ce6066245b",
+			"name": "MainWedge",
+			"factory": "[modules:/zaivisionwedgeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionwedgeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_Angle": {
+					"type": "float32",
+					"value": 176.8000030517578
+				}
+			}
+		},
+		"cafe32ce6066245b": {
+			"parent": "cafe8e2532e91022",
+			"name": "Default",
+			"factory": "[modules:/zaivisionarea01entity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionarea01entity.class].pc_entityblueprint",
+			"properties": {
+				"m_MainFrustums": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe79e67db8f43b"
+				},
+				"m_NearFrustums": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef971b09d78a4"
+				},
+				"m_NearBackOccluders": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe07b360cd6a61"
+				},
+				"m_MainBackOccluders": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6cd834c06f19"
+				}
+			}
+		},
+		"cafe96ce33718709": {
+			"parent": "cafe0b03cd84c9ba",
+			"name": "CombinedFrustums",
+			"factory": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisioncombinedfrustumsentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 0.0, "z": 180.0 },
+						"position": {
+							"x": 0.0,
+							"y": -0.14399999380111694,
+							"z": 1.6579999923706057
+						}
+					}
+				},
+				"m_NearDepth": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_NearPlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612
+					}
+				},
+				"m_FarDepth": {
+					"type": "float32",
+					"value": 2.299999952316284
+				},
+				"m_MiddlePlaneSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.2000000476837158,
+						"y": 1.2000000476837158
+					}
+				},
+				"m_FarPlaneSize": {
+					"type": "SVector2",
+					"value": { "x": 1.7999999523162842, "y": 2.0 }
+				},
+				"m_MiddlePlaneOffset": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": -0.5 }
+				}
+			}
+		},
+		"cafe0b03cd84c9ba": {
+			"parent": "cafe8e2532e91022",
+			"name": "Crowd",
+			"factory": "[modules:/zaivisionarea02entity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionarea02entity.class].pc_entityblueprint",
+			"properties": {
+				"m_MainFrustums": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe96ce33718709"
+				},
+				"m_MainBackOccluders": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4579138e38a9"
+				}
+			}
+		},
+		"cafee52afacd73f7": {
+			"parent": "cafe8e2532e91022",
+			"name": "Vegetation",
+			"factory": "[modules:/zaivisionarea02entity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionarea02entity.class].pc_entityblueprint",
+			"properties": {
+				"m_MainFrustums": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeeb36455d7479"
+				},
+				"m_MainBackOccluders": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe22c6e63cea67"
+				}
+			}
+		},
+		"cafe8e2532e91022": {
+			"parent": "cafed44b496e1111",
+			"name": "DefaultActorVision",
+			"factory": "[modules:/zaivisionconfigurationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaivisionconfigurationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Default": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe32ce6066245b"
+				},
+				"m_Vegetation": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee52afacd73f7"
+				},
+				"m_Crowd": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0b03cd84c9ba"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "4f3ed636042f1b7d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_Default": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe32ce6066245b"
+				},
+				"m_Crowd": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0b03cd84c9ba"
+				},
+				"m_Vegetation": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee52afacd73f7"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d85ef2943a175d2b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fTimeOfDay": { "type": "float32", "value": 22 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "566072e15cfa125e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bVisible": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d3d4de349495c089",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 0 },
+				"On": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "7ddfbe0c8ad89d16",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "178328386c517cd3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "203c52b3d050aefb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f819cc787dfc011e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "85998c56745d2f53",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a19d8679cdb4c9fd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7c5e6e0870c6f157",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a4176fefb6f10812",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9f2da9930c893243",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9821a6f5424dad84",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f90da3b480100eac",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "62f01dddf6dc7209",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8cff9e924d84aa8d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ca1a33a05e6d193f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "162cf8c681a797ca",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "559de384cc6ba612",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c09dbce2f47ec2db",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1910dca8adc8d9bc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2d191cc846736d13",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "17b592f17eff821a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8f87a3ea611f2312",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "80bca99f2e2686be",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1f5e0cab24770f2f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8b1676ff544197e8",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bf7b4a050b54f64c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "22f52508d7228f97",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "05859ec4a02aed73",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6703ffd012024b92",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d29a43bcbca48b38",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a1e32f978852d756",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "448c43721f592811",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "118f9278a82fef09",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7630bdc423fb6096",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "347f4c6c7e86c0af",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "59a19af09341c8ae",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "79700b357fd123d0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b2dc75563f25ad90",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e8cf38767c46a9c9",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6ab8499578078062",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "077dd62cb6413003",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "07548fd3286ca890",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9d4caf8dcdd53dfa",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "cec4223248191406",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "90f1e7876ba04bd9",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f9253f294d5c6282",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1a4b9aceb673c42b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "618ec16093e2b61a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "eaaa1df60ff03915",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "eadfd800bf7ed0bc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "26ee078855fde074",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f71124914f8e03d4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5573cc53777dbbe8",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1ad101949bcf3719",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "99d33ec076c95a18",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "08396fdc47e187a4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6c8b740e68989eb1",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "878e85d8bc132226",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "90caaddbe067185d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "3f92a5f49554f945",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "76902f5265ca00a2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1cdbd8f4b4709513",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bd6e1cc37cdbde82",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2530c4b96164c80d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "adb9be57fc38baea",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e78ab9e8c469c388",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "64bae79741af9ae4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "3bdbaa76cdf520d4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d5bbc9be88cea636",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "61a2625b327b4f0d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "4793dc6083164e9e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "be34baac2d77e56f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c7914807b7295631",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5b3d34d0b8487e3c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c2732f203d6251a8",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a3982d4f9eea99cd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "150a3abf5df96b8b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b6e0f13c8c9c9acc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0faef5bdc0d1c13b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2d8cee13c29dadb3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "caa805bfb814fdd2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ff60656f8ad1a0f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "dfd0bc2d468636df",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6dfc7540113490fd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "90667dc9a99459b3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b40c6e061ddbd3a0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7fe4d9954d5b26da",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d4dc05b4a78364a5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "72d0f018327c2dc5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "038f62c9d5673420",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "47d0d63692deff2a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "53e130d63b918b14",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c95f4c88702326c5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "938a13454b99d321",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6f70c1f567d6aa36",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "86ad0569559e64f5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b4761fcf82a07b06",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c4654e058abc1966",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7c05ba8a6fc4a715",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "124b77936c952038",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ae3bd3455912ec13",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "192dfbcb975884e5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb93bc8cbf0dc3f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d4ca4d2e5b42d902",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f8215590628e0bd3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "de6ea17b94727323",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "79c7c5231637d44b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a0eaed661e2d2dd0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f114a1d5137076fc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c400d19a8920d652",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "21270139f7a1e5d3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "4426a3e421d2cfe1",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "24e7d9943d4a9403",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d626f76a1760d37e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "802003df2e237dd8",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "cbfcc1896de216c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d3268af4a08cc506",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "3dbe99d45cfcd726",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2b0df426c7e09667",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0ebb6207d3721428",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5803978d1c632117",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "de61fc6232b1c3f0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "96919c5b272094df",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b35460f2c23cb663",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "31c80c67d62d18f4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "266790a200b386d4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f23f9ea024ca779e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "676a5db6497b264c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "16d77d288ca3a2a1",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "44b82efd64938a2a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c881377430806602",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "68295c149c9b28f9",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e97474854f6e578b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6bce61976c3e7c58",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "dbf92700905ccc1e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d223d3634543c0ac",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0742228d7b3f6bb3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a5dc14bc6f3d6717",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b48ed707fcdb3981",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "cfbf6d82001bf9d2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": { "On": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "774db99f19819f9e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0cf43955698f4baa",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e0098cca63e4dc2e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d8fcaa1e15cadf98",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b9ff8163b8ba0d62",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "00c3f6618c64957e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9a70a2fbb9711583",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e7a3e8c2c93bfccd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "29304854dc897913",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "79ecf70b90f1310a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "78ab3919aaf394a5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "087b89ec64516de0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"On": { "type": "bool", "value": true },
+				"GlowPower": { "type": "float32", "value": 1000 },
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fff5ed"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 2.9100000858306885
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.9700000286102296
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1eb1a58131832db7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "3bf3f85d8bfe6e3b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "4ee883f006dab248",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0c82189cd37c7b4c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d8c4290e3229609b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "99e69d45b95c525f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "20c1a94159752e30",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ebabb45e0686b184",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "92cac22aafaadae0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9ab7076e0c511bcd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9801c8c81a9bd913",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2dd2b2e24fbda05e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "21c9afb6ac2fea20",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ab70af8cea78693a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "15ce522f3eeeba25",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "20c53a3ba64b9885",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "89e1bd9f11042e9c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f13b45ee8d7771ea",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b4c4086f039245ba",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f38219c9a57efde3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "4f95d9bab5946bb6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8bc15adb51802352",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "855ba658c987d8d5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9ab9b604d64ec06d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ad74b81efa40e913",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7909c9ef6ac025fb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "87367607e43a3817",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "4facc053be96c1bf",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "10e60c49a4beccae",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ae9545f22aa4736a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f217870118269a5f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a7e476583e08d40a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "3afec5e3f9d0822d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8bcc5d6f8754cd02",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "683e045cb86074f5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9fa29508ea470f5a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5e47617de2f6e1ea",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2d11c40e0d36e8e9",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d4cfae75c2687c3d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "647ad09b5444ae98",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7b162b5b773f0a1d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "3d4f690ba20d51c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6a5b3faf4334e22f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "275eea8b8d6ee6fc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "30aa34c90a4b85fa",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2b3bbf4695f4cd0a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a792690c9cf101e1",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "071a90df59397bda",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5d15dc84c530354d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ff95c9924422ee9d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "08e9b6c5d07d4169",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5b1098c34c7ca69f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8b1ba6a85a5c4c68",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9318bf1ed2e2c56d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "48ec5c3535821b95",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "04619241c51c2fbb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9575230eff2136a3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "85de7f2bf6a6403d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5d1e36169746490d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "435ff6daa7783ad0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb478178d6987017",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1971e6680544cbf9",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c34f7ad147b75756",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6f3a5f55f2889d36",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "48d8705b715f39a7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "277bf44905136d3c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1095723b48ca40a6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7f25b68ce4c8bcd6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e3f38efda821b3f0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1ffdae2a13258fe2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "20c709670f96ef8a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8a5cfa5b39856765",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e2634db46172130c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c019712372c4bfe2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "fea6929f57ce8610",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2b4d74416423e769",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0a8f9225060bcb72",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "4ab619a12365bd48",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b7ce780d20c4ab06",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e2047b6315229a78",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f858be26719a5252",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb36ecb7adda4289",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "c5d55dcecc7636cc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "a7eeb8091bd72a6e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "1072ad78a6e19a69",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5fa0ba8b7181edd4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b85030e41404ed9f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7916ebcff2a4f5c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d760a6695cb83c8e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0ad0452738d02988",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6aa37471c61fcdeb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "186d97a5e40f3e02",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "293246c994345f62",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "34cfb9b6be0ca3f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "dab3f487a9132aa4",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "e62c17086056382f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.6700000762939458,
+						"y": 6.340000152587891
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5299999713897705,
+						"y": 1.1200000047683716
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffc6a6"
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"GlowPower": { "type": "float32", "value": 200 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "969dd2af8edae342",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "610990daa3af50d3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "52448064e4a471ec",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5f7af45daac4d0d3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d0b49d5983f3c626",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "999478aa05c1fce5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bc38a80fe832228c",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9e53bb861d5cc254",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "19b2161e4542d9da",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ab69c6ec0fd5c6ca",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5444232fc70c5a1f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "20494946d207d7a6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "50b4769bc117fa20",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "145b2d032a271441",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "13989ce612df1358",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "b89ea6bf60208d48",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "edaa426f45bb2179",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb965738791372ce",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "53a3c28fa6a86c22",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "61746c80d9b2a6b2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d8ef73f4ea31ec9a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "7e97cc9b69d368c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "77b555b630aef865",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f6c62167cb4efdbb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "6b5f66736b243d8b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ee62e74ca0861eed",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb5acab564e6b4c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8e0df051a62a705f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9b6c1b9317fceb05",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "5daaceb859f9d288",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "03e1d34168c86bcf",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "93c98468292f475f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2a4afa6fe76fade9",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "91f5db40c9556d1d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "43aaac17d1ef08dc",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d73c1c8ac8bf817a",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "ca107d14c1a66c89",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "8aaffc827fbf3cef",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "cd37cdaff91dc5e5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "fbb04132c29018a2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true }
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "949b0865ad8021ba",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "80a901ba9b56074a",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "a33608324cde0d0d",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "cdc86efd19dea3c0",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c576f2548fcfd55",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "d851cc5a5d911f42",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ab7641733fd0eeb",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "d9a30ef8cc9ed55f",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "66fe00bb3f80709a",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "aafa8d307724cbac",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "5f1d2414d30ab307",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "61577c3cd774313c",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "9cc90f41f2458a9e",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "84b11ff97bafbf33",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "741291e5b83c81cb",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "ea73bdebebc0b314",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "c6cb103ece3e4fe1",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "ca141caf51d3792b",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "95df6dca6ac08943",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "a0e7e70566eebc3c",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "f199f5b6bcb7c100",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "fd905da40a67908d",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "a4eee13bbc966d1c",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "540b9300a506abe5",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "bea844eb085af302",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "8126718214c9c4d2",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

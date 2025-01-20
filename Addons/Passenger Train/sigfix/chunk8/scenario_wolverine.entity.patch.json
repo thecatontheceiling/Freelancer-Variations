@@ -1,0 +1,42 @@
+{
+	"tempHash": "00E01DF9C7926AB6",
+	"tbluHash": "002FDDA08897E498",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c0d466f14bbbc9e2",
+				{
+					"RemoveAllOutputCopyConnectionsForPropagate": ["PollTrue", "Start_SEQ"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c0d466f14bbbc9e2",
+				{
+					"AddOutputCopyConnection": ["PollTrue", "SEQ_Start_InGameHM", "71c114a33554e7ec"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"afe1d6b20ee1b317",
+				{
+					"RemoveAllOutputCopyConnectionsForPropagate": ["PollTrue", "Start_SEQ"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"afe1d6b20ee1b317",
+				{
+					"AddOutputCopyConnection": ["PollTrue", "SEQ_Start_InGameHM", "db34a30af325c542"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["d63a972f5794b8da", { "RemovePropertyByName": "m_fFrustumFarDistanceProperty" }]
+		}
+	],
+	"patchVersion": 6
+}

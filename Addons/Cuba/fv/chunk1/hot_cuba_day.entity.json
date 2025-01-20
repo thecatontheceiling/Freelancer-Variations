@@ -1,0 +1,109 @@
+{
+	"tempHash": "0087737EAFA8A514",
+	"tbluHash": "0057F89B72220D4C",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "hot_cuba_day",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafef48ec1dac631": {
+			"parent": "fffffffffffffffe",
+			"name": "MusicCore_S2_Collector",
+			"factory": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Composition_PlayEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0016857FFC1B3C75",
+						"flag": "5F"
+					}
+				},
+				"Themes_Allowed": { "type": "bool", "value": true },
+				"IntroCue_Part2_CustomEventStart": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C9828BAE046227",
+						"flag": "5F"
+					}
+				},
+				"IntroCue_Part1_CustomEventStart": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C312F3F201A74E",
+						"flag": "5F"
+					}
+				},
+				"Composition_Vol": { "type": "float32", "value": 0.0 },
+				"PlayThemes_AsStingers": { "type": "bool", "value": true },
+				"ProceduralMoment_PlayEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"ProceduralMoment_StopEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"Allow_AlertedLow_GlobalDistractions": {
+					"type": "bool",
+					"value": true
+				},
+				"TrespassingAlertedLowRule_Enabled": {
+					"type": "bool",
+					"value": true
+				},
+				"StepdownFast": { "type": "int32", "value": 10000 },
+				"StepdownSlow": { "type": "int32", "value": 15000 },
+				"Start_As_AmbBio_1": { "type": "bool", "value": true },
+				"WeaponEquipRule_Enabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_sDefaultState": {
+					"type": "ZString",
+					"value": "AmbientBiome_01"
+				},
+				"ThemePuzzle_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"ThemeSilentAssassin_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"ThemeAssassin_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"ThemeEvilAssassin_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				}
+			},
+			"events": { "SyncBar": { "SyncToNextBar": [] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [
+		{
+			"ref": "6da36a228eb4dd31",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/tod_cuba_midday.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/mission_hot_cuba.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

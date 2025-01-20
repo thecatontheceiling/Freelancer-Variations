@@ -1,0 +1,17 @@
+{
+	"hash_value": "00AB1E2E339A12AF",
+	"hash_offset": 717533889,
+	"hash_size": 2147483834,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 13,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 416,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
+}

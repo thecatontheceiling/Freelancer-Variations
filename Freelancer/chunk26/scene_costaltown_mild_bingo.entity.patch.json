@@ -1,0 +1,72 @@
+{
+    "tempHash": "004B6755A8F753FA",
+    "tbluHash": "00B134321DA7A03C",
+    "patch": [
+        {
+            "RemoveEntityByID": "8568e370f925ad77"
+        },
+        {
+            "RemoveEntityByID": "6c2610952e426821"
+        },
+        {
+            "RemoveEntityByID": "b3b9abe6cdcee2a1"
+        },
+        {
+            "RemoveEntityByID": "2bf0c55262dc3bb5"
+        },
+        {
+            "RemoveEntityByID": "f9241e7180e6e279"
+        },
+        {
+            "RemoveEntityByID": "6708c4ab49a947ea"
+        },
+        {
+            "RemoveEntityByID": "be1bb86fc0faa4fb"
+        },
+        {
+            "RemoveEntityByID": "84df62c034aeb58b"
+        },
+        {
+            "RemoveEntityByID": "422ccfed6d60e439"
+        },
+        {
+            "RemoveEntityByID": "bc238068ed27deac"
+        },
+        {
+            "RemoveEntityByID": "5714da8ff3e0e7d2"
+        },
+        {
+            "RemoveEntityByID": "db98d479a07493ec"
+        },
+        {
+            "RemoveEntityByID": "451dc8764787fca4"
+        },
+        {
+            "RemoveEntityByID": "a12963a18853ac98"
+        },
+        {
+            "RemoveEntityByID": "e8c119a248d4363c"
+        },
+        {
+            "RemoveEntityByID": "3e875419127248ea"
+        },
+        {
+            "RemoveEntityByID": "48cfe320db0f341a"
+        },
+        {
+            "RemoveEntityByID": "179f0e2b51ebbb41"
+        },
+        {
+            "RemoveEntityByID": "9e3210676ec07096"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/override_bingo.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+        }],
+    "patchVersion": 6
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/trapped/lynx/not_the_target.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr6015_doptakebreak_47_002",
+		"soundtag": "In-world_Maincharacter",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/marrakech/6000_coup/6000_story/dr6015_doptakebreak_47_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/marrakech/6000_coup/6000_story/dr6015_doptakebreak_47_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\It was nothing.",
+			"fr": "//(0,30)\\\\Ce n'était rien.",
+			"it": "//(0,30)\\\\È stato un gioco da ragazzi.",
+			"de": "//(0,30)\\\\Keine Ursache.",
+			"es": "//(0,30)\\\\No ha sido nada.",
+			"ru": "//(0,30)\\\\Не за что.",
+			"cn": "//(0,30)\\\\小事一桩。",
+			"tc": "//(0,30)\\\\小事一樁。",
+			"jp": "//(0,30)\\\\それはどうも。"
+		}
+	}
+}

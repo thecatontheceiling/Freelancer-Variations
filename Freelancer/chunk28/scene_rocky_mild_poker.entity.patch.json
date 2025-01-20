@@ -1,0 +1,19 @@
+{
+	"tempHash": "0083E8004D67AF65",
+	"tbluHash": "00507EAA3CBD08C3",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/rocky/mission_mild_poker.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/rocky/override_poker.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

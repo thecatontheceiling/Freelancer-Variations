@@ -1,1 +1,1186 @@
-{"tempHash":"0089D37053086E7F","tbluHash":"001124E1D1F4200F","rootEntity":"fffffffffffffffe","entities":{"fffffffffffffffe":{"parent":null,"name":"Scene","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint"},"abcd3a7fcf9e12ce":{"parent":"fffffffffffffffe","name":"SetPiece_Surveillance_Camera_PissAlley","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":180},"position":{"x":-18.3238,"y":122.3,"z":104.012}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"DiffusePower":{"type":"float32","value":1000},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-10,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_bCastShadows":{"type":"bool","value":true},"Rotating":{"type":"bool","value":true}},"subsets":{"AudioEmitters":["fffffffffffffffe"]}},"abcd15a03e7e1549":{"parent":"fffffffffffffffe","name":"SetPiece_Surveillance_Camera_Train","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-173.989,"y":162.647,"z":94.65}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"DiffusePower":{"type":"float32","value":1000},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-14.999999999999998,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_bCastShadows":{"type":"bool","value":true},"Rotating":{"type":"bool","value":false}},"subsets":{"AudioEmitters":["fffffffffffffffe"]}},"abcd0ac5c0102482":{"parent":"fffffffffffffffe","name":"SetPiece_Surveillance_Camera_Laundry","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":180},"position":{"x":-106.114,"y":110.3,"z":104.023}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"DiffusePower":{"type":"float32","value":1000},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-5.000000000000001,"y":0,"z":-19.999999999999996},"position":{"x":0,"y":0,"z":0}}},"m_bCastShadows":{"type":"bool","value":false},"Rotating":{"type":"bool","value":true}},"subsets":{"AudioEmitters":["fffffffffffffffe"]}},"abcd650e522dae12":{"parent":"fffffffffffffffe","name":"Extra Assassins","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcd21a1f8d7e08d":{"parent":"abcd650e522dae12","name":"CHAR_PissAlley","factory":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype","blueprint":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90.92343385152114},"position":{"x":-46.3646,"y":120.215,"z":101.012}}},"RepositoryId":{"type":"ZGuid","value":"f7aa1122-215b-4a4c-8492-662bf32e0071"},"m_OutfitRepositoryID":{"type":"ZGuid","value":"9ebf4963-5f6b-4770-8d28-444a9008b858"},"m_bStartEnabled":{"type":"bool","value":true},"m_sActorName":{"type":"ZString","value":"Hard Boi 1"},"m_nWeaponIndex":{"type":"int32","value":3},"m_nOutfitVariation":{"type":"int32","value":6},"m_nOutfitCharset":{"type":"int32","value":17},"m_eRequiredVoiceVariation":{"type":"EActorVoiceVariation","value":"eAVV_CIVMALECH01"},"m_aEnforcedOutfits":{"type":"TArray<SEntityTemplateReference>","value":["feed270c90ae3ca3","feedd933fd3e9c9f","feedee4828af600a","feed385d511f2214"],"postInit":true}}},"abcd3292618023da":{"parent":"abcd21a1f8d7e08d","name":"DR_RestaurantWalkway","factory":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint","properties":{"m_rDrama":{"type":"SEntityTemplateReference","value":"abcd406c4341e409"},"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcd21a1f8d7e08d"]}}},"abcda418f64a5c36":{"parent":"abcd3292618023da","name":"Role","factory":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint","properties":{"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcd21a1f8d7e08d"]}}},"abcd153c58c1368e":{"parent":"abcd3292618023da","name":"act_mr_stand_lean_wall_hand_left","factory":"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_wall_hand_left.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_wall_hand_left.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":85},"position":{"x":-3.4,"y":123.858,"z":101.011}}},"m_fActTimeout":{"type":"float32","value":-1},"m_pActor":{"type":"SEntityTemplateReference","value":"abcda418f64a5c36","postInit":true}}},"abcd406c4341e409":{"parent":"abcd3292618023da","name":"Screenplay","factory":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint","properties":{"Roles":{"type":"TArray<SEntityTemplateReference>","value":["abcda418f64a5c36"]}},"events":{"OnStart":{"Start":["abcd153c58c1368e"]}}},"abcd81879225bb24":{"parent":"abcd650e522dae12","name":"CHAR_CentralAlley","factory":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype","blueprint":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90.92343385152114},"position":{"x":-25.7653,"y":118.544,"z":99}}},"RepositoryId":{"type":"ZGuid","value":"f7aa1122-215b-4a4c-8492-662bf32e0074"},"m_OutfitRepositoryID":{"type":"ZGuid","value":"9ebf4963-5f6b-4770-8d28-444a9008b858"},"m_bStartEnabled":{"type":"bool","value":true},"m_sActorName":{"type":"ZString","value":"Hard Boi 3"},"m_nWeaponIndex":{"type":"int32","value":3},"m_nOutfitVariation":{"type":"int32","value":1},"m_nOutfitCharset":{"type":"int32","value":2},"m_eRequiredVoiceVariation":{"type":"EActorVoiceVariation","value":"eAVV_HUSH"},"m_aEnforcedOutfits":{"type":"TArray<SEntityTemplateReference>","value":["feed270c90ae3ca3","feedd933fd3e9c9f","feedee4828af600a","feed385d511f2214"]}},"subsets":{"Replicable":["fffffffffffffffe"]}},"abcda58a87954636":{"parent":"abcd81879225bb24","name":"DR_RestaurantWalkway","factory":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint","properties":{"m_rDrama":{"type":"SEntityTemplateReference","value":"abcd34a41d8eda7a"},"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcd81879225bb24"]}}},"abcd331cd9dab066":{"parent":"abcda58a87954636","name":"Role","factory":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint","properties":{"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcd81879225bb24"]}}},"abcdcb8bcd44f669":{"parent":"abcda58a87954636","name":"act_mr_stand_phone_text","factory":"0040FD86A0E0720E","blueprint":"002865DC1ED32C9B","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":145},"position":{"x":-45.2795,"y":79.3833,"z":97.015}}},"m_fActTimeout":{"type":"float32","value":30},"m_pActor":{"type":"SEntityTemplateReference","value":"abcd331cd9dab066","postInit":true}},"events":{"OnActTimeout":{"In":["abcd5cda61a55e52"]}}},"abcdbb3f36f515de":{"parent":"abcda58a87954636","name":"act_mr_stand_smoke_nervous","factory":"00D2433060B1CB4B","blueprint":"00E674AD47B7F706","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0.92343385152114},"position":{"x":-78.2914,"y":31.8262,"z":97.0097}}},"m_fActTimeout":{"type":"float32","value":35},"m_pActor":{"type":"SEntityTemplateReference","value":"abcd331cd9dab066","postInit":true}},"events":{"OnActTimeout":{"In":["abcd5cda61a55e52"]}}},"abcd34a41d8eda7a":{"parent":"abcda58a87954636","name":"Screenplay","factory":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint","properties":{"Roles":{"type":"TArray<SEntityTemplateReference>","value":["abcd331cd9dab066"]}},"events":{"OnStart":{"In":["abcd5cda61a55e52"]}}},"abcd32147d5f98a1":{"parent":"abcda58a87954636","name":"act_mr_stand_scout","factory":"006F2E5FDAE6D885","blueprint":"00952204D53E6B8F","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":45.00000000000001},"position":{"x":-32.6378,"y":106.364,"z":97.061}}},"m_fActTimeout":{"type":"float32","value":30},"m_pActor":{"type":"SEntityTemplateReference","value":"abcd331cd9dab066","postInit":true}},"events":{"OnActTimeout":{"In":["abcd5cda61a55e52"]}}},"abcd4fb44f0783b8":{"parent":"abcd650e522dae12","name":"CHAR_RoadOut","factory":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype","blueprint":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90.92343385152114},"position":{"x":-181.589,"y":104.353,"z":81}}},"RepositoryId":{"type":"ZGuid","value":"f7aa1122-215b-4a4c-8492-662bf32e0072"},"m_OutfitRepositoryID":{"type":"ZGuid","value":"9ebf4963-5f6b-4770-8d28-444a9008b858"},"m_bStartEnabled":{"type":"bool","value":true},"m_sActorName":{"type":"ZString","value":"Hard Boi 2"},"m_nWeaponIndex":{"type":"int32","value":3},"m_nOutfitVariation":{"type":"int32","value":3},"m_nOutfitCharset":{"type":"int32","value":2},"m_eRequiredVoiceVariation":{"type":"EActorVoiceVariation","value":"eAVV_CIVMALECH02"},"m_aEnforcedOutfits":{"type":"TArray<SEntityTemplateReference>","value":["feed270c90ae3ca3","feedd933fd3e9c9f","feedee4828af600a","feed385d511f2214"]}},"subsets":{"Replicable":["fffffffffffffffe"]}},"abcd6435c8f7cd0b":{"parent":"abcd4fb44f0783b8","name":"DR_RestaurantWalkway","factory":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint","properties":{"m_rDrama":{"type":"SEntityTemplateReference","value":"abcdeee406fd8ea3"},"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcd4fb44f0783b8"]}}},"abcddbb6c054c1a5":{"parent":"abcd6435c8f7cd0b","name":"Role","factory":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint","properties":{"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcd4fb44f0783b8"]}}},"abcdb6eb0dabe70a":{"parent":"abcd6435c8f7cd0b","name":"act_mr_stand_phone_read","factory":"0003B9F0AF491390","blueprint":"00D7644B516D7846","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-45.002979908338},"position":{"x":7.28016,"y":73.7177,"z":100.886}}},"m_fActTimeout":{"type":"float32","value":16},"m_pActor":{"type":"SEntityTemplateReference","value":"abcddbb6c054c1a5","postInit":true}},"events":{"OnActTimeout":{"In":["abcdfd8f817cffd8"]}}},"abcd2a8e1b805738":{"parent":"abcd6435c8f7cd0b","name":"act_mr_stand_stressed_pace","factory":"007651290B4E061F","blueprint":"00EBB77BECBDFDFC","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90.92343385152114},"position":{"x":6.76421,"y":74.0759,"z":100.888}}},"m_fActTimeout":{"type":"float32","value":18},"m_pActor":{"type":"SEntityTemplateReference","value":"abcddbb6c054c1a5","postInit":true}},"events":{"OnActTimeout":{"In":["abcdfd8f817cffd8"]}}},"abcdeee406fd8ea3":{"parent":"abcd6435c8f7cd0b","name":"Screenplay","factory":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint","properties":{"Roles":{"type":"TArray<SEntityTemplateReference>","value":["abcddbb6c054c1a5"]}},"events":{"OnStart":{"In":["abcdfd8f817cffd8"]}}},"abcd596efffd8a99":{"parent":"abcd6435c8f7cd0b","name":"act_mr_stand_itch","factory":"00F11B6BF49B3FD8","blueprint":"00DEB302454B9FE2","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":59.5528018639347},"position":{"x":-33.987755,"y":118.00538,"z":100.99999}}},"m_fActTimeout":{"type":"float32","value":30},"m_pActor":{"type":"SEntityTemplateReference","value":"abcddbb6c054c1a5","postInit":true}},"events":{"OnActTimeout":{"In":["abcdfd8f817cffd8"]}}},"abcd5cda61a55e52":{"parent":"abcd81879225bb24","name":"Random act","factory":"[modules:/zsignalrandomrouteentity_void.class].pc_entitytype","blueprint":"[modules:/zsignalrandomrouteentity_void.class].pc_entityblueprint","properties":{"m_nMaxOutPinNum":{"type":"int32","value":3},"m_bShuffleOnEachLoop":{"type":"bool","value":true}},"events":{"Out1":{"Start":["abcdbb3f36f515de"]},"Out2":{"Start":["abcdcb8bcd44f669"]},"Out3":{"Start":["abcd32147d5f98a1"]}}},"abcdae6b9c54ff15":{"parent":"abcd650e522dae12","name":"CHAR_Back Ledge","factory":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype","blueprint":"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90.92343385152114},"position":{"x":-51.8759,"y":27.9126,"z":101}}},"RepositoryId":{"type":"ZGuid","value":"f7aa1122-215b-4a4c-8492-662bf32e0073"},"m_OutfitRepositoryID":{"type":"ZGuid","value":"9ebf4963-5f6b-4770-8d28-444a9008b858"},"m_bStartEnabled":{"type":"bool","value":true},"m_sActorName":{"type":"ZString","value":"Hard Boi 4"},"m_nWeaponIndex":{"type":"int32","value":2},"m_nOutfitVariation":{"type":"int32","value":8},"m_nOutfitCharset":{"type":"int32","value":12},"m_eRequiredVoiceVariation":{"type":"EActorVoiceVariation","value":"eAVV_CIVMALECH01"},"m_aEnforcedOutfits":{"type":"TArray<SEntityTemplateReference>","value":["feed270c90ae3ca3","feedd933fd3e9c9f","feedee4828af600a","feed385d511f2214","feed2f73d529fd77"],"postInit":true}}},"abcda45a630dff7c":{"parent":"abcdae6b9c54ff15","name":"DR_RestaurantWalkway","factory":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint","properties":{"m_rDrama":{"type":"SEntityTemplateReference","value":"abcda663a89e6b49"},"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcdae6b9c54ff15"]}}},"abcd2a19b6242685":{"parent":"abcda45a630dff7c","name":"Role","factory":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint","properties":{"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":["abcdae6b9c54ff15"]}}},"abcdee16d059a1c0":{"parent":"abcda45a630dff7c","name":"act_mr_stand_shady 1","factory":"00652C1AA44E1962","blueprint":"0088071B5AD86885","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90.00000000000001},"position":{"x":-69.8502,"y":24.3943,"z":103.19}}},"m_fActTimeout":{"type":"float32","value":7},"m_pActor":{"type":"SEntityTemplateReference","value":"abcd2a19b6242685","postInit":true}},"events":{"OnActTimeout":{"Start":["feedd44b799bc41c"]},"OnActDone":{"Start":["feedd44b799bc41c"]}}},"abcda663a89e6b49":{"parent":"abcda45a630dff7c","name":"Screenplay","factory":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint","properties":{"Roles":{"type":"TArray<SEntityTemplateReference>","value":["abcd2a19b6242685"]}},"events":{"OnStart":{"Start":["abcdee16d059a1c0"]}}},"abcdfd8f817cffd8":{"parent":"abcd4fb44f0783b8","name":"Random act","factory":"[modules:/zsignalrandomrouteentity_void.class].pc_entitytype","blueprint":"[modules:/zsignalrandomrouteentity_void.class].pc_entityblueprint","properties":{"m_nMaxOutPinNum":{"type":"int32","value":3},"m_bShuffleOnEachLoop":{"type":"bool","value":true}},"events":{"Out1":{"Start":["abcd2a8e1b805738"]},"Out2":{"Start":["abcdb6eb0dabe70a"]},"Out3":{"Start":["abcd596efffd8a99"]}}},"feed3cd7566a786f":{"parent":"fffffffffffffffe","name":"Rat Hard SecurityCameras","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"feed6782b501b33c":{"parent":"feed3cd7566a786f","name":"SetPiece_Surveillance_Camera_Corridor_07","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-58.65834045410156,"y":24.18433952331543,"z":96.83061218261719}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"LaserColor":{"type":"SColorRGB","value":"#00ff55"},"DiffusePower":{"type":"float32","value":10000},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-14.999998470691793,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_vFarAttenuation":{"type":"SVector2","value":{"x":5,"y":12}},"LightCastShadows":{"type":"bool","value":true},"m_eRoomLightFlow":{"type":"ILightEntity.ERoomLightFlow","value":"LOCAL"},"DetectionDistance":{"type":"float32","value":9},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}},"subsets":{"Activatable_NormalGameplay, IEntity":["fffffffffffffffe"],"AudioEmitters":["fffffffffffffffe"]}},"feed50b15a0b136b":{"parent":"feed3cd7566a786f","name":"SetPiece_Surveillance_Camera_Corridor_14","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-34.71015930175781,"y":84.95877838134766,"z":119.69059753417969}}},"Rotating":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"LaserColor":{"type":"SColorRGB","value":"#ccff00"},"DiffusePower":{"type":"float32","value":10000},"Setpiece_Vol":{"type":"float32","value":0},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-20.000003868532236,"y":0,"z":-12.00000024447964},"position":{"x":0,"y":0,"z":0}}},"m_vFarAttenuation":{"type":"SVector2","value":{"x":5,"y":6}},"m_eRoomLightFlow":{"type":"ILightEntity.ERoomLightFlow","value":"LOCAL"},"DetectionDistance":{"type":"float32","value":8},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}},"subsets":{"Activatable_NormalGameplay, IEntity":["fffffffffffffffe"],"AudioEmitters":["fffffffffffffffe"]}},"feedc4007bebdd33":{"parent":"feed3cd7566a786f","name":"SetPiece_Surveillance_Camera_Corridor_10","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-72.59400939941406,"y":45.66020965576172,"z":100.73040008544922}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"LaserColor":{"type":"SColorRGB","value":"#00ff55"},"DiffusePower":{"type":"float32","value":10000},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-25.000001258748778,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_vFarAttenuation":{"type":"SVector2","value":{"x":5,"y":8}},"LightCastShadows":{"type":"bool","value":true},"m_eRoomLightFlow":{"type":"ILightEntity.ERoomLightFlow","value":"LOCAL"},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}},"subsets":{"Activatable_NormalGameplay, IEntity":["fffffffffffffffe"],"AudioEmitters":["fffffffffffffffe"]}},"feeded2707518aa3":{"parent":"feed3cd7566a786f","name":"SetPiece_Surveillance_Camera_Corridor_01","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-7.57949843919586e-7,"y":1.5344611505158185e-8,"z":89.99999995453058},"position":{"x":-45.28990936279297,"y":20.05760955810547,"z":91.89906311035156}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"LaserColor":{"type":"SColorRGB","value":"#00ff55"},"DiffusePower":{"type":"float32","value":10000},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-10.000001123908486,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_vFarAttenuation":{"type":"SVector2","value":{"x":5,"y":10}},"LightCastShadows":{"type":"bool","value":true},"m_eRoomLightFlow":{"type":"ILightEntity.ERoomLightFlow","value":"LOCAL"},"DetectionDistance":{"type":"float32","value":8},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe"}},"subsets":{"Activatable_NormalGameplay, IEntity":["fffffffffffffffe"],"AudioEmitters":["fffffffffffffffe"]}},"feedfe565befe8c4":{"parent":"feed3cd7566a786f","name":"SetPiece_Surveillance_Camera_Corridor_15","factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-90},"position":{"x":-43.70872116088867,"y":114.77120208740234,"z":105.44550323486328}}},"Rotating":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"LaserColor":{"type":"SColorRGB","value":"#ccff00"},"DiffusePower":{"type":"float32","value":10000},"Setpiece_Vol":{"type":"float32","value":0},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-14.999998470691793,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_vFarAttenuation":{"type":"SVector2","value":{"x":5,"y":10}},"m_eRoomLightFlow":{"type":"ILightEntity.ERoomLightFlow","value":"LOCAL"},"DetectionDistance":{"type":"float32","value":8},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe"}},"subsets":{"Activatable_NormalGameplay, IEntity":["fffffffffffffffe"],"AudioEmitters":["fffffffffffffffe"]}},"feed270c90ae3ca3":{"parent":"abcd650e522dae12","name":"Prof_Police","factory":"[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_bodyguard_leader.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_bodyguard_leader.entitytemplate].pc_entityblueprint"},"feedd933fd3e9c9f":{"parent":"abcd650e522dae12","name":"Prof_Freelancer_Guard","factory":"[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entityblueprint"},"feedee4828af600a":{"parent":"abcd650e522dae12","name":"Prof_Wet_Worker_DumplingCook","factory":"[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entityblueprint"},"feed2f73d529fd77":{"parent":"abcd650e522dae12","name":"Prof_Agent47","factory":"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"},"feed385d511f2214":{"parent":"abcd650e522dae12","name":"Prof_WET_Guard","factory":"[assembly:/_pro/design/actor/profession.template?/prof_wet_guard.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_wet_guard.entitytemplate].pc_entityblueprint"},"feed106e018a6242":{"parent":"fffffffffffffffe","name":"SetPiece_Surveillance_Camera_ASTAIRS","blueprint":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":89.90447547874636},"position":{"x":-24.308716,"y":43.722008,"z":110.82125}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"LaserColor":{"type":"SColorRGB","value":"#00ff44"},"RotationOffset":{"type":"SMatrix43","value":{"rotation":{"x":-10,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"DetectionDistance":{"type":"float32","value":10},"DiffusePower":{"type":"float32","value":3000},"LightCastShadows":{"type":"bool","value":true},"m_fShadowFadeDistance":{"type":"float32","value":8},"m_vFarAttenuation":{"type":"SVector2","value":{"x":10,"y":6}},"Rotating":{"type":"bool","value":false}},"subsets":{"Activatable_NormalGameplay, IEntity":["fffffffffffffffe"],"AudioEmitters":["fffffffffffffffe"]},"factory":"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype"},"feedd44b799bc41c":{"parent":"abcda45a630dff7c","name":"act_mr_stand_shady 2","factory":"00652C1AA44E1962","blueprint":"0088071B5AD86885","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-173.92388238369134},"position":{"x":-101.13436,"y":51.852226,"z":101}}},"m_fActTimeout":{"type":"float32","value":20},"m_pActor":{"type":"SEntityTemplateReference","value":"abcd2a19b6242685","postInit":true}},"events":{"OnActTimeout":{"Start":["abcdee16d059a1c0"]},"OnActDone":{"Start":["abcdee16d059a1c0"]}}},"abcdefcadc2e258e":{"parent":null,"name":"QNE In-Vivo Helper Entity","factory":"[modules:/zmultiparentspatialentity.class].pc_entitytype","blueprint":"[modules:/zmultiparentspatialentity.class].pc_entityblueprint","properties":{"m_aParents":{"type":"TArray<SEntityTemplateReference>","value":["fffffffffffffffe","abcd3a7fcf9e12ce","abcd15a03e7e1549","abcd0ac5c0102482","abcd650e522dae12","abcd21a1f8d7e08d","abcd3292618023da","abcda418f64a5c36","abcd153c58c1368e","abcd406c4341e409","abcd81879225bb24","abcda58a87954636","abcd331cd9dab066","abcdcb8bcd44f669","abcdbb3f36f515de","abcd34a41d8eda7a","abcd32147d5f98a1","abcd4fb44f0783b8","abcd6435c8f7cd0b","abcddbb6c054c1a5","abcdb6eb0dabe70a","abcd2a8e1b805738","abcdeee406fd8ea3","abcd596efffd8a99","abcd5cda61a55e52","abcdae6b9c54ff15","abcda45a630dff7c","abcd2a19b6242685","abcdee16d059a1c0","abcda663a89e6b49","abcdfd8f817cffd8","feed3cd7566a786f","feed6782b501b33c","feed50b15a0b136b","feedc4007bebdd33","feeded2707518aa3","feedfe565befe8c4","feed270c90ae3ca3","feedd933fd3e9c9f","feedee4828af600a","feed2f73d529fd77","feed385d511f2214","feed106e018a6242","feedd44b799bc41c"]}}},"abcdefcadc77e4f2":{"parent":"abcdefcadc2e258e","name":"QNE In-Vivo Helper Entity GameEventListener","factory":"[modules:/zgameeventlistenerentity.class].pc_entitytype","blueprint":"[modules:/zgameeventlistenerentity.class].pc_entityblueprint","properties":{"m_eEvent":{"type":"EGameEventType","value":"GET_IntroCutEnd"}},"events":{"EventOccurred":{"GetIndex":["abcdefcadc2e258e"]}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"brick","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "0089D37053086E7F",
+	"tbluHash": "001124E1D1F4200F",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"abcd3a7fcf9e12ce": {
+			"parent": "fffffffffffffffe",
+			"name": "SetPiece_Surveillance_Camera_PissAlley",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": {
+							"x": -18.3238,
+							"y": 122.3,
+							"z": 104.012
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -10, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"Rotating": { "type": "bool", "value": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"abcd15a03e7e1549": {
+			"parent": "fffffffffffffffe",
+			"name": "SetPiece_Surveillance_Camera_Train",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -173.989,
+							"y": 162.647,
+							"z": 94.65
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -14.999999999999998,
+							"y": 0,
+							"z": 0
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"Rotating": { "type": "bool", "value": false }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"abcd0ac5c0102482": {
+			"parent": "fffffffffffffffe",
+			"name": "SetPiece_Surveillance_Camera_Laundry",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": {
+							"x": -106.114,
+							"y": 110.3,
+							"z": 104.023
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"DiffusePower": { "type": "float32", "value": 1000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.000000000000001,
+							"y": 0,
+							"z": -19.999999999999996
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"Rotating": { "type": "bool", "value": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"abcd650e522dae12": {
+			"parent": "fffffffffffffffe",
+			"name": "Extra Assassins",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcd21a1f8d7e08d": {
+			"parent": "abcd650e522dae12",
+			"name": "CHAR_PissAlley",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.92343385152114
+						},
+						"position": {
+							"x": -46.3646,
+							"y": 120.215,
+							"z": 101.012
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "f7aa1122-215b-4a4c-8492-662bf32e0071"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "9ebf4963-5f6b-4770-8d28-444a9008b858"
+				},
+				"m_bStartEnabled": { "type": "bool", "value": true },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Hard Boi 1"
+				},
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_nOutfitVariation": { "type": "int32", "value": 6 },
+				"m_nOutfitCharset": { "type": "int32", "value": 17 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALECH01"
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed270c90ae3ca3",
+						"feedd933fd3e9c9f",
+						"feedee4828af600a",
+						"feed385d511f2214"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"abcd3292618023da": {
+			"parent": "abcd21a1f8d7e08d",
+			"name": "DR_RestaurantWalkway",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd406c4341e409"
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd21a1f8d7e08d"]
+				}
+			}
+		},
+		"abcda418f64a5c36": {
+			"parent": "abcd3292618023da",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd21a1f8d7e08d"]
+				}
+			}
+		},
+		"abcd153c58c1368e": {
+			"parent": "abcd3292618023da",
+			"name": "act_mr_stand_lean_wall_hand_left",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_wall_hand_left.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_wall_hand_left.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 85 },
+						"position": {
+							"x": -3.4,
+							"y": 123.858,
+							"z": 101.011
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": -1 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcda418f64a5c36",
+					"postInit": true
+				}
+			}
+		},
+		"abcd406c4341e409": {
+			"parent": "abcd3292618023da",
+			"name": "Screenplay",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Roles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcda418f64a5c36"]
+				}
+			},
+			"events": { "OnStart": { "Start": ["abcd153c58c1368e"] } }
+		},
+		"abcd81879225bb24": {
+			"parent": "abcd650e522dae12",
+			"name": "CHAR_CentralAlley",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.92343385152114
+						},
+						"position": {
+							"x": -25.7653,
+							"y": 118.544,
+							"z": 99
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "f7aa1122-215b-4a4c-8492-662bf32e0074"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "9ebf4963-5f6b-4770-8d28-444a9008b858"
+				},
+				"m_bStartEnabled": { "type": "bool", "value": true },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Hard Boi 3"
+				},
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"m_nOutfitCharset": { "type": "int32", "value": 2 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_HUSH"
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed270c90ae3ca3",
+						"feedd933fd3e9c9f",
+						"feedee4828af600a",
+						"feed385d511f2214"
+					]
+				}
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"abcda58a87954636": {
+			"parent": "abcd81879225bb24",
+			"name": "DR_RestaurantWalkway",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd34a41d8eda7a"
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd81879225bb24"]
+				}
+			}
+		},
+		"abcd331cd9dab066": {
+			"parent": "abcda58a87954636",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd81879225bb24"]
+				}
+			}
+		},
+		"abcdcb8bcd44f669": {
+			"parent": "abcda58a87954636",
+			"name": "act_mr_stand_phone_text",
+			"factory": "0040FD86A0E0720E",
+			"blueprint": "002865DC1ED32C9B",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 145 },
+						"position": {
+							"x": -45.2795,
+							"y": 79.3833,
+							"z": 97.015
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 30 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd331cd9dab066",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "In": ["abcd5cda61a55e52"] } }
+		},
+		"abcdbb3f36f515de": {
+			"parent": "abcda58a87954636",
+			"name": "act_mr_stand_smoke_nervous",
+			"factory": "00D2433060B1CB4B",
+			"blueprint": "00E674AD47B7F706",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.92343385152114
+						},
+						"position": {
+							"x": -78.2914,
+							"y": 31.8262,
+							"z": 97.0097
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 35 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd331cd9dab066",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "In": ["abcd5cda61a55e52"] } }
+		},
+		"abcd34a41d8eda7a": {
+			"parent": "abcda58a87954636",
+			"name": "Screenplay",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Roles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd331cd9dab066"]
+				}
+			},
+			"events": { "OnStart": { "In": ["abcd5cda61a55e52"] } }
+		},
+		"abcd32147d5f98a1": {
+			"parent": "abcda58a87954636",
+			"name": "act_mr_stand_scout",
+			"factory": "006F2E5FDAE6D885",
+			"blueprint": "00952204D53E6B8F",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 45.00000000000001
+						},
+						"position": {
+							"x": -32.6378,
+							"y": 106.364,
+							"z": 97.061
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 30 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd331cd9dab066",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "In": ["abcd5cda61a55e52"] } }
+		},
+		"abcd4fb44f0783b8": {
+			"parent": "abcd650e522dae12",
+			"name": "CHAR_RoadOut",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.92343385152114
+						},
+						"position": {
+							"x": -181.589,
+							"y": 104.353,
+							"z": 81
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "f7aa1122-215b-4a4c-8492-662bf32e0072"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "9ebf4963-5f6b-4770-8d28-444a9008b858"
+				},
+				"m_bStartEnabled": { "type": "bool", "value": true },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Hard Boi 2"
+				},
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 2 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALECH02"
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed270c90ae3ca3",
+						"feedd933fd3e9c9f",
+						"feedee4828af600a",
+						"feed385d511f2214"
+					]
+				}
+			},
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"abcd6435c8f7cd0b": {
+			"parent": "abcd4fb44f0783b8",
+			"name": "DR_RestaurantWalkway",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "abcdeee406fd8ea3"
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd4fb44f0783b8"]
+				}
+			}
+		},
+		"abcddbb6c054c1a5": {
+			"parent": "abcd6435c8f7cd0b",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd4fb44f0783b8"]
+				}
+			}
+		},
+		"abcdb6eb0dabe70a": {
+			"parent": "abcd6435c8f7cd0b",
+			"name": "act_mr_stand_phone_read",
+			"factory": "0003B9F0AF491390",
+			"blueprint": "00D7644B516D7846",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -45.002979908338
+						},
+						"position": {
+							"x": 7.28016,
+							"y": 73.7177,
+							"z": 100.886
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 16 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcddbb6c054c1a5",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "In": ["abcdfd8f817cffd8"] } }
+		},
+		"abcd2a8e1b805738": {
+			"parent": "abcd6435c8f7cd0b",
+			"name": "act_mr_stand_stressed_pace",
+			"factory": "007651290B4E061F",
+			"blueprint": "00EBB77BECBDFDFC",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.92343385152114
+						},
+						"position": {
+							"x": 6.76421,
+							"y": 74.0759,
+							"z": 100.888
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 18 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcddbb6c054c1a5",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "In": ["abcdfd8f817cffd8"] } }
+		},
+		"abcdeee406fd8ea3": {
+			"parent": "abcd6435c8f7cd0b",
+			"name": "Screenplay",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Roles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcddbb6c054c1a5"]
+				}
+			},
+			"events": { "OnStart": { "In": ["abcdfd8f817cffd8"] } }
+		},
+		"abcd596efffd8a99": {
+			"parent": "abcd6435c8f7cd0b",
+			"name": "act_mr_stand_itch",
+			"factory": "00F11B6BF49B3FD8",
+			"blueprint": "00DEB302454B9FE2",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 59.5528018639347
+						},
+						"position": {
+							"x": -33.987755,
+							"y": 118.00538,
+							"z": 100.99999
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 30 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcddbb6c054c1a5",
+					"postInit": true
+				}
+			},
+			"events": { "OnActTimeout": { "In": ["abcdfd8f817cffd8"] } }
+		},
+		"abcd5cda61a55e52": {
+			"parent": "abcd81879225bb24",
+			"name": "Random act",
+			"factory": "[modules:/zsignalrandomrouteentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalrandomrouteentity_void.class].pc_entityblueprint",
+			"properties": {
+				"m_nMaxOutPinNum": { "type": "int32", "value": 3 },
+				"m_bShuffleOnEachLoop": { "type": "bool", "value": true }
+			},
+			"events": {
+				"Out1": { "Start": ["abcdbb3f36f515de"] },
+				"Out2": { "Start": ["abcdcb8bcd44f669"] },
+				"Out3": { "Start": ["abcd32147d5f98a1"] }
+			}
+		},
+		"abcdae6b9c54ff15": {
+			"parent": "abcd650e522dae12",
+			"name": "CHAR_Back Ledge",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.92343385152114
+						},
+						"position": {
+							"x": -51.8759,
+							"y": 27.9126,
+							"z": 101
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "f7aa1122-215b-4a4c-8492-662bf32e0073"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "9ebf4963-5f6b-4770-8d28-444a9008b858"
+				},
+				"m_bStartEnabled": { "type": "bool", "value": true },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Hard Boi 4"
+				},
+				"m_nWeaponIndex": { "type": "int32", "value": 2 },
+				"m_nOutfitVariation": { "type": "int32", "value": 8 },
+				"m_nOutfitCharset": { "type": "int32", "value": 12 },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALECH01"
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed270c90ae3ca3",
+						"feedd933fd3e9c9f",
+						"feedee4828af600a",
+						"feed385d511f2214"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"abcda45a630dff7c": {
+			"parent": "abcdae6b9c54ff15",
+			"name": "DR_RestaurantWalkway",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "abcda663a89e6b49"
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdae6b9c54ff15"]
+				}
+			}
+		},
+		"abcd2a19b6242685": {
+			"parent": "abcda45a630dff7c",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdae6b9c54ff15"]
+				}
+			}
+		},
+		"abcdee16d059a1c0": {
+			"parent": "abcda45a630dff7c",
+			"name": "act_mr_stand_shady 1",
+			"factory": "00652C1AA44E1962",
+			"blueprint": "0088071B5AD86885",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.00000000000001
+						},
+						"position": {
+							"x": -69.8502,
+							"y": 24.3943,
+							"z": 103.19
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 7 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd2a19b6242685",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["feedd44b799bc41c"] },
+				"OnActDone": { "Start": ["feedd44b799bc41c"] }
+			}
+		},
+		"abcda663a89e6b49": {
+			"parent": "abcda45a630dff7c",
+			"name": "Screenplay",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Roles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd2a19b6242685"]
+				}
+			},
+			"events": { "OnStart": { "Start": ["abcdee16d059a1c0"] } }
+		},
+		"abcdfd8f817cffd8": {
+			"parent": "abcd4fb44f0783b8",
+			"name": "Random act",
+			"factory": "[modules:/zsignalrandomrouteentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalrandomrouteentity_void.class].pc_entityblueprint",
+			"properties": {
+				"m_nMaxOutPinNum": { "type": "int32", "value": 3 },
+				"m_bShuffleOnEachLoop": { "type": "bool", "value": true }
+			},
+			"events": {
+				"Out1": { "Start": ["abcd2a8e1b805738"] },
+				"Out2": { "Start": ["abcdb6eb0dabe70a"] },
+				"Out3": { "Start": ["abcd596efffd8a99"] }
+			}
+		},
+		"feed3cd7566a786f": {
+			"parent": "fffffffffffffffe",
+			"name": "Rat Hard SecurityCameras",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed6782b501b33c": {
+			"parent": "feed3cd7566a786f",
+			"name": "SetPiece_Surveillance_Camera_Corridor_07",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -58.65834045410156,
+							"y": 24.18433952331543,
+							"z": 96.8306121826172
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"LaserColor": { "type": "SColorRGB", "value": "#00ff55" },
+				"DiffusePower": { "type": "float32", "value": 10000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -14.999998470691793,
+							"y": 0,
+							"z": 0
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 12 }
+				},
+				"LightCastShadows": { "type": "bool", "value": true },
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"DetectionDistance": { "type": "float32", "value": 9 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"feed50b15a0b136b": {
+			"parent": "feed3cd7566a786f",
+			"name": "SetPiece_Surveillance_Camera_Corridor_14",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -34.71015930175781,
+							"y": 84.95877838134766,
+							"z": 119.69059753417967
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"LaserColor": { "type": "SColorRGB", "value": "#ccff00" },
+				"DiffusePower": { "type": "float32", "value": 10000 },
+				"Setpiece_Vol": { "type": "float32", "value": 0 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -20.000003868532236,
+							"y": 0,
+							"z": -12.00000024447964
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 6 }
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"DetectionDistance": { "type": "float32", "value": 8 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"feedc4007bebdd33": {
+			"parent": "feed3cd7566a786f",
+			"name": "SetPiece_Surveillance_Camera_Corridor_10",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -72.59400939941406,
+							"y": 45.66020965576172,
+							"z": 100.73040008544922
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"LaserColor": { "type": "SColorRGB", "value": "#00ff55" },
+				"DiffusePower": { "type": "float32", "value": 10000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -25.000001258748775,
+							"y": 0,
+							"z": 0
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 8 }
+				},
+				"LightCastShadows": { "type": "bool", "value": true },
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"feeded2707518aa3": {
+			"parent": "feed3cd7566a786f",
+			"name": "SetPiece_Surveillance_Camera_Corridor_01",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -7.57949843919586e-7,
+							"y": 1.5344611505158185e-8,
+							"z": 89.99999995453058
+						},
+						"position": {
+							"x": -45.28990936279297,
+							"y": 20.05760955810547,
+							"z": 91.89906311035156
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"LaserColor": { "type": "SColorRGB", "value": "#00ff55" },
+				"DiffusePower": { "type": "float32", "value": 10000 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -10.000001123908486,
+							"y": 0,
+							"z": 0
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 10 }
+				},
+				"LightCastShadows": { "type": "bool", "value": true },
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"DetectionDistance": { "type": "float32", "value": 8 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"feedfe565befe8c4": {
+			"parent": "feed3cd7566a786f",
+			"name": "SetPiece_Surveillance_Camera_Corridor_15",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": {
+							"x": -43.70872116088867,
+							"y": 114.77120208740234,
+							"z": 105.44550323486328
+						}
+					}
+				},
+				"Rotating": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"LaserColor": { "type": "SColorRGB", "value": "#ccff00" },
+				"DiffusePower": { "type": "float32", "value": 10000 },
+				"Setpiece_Vol": { "type": "float32", "value": 0 },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -14.999998470691793,
+							"y": 0,
+							"z": 0
+						},
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 10 }
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"DetectionDistance": { "type": "float32", "value": 8 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"feed270c90ae3ca3": {
+			"parent": "abcd650e522dae12",
+			"name": "Prof_Police",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_bodyguard_leader.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_bodyguard_leader.entitytemplate].pc_entityblueprint"
+		},
+		"feedd933fd3e9c9f": {
+			"parent": "abcd650e522dae12",
+			"name": "Prof_Freelancer_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entityblueprint"
+		},
+		"feedee4828af600a": {
+			"parent": "abcd650e522dae12",
+			"name": "Prof_Wet_Worker_DumplingCook",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_worker_dumplingcook.entitytemplate].pc_entityblueprint"
+		},
+		"feed2f73d529fd77": {
+			"parent": "abcd650e522dae12",
+			"name": "Prof_Agent47",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
+		},
+		"feed385d511f2214": {
+			"parent": "abcd650e522dae12",
+			"name": "Prof_WET_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_guard.entitytemplate].pc_entityblueprint"
+		},
+		"feed106e018a6242": {
+			"parent": "fffffffffffffffe",
+			"name": "SetPiece_Surveillance_Camera_ASTAIRS",
+			"factory": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.90447547874636
+						},
+						"position": {
+							"x": -24.308716,
+							"y": 43.722008,
+							"z": 110.82125
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"LaserColor": { "type": "SColorRGB", "value": "#00ff44" },
+				"RotationOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -10, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"DetectionDistance": { "type": "float32", "value": 10 },
+				"DiffusePower": { "type": "float32", "value": 3000 },
+				"LightCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": { "type": "float32", "value": 8 },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 10, "y": 6 }
+				},
+				"Rotating": { "type": "bool", "value": false }
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"feedd44b799bc41c": {
+			"parent": "abcda45a630dff7c",
+			"name": "act_mr_stand_shady 2",
+			"factory": "00652C1AA44E1962",
+			"blueprint": "0088071B5AD86885",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -173.92388238369134
+						},
+						"position": {
+							"x": -101.13436,
+							"y": 51.852226,
+							"z": 101
+						}
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 20 },
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "abcd2a19b6242685",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": { "Start": ["abcdee16d059a1c0"] },
+				"OnActDone": { "Start": ["abcdee16d059a1c0"] }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

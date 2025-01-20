@@ -1,11 +1,12 @@
 {
-	"version": "1.7.16",
+	"version": "1.8.3",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
-	"contentFolders": ["SHARED", "Freelancer"],
+	"contentFolders": ["Freelancer"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/FV-Autoupdater/main/updates.json",
 	"description": "Gives most maps randomised alternative variants when you visit in Freelancer; includes bonus missions and different times of day/weather. Requires SDK mod or Peacock Plugin to actually work.",
-	"authors": ["Kevin Rudd", "Piepieonline", "Kercyx"],
+	"authors": ["Kevin Rudd", "Kercyx"],
+    "loadAfter": ["KevinRudd.SeafoodMassacre","musicalmushr00m.LightingUltimate"],
 	"dependencies": [
 	"00559CF4597C9DCA",
 	"00D1F1997329D563",
@@ -23,146 +24,19 @@
 		"runtimeID": "00386CF911215A4D",
 		"comment": "play_hollyhock",
 		"toChunk": 1
-	},"00E43E9DD30F2935",{
-		"runtimeID": "004F5FFA5651FB35",
-		"comment": "starfield",
-		"toChunk": 1
-	},{
-		"runtimeID": "00EA33BD94BD2577",
-		"comment": "Moon",
-		"toChunk": 1
-	},{
-		"runtimeID": "00FA593C54570ABE",
-		"comment": "Moon text",
-		"toChunk": 1
-	},{
-		"runtimeID": "00A47BD7D49620A3",
-		"comment": "Moon text",
-		"toChunk": 1
-	},"00AFD8E95E30F785","00B699EFB3802B71","0049E402097FE46D","000BA41D084B1850","00EEB8534D4CC4D1","005415E5BE265EFD","002978EF7EA21E13","001147744AF1F5D3","002CED4A0CC9BC87",{"runtimeID": "007E17AB2A0A1D00","toChunk": 1,"comment": "Colorado Sky"},{
-		"runtimeID": "003D96EAECB00C82",
-		"comment": "adonis_sky",
-		"toChunk": 1
-	},{
+	},"00AFD8E95E30F785","00B699EFB3802B71","0049E402097FE46D","000BA41D084B1850","00EEB8534D4CC4D1","005415E5BE265EFD","002978EF7EA21E13","001147744AF1F5D3","002CED4A0CC9BC87",
+	{
 		"runtimeID": "009805B6A91D206E",
 		"comment": "play_mumbai",
 		"toChunk": 1
 	},{
-		"runtimeID": "00C7E997840E11D9",
-		"comment": "skunk_sky",
-		"portFromChunk1": true
-	},	{
-		"runtimeID": "00A01A2790FF4E7D",
-		"toChunk": 1,
-		"comment": "Sgail Night Sky"
-	},	{
-		"runtimeID": "0000BB4D3ACBD175",
-		"toChunk": 1,
-		"comment": "Lamp Ornate Marrakesh"
-	},	{
-		"runtimeID": "002E8103127A9ED2",
-		"toChunk": 1,
-		"comment": "Lamp Ornate Marrakesh"
-	},	{
-		"runtimeID": "001341F87621CA97",
-		"toChunk": 1,
-		"comment": "Lamp Ornate Marrakesh"
-	},{
-		"runtimeID": "00729EF0B144AF31",
-		"comment": "Mumbai Slums Sound - Daytime Chongqing depends start 1 before this entry",
-		"toChunk": 6
-	},	{
-		"runtimeID": "0023C8B28A69EC05",
-		"comment": "Mumbai Central Sound (Light)",
-		"toChunk": 6
-	},	{
-		"runtimeID": "005BF239676A0332",
-		"comment": "Mumbai Apartment Ambience",
-		"toChunk": 6
-	},	{
-		"runtimeID": "00EEF802B8A0A491",
-		"comment": "Mumbai tiles",
-		"toChunk": 1
-	},	{
-		"runtimeID": "00A756E8CD7DD992",
-		"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_a_3mat_blend.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "005259B174CBA1E0",
-		"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "00B89C2DEFFCEE02",
-		"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "009258620E53A50B",
-		"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "00A904F1C2260F8C",
-		"comment": "[assembly:/_pro/environment/materials/generic/ground/paving_granite_concrete_3mat_blend.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "009A3BDF3EE1684A",
-		"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_b.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "00824F624CFCD966",
-		"comment": "[assembly:/_pro/environment/materials/generic/floor/floor_tiles_ceramic_c_2mat_blend_b_fox.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "0005DEA28E52DD52",
-		"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_road_3mat_blend_a_fox.mi].pc_mi",
-		"toChunk": 1
-	},	{
-		"runtimeID": "00333DA97534256B",
-		"toChunk": 1,
-		"comment": "Dartmoor Outside LUT"
-	},	{
-		"runtimeID": "00E48F94093D37F9",
-		"toChunk": 1,
-		"comment": "Colorado Sky"
-	},	{
 		"runtimeID": "00AA559EFE13DEDE",
 		"toChunk": 1,
 		"comment": "laptop_b_rat"
-	},	{
-		"runtimeID": "00DF65C520255827",
-		"toChunk": 1,
-		"comment": "Infect LUT"
-	},	"001083CD8A6BB32D", {
-		"runtimeID": "008027305D878A5E",
-		"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
-		"toChunk": 1
-	},	{
-		"runtimeID": "0016ECC27E61E9D0",
-		"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
-		"toChunk": 1
-	}, "005F1C65A63B1084","003458578AADA57A","004B3B5C68E404C6","00D799D256F71A3C","003927FFC881F072",{
+	},	"005F1C65A63B1084","003458578AADA57A","004B3B5C68E404C6","00D799D256F71A3C","003927FFC881F072",{
 		"runtimeID": "006D6AC49D3D80FA",
 		"comment": "waterbarrel",
 		"toChunk": 1
-	},	{
-		"runtimeID": "00DBD0E72CCCB165",
-		"toChunk": 1,
-		"comment": "sky_falcon"
-	},	{
-		"runtimeID": "009F206E1EBA5F25",
-		"toChunk": 1,
-		"comment": "lut_colombia"
-	},	{
-		"runtimeID": "0026D710EAF1BFEE",
-		"toChunk": 1,
-		"comment": "sky_sunset_v2_026_a"
-	},	{
-		"runtimeID": "00505C92F53599D0",
-		"toChunk": 1,
-		"comment": "Miami Sky"
-	},	{
-		"runtimeID": "003A3122B5CCDB39",
-		"toChunk": 1,
-		"comment": "Sky_Sunset_v2_029 Berlin"
 	},{
 		"runtimeID": "0016A3E811DE863C",
 		"comment": "Barber Music"
@@ -171,74 +45,237 @@
 		"toChunk": 1,
 		"comment": "SF House Party Music"
 	},{
-		"runtimeID": "009F511F46E65730",
-		"comment": "lamps_outdoor_italy",
-		"toChunk": 1
-	},{
-		"runtimeID": "0079AFAB0FCE6F29",
-		"comment": "haven_lamps",
-		"toChunk": 1
-	},{
-		"runtimeID": "00408BD9834EB7CD",
-		"comment": "hokkaido_cubes_lamps",
-		"toChunk": 1
-	},{
 		"runtimeID": "00FC761F5BC4EF8A",
 		"comment": "hokkaido_wires_lamps",
-		"toChunk": 1
-	},{
-		"runtimeID": "00DD3B02533AD71E",
-		"comment": "hokkaido_little_lamps",
-		"toChunk": 1
-	},{
-		"runtimeID": "0011BF67AC6B2AB1",
-		"comment": "ambrose_hanging_lamps",
 		"toChunk": 1
 	},{
 		"runtimeID": "0029222E19CDE0BF",
 		"comment": "WC_wire_lamps",
 		"toChunk": 1
-	},{
-		"runtimeID": "00964A71CA18BBD1",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
-	},{
-		"runtimeID": "0074A528CE4E0F78",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
-	},{
-		"runtimeID": "006D93EB00EDDD5F",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
-	},{
-		"runtimeID": "00AE8574A2DF8F00",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
-	},{
-		"runtimeID": "00B747B0450DFB3B",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
-	},{
-		"runtimeID": "0099FA407A26CD1A",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
-	},{
-		"runtimeID": "00CDA374BED0E840",
-		"comment": "Fireworks stuff",
-		"toChunk": 1
 	}],
 	"options": [
 		{
+			"name": "Random ToDs compatibility",
+			"type": "conditional",
+			"condition": "\"TeamRuddcy.RandomToDs\" not in config.loadOrder",
+			"contentFolders": ["SHARED"],
+			"dependencies": [{
+				"runtimeID": "00907BCED9E107EB",
+				"toChunk": 9,
+				"comment": "Magpie Lamp"
+			},"0018AB110B83E417","002E85BC93584A8A","007BE9EAE845E573",{
+				"runtimeID": "007E17AB2A0A1D00",
+				"comment": "Freedom Fighters Sky",
+				"toChunk": 1
+			},{
+				"runtimeID": "005E9A37D4ED9287",
+				"comment": "Hokkaido Sky",
+				"toChunk": 1
+			},"0061EF503C4C562E","004C20CB4AEB0573","00B699EFB3802B71","002978EF7EA21E13","005415E5BE265EFD","00E656CB0E9ED0ED","00032972CFAF8528",{
+				"runtimeID": "003D96EAECB00C82",
+				"comment": "adonis_sky",
+				"toChunk": 1
+			},"0049E402097FE46D","000BA41D084B1850", {
+				"runtimeID": "00C7E997840E11D9",
+				"comment": "skunk_sky",
+				"portFromChunk1": true
+			},	{
+				"runtimeID": "00A01A2790FF4E7D",
+				"toChunk": 1,
+				"comment": "Sgail Night Sky"
+			},	{
+				"runtimeID": "00DBD0E72CCCB165",
+				"comment": "Sky_Falcon",
+				"portFromChunk1": true
+			},	{
+				"runtimeID": "009F206E1EBA5F25",
+				"toChunk": 1,
+				"comment": "lut_colombia"
+			},	{
+				"runtimeID": "0026D710EAF1BFEE",
+				"toChunk": 1,
+				"comment": "sky_sunset_v2_026_a"
+			},	{
+				"runtimeID": "0000BB4D3ACBD175",
+				"toChunk": 1,
+				"comment": "Lamp Ornate Marrakesh"
+			},	{
+				"runtimeID": "002E8103127A9ED2",
+				"toChunk": 1,
+				"comment": "Lamp Ornate Marrakesh"
+			},	{
+				"runtimeID": "001341F87621CA97",
+				"toChunk": 1,
+				"comment": "Lamp Ornate Marrakesh"
+			},	"001147744AF1F5D3", {
+				"runtimeID": "00729EF0B144AF31",
+				"comment": "Mumbai Slums Sound - Daytime Chongqing depends start 1 before this entry",
+				"toChunk": 6
+			},	{
+				"runtimeID": "0023C8B28A69EC05",
+				"comment": "Mumbai Central Sound (Light)",
+				"toChunk": 6
+			},	{
+				"runtimeID": "005BF239676A0332",
+				"comment": "Mumbai Apartment Ambience",
+				"toChunk": 6
+			},	{
+				"runtimeID": "00EEF802B8A0A491",
+				"comment": "Mumbai tiles",
+				"toChunk": 1
+			},	{
+				"runtimeID": "00A756E8CD7DD992",
+				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_a_3mat_blend.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "005259B174CBA1E0",
+				"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "00B89C2DEFFCEE02",
+				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "009258620E53A50B",
+				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "00A904F1C2260F8C",
+				"comment": "[assembly:/_pro/environment/materials/generic/ground/paving_granite_concrete_3mat_blend.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "009A3BDF3EE1684A",
+				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_b.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "00D9AD4F48B782DD",
+				"comment": "[assembly:/_pro/environment/materials/generic/floor/floor_tiles_ceramic_b_2mat_blend_fox.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "005259B174CBA1E0",
+				"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
+				"toChunk": 1
+			},	{
+				"runtimeID": "00333DA97534256B",
+				"toChunk": 1,
+				"comment": "Dartmoor Outside LUT"
+			},	{
+				"runtimeID": "00E48F94093D37F9",
+				"toChunk": 1,
+				"comment": "Colorado Sky"
+			},	{
+				"runtimeID": "00AA559EFE13DEDE",
+				"toChunk": 1,
+				"comment": "laptop_b_rat"
+			},	{
+				"runtimeID": "00DF65C520255827",
+				"toChunk": 1,
+				"comment": "Infect LUT"
+			},	"001083CD8A6BB32D", {
+				"runtimeID": "008027305D878A5E",
+				"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
+				"toChunk": 1
+			},	{
+				"runtimeID": "0016ECC27E61E9D0",
+				"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
+				"toChunk": 1
+			},	{
+				"runtimeID": "00505C92F53599D0",
+				"toChunk": 1,
+				"comment": "Miami Sky"
+			},	{
+				"runtimeID": "003A3122B5CCDB39",
+				"toChunk": 1,
+				"comment": "Sky_Sunset_v2_029 Berlin"
+			}, {
+				"runtimeID": "009F511F46E65730",
+				"comment": "lamps_outdoor_italy",
+				"toChunk": 1
+			}, {
+				"runtimeID": "0079AFAB0FCE6F29",
+				"comment": "haven_lamps",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "00408BD9834EB7CD",
+				"comment": "hokkaido_cubes_lamps",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "00DD3B02533AD71E",
+				"comment": "hokkaido_little_lamps",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "0011BF67AC6B2AB1",
+				"comment": "ambrose_hanging_lamps",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "00964A71CA18BBD1,0074A528CE4E0F78,006D93EB00EDDD5F,00AE8574A2DF8F00,00B747B0450DFB3B,0099FA407A26CD1A,00CDA374BED0E840",
+				"comment": "Fireworks stuff",
+				"toChunk": 1
+			},{
+				"runtimeID": "00831B9E1275B7C0",
+				"comment": "SkyClearB",
+				"portFromChunk1": true,
+				"toChunk": 0
+			},{
+				"runtimeID": "00464EE06E4AA17D",
+				"comment": "Sky Bulldog",
+				"toChunk": 1
+			},{
+				"runtimeID": "00E1CCC446CD4777",
+				"comment": "Hokkaido Lamp",
+				"toChunk": 9
+			},
+		
+		
+		
+			
+			"00E43E9DD30F2935",	{
+				"runtimeID": "004F5FFA5651FB35",
+				"comment": "starfield",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "00EA33BD94BD2577",
+				"comment": "Moon",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "00FA593C54570ABE",
+				"comment": "Moon text",
+				"toChunk": 1
+			},
+			{
+				"runtimeID": "00A47BD7D49620A3",
+				"comment": "Moon text",
+				"toChunk": 1
+			},{
+				"runtimeID": "00D167B329091046",
+				"comment": "fx_e_rain",
+				"toChunk": 1
+			},{
+				"runtimeID": "00FDB8565FFAA61A",
+				"comment": "hitmanrainwetlogic",
+				"toChunk": 1
+			},{
+				"runtimeID": "008DA82DE27F8837",
+				"comment": "rainkillbox",
+				"toChunk": 1
+			}]
+		}, {
 			"name": "Peacock Plugin",
 			"tooltip": "Enables Peacock Plugin for those who don't want to use SDK (Do not run at same time). Make sure your FreelancerVariations.json is in Peacock folder or Peacock/Plugins",
 			"peacockPlugins": ["FreelancerVariationsA.plugin.js", "FreelancerVariationsB.plugin.js"],
 			"type": "checkbox"
 		},{
 		"name": "via SDK Mod",
-		"tooltip": "Enables map slot for Hawke's Bay on SDK Mod (IO's vanilla server + Peacock). Used by Hawke's Bay and optionally Hantu Port",
+		"tooltip": "Enables map slot for Hawke's Bay on SDK Mod (IO's vanilla server + Peacock). Used by Hawke's Bay and optionally Hantu Port and Passenger Train. If this is your first time enabling it you may need to restart campaign for it to show.",
 		"type": "select",
 		"group": "Hawke's Bay Map Slot",
-		"contentFolders": ["HB/base", "HB/IO Server"],
+		"contentFolders": ["Addons/HB/base", "Addons/HB/IO Server"],
 		"enabledByDefault": true,
 		"dependencies": [
 			"007BE9EAE845E573",{
@@ -264,10 +301,10 @@
 		}]
 	},	{
 		"name": "via Peacock Plugin",
-		"tooltip": "Enables map slot for Hawke's Bay on Peacock plugin only. Does NOT currently support Hantu Port or variant selection, 4 Hawke's Bay variants are enabled.",
+		"tooltip": "Enables map slot for Hawke's Bay on Peacock plugin only. Hawke's Bay via this method does NOT support variant selection sadly, 4 Hawke's Bay variants are enabled by default.If this is your first time enabling it you may need to restart campaign for it to show.",
 		"type": "select",
 		"group": "Hawke's Bay Map Slot",
-		"contentFolders": ["HB/base", "HB/Peacock"],
+		"contentFolders": ["Addons/HB/base", "Addons/HB/Peacock"],
 		"dependencies": [
 			"007BE9EAE845E573",{
 			"runtimeID": "005E9A37D4ED9287",
@@ -292,19 +329,20 @@
 		}]
 	},	{
 		"name": "Off",
-		"tooltip": "Hawke's Bay map slot will not appear in any syndicates",
+		"tooltip": "Hawke's Bay map slot will not appear in any syndicates. If you had it on then it may take a campaign reset to take effect.",
 		"type": "select",
 		"group": "Hawke's Bay Map Slot",
 		"contentFolders": []
 	},
 		{
-		"name": "Enabled",
-		"tooltip": "Allows for Noodle Massacre variant of Chongqing. Do not select if you have Noodle Massacre mod deployed seperately. Use variant picker website to enable Noodle Massacre variants in official release. Will increase deploy time.",
-		"type": "select",
+		"name": "Noodle Massacre - Base Content",
+		"tooltip": "Allows for Noodle Massacre variant of Chongqing. Originally a selectable option due to deploy time concerns, now mandatory.",
+		"type": "conditional",
+		"condition": "\"KevinRudd.SeafoodMassacre\" not in config.loadOrder",
 		"enabledByDefault": true,
-		"group": "Chongqing Noodle Massacre content",
-		"contentFolders": ["Noodle/base","Noodle/fv"],
-		"dependencies": [{
+		"contentFolders": ["Addons/Noodle/base","Addons/Noodle/fv"],
+		"dependencies": [
+			{
 			"runtimeID": "00F30A3238B94A60",
 			"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/skunk_bbq_tent_a.entitytemplate].pc_entitytype",
 			"toChunk": 1
@@ -413,9 +451,9 @@
 			"runtimeID": "00D2C61706C1E2E9",
 			"portFromChunk1": true
 		},{
-			"runtimeID": "0043E92132981F7C",
-			"comment": "Stilleto Head",
-			"toChunk": 1
+			"runtimeID": "00F360478652B519",
+			"comment": "charset_stiletto",
+			"toChunk": 6
 		},{
 			"runtimeID": "00EC55F927A27185",
 			"comment": "Garbage Truck",
@@ -434,16 +472,12 @@
 			"portFromChunk1": true
 		}]
 	},	{
-		"name": "Disabled",
-		"tooltip": "Does not deploy Noodle Massacre files. Use if you have Noodle Massacre mod deployed seperately, or you do NOT wish to play Noodle Massacre variant of Chongqing (Not recommended!)",
-		"type": "select",
-		"group": "Chongqing Noodle Massacre content"
-	},	{
 		"name": "Noodle Massacre - Compatibility",
 		"type": "conditional",
 		"condition": "\"KevinRudd.SeafoodMassacre\" in config.loadOrder",
-		"contentFolders": ["Noodle/fv"],
-		"dependencies": [{
+		"contentFolders": ["Addons/Noodle/fv"],
+		"dependencies": [
+			{
 			"runtimeID": "00F30A3238B94A60",
 			"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/skunk_bbq_tent_a.entitytemplate].pc_entitytype",
 			"toChunk": 1
@@ -517,11 +551,26 @@
 			"toChunk": 6
 		}]
 	}, {
+		"name": "Minnow's HB Outfit Fix",
+		"type": "conditional",
+		"condition": "\"GlacierOrganisation.CommunityPatches\" not in config.loadOrder",
+		"contentFolders": ["Addons/HB/DIF"],
+		"dependencies": []
+	}, {
 		"name": "The Brothers Content",
 		"type": "conditional",
 		"condition": "\"KevinRudd.TheBrothers\" not in config.loadOrder",
-		"contentFolders": ["TheBrothers"],
-		"dependencies": []
+		"contentFolders": ["Addons/TheBrothers"],
+		"dependencies": [{
+			"runtimeID": "00E14A9BC22CF067,003AE0409E7B398E,009CDDA9654D4041,0060C6EA7E1E7949,00505DAEB7FF61D1",
+			"toChunk": 25
+		},{
+			"runtimeID": "00871CD7E6883D90,0054377FCA807749,0041832395E4E883,009B39888DB8586B,0036B8A9C033E5F0",
+			"toChunk": 25
+		},"0023F0D0EFF828CF","00D2EA9F1AC346A9",{
+			"runtimeID": "007958CA8FCCE469,0069D5263B85EBA1,00578B12377C6BF0",
+			"toChunk": 21
+		}]
 	}, {
 		"name": "No Hantu Port",
 		"type": "conditional",
@@ -532,13 +581,13 @@
 		"name": "Hantu Port",
 		"type": "conditional",
 		"condition": "\"KevinRudd.SandboxHantu\" in config.loadOrder",
-		"contentFolders": ["Hantu"],
+		"contentFolders": ["Addons/Hantu"],
 		"dependencies": []
 	}, {
 		"name": "Methlab Content",
 		"type": "conditional",
 		"condition": "\"KevinRudd.Methlab\" not in config.loadOrder",
-		"contentFolders": ["Methlab"],
+		"contentFolders": ["Addons/Methlab"],
 		"dependencies": [
 			"0026237F6C47888E","00917ED74B627C53",{
 			"runtimeID": "0011D0EE6C252479",
@@ -605,7 +654,7 @@
 		"name": "Passenger Train",
 		"type": "conditional",
 		"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder",
-		"contentFolders": ["Passenger Train/base", "Passenger Train/fv"],
+		"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv"],
 		"dependencies": [
 			"002BF35A526696D2","00760A6102503E67","00C1253FE9B34540","00BA6D023DB8CE9D","004477157143B8D3","004143CD137810AA","0076A0A69DD6EE33","0063C3B17A9686D3","00AD6700C1A7ED33","007C447438A950D3","00614ADA9857D0E2","007AC61B86C3C0C9","00A740FB993091A9","0098DA0E68D0F761","0069BC955624CEC1","005A3DA89D0D46FB","009051C31AA605DF","0030FDC6896FD335","006BE0454186E4AA","005946462F4EF718","008EDCF30CB12BD2","006D529EB01058A5","007D03F6DBCF9B27","001C7EFE78C71BEB",{
 			"runtimeID": "00C9FDC130E919B1",
@@ -748,10 +797,222 @@
 		"scripts/CopyTrain.ts"
 	]
 	},{
-		"name": "Passenger Train",
+		"name": "Passenger Train External",
 		"type": "conditional",
 		"condition": "\"KevinRudd.PassengerTrain\" in config.loadOrder",
-		"contentFolders": ["Passenger Train/fv"]
+		"contentFolders": ["Addons/Passenger Train/fv"]
+	},{
+		"name": "Passenger Train Suit Fix",
+		"type": "conditional",
+		"condition": "\"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
+		"contentFolders": ["Addons/Passenger Train/sigfix"]
+	},{
+		"name": "Cuba",
+		"type": "conditional",
+		"condition": "\"KevinRudd.WelcomeToCuba\" not in config.loadOrder",
+		"contentFolders": ["Addons/Cuba/base", "Addons/Cuba/fv"],
+		"dependencies": [
+		"0049E402097FE46D,000BA41D084B1850",{
+			"runtimeID": "0016857FFC1B3C75,00C9828BAE046227,00C312F3F201A74E",
+			"comment": "Dugong Music",
+			"toChunk": 1
+		},"005731A0439FDF16,008B845B79C7713E,00D65881050E89B4","004DD64E7E835FE5","0075E0E64FC8B786","0094346108D3BCE8","00EDAC6AB40BE5A6","002C7C6085542586",
+		"0065DA77A1B050D1","000A90EDC108755A","0018B5C337EFA649","00E675905F89B5AD",
+		"00E569DC2B6F19FC", "0017C8E59931B20A", "008214A87DB0C179","00B2F001F8A53617",
+		"001EAAAD78B8E60F","0011FB3B3151F8B6","0083308AE7CBFD90","00F2352B1AC67B47",
+		"000E29678C0117A1","00B02F9BD6357B46","00E67884F5C3E391","00C32BA588A2EF4E",
+		"0029FCEC8F733B1F","006011AB83514A04","002D55ADB4FF1E70","00FB8C9E12E38D5C","0080629981257C5E","00B6D07E7B3D6043",
+		"0054E48D9845DA22","00B908AB403626C2","00719C5A3511A5B6","00A724DB06D5163F","005AC9F8B99CF507",
+		"001C0A3B26E38A14","0013D8676507FD49","000EDF8447896471","0000BE483C5B58A9","0043EA47A8A6B7DA",{
+			"runtimeID": "00D03F330BE61DCF",
+			"comment": "Radio Tower",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "007F8E94792894A6",
+			"comment": "Mendoza Head of Security",
+			"toChunk": 1
+		},{
+			"runtimeID": "0074BC921646CEE2",
+			"comment": "Mendoza Mercenaries",
+			"toChunk": 1
+		},"00746FB20D1C98C1",{
+		"runtimeID": "003C7A98980FF033",
+		"comment": "Colombia Ground Piece",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00753F60E3B43D71",
+		"comment": "Colombia Rock",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00AAF9822C3D6E65",
+		"comment": "prison_int_doorframe_4x4_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0072FE537EEDC5D5",
+		"comment": "prison_int_wall_4x4_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00B026278CDB88C2",
+		"comment": "prison_int_wall_2x4_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00FB43EBAA65ADCB",
+		"comment": "a_int_wall_3x4_blank_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00C36C7B4E06B56D",
+		"comment": "villa_inside_wall_4x5m_a",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00AE4095BD7B4BB8",
+		"comment": "Soviet Helicopter",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00630331F49279F5",
+		"comment": "Dugong Sound",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00032972CFAF8528",
+		"comment": "Dugong Soundbank",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "009C39B3346B3B49",
+		"comment": "Seagull Ground",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00E84516663E9657",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0023F4A8D8717388",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0008624B83DED7D8",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "003EBC8B1A766A14",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0066646AE9C60502",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0079290FD6E771A4",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0039B4652887765A",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00733CE031C9B295",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00734B15D9F0AC56",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00163D2EAF77F128",
+		"comment": "Colombia Trees",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0084CF8B5BF10A5C",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0086D3FF5A23FF8A",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0067A506309E7D77",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00F82189E98CD993",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0056A6A178FACFD8",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00221C101D068B09",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0078FF6B669DFF1B",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "007F678C6A46FDA0",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00F878A932945D3C",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "009B154F0B68AD75",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00209FAC41BD6DAA",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00CCAFE9AEF51E7E",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00203DB8E381114D",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00A576E96BDF9513",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "004AF57E9565D7E6",
+		"comment": "Colombia Vistas",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0076553EF3989023",
+		"comment": "Colorado Ground Stuff",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00F4CEFCBC28FEB9",
+		"comment": "Colorado Ground Stuff",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0002AEAE2EF54B46",
+		"comment": "Colorado Ground Stuff",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "003D6A1767EA2DEB",
+		"comment": "[assembly:/_pro/environment/materials/generic/ground/colombia_blend_sandstone_mud_dirt_g.mi].pc_mi",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "00DBD0E72CCCB165",
+		"comment": "Sky_Falcon",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "004F5FFA5651FB35",
+		"comment": "starfield",
+		"portFromChunk1": true
+	},{
+		"runtimeID": "0026E1082076FBA6",
+		"comment": "starfield",
+		"portFromChunk1": true
+	}]
+	},{
+		"name": "Cuba External",
+		"type": "conditional",
+		"condition": "\"KevinRudd.WelcomeToCuba\" in config.loadOrder",
+		"contentFolders": ["Addons/Cuba/fv"]
 	},{
 		"name": "No AOM",
 		"type": "conditional",
@@ -768,9 +1029,7 @@
 		}, "00C971B032756DED","00F29C6A6DA00025"]
 	}],
 	"requirements": [],
-    "loadBefore": [
-        "musicalmushr00m.LightingUltimate"
-    ],
+    "loadBefore": [],
 	"packagedefinition": [{
 		"type": "entity",
 		"partition": "sheep",

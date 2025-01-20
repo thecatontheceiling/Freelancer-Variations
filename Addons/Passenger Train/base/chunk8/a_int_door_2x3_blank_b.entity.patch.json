@@ -1,0 +1,135 @@
+{
+    "tempHash": "0099A09983551344",
+    "tbluHash": "0076A730EE57E96C",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "af68146f5cb6cf65",
+                {
+                    "AddPropertyAliasConnection": [
+                        "ShutterClosed",
+                        {
+                            "originalProperty": "m_bVisible",
+                            "originalEntity": "feed1d9529aace53"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed1d9529aace53",
+                {
+                    "parent": "8030b8c8ebdb4aa4",
+                    "name": "a_int_detail_shutter_a_01 CLOSED",
+                    "factory": "0075E31C14EB662A",
+                    "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_mTransform": {
+                            "type": "SMatrix43",
+                            "value": {
+                                "rotation": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -180
+                                },
+                                "position": {
+                                    "x": 0.6999989748001099,
+                                    "y": 0,
+                                    "z": 0.865
+                                }
+                            }
+                        },
+                        "m_bKinematic": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_bVisible": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "Cover_Scale": {
+                            "type": "SVector3",
+                            "value": {
+                                "x": 0.550000011920929,
+                                "y": 0.5,
+                                "z": 1
+                            }
+                        },
+                        "m_PrimitiveScale": {
+                            "type": "SVector3",
+                            "value": {
+                                "x": 0.550000011920929,
+                                "y": 0.5,
+                                "z": 0.44999998807907104
+                            }
+                        },
+                        "m_eidParent": {
+                            "type": "SEntityTemplateReference",
+                            "value": "8030b8c8ebdb4aa4",
+                            "postInit": true
+                        }
+                    },
+                    "propertyAliases": {
+                        "Cover_Scale": [
+                            {
+                                "originalProperty": "m_PrimitiveScale",
+                                "originalEntity": "feed496c62284d0e"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "AddEntity": [
+                "feed496c62284d0e",
+                {
+                    "parent": "feed1d9529aace53",
+                    "name": "a_int_detail_cover_a",
+                    "factory": "00D6FF720B5B783C",
+                    "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+                    "properties": {
+                        "m_mTransform": {
+                            "type": "SMatrix43",
+                            "value": {
+                                "rotation": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                "position": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            }
+                        },
+                        "m_PrimitiveScale": {
+                            "type": "SVector3",
+                            "value": {
+                                "x": 0.550000011920929,
+                                "y": 0.5,
+                                "z": 1
+                            }
+                        },
+                        "m_bCastShadows": {
+                            "type": "bool",
+                            "value": false
+                        },
+                        "m_bKinematic": {
+                            "type": "bool",
+                            "value": true
+                        },
+                        "m_eidParent": {
+                            "type": "SEntityTemplateReference",
+                            "value": "feed1d9529aace53",
+                            "postInit": true
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

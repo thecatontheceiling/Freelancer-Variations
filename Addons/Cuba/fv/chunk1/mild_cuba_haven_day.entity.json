@@ -1,0 +1,117 @@
+{
+	"tempHash": "00717385D822DDCC",
+	"tbluHash": "00CA32F5485358F5",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "fc590d6cc896d971",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_mild_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"ClientReq03": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq03"
+				},
+				"ClientReq02": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq02"
+				},
+				"MildTargets_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Targets"
+				},
+				"ClientReq01": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq01"
+				},
+				"Safes_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Safes"
+				},
+				"Vendors_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Vendors"
+				},
+				"MoneyMules_ID": {
+					"type": "ZString",
+					"value": "MildHilo_MoneyMules"
+				},
+				"ClientReqsFailed_ID": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReqsFailed"
+				},
+				"Completed_ID": {
+					"type": "ZString",
+					"value": "MildHilo_MissionCompleted"
+				},
+				"Failed_ID": {
+					"type": "ZString",
+					"value": "MildHilo_MissionFailed"
+				},
+				"Stashes_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Stashes"
+				},
+				"Active_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Active"
+				},
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "ca4708b9-cc21-4bb2-9020-c20359e14da4"
+				},
+				"Alerted_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Alerted"
+				},
+				"ClientReq04": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq04"
+				},
+				"ClientReq05": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq05"
+				},
+				"ClientReq06": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq06"
+				},
+				"ClientReq07": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq07"
+				},
+				"ClientReq08": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq08"
+				},
+				"MildBasePayout_ID": {
+					"type": "ZString",
+					"value": "MildHilo_BasePayout"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/mission_mild_cuba.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/mild_cuba_day.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

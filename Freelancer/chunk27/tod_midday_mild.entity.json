@@ -1,0 +1,382 @@
+{
+	"tempHash": "0028083C04B7F689",
+	"tbluHash": "00D1520C13C5C2CE",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "ba2624f23bbee695",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "2524e30a8fcca926",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				},
+				{
+					"ref": "fd43d139ad340aaf",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_EnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3be7fdda23725722",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "6ffcfd94e3ce4c96",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "f594baa462455d53",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "e221a5ea9fe0657b",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "bc5dbc7dc18f7140",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "8bd0c9d1f368323f",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "98fee2b52344475c",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "18bfab68a7cca0b3",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "6276ef28c7017e43",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "8ca22567a28ae9a6",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "12548b46d7b71c67",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "726a8ba322b84e57",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "340fcaa104b0315c",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "7bda16c1cdb94b42",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "6b799e06310ad1dd",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "b876ff7b52c10b3b",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "f1e2bb1afa935288",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "5a187843d155dac0",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "1064c0ab90199cd8",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "dda883fee5b991fd",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "dca88467637d4083",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "f0d0376b65be18a4",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "531a51013f6a8b5c",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "4b648a5249b13341",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "853b7ebac8eb11d1",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "d061386287df18e7",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "707d2d52742f894b",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "11a133f5b1dde460",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "c2fc382540da9871",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "6828ecbbeda605fd",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "cb42497326fe419c",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "056bea294522b406",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "f6c8f3c68170e9d4",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "8739af4b219c167a",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "2e914e76b3458223",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "045c460ee3524700",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "abe725d21f67379c",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "da85abb86f234fb7",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "221b72e3488f6093",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "6429ff33a94a8551",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "e42103a1373a5e56",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "40bc7ac45c4c568d",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "d8c01305330f0121",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "b5a0224084f12e91",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "07a0441ec53ddcea",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "ed88b986459e2f06",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "62a1bca700a96b05",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "dbcb96474d28a261",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "d71681c3848467d6",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "48747ff71cfcae7b",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "1e343ed256876895",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "8f9c094943a61563",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "6ebc31b3cc52ba29",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "4cdcf9d625aa1f58",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "9425622252ce4e47",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "be561ec6b73b6b08",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "6e374e0dd6fbafd0",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "15d1b71ddb635fa0",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "ab0a850d15ab416e",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "f7c193dd0efb5987",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "bcb8282ab17c0c00",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "a4329708b1f561ee",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "48747ff71cfcae7b",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "590682adbbc0fcba",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "9d261ffd70875f98",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
+						},
+						{
+							"ref": "8ae8c52ffb6c1ad6",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "f4633cd822ddee77",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "b1ee5984d5a7c2d1",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "8e7e10b2ff3b0577",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "015e001d5205a362",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "0f9a41fd594e2722",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "ae8c4571f1a66f3e",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "876f5072e0caf72a",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "6c0fdb147bb53c06",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		},
+		{
+			"ref": "74983ab211ec6127",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		},
+		{
+			"ref": "3c60d4ea238294dc",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		},
+		{
+			"ref": "3ac54986798def8f",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		},
+		{
+			"ref": "01eace8e1fbe6ecd",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		},
+		{
+			"ref": "6dc4200698911216",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		},
+		{
+			"ref": "96995d949824e616",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/tod_midday.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

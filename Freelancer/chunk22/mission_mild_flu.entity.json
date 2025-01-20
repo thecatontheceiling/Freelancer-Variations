@@ -1,451 +1,518 @@
 {
-    "tempHash": "00BE181571756DB2",
-    "tbluHash": "008EC6C17A44E6D0",
-    "rootEntity": "fffffffffffffffe",
-    "entities": {
-        "fe9bf297c247c260": {
-            "parent": {
-                "ref": "f0a46ac499be4f2f",
-                "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
-            },
-            "name": "ContractCreation_Flu",
-            "factory": "[modules:/zentity.class].pc_entitytype",
-            "blueprint": "[modules:/zentity.class].pc_entityblueprint"
-        },
-        "fffffffffffffffe": {
-            "parent": null,
-            "name": "Scene",
-            "factory": "[modules:/zspatialentity.class].pc_entitytype",
-            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-        },
-        "99a18da416479582": {
-            "parent": "fe9bf297c247c260",
-            "name": "Antidote_Container_A_Empty",
-            "factory": "00DAF771AF210457",
-            "blueprint": "0092DFE6E003B973",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -0.7674434781074524
-                        },
-                        "position": {
-                            "x": 0.47251391410827637,
-                            "y": 3.869878053665161,
-                            "z": 0.9025480151176453
-                        }
-                    }
-                },
-                "m_eidParent": {
-                    "type": "SEntityTemplateReference",
-                    "value": {
-                        "ref": "f0a46ac499be4f2f",
-                        "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
-                    }
-                }
-            }
-        }
-    },
-    "propertyOverrides": [
-        {
-            "entities": [
-                {
-                    "ref": "9bed4e63a017c908",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -135
-                        },
-                        "position": {
-                            "x": -65.7999,
-                            "y": 54.4145,
-                            "z": -0.465887
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "9c353c006f3400c6",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -46.694671630859375
-                        },
-                        "position": {
-                            "x": -85.6277,
-                            "y": 75.714,
-                            "z": -0.465827
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "d3d333a58c4f6489",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": -45
-                        },
-                        "position": {
-                            "x": -67.5,
-                            "y": 59.4,
-                            "z": -0.465828
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "1cd639bf97c91b8f",
-                    "externalScene": "00D6C83B2487913C"
-                }
-            ],
-            "properties": {
-                "m_aActors": {
-                    "type": "TArray<SEntityTemplateReference>",
-                    "value": [
-                        {
-                            "ref": "b81e955443de38f4",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "5b559b37abf47475",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "b3e108966b9bc9bf",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "407f373926b8dee0",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "1f8fcbe34eb6a5ec",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "501de56a8bb0a34a",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "426c73ad179fd0a0",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "6e01b1f6f3c1146a",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "67bb6ab7e577a56d",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "8ddee5795caaaf9e",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "326d9c91b365b230",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "9f5b321ff7e4293b",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "de5c6c46d905f32a",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "83f2164eb37ec438",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "8d3aa1a691be1a12",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "2e530b7677abf9e9",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "fed8c5753341aef3",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "23dfc40e2f5aadcc",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "7c2349323b97e94a",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "e27c190fcbfd5ec9",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "e80cae0f48aba0a",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "4817e3acf9a6fc32",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "8f2374341952df66",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "d5c9be264e4049a1",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "230dead1ccf61762",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "9a0c4b361162e0ca",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "4850604b0aaa0ce2",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "dc545ae410b8fb46",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "4e878d95f63854ef",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "271ece453922ca52",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "ed6199c4413ecd82",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "23c76d40c6169b43",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "11e8a31d4bea8f91",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "f9cb02ec231c996c",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "f504ad25557989e",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "85a8203ec25fd385",
-                            "externalScene": "00D6C83B2487913C"
-                        },
-                        {
-                            "ref": "2d8ca40e60668d2e",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "7be5e217132bd47a",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "c2c575cf6bc9aef0",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "3f0844161e9ea3ec",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "3a83b706473f0d97",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "a2d2824364b037de",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "da94fd97bade4a32",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "b1d1963e7e324886",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "d7c10af24d648d4d",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                        },
-                        {
-                            "ref": "bc404782a35800de",
-                            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "4cdba5a4bcb9ffc1",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_sId": {
-                    "type": "ZGuid",
-                    "value": "1e7dd303-c9bb-42cc-aca0-70499931d098"
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "896c372a50983183",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_sId": {
-                    "type": "ZGuid",
-                    "value": "0e7dd303-c9bb-42cc-aca0-70499931d098"
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "f37a5c356a2bdedf",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {"rotation":{"x":-0,"y":0,"z":-134.28814436594558},"position":{"x":-67.61929,"y":74.13202,"z":3.934169}}
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "15f6c21fae666780",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {"rotation":{"x":-0,"y":0,"z":45.80508589499224},"position":{"x":-78.88164,"y":69.42914,"z":4.929069}}
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "db923704043b3180",
-                    "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 117.32601160000091
-                        },
-                        "position": {
-                            "x": -73.954414,
-                            "y": 63.08831,
-                            "z": 4.9390893
-                        }
-                    }
-                }
-            }
-        }
-    ],
-    "overrideDeletes": [
-        {
-            "ref": "5116b4d5a06c9de",
-            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-        },
-        {
-            "ref": "7dc77d48e899bd88",
-            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-        },
-        {
-            "ref": "581ab55c286067a1",
-            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
-        },
-        {
-            "ref": "26b240f303f218f7",
-            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
-        },
-        {
-            "ref": "55bd6ccdad588e93",
-            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
-        },
-        {
-            "ref": "1c55e25d3058f974",
-            "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
-        }
-    ],
-    "pinConnectionOverrides": [],
-    "pinConnectionOverrideDeletes": [],
-    "externalScenes": [
-        "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype",
-        "00D6C83B2487913C",
-        "0096E183A97D24AF",
-        "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
-    ],
-    "subType": "brick",
-    "quickEntityVersion": 3.1,
-    "extraFactoryDependencies": [],
-    "extraBlueprintDependencies": [],
-    "comments": []
+	"tempHash": "00BE181571756DB2",
+	"tbluHash": "008EC6C17A44E6D0",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fe9bf297c247c260": {
+			"parent": {
+				"ref": "f0a46ac499be4f2f",
+				"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+			},
+			"name": "ContractCreation_Flu",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"99a18da416479582": {
+			"parent": "fe9bf297c247c260",
+			"name": "Antidote_Container_A_Empty",
+			"factory": "00DAF771AF210457",
+			"blueprint": "0092DFE6E003B973",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.7674434781074524
+						},
+						"position": {
+							"x": 0.4725139141082764,
+							"y": 3.869878053665161,
+							"z": 0.9025480151176452
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f0a46ac499be4f2f",
+						"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "9a5fcfbb55e00d63",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 45 },
+						"position": {
+							"x": -63.791473388671875,
+							"y": 77.37981414794922,
+							"z": -0.5328890085220337
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9bed4e63a017c908",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -135 },
+						"position": {
+							"x": -65.7999,
+							"y": 54.4145,
+							"z": -0.465887
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9c353c006f3400c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -46.694671630859375
+						},
+						"position": {
+							"x": -85.6277,
+							"y": 75.714,
+							"z": -0.465827
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d3d333a58c4f6489",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -45 },
+						"position": {
+							"x": -67.5,
+							"y": 59.4,
+							"z": -0.465828
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1cd639bf97c91b8f",
+					"externalScene": "00D6C83B2487913C"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "b81e955443de38f4",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "5b559b37abf47475",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "b3e108966b9bc9bf",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "407f373926b8dee0",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "1f8fcbe34eb6a5ec",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "501de56a8bb0a34a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "426c73ad179fd0a0",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "6e01b1f6f3c1146a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "67bb6ab7e577a56d",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "8ddee5795caaaf9e",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "326d9c91b365b230",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "9f5b321ff7e4293b",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "de5c6c46d905f32a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "83f2164eb37ec438",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "8d3aa1a691be1a12",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "2e530b7677abf9e9",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "fed8c5753341aef3",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "23dfc40e2f5aadcc",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "7c2349323b97e94a",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "e27c190fcbfd5ec9",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "e80cae0f48aba0a",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "4817e3acf9a6fc32",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "8f2374341952df66",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "d5c9be264e4049a1",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "230dead1ccf61762",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "9a0c4b361162e0ca",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "4850604b0aaa0ce2",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "dc545ae410b8fb46",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "4e878d95f63854ef",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "271ece453922ca52",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "ed6199c4413ecd82",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "23c76d40c6169b43",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "11e8a31d4bea8f91",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "f9cb02ec231c996c",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "f504ad25557989e",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "85a8203ec25fd385",
+							"externalScene": "00D6C83B2487913C"
+						},
+						{
+							"ref": "2d8ca40e60668d2e",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "7be5e217132bd47a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "c2c575cf6bc9aef0",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "3f0844161e9ea3ec",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "3a83b706473f0d97",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "a2d2824364b037de",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "da94fd97bade4a32",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "b1d1963e7e324886",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "d7c10af24d648d4d",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "bc404782a35800de",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "22a3464ab4151f5d",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "8fabdde361ebd79c",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+						},
+						{
+							"ref": "02a5adcb792a97e8",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "23a05e40b8cd2353",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "20729b2b38931ab2",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "4ddc0dd31e4ac55e",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "de992770c9c4484c",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						},
+						{
+							"ref": "b673ef605398faef",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4cdba5a4bcb9ffc1",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "1e7dd303-c9bb-42cc-aca0-70499931d098"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "896c372a50983183",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "0e7dd303-c9bb-42cc-aca0-70499931d098"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f37a5c356a2bdedf",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0,
+							"z": -134.28814436594558
+						},
+						"position": {
+							"x": -67.61929,
+							"y": 74.13202,
+							"z": 3.934169
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "15f6c21fae666780",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0,
+							"z": 45.80508589499224
+						},
+						"position": {
+							"x": -78.88164,
+							"y": 69.42914,
+							"z": 4.929069
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "db923704043b3180",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 117.32601160000092
+						},
+						"position": {
+							"x": -73.954414,
+							"y": 63.08831,
+							"z": 4.9390893
+						}
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "5116b4d5a06c9de",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+		},
+		{
+			"ref": "7dc77d48e899bd88",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+		},
+		{
+			"ref": "581ab55c286067a1",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
+		},
+		{
+			"ref": "26b240f303f218f7",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+		},
+		{
+			"ref": "55bd6ccdad588e93",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c55e25d3058f974",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype",
+		"00D6C83B2487913C",
+		"0096E183A97D24AF",
+		"[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hokkaido/override_shogi.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

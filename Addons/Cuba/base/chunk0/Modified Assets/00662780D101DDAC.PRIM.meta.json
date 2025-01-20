@@ -1,0 +1,45 @@
+{
+    "hash_value": "00662780D101DDAC",
+    "hash_offset": 0,
+    "hash_size": 2147484648,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 76,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 1000,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/roof/metal_corrugated_plates_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/roof/metal_corrugated_plates_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/roof/metal_corrugated_plates_trim_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/roof/metal_corrugated_plates_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a_nodif.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_chain_link_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/roof/metal_corrugated_plates_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

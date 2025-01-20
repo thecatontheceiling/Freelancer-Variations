@@ -324,7 +324,7 @@
 				"m_fNoiseScale": { "type": "float32", "value": 0.5 },
 				"m_fNoiseIntensity": {
 					"type": "float32",
-					"value": 0.029999999329447746
+					"value": 0.029999999329447743
 				},
 				"m_fHDRBloomScale": { "type": "float32", "value": 0.2 },
 				"m_fHDRBrightPassThreshold": {
@@ -427,7 +427,7 @@
 								0.007641185075044632
 							],
 							[
-								-1.6116151809692383, 0.0503825880587101, 0,
+								-1.6116151809692385, 0.0503825880587101, 0,
 								0, 0, 0, 0.007765652611851692,
 								0.0503825880587101
 							],
@@ -442,18 +442,18 @@
 								0.07436265051364899
 							],
 							[
-								0.0014200065052136779, 0.09315678477287292,
+								0.001420006505213678, 0.09315678477287292,
 								0, 0, 0, 0, 0.019700469449162483,
 								0.09315678477287292
 							],
 							[
-								0.47639167308807373, 0.11285725235939026,
-								0, 0, 0, 0, 0.018473809584975243,
+								0.4763916730880738, 0.11285725235939026, 0,
+								0, 0, 0, 0.018473809584975243,
 								0.11285725235939026
 							],
 							[
-								1.0335047245025635, 0.13133105635643005, 0,
-								0, 0, 0, 0.010041758418083191,
+								1.0335047245025637, 0.13133105635643005, 0,
+								0, 0, 0, 0.010041758418083193,
 								0.13133105635643005
 							],
 							[
@@ -852,7 +852,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 18.741899490356445,
-						"y": 1.0578900575637817,
+						"y": 1.0578900575637815,
 						"z": 1
 					}
 				},
@@ -870,7 +870,7 @@
 					"value": {
 						"rotation": { "x": -90, "y": 0, "z": -90 },
 						"position": {
-							"x": -170.91299438476563,
+							"x": -170.91299438476565,
 							"y": -6.280055999755859,
 							"z": 1.2410550117492676
 						}
@@ -941,18 +941,14 @@
 						"rotation": {
 							"x": -90,
 							"y": 0,
-							"z": 12.215957096465317
+							"z": 12.215957096465315
 						},
 						"position": {
 							"x": 67.98133087158203,
 							"y": 221.39300537109375,
 							"z": 2.8207809925079346
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
 				"m_eRoomBehaviour": {
@@ -1051,7 +1047,7 @@
 						"scale": {
 							"x": 1,
 							"y": 1.0000000000000002,
-							"z": 0.9999999999999999
+							"z": 1.0
 						}
 					}
 				},
@@ -1188,11 +1184,7 @@
 							"y": -202.6116943359375,
 							"z": 0.3444240093231201
 						},
-						"scale": {
-							"x": 0.9999999999999999,
-							"y": 0.9999999999999999,
-							"z": 1
-						}
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
 					}
 				},
 				"m_eRoomBehaviour": {
@@ -1224,7 +1216,7 @@
 							"z": -104.51118077752469
 						},
 						"position": {
-							"x": -109.65489959716797,
+							"x": -109.65489959716795,
 							"y": -53.174190521240234,
 							"z": 0.4216249883174896
 						}
@@ -1259,7 +1251,7 @@
 							"z": 167.72927954207242
 						},
 						"position": {
-							"x": 222.92660522460938,
+							"x": 222.92660522460935,
 							"y": -300.9930114746094,
 							"z": 2.1126561164855957
 						}
@@ -1299,8 +1291,8 @@
 						},
 						"position": {
 							"x": 81.56886291503906,
-							"y": -211.57119750976563,
-							"z": 1.2745170593261719
+							"y": -211.57119750976565,
+							"z": 1.274517059326172
 						}
 					}
 				},
@@ -1551,6 +1543,30 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 						},
 						{
+							"ref": "212d62b1fe448319",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						},
+						{
+							"ref": "a068b365cc46e7cb",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						},
+						{
+							"ref": "1f3ae073665bc480",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						},
+						{
+							"ref": "23b62e0f14889e70",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						},
+						{
+							"ref": "ae19ceebbd13de93",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						},
+						{
+							"ref": "02fd910647c1f4cb",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						},
+						{
 							"ref": "4fb1bc88f195c4c8",
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 						},
@@ -1651,7 +1667,7 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 						},
 						{
-							"ref": "336af7898eb6d4b2",
+							"ref": "1bf393730fefa208",
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 						},
 						{
@@ -1707,7 +1723,7 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
 						},
 						{
-							"ref": "8b4805ce8fe9f44",
+							"ref": "08b4805ce8fe9f44",
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
 						},
 						{
@@ -1748,26 +1764,6 @@
 						},
 						{
 							"ref": "2c6d0ce525c1aaa3",
-							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
-						},
-						{
-							"ref": "2ddeb82e1208b0a3",
-							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
-						},
-						{
-							"ref": "515b5192140172f5",
-							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
-						},
-						{
-							"ref": "faa8b7212169a2a3",
-							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
-						},
-						{
-							"ref": "b866651df096f5f0",
-							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
-						},
-						{
-							"ref": "7b0a7ee046c09076",
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
 						},
 						{
@@ -3137,6 +3133,105 @@
 			"properties": {
 				"m_bValue": { "type": "bool", "value": false }
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "96589840031f6601",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 173.23473409862322
+						},
+						"position": {
+							"x": 10.279553413391112,
+							"y": 79.83081817626953,
+							"z": 100.99561309814452
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2335adca6619265c",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 7.446767103870393
+						},
+						"position": {
+							"x": 0.21922683715820312,
+							"y": -1.3203201293945312,
+							"z": 1.6526107788085938
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "00b7ab641ebcb04a",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 178.92007834976604
+						},
+						"position": {
+							"x": 9.44175624847412,
+							"y": 84.7049331665039,
+							"z": 100.99279022216795
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cdc16c6e44f6ae45",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "0e533277-1b15-473a-aa1a-3a6a29918fa6"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "f069ad6a-b75e-41a1-ad32-717c81843db6"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_sActorName": { "type": "ZString", "value": "Rong Lin" },
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVFEM10"
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
@@ -3155,6 +3250,10 @@
 		{
 			"ref": "cc4fd73c319cd411",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "f967bd1d2a6d9612",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
@@ -3162,7 +3261,8 @@
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/wet/scene_rat_ginseng.entity].pc_entitytemplate",
-		"[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,

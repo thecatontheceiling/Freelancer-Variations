@@ -1,0 +1,84 @@
+{
+	"tempHash": "0024A637B9D8D292",
+	"tbluHash": "00A12AA80599A136",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "5861db34be7bbf96",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "59224315-c825-42ce-a121-ee0d09558431"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafee40580d43ecc",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "7c0ea7df-ea2b-4b10-8398-5f2667dd7c40"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafe63d209c371e6",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "6fbe6552-8e48-4971-824a-62cac516638e"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "0ccdef9f63929360",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_hot_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "143c6d01-93a3-45ed-93ab-bd102b2bcf81"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/mission_hot_cuba.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

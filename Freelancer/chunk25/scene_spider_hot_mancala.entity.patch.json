@@ -1,0 +1,12 @@
+{
+    "tempHash": "008240A1593CCE32",
+    "tbluHash": "0006529C8ECC6151",
+    "patch": [
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+        },
+        {
+            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/marrakesh/override_mancala.brick].pc_entitytype"
+        }],
+    "patchVersion": 6
+}

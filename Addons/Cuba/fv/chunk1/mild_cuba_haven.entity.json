@@ -1,0 +1,164 @@
+{
+	"tempHash": "000AD9C86817E039",
+	"tbluHash": "00073F52DBACA5CA",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "5861db34be7bbf96",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
+				},
+				{
+					"ref": "cafe971c69bd0e0b",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "59224315-c825-42ce-a121-ee0d09558431"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafee40580d43ecc",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "7c0ea7df-ea2b-4b10-8398-5f2667dd7c40"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafe63d209c371e6",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "6fbe6552-8e48-4971-824a-62cac516638e"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "fc590d6cc896d971",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_mild_cuba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"ClientReq03": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq03"
+				},
+				"ClientReq02": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq02"
+				},
+				"MildTargets_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Targets"
+				},
+				"ClientReq01": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq01"
+				},
+				"Safes_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Safes"
+				},
+				"Vendors_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Vendors"
+				},
+				"MoneyMules_ID": {
+					"type": "ZString",
+					"value": "MildHilo_MoneyMules"
+				},
+				"ClientReqsFailed_ID": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReqsFailed"
+				},
+				"Completed_ID": {
+					"type": "ZString",
+					"value": "MildHilo_MissionCompleted"
+				},
+				"Failed_ID": {
+					"type": "ZString",
+					"value": "MildHilo_MissionFailed"
+				},
+				"Stashes_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Stashes"
+				},
+				"Active_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Active"
+				},
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "ca4708b9-cc21-4bb2-9020-c20359e14da4"
+				},
+				"Alerted_ID": {
+					"type": "ZString",
+					"value": "MildHilo_Alerted"
+				},
+				"ClientReq04": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq04"
+				},
+				"ClientReq05": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq05"
+				},
+				"ClientReq06": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq06"
+				},
+				"ClientReq07": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq07"
+				},
+				"ClientReq08": {
+					"type": "ZString",
+					"value": "MildHilo_ClientReq08"
+				},
+				"MildBasePayout_ID": {
+					"type": "ZString",
+					"value": "MildHilo_BasePayout"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/thefacility/mission_mild_cuba.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

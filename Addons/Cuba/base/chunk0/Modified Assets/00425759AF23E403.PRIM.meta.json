@@ -1,0 +1,18 @@
+{
+    "hash_value": "00425759AF23E403",
+    "hash_path": "[assembly:/_pro/environment/geometry/levels/seagull/seagull_terrain_a.wl2?/seagull_terrain_concrete_panels_zmapped_a.prim].pc_prim",
+    "hash_offset": 0,
+    "hash_size": 2147484648,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 13,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 1000,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/gecko/gecko_stainless_patterned_floor_a_zmapped.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

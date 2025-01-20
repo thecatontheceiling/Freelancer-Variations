@@ -74,7 +74,7 @@
 						"position": {
 							"x": -11.070110321044922,
 							"y": 43.99156951904297,
-							"z": -28.912010192871094
+							"z": -28.912010192871097
 						}
 					}
 				},
@@ -162,7 +162,7 @@
 						"position": {
 							"x": -13.23427963256836,
 							"y": 54.867618560791016,
-							"z": -102.70230102539063
+							"z": -102.70230102539064
 						}
 					}
 				},
@@ -209,7 +209,7 @@
 					"value": {
 						"x": 500.7830047607422,
 						"y": 500.7619934082031,
-						"z": 500.22100830078125
+						"z": 500.2210083007813
 					}
 				},
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
@@ -233,7 +233,7 @@
 							"z": -58.45648086349219
 						},
 						"position": {
-							"x": 190.17269897460938,
+							"x": 190.17269897460935,
 							"y": -64.07421875,
 							"z": -0.0703049972653389
 						}
@@ -368,7 +368,7 @@
 						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 65.85529327392578,
-							"y": -67.98452758789063,
+							"y": -67.98452758789062,
 							"z": 51.188621520996094
 						}
 					}
@@ -486,7 +486,7 @@
 				},
 				"m_fFogDensity": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_FogColor": { "type": "SColorRGB", "value": "#171c21" },
 				"m_bVignetteEnabled": { "type": "bool", "value": true },
@@ -587,7 +587,7 @@
 				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vVignetteGradientLightColor": {
 					"type": "SColorRGB",
@@ -679,8 +679,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
 					}
 				},
 				"m_bDistortionWobbleUseRealTime": {
@@ -810,7 +810,7 @@
 								0.013664942234754562
 							],
 							[
-								-1.6116151809692383, 0.015739427879452705,
+								-1.6116151809692385, 0.015739427879452705,
 								0, 0, 0, 0, 0.006806027144193649,
 								0.015739427879452705
 							],
@@ -960,7 +960,7 @@
 				},
 				"m_fFogDensity": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_FogColor": { "type": "SColorRGB", "value": "#171c21" },
 				"m_bVignetteEnabled": { "type": "bool", "value": true },
@@ -1067,7 +1067,7 @@
 				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vVignetteGradientLightColor": {
 					"type": "SColorRGB",
@@ -1156,8 +1156,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
 					}
 				},
 				"m_bDistortionWobbleUseRealTime": {
@@ -1308,6 +1308,20 @@
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "0114d0cb82685dfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f5f1776c-03bf-4271-aed5-9387fef79234"
+				}
+			}
+		},
 		{
 			"entities": [
 				{
