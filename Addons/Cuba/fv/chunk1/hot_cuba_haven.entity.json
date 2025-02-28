@@ -16,6 +16,10 @@
 				{
 					"ref": "5861db34be7bbf96",
 					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
+				},
+				{
+					"ref": "cafe971c69bd0e0b",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_cuba.brick].pc_entitytype"
 				}
 			],
 			"properties": {

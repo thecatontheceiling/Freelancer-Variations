@@ -45824,7 +45824,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		},
 		"cafebdfed0057912": {
@@ -45860,7 +45861,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		},
 		"cafea56e599f74b2": {
@@ -45892,7 +45894,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		},
 		"cafee1f6d673d08e": {
@@ -45924,7 +45927,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		}
 	},

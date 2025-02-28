@@ -1,0 +1,166 @@
+{
+    "tempHash": "009486E659A51786",
+    "tbluHash": "00B360B2C17B1A3E",
+    "rootEntity": "3cbe4debf3e99eb3",
+    "entities": {
+        "3cbe4debf3e99eb3": {
+            "parent": null,
+            "name": "container_ship_helipad_a",
+            "factory": "[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_helipad_a.prim].pc_entitytype",
+            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 90
+                        },
+                        "position": {
+                            "x": 184.83560180664063,
+                            "y": -214.17359924316406,
+                            "z": 10.758689880371094
+                        }
+                    }
+                }
+            }
+        },
+        "0e15ba90579eddd4": {
+            "parent": "3cbe4debf3e99eb3",
+            "name": "painted_metal_trim_rust_b",
+            "factory": "[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_b.mi].pc_entitytype",
+            "blueprint": "[assembly:/_pro/environment/materials/generic/trim/painted_metal_trim_rust_b.mi].pc_entityblueprint",
+            "properties": {
+                "m_mTransform": {
+                    "type": "SMatrix43",
+                    "value": {
+                        "rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "position": {
+                            "x": 181.63040161132813,
+                            "y": -220.0919952392578,
+                            "z": 10.958959579467773
+                        }
+                    }
+                },
+                "Clients": {
+                    "type": "TArray<SEntityTemplateReference>",
+                    "value": [
+                        "3cbe4debf3e99eb3"
+                    ]
+                },
+                "ConstantVector1D_01_Value_op": {
+                    "type": "IRenderMaterialEntity.EModifierOperation",
+                    "value": "eReplace"
+                },
+                "ConstantVector1D_01_Value": {
+                    "type": "float32",
+                    "value": 0.25
+                },
+                "m_eidParent": {
+                    "type": "SEntityTemplateReference",
+                    "value": "3cbe4debf3e99eb3"
+                }
+            }
+        }
+    },
+    "propertyOverrides": [],
+    "overrideDeletes": [],
+    "pinConnectionOverrides": [],
+    "pinConnectionOverrideDeletes": [],
+    "externalScenes": [],
+    "subType": "template",
+    "quickEntityVersion": 3.1,
+    "extraFactoryDependencies": [
+        {
+            "resource": "[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_helipad_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/vehicles/geometry/container_ship_a/container_ship_a.wl2?/container_ship_helipad_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "0063CDCE808A4657",
+            "flag": "5F"
+        },
+        {
+            "resource": "001E46DECD709149",
+            "flag": "5F"
+        },
+        {
+            "resource": "0077B741527E188D",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_helipad_a.wl2?/hokkaido_helipad_net_short_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_helipad_a.wl2?/hokkaido_helipad_net_short_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/diffuse_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/specular_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/textures/detailmaps/paint/crackled_paint_a.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/normal_a.tex](asnormalmap).pc_tex",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/textures/generic/trim/painted_metal_trim_rust_a.texture?/mask_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/equipment/scaffolding_metal_b.wl2?/scaffolding_light.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/equipment/scaffolding_metal_b.wl2?/scaffolding_light.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_white_old_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/equipment/scaffolding_metal_b.wl2?/scaffolding_light_b.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/equipment/scaffolding_metal_b.wl2?/scaffolding_light_connector_a.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/equipment/scaffolding_metal_b.wl2?/scaffolding_light_connector_a.prim].pc_coll",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/decorative/decorative_wall_fashionshow_a.wl2?/construction_metal_fashionshow_c_00.prim].pc_prim",
+            "flag": "5F"
+        },
+        {
+            "resource": "[assembly:/_pro/environment/geometry/props/decorative/decorative_wall_fashionshow_a.wl2?/construction_metal_fashionshow_c_00.prim].pc_coll",
+            "flag": "5F"
+        }
+    ],
+    "extraBlueprintDependencies": [],
+    "comments": []
+}

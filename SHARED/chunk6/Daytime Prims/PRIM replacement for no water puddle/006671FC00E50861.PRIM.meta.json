@@ -1,0 +1,33 @@
+{
+    "hash_value": "006671FC00E50860",
+    "hash_offset": 212213631,
+    "hash_size": 2147520651,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 49,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 178960,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/edges/bricksworn_stuccorough_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_b.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

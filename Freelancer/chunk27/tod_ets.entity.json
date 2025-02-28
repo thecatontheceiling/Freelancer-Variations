@@ -1,166 +1,206 @@
 {
-    "tempHash": "00899C0DE9B6A7FD",
-    "tbluHash": "00AA3A5E3AB05D1B",
-    "rootEntity": "fffffffffffffffe",
-    "entities": {
-        "fffffffffffffffe": {
-            "parent": null,
-            "name": "Scene",
-            "factory": "[modules:/zspatialentity.class].pc_entitytype",
-            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-        }
-    },
-    "propertyOverrides": [{
-        "entities": [
-            {
-                "ref": "4900bf65ec94034e",
-                "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
-            },
-            {
-                "ref": "212d29e725cbecc4",
-                "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
-            }
-        ],
-        "properties": {
-            "m_RepositoryId": {
-                "type": "ZGuid",
-                "value": "f5f1776c-03bf-4271-aed5-9387fef79234"
-            }
-        }
-    }],
-    "overrideDeletes": [
-        {
-            "ref": "e0cb041dbe920060",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
-        },
-        {
-            "ref": "b701beb3d87e62a9",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype"
-        },
-        {
-            "ref": "8956fe6b8977f2de",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype"
-        },
-        {
-            "ref": "1319a4d3b8770dfb",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype"
-        },
-        {
-            "ref": "11456f0ba3f5cc40",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
-        },
-        {
-            "ref": "6ef044e8a313b4bf",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
-        },
-        {
-            "ref": "7dc7cfa459080dda",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
-        },
-        {
-            "ref": "65b7598b83c59238",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
-        },
-        {
-            "ref": "b33f7405bc2c9b19",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
-        },
-        {
-            "ref": "728f4256d15c773",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
-        },
-        {
-            "ref": "9ff771c62c860331",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "2786abfd0a17f5e7",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "31a35a9cd76d0e4b",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "56fe20a139dcc76c",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "3829121c8ae5145e",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype"
-        },
-        {
-            "ref": "dc76e594c59f1509",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype"
-        },
-        {
-            "ref": "cb907e4462c12f12",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype"
-        },
-        {
-            "ref": "be87aa3d424d67c4",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
-        },
-        {
-            "ref": "8b417ec9500c9091",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
-        },
-        {
-            "ref": "e8e6615500856d9c",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
-        },
-        {
-            "ref": "ce09c00e2834aa2d",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
-        },
-        {
-            "ref": "82716582fb8040d8",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype"
-        },
-        {
-            "ref": "61c89495fc567b0d",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype"
-        },
-        {
-            "ref": "75560d9fabfe77e2",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_tequilasunrise_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "db6f1d3a112f607",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_tequilasunrise_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "7ed1a929d96f4352",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "ba747a3dc37cbdc5",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
-        },
-        {
-            "ref": "da85bc6ff380efaf",
-            "externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
-        }
-    ],
-    "pinConnectionOverrides": [],
-    "pinConnectionOverrideDeletes": [],
-    "externalScenes": [
-        "[assembly:/_pro/scenes/missions/paris/mission_fashionshowhit_01.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/gamechangers_peacock_torenia.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_tequilasunrise_01.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype",
-        "00CFDE2BFD950D98"
-    ],
-    "subType": "scene",
-    "quickEntityVersion": 3.1,
-    "extraFactoryDependencies": [],
-    "extraBlueprintDependencies": [],
-    "comments": []
+	"tempHash": "00899C0DE9B6A7FD",
+	"tbluHash": "00AA3A5E3AB05D1B",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "2d1fd63dd44cff15",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+				},
+				{
+					"ref": "0ade7fdc9ed282f9",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb19df49c05295c0",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+				},
+				{
+					"ref": "aa5bf81ded02b784",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+				},
+				{
+					"ref": "42f0995bd7b4be25",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+				},
+				{
+					"ref": "964bdedbc0319438",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_17"
+				},
+				"m_eActorFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_17"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4900bf65ec94034e",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
+				},
+				{
+					"ref": "212d29e725cbecc4",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f5f1776c-03bf-4271-aed5-9387fef79234"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "e0cb041dbe920060",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
+		},
+		{
+			"ref": "b701beb3d87e62a9",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype"
+		},
+		{
+			"ref": "8956fe6b8977f2de",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype"
+		},
+		{
+			"ref": "1319a4d3b8770dfb",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype"
+		},
+		{
+			"ref": "11456f0ba3f5cc40",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+		},
+		{
+			"ref": "6ef044e8a313b4bf",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+		},
+		{
+			"ref": "7dc7cfa459080dda",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype"
+		},
+		{
+			"ref": "65b7598b83c59238",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
+		},
+		{
+			"ref": "b33f7405bc2c9b19",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
+		},
+		{
+			"ref": "728f4256d15c773",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype"
+		},
+		{
+			"ref": "9ff771c62c860331",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "2786abfd0a17f5e7",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "31a35a9cd76d0e4b",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "56fe20a139dcc76c",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "3829121c8ae5145e",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype"
+		},
+		{
+			"ref": "dc76e594c59f1509",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype"
+		},
+		{
+			"ref": "cb907e4462c12f12",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype"
+		},
+		{
+			"ref": "be87aa3d424d67c4",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
+		},
+		{
+			"ref": "8b417ec9500c9091",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
+		},
+		{
+			"ref": "e8e6615500856d9c",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
+		},
+		{
+			"ref": "ce09c00e2834aa2d",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype"
+		},
+		{
+			"ref": "82716582fb8040d8",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype"
+		},
+		{
+			"ref": "61c89495fc567b0d",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype"
+		},
+		{
+			"ref": "75560d9fabfe77e2",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_tequilasunrise_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "db6f1d3a112f607",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_tequilasunrise_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "7ed1a929d96f4352",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "ba747a3dc37cbdc5",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
+		},
+		{
+			"ref": "da85bc6ff380efaf",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/paris/mission_fashionshowhit_01.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/gamechangers_peacock_torenia.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_kamikaze.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_kirroyal.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_margarita_01.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_sakini.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_shandy.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_tequilasunrise_01.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_whiterussian_01.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_lumumba.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/_scene_mojito.brick].pc_entitytype",
+		"00CFDE2BFD950D98"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

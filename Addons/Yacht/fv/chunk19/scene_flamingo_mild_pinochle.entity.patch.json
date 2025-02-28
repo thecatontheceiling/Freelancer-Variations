@@ -1,0 +1,16 @@
+{
+	"tempHash": "0017CB8C7D1C65D8",
+	"tbluHash": "0041898C22FDA10A",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/miami/mission_mild_pinochle.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

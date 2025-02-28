@@ -5,7 +5,7 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "ToD_Night_Ass",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
@@ -22,7 +22,6 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"GetIndex": ["abcd8cb5e9e93142"],
 					"RaceStopped": [],
 					"StopRace": [],
 					"DebugCrash": [
@@ -39,18 +38,6 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
 						}
 					]
-				}
-			}
-		},
-		"abcd8cb5e9e93142": {
-			"parent": "abcd863690ad90f3",
-			"name": "zmultiparentspatialentity",
-			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
-			"properties": {
-				"m_aParents": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
 				}
 			}
 		}
@@ -290,8 +277,9 @@
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype",
-		"00B7A6BE11BCA94C",
-		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/tod_night.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

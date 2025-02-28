@@ -571,23 +571,7 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-		{
-			"entities": [
-				{
-					"ref": "5861db34be7bbf96",
-					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/mission_polarbear_module_005.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "72f49b21-c240-4cf9-9b6b-8639f762f2d7"
-				},
-				"m_bDefaultHeroSpawn": { "type": "bool", "value": false }
-			}
-		}
-	],
+	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],

@@ -20330,6 +20330,149 @@
 		{
 			"entities": [
 				{
+					"ref": "ae3366577108a5a1",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 44.94915560985166
+						},
+						"position": {
+							"x": -32.089012145996094,
+							"y": 67.64623260498047,
+							"z": 90.00316619873047
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b0987dab7519ab4c",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 154.41651496893596
+						},
+						"position": {
+							"x": -33.78289794921875,
+							"y": 61.50709533691406,
+							"z": 89.76083374023438
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e14af181ed2233a2",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -92.8583562252042
+						},
+						"position": {
+							"x": -15.77895736694336,
+							"y": 75.02154541015625,
+							"z": 89.4011001586914
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "06f3aa58e10b377d",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 16.11992996741691
+						},
+						"position": {
+							"x": -22.871536254882812,
+							"y": 71.89441680908203,
+							"z": 90.00316619873047
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9e8ff283c80b7212",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.9399786630393
+						},
+						"position": {
+							"x": -18.61398696899414,
+							"y": 62.4008674621582,
+							"z": 90.00316619873047
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "aabb3fbe6a704fb2",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"availableSafe02": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "9a870b56e79d9a66",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype",
+						"exposedEntity": "VBB_Spawn"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "4ed50c1c86566311",
 					"externalScene": "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
 				}
@@ -20778,6 +20921,10 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/mission_hot_mahjong.brick].pc_entitytype"
 		},
 		{
+			"ref": "852519a8a381d892",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype"
+		},
+		{
 			"ref": "1b79be67d1ee975b",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype"
 		},
@@ -20835,6 +20982,10 @@
 		},
 		{
 			"ref": "d78e118c2d0bc760",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype"
+		},
+		{
+			"ref": "55e9551876bb83c7",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype"
 		},
 		{

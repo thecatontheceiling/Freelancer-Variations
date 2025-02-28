@@ -1,0 +1,57 @@
+{
+    "hash_value": "0077AA6E4A8785D1",
+    "hash_offset": 211505045,
+    "hash_size": 2148116144,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 103,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 1308416,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/edges/bricksworn_stuccorough_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/graffiti/rat_stencil_graffiti_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/graffiti/rat_stencil_graffiti_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_gravel_dirt_ground_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/sidewalk_dirt_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_manhole_wet_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_b.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

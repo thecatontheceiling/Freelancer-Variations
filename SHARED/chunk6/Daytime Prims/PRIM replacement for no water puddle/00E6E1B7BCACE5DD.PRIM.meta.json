@@ -1,0 +1,53 @@
+{
+    "hash_value": "00E6E1B7BCACE5DC",
+    "hash_offset": 212624220,
+    "hash_size": 2147521990,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 94,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 84832,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/gecko_dirt_facade_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_mud_puddle_b_interactive_nodif.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/markings/painted_line_a_decal.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/markings/road_markings_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_manhole_wet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/wet/moss_decal_rat.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

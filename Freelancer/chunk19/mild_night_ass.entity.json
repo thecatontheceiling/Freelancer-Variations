@@ -5,7 +5,7 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Mild_Night_ass",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
@@ -21,7 +21,24 @@
 				}
 			},
 			"events": {
-				"EventOccurred": { "DebugCrash": [], "Crash": [] }
+				"EventOccurred": {
+					"RaceStopped": [],
+					"StopRace": [],
+					"DebugCrash": [
+						{
+							"ref": "baa74510512e0e27",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						}
+					],
+					"In": [],
+					"DisableTimer": [],
+					"Crash": [
+						{
+							"ref": "baa74510512e0e27",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						}
+					]
+				}
 			}
 		}
 	},
@@ -420,16 +437,244 @@
 					]
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3f28fb1565a9e283",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5c72c7b65b4f30b2",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"HumanActivityLoop": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e7e9143ac8b839c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2ff0df5cddce48d6",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "66c86a13a1b8868b",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b40514baba7f5df9",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b9ad6d1a1671eb24",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype"
+				},
+				{
+					"ref": "628ebcd63c7f771d",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype"
+				},
+				{
+					"ref": "8f9beff6fba29c49",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype"
+				},
+				{
+					"ref": "8c8f9e6ffa35eb5b",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_15"
+				},
+				"m_eActorFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_15"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "43e7667805b98b89",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d3aa4872ae27ec1b",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2a83ff4102ca0743",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "21602fd5-eb26-49e6-88f9-7df0b379de04"
+				}
+			}
 		}
 	],
-	"overrideDeletes": [],
+	"overrideDeletes": [
+		{
+			"ref": "a445399e73172d38",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "c47b95560151116f",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "58b0712c6705f190",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "36422e749cfa03fa",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "373310d5a8e71a83",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "cd130d512a8700b4",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "bc79d31c5ec934a9",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "91d1ae0491485177",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "60a31383463656f8",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "742eeb91cea0b5f0",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "13669edbb002dd95",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "2b43792ba207bdbe",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "f703d260137558c2",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "b436d20362a5aba2",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "c10fde29e17756bc",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "7e256e26ea004441",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "13a9989a344d4438",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "c10c3fa754c786bc",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "0fc1e3347e96bccd",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "aaba8da121010b3d",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "1a03ffa9914b4055",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "8e6b608071ac8d92",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "72735328e516f4d6",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "8df85725a37a086b",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "8de0b17611635211",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "48e6702e599c99d4",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "5e99b43fd212554c",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "c1274e827cc0c2be",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		}
+	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/scenario_cottonmouth.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/mission_mild_pinochle.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/tod_night_ass.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/tod_night.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

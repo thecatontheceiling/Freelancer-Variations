@@ -2746,7 +2746,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafeb3088692924f",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		},
 		"cafe724c170f17a6": {
@@ -3082,7 +3083,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafeda305466c840",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		},
 		"cafe9cace027a18e": {
@@ -3114,7 +3116,8 @@
 					"type": "SEntityTemplateReference",
 					"value": "cafe26f4cffc116d",
 					"postInit": true
-				}
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
 			}
 		}
 	},
@@ -4835,6 +4838,14 @@
 		{
 			"ref": "9457dab6a6d13391",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/dressing_module_005.brick].pc_entitytype"
+		},
+		{
+			"ref": "2915990ff62023a2",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+		},
+		{
+			"ref": "c6ec4dd151e32abc",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [

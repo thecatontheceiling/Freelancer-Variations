@@ -1,0 +1,41 @@
+{
+    "hash_value": "00BC286B4E7191C5",
+    "hash_offset": 211378746,
+    "hash_size": 2147607876,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 67,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 478768,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/graffiti/rat_stencil_graffiti_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/graffiti/rat_stencil_graffiti_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/graffiti/rat_stencil_graffiti_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/sidewalk_dirt_c.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_manhole_wet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "hash_value": "0070C8C29C0FBAAF",
+    "hash_offset": 212695300,
+    "hash_size": 2147574588,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 103,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 183056,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/gecko_dirt_facade_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/drain_side_rat_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/floor_concrete_cracks_a_02.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/markings/painted_line_a_decal.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_manhole_wet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_patch_a_wet.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/tyre_tracks_carpark_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/tyre_tracks_road_mumbai_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_c.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

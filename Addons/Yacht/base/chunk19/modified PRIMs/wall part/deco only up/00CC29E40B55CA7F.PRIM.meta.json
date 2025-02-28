@@ -1,0 +1,25 @@
+{
+    "hash_value": "00CC29E40B55CA7F",
+    "hash_offset": 713298463,
+    "hash_size": 2147484437,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 31,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 1616,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+          "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/gecko/painted_metal_trims_gecko_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_b.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

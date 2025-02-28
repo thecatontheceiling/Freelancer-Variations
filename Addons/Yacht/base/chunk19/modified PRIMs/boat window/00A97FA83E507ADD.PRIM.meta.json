@@ -1,0 +1,19 @@
+{
+    "hash_value": "00A97FA83E507ADD",
+    "hash_offset": 621396883,
+    "hash_size": 2149777830,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 130,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 5794752,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+      
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+
+}

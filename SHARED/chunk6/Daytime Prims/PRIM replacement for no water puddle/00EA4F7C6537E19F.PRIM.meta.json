@@ -1,0 +1,37 @@
+{
+    "hash_value": "00EA4F7C6537E19E",
+    "hash_offset": 213260304,
+    "hash_size": 2147517159,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 58,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 70160,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/moss_decal_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/markings/road_markings_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/markings/road_markings_no_cellphones_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/litter__srtreet_b.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/wet/moss_decal_rat.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

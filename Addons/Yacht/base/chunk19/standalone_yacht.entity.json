@@ -1,0 +1,476 @@
+{
+	"tempHash": "00BC3035FF98493E",
+	"tbluHash": "00DA890223731A1A",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe1f069f7c8c14": {
+			"parent": "fffffffffffffffe",
+			"name": "Standalone Changes",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafec60e4a355ec1": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Hut",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -40.413143157958984,
+							"y": -9.278708457946776,
+							"z": 1.8589069843292236
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.931000232696533,
+						"y": 9.503999710083008,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafee20a498b1749": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Garage Wall",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 179.7529184749806
+						},
+						"position": {
+							"x": -26.20166015625,
+							"y": 3.1427664756774902,
+							"z": 0.5172156691551208
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 27.731000900268555,
+						"y": 0.9039999842643738,
+						"z": 7.599999904632568
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe06756bece811": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Garage Carlift",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -36.32643127441406,
+							"y": 6.0514817237854,
+							"z": 1.8589069843292236
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.930999994277954,
+						"y": 0.7039999961853027,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe55c674b63584": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Garage Toilet",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -38.919918060302734,
+							"y": 19.24984359741211,
+							"z": 0.5110935568809509
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.430999994277954,
+						"y": 0.40400001406669617,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe25ece0b6483e": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Shipping Container 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -29.98150634765625,
+							"y": -29.4305419921875,
+							"z": 1.360813856124878
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.2309999465942383,
+						"y": 7.203999996185303,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe3aefddc4e893": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Shipping Forklift",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -19.719691032594497
+						},
+						"position": {
+							"x": -38.555938720703125,
+							"y": -33.7786865234375,
+							"z": 0.4762545228004456
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.8310000896453857,
+						"y": 1.6039999723434448,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafe14088084a519": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Shipping Container 1",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.2893909828011777
+						},
+						"position": {
+							"x": -43.04771423339844,
+							"y": -26.35039329528809,
+							"z": 1.4495091438293457
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3.930999994277954,
+						"y": 8.303999900817871,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		},
+		"cafeca8736f6ef17": {
+			"parent": "cafe1f069f7c8c14",
+			"name": "PFObstacle Garage Wall 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": -42.35235595703125,
+							"y": 2.7275466918945312,
+							"z": 1.8589069843292236
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.430999994277954,
+						"y": 0.40400001406669617,
+						"z": 4.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1f069f7c8c14"
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "cafe303f2f4be58f",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -183.5689239501953,
+							"y": 158.2093963623047,
+							"z": -0.002993166446685791
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "abcd60502f7a398c",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -149.7599 },
+						"position": {
+							"x": -60.65183,
+							"y": 8.699393,
+							"z": -104.24
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "abcd26812e1eae0e",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -79.87462,
+							"y": -52.608803,
+							"z": -92.15079
+						},
+						"position": {
+							"x": 20.03211,
+							"y": -3.301654,
+							"z": 22.25929
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": {
+							"x": -218.93112,
+							"y": 164.257396,
+							"z": 0.47924766
+						}
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "71f1b6c2443befa4",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "368e359b84e12686",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "efbba3c869ffb7c9",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab6426812c1c4c63",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "619a84a2f55f8689",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "0cc69071ac5c420a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "d32ce3b9f42a96d8",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "56122da1021728a2",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "5debb9bd3a6c916c",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "f7a2d138ea8b0e91",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "84fb369f47af7406",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "d015aec3b1c79106",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "31541316b03e8f89",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb28ceaef80a328a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "6f2989ead52a5f3b",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "feed5f8a353256da",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe461c7fce1468",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "06b4e1fb8d4f23d3",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

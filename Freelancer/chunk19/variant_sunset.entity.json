@@ -5,7 +5,7 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Variant_Sunset",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
@@ -28,7 +28,7 @@
 						"position": {
 							"x": -60.65182876586914,
 							"y": 8.699393272399902,
-							"z": -104.23999786376953
+							"z": -104.23999786376952
 						}
 					}
 				},
@@ -102,7 +102,7 @@
 						"position": {
 							"x": -87.16488647460938,
 							"y": 12.760069847106934,
-							"z": 0.15403009951114655
+							"z": 0.15403009951114657
 						}
 					}
 				},
@@ -1012,7 +1012,7 @@
 				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vVignetteGradientLightColor": {
 					"type": "SColorRGB",
@@ -1111,8 +1111,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
 					}
 				},
 				"m_bDistortionWobbleUseRealTime": {
@@ -1369,7 +1369,7 @@
 				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
-					"value": 0.10999999940395355
+					"value": 0.10999999940395357
 				},
 				"m_vVignetteGradientLightColor": {
 					"type": "SColorRGB",
@@ -1468,8 +1468,8 @@
 				"m_vDistortionWobbleWaveLength": {
 					"type": "SVector2",
 					"value": {
-						"x": 0.029999999329447746,
-						"y": 0.029999999329447746
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
 					}
 				},
 				"m_bDistortionWobbleUseRealTime": {
@@ -2108,7 +2108,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 1.3870566739562067
+							"z": 1.387056673956207
 						},
 						"position": {
 							"x": -141.16238,
@@ -2165,7 +2165,8 @@
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,

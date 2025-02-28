@@ -1,0 +1,25 @@
+{
+    "hash_value": "001C2A2B64670D9C",
+    "hash_offset": 213182670,
+    "hash_size": 2147503242,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 31,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 42128,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/moss_decal_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/levels/wet/moss_decal_rat.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

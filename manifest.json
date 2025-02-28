@@ -1,12 +1,13 @@
 {
-	"version": "1.8.3",
+	"version": "1.9.2",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/FV-Autoupdater/main/updates.json",
 	"description": "Gives most maps randomised alternative variants when you visit in Freelancer; includes bonus missions and different times of day/weather. Requires SDK mod or Peacock Plugin to actually work.",
 	"authors": ["Kevin Rudd", "Kercyx"],
-    "loadAfter": ["KevinRudd.SeafoodMassacre","musicalmushr00m.LightingUltimate"],
+    "loadBefore": ["KevinRudd.TODChange"],
+    "loadAfter": ["KevinRudd.SeafoodMassacre","musicalmushr00m.LightingUltimate","GlacierOrganisation.CommunityPatches"],
 	"dependencies": [
 	"00559CF4597C9DCA",
 	"00D1F1997329D563",
@@ -653,7 +654,153 @@
 	}, {
 		"name": "Passenger Train",
 		"type": "conditional",
-		"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder",
+		"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
+		"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv", "Addons/Passenger Train/sigfix"],
+		"dependencies": [
+			"002BF35A526696D2","00760A6102503E67","00C1253FE9B34540","00BA6D023DB8CE9D","004477157143B8D3","004143CD137810AA","0076A0A69DD6EE33","0063C3B17A9686D3","00AD6700C1A7ED33","007C447438A950D3","00614ADA9857D0E2","007AC61B86C3C0C9","00A740FB993091A9","0098DA0E68D0F761","0069BC955624CEC1","005A3DA89D0D46FB","009051C31AA605DF","0030FDC6896FD335","006BE0454186E4AA","005946462F4EF718","008EDCF30CB12BD2","006D529EB01058A5","007D03F6DBCF9B27","001C7EFE78C71BEB",{
+			"runtimeID": "00C9FDC130E919B1",
+			"comment": "Female seated Wine Act",
+			"toChunk": 1
+		},{
+			"runtimeID": "00A406C41D39F5E8",
+			"comment": "Miranda Jameson Shit",
+			"toChunk": 1
+		},{
+			"runtimeID": "00DE8905C9EE35CA",
+			"comment": "Spider Lily Coat",
+			"toChunk": 1
+		},{
+			"runtimeID": "002086A3E6C23AB9",
+			"comment": "Spider Lily",
+			"toChunk": 1
+		},{
+			"runtimeID": "006D137C1D85AD92",
+			"comment": "Spider Lily",
+			"toChunk": 1
+		},{
+			"runtimeID": "005F5EDD76316D18",
+			"comment": "Spider Lily",
+			"toChunk": 1
+		},{
+			"runtimeID": "00FBD4C2124B1A13",
+			"comment": "Randomised Outfit part",
+			"toChunk": 8
+		},{
+			"runtimeID": "005BFAAC7C16848A",
+			"comment": "Randomised Outfit part",
+			"toChunk": 8
+		},{
+			"runtimeID": "00473B9CCD4153DC",
+			"comment": "s02_act_fr_sit_smoke_vape",
+			"toChunk": 1
+		},{
+			"runtimeID": "004C67F0DA870166",
+			"comment": "Act Stir Wok",
+			"toChunk": 1
+		},{
+			"runtimeID": "00ECB60609492D48",
+			"comment": "Act Slice Lime",
+			"toChunk": 1
+		},{
+			"runtimeID": "004B678CAC4D7656",
+			"comment": "Sambuca Charset",
+			"toChunk": 1
+		},{
+			"runtimeID": "0087E000B41D60F8",
+			"comment": "ET_FABA SDEF",
+			"toChunk": 1
+		},{
+			"runtimeID": "00B9657DB841BFEE",
+			"comment": "Meal Act",
+			"toChunk": 1
+		},{
+			"runtimeID": "009BA9B9EC958320",
+			"comment": "NY Music",
+			"toChunk": 1
+		},{
+			"runtimeID": "0095439E192FDCF7",
+			"comment": "Snow Scooter",
+			"toChunk": 1
+		},{
+			"runtimeID": "000E2A63407134BF",
+			"comment": "NY Customer Charset",
+			"toChunk": 1
+		},{
+			"runtimeID": "00BAC1B53D5544DB",
+			"comment": "NY Customer Charset",
+			"toChunk": 1
+		},{
+			"runtimeID": "005A3856903FD35E",
+			"comment": "NY Customer Charset",
+			"toChunk": 1
+		},{
+			"runtimeID": "0015498D02C005E7",
+			"comment": "NY Teller Charset",
+			"toChunk": 1
+		},{
+			"runtimeID": "00F1DFDC1256EC75",
+			"comment": "Russian Guard Charset",
+			"toChunk": 8
+		},{
+			"runtimeID": "00BE95669226F7FC",
+			"comment": "NY F Teller Charset",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "007189077F0626FF",
+			"comment": "Kitchen prop",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "007DA054E9594C2A",
+			"comment": "Laundry cart wet",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00AB86D10346024C",
+			"comment": "Laundry liquid",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00501B18151D6980",
+			"comment": "container cardbox",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00596C4252F362FD",
+			"comment": "miami trash",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00516836F8B7F8C7",
+			"comment": "miami table",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00C92C7DD5D3C19D",
+			"comment": "suitcase green",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "004A0CA76F8AB312,00C0F64E2A492B44,00353055CD9B26BE",
+			"comment": "fox targetidentifier related entities",
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00CFBF38EE15C50A,0092EDF340143E05",
+			"comment": "ah there you are"
+		},
+		{
+			"runtimeID": "003BB10D1CDD9055,00E5773A4FA77965",
+			"comment": "it was nothing"
+		}
+	],"scripts": [
+		"scripts/CopyTrain.ts"
+	]
+	},{
+		"name": "Passenger Train without SigFix",
+		"type": "conditional",
+		"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" in config.loadOrder",
 		"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv"],
 		"dependencies": [
 			"002BF35A526696D2","00760A6102503E67","00C1253FE9B34540","00BA6D023DB8CE9D","004477157143B8D3","004143CD137810AA","0076A0A69DD6EE33","0063C3B17A9686D3","00AD6700C1A7ED33","007C447438A950D3","00614ADA9857D0E2","007AC61B86C3C0C9","00A740FB993091A9","0098DA0E68D0F761","0069BC955624CEC1","005A3DA89D0D46FB","009051C31AA605DF","0030FDC6896FD335","006BE0454186E4AA","005946462F4EF718","008EDCF30CB12BD2","006D529EB01058A5","007D03F6DBCF9B27","001C7EFE78C71BEB",{
@@ -801,11 +948,6 @@
 		"type": "conditional",
 		"condition": "\"KevinRudd.PassengerTrain\" in config.loadOrder",
 		"contentFolders": ["Addons/Passenger Train/fv"]
-	},{
-		"name": "Passenger Train Suit Fix",
-		"type": "conditional",
-		"condition": "\"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
-		"contentFolders": ["Addons/Passenger Train/sigfix"]
 	},{
 		"name": "Cuba",
 		"type": "conditional",
@@ -1007,12 +1149,309 @@
 		"runtimeID": "0026E1082076FBA6",
 		"comment": "starfield",
 		"portFromChunk1": true
-	}]
+	}],
+	"localisation": {
+	"english": {
+		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+	"french": {
+		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+	"italian": {
+		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+	"german": {
+		"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"},
+	"spanish": {
+		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+	"russian": {
+		"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"},
+	"chineseSimplified": {
+		"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
+	"chineseTraditional": {
+		"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
+	"japanese": {
+		"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"}
+},"localisedlines":{"001D551B1AC17F6E":  "ui_location_parent_cuba_name"}
 	},{
 		"name": "Cuba External",
 		"type": "conditional",
 		"condition": "\"KevinRudd.WelcomeToCuba\" in config.loadOrder",
-		"contentFolders": ["Addons/Cuba/fv"]
+		"contentFolders": ["Addons/Cuba/fv"],
+		"localisation": {
+		"english": {
+			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+		"french": {
+			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+		"italian": {
+			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+		"german": {
+			"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"},
+		"spanish": {
+			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
+		"russian": {
+			"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"},
+		"chineseSimplified": {
+			"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
+		"chineseTraditional": {
+			"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
+		"japanese": {
+			"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"}
+	},"localisedlines":{"001D551B1AC17F6E":  "ui_location_parent_cuba_name"}
+	},{
+		"name": "Yacht",
+		"type": "conditional",
+		"condition": "\"TeamRuddcy.RealYacht\" not in config.loadOrder",
+		"contentFolders": ["Addons/Yacht/base", "Addons/Yacht/fv"],
+		"dependencies": [
+			"00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
+		{
+			"runtimeID": "0069DB569844D774",
+			"toChunk": 9,
+			"comment": "Mumbai Pier"
+		},{
+			"runtimeID": "00A4A5DCDA87B315",
+			"toChunk": 9,
+			"comment": "Hantu DryDock Wall"
+		},{
+			"runtimeID": "00B0574C76BBCED5",
+			"toChunk": 1,
+			"comment": "Berlin Interior Column"
+		},{
+			"runtimeID": "00A0B579589BB5B9",
+			"toChunk": 1,
+			"comment": "llama_silo_support_beam_a"
+		},{
+			"runtimeID": "004DA0BCD65E10E7",
+			"toChunk": 9,
+			"comment": "Hantu car park boom"
+		},{
+			"runtimeID": "00C0A4B77E103881",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Hut"
+		},
+		{
+			"runtimeID": "009A796EAA4E0505",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Hut"
+		},
+		{
+			"runtimeID": "00BE8CA1B743C8BD",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Hut"
+		},
+		{
+			"runtimeID": "00F630EB7A2172F9",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Door"
+		},
+		{
+			"runtimeID": "005EBB3070863681",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Window"
+		},
+		{
+			"runtimeID": "00E461BC6BF94251",
+			"toChunk": 8,
+			"comment": "Marrakesh Security Window"
+		},
+		{
+			"runtimeID": "000D8D650E4A3EA7",
+			"toChunk": 8,
+			"comment": "Colorado Garage"
+		},
+		{
+			"runtimeID": "000A16A2852C87F8",
+			"toChunk": 8,
+			"comment": "Colorado Garage Interior"
+		},
+		{
+			"runtimeID": "00FDB14B98C446E0",
+			"toChunk": 8,
+			"comment": "Colorado Garage Side Room Interior"
+		},
+		{
+			"runtimeID": "00CD2A7E2F524136",
+			"toChunk": 8,
+			"comment": "Colorado Garage Door"
+		},
+		{
+			"runtimeID": "00E495B00562187A",
+			"toChunk": 8,
+			"comment": "Colorado Garage Setpieces"
+		},
+		{
+			"runtimeID": "00BE40A890B142A5",
+			"toChunk": 8,
+			"comment": "Colorado Garage Setpieces"
+		},
+		{
+			"runtimeID": "007C34ECCD87B5D4",
+			"toChunk": 8,
+			"comment": "window_tractor_storage_vent_a"
+		},
+		{
+			"runtimeID": "009C39B3346B3B49",
+			"toChunk": 9,
+			"comment": "seagull_terrain_asphalt_panels_zmapped_a"
+		},
+		{
+			"runtimeID": "000BECE1AF7121AA",
+			"toChunk": 19,
+			"comment": "wooden plank mati"
+		},
+		{
+			"runtimeID": "00197D3FF3856194",
+			"toChunk": 19,
+			"comment": "pool wall"
+		},
+		{
+			"runtimeID": "001FB4CBE8E811B6",
+			"toChunk": 19,
+			"comment": "pool lights sound"
+		},
+		{
+			"runtimeID": "00FB64C2FE7BAB66",
+			"toChunk": 19,
+			"comment": "Sgail Bar"
+		},
+		{
+			"runtimeID": "00053CC7257FECEF",
+			"toChunk": 19,
+			"comment": "Sgail Bar Blueprint"
+		},
+		{
+			"runtimeID": "00BBA6C6AFB823C0",
+			"toChunk": 19,
+			"comment": "Resin Bar"
+		},
+		{
+			"runtimeID": "006637A440D0C0EE",
+			"toChunk": 19,
+			"comment": "Resin Bar Blueprint"
+		},
+		{
+			"runtimeID": "008A353B9903C975",
+			"toChunk": 19,
+			"comment": "Hantu helipad"
+		},
+		{
+			"runtimeID": "007DFE9269EB5C3D",
+			"toChunk": 19,
+			"comment": "Hantu helipad"
+		},
+
+
+
+
+		{
+			"runtimeID": "00E469188552EC1F",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00BF85ABEE02BB26",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "005929AF3EB3D40A",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+	
+		{
+			"runtimeID": "00D792CB012B3D99",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "0047E7572AEAEF41",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "0054FD4816B6EC72",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "000A8A7677074525",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00AD48CD4FD9CD32",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00967033D800E1F0",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "006B2E5F060937CD",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "0018B43ABE250084",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00CEFE0660C52EB3",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00B636F671A5D2E2",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00A9D09B4D03607E",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00060EA3F8C0C77C",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "0044F0686221A475",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00E41485D255A973",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00FFF64EFA2503BB",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "00316A7197B8CB91",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "0021E8649925C8A0",
+			"toChunk": 19,
+			"comment": "Haven scuba diving stuff"
+		},
+		{
+			"runtimeID": "004AC276338CB677",
+			"toChunk": 19,
+			"comment": "Paris tree foot for palm tree"
+		}]
+	},{
+		"name": "Yacht External",
+		"type": "conditional",
+		"condition": "\"TeamRuddcy.RealYacht\" in config.loadOrder",
+		"contentFolders": ["Addons/Yacht/fv"]
 	},{
 		"name": "No AOM",
 		"type": "conditional",
@@ -1028,8 +1467,6 @@
 			"portFromChunk1": true
 		}, "00C971B032756DED","00F29C6A6DA00025"]
 	}],
-	"requirements": [],
-    "loadBefore": [],
 	"packagedefinition": [{
 		"type": "entity",
 		"partition": "sheep",

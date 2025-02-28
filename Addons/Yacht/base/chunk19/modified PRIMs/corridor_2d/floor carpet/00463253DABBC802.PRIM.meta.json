@@ -1,0 +1,18 @@
+{
+    "hash_value": "00463253DABBC802",
+    "hash_offset": 615657560,
+    "hash_size": 2147586880,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 67,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 194752,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+    
+        {
+            "hash": "[assembly:/_pro/environment/materials/generic/floor/carpet_hotel_livingroom_a_red.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}

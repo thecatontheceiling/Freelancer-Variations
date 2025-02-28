@@ -1,0 +1,25 @@
+{
+    "hash_value": "00E3C7429644A557",
+    "hash_offset": 33165071,
+    "hash_size": 2147483648,
+    "hash_resource_type": "ASET",
+    "hash_reference_table_size": 31,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 12,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "00A9A233F6FF78BE",
+            "flag": "1F"
+        },
+        {
+            "hash": "[modules:/zexplosionblockeraspect.class].pc_entitytype",
+            "flag": "1F"
+        },
+        {
+            "hash": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entityblueprint",
+            "flag": "1F"
+        }
+    ]
+}

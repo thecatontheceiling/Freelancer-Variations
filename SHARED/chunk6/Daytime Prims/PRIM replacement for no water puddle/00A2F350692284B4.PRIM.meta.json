@@ -1,0 +1,45 @@
+{
+    "hash_value": "00A2F350692284B3",
+    "hash_offset": 69227173,
+    "hash_size": 2147550260,
+    "hash_resource_type": "PRIM",
+    "hash_reference_table_size": 76,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 120032,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/dirt/gecko_dirt_facade_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/drain_side_rat_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/ground/decal_interactive_mud_puddle_a_rat.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_manhole_wet_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_patch_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/road/road_patch_b_wet.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_a.mi].pc_mi",
+            "flag": "5F"
+        },
+        {
+            "hash": "[assembly:/_pro/environment/materials/decals/street/ground_detail_rat_c.mi].pc_mi",
+            "flag": "5F"
+        }
+    ]
+}
