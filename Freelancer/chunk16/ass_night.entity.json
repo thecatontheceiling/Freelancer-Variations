@@ -16412,6 +16412,106 @@
 		{
 			"entities": [
 				{
+					"ref": "2bba5dfb0bf60790",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 31.899529482579265
+						},
+						"position": {
+							"x": -22.23845672607422,
+							"y": -41.29450988769531,
+							"z": 6.999467372894287
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1d92daa7120bc8d8",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 1.388293716598218,
+							"y": 64.28173181316468,
+							"z": -1.5708627229504952
+						},
+						"position": {
+							"x": -14.993255615234377,
+							"y": -37.09334564208984,
+							"z": 5.864528656005859
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1fb8feabd0679501",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 60.069706527208666
+						},
+						"position": {
+							"x": -31.412694931030273,
+							"y": -36.893096923828125,
+							"z": 6.997156620025635
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "39814219d90de6d0",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -64.12832039019803
+						},
+						"position": {
+							"x": -17.60756492614746,
+							"y": -27.698917388916016,
+							"z": 5.999313831329346
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "67bd17d846e3faea",
 					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
 				}

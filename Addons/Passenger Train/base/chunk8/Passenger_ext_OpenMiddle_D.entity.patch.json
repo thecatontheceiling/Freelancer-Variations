@@ -1,0 +1,21 @@
+{
+	"tempHash": "00ECC04A305C5748",
+	"tbluHash": "009EF4D6057CA883",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"65f87009ca579a3e",
+				{
+					"SetExposedEntity": [
+						"Bathroom",
+						{
+							"isArray": true,
+							"refersTo": ["bccd44e4e612986f"]
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
