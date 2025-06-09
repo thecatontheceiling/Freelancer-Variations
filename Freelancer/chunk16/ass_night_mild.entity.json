@@ -16412,6 +16412,115 @@
 		{
 			"entities": [
 				{
+					"ref": "2bba5dfb0bf60790",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 31.899532 },
+						"position": {
+							"x": -31.552519,
+							"y": -38.60535,
+							"z": 6.993841
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1d92daa7120bc8d8",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.65913266,
+							"y": 44.307434,
+							"z": -0.95320904
+						},
+						"position": {
+							"x": -15.105101,
+							"y": -37.274815,
+							"z": 5.6903343
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1fb8feabd0679501",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 60.069706 },
+						"position": {
+							"x": -22.31225,
+							"y": -41.34018,
+							"z": 6.999335
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "39814219d90de6d0",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -64.12832 },
+						"position": {
+							"x": -17.446577,
+							"y": -27.675007,
+							"z": 6.0008717
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "67bd17d846e3faea",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -20.35686,
+							"y": -29.608486,
+							"z": 4.96761
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "c6241178db14606b",
 					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 				},
@@ -19381,20 +19490,6 @@
 		{
 			"entities": [
 				{
-					"ref": "ee858f012b5669ef",
-					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [null, null, null, null]
-				}
-			}
-		},
-		{
-			"entities": [
-				{
 					"ref": "fd87e245cbeba106",
 					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 				}
@@ -19412,27 +19507,6 @@
 				"ProceduralMoment_StopEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": null
-				}
-			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "67bd17d846e3faea",
-					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": {
-							"x": -20.35686,
-							"y": -29.608486,
-							"z": 4.96761
-						}
-					}
 				}
 			}
 		}

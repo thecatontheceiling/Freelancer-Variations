@@ -1,12 +1,12 @@
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
-const { PEACOCKVER, PEACOCKVERSTRING } = require("@peacockproject/core/utils")
+const { PEACOCKVER, PEACOCKVERSTRING, compare } = require("@peacockproject/core/utils")
 const { existsSync, readFileSync } = require("fs")
 
 module.exports = function FreelancerVariations(controller) {
-    if (Math.abs(PEACOCKVER) < 6000) {
-        log(LogLevel.ERROR, `[Freelancer Variations] This plugin requires at Peacock version v6.0.0 or above! You're on v${PEACOCKVERSTRING}!`)
-        return
-    }
+    if (Math.abs(PEACOCKVER) < 6000 || compare(PEACOCKVERSTRING, "8.0.0") < 0) {
+    log(LogLevel.ERROR, `[Freelancer Variations] This plugin requires Peacock version v8.0.0 or above! You're on v${PEACOCKVERSTRING}!`)
+    return
+}
 
     if (!controller.smf.modIsInstalled("KevinRudd.FreelancerVariations")) {
         log(LogLevel.ERROR, "[Freelancer Variations] Mod currently not deployed, please deploy it in SMF.")
@@ -23,7 +23,7 @@ module.exports = function FreelancerVariations(controller) {
     const config = JSON.parse(readFileSync(configPath, "utf-8"))
 
     for (const patch of config["patches"]) {
-        const contract = controller.resolveContract(patch["id"])
+        const contract = controller.resolveContract(patch["id"], "h3")
 
         if (!contract) {
             log(LogLevel.WARN, `[Freelancer Variations] Could not resolve contract id ${patch["id"]}, report this to the mod author!`)

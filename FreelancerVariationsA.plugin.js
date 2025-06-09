@@ -1,5 +1,5 @@
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
-const { PEACOCKVER, PEACOCKVERSTRING } = require("@peacockproject/core/utils")
+const { PEACOCKVER, PEACOCKVERSTRING, compare } = require("@peacockproject/core/utils")
 const { existsSync, readFileSync } = require("fs")
 
 const contracts = [

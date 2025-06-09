@@ -14,6 +14,89 @@
 		{
 			"entities": [
 				{
+					"ref": "b62be0b815cf1bea",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/override_craps.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.013751470874094654,
+							"y": 0.014221042634890177,
+							"z": -91.92346249700702
+						},
+						"position": {
+							"x": -89.13617706298828,
+							"y": -53.673431396484375,
+							"z": -1.5378668308258057
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4998f67148c27a12",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/override_craps.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.006939804834363055,
+							"y": 0.018525118659806585,
+							"z": 131.07350157680932
+						},
+						"position": {
+							"x": -88.21820831298828,
+							"y": -56.60327911376953,
+							"z": -1.5378668308258057
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a4e4f51213a422df",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/override_craps.brick].pc_entitytype"
+				},
+				{
+					"ref": "788613bfa6cf3af2",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/override_craps.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 45.92538626951655
+						},
+						"position": {
+							"x": -88.57281494140625,
+							"y": -54.71331405639648,
+							"z": -1.5378668308258057
+						}
+					}
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "9c2d46fd-55a6-4125-a512-054f7e9aef0e"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "ab0a850d15ab416e",
 					"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype"
 				},
@@ -521,7 +604,8 @@
 		"[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/paris/mission_mild_craps.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
-		"00CFDE2BFD950D98"
+		"00CFDE2BFD950D98",
+		"[assembly:/_pro/scenes/missions/paris/override_craps.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,

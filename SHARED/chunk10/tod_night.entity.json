@@ -2035,6 +2035,952 @@
 					"value": "cafe0b03cd84c9ba"
 				}
 			}
+		},
+		"cafe47751516d5ec": {
+			"parent": "fffffffffffffffe",
+			"name": "Ruddy Additions",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe8a6bd2c7d997": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A14",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.14641335425269,
+							"y": 0.1095904519339207,
+							"z": 103.67097446790636
+						},
+						"position": {
+							"x": -38.140686,
+							"y": 177.05226,
+							"z": 10.272089
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -37.999998884302904,
+							"z": 0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 8, "y": 20 }
+				},
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.6800000071525574
+					}
+				},
+				"GlowIntensity": { "type": "float32", "value": 4000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafecede63f4c5ad": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A15",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 0.14024270008271153,
+							"z": 121.5861508494996
+						},
+						"position": {
+							"x": 15.102593,
+							"y": 176.82614,
+							"z": 6.652637
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": -8, "z": 0 },
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 10, "y": 30 }
+				},
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.6800000071525574
+					}
+				},
+				"GlowIntensity": { "type": "float32", "value": 4000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafec120f0ca945f": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A16",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": 20, "z": -75 },
+						"position": {
+							"x": -66.4915,
+							"y": 121.5,
+							"z": 10.12329
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": -10, "z": 0 },
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 8, "y": 25 }
+				},
+				"DiffusePower": { "type": "float32", "value": 100 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.2, "y": 0.8 }
+				},
+				"GlowIntensity": { "type": "float32", "value": 2000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe9339b658c12a": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A17",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": 0, "z": 180 },
+						"position": {
+							"x": -66.4,
+							"y": 121.8,
+							"z": 10.12329
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -17.999998884302904,
+							"z": 0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 10, "y": 25 }
+				},
+				"DiffusePower": { "type": "float32", "value": 100 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.6800000071525574
+					}
+				},
+				"GlowIntensity": { "type": "float32", "value": 2000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafed6bdf97f1e77": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A18",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.42727032320283,
+							"y": 0.016805680452816375,
+							"z": -120
+						},
+						"position": {
+							"x": -84.8,
+							"y": 124.7,
+							"z": 4.39011
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 10, "y": 0, "z": 40 },
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 10, "y": 25 }
+				},
+				"DiffusePower": { "type": "float32", "value": 100 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.6800000071525574
+					}
+				},
+				"GlowIntensity": { "type": "float32", "value": 2000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe4ae804c364d7": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A07",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.9999982924527,
+							"y": 1.707547292503185e-6,
+							"z": 89.97202525159422
+						},
+						"position": {
+							"x": -30.00434112548828,
+							"y": 276.69879150390625,
+							"z": 8.835790634155273
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -17.400001793164908,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.02800000086426735
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 8.199999809265137,
+						"y": 34.599998474121094
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 65.4000015258789
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.20000000298023224, "y": 1.0 }
+				},
+				"GlowIntensity": { "type": "float32", "value": 2590.0 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe7e2aa8dbbf4d": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A12",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 0.026945097943226956,
+							"z": -101.08160194223034
+						},
+						"position": {
+							"x": -39.073498,
+							"y": 176.63484,
+							"z": 16.72852
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -37.999998884302904,
+							"z": 0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 10, "y": 25 }
+				},
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.6800000071525574
+					}
+				},
+				"GlowIntensity": { "type": "float32", "value": 4000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe0a0d0dafa01b": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A13",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.42727032320283,
+							"y": 0.016805680452816375,
+							"z": 34.56813721966272
+						},
+						"position": {
+							"x": -40.16275,
+							"y": 174.89096,
+							"z": 16.963263
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 70, "z": 0 },
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 6, "y": 12 }
+				},
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.6800000071525574
+					}
+				},
+				"GlowIntensity": { "type": "float32", "value": 4000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe90eb3ace927f": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A10",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 0,
+							"z": 119.61032738677666
+						},
+						"position": {
+							"x": -61.678066,
+							"y": 179.73347,
+							"z": 5.844785
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": -10, "z": 0 },
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.028281960636377335
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 8, "y": 25 }
+				},
+				"DiffusePower": { "type": "float32", "value": 80 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.2, "y": 0.8 }
+				},
+				"GlowIntensity": { "type": "float32", "value": 4000 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe246cc0bd679c": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A11",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.98601177202399,
+							"y": 0.0,
+							"z": -180.0
+						},
+						"position": {
+							"x": -54.01215744018555,
+							"y": 247.18202209472656,
+							"z": 9.392260551452637
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -36.80000032599879,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.02800000086426735
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 8.199999809265137, "y": 25.0 }
+				},
+				"DiffusePower": { "type": "float32", "value": 114.0 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.20000000298023224, "y": 1.0 }
+				},
+				"GlowIntensity": { "type": "float32", "value": 2590.0 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafed5458b5c63f7": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 90, "y": -0.0, "z": -90 },
+						"position": {
+							"x": -81.88134765625,
+							"y": 253.73439025878903,
+							"z": 12.73517608642578
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -36.80000032599879,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.02800000086426735
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 8.199999809265137, "y": 25.0 }
+				},
+				"DiffusePower": { "type": "float32", "value": 80 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.20000000298023224, "y": 1.0 }
+				},
+				"GlowIntensity": { "type": "float32", "value": 2590.0 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafee9cef34277c7": {
+			"parent": "cafe47751516d5ec",
+			"name": "Lamp_Wall_Modern_Spot_Italy_A08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_wall_modern_spot_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 89.9999999999998,
+							"y": 0.0,
+							"z": -0.02797645428453013
+						},
+						"position": {
+							"x": -54.16778564453125,
+							"y": 272.9405517578125,
+							"z": 9.576196670532228
+						}
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"Lamp_Neck_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -36.80000032599879,
+							"z": 0.0
+						},
+						"position": {
+							"x": 0.4109509885311126,
+							"y": 0.002530901925638318,
+							"z": 0.02800000086426735
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#e6fdff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 8.199999809265137, "y": 25.0 }
+				},
+				"DiffusePower": { "type": "float32", "value": 80 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.20000000298023224, "y": 1.0 }
+				},
+				"GlowIntensity": { "type": "float32", "value": 2590.0 },
+				"Lamp_Head_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -6.999998731813774,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00004999999873689376,
+							"y": 0.001576000009663403,
+							"z": 0.23860199749469757
+						}
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 80 },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
@@ -2655,9 +3601,56 @@
 				{
 					"ref": "cfbf6d82001bf9d2",
 					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "38f19ad5ec11a14b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "9bf36b5eacfd1415",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "bec19b8fb61afbf7",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "2b04e6bdf467574d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "46688cab7cde0510",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "182497fc7b11796f",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "63215625100fbd23",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "0e198c0249507846",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "27e5391aa5592268",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "656da5a245c1893d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "afb29dc316a1b8f1",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
 				}
 			],
-			"properties": { "On": { "type": "bool", "value": true } }
+			"properties": {
+				"On": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true }
+			}
 		},
 		{
 			"entities": [
@@ -3307,15 +4300,36 @@
 				{
 					"ref": "fbb04132c29018a2",
 					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "499ded0e34796dcd",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "aed2845ec0f1aeb3",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "17b29ac41c656063",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
 				}
 			],
-			"properties": {
-				"m_bCastShadows": { "type": "bool", "value": true },
-				"On": { "type": "bool", "value": true }
-			}
+			"properties": { "On": { "type": "bool", "value": true } }
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "f260d638b78ad73d",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "cef21fede2851f3d",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "d0af7b4d393464a0",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
 		{
 			"ref": "949b0865ad8021ba",
 			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
