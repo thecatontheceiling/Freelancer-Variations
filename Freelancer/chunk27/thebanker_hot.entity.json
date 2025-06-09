@@ -2522,7 +2522,7 @@
 		{
 			"entities": [
 				{
-					"ref": "",
+					"ref": "20a4b99aeab89e0e",
 					"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_hot_craps.brick].pc_entitytype"
 				}
 			],
