@@ -1,5 +1,5 @@
 {
-	"version": "1.9.4",
+	"version": "1.9.5",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
@@ -551,12 +551,6 @@
 			"comment": "Act_MR_DJ_Stand_Play_Music_100CM",
 			"toChunk": 6
 		}]
-	}, {
-		"name": "Minnow's HB Outfit Fix",
-		"type": "conditional",
-		"condition": "\"GlacierOrganisation.CommunityPatches\" not in config.loadOrder",
-		"contentFolders": ["Addons/HB/DIF"],
-		"dependencies": []
 	}, {
 		"name": "The Brothers Content",
 		"type": "conditional",

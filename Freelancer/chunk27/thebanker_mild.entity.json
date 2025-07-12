@@ -301,6 +301,18 @@
 						{
 							"ref": "876f5072e0caf72a",
 							"externalScene": "[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe80d11214d5bc",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/thebanker.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafecedca3941c4e",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/thebanker.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafed514828704cf",
+							"externalScene": "[assembly:/_pro/scenes/missions/paris/thebanker.brick].pc_entitytype"
 						}
 					]
 				}
