@@ -1,127 +1,199 @@
 {
-    "tempHash": "0030C60BD2E68D98",
-    "tbluHash": "00A878DD5212157D",
-    "patch": [{
-            "RemovePropertyOverride": {
-                "entities": [{
-                        "ref": "cc83c3700d7bfb56",
-                        "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
-                    }
-                ],
-                "properties": {
-                    "m_mTransform": {
-                        "type": "SMatrix43",
-                        "value": {
-                            "rotation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 90.00011459155874
-                            },
-                            "position": {
-                                "x": 0.7541639804840088,
-                                "y": -1.2953779697418213,
-                                "z": 0.46913400292396545
-                            },
-                            "scale": {
-                                "x": 1.000000000004,
-                                "y": 1.000000000004,
-                                "z": 1
-                            }
-                        }
-                    }
-                }
-            }
-        }, {
-            "RemovePropertyOverride": {
-                "entities": [{
-                        "ref": "1d8368e8d90223ef",
-                        "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
-                    }
-                ],
-                "properties": {
-                    "m_mTransform": {
-                        "type": "SMatrix43",
-                        "value": {
-                            "rotation": {
-                                "x": 0,
-                                "y": 0,
-                                "z": 175.00055774625054
-                            },
-                            "position": {
-                                "x": 0.5297759771347046,
-                                "y": -0.5772209763526917,
-                                "z": 0.39611101150512695
-                            },
-                            "scale": {
-                                "x": 0.9999989396233515,
-                                "y": 0.9999989396233515,
-                                "z": 1
-                            }
-                        }
-                    }
-                }
-            }
-        }, {
-            "RemovePropertyOverride": {
-                "entities": [{
-                        "ref": "1ccdb775e5552171",
-                        "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
-                    }
-                ],
-                "properties": {
-                    "m_mTransform": {
-                        "type": "SMatrix43",
-                        "value": {
-                            "rotation": {
-                                "x": -1.2473853552008078,
-                                "y": 6.956572846363164,
-                                "z": -79.70557996119067
-                            },
-                            "position": {
-                                "x": 0.8205569982528687,
-                                "y": -1.2075179815292358,
-                                "z": 0.6439769864082336
-                            },
-                            "scale": {
-                                "x": 1.0000011051290658,
-                                "y": 0.9999998294411121,
-                                "z": 0.9999999338319469
-                            }
-                        }
-                    }
-                }
-            }
-        }, {
-            "RemovePropertyOverride": {
-                "entities": [{
-                        "ref": "eacbcfaaacda1a08",
-                        "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
-                    }
-                ],
-                "properties": {
-                    "m_mTransform": {
-                        "type": "SMatrix43",
-                        "value": {
-                            "rotation": {
-                                "x": -5.7852520350534755,
-                                "y": -3.502148035924334,
-                                "z": -6.566567049538308
-                            },
-                            "position": {
-                                "x": 0.5386999845504761,
-                                "y": -0.5117440223693848,
-                                "z": 0.5934029817581177
-                            },
-                            "scale": {
-                                "x": 0.999999120746403,
-                                "y": 1.0000002117231412,
-                                "z": 1.000000640862199
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "0030C60BD2E68D98",
+	"tbluHash": "00A878DD5212157D",
+	"patch": [
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "5bb4ff72d1a0aa12",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 111.06460802389425,
+							"y": 1.0771091007672393,
+							"z": -96.2127782988859
+						},
+						"position": {
+							"x": -0.7912160158157349,
+							"y": 0.9992520213127136,
+							"z": 0.88954097032547
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "1ccdb775e5552171",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.2473853552008078,
+							"y": 6.956572846363164,
+							"z": -79.70557996119067
+						},
+						"position": {
+							"x": 0.8205569982528687,
+							"y": -1.2075179815292358,
+							"z": 0.6439769864082336
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "942b6435812e600c",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 113.64717190498389,
+							"y": 3.620063546977562,
+							"z": 103.68305695354113
+						},
+						"position": {
+							"x": 0.8803219795227051,
+							"y": 0.07621599733829498,
+							"z": 0.9722769856452942
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "eacbcfaaacda1a08",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.785252035053475,
+							"y": -3.5021480359243333,
+							"z": -6.566567049538309
+						},
+						"position": {
+							"x": 0.5386999845504761,
+							"y": -0.5117440223693848,
+							"z": 0.5934029817581177
+						}
+					}
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "94ef0d15db88ded7",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -38.66055917035226,
+							"y": 12.031709303918703,
+							"z": 72.63300985294777
+						},
+						"position": {
+							"x": -3.798988103866577,
+							"y": -2.9290499687194824,
+							"z": 0.06776099652051926
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "5bb4ff72d1a0aa12",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 111.06460802389424,
+							"y": 1.077109100767239,
+							"z": -96.2127782988859
+						},
+						"position": {
+							"x": -0.7912160158157349,
+							"y": 0.9992520213127136,
+							"z": 0.88954097032547
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "942b6435812e600c",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 113.64717190498388,
+							"y": 3.620063546977562,
+							"z": 103.68305695354113
+						},
+						"position": {
+							"x": 0.8803219795227051,
+							"y": 0.07621599733829498,
+							"z": 0.9722769856452942
+						}
+					}
+				}
+			}
+		},
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "94ef0d15db88ded7",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+				},
+				"propertyName": "m_mTransform",
+				"propertyOverride": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -38.66055917035226,
+							"y": 12.031709303918705,
+							"z": 72.63300985294777
+						},
+						"position": {
+							"x": -3.798988103866577,
+							"y": -2.9290499687194824,
+							"z": 0.06776099652051926
+						}
+					}
+				}
+			}
+		}
+	],
+	"patchVersion": 6
 }

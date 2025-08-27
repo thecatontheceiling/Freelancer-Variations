@@ -30109,7 +30109,7 @@ const contracts = [
             "CpdId": "f8ec92c2-4fa2-471e-ae08-545480c746ee",
             "EvergreenMissionName": "Poker",
             "EvergreenMissionType": "Mild",
-            "Entitlements": ["H2_LEGACY_STANDARD"],
+            "Entitlements": ["LOCATION_NEWZEALAND"],
             "PublicId": "099196197547",
             "IsFeatured": false,
             "OpportunityData": []
@@ -62780,7 +62780,7 @@ const contracts = [
             "EvergreenMissionName": "Poker",
             "EvergreenMissionType": "Hot",
             "Entitlements": [
-                "H2_LEGACY_STANDARD"
+                "LOCATION_NEWZEALAND"
             ],
             "LastUpdate": "2023-11-23T12:12:28.3908028Z",
             "PublicId": "099444598647",

@@ -42,7 +42,8 @@
 					"type": "float32",
 					"value": 1
 				},
-				"m_bVisible": { "type": "bool", "value": true }
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_fGlobalLightPhong": { "type": "float32", "value": 3.0 }
 			}
 		},
 		"abcdd3cfc367e386": {
@@ -57,14 +58,10 @@
 				},
 				"m_vBoxSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 173.7830047607422,
-						"y": 289.7619934082031,
-						"z": 273.22100830078125
-					}
+					"value": { "x": 400.0, "y": 400.0, "z": 400.0 }
 				},
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
-				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_fDiffusePower": { "type": "float32", "value": 217.0 },
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_bCastShadows": { "type": "bool", "value": true },
 				"m_eRoomLightFlow": {
@@ -79,16 +76,15 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.07476659951256892,
-							"y": 27.81880493399853,
-							"z": -80.4644205354632
+							"x": 1.3971640849174034,
+							"y": 38.60460791366836,
+							"z": -67.87339553708208
 						},
 						"position": {
-							"x": -29.48381996154785,
+							"x": -86.75674438476562,
 							"y": 75.43599700927734,
-							"z": 8.288997650146484
-						},
-						"scale": { "x": 1.0, "y": 1, "z": 1 }
+							"z": 96.29612731933594
+						}
 					}
 				},
 				"m_vNearAttenuation": {
@@ -129,7 +125,7 @@
 				},
 				"m_vCSMCascadeRadii": {
 					"type": "SVector3",
-					"value": { "x": -1, "y": 25, "z": 125 }
+					"value": { "x": -1.0, "y": 25.0, "z": 125.0 }
 				},
 				"m_vCSMSplitFades": {
 					"type": "SVector3",
@@ -179,7 +175,7 @@
 				},
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#fcddc2"
+					"value": "#ffffff"
 				},
 				"m_fLightBleedingReduction": {
 					"type": "float32",
@@ -204,12 +200,18 @@
 						}
 					}
 				},
-				"m_fSunRadiusScale": { "type": "float32", "value": 2 },
+				"m_fSunRadiusScale": {
+					"type": "float32",
+					"value": 2.799999952316284
+				},
 				"m_fSunIntensityScale": {
 					"type": "float32",
-					"value": 5000
+					"value": 336.0
 				},
-				"m_fWorldScale": { "type": "float32", "value": 20 },
+				"m_fWorldScale": {
+					"type": "float32",
+					"value": 14.800000190734863
+				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_STATIC"
@@ -229,7 +231,7 @@
 					"type": "float32",
 					"value": 1
 				},
-				"m_fMieHeightScale": { "type": "float32", "value": 1200 },
+				"m_fMieHeightScale": { "type": "float32", "value": 449.0 },
 				"m_fAmbientInscatterFraction": {
 					"type": "float32",
 					"value": 0
@@ -246,11 +248,32 @@
 					"type": "float32",
 					"value": 1
 				},
-				"m_MieColor": { "type": "SColorRGB", "value": "#c4e4ff" },
+				"m_MieColor": { "type": "SColorRGB", "value": "#5c5c5c" },
 				"m_RayleighColor": {
 					"type": "SColorRGB",
-					"value": "#5897fc"
-				}
+					"value": "#f4f4ed"
+				},
+				"m_fRayleighHeightScale": {
+					"type": "float32",
+					"value": 9999.0
+				},
+				"m_fWaterPlaneHeight": {
+					"type": "float32",
+					"value": -19.0
+				},
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 149.0
+				},
+				"m_vRayleighColor_LowQuality": {
+					"type": "SColorRGB",
+					"value": "#d1d1d1"
+				},
+				"m_fMieAnisotropy": {
+					"type": "float32",
+					"value": 0.7599999904632568
+				},
+				"m_fMieDepthScale": { "type": "float32", "value": 1.0 }
 			}
 		},
 		"abcd1e423f9e4b98": {
@@ -280,32 +303,36 @@
 				},
 				"ConstantVector1D_07_Value": {
 					"type": "float32",
-					"value": 3
+					"value": 3.299999952316284
 				},
 				"ConstantVector1D_02_Value": {
 					"type": "float32",
-					"value": 0.5
+					"value": 1.2999999523162842
 				},
 				"ConstantColorRGB_01_Value": {
 					"type": "SColorRGB",
-					"value": "#cfe8ff"
+					"value": "#ffffff"
 				},
 				"m_bVisible": { "type": "bool", "value": true },
 				"ConstantColorRGB_03_Value": {
 					"type": "SColorRGB",
-					"value": "#dee8fc"
+					"value": "#ffffff"
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
-					"value": "#c8e5fa"
+					"value": "#ffffff"
 				},
 				"ConstantVector1D_05_Value": {
 					"type": "float32",
-					"value": 1
+					"value": 1.0
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
-					"value": 0.10000000149011612
+					"value": 1.0
+				},
+				"ConstantVector1D_10_Value": {
+					"type": "float32",
+					"value": 1.0
 				}
 			}
 		},
@@ -1038,6 +1065,184 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe7ab6d29a6573": {
+			"parent": "abcdfc49b4c09e3a",
+			"name": "Act_MR_Stand_ArmsInSide",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsinside.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsinside.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -32.15570320919592
+						},
+						"position": {
+							"x": -55.42995071411133,
+							"y": 72.06056213378906,
+							"z": 96.8553237915039
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "74833197824b2bd3",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9563f623dfbb": {
+			"parent": "abcdfc49b4c09e3a",
+			"name": "Act_MR_Stand_ArmsCrossed",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armscrossed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armscrossed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 25.97552247370268
+						},
+						"position": {
+							"x": -53.778560638427734,
+							"y": 72.0022964477539,
+							"z": 96.8553237915039
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8e82d54c6c428b3d",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafea9e67ad6db65": {
+			"parent": "abcdfc49b4c09e3a",
+			"name": "Act_MR_Stand_ArmsCrossed Noodle Moodle",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armscrossed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armscrossed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -2.9116128183771424
+						},
+						"position": {
+							"x": -85.38788604736328,
+							"y": 98.66104125976564,
+							"z": 97.00965118408205
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "527a68a2eaf37b06",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Reset": [
+						{
+							"ref": "86e976f0af6ebd29",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafed58872bc4f14": {
+			"parent": "abcdfc49b4c09e3a",
+			"name": "Setpiece_Hips_Stand_Railing_Lean_01 DEFAULT",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_railing_lean.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_railing_lean.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.14090800285339355,
+							"y": -0.31769201159477234,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "4bb4d27ddf45c743",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+					}
+				}
+			},
+			"events": {
+				"OnEntered": {
+					"TransmitEvent": [
+						{
+							"ref": "ff53089e6e585961",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafebe849af27ca2": {
+			"parent": "abcdfc49b4c09e3a",
+			"name": "setpiece_hips_stand_pray couple",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_pray.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_pray.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -98.79044342041016,
+							"y": 19.32154083251953,
+							"z": 101
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -1154,6 +1359,48 @@
 			],
 			"properties": {
 				"m_nOutfitCharset": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c089583ed9041920",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aWaypoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea9e67ad6db65"]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "73fd7838d515ea15",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aWaypoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe7ab6d29a6573"]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "844b55881c2918e1",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aWaypoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9563f623dfbb"]
+				}
 			}
 		},
 		{
@@ -4309,6 +4556,26 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "82c8187e7ee93a70",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "58a1edb580b842d6",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "d5caf8708a625d4b",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "f078ffe722949c6f",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "25b17f07c3b19807",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
 			"ref": "315f1cd69f8d1e8a",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 		},
@@ -5074,6 +5341,42 @@
 		}
 	],
 	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "3ea5e4cc9d8be35d",
+				"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+			},
+			"fromPin": "EventReceived",
+			"toEntity": "cafed58872bc4f14",
+			"toPin": "EnterSafeZoneNoAnim"
+		},
+		{
+			"fromEntity": {
+				"ref": "86e976f0af6ebd29",
+				"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+			},
+			"fromPin": "OnStart",
+			"toEntity": "cafea9e67ad6db65",
+			"toPin": "Start"
+		},
+		{
+			"fromEntity": {
+				"ref": "c14dcc61d23cad0b",
+				"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+			},
+			"fromPin": "OnStart",
+			"toEntity": "cafe7ab6d29a6573",
+			"toPin": "Start"
+		},
+		{
+			"fromEntity": {
+				"ref": "e20c5342855867b8",
+				"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+			},
+			"fromPin": "OnStart",
+			"toEntity": "cafe9563f623dfbb",
+			"toPin": "Start"
+		},
 		{
 			"fromEntity": {
 				"ref": "efc357452a0f429e",
