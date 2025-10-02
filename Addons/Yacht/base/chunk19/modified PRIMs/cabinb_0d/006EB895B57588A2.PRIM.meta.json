@@ -1,61 +1,61 @@
 {
-    "hash_value": "006EB895B57588A2",
-    "hash_offset": 599647163,
-    "hash_size": 2147599689,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 112,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 211232,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plaster_stucco_paint_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_gray_wall_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/floor/carpet_felt_charcoal_b.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "006EB895B57588A2",
+	"hash_offset": 599647163,
+	"hash_size": 2147599689,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 112,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 211232,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/plaster_stucco_paint_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_gray_wall_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/floor/carpet_felt_charcoal_b.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

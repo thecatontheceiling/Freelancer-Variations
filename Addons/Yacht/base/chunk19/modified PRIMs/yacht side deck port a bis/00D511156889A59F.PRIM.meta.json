@@ -1,45 +1,45 @@
 {
-    "hash_value": "00D511156889A59F",
-    "hash_offset": 613772708,
-    "hash_size": 2147632046,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 76,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 318592,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plywood_b.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/markings/paint_wood_details_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/levels/the_facility/facility_yacht_beams.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "00D511156889A59F",
+	"hash_offset": 613772708,
+	"hash_size": 2147632046,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 76,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 318592,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plywood_b.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/markings/paint_wood_details_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/levels/the_facility/facility_yacht_beams.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

@@ -1,53 +1,53 @@
 {
-    "hash_value": "001F7EE8B61EFE92",
-    "hash_offset": 615154050,
-    "hash_size": 2147565317,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 94,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 141872,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/floor/vinyl_nobbles_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_white_wall_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plank_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a_nodif.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plaster_stucco_paint_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plywood_b.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "001F7EE8B61EFE92",
+	"hash_offset": 615154050,
+	"hash_size": 2147565317,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 94,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 141872,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/floor/vinyl_nobbles_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_normal_wall_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/architecture/walls/plywood_white_wall_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plank_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a_nodif.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/plaster_stucco_paint_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plywood_b.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

@@ -19324,6 +19324,14 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "ccffbf29c118297b",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+		},
+		{
+			"ref": "99a6d9eb1045c7fd",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+		},
+		{
 			"ref": "be43c9529c7c3c0e",
 			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 		},

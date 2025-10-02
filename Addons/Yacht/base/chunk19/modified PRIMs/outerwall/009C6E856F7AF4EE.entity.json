@@ -1,49 +1,49 @@
 {
-    "tempHash": "009C6E856F7AF4EE",
-    "tbluHash": "00B5DB4888B194DE",
-    "rootEntity": "a42fdda0ca064669",
-    "entities": {
-        "a42fdda0ca064669": {
-            "parent": null,
-            "name": "plywood_support_outerwall_B_00",
-            "factory": "0098124B3060620A",
-            "blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-            "properties": {
-                "m_mTransform": {
-                    "type": "SMatrix43",
-                    "value": {
-                        "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
-                        },
-                        "position": {
-                            "x": -9.502205848693848,
-                            "y": -38.94260025024414,
-                            "z": 2.587430953979492
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "propertyOverrides": [],
-    "overrideDeletes": [],
-    "pinConnectionOverrides": [],
-    "pinConnectionOverrideDeletes": [],
-    "externalScenes": [],
-    "subType": "template",
-    "quickEntityVersion": 3.1,
-    "extraFactoryDependencies": [
-        {
-            "resource": "00620E27B3DD0169",
-            "flag": "5F"
-        },
-        {
-            "resource": "00DB875A8E5A7397",
-            "flag": "5F"
-        }
-    ],
-    "extraBlueprintDependencies": [],
-    "comments": []
+	"tempHash": "009C6E856F7AF4EE",
+	"tbluHash": "00B5DB4888B194DE",
+	"rootEntity": "a42fdda0ca064669",
+	"entities": {
+		"a42fdda0ca064669": {
+			"parent": null,
+			"name": "plywood_support_outerwall_B_00",
+			"factory": "0098124B3060620A",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -9.502205848693848,
+							"y": -38.94260025024414,
+							"z": 2.587430953979492
+						}
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "00620E27B3DD0169",
+			"flag": "5F"
+		},
+		{
+			"resource": "00DB875A8E5A7397",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

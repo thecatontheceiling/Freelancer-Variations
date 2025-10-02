@@ -1,49 +1,49 @@
 {
-    "hash_value": "0069D06F61AB7E2D",
-    "hash_offset": 592963773,
-    "hash_size": 2147631653,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 85,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 311696,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/mechanical/diamond_pattern_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/plaster_stucco_paint_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plywood_b.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "0069D06F61AB7E2D",
+	"hash_offset": 592963773,
+	"hash_size": 2147631653,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 85,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 311696,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/wall/decal_details_plywood_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/plywood_white_paint_3mat_blend.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/mechanical/diamond_pattern_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/plaster_stucco_paint_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wood/wood_plywood_b.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_a.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

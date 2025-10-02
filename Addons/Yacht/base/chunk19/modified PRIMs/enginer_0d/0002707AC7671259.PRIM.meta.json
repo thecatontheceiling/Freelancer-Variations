@@ -1,53 +1,53 @@
 {
-    "hash_value": "0002707AC7671259",
-    "hash_offset": 603071630,
-    "hash_size": 2147606696,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 94,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 295760,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "0002707AC7671259",
+	"hash_offset": 603071630,
+	"hash_size": 2147606696,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 94,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 295760,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_worn.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

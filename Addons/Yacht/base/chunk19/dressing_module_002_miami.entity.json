@@ -43,9 +43,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"6e3a905fbac10864"
-				]
+				"AudioVolumetricGeom": ["6e3a905fbac10864"]
 			}
 		},
 		"b84feadf6d14047c": {
@@ -92,9 +90,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"eda86685a6a3febe"
-					],
+					"value": ["eda86685a6a3febe"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -140,9 +136,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"59f19caa369bdf6b": {
@@ -185,9 +179,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"2a657553a2f081a8": {
@@ -387,9 +379,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"1a1670258178356e": {
@@ -657,9 +647,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3bf349e54b5c40e2"
-					],
+					"value": ["3bf349e54b5c40e2"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -749,9 +737,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a9c27753a3f19d7d"
-					],
+					"value": ["a9c27753a3f19d7d"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -774,12 +760,8 @@
 			},
 			"events": {
 				"Out": {
-					"SetTrue": [
-						"423e56e34d782bed"
-					],
-					"SetFalse": [
-						"fcdd3c4d83f09e06"
-					]
+					"SetTrue": ["423e56e34d782bed"],
+					"SetFalse": ["fcdd3c4d83f09e06"]
 				}
 			}
 		},
@@ -791,9 +773,7 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c3379a801b016951"
-					],
+					"value": ["c3379a801b016951"],
 					"postInit": true
 				}
 			}
@@ -912,9 +892,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4d4644267f62b4f4"
-					],
+					"value": ["4d4644267f62b4f4"],
 					"postInit": true
 				}
 			}
@@ -1061,9 +1039,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"e6790a0bd552306e": {
@@ -1136,9 +1112,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"46e51512c58cecba": {
@@ -1149,9 +1123,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0de60b3368e1d860"
-					],
+					"value": ["0de60b3368e1d860"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -1206,9 +1178,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"Composition_Volume": [
-						"f43863d65339d64c"
-					]
+					"Composition_Volume": ["f43863d65339d64c"]
 				}
 			}
 		},
@@ -1252,9 +1222,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"6fb03f3b4d9b795d"
-				]
+				"AudioVolumetricGeom": ["6fb03f3b4d9b795d"]
 			}
 		},
 		"d7449083d6bbe203": {
@@ -1264,14 +1232,10 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"SetTrue": [
-						"36a0fb5115afb414"
-					]
+					"SetTrue": ["36a0fb5115afb414"]
 				},
 				"OnFalse": {
-					"SetFalse": [
-						"36a0fb5115afb414"
-					]
+					"SetFalse": ["36a0fb5115afb414"]
 				}
 			}
 		},
@@ -1411,9 +1375,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a3b49edb42367a0b"
-					],
+					"value": ["a3b49edb42367a0b"],
 					"postInit": true
 				}
 			}
@@ -1494,9 +1456,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"6fb03f3b4d9b795d"
-				]
+				"AudioVolumetricGeom": ["6fb03f3b4d9b795d"]
 			}
 		},
 		"0f5f440c8eaad9b6": {
@@ -1595,9 +1555,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"1e5913f294530c0f": {
@@ -1643,9 +1601,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"bed0b8a2750ccc41": {
@@ -1999,9 +1955,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f6247b5e133dfbe1"
-					],
+					"value": ["f6247b5e133dfbe1"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -2141,9 +2095,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"fcdd3c4d83f09e06": {
@@ -2159,12 +2111,8 @@
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"539ef3b8b5426566"
-					],
-					"SetFalse": [
-						"423e56e34d782bed"
-					]
+					"In": ["539ef3b8b5426566"],
+					"SetFalse": ["423e56e34d782bed"]
 				}
 			}
 		},
@@ -2211,9 +2159,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"42cf323e4adfc411": {
@@ -2288,9 +2234,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"964fa7eb2f46474f": {
@@ -2463,9 +2407,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"b7e996825d2f9596": {
@@ -2542,10 +2484,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5cbecd038c3bbb51",
-						"dac169dfff9c9d4a"
-					],
+					"value": ["5cbecd038c3bbb51", "dac169dfff9c9d4a"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -2598,9 +2537,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"556066a4144d315a": {
@@ -2693,9 +2630,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5bf66dd62bcdff88"
-					],
+					"value": ["5bf66dd62bcdff88"],
 					"postInit": true
 				}
 			}
@@ -2802,9 +2737,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"c0fe7b9abd0f524a": {
@@ -2858,9 +2791,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"32bfec2351e1c3a8"
-					],
+					"value": ["32bfec2351e1c3a8"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -2906,9 +2837,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"2f1a1d66facccb95": {
@@ -2936,10 +2865,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"05ec56164f3f5dca",
-						"a59ec83db4be4014"
-					],
+					"value": ["05ec56164f3f5dca", "a59ec83db4be4014"],
 					"postInit": true
 				}
 			}
@@ -2988,9 +2914,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9374073385a94c06"
-					],
+					"value": ["9374073385a94c06"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -3043,9 +2967,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"52a7ed9ad7171380": {
@@ -3138,9 +3060,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"32bfec2351e1c3a8": {
@@ -3233,9 +3153,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3ce2618fae2fd8ca"
-					],
+					"value": ["3ce2618fae2fd8ca"],
 					"postInit": true
 				}
 			}
@@ -3283,9 +3201,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"e653903a406b639b": {
@@ -3295,9 +3211,7 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"Poll": [
-						"880e75dea91482de"
-					]
+					"Poll": ["880e75dea91482de"]
 				}
 			}
 		},
@@ -3386,9 +3300,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"09e6719e72800433": {
@@ -3439,9 +3351,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0a5072e3f35008aa"
-					],
+					"value": ["0a5072e3f35008aa"],
 					"postInit": true
 				}
 			}
@@ -3589,12 +3499,8 @@
 			},
 			"events": {
 				"EventReceived": {
-					"Poll": [
-						"e5b40fe679a4a11b"
-					],
-					"SetFalse": [
-						"efb9865c5b9a0e32"
-					]
+					"Poll": ["e5b40fe679a4a11b"],
+					"SetFalse": ["efb9865c5b9a0e32"]
 				}
 			}
 		},
@@ -3681,9 +3587,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"63ebd0b51be3ff3d": {
@@ -3729,9 +3633,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"4c97631bf0752c41": {
@@ -3886,9 +3788,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"468d65a9c28cacbc": {
@@ -4021,9 +3921,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"3691e4c94c5cc3da": {
@@ -4135,9 +4033,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"59ba797d20583f46": {
@@ -4291,9 +4187,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"01c6efbb18bf5537": {
@@ -4550,9 +4444,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"f068a7a83347de3b": {
@@ -4591,9 +4483,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"de70c34b0252c945": {
@@ -4649,12 +4539,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6ede3ffe4e50c53f",
-						"3ef2ad1551f14edf",
-						"efaec54775948927",
-						"1e5913f294530c0f"
-					],
+					"value": ["6ede3ffe4e50c53f", "3ef2ad1551f14edf", "efaec54775948927", "1e5913f294530c0f"],
 					"postInit": true
 				}
 			}
@@ -4667,9 +4552,7 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b13c00a7d60d690c"
-					]
+					"value": ["b13c00a7d60d690c"]
 				}
 			}
 		},
@@ -4828,9 +4711,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"6fb03f3b4d9b795d"
-				]
+				"AudioVolumetricGeom": ["6fb03f3b4d9b795d"]
 			}
 		},
 		"7642ab09bcf59af9": {
@@ -4846,12 +4727,8 @@
 			},
 			"events": {
 				"Out": {
-					"MUSIC_THREAT_STOP_GetKeyword": [
-						"50be89e94657fba6"
-					],
-					"Abort": [
-						"7642ab09bcf59af9"
-					]
+					"MUSIC_THREAT_STOP_GetKeyword": ["50be89e94657fba6"],
+					"Abort": ["7642ab09bcf59af9"]
 				}
 			}
 		},
@@ -4891,9 +4768,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"d822e1aa22be3e27": {
@@ -4980,11 +4855,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d535e704cf739f89",
-						"4b06f783aeb86e79",
-						"42ef79a95e010146"
-					],
+					"value": ["d535e704cf739f89", "4b06f783aeb86e79", "42ef79a95e010146"],
 					"postInit": true
 				}
 			}
@@ -5118,9 +4989,7 @@
 			},
 			"events": {
 				"EventReceived": {
-					"SetTrue": [
-						"efb9865c5b9a0e32"
-					]
+					"SetTrue": ["efb9865c5b9a0e32"]
 				}
 			}
 		},
@@ -5137,9 +5006,7 @@
 			},
 			"events": {
 				"Out": {
-					"SetFalse": [
-						"36a0fb5115afb414"
-					]
+					"SetFalse": ["36a0fb5115afb414"]
 				}
 			}
 		},
@@ -5277,9 +5144,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6b2e9ed423153d3a"
-					],
+					"value": ["6b2e9ed423153d3a"],
 					"postInit": true
 				}
 			}
@@ -5327,9 +5192,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"da95023defdd3cf8": {
@@ -5440,9 +5303,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5b0b67c12171ebc3"
-					],
+					"value": ["5b0b67c12171ebc3"],
 					"postInit": true
 				}
 			}
@@ -5526,9 +5387,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"239ecc9c04626b99": {
@@ -5658,9 +5517,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"ff99244a9832d064": {
@@ -5699,9 +5556,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"7d23d5ba95577690": {
@@ -5712,9 +5567,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"50ddd5f5253b048b"
-					]
+					"value": ["50ddd5f5253b048b"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -5933,11 +5786,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f203b19c809a461b",
-						"818a3d2440924e8e",
-						"92320cf81f22ba6e"
-					],
+					"value": ["f203b19c809a461b", "818a3d2440924e8e", "92320cf81f22ba6e"],
 					"postInit": true
 				}
 			}
@@ -5985,9 +5834,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"d46c19cd8241ece9": {
@@ -6064,9 +5911,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"cd6dfff6c67cd305": {
@@ -6092,17 +5937,11 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Send": [
-						"63c67a2a8247b6dd"
-					]
+					"Send": ["63c67a2a8247b6dd"]
 				},
 				"OnFalse": {
-					"Stop": [
-						"63c67a2a8247b6dd"
-					],
-					"Send": [
-						"71fcf3c484dc650e"
-					]
+					"Stop": ["63c67a2a8247b6dd"],
+					"Send": ["71fcf3c484dc650e"]
 				}
 			}
 		},
@@ -6113,14 +5952,10 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"SetTrue": [
-						"36a0fb5115afb414"
-					]
+					"SetTrue": ["36a0fb5115afb414"]
 				},
 				"OnFalse": {
-					"SetFalse": [
-						"36a0fb5115afb414"
-					]
+					"SetFalse": ["36a0fb5115afb414"]
 				}
 			}
 		},
@@ -6206,9 +6041,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"f14103a1c3b7c2e5"
-				]
+				"AudioVolumetricGeom": ["f14103a1c3b7c2e5"]
 			}
 		},
 		"3c1475a533462e22": {
@@ -6266,9 +6099,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"1eeb6b384980bab8": {
@@ -6408,9 +6239,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"09e6719e72800433"
-					]
+					"value": ["09e6719e72800433"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -6591,9 +6420,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"dbbc9626ecc64e77": {
@@ -6621,10 +6448,7 @@
 				},
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e96ab2cd67fc267f",
-						"0d590fd01876495e"
-					],
+					"value": ["e96ab2cd67fc267f", "0d590fd01876495e"],
 					"postInit": true
 				}
 			}
@@ -6641,9 +6465,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"92c00ce70bba94f6"
-					],
+					"value": ["92c00ce70bba94f6"],
 					"postInit": true
 				}
 			}
@@ -6684,9 +6506,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"48e7b694cafac2fa": {
@@ -6816,9 +6636,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"83a9076aca773640": {
@@ -6855,9 +6673,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"71fcf3c484dc650e": {
@@ -6922,9 +6738,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"8f661015e38d6809": {
@@ -6935,9 +6749,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0a9ff30f88cd77bf"
-					]
+					"value": ["0a9ff30f88cd77bf"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -7095,9 +6907,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"712998653f16e399"
-					]
+					"value": ["712998653f16e399"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -7225,9 +7035,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"71f5e9bf372ff11e": {
@@ -7551,9 +7359,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"d7b6b11a7b9d8b97": {
@@ -7748,12 +7554,8 @@
 			},
 			"events": {
 				"Out": {
-					"Abort": [
-						"8bfa72049d1fd2f5"
-					],
-					"SetFalse": [
-						"36a0fb5115afb414"
-					]
+					"Abort": ["8bfa72049d1fd2f5"],
+					"SetFalse": ["36a0fb5115afb414"]
 				}
 			}
 		},
@@ -7800,9 +7602,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"3f8a5d508a95af8e": {
@@ -7863,14 +7663,10 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"PM_Moment_Start": [
-						"7fa6bf278ef69434"
-					]
+					"PM_Moment_Start": ["7fa6bf278ef69434"]
 				},
 				"OnFalse": {
-					"PM_Moment_Stop": [
-						"7fa6bf278ef69434"
-					]
+					"PM_Moment_Stop": ["7fa6bf278ef69434"]
 				}
 			}
 		},
@@ -7882,9 +7678,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ed17e51ed4115ca0"
-					],
+					"value": ["ed17e51ed4115ca0"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -7937,9 +7731,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"68cfbfdbd731b892": {
@@ -8154,9 +7946,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"5b0b67c12171ebc3": {
@@ -8202,9 +7992,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"44c0ea15d0848d50": {
@@ -8249,9 +8037,7 @@
 			"blueprint": "[modules:/zhm5disguisesoundcontroller.class].pc_entityblueprint",
 			"events": {
 				"BlendInStart": {
-					"MUSIC_STEALTH_REWARD_GetKeyword": [
-						"50be89e94657fba6"
-					]
+					"MUSIC_STEALTH_REWARD_GetKeyword": ["50be89e94657fba6"]
 				}
 			}
 		},
@@ -8355,11 +8141,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f8ff55cea9d15074",
-						"cfd35d74e3c316a1",
-						"c3614b1a9d4cdc83"
-					],
+					"value": ["f8ff55cea9d15074", "cfd35d74e3c316a1", "c3614b1a9d4cdc83"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -8449,9 +8231,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"ed53ff2f85a6188e"
-				]
+				"AudioEmitters": ["ed53ff2f85a6188e"]
 			}
 		},
 		"398225a781829908": {
@@ -8701,9 +8481,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"d2d340afdf914056": {
@@ -8714,9 +8492,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ba9438da2e3c9dc4"
-					]
+					"value": ["ba9438da2e3c9dc4"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -8774,9 +8550,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"11e136867951f712": {
@@ -8953,9 +8727,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"40f11068e67c3f32"
-				]
+				"AudioVolumetricGeom": ["40f11068e67c3f32"]
 			}
 		},
 		"ab68194713389e6e": {
@@ -9026,9 +8798,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee9423baf28ab3ae"
-					],
+					"value": ["ee9423baf28ab3ae"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -9063,9 +8833,7 @@
 			},
 			"events": {
 				"PollValue": {
-					"SetCustomVolume": [
-						"7fa6bf278ef69434"
-					]
+					"SetCustomVolume": ["7fa6bf278ef69434"]
 				}
 			}
 		},
@@ -9149,9 +8917,7 @@
 			},
 			"events": {
 				"Out": {
-					"SetFalse": [
-						"e9e9fe0ddacf6911"
-					]
+					"SetFalse": ["e9e9fe0ddacf6911"]
 				}
 			}
 		},
@@ -9253,9 +9019,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"19b64b2aa94ff3f3": {
@@ -9266,10 +9030,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"968a3ce43391d848",
-						"bac507bb83b25769"
-					],
+					"value": ["968a3ce43391d848", "bac507bb83b25769"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -9351,9 +9112,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"237c05ff64ae20d0": {
@@ -9837,9 +9596,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"96ef970a5d2edfb9": {
@@ -9850,9 +9607,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0bdbe920a84645b5"
-					]
+					"value": ["0bdbe920a84645b5"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -9915,9 +9670,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"Send": [
-						"3f58ec25fcaed2b0"
-					]
+					"Send": ["3f58ec25fcaed2b0"]
 				}
 			}
 		},
@@ -9957,9 +9710,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"dac169dfff9c9d4a": {
@@ -10025,9 +9776,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"9eb06e5fd4b3b282": {
@@ -10225,17 +9974,11 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"SetTrue": [
-						"60eaa719b2530932"
-					],
-					"Play_CustomEventStart": [
-						"fe95f18d1f38225a"
-					]
+					"SetTrue": ["60eaa719b2530932"],
+					"Play_CustomEventStart": ["fe95f18d1f38225a"]
 				},
 				"OnFalse": {
-					"Poll": [
-						"e5b40fe679a4a11b"
-					]
+					"Poll": ["e5b40fe679a4a11b"]
 				}
 			}
 		},
@@ -10254,10 +9997,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"133baaecf68505b1",
-						"892902d7dbe847f7"
-					],
+					"value": ["133baaecf68505b1", "892902d7dbe847f7"],
 					"postInit": true
 				}
 			}
@@ -10310,10 +10050,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bd06c900ebbb319c",
-						"eb111d97ac081c6e"
-					],
+					"value": ["bd06c900ebbb319c", "eb111d97ac081c6e"],
 					"postInit": true
 				}
 			}
@@ -10459,9 +10196,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"271eb80f71cee77e": {
@@ -10472,9 +10207,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a7f7040ef2f46138"
-					],
+					"value": ["a7f7040ef2f46138"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -10504,20 +10237,14 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c3399a2c04244b26"
-					],
+					"value": ["c3399a2c04244b26"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Disable": [
-						"d4feb2f0e7af4913"
-					],
-					"MUSIC_INC_TENSION_Plus2": [
-						"50be89e94657fba6"
-					]
+					"Disable": ["d4feb2f0e7af4913"],
+					"MUSIC_INC_TENSION_Plus2": ["50be89e94657fba6"]
 				}
 			}
 		},
@@ -10560,9 +10287,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"556066a4144d315a"
-					]
+					"value": ["556066a4144d315a"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -10610,31 +10335,21 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b2b28ad8770b0097",
-						"8dd60c9fee6c16e9",
-						"e9e9fe0ddacf6911"
-					],
+					"value": ["b2b28ad8770b0097", "8dd60c9fee6c16e9", "e9e9fe0ddacf6911"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"b9b98fdbc9dd9833"
-					]
+					"In": ["b9b98fdbc9dd9833"]
 				}
 			},
 			"outputCopying": {
 				"OnTrue": {
-					"OnTrue": [
-						"5ae28d09d998da29"
-					]
+					"OnTrue": ["5ae28d09d998da29"]
 				},
 				"OnFalse": {
-					"OnFalse": [
-						"5ae28d09d998da29"
-					]
+					"OnFalse": ["5ae28d09d998da29"]
 				}
 			}
 		},
@@ -10713,9 +10428,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"40f11068e67c3f32"
-				]
+				"AudioVolumetricGeom": ["40f11068e67c3f32"]
 			}
 		},
 		"6f0ece32b946372b": {
@@ -10826,9 +10539,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d5b8fb45bc7d96a1"
-					]
+					"value": ["d5b8fb45bc7d96a1"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -11046,9 +10757,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"9ebc6e8689a79545": {
@@ -11126,9 +10835,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"8744c820bebf8307": {
@@ -11262,9 +10969,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"7614cacd89fb74dd": {
@@ -11482,13 +11187,8 @@
 			},
 			"events": {
 				"PollTrue": {
-					"SetTrue": [
-						"36a0fb5115afb414",
-						"fcdd3c4d83f09e06"
-					],
-					"In": [
-						"8bfa72049d1fd2f5"
-					]
+					"SetTrue": ["36a0fb5115afb414", "fcdd3c4d83f09e06"],
+					"In": ["8bfa72049d1fd2f5"]
 				}
 			}
 		},
@@ -11535,10 +11235,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"729b0d862bef84a2",
-						"ca4b8b1c722af655"
-					],
+					"value": ["729b0d862bef84a2", "ca4b8b1c722af655"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -11601,9 +11298,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"ed17e51ed4115ca0": {
@@ -11689,9 +11384,7 @@
 			"blueprint": "[modules:/zhm5dumpstersoundcontroller.class].pc_entityblueprint",
 			"events": {
 				"DumpsterEndDumpingBody": {
-					"MUSIC_PLOT_REWARD_GetKeyword": [
-						"50be89e94657fba6"
-					]
+					"MUSIC_PLOT_REWARD_GetKeyword": ["50be89e94657fba6"]
 				}
 			}
 		},
@@ -11731,9 +11424,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"c3614b1a9d4cdc83": {
@@ -11905,14 +11596,10 @@
 			},
 			"events": {
 				"Inside": {
-					"SetTrue": [
-						"b2b28ad8770b0097"
-					]
+					"SetTrue": ["b2b28ad8770b0097"]
 				},
 				"Outside": {
-					"SetFalse": [
-						"b2b28ad8770b0097"
-					]
+					"SetFalse": ["b2b28ad8770b0097"]
 				}
 			}
 		},
@@ -11924,9 +11611,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"630448bd5c8c20fa"
-					],
+					"value": ["630448bd5c8c20fa"],
 					"postInit": true
 				},
 				"m_rParentArea": {
@@ -12227,9 +11912,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"84041b21d9f4b630": {
@@ -12506,9 +12189,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"db86ce3772cd32ee": {
@@ -12705,9 +12386,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"97228c812ab692f7": {
@@ -12746,9 +12425,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"fb6cdc89002c23b3": {
@@ -12855,9 +12532,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"692777bbd0a4dbcc": {
@@ -12867,14 +12542,10 @@
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_agility_material_windowwood.entitytemplate].pc_entityblueprint",
 			"events": {
 				"Keyword": {
-					"AddKeyword": [
-						"15247f33ded4e182"
-					]
+					"AddKeyword": ["15247f33ded4e182"]
 				},
 				"Keyword2": {
-					"RemoveKeyword": [
-						"15247f33ded4e182"
-					]
+					"RemoveKeyword": ["15247f33ded4e182"]
 				}
 			}
 		},
@@ -12922,9 +12593,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"407f24d15e77b41a"
-					]
+					"value": ["407f24d15e77b41a"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -13020,9 +12689,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"4aa76667758c1708": {
@@ -13111,9 +12778,7 @@
 				},
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b4fc0a61d648f494"
-					],
+					"value": ["b4fc0a61d648f494"],
 					"postInit": true
 				}
 			}
@@ -13189,9 +12854,7 @@
 			"blueprint": "[modules:/zhm5trespasssoundcontroller.class].pc_entityblueprint",
 			"events": {
 				"Trespassing": {
-					"SetValue": [
-						"aca82a6c2eb10948"
-					]
+					"SetValue": ["aca82a6c2eb10948"]
 				}
 			}
 		},
@@ -13326,11 +12989,7 @@
 			"properties": {
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6ede3ffe4e50c53f",
-						"efaec54775948927",
-						"1e5913f294530c0f"
-					]
+					"value": ["6ede3ffe4e50c53f", "efaec54775948927", "1e5913f294530c0f"]
 				},
 				"m_fMinOcclusion": {
 					"type": "float32",
@@ -13387,9 +13046,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"1fdcc5cc1373d6a3"
-				]
+				"AudioEmitters": ["1fdcc5cc1373d6a3"]
 			}
 		},
 		"6711661ed50601be": {
@@ -13492,9 +13149,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"5b1efe9f84a08720": {
@@ -13532,12 +13187,7 @@
 			"properties": {
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9c5502630d303276",
-						"3ef2ad1551f14edf",
-						"2fac1fc65847adb9",
-						"b0786a23e73efc51"
-					]
+					"value": ["9c5502630d303276", "3ef2ad1551f14edf", "2fac1fc65847adb9", "b0786a23e73efc51"]
 				},
 				"m_fMinOcclusion": {
 					"type": "float32",
@@ -13566,9 +13216,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2ba9553bbbbd9dcc"
-					]
+					"value": ["2ba9553bbbbd9dcc"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -13876,30 +13524,20 @@
 				},
 				"ExitPoint_VolumeBoxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9e02661993de86a9",
-						"c5148f8b5ebe4881",
-						"6ce689578282112d"
-					],
+					"value": ["9e02661993de86a9", "c5148f8b5ebe4881", "6ce689578282112d"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Passed_Inc_Plus1": {
-					"Play_CustomEventStop": [
-						"b913be1a912f66ac"
-					]
+					"Play_CustomEventStop": ["b913be1a912f66ac"]
 				},
 				"Passed_Inc_Plus2": {
-					"Play_CustomEventStop": [
-						"b913be1a912f66ac"
-					]
+					"Play_CustomEventStop": ["b913be1a912f66ac"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"133baaecf68505b1": {
@@ -14082,12 +13720,8 @@
 			},
 			"events": {
 				"PollTrue": {
-					"In": [
-						"7642ab09bcf59af9"
-					],
-					"MUSIC_THREAT_START_GetKeyword": [
-						"50be89e94657fba6"
-					]
+					"In": ["7642ab09bcf59af9"],
+					"MUSIC_THREAT_START_GetKeyword": ["50be89e94657fba6"]
 				}
 			}
 		},
@@ -14168,9 +13802,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"801b7cd06b3fc9cf": {
@@ -14247,22 +13879,14 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5a0613f4a4cadc79"
-					]
+					"value": ["5a0613f4a4cadc79"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Disable": [
-						"18ea04e30d4773ad"
-					],
-					"In": [
-						"c21d5e63c6bfdd77"
-					],
-					"SetTrue": [
-						"36a0fb5115afb414"
-					]
+					"Disable": ["18ea04e30d4773ad"],
+					"In": ["c21d5e63c6bfdd77"],
+					"SetTrue": ["36a0fb5115afb414"]
 				}
 			}
 		},
@@ -14378,9 +14002,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"10416286bd490a7d": {
@@ -14536,9 +14158,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c3f2be6b66821c28"
-					]
+					"value": ["c3f2be6b66821c28"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -14713,9 +14333,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"6ce689578282112d": {
@@ -14789,9 +14407,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"12cbf511519525ac": {
@@ -14830,9 +14446,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"4df48a1f4908e0af": {
@@ -14921,9 +14535,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"fd9be9c8409b9110": {
@@ -14934,9 +14546,7 @@
 			"properties": {
 				"m_aOcclusionRooms": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3c1475a533462e22"
-					]
+					"value": ["3c1475a533462e22"]
 				},
 				"m_fMinOcclusion": {
 					"type": "float32",
@@ -15216,14 +14826,10 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"Poll": [
-						"02e5a8bbe35a467a"
-					]
+					"Poll": ["02e5a8bbe35a467a"]
 				},
 				"OnFalse": {
-					"Poll": [
-						"16c2c5e38e09507c"
-					]
+					"Poll": ["16c2c5e38e09507c"]
 				}
 			}
 		},
@@ -15330,9 +14936,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"3e4ad44c9c71212c": {
@@ -15551,9 +15155,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"1fdcc5cc1373d6a3"
-				]
+				"AudioEmitters": ["1fdcc5cc1373d6a3"]
 			}
 		},
 		"89e89af2509c19f1": {
@@ -15817,23 +15419,15 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4aa76667758c1708",
-						"9daab87d52715c1f",
-						"34f7dedc59557ba8"
-					]
+					"value": ["4aa76667758c1708", "9daab87d52715c1f", "34f7dedc59557ba8"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"GetKeyword": [
-						"692777bbd0a4dbcc"
-					]
+					"GetKeyword": ["692777bbd0a4dbcc"]
 				},
 				"OnFalse": {
-					"GetKeyword2": [
-						"692777bbd0a4dbcc"
-					]
+					"GetKeyword2": ["692777bbd0a4dbcc"]
 				}
 			}
 		},
@@ -15951,12 +15545,8 @@
 			},
 			"events": {
 				"AngleLookAt": {
-					"Variant": [
-						"19b8d77a52c6e1e8"
-					],
-					"Value": [
-						"d97c23ffefa0e08a"
-					]
+					"Variant": ["19b8d77a52c6e1e8"],
+					"Value": ["d97c23ffefa0e08a"]
 				}
 			}
 		},
@@ -16032,9 +15622,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"b043c3118d63a5ef": {
@@ -16073,9 +15661,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"0b49d95204b8d8b9": {
@@ -16084,9 +15670,7 @@
 			"factory": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"3f58ec25fcaed2b0": {
@@ -16122,9 +15706,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b65fe36d3cbec399"
-					]
+					"value": ["b65fe36d3cbec399"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -16288,9 +15870,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"93310924ca8a4c69": {
@@ -16301,9 +15881,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6bbf5e9f6be2b72e"
-					]
+					"value": ["6bbf5e9f6be2b72e"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -16347,9 +15925,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"362dbf7f4db1b000": {
@@ -16360,9 +15936,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c793d45e8c41954"
-					]
+					"value": ["8c793d45e8c41954"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -16419,9 +15993,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8adbb13e638f53f9"
-					]
+					"value": ["8adbb13e638f53f9"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -16497,9 +16069,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"16fd2acba5a363a1": {
@@ -16598,9 +16168,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"4d4644267f62b4f4": {
@@ -16649,9 +16217,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"2c43368136f586d8": {
@@ -16739,16 +16305,12 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"be8ae99cf52ad0c8"
-					]
+					"value": ["be8ae99cf52ad0c8"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Disable": [
-						"019d2fadccf1919d"
-					]
+					"Disable": ["019d2fadccf1919d"]
 				}
 			}
 		},
@@ -16996,9 +16558,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"986a1c6833b0481d": {
@@ -17119,9 +16679,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"db38cf87c0995db8": {
@@ -17214,9 +16772,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"86391fd114fbcec3": {
@@ -17255,9 +16811,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"c3399a2c04244b26": {
@@ -17568,15 +17122,9 @@
 			},
 			"events": {
 				"PollTrue": {
-					"SetFalse": [
-						"60eaa719b2530932"
-					],
-					"Play_CustomEventStop": [
-						"fe95f18d1f38225a"
-					],
-					"Play_CustomEventStart": [
-						"b913be1a912f66ac"
-					]
+					"SetFalse": ["60eaa719b2530932"],
+					"Play_CustomEventStop": ["fe95f18d1f38225a"],
+					"Play_CustomEventStart": ["b913be1a912f66ac"]
 				}
 			}
 		},
@@ -17624,9 +17172,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"40f11068e67c3f32"
-				]
+				"AudioVolumetricGeom": ["40f11068e67c3f32"]
 			}
 		},
 		"40f11068e67c3f32": {
@@ -17656,9 +17202,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"c63f2d49091fc7aa": {
@@ -17979,9 +17523,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"33a2333311919a4c": {
@@ -18070,9 +17612,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"933db37cecc3e95f": {
@@ -18207,9 +17747,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"610ddc1f08ca9296": {
@@ -18281,9 +17819,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"3bf349e54b5c40e2": {
@@ -18717,9 +18253,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"bb7dee6de629e0a3"
-				]
+				"AudioVolumetricGeom": ["bb7dee6de629e0a3"]
 			}
 		},
 		"bb7dee6de629e0a3": {
@@ -18753,9 +18287,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"9fab52a88d3e3f06": {
@@ -18858,9 +18390,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"fffffffffffffffe"
-				]
+				"AudioVolumetricGeom": ["fffffffffffffffe"]
 			}
 		},
 		"c1f1f210791fb74e": {
@@ -18903,9 +18433,7 @@
 				}
 			},
 			"subsets": {
-				"AudioVolumetricGeom": [
-					"6e3a905fbac10864"
-				]
+				"AudioVolumetricGeom": ["6e3a905fbac10864"]
 			}
 		},
 		"6e3a905fbac10864": {
@@ -18935,9 +18463,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"e571f9d6a5e8d363": {
@@ -19011,9 +18537,7 @@
 			"properties": {
 				"m_aAreaVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafef5a08b38a19b"
-					]
+					"value": ["cafef5a08b38a19b"]
 				},
 				"m_rParentArea": {
 					"type": "SEntityTemplateReference",
@@ -19761,9 +19285,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feedb4d4bfc47645": {
@@ -19838,9 +19360,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feedc9329b0922b6": {
@@ -19915,9 +19435,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed44e38bd86c4d": {
@@ -19992,9 +19510,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed8db75f2ca459": {
@@ -20069,9 +19585,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed90ec4b447ce2": {
@@ -20146,9 +19660,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed9a7aae1ea0b0": {
@@ -20707,9 +20219,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feedde2b9a0494f2": {
@@ -20920,9 +20430,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed65cb20036623": {
@@ -20997,9 +20505,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		}
 	},
@@ -21901,15 +21407,9 @@
 			}
 		}
 	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
@@ -22352,7 +21852,5 @@
 		"[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
 		"00B076E1F3CCFC59"
 	],
-	"comments": [
-
-	]
+	"comments": []
 }

@@ -1,21 +1,21 @@
 {
-    "hash_value": "0032BEB8A97684A9",
-    "hash_offset": 613438200,
-    "hash_size": 2147814550,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 94,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 588336,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/mechanical/diamond_pattern_a.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "0032BEB8A97684A9",
+	"hash_offset": 613438200,
+	"hash_size": 2147814550,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 94,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 588336,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/mechanical/diamond_pattern_a.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

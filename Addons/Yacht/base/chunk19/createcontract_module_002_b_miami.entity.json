@@ -1,0 +1,1365 @@
+{
+	"tempHash": "002979CE60633737",
+	"tbluHash": "00B21E67531DF1A1",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"b82fbf7f0ae58bae": {
+			"parent": "e6661668e092b897",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 1583349 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 2097152 }
+				},
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				}
+			}
+		},
+		"f89698ceb5e791a3": {
+			"parent": {
+				"ref": "7b97c5ff010220e4",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"name": "Intro",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"f221e6410b1e4114": {
+			"parent": "67570fbd1ed54882",
+			"name": "Seq_FlyIn_Polarbear_040_EndShot",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 3680501 }
+				},
+				"m_bLetterbox": { "type": "bool", "value": true },
+				"m_eLetterBoxAspect": {
+					"type": "ZSequenceEntity.ELetterBoxAspect",
+					"value": "LETTERBOXASPECT_CINEMASCOPE"
+				},
+				"m_letterboxFadeOut": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 1572864 }
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["9c544ed3000477a2", "ec8f4c67eee00733", "04bd10587173bbf5"],
+					"postInit": true
+				}
+			}
+		},
+		"7daf2362400d495e": {
+			"parent": "f89698ceb5e791a3",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint"
+		},
+		"ec8f4c67eee00733": {
+			"parent": "f221e6410b1e4114",
+			"name": "EntityTrack_ Cam_040_EndShot",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3bbdb6207e817a24",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					},
+					"postInit": true
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["898f676609bd257d"],
+					"postInit": true
+				}
+			}
+		},
+		"898f676609bd257d": {
+			"parent": "ec8f4c67eee00733",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "ec8f4c67eee00733"
+				},
+				"m_bRestoreValueAfterEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c4ca61e7b04b2937"],
+					"postInit": true
+				}
+			}
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "createcontract_module_002_b_miami",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"a27ad83021ea7492": {
+			"parent": "04bd10587173bbf5",
+			"name": "ActiveCameraItem",
+			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 3680501 }
+				},
+				"m_pCamera": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3bbdb6207e817a24",
+						"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				}
+			}
+		},
+		"b7744185f2b7f580": {
+			"parent": "67570fbd1ed54882",
+			"name": "HeroSpawnSequenceDirector",
+			"factory": "00A6F689FB19B096",
+			"blueprint": "005AEBE4BDFCD1C9",
+			"properties": {
+				"m_aSequences": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f221e6410b1e4114"]
+				},
+				"FadeInHUD": { "type": "bool", "value": false },
+				"m_rSpawner": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "17a834da877e5ba8",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+					}
+				}
+			},
+			"outputCopying": {
+				"OnPlay": { "OnStart": ["67570fbd1ed54882"] },
+				"OnStop": { "Stopped": ["67570fbd1ed54882"] }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"67570fbd1ed54882": {
+			"parent": "f89698ceb5e791a3",
+			"name": "EstablishingShot",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"events": {
+				"Stopped": {
+					"FadeIn": ["478e890cfff4084d"],
+					"SetTrue": ["156165525491adac"]
+				}
+			},
+			"inputCopying": { "Stop": { "Stop": ["b7744185f2b7f580"] } }
+		},
+		"e6661668e092b897": {
+			"parent": "9c544ed3000477a2",
+			"name": "BlackWeight Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "BlackWeight"
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b82fbf7f0ae58bae"]
+				},
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "9c544ed3000477a2",
+					"postInit": true
+				}
+			}
+		},
+		"478e890cfff4084d": {
+			"parent": "f89698ceb5e791a3",
+			"name": "HUDControl",
+			"factory": "[assembly:/_pro/design/gamecore/hud/hud.template?/hudcontrol.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/hud/hud.template?/hudcontrol.entitytemplate].pc_entityblueprint"
+		},
+		"c4ca61e7b04b2937": {
+			"parent": "898f676609bd257d",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 3680501 }
+				},
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, -41.29999923706055, 0.0, 0.0, 0.0, -0.0, 0.0, -41.29999923706055],
+							[1.0, -41.29999923706055, 0.0, 0.0, 0.0, 0.0, 0.0, -41.29999923706055]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, -90.9000015258789, -2.700000047683716, 6.75, -7.199999809265137, 4.050000190734863, 0.0,
+								-90.9000015258789
+							],
+							[1.0, -90.0, 0.0, 0.0, 0.0, 0.0, 0.0, -90.0]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, -31.709999084472656, 0.0, 0.0, 0.0, -0.0, 0.0, -31.709999084472656],
+							[1.0, -31.709999084472656, 0.0, 0.0, 0.0, 0.0, 0.0, -31.709999084472656]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 2.740000009536743, 2.069999933242798, -5.175000190734863, 5.519999980926514,
+								-3.1050000190734863, 0.0, 2.740000009536743
+							],
+							[1.0, 2.049999952316284, 0.0, 0.0, 0.0, 0.0, 0.0, 2.049999952316284]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 49.470001220703125, 49.20000076293945, -123.0, 131.1999969482422, -73.80000305175781,
+								0.0, 49.470001220703125
+							],
+							[1.0, 33.06999969482422, 0.0, 0.0, 0.0, 0.0, 0.0, 33.06999969482422]
+						]
+					}
+				}
+			}
+		},
+		"9c544ed3000477a2": {
+			"parent": "f221e6410b1e4114",
+			"name": "EntityTrack_ FX_PF_PostfilterController",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e6661668e092b897"]
+				}
+			}
+		},
+		"156165525491adac": {
+			"parent": "f89698ceb5e791a3",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"04bd10587173bbf5": {
+			"parent": "f221e6410b1e4114",
+			"name": "Active Camera Track",
+			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+			"properties": {
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a27ad83021ea7492"]
+				}
+			}
+		},
+		"458d84a07ed0782d": {
+			"parent": "f221e6410b1e4114",
+			"name": "Cam_040_EndShot",
+			"factory": "[modules:/zcameraentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -88.58877732485062,
+							"y": -0.00022918295947815947,
+							"z": 37.19729017547012
+						},
+						"position": {
+							"x": -41.63331985473633,
+							"y": -33.27159881591797,
+							"z": 2.051553964614868
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe0ef60a9b7dcb": {
+			"parent": "fffffffffffffffe",
+			"name": "Contracts Changes",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe866d160b9449": {
+			"parent": "cafe0ef60a9b7dcb",
+			"name": "Folding_Table_A_01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/folding_furniture_a.template?/folding_table_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/folding_furniture_a.template?/folding_table_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.74520578175576
+						},
+						"position": {
+							"x": -39.72977066040039,
+							"y": -22.53672790527344,
+							"z": 0.5295770764350891
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafefa5be17d6707": {
+			"parent": "cafe0ef60a9b7dcb",
+			"name": "Folding_Table_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/folding_furniture_a.template?/folding_table_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/folding_furniture_a.template?/folding_table_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.74520578175576
+						},
+						"position": {
+							"x": -41.73345184326172,
+							"y": -22.53672790527344,
+							"z": 0.519964337348938
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafe27fb810c6a37": {
+			"parent": "cafe0ef60a9b7dcb",
+			"name": "Barrel_Metal_D_00_54",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/barrel_metal_d_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/barrel_metal_d_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.9855914795405
+						},
+						"position": {
+							"x": -34.992828369140625,
+							"y": -49.07341003417969,
+							"z": -42.32599639892578
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe85dc643c9073": {
+			"parent": "cafe0ef60a9b7dcb",
+			"name": "Barrel_Metal_D_00_55",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/barrel_metal_d_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/barrel_metal_d_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -29.99245431706026
+						},
+						"position": {
+							"x": -34.781036376953125,
+							"y": -48.4151611328125,
+							"z": -42.325897216796875
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafea5735b972467": {
+			"parent": "cafe0ef60a9b7dcb",
+			"name": "Barrel_Metal_D_00_56",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/barrel_metal_d_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/barrel_metal_d_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -17.679337173106347
+						},
+						"position": {
+							"x": -34.31700134277344,
+							"y": -48.96296691894531,
+							"z": -42.325958251953125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4794e94ebade",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "997f61e432c2ecd2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -176.68043076797164
+						},
+						"position": {
+							"x": -7.480208873748779,
+							"y": -30.336320877075195,
+							"z": 3.1325058937072754
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "29a365f6e3ffc6e4",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aDisguisesAllowed": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "5c37a497b404d333",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "6bbd9dabca083ab9",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "3046c92d11e1047d",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "a32fd264450ac7b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "40d88074ef62e729",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_bFrisk": { "type": "bool", "value": false },
+				"m_rRequiredItemKeywords": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3a3b32ca9e809f0f",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_AllowedProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "5c37a497b404d333",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "6bbd9dabca083ab9",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "3046c92d11e1047d",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "a32fd264450ac7b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						},
+						{
+							"ref": "40d88074ef62e729",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "0f2bab98605b90c0",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "1cba2cdfcc40c631",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "08f2d9bad4cf87f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "5cadc6c861b92ac8",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "82d8e1793c44f2ef",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "f05681c0bcd644cb",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "9fa177a0774dfbd9",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "9c5c30acac9da625",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "ccf420e7e372b74e",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "666a93f8c1ed9f7f",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "921f727f58625b5d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "90030375a934b018",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "4d2d4b2946aba161",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "53135fe51076b85d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "3daf1d06e591b98d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				},
+				{
+					"ref": "f4ccd5d82d9ca092",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bSpawnOnStart": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafe8787ed78e53d",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bSpawnOnStart": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c54252720d23f83b",
+					"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_ridTemplate": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/online/default/cloudstorage/resources/menusystem/pages/missionend/missionend_page.json].pc_json",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "a3f0ac3e7282f0ed",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "c44a3d399ed51b1f",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "b9e159bb9dedca86",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "cc9027d06a16eed5",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "11cdd2fed852624a",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "9e9be0a92d227f67",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "ba6129a8f944787f",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "758e18fd3761fe3d",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "bfc189f609398b7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "92d889ab422427c0",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "07470f9eb47cf068",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafed4a0e080ff80",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe610504e5ae8e",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe3e36a04742bb",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafeb48bbfa3e300",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].pc_entitytemplate"
+		},
+		{
+			"ref": "cafe267cb681eea3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafebd997ea7851a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe75654c103375",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "fba7cfbaccc1a581",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"fromPin": "Stopped",
+			"toEntity": {
+				"ref": "47fc5c8146ff84d4",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"toPin": "Trigger"
+		},
+		{
+			"fromEntity": {
+				"ref": "c3bb04ce9fb67c00",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"fromPin": "Stopped",
+			"toEntity": {
+				"ref": "fdbc277df0e432e4",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"toPin": "Trigger"
+		},
+		{
+			"fromEntity": {
+				"ref": "fafcf2e01ae85229",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"fromPin": "Stopped",
+			"toEntity": {
+				"ref": "7c1ed10afae833e1",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"toPin": "Trigger"
+		}
+	],
+	"pinConnectionOverrideDeletes": [
+		{
+			"fromEntity": {
+				"ref": "fba7cfbaccc1a581",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"fromPin": "Stopped",
+			"toEntity": {
+				"ref": "0bae1373b67520ee",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"toPin": "In"
+		},
+		{
+			"fromEntity": {
+				"ref": "c3bb04ce9fb67c00",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"fromPin": "Stopped",
+			"toEntity": {
+				"ref": "0bae1373b67520ee",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"toPin": "In"
+		},
+		{
+			"fromEntity": {
+				"ref": "fafcf2e01ae85229",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"fromPin": "Stopped",
+			"toEntity": {
+				"ref": "0bae1373b67520ee",
+				"externalScene": "[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype"
+			},
+			"toPin": "In"
+		}
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/levelcontrol_module_002_b_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/_scene_mission_yacht.entity].pc_entitytemplate",
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/online/default/cloudstorage/resources/menusystem/pages/missionend/missionend_page.json].pc_json",
+			"flag": "9F"
+		},
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_camera_01.prim].pc_prim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+		"[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+		"[modules:/zpfboxentity.class].pc_entityblueprint",
+		"[assembly:/templates/gameplay/prefabs/pfseedpoint.template?/pfseedpointwithgeometry.entitytemplate].pc_entityblueprint",
+		"[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+		"[modules:/zbooleansource.class].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_ui_dianavoiceover.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_ui_genericmodaldialog.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+		"[modules:/zonlineconnectionstatusentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+		"[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+		"[modules:/zpushmenucontextentity.class].pc_entityblueprint",
+		"[modules:/zdynamicobjectentity.class].pc_entityblueprint",
+		"[modules:/zopenmenupageentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_ui_regulardialog_conditional.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
+		"[modules:/zdialogcooldownentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+		"[modules:/zeditorfocusentity.class].pc_entityblueprint",
+		"009F665E3F89D2F4",
+		"[modules:/zcompositeentity.class].pc_entityblueprint",
+		"[modules:/zeventtrack.class].pc_entityblueprint",
+		"[modules:/zeventtrackitem.class].pc_entityblueprint",
+		"[modules:/zlevelcontrolentity.class].pc_entityblueprint",
+		"[modules:/zhm5cripplebox.class].pc_entityblueprint",
+		"[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+		"[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+		"[modules:/zitemspawner.class].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_ui_modaldialog_ok.entitytemplate].pc_entityblueprint",
+		"[modules:/zgametensioncondition.class].pc_entityblueprint",
+		"[modules:/zboxvolumeentity.class].pc_entityblueprint",
+		"[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/signalpipes.template?/signalpipe_conditional_void.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_ui_genericmodaldialogtwobuttons.entitytemplate].pc_entityblueprint",
+		"[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_endgamemenu.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_activator_end_mission.entitytemplate].pc_entityblueprint",
+		"[modules:/zactorpickereffectdrama.class].pc_entityblueprint",
+		"[modules:/zactorpicker.class].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_modulecompletionhandler.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/tutorialsupport.template?/tutorial_modulecontractendhandler.entitytemplate].pc_entityblueprint",
+		"[modules:/zaicrippleentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/markup/orderedbox.template?/boxvolumeentity01.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/online/contractstemplates.template?/level_setup_events_template.entitytemplate].pc_entityblueprint",
+		"[modules:/zherokeywordcondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_greenland_guard.entitytemplate].pc_entityblueprint",
+		"[modules:/zinvertedcondition.class].pc_entityblueprint",
+		"[modules:/zactordeathentity.class].pc_entityblueprint",
+		"[modules:/zlookataimsoundcontroller.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/valueinterpolator_startstop.entitytemplate].pc_entityblueprint",
+		"[modules:/zdebugcheckkeyentity.class].pc_entityblueprint",
+		"[modules:/zhm5valueentity_bool.class].pc_entityblueprint",
+		"[modules:/zaudioevententity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/triggerswitch_gate.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_gamestates.wwisestategroup].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/uplot_ready.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5hmstatesoundcontroller.class].pc_entityblueprint",
+		"[modules:/zsmoothoperator.class].pc_entityblueprint",
+		"[modules:/zvalueinterpolator.class].pc_entityblueprint",
+		"[modules:/zmathaddsubstract.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/cooldownsimple.entitytemplate].pc_entityblueprint",
+		"[modules:/ztriggerswitchentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudioglobalparamentity.class].pc_entityblueprint",
+		"[modules:/zthrowsoundcontroller.class].pc_entityblueprint",
+		"[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_ondeadlythrowimpact.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5instinctsoundcontroller.class].pc_entityblueprint",
+		"[modules:/zvrenabledcondition.class].pc_entityblueprint",
+		"[modules:/zgamepauseentity.class].pc_entityblueprint",
+		"[modules:/zhm5ccsoundcontroller.class].pc_entityblueprint",
+		"[modules:/zdebughm5gametimemultiplierent.class].pc_entityblueprint",
+		"[modules:/hm5_osd_hud_soundcontroller.class].pc_entityblueprint",
+		"[modules:/zkillsoundcontroller.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/statecontainer2states.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudioparamentity.class].pc_entityblueprint",
+		"[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_closecombat.wwisestategroup].pc_entityblueprint",
+		"[modules:/zhm5healthsoundcontroller.class].pc_entityblueprint",
+		"[modules:/zrangetestentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_flow_onwounded.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5closetsoundcontroller.class].pc_entityblueprint",
+		"[modules:/zhm5coversoundcontroller.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/timed_delay_simple.entitytemplate].pc_entityblueprint",
+		"[modules:/zcurveevaluator.class].pc_entityblueprint",
+		"[modules:/zlogicorentity.class].pc_entityblueprint",
+		"[modules:/zlogicifentity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/gametensionemitter_sound.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5valueentity_float32.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/disguisekeywordreceiver.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/agilitymaterialkeywordreceiver.entitytemplate].pc_entityblueprint",
+		"[modules:/zrandomtimerentity.class].pc_entityblueprint",
+		"[modules:/zprobabilityentity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/timed_delay.entitytemplate].pc_entityblueprint",
+		"[modules:/zweaponsoundcontroller.class].pc_entityblueprint",
+		"[modules:/zbulletimpactlistenerentity.class].pc_entityblueprint",
+		"[modules:/zaieventemitterentity.class].pc_entityblueprint",
+		"[modules:/zmathmultiplydivide.class].pc_entityblueprint",
+		"[modules:/zfloatrangecomparatorentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
+		"[modules:/zfloatsorterentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5variantconverterentity_float32.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/statecontrol.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/state.entitytemplate].pc_entityblueprint",
+		"[modules:/zvaluefloat_selector.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_set.entitytemplate].pc_entityblueprint",
+		"[modules:/zconverttovoidentity_float32.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_sniperchallengeactive.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_hitmaninvision.wwisestategroup].pc_entityblueprint",
+		"[modules:/zaudioflybytrigger.class].pc_entityblueprint",
+		"[modules:/zhm5impactsounds.class].pc_entityblueprint",
+		"[modules:/zaudioglobaleventsentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_musicstartenvironmentcombatmode.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/music_currenttensionkeywordreceiver.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudioemitterproxyentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_globalambientvol.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuefloat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_globalambientvol_bool.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valueint.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_music_ambientstate.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_comparator.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_silenteventkeywordreceiver.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_silencekeywordtransmitter.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/music_silencekeywordtransmitter.entitytemplate].pc_entityblueprint",
+		"[modules:/zsoundambiencegroupref.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_moment_start.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_moment_stop.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5dragbodysoundcontroller.class].pc_entityblueprint",
+		"[modules:/zactordiedlistenersimpleentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_labbiosuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5inputactioneventemitter.class].pc_entityblueprint",
+		"00CDCD5B35D361CA",
+		"[assembly:/templates/sound/customsoundtemplates.template?/music_musickeywordreceiver.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_s2_music_enabled.entitytemplate].pc_entityblueprint",
+		"[modules:/zclosestalertableguardentity.class].pc_entityblueprint",
+		"[modules:/zherosensorconditionentity.class].pc_entityblueprint",
+		"[modules:/zdisabledactionsoundcontroller.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_exit_seq_start.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_wounded.entitytemplate].pc_entityblueprint",
+		"[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+		"[modules:/zeventreceiverentity_bool.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_benchmarkteststart.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_intro_seq_enableworldsfx.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_flyinend_seq_enableworldsfx.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_flyinend_seq_setstate.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_customplugin_musicevent_noemitter.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/switches/levelspecific_switches/switches_evergreen/evergreen_loadingscreen_hot.wwiseswitchgroup].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/switches/levelspecific_switches/switches_evergreen/evergreen_loadingscreen_mild.wwiseswitchgroup].pc_entityblueprint",
+		"[modules:/ztokenidentity.class].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameflow_states.wwisestategroup].pc_entityblueprint",
+		"[modules:/zdebuguplotentity.class].pc_entityblueprint",
+		"[modules:/zhm5valueentity_zstring.class].pc_entityblueprint",
+		"[modules:/zhm5ventssoundcontroller.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_container_enteredcontainer.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_container_containerfilter.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_container_enteredcloset.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_in_pausemenu.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/specialsfx_keywordreceiver.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_musickeywordtransmitter.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_environmentexciter.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudiolevelmeterentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_explosivebulletducking.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/switches/weapons2/impact_type.wwiseswitchgroup].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_in_pausemenu_allow_music.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_mix_reset.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_qa_mixerstate_ambbg.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_effects.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_envmusic.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_musicscore.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_physics.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_props.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_dialoguegame.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_qa_mixerstate_mutedialogue.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicsendmix_dialoguereverblow.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicsendmix_dialoguereverbnormal.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_season1_audio.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_season2_audio.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/mix_states/scoremusic_vs_other.wwisestategroup].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_layerstatemicrolistener.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_s2_music_compositionaudible.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_s3_music_locallyenableambientlowering.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_entityproperty.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_momentstates.wwisestategroup].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_mixmoment_foley_music.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_mixmoment_telephone.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_ambience.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_ambience_envsnap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_envsnapfraction.entitytemplate].pc_entityblueprint",
+		"[modules:/zmathlerp.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_envsnapfractionreleased.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_crowdnpc_envsnap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_dialogueai_envsnap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_dialoguestory_envsnap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_inworldobjects_envsnap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_crowd.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_foley.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_foley_envsnap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_inworldobjects.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_dynamicmix_focusmixfadefraction.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_audio_dialogmute.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/conditions.template?/heromovementtypecondition.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_foley_fssweetener_mix.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_pausemenu_allow_music_localoverride.entitytemplate].pc_entityblueprint",
+		"001B61FE1F9D08A5",
+		"001397F8D4E42D2C",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_leavingmissionarea.wwisestategroup].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gameplaymix_enteringmissionarea.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gameplaymix_leavingmissionarea.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_weaponstates.wwisestategroup].pc_entityblueprint",
+		"[modules:/zactogendercondition.class].pc_entityblueprint",
+		"[modules:/zactorinfoentity.class].pc_entityblueprint",
+		"[modules:/zsignalbranchentity.class].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/switches/levelspecific_switches/switches_hawk/hawk_deathgrunt_gender.wwiseswitchgroup].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_takedown_subdue.wwisestategroup].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_failed_hot.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_failed_mild.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_won_hot.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_won_mild.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_alerted_mild.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/switches/levelspecific_switches/switches_evergreen/evergreen_loadingscreens.wwiseswitchgroup].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_travelling_hot.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_travelling_mild.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_safehouse_exit_music_stinger.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_safehouse_exit_music_stinger_sync.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_assassin_close.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_assassin_alerted.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_lookout_close.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_suspects_escape_courieragenda.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_suspects_escape_businessagenda.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_suspects_escape_socialagenda.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_target_escaping.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_target_escaped.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_float32.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_travelscreen_music_sync.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_target_died_during_escape.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_target_has_reached_exit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_failed_campaign.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_target_float_transmit.entitytemplate].pc_entityblueprint",
+		"[modules:/zuispatialcontrolsmanagerentity.class].pc_entityblueprint",
+		"[modules:/zcontractsmarkersdisplayentity.class].pc_entityblueprint",
+		"[modules:/zworlduielementdisplaybase.class].pc_entityblueprint",
+		"[modules:/zinteractionindicatordisplay.class].pc_entityblueprint",
+		"[modules:/zuiactoriconmanagerentity.class].pc_entityblueprint",
+		"[modules:/ztrespassinguientity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.objectiveconditions.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zuitargetinfocontroller.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.aiindicator.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhudtrianglecontroller.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uiboundsextendercontainer.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/boundsextendercontainer.entitytemplate].pc_entityblueprint",
+		"[modules:/zhudmarkcontroller.class].pc_entityblueprint",
+		"[modules:/zuicircleclamp.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/container.entitytemplate].pc_entityblueprint",
+		"[modules:/zhudcamera3dcontrollerentity.class].pc_entityblueprint",
+		"[modules:/zuicontroltreeentity.class].pc_entityblueprint",
+		"[assembly:/templates/ui/menuresources.template?/menuresources.entitytemplate].pc_entityblueprint",
+		"[modules:/zhuduiroot.class].pc_entityblueprint",
+		"[modules:/zhudvisibilitycontroller2.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/watermark.entitytemplate].pc_entityblueprint",
+		"[modules:/zuisubtitledataprovider.class].pc_entityblueprint",
+		"[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer.entitytemplate].pc_entityblueprint",
+		"[assembly:/ui/controls/basic.swf?/basic.subtitle.uic].pc_entityblueprint",
+		"[modules:/zuisubtitlespeakerspatialcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.subtitlespeakerindicator.uic].pc_entityblueprint",
+		"[modules:/zuisubtitlespeakercinematicmodevalueentity.class].pc_entityblueprint",
+		"[modules:/zuisubtitlespeakercinematicmodeoverrideentity.class].pc_entityblueprint",
+		"[modules:/zuisubtitlecharacternameiconassociation.class].pc_entityblueprint",
+		"[modules:/zuitextentity.class].pc_entityblueprint",
+		"[modules:/zuiactionprompttextentity.class].pc_entityblueprint",
+		"[assembly:/templates/gameplay/osd/legacylocalization.template?/legacylocalization.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uibusystateindicator.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uigamechatindicator.entitytemplate].pc_entityblueprint",
+		"[modules:/zprereleasewatermarkcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_benchmarkshowsummary.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_benchmarkend.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uiimagebox.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uitextbox.entitytemplate].pc_entityblueprint",
+		"[modules:/zmicroprofileuicontroller.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_inventory_open.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_inventory_close.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/basic_safeareascalecontainer.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.cameragrid.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
+		"[modules:/zuicontrolentity.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodewidget.uic].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodeviewfindercenter.uic].pc_entityblueprint",
+		"[modules:/zphotomodemenudataprovider.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodeviewfinderscanner.uic].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodeviewfinderfocusframe.uic].pc_entityblueprint",
+		"[modules:/zhudphotomodeintelcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_float32.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_intel_enteredtriggerarea.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_zspatialentityref.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_intel_exitedtriggerarea.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_int32.entitytemplate].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodeviewfindercorner.uic].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodeviewfinderborder.uic].pc_entityblueprint",
+		"[modules:/zphotomodemessagecontrollerentity.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.photomode.photomodemessagewidget.uic].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.evergreen.evergreenspycamerawidget.uic].pc_entityblueprint",
+		"[modules:/zevergreenintelwalldataprovider.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.evergreen.evergreenspycameragridlines.uic].pc_entityblueprint",
+		"[modules:/zvrflowmanagerentity.class].pc_entityblueprint",
+		"[modules:/zvrconfigtriggerentity.class].pc_entityblueprint",
+		"[modules:/zvrconfigfade.class].pc_entityblueprint",
+		"[modules:/zvrconfig.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_postfilters.template?/eventtoken_pf_blackblendin_vr.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_postfilters.template?/eventtoken_pf_blackblendout_vr.entitytemplate].pc_entityblueprint",
+		"[modules:/zhudoccludertriggerentity.class].pc_entityblueprint",
+		"[modules:/zhm5propertyvalueentity_svector2.class].pc_entityblueprint",
+		"[modules:/zinstinctvrhudcondition.class].pc_entityblueprint",
+		"[modules:/zhudcamera3dcontrollerconfigentity.class].pc_entityblueprint",
+		"[modules:/zhm5propertyvalueentity_svector3.class].pc_entityblueprint",
+		"[modules:/ziteminhandlateralshiftcriterionentity.class].pc_entityblueprint",
+		"[assembly:/templates/ui/menuresources.template?/subtitlespeakeraliases.entitytemplate].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.evergreen.menuoverlaycontainer.uic].pc_entityblueprint",
+		"[modules:/zmenucondition.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/uicontainer_worldplaced.entitytemplate].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.evergreen.menucursorwidget.uic].pc_entityblueprint",
+		"[modules:/zuidiegeticcontrollerentity.class].pc_entityblueprint",
+		"[modules:/zuidiegeticcontrolsmanagerentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/zuicontrolentity.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.reticle.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhuduicontrollerentity.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.attentionindicator.uic].pc_entityblueprint",
+		"[modules:/zhudtimercontroller.class].pc_entityblueprint",
+		"[modules:/znotificationscontrollerentity.class].pc_entityblueprint",
+		"[modules:/zcontractseventtonotificationentity.class].pc_entityblueprint",
+		"[modules:/zhudvitalinfobarcontroller.class].pc_entityblueprint",
+		"[modules:/zhuddamagecontroller.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.hintbox.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.hudactionprompts.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhudpromptdisplaycontroller.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.beingobserved.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.objectivesbar.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhudobjectivesbarcontroller.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/textbox.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.aiinformation.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.countdowntimer.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_fadein.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_fadeout.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_instantoff.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_instanton.entitytemplate].pc_entityblueprint",
+		"[modules:/znotificationcategorydefinition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_objectives_hide.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_objectives_show.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_map_show.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_map_hide.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_prompts_show.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_prompts_hide.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/common.swf?/common.basecontrol.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/scaleroot.entitytemplate].pc_entityblueprint",
+		"[modules:/zsnipercontrollercondition.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/imagebox.entitytemplate].pc_entityblueprint",
+		"[modules:/zlogicnotentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.notification.connectionindicator.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.opportunitypreview.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.notification.challengesbar.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zuioptioncondition.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/zuiopportunitypreviewdataprovider.class].entitytype,[modules:/zuidataprovidercontrollayoutchangedhandleraspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/basic.swf?/basic.textbox.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhudmissiontimercontroller.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.weaponhints.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zsniperchallengescoringeventemitterentity.class].pc_entityblueprint",
+		"[modules:/zaistatetohudmessageconverter.class].pc_entityblueprint",
+		"[modules:/zhuddifficultyoptioncontroller.class].pc_entityblueprint",
+		"[modules:/zhudchallengepartiallycompletecontroller.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.challengeelement.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.pipelement.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhudpipcontroller.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.notification.actionxpbar.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_map_fade.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_objectives_fade.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_weapon_fade.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_tutorial.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_difficultyicon_fade.entitytemplate].pc_entityblueprint",
+		"[modules:/zpipmessagemanagerproxy.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.difficultyicon.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zlogicandentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.silentassassinicon.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zhudsilentassassinoptioncontroller.class].pc_entityblueprint",
+		"[assembly:/ui/controls/hud.swf?/hud.weapon.uic].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_gecko_show_map.entitytemplate].pc_entityblueprint",
+		"[modules:/zhudignorevisibility.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_evaluation.entitytemplate].pc_entityblueprint",
+		"[modules:/zhudwalkspeeddataprovider.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.walkspeedicon.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zcontractobjectivesoundevententity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/music_musickeywordtransmitter.entitytemplate].pc_entityblueprint",
+		"[modules:/zvarianttovoidconverterentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_tutorialtask.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_tutorialtext.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunitydisabled.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityuntracked.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityunlocked.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunitytracked.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityrevealtimeout.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunitynew.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunitynearby.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityfinished.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityfailed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityoutsideofrange.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityinsideofrange.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/hud_sound_event.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/hud_sound_prioritisationlistener.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_no_intro_seq.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_intro_seq_stop_genericflyin.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_intro_seq_skipped.entitytemplate].pc_entityblueprint",
+		"0049DA02C7FC89FC",
+		"[modules:/zscoresoundcontrollerentity.class].pc_entityblueprint",
+		"[modules:/zsniperchallengescoringeventlistenerentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+		"[modules:/zconverttovoidentity_int.class].pc_entityblueprint",
+		"[modules:/zsnipersoundcontrollerentity.class].pc_entityblueprint",
+		"[modules:/zmenusoundcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_hidepip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_fox.entitytemplate].pc_entityblueprint",
+		"[modules:/zgameuimenuentity.class].pc_entityblueprint",
+		"[modules:/zuimapcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/templates/ui/mapsetup.template?/worldmap.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/mapsetup.template?/minimap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_minimap_content_hide.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_minimap_content_show.entitytemplate].pc_entityblueprint",
+		"[modules:/zgameuimanagerentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.weaponselector.uic].entitytype,[modules:/zuiinventoryselectornavigationentity.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zheroitemaction.class].pc_entityblueprint",
+		"[modules:/zmenupageentity.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/loadoutmenupagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/debriefingmenupagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/menu3_menuframe.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/contracteditmenupagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/dynamicmenupagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/missionrewardspagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/reportingmenupagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/failedpagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/selectagencypickuppagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/planningpagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/planningpagecontrollermultiplayer.entitytemplate].pc_entityblueprint",
+		"[modules:/zconfigvarcondition.class].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/dynamicpagecontroller.entitytemplate].pc_entityblueprint",
+		"[modules:/zmenuconfigurationentity.class].pc_entityblueprint",
+		"[modules:/zcontractstartentity.class].pc_entityblueprint",
+		"[modules:/zdefaultgloballeveldescriptor.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_objectives_enabledisable.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/saveloadpagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/videopagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_debriefingvideo_enabledisable.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/epiloguepagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/basiccontrols.template?/listcontainer.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/prototypingcontrols.template?/button.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/basic.swf?/basic.quad.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/settingspagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/pausepagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menucontrols.template?/keybindingspagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/controls/menusystemcontrols.template?/keybindingspagecontroller.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/common.basecontrol.uic].entitytype,[modules:/zuinotebooknavigationentity.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/menu3.swf?/menu3.modal.modaldialog.uic].entitytype,[modules:/zmodaldialogcontroller.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/ui/menuresources.template?/videodatabaselist.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.weaponselector.uic].entitytype,[modules:/zuiactionselectornavigationinventoryentity.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zuiactionimageresourceentity.class].pc_entityblueprint",
+		"[modules:/zactiongrouptoimagemanagerentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/zsplashhintcontroller.class].entitytype,[modules:/zuicontrolentity.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zsplashhintmanager.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/hud.swf?/hud.weaponselector.uic].entitytype,[modules:/zuiemoteselectornavigationentity.class].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zuiemotehandler.class].pc_entityblueprint",
+		"[modules:/zevergreenmenucontroller.class].pc_entityblueprint",
+		"[modules:/zhm5fixedcamprofileentity.class].pc_entityblueprint",
+		"[modules:/zherooutfitmodifier.class].pc_entityblueprint",
+		"[modules:/zmenusoundeventtopincontrollerentity.class].pc_entityblueprint",
+		"[modules:/zeventtransmitterentity_void.class].pc_entityblueprint",
+		"[modules:/zeventtransmitterentity_bool.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_intro_seq_start.entitytemplate].pc_entityblueprint",
+		"[modules:/zuibusystateobserver.class].pc_entityblueprint"
+	],
+	"comments": []
+}

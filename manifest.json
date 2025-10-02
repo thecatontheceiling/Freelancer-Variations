@@ -1,5 +1,5 @@
 {
-	"version": "1.9.6",
+	"version": "1.9.8",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
@@ -1195,7 +1195,7 @@
 		"condition": "\"TeamRuddcy.RealYacht\" not in config.loadOrder",
 		"contentFolders": ["Addons/Yacht/base", "Addons/Yacht/fv"],
 		"dependencies": [
-			"00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
+			"008BE5C899A3C36F","00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
 		{
 			"runtimeID": "0069DB569844D774",
 			"toChunk": 9,

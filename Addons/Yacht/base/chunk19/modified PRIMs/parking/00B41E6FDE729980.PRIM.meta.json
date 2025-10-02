@@ -1,45 +1,45 @@
 {
-    "hash_value": "00B41E6FDE729980",
-    "hash_offset": 68689872,
-    "hash_size": 2147510534,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 76,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 48928,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/concrete/asphalt_ground_panels_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/wall_stone_riverside_c.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/rock/rock_boulder_tiling_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/ground/blend_gravel_soil_grass_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/road/trim_road_paris_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/decals/markings/painted_line_a_yellow.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_modular_c.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "00B41E6FDE729980",
+	"hash_offset": 68689872,
+	"hash_size": 2147510534,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 76,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 48928,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/concrete/asphalt_ground_panels_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/road/road_detail_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/wall_stone_riverside_c.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/rock/rock_boulder_tiling_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/ground/blend_gravel_soil_grass_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/road/trim_road_paris_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/decals/markings/painted_line_a_yellow.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/wall/concrete_bare_modular_c.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

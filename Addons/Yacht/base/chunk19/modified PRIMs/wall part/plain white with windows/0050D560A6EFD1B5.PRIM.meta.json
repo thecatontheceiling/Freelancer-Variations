@@ -1,21 +1,21 @@
 {
-    "hash_value": "0050D560A6EFD1B5",
-    "hash_offset": 627109888,
-    "hash_size": 2147608618,
-    "hash_resource_type": "PRIM",
-    "hash_reference_table_size": 121,
-    "hash_reference_table_dummy": 0,
-    "hash_size_final": 230784,
-    "hash_size_in_memory": 4294967295,
-    "hash_size_in_video_memory": 4294967295,
-    "hash_reference_data": [
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
-            "flag": "5F"
-        },
-        {
-            "hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
-            "flag": "5F"
-        }
-    ]
+	"hash_value": "0050D560A6EFD1B5",
+	"hash_offset": 627109888,
+	"hash_size": 2147608618,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 121,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 230784,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/plastic/resin_white_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/environment/materials/generic/metal/metal_painted_colormask_a.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
 }

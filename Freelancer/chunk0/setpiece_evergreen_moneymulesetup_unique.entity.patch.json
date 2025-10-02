@@ -1,1 +1,267 @@
-{"tempHash":"007568D09482220E","tbluHash":"0025CD93E3A002EF","patch":[{"SubEntityOperation":["f75161b8fc77ae3b",{"SetFactory":"006D0A4F28A5533C"}]},{"SubEntityOperation":["f75161b8fc77ae3b",{"SetBlueprint":"007F4DF7BF767FFF"}]},{"SubEntityOperation":["f2d96fb0dfce7e63",{"SetPropertyValue":{"property_name":"m_fTriggerRadius","value":5}}]},{"SubEntityOperation":["f44c58055b929927",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}}}]},{"SubEntityOperation":["f44c58055b929927",{"SetPropertyValue":{"property_name":"m_pJSONResource","value":{"resource":"00351126F245EB6F","flag":"5F"}}}]},{"SubEntityOperation":["825b14dea9466359",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}}}]},{"SubEntityOperation":["71976e5492e4bbcc",{"AddOutputCopyConnection":["Out05","Out05","1873905943477113"]}]},{"SubEntityOperation":["69408b1d61f187f1",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}}}]},{"SubEntityOperation":["1f554ea3c82e125d",{"SetPropertyValue":{"property_name":"m_vGlobalSize","value":{"x":16,"y":16,"z":4}}}]},{"SubEntityOperation":["5f349df59b692d4d",{"SetPropertyValue":{"property_name":"m_mTransform","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.06541399657726288,"y":-0.15241600573062897,"z":1.021062970161438}}}}]},{"SubEntityOperation":["17838685f2b9653a",{"AddEventConnection":["Out07","Start","feed6254ab52d734"]}]},{"SubEntityOperation":["d57482b6724f243c",{"SetPropertyValue":{"property_name":"m_fMaxApproachDistance","value":1}}]},{"SubEntityOperation":["1873905943477113",{"AddEventConnection":["Out05","In",{"ref":"17838685f2b9653a","value":{"type":"int32","value":7}}]}]},{"SubEntityOperation":["4d99e411d0c33d62",{"SetPropertyValue":{"property_name":"m_nCooldown","value":15}}]},{"SubEntityOperation":["ae8524595c5e0d17",{"SetFactory":"001AB6E074296EAC"}]},{"SubEntityOperation":["ae8524595c5e0d17",{"SetBlueprint":"00018C437C0125B3"}]},{"SubEntityOperation":["ae8524595c5e0d17",{"SetPropertyValue":{"property_name":"m_vWorldOffset","value":{"x":0,"y":0,"z":0}}}]},{"SubEntityOperation":["8cef4ea5aa169271",{"SetFactory":"001AB6E074296EAC"}]},{"SubEntityOperation":["8cef4ea5aa169271",{"SetBlueprint":"00018C437C0125B3"}]},{"SubEntityOperation":["8cef4ea5aa169271",{"SetPropertyValue":{"property_name":"m_vWorldOffset","value":{"x":0,"y":0,"z":0.30000001192092896}}}]},{"AddEntity":["feed6254ab52d734",{"parent":"4d99e411d0c33d62","name":"AOL_ev085_mule_civmalech01","factory":"[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint","properties":{"m_pAudioEvent":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/localization/hitman6/conversations/wet/rat/43000_ambient/da43009_streetcarfix01.sweetdialog].pc_dialogevent","flag":"5F"}},"m_rActor":{"type":"SEntityTemplateReference","value":"fd0dd90a4228ee67"}},"events":{"Completed":{"Done":["ccb51cc12aedf83b"]}}}]}],"patchVersion":6}
+{
+	"tempHash": "007568D09482220E",
+	"tbluHash": "0025CD93E3A002EF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f75161b8fc77ae3b",
+				{ "SetFactory": "006D0A4F28A5533C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f75161b8fc77ae3b",
+				{ "SetBlueprint": "007F4DF7BF767FFF" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f2d96fb0dfce7e63",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fTriggerRadius",
+						"value": 5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f44c58055b929927",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f44c58055b929927",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pJSONResource",
+						"value": {
+							"resource": "00351126F245EB6F",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"825b14dea9466359",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"71976e5492e4bbcc",
+				{
+					"AddOutputCopyConnection": [
+						"Out05",
+						"Out05",
+						"1873905943477113"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"69408b1d61f187f1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1f554ea3c82e125d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vGlobalSize",
+						"value": { "x": 16, "y": 16, "z": 4 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5f349df59b692d4d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": {
+								"x": 0.06541399657726288,
+								"y": -0.15241600573062897,
+								"z": 1.021062970161438
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"17838685f2b9653a",
+				{
+					"AddEventConnection": [
+						"Out07",
+						"Start",
+						"feed6254ab52d734"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d57482b6724f243c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fMaxApproachDistance",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1873905943477113",
+				{
+					"AddEventConnection": [
+						"Out05",
+						"In",
+						{
+							"ref": "17838685f2b9653a",
+							"value": { "type": "int32", "value": 7 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4d99e411d0c33d62",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nCooldown",
+						"value": 15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c8574dbf9cb7f6c8",
+				{
+					"AddPropertyAliasConnection": [
+						"RepositoryId",
+						{
+							"originalProperty": "RepositoryId",
+							"originalEntity": "825b14dea9466359"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae8524595c5e0d17",
+				{ "SetFactory": "001AB6E074296EAC" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae8524595c5e0d17",
+				{ "SetBlueprint": "00018C437C0125B3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ae8524595c5e0d17",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vWorldOffset",
+						"value": { "x": 0, "y": 0, "z": 0 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8cef4ea5aa169271",
+				{ "SetFactory": "001AB6E074296EAC" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8cef4ea5aa169271",
+				{ "SetBlueprint": "00018C437C0125B3" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8cef4ea5aa169271",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vWorldOffset",
+						"value": {
+							"x": 0,
+							"y": 0,
+							"z": 0.30000001192092896
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed6254ab52d734",
+				{
+					"parent": "4d99e411d0c33d62",
+					"name": "AOL_ev085_mule_civmalech01",
+					"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pAudioEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/wet/rat/43000_ambient/da43009_streetcarfix01.sweetdialog].pc_dialogevent",
+								"flag": "5F"
+							}
+						},
+						"m_rActor": {
+							"type": "SEntityTemplateReference",
+							"value": "fd0dd90a4228ee67"
+						}
+					},
+					"events": {
+						"Completed": { "Done": ["ccb51cc12aedf83b"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

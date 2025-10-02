@@ -1,0 +1,35 @@
+{
+	"tempHash": "007562B85A508794",
+	"tbluHash": "006EDA4678B4B0BD",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"d8ad93c1c7358373",
+				{
+					"AddProperty": [
+						"m_sContractId",
+						{
+							"type": "ZString",
+							"value": "5e2d2784-1fb0-4006-8e0b-d7d907bae1b5"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"68294bff7f69f0be",
+				{
+					"AddProperty": [
+						"m_sContractId",
+						{
+							"type": "ZString",
+							"value": "bdda4dc3-6af8-44b6-b4ca-09de1b5cb6fd"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

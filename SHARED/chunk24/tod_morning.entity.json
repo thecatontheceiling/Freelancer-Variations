@@ -1,0 +1,2231 @@
+{
+	"tempHash": "0085416608265280",
+	"tbluHash": "0022B56B915FB567",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "TOD_Morning",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafefb31e4f3e4ea": {
+			"parent": "fffffffffffffffe",
+			"name": "ToD_Twilight",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe4088a09baf53": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "GlobalLight",
+			"factory": "[modules:/zgloballightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgloballightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": {
+							"x": -48.717041015625,
+							"y": 71.20594024658203,
+							"z": -1.0288339853286743
+						}
+					}
+				},
+				"m_GlobalLightFrontColor": {
+					"type": "SColorRGB",
+					"value": "#cce7ff"
+				},
+				"m_GlobalLightBackColor": {
+					"type": "SColorRGB",
+					"value": "#e0f1ff"
+				},
+				"m_fGlobalLightFrontIntensity": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fGlobalLightBackIntensity": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_vGlobalLightDirection": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": 1, "z": 1 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafee6e6bca4e7e5": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "RenderAtmosphericScattering",
+			"factory": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fSunRadiusScale": {
+					"type": "float32",
+					"value": 2.5999999046325684
+				},
+				"m_fSunIntensityScale": {
+					"type": "float32",
+					"value": 11.100000381469728
+				},
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 1000
+				},
+				"m_fMieAnisotropy": {
+					"type": "float32",
+					"value": 0.7599999904632568
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bForceVisible": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fRayleighDepthScale": { "type": "float32", "value": 1 },
+				"m_fWorldScale": { "type": "float32", "value": 4 },
+				"m_fWaterPlaneHeight": { "type": "float32", "value": 0 },
+				"m_fShadowedInscatterIntensity": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_fShadowedMieDepthScale": {
+					"type": "float32",
+					"value": 2
+				},
+				"m_fShadowedRayleighDepthScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fInscatterIntensity": { "type": "float32", "value": 5 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_RayleighColor": {
+					"type": "SColorRGB",
+					"value": "#729ab3"
+				},
+				"m_MieColor": { "type": "SColorRGB", "value": "#d1a16a" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 53.95628552095385,
+							"z": -0.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				}
+			}
+		},
+		"cafeeb9cfe8c8967": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "Sky_Snowcrane_A_00",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/backdrop/sky/sky_snowcrane.template?/sky_snowcrane_a_00.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/backdrop/sky/sky_snowcrane.template?/sky_snowcrane_a_00.entitytemplate].entitytype,[modules:/zhighrestextureentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 36.47264187773808
+						},
+						"position": {
+							"x": -336.5849914550781,
+							"y": -251.60589599609375,
+							"z": -133.70550537109375
+						}
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 500
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#fcda9a"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#151921"
+				},
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": 0.25
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 2400
+				},
+				"Add_02_V2": { "type": "float32", "value": 2000 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe46ef4a0c98af": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "Light_CSM",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_DIRECTIONAL"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 327.1289978027344,
+						"y": 1308.8499755859375,
+						"z": 475.0339965820313
+					}
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#adceff"
+				},
+				"m_bCastCSMShadows": { "type": "bool", "value": true },
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 26.899999618530273
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -61.04216885213065,
+							"y": 75.95395369823808,
+							"z": 52.58677177475341
+						},
+						"position": {
+							"x": 9.071053504943848,
+							"y": -28.51811981201172,
+							"z": -0.3824446201324463
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_fLightBleedingReduction": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00AA69A1DD1FE89D",
+						"flag": "5F"
+					}
+				},
+				"m_fShadowBlurWidth": { "type": "float32", "value": 2 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				}
+			}
+		},
+		"cafe7d57d41db25e": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "TimeOfDayConfig",
+			"factory": "[modules:/ztimeofdayconfig.class].pc_entitytype",
+			"blueprint": "[modules:/ztimeofdayconfig.class].pc_entityblueprint",
+			"properties": {
+				"m_fTimeOfDay": { "type": "float32", "value": 19 }
+			}
+		},
+		"cafe15030303f1fa": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "Postfilters",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe5079bd41c119": {
+			"parent": "cafe15030303f1fa",
+			"name": "MiddleGrayCurve_Outdoor",
+			"factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Remap": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								-6, 0.02542644366621971, 0, 0, 0, 0,
+								0.015553242526948452, 0.02542644366621971
+							],
+							[
+								-0.9821921586990356, 0.04097968712449074,
+								0, 0, 0, 0, 0.006878596730530262,
+								0.04097968712449074
+							],
+							[
+								-0.39820191264152527, 0.047858282923698425,
+								0, 0, 0, 0, 0.011319971643388271,
+								0.047858282923698425
+							],
+							[
+								-0.1847301572561264, 0.05917825549840927,
+								0, 0, 0, 0, 0.023182878270745277,
+								0.05917825549840927
+							],
+							[
+								0.005940772593021393, 0.0823611319065094,
+								0, 0, 0, 0, 0.00959319155663252,
+								0.0823611319065094
+							],
+							[
+								0.21463514864444733, 0.0919543281197548, 0,
+								0, 0, 0, 0.0064954026602208614,
+								0.0919543281197548
+							],
+							[
+								0.4858435094356537, 0.0984497293829918, 0,
+								0, 0, 0, 0.0017880084924399853,
+								0.0984497293829918
+							],
+							[
+								0.8387906551361084, 0.10023773461580276, 0,
+								0, 0, 0, 0, 0.10023773461580276
+							]
+						]
+					}
+				}
+			}
+		},
+		"cafe7bbcfc910932": {
+			"parent": "cafe15030303f1fa",
+			"name": "PostfilterParameters_1_Outside",
+			"factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDistortionBarrelEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRLensFlareEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fHDRBloomFalloff": { "type": "float32", "value": 3 },
+				"m_bNoiseEnabled": { "type": "bool", "value": false },
+				"m_bHDRGlareEnabled": { "type": "bool", "value": true },
+				"m_eHDRGlareType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+					"value": "eFilterSunnyCrossSpectral"
+				},
+				"m_bSSAOEnabled": { "type": "bool", "value": true },
+				"m_bFogEnabled": { "type": "bool", "value": false },
+				"m_fDistortionBarrelScale": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fFogDensity": { "type": "float32", "value": 1 },
+				"m_FogColor": { "type": "SColorRGB", "value": "#6c7a87" },
+				"m_bVignetteEnabled": { "type": "bool", "value": true },
+				"m_bDepthOfFieldEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldFocalDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fLensBlur": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_bGaussianBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fGaussianBlurriness": { "type": "float32", "value": 1 },
+				"m_fSpatialBlurriness": { "type": "float32", "value": 1 },
+				"m_fDepthOfFieldFocusEnd": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_fDepthOfFieldFocalFadeNear": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bRadialBlurEnabled": { "type": "bool", "value": false },
+				"m_bSpatialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fHDRBloomScale": { "type": "float32", "value": 0.3 },
+				"m_fDepthOfFieldFocalFadeFar": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_bDistortionWobbleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionWobbleScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vDistortionWobbleSpeed": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 1 }
+				},
+				"m_fNoiseIntensity": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fNoiseScale": {
+					"type": "float32",
+					"value": 0.949999988079071
+				},
+				"m_bFogGlobal": { "type": "bool", "value": false },
+				"m_VignetteColor": {
+					"type": "SColorRGB",
+					"value": "#0d0d0d"
+				},
+				"m_fVignetteStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_bDepthOfFieldUseNew": { "type": "bool", "value": true },
+				"m_fDepthOfFieldAperture": {
+					"type": "float32",
+					"value": 3
+				},
+				"m_vDistortionBarrel": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2199999988079071,
+						"y": 0.05999999865889549
+					}
+				},
+				"m_bForegroundBlur": { "type": "bool", "value": false },
+				"m_eBlurQuality": {
+					"type": "ZRenderPostfilterParametersEntity.EDOFBlurType",
+					"value": "eLowRezLensBlurSoft"
+				},
+				"m_fHDRLensFlareAttenuation": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vFogNearDistances": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 0 }
+				},
+				"m_bFogUseQuarterRes": { "type": "bool", "value": false },
+				"m_vFogTurbulenceNearScale": {
+					"type": "SVector3",
+					"value": { "x": 10, "y": 10, "z": 10 }
+				},
+				"m_fFogTurbulenceOpacity": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fRadialBlurStart": { "type": "float32", "value": 0 },
+				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
+				"m_fRadialBlurFadeFactor": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_vVignetteGradientLightColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fVignetteGradientLightSize": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fVignetteGradientLightStrength": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDepthOfFieldBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vFogTurbulenceVelocity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 0.5,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_fHDRBrightPassMaxPercentage": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_eHDRToneMapType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRToneMapType",
+					"value": "eFilmicRGB"
+				},
+				"m_fFogTurbulenceChaos": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bHDREnabled": { "type": "bool", "value": true },
+				"m_fDepthOfFieldFocusStart": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fSSAOOcclusionRange": { "type": "float32", "value": 1 },
+				"m_HDRAdaptionMiddleGrayCurveEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5079bd41c119"
+				},
+				"m_HDRColorTint": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fHDRWhitePoint": { "type": "float32", "value": 11 },
+				"m_fHDRBrightPassThreshold": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_nParameterId": { "type": "int32", "value": 99 },
+				"m_vSSAOStrengthNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 10 }
+				},
+				"m_vSSAODistanceNearFar": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 15 }
+				},
+				"m_vSSAOScreenSpaceRadiusLimits": {
+					"type": "SVector2",
+					"value": { "x": 46.86000061035156, "y": 100 }
+				},
+				"m_vRadialBlurCenter": {
+					"type": "SVector2",
+					"value": { "x": 0.5, "y": 0.5 }
+				},
+				"m_vSpatialBlurCenter": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_fSpatialBlurStart": { "type": "float32", "value": 0 },
+				"m_fSpatialBlurFade": { "type": "float32", "value": 10 },
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007BE9EAE845E573",
+						"flag": "5F"
+					}
+				},
+				"m_fLabsDofAnamorphic": { "type": "float32", "value": 0 },
+				"m_fLabsDofSwirl": { "type": "float32", "value": 0 },
+				"m_bDistortionBarrelUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vDistortionWobbleWaveLength": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
+					}
+				},
+				"m_bDistortionWobbleUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDoubleVisionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDoubleVisionStrength": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionEyeSeparation": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDoubleVisionSpeed1": {
+					"type": "float32",
+					"value": 147
+				},
+				"m_fDoubleVisionSpeed2": {
+					"type": "float32",
+					"value": 109
+				},
+				"m_fDoubleVisionScaleSpeed1": {
+					"type": "float32",
+					"value": 121
+				},
+				"m_fDoubleVisionScaleSpeed2": {
+					"type": "float32",
+					"value": 97
+				},
+				"m_fDoubleVisionMinScale": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fDoubleVisionMaxScale": {
+					"type": "float32",
+					"value": 0.09000000357627869
+				},
+				"m_fDoubleVisionBlendSpeed": {
+					"type": "float32",
+					"value": 80
+				},
+				"m_fDoubleVisionBlendStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fDoubleVisionTrailStrength": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.5, "y": 5 }
+				},
+				"m_HDRLensFlareColorA": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fHDRLensFlareThresholdA": {
+					"type": "float32",
+					"value": 0.4699999988079071
+				},
+				"m_HDRLensFlareColorB": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fHDRLensFlareThresholdB": {
+					"type": "float32",
+					"value": 0.4300000071525574
+				},
+				"m_HDRLensFlareColorC": {
+					"type": "SColorRGB",
+					"value": "#414a80"
+				},
+				"m_fHDRLensFlareThresholdC": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_HDRLensFlareColorD": {
+					"type": "SColorRGB",
+					"value": "#3b2e1f"
+				},
+				"m_fHDRLensFlareThresholdD": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_fSSAOAngleOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fHDRExposureMeteringSize": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fVignetteMin": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_fVignetteMax": {
+					"type": "float32",
+					"value": 1.7999999523162842
+				}
+			}
+		},
+		"cafe863bba41c98d": {
+			"parent": "cafe15030303f1fa",
+			"name": "PostfilterParameters_0_Indoor",
+			"factory": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDistortionBarrelEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRLensFlareEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fHDRBloomFalloff": { "type": "float32", "value": 2.5 },
+				"m_bNoiseEnabled": { "type": "bool", "value": false },
+				"m_bHDRGlareEnabled": { "type": "bool", "value": true },
+				"m_eHDRGlareType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+					"value": "eFilterSunnyCrossSpectral"
+				},
+				"m_bSSAOEnabled": { "type": "bool", "value": true },
+				"m_bFogEnabled": { "type": "bool", "value": false },
+				"m_fDistortionBarrelScale": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fFogDensity": { "type": "float32", "value": 1 },
+				"m_FogColor": { "type": "SColorRGB", "value": "#6c7a87" },
+				"m_bVignetteEnabled": { "type": "bool", "value": true },
+				"m_bDepthOfFieldEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldFocalDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fLensBlur": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_bGaussianBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fGaussianBlurriness": { "type": "float32", "value": 1 },
+				"m_fSpatialBlurriness": { "type": "float32", "value": 1 },
+				"m_fDepthOfFieldFocusEnd": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_fDepthOfFieldFocalFadeNear": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bRadialBlurEnabled": { "type": "bool", "value": false },
+				"m_bSpatialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fHDRBloomScale": { "type": "float32", "value": 0.15 },
+				"m_fDepthOfFieldFocalFadeFar": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_bDistortionWobbleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionWobbleScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vDistortionWobbleSpeed": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 1 }
+				},
+				"m_fNoiseIntensity": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fNoiseScale": {
+					"type": "float32",
+					"value": 0.949999988079071
+				},
+				"m_bFogGlobal": { "type": "bool", "value": false },
+				"m_VignetteColor": {
+					"type": "SColorRGB",
+					"value": "#0d0d0d"
+				},
+				"m_fVignetteStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_bDepthOfFieldUseNew": { "type": "bool", "value": true },
+				"m_fDepthOfFieldAperture": {
+					"type": "float32",
+					"value": 3
+				},
+				"m_vDistortionBarrel": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2199999988079071,
+						"y": 0.05999999865889549
+					}
+				},
+				"m_bForegroundBlur": { "type": "bool", "value": false },
+				"m_eBlurQuality": {
+					"type": "ZRenderPostfilterParametersEntity.EDOFBlurType",
+					"value": "eLowRezLensBlurSoft"
+				},
+				"m_fHDRLensFlareAttenuation": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_vFogNearDistances": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 0 }
+				},
+				"m_bFogUseQuarterRes": { "type": "bool", "value": false },
+				"m_vFogTurbulenceNearScale": {
+					"type": "SVector3",
+					"value": { "x": 10, "y": 10, "z": 10 }
+				},
+				"m_fFogTurbulenceOpacity": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_fRadialBlurStart": { "type": "float32", "value": 0 },
+				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
+				"m_fRadialBlurFadeFactor": {
+					"type": "float32",
+					"value": 0.10999999940395357
+				},
+				"m_vVignetteGradientLightColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fVignetteGradientLightSize": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fVignetteGradientLightStrength": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDepthOfFieldBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vFogTurbulenceVelocity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 0.5,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_vHDRAdaptationMiddleGrayMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.10000000149011612, "y": 0.5 }
+				},
+				"m_fHDRBrightPassMaxPercentage": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_eHDRToneMapType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRToneMapType",
+					"value": "eFilmicRGB"
+				},
+				"m_fFogTurbulenceChaos": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bHDREnabled": { "type": "bool", "value": true },
+				"m_fDepthOfFieldFocusStart": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fSSAOOcclusionRange": { "type": "float32", "value": 1 },
+				"m_HDRColorTint": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fHDRWhitePoint": { "type": "float32", "value": 11 },
+				"m_fHDRBrightPassThreshold": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_nParameterId": { "type": "int32", "value": 0 },
+				"m_vSSAOStrengthNearFar": {
+					"type": "SVector2",
+					"value": { "x": 0, "y": 10 }
+				},
+				"m_vSSAODistanceNearFar": {
+					"type": "SVector2",
+					"value": { "x": 5, "y": 15 }
+				},
+				"m_vSSAOScreenSpaceRadiusLimits": {
+					"type": "SVector2",
+					"value": { "x": 46.86000061035156, "y": 100 }
+				},
+				"m_vRadialBlurCenter": {
+					"type": "SVector2",
+					"value": { "x": 0.5, "y": 0.5 }
+				},
+				"m_vSpatialBlurCenter": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_fSpatialBlurStart": { "type": "float32", "value": 0 },
+				"m_fSpatialBlurFade": { "type": "float32", "value": 10 },
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007BE9EAE845E573",
+						"flag": "5F"
+					}
+				},
+				"m_fLabsDofAnamorphic": { "type": "float32", "value": 0 },
+				"m_fLabsDofSwirl": { "type": "float32", "value": 0 },
+				"m_bDistortionBarrelUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vDistortionWobbleWaveLength": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.029999999329447743,
+						"y": 0.029999999329447743
+					}
+				},
+				"m_bDistortionWobbleUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDoubleVisionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDoubleVisionStrength": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionEyeSeparation": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDoubleVisionSpeed1": {
+					"type": "float32",
+					"value": 147
+				},
+				"m_fDoubleVisionSpeed2": {
+					"type": "float32",
+					"value": 109
+				},
+				"m_fDoubleVisionScaleSpeed1": {
+					"type": "float32",
+					"value": 121
+				},
+				"m_fDoubleVisionScaleSpeed2": {
+					"type": "float32",
+					"value": 97
+				},
+				"m_fDoubleVisionMinScale": {
+					"type": "float32",
+					"value": 0.07000000029802322
+				},
+				"m_fDoubleVisionMaxScale": {
+					"type": "float32",
+					"value": 0.09000000357627869
+				},
+				"m_fDoubleVisionBlendSpeed": {
+					"type": "float32",
+					"value": 80
+				},
+				"m_fDoubleVisionBlendStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fDoubleVisionTrailStrength": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 0.4000000059604645, "y": 5 }
+				},
+				"m_HDRLensFlareColorA": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fHDRLensFlareThresholdA": {
+					"type": "float32",
+					"value": 0.4699999988079071
+				},
+				"m_HDRLensFlareColorB": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fHDRLensFlareThresholdB": {
+					"type": "float32",
+					"value": 0.4300000071525574
+				},
+				"m_HDRLensFlareColorC": {
+					"type": "SColorRGB",
+					"value": "#414a80"
+				},
+				"m_fHDRLensFlareThresholdC": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_HDRLensFlareColorD": {
+					"type": "SColorRGB",
+					"value": "#3b2e1f"
+				},
+				"m_fHDRLensFlareThresholdD": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_fSSAOAngleOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fHDRExposureMeteringSize": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fVignetteMin": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"m_fVignetteMax": {
+					"type": "float32",
+					"value": 1.7999999523162842
+				},
+				"m_HDRAdaptionMiddleGrayCurveEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed9a8522527ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafed9a8522527ef": {
+			"parent": "cafe15030303f1fa",
+			"name": "MiddleGrayCurve",
+			"factory": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Remap": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								-6, 0.02542644366621971, 0, 0, 0, 0,
+								0.01510527078062296, 0.02542644366621971
+							],
+							[
+								-3.4249706268310547, 0.040531713515520096,
+								0, 0, 0, 0, 0.02300558239221573,
+								0.040531713515520096
+							],
+							[
+								-0.8333526849746704, 0.06353729963302612,
+								0, 0, 0, 0, 0.007288225460797548,
+								0.06353729963302612
+							],
+							[
+								-0.362746387720108, 0.07082552462816238, 0,
+								0, 0, 0, 0.01915113255381584,
+								0.07082552462816238
+							],
+							[
+								0.0801142081618309, 0.08997665345668793, 0,
+								0, 0, 0, 0.12337803095579147,
+								0.08997665345668793
+							],
+							[
+								0.976149082183838, 0.21335469186306, 0, 0,
+								0, 0, 0.06562767922878265, 0.21335469186306
+							],
+							[
+								1.4649327993392944, 0.27898237109184265, 0,
+								0, 0, 0, 0.0438973605632782,
+								0.27898237109184265
+							],
+							[
+								2.253030776977539, 0.32287973165512085, 0,
+								0, 0, 0, 0, 0.32287973165512085
+							]
+						]
+					}
+				}
+			}
+		},
+		"cafe88f3b2454d40": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "BoxReflection",
+			"factory": "[modules:/zboxreflectionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 1000, "y": 1000, "z": 1000 }
+				},
+				"m_vSampleOffset": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 5 }
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_eType": {
+					"type": "ZBoxReflectionEntity.EType",
+					"value": "eFallback"
+				},
+				"m_eBoundsType": {
+					"type": "ZBoxReflectionEntity.EBoundsType",
+					"value": "eBox"
+				}
+			}
+		},
+		"cafe795bc44aaf71": {
+			"parent": "cafefb31e4f3e4ea",
+			"name": "Wind",
+			"factory": "[modules:/zwindentity.class].pc_entitytype",
+			"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 68.49366915592508
+						},
+						"position": {
+							"x": 40.18516159057617,
+							"y": 107.86289978027344,
+							"z": 14.482990264892578
+						}
+					}
+				},
+				"m_bGlobal": { "type": "bool", "value": true },
+				"m_fSpeedTreeStrength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fStrength": { "type": "float32", "value": 3.5 },
+				"m_fStrengthAmplitude": { "type": "float32", "value": 1 },
+				"m_fAngularDeviationZ": { "type": "float32", "value": 10 },
+				"m_fAngularDeviationY": { "type": "float32", "value": 30 }
+			}
+		},
+		"cafeed697c5805c0": {
+			"parent": "fffffffffffffffe",
+			"name": "lamp_spot_light_small_a_18",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_small_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_small_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.61155527921684
+						},
+						"position": {
+							"x": 2.643463134765625,
+							"y": 3.618209838867187,
+							"z": 12.804012298583984
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#c5d6e4"
+				},
+				"GlowPower": { "type": "float32", "value": 1000.0 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8ce010f1be8f5477",
+						"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"DiffusePower": { "type": "float32", "value": 60.0 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 2.509999990463257,
+						"y": 6.679999828338623
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "f37e9a1603bd871c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fColorIntensity": { "type": "float32", "value": 0.55 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "7bac970fae588a5c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1b7aec0f246c1ca0",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a5702611570b112f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7abfeab3e615c865",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f5436ec269cf26da",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				}
+			],
+			"properties": { "On": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "f1196ec452d9ba8e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "efab724158f5151a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "dad67032be8e00b9",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "cbdc0217b9ce4d5b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1c6b3e7a4b22f589",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "35549bc08d134130",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "8719744d891cfa5b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7be2e0f5cf423770",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2bb076c8b5f4c4da",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e31dedaaba0a9859",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"LightVisible": { "type": "bool", "value": false },
+				"FloorLightVisible": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "fad4b291542fa5ca",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1c528914a05aaeb0",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "abf133eb8c9b5c2e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "80baa2e1f02acaea",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b3d399cfc0a8358e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "0f4cbd1dbdb54e00",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "9e0f370fe405073e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "bc3820da701631aa",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d111a9c516075d36",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1589bf75c935ff3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fa6ea80a07d44b81",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ab9f7672842f08f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e871b347792e41dd",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "84d799465a813f38",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "855ae09afc36fa32",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7ff21148a4ced2cb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6e5d5f32fb5e9d0e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "cf1a3bc2370249f7",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "30b2b0f052f90854",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ed19cd8b4fa66857",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2c0cd2be8529703a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "0c54360328e6964a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b524874b7c9a28d4",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "36a733a13ee2605f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "55154a99dca4b9f8",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b1e160fc5dd60dee",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f5a5771b7192c86b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "56ffc695f608c218",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3c1765b9a0c4a053",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ff832eeda34bddf2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "bc4283a401f221ee",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "bbbf3efb3ef608c0",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6e17498cc311897b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "008bf5880abb306d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b82b4f6189c396a7",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e5e99eb0808c96bb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "c7942badac1ac657",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "9074ec2723408a73",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ab8bbc794978f288",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ff3948f49ff4d6ef",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a415094fca5dce6a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e3234dc6e509e83c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "c1e71b86c4d052be",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6954ef57d7cf4b1d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "4a2d652f26b4ed6f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "0f6405df6370d97e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "559c456f47f97728",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ca44ac4409514750",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b3e349d8a722e8fd",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "96f630f8fbcecba2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fcc087897b55fe39",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a82b79681140ff47",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f6db66f3ebe4f411",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "61fc6bd66c7d9995",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "0841458570720761",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "cc124750e2fac83a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1d78e6840895890a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d3c182901b97c30e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "cf37b8fab54ce97d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fc4f2cff76b54432",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f6a440cbff7021f5",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "550c02dee27ba8fc",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d970bdb5232da12b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "58871470fa9afc78",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "91a41009c07e1475",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "8cb362546ee6285a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a9e16278023b3c69",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b53f5b03413a4e1c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5ce96f8b86e774f4",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fe265c5b6cb81804",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "abdf20046ede7926",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e2aa334f886f866b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3f2f9c3f0fcf7ccb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "18ecf2939b5383c5",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "cc14a34bf9568de2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e74fa9e6739996f1",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2d11cd6e8aa89d27",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3e3c27087668b617",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6e29ac042467f8ce",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ebbd7a7af6513d1e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7faa9cd86ed317c0",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6ea009ce02921582",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "c5b227f954c50f8c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e037862bc816571c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f0a3b8e55447c4d3",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e3bdbeb2fcd3a3a5",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6495fe2ae6ab1288",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "4bfc46f401ef3c4b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ce529d3bf61be406",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "14659b4402d9d472",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "c11867dddc93b415",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3d4baad934a59c92",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3306303891ce718b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1fe714336d0722e0",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b3e11f6c5d0c658d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a23a8859697d34af",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2fd6ec60cf169d00",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "58bd7899f8d76ee2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "8f0a8ae2b6ba26b7",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a5fb53f00663fffc",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f041cce810d85089",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "869d9a2648ea3eb8",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b96716360dfa995d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5055fe1e585f022f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5b0162571c324e1b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "679391b41799cc0f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "493cee965dca6ab1",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e13855ce062c6199",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "999d54e67f35fe95",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "4971f52c9139350b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "29676beba5ad816e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ce529d3bf61be406",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f0a3b8e55447c4d3",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d2ee4e8b9b2607c1",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5419b9d8a5043e17",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "f55d051f0cbdc1f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "456bee29ba654d5f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype"
+				},
+				{
+					"ref": "39d2b6d0ceb8eda5",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype"
+				},
+				{
+					"ref": "e8fd1c2f1dac130c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype"
+				},
+				{
+					"ref": "313814dbf6f37fe8",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype"
+				},
+				{
+					"ref": "a4c7e94f84ab716c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "acf8abceb4adc5bb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6f534d1e52463299",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#7d9fc7"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b1fc2eff1c6290c0",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3f140128a48495f5",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_PostfilterParametersID": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_bGlobalLightOverrideEnable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bGlobalLightOverrideDisableSpec": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1d19bbfad2c04a13",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6cdf06867c4bc99e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "62a248a18faab5de",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d548d1d8369d400e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e2f1ea749b601737",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7464bd2f7e2565c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "18ce31ad2e261c1d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "25eae137a85ed172",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d433e2b0ee53aa06",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "965ed8c878d07974",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "cb297781ee3784db",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ebeb64e307eaca1d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ff35de5ee88fbbad",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "10a8af53669175ef",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1b97e21918f60e9d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5152faec6de1190a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e7fde3a92f9c4d06",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7885523f1eab36bb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7e98348623797337",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "0c5e990211b1f089",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "465d1c71d79135a7",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a765ea46f95c03b1",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "671483fdf3ec22cc",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d683d386f8f4c48b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3dfe422a60ba8b5e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "6bb909a930e35ea9",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fff71de445b2ce1c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "9367c5ac58cd1440",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fd02a3bcf634f418",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "37faf86ccb607de9",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a55b982983584156",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "917541f906139249",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7936a117c4084c9a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1e29b7a79b0d0323",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "33f4e23ac077129f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "58446429231b7e40",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "339c017c0f616d91",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "07c5d37d75958cb5",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "74266fc3dc94dc41",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "c16cd45e287bf6eb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "0709d6c244870aa4",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "8fc1128af25b523b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3b612b9c81962cbd",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7f4b66c9097b6f84",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "67926903b4d0b0d1",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5a1752c5e038eb70",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "ceb07be42e37769b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "3346e777b24bd713",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "04d5c53fcf32ec2d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "389bf5585b0b853a",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "d630f8eb498b792d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b1260be47297c4f3",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "773071470b534012",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "e5e1e5c7f6102850",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7bd51087aae278ae",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "42e5c7b2ca443f4d",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a83f2d1df2c03491",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "bd03e4c28495ec69",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "c93a37fb6eb76752",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "7507665021b04931",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "83c83da41742ce6b",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "057ab7d72aab378f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "24358ec95d86831f",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2bed8db7a79fb115",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "8a39e11d931ff96c",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "59fbe775e87fa953",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b124dee7eba4bceb",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a4a06c604a72c5ae",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "8161965621764a19",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"DiffusePower": { "type": "float32", "value": 100 },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true },
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 2.509999990463257,
+						"y": 6.679999828338623
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "d21e556d8987e9f2",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_hotel_floor3_tiger.brick].pc_entitytype"
+		},
+		{
+			"ref": "c446496b82e88026",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "147416159d082561",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb242cc91fa3408b",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+		},
+		{
+			"ref": "5ffb94ee3ab3ade0",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+		},
+		{
+			"ref": "30c1d12d90ce8def",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+		},
+		{
+			"ref": "b90bc87a63e29cdb",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+		},
+		{
+			"ref": "a728449ef6afae1f",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a581227a64ab720",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/tod_summer_evening_clear.brick].pc_entitytype"
+		},
+		{
+			"ref": "ff6cb930fc29d7a3",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "ddcb7ff894c8078e",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "4054e23ca93c107b",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "d7cb6904d19ed725",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "73ae3d7146b1e80e",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "7fbc40029045da04",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "5b0e1d4afc63afa8",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "f0decbcb8dcc3997",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "dd5fb4ca108da4a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "0a64ec2da6a58b54",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "428dcf7eb607ecb0",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ee5c25e77543041",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "4e25259405a6f061",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "331502d17fb0032a",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "cdb81dea6949cd88",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "c7835aa098709d34",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "7b66fb1620becc96",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		},
+		{
+			"ref": "8467417818391341",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/bangkok/tod_summer_evening_clear.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/lighting_newlook.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/dressing_wing_b_vip_suite.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/dressing_arrival.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/dressing_hotel_floor3_tiger.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
