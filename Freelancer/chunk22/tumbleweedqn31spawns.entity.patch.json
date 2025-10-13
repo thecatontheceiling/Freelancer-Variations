@@ -1,13 +1,13 @@
 {
-    "tempHash": "00F77B313BA74810",
-    "tbluHash": "003BA4B7668D956A",
-    "patch": [
-        {
-            "RemoveOverrideDelete": {
-                "ref": "7128489be44daa9c",
-                "externalScene": "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
-            }
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "00F77B313BA74810",
+	"tbluHash": "003BA4B7668D956A",
+	"patch": [
+		{
+			"RemoveOverrideDelete": {
+				"ref": "7128489be44daa9c",
+				"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/agencymarkup_snowcrane.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
 }

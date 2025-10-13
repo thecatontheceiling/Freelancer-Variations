@@ -1,234 +1,224 @@
 {
-    "tempHash": "007015A746FF0E1F",
-    "tbluHash": "00A42A04C1D012E7",
-    "patch": [
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddInputCopyConnection": [
-                        "in",
-                        "in",
-                        "feed8a5aa49e393a"
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddPropertyAliasConnection": [
-                        "HotIsAlerted",
-                        {
-                            "originalProperty": "HotIsAlerted",
-                            "originalEntity": "feed8a5aa49e393a"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddPropertyAliasConnection": [
-                        "MildIsAlerted_Hex",
-                        {
-                            "originalProperty": "MildIsAlerted",
-                            "originalEntity": "feed8a5aa49e393a"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddPropertyAliasConnection": [
-                        "enableHardBrick",
-                        {
-                            "originalProperty": "enableHardBrick",
-                            "originalEntity": "feed8a5aa49e393a"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddPropertyAliasConnection": [
-                        "enableHardDifficulty",
-                        {
-                            "originalProperty": "enableHardDifficulty",
-                            "originalEntity": "feed8a5aa49e393a"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddPropertyAliasConnection": [
-                        "m_aValues",
-                        {
-                            "originalProperty": "m_aValues",
-                            "originalEntity": "feed8a5aa49e393a"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "AddPropertyAliasConnection": [
-                        "m_rSeed",
-                        {
-                            "originalProperty": "m_rSeed",
-                            "originalEntity": "feed8a5aa49e393a"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "SubEntityOperation": [
-                "8faace844c8e2131",
-                {
-                    "SetExposedEntity": [
-                        "hexActive",
-                        {
-                            "isArray": false,
-                            "refersTo": [
-                                "feed8a5aa49e393a"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed8a5aa49e393a",
-                {
-                    "parent": "8faace844c8e2131",
-                    "name": "Helper_Evergreen_Travel_Destination_Hex",
-                    "factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_travel_destination.entitytemplate].pc_entitytype",
-                    "blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_travel_destination.entitytemplate].pc_entityblueprint",
-                    "properties": {
-                        "m_destination": {
-                            "type": "IEvergreenTerritoryDefinition.EDestination",
-                            "value": "HawkesBay"
-                        },
-                        "mildContractID": {
-                            "type": "ZString",
-                            "value": "5e2d2784-1fb0-4006-8e0b-d7d907bae1b5"
-                        },
-                        "hotContractID": {
-                            "type": "ZString",
-                            "value": "bdda4dc3-6af8-44b6-b4ca-09de1b5cb6fd"
-                        },
-                        "MildLoopingMovie": {
-                            "type": "ZRuntimeResourceID",
-                            "value": {
-                                "resource": "00C13852355C7245",
-                                "flag": "9F"
-                            }
-                        },
-                        "HotLoopingMovie": {
-                            "type": "ZRuntimeResourceID",
-                            "value": {
-                                "resource": "00F3C5D227BA9DCC",
-                                "flag": "9F"
-                            }
-                        },
-                        "m_aValues": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": []
-                        },
-                        "m_rSeed": {
-                            "type": "SEntityTemplateReference",
-                            "value": null
-                        },
-                        "enableHardDifficulty": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": []
-                        },
-                        "enableHardBrick": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": []
-                        },
-                        "m_EntranceIds": {
-                            "type": "TArray<SEntityTemplateReference>",
-                            "value": [
-                                "feed1a3fa75a10c5",
-                                "feed1011d6f80987",
-                                "feed7dbe19510641"
-                            ],
-                            "postInit": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed7dbe19510641",
-                {
-                    "parent": "feed8a5aa49e393a",
-                    "name": "Beach",
-                    "factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
-                    "blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
-                    "properties": {
-                        "m_RepositoryId": {
-                            "type": "ZGuid",
-                            "value": "78477425-7330-4092-ad71-6548e07ccc93"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed1a3fa75a10c5",
-                {
-                    "parent": "feed8a5aa49e393a",
-                    "name": "Destroyed Shack",
-                    "factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
-                    "blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
-                    "properties": {
-                        "m_RepositoryId": {
-                            "type": "ZGuid",
-                            "value": "d08b7d6d-9b1f-4131-bb44-4ebd2cdb1cec"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "AddEntity": [
-                "feed1011d6f80987",
-                {
-                    "parent": "feed8a5aa49e393a",
-                    "name": "Boat",
-                    "factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
-                    "blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
-                    "properties": {
-                        "m_RepositoryId": {
-                            "type": "ZGuid",
-                            "value": "0f13f00b-abb4-4cdd-bd9d-748514b941d5"
-                        }
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "007015A746FF0E1F",
+	"tbluHash": "00A42A04C1D012E7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddInputCopyConnection": ["in", "in", "feed8a5aa49e393a"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddPropertyAliasConnection": [
+						"HotIsAlerted",
+						{
+							"originalProperty": "HotIsAlerted",
+							"originalEntity": "feed8a5aa49e393a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddPropertyAliasConnection": [
+						"MildIsAlerted_Hex",
+						{
+							"originalProperty": "MildIsAlerted",
+							"originalEntity": "feed8a5aa49e393a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddPropertyAliasConnection": [
+						"enableHardBrick",
+						{
+							"originalProperty": "enableHardBrick",
+							"originalEntity": "feed8a5aa49e393a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddPropertyAliasConnection": [
+						"enableHardDifficulty",
+						{
+							"originalProperty": "enableHardDifficulty",
+							"originalEntity": "feed8a5aa49e393a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddPropertyAliasConnection": [
+						"m_aValues",
+						{
+							"originalProperty": "m_aValues",
+							"originalEntity": "feed8a5aa49e393a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"AddPropertyAliasConnection": [
+						"m_rSeed",
+						{
+							"originalProperty": "m_rSeed",
+							"originalEntity": "feed8a5aa49e393a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8faace844c8e2131",
+				{
+					"SetExposedEntity": [
+						"hexActive",
+						{
+							"isArray": false,
+							"refersTo": ["feed8a5aa49e393a"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed8a5aa49e393a",
+				{
+					"parent": "8faace844c8e2131",
+					"name": "Helper_Evergreen_Travel_Destination_Hex",
+					"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_travel_destination.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_travel_destination.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_destination": {
+							"type": "IEvergreenTerritoryDefinition.EDestination",
+							"value": "HawkesBay"
+						},
+						"mildContractID": {
+							"type": "ZString",
+							"value": "5e2d2784-1fb0-4006-8e0b-d7d907bae1b5"
+						},
+						"hotContractID": {
+							"type": "ZString",
+							"value": "bdda4dc3-6af8-44b6-b4ca-09de1b5cb6fd"
+						},
+						"MildLoopingMovie": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C13852355C7245",
+								"flag": "9F"
+							}
+						},
+						"HotLoopingMovie": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F3C5D227BA9DCC",
+								"flag": "9F"
+							}
+						},
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_rSeed": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						},
+						"enableHardDifficulty": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"enableHardBrick": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						},
+						"m_EntranceIds": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed1a3fa75a10c5", "feed1011d6f80987", "feed7dbe19510641"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed7dbe19510641",
+				{
+					"parent": "feed8a5aa49e393a",
+					"name": "Beach",
+					"factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "78477425-7330-4092-ad71-6548e07ccc93"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed1a3fa75a10c5",
+				{
+					"parent": "feed8a5aa49e393a",
+					"name": "Destroyed Shack",
+					"factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "d08b7d6d-9b1f-4131-bb44-4ebd2cdb1cec"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed1011d6f80987",
+				{
+					"parent": "feed8a5aa49e393a",
+					"name": "Boat",
+					"factory": "[modules:/zrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "0f13f00b-abb4-4cdd-bd9d-748514b941d5"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

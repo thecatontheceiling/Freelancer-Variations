@@ -1,16 +1,16 @@
 {
-    "tempHash": "002ADCDAD7A232C0",
-    "tbluHash": "00F08325651C1D73",
-    "patch": [
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/mission_mild_blackjack.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/override_blackjack.brick].pc_entitytype"
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "002ADCDAD7A232C0",
+	"tbluHash": "00F08325651C1D73",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/mission_mild_blackjack.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/override_blackjack.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
 }

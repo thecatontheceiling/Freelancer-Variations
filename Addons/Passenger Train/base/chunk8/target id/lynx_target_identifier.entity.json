@@ -366,11 +366,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe11ac6ca3715f",
-						"cafe0fc10c56f789",
-						"cafe594392e3c50c"
-					]
+					"value": ["cafe11ac6ca3715f", "cafe0fc10c56f789", "cafe594392e3c50c"]
 				}
 			},
 			"events": { "OnTrue": { "SetMode": ["cafedfa434c64b6d"] } }

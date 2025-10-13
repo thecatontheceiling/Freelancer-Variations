@@ -1,1 +1,13 @@
-{"tempHash":"00E56CA467419D97","tbluHash":"0007338CF9FA38AA","patch":[{"RemoveOverrideDelete":{"ref":"ddfb96a4d6b8c307","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}}],"patchVersion":6}
+{
+	"tempHash": "00E56CA467419D97",
+	"tbluHash": "0007338CF9FA38AA",
+	"patch": [
+		{
+			"RemoveOverrideDelete": {
+				"ref": "ddfb96a4d6b8c307",
+				"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
+}

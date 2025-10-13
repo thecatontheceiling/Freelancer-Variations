@@ -1,19 +1,19 @@
 {
-    "tempHash": "005ED73CA27969B2",
-    "tbluHash": "00AAE79C8BB1169D",
-    "patch": [
-        {
-            "RemoveOverrideDelete": {
-                "ref": "4bb4d27ddf45c743",
-                "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
-            }
-        },
-        {
-            "RemoveOverrideDelete": {
-                "ref": "d82ece8104b77433",
-                "externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
-            }
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "005ED73CA27969B2",
+	"tbluHash": "00AAE79C8BB1169D",
+	"patch": [
+		{
+			"RemoveOverrideDelete": {
+				"ref": "4bb4d27ddf45c743",
+				"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+			}
+		},
+		{
+			"RemoveOverrideDelete": {
+				"ref": "d82ece8104b77433",
+				"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
 }

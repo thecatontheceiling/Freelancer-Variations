@@ -3237,11 +3237,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe1252d01db8d5",
-						"cafeba679421e090",
-						"cafe6574084ff275"
-					],
+					"value": ["cafe1252d01db8d5", "cafeba679421e090", "cafe6574084ff275"],
 					"postInit": true
 				},
 				"m_eidParent": {

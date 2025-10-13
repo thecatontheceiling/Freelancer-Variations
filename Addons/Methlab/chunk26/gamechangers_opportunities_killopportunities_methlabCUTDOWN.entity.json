@@ -317,21 +317,11 @@
 			"events": {
 				"OnTrue": {
 					"Activate": ["9b2d49b8dbbaaf7f"],
-					"TurnOn": [
-						"b45508eb607769ab",
-						"8f2d8c6edead744c",
-						"1513b1ec3648185f",
-						"5c23efbc371616a0"
-					]
+					"TurnOn": ["b45508eb607769ab", "8f2d8c6edead744c", "1513b1ec3648185f", "5c23efbc371616a0"]
 				},
 				"OnFalse": {
 					"Deactivate": ["9b2d49b8dbbaaf7f"],
-					"TurnOff": [
-						"b45508eb607769ab",
-						"8f2d8c6edead744c",
-						"1513b1ec3648185f",
-						"5c23efbc371616a0"
-					]
+					"TurnOff": ["b45508eb607769ab", "8f2d8c6edead744c", "1513b1ec3648185f", "5c23efbc371616a0"]
 				}
 			}
 		},
@@ -365,9 +355,7 @@
 				"OnFirstShatter": { "SetTrue": ["36f51392aaa2e904"] }
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1589,9 +1577,7 @@
 				"OnFirstShatter": { "SetTrue": ["36f51392aaa2e904"] }
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -4265,9 +4251,7 @@
 				"OnFirstShatter": { "SetTrue": ["36f51392aaa2e904"] }
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -8607,9 +8591,7 @@
 				"OnExploded": { "SetTrue": ["36f51392aaa2e904"] }
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -9025,10 +9007,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"SetMinParticlesPerSecond": [
-						"057f48cdcc1aca5e",
-						"1952c946f6c846f2"
-					]
+					"SetMinParticlesPerSecond": ["057f48cdcc1aca5e", "1952c946f6c846f2"]
 				}
 			}
 		},
@@ -11394,20 +11373,10 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"TurnOn": [
-						"b45508eb607769ab",
-						"8f2d8c6edead744c",
-						"1513b1ec3648185f",
-						"5c23efbc371616a0"
-					]
+					"TurnOn": ["b45508eb607769ab", "8f2d8c6edead744c", "1513b1ec3648185f", "5c23efbc371616a0"]
 				},
 				"OnFalse": {
-					"TurnOff": [
-						"b45508eb607769ab",
-						"8f2d8c6edead744c",
-						"1513b1ec3648185f",
-						"5c23efbc371616a0"
-					]
+					"TurnOff": ["b45508eb607769ab", "8f2d8c6edead744c", "1513b1ec3648185f", "5c23efbc371616a0"]
 				}
 			}
 		},
@@ -24283,12 +24252,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30452ae736412e4a",
-						"559b3b0ff0fee6b3",
-						"ec2fdf59289e4970",
-						"89fd40eb0c605abd"
-					]
+					"value": ["30452ae736412e4a", "559b3b0ff0fee6b3", "ec2fdf59289e4970", "89fd40eb0c605abd"]
 				}
 			}
 		},
@@ -25981,39 +25945,26 @@
 					"value": {
 						"data": [
 							[
-								0, 0.003636363660916686, 0, 0,
-								-0.21460182964801788, 0.7146018147468567,
-								4.8090179775077144e-17,
-								0.003636363660916686
+								0, 0.003636363660916686, 0, 0, -0.21460182964801788, 0.7146018147468567,
+								4.8090179775077144e-17, 0.003636363660916686
 							],
 							[
-								0.08223684132099152, 0.503636360168457, 0,
-								0, -0.21460182964801788,
-								-0.07079632580280304, 0.7853981852531433,
-								0.503636360168457
+								0.08223684132099152, 0.503636360168457, 0, 0, -0.21460182964801788, -0.07079632580280304,
+								0.7853981852531433, 0.503636360168457
 							],
 							[
-								0.16447368264198303, 1.003636360168457, 0,
-								0, 0.014545454643666744,
-								-0.02181818149983883,
+								0.16447368264198303, 1.003636360168457, 0, 0, 0.014545454643666744, -0.02181818149983883,
 								-6.994934976817391e-19, 1.003636360168457
 							],
 							[
-								0.7149122953414917, 0.996363639831543, 0,
-								0, 0.21382147073745728,
-								-0.7120032906532288,
+								0.7149122953414917, 0.996363639831543, 0, 0, 0.21382147073745728, -0.7120032906532288,
 								-4.791530717613854e-17, 0.996363639831543
 							],
 							[
-								0.8574561476707458, 0.4981818199157715, 0,
-								0, 0.21382147073745728,
-								0.07053888589143753, -0.7825421690940857,
-								0.4981818199157715
+								0.8574561476707458, 0.4981818199157715, 0, 0, 0.21382147073745728, 0.07053888589143753,
+								-0.7825421690940857, 0.4981818199157715
 							],
-							[
-								1, -8.673617379884035e-18, 0, 0, 0, 0, 0,
-								-8.673617379884035e-18
-							]
+							[1, -8.673617379884035e-18, 0, 0, 0, 0, 0, -8.673617379884035e-18]
 						]
 					}
 				},
@@ -26024,9 +25975,8 @@
 					"value": {
 						"data": [
 							[
-								0, 0, -0.2913208603858948,
-								-0.0073080165311694145, 1.1198828220367432,
-								-2.014216899871826, 2.192963123321533, 0
+								0, 0, -0.2913208603858948, -0.0073080165311694145, 1.1198828220367432, -2.014216899871826,
+								2.192963123321533, 0
 							],
 							[1, 1, 0, 0, 0, 0, 0, 1]
 						]

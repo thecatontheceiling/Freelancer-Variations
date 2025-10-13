@@ -86,12 +86,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8a6db1456af0ef9c",
-						"add8c206ab1f30c9",
-						"5ffb985eecdf67e4",
-						"b94b1d2f01b8b668"
-					],
+					"value": ["8a6db1456af0ef9c", "add8c206ab1f30c9", "5ffb985eecdf67e4", "b94b1d2f01b8b668"],
 					"postInit": true
 				}
 			}
@@ -149,11 +144,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bf155479a4a3afc3",
-						"f98a2fa98a2f180b",
-						"73260bbd28dedb6a"
-					],
+					"value": ["bf155479a4a3afc3", "f98a2fa98a2f180b", "73260bbd28dedb6a"],
 					"postInit": true
 				}
 			}
@@ -445,30 +436,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

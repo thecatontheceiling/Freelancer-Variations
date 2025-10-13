@@ -1,181 +1,180 @@
 {
-    "tempHash": "00A2477FF9A560B2",
-    "tbluHash": "00CDFBEBBE9CF3CA",
-    "rootEntity": "fffffffffffffffe",
-    "entities": {
-        "fffffffffffffffe": {
-            "parent": null,
-            "name": "Scene",
-            "factory": "[modules:/zspatialentity.class].pc_entitytype",
-            "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-        },
-        "feed163dcff6fc27": {
-            "parent": "fffffffffffffffe",
-            "name": "Trigger stuff upon game start",
-            "factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
-            "blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-            "properties": {
-                "m_eEvent": {
-                    "type": "EGameEventType",
-                    "value": "GET_GameplayStart"
-                }
-            },
-            "events": {
-                "EventOccurred": {
-                    "GetIndex": [
-                        "feede78392a3ccd2"
-                    ],
-                    "Pulled_by_rope": [
-                        {
-                            "ref": "b44a06dd0a733868",
-                            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                        }
-                    ]
-                }
-            }
-        },
-        "feede78392a3ccd2": {
-            "parent": "feed163dcff6fc27",
-            "name": "zmultiparentspatialentity",
-            "factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
-            "blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
-            "properties": {
-                "m_aParents": {
-                    "type": "TArray<SEntityTemplateReference>",
-                    "value": []
-                }
-            }
-        }
-    },
-    "propertyOverrides": [
-        {
-            "entities": [
-                {
-                    "ref": "ee87db326b6dce06",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_sId": {
-                    "type": "ZGuid",
-                    "value": "dfae3d00-e6cb-421e-936d-589afd6be8ec"
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "36b29a18c8da2ac3",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_anaconda.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_sId": {
-                    "type": "ZGuid",
-                    "value": "efae3d00-e6cb-421e-936d-589afd6be8ec"
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "d490b42f92d8adc4",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                },
-                {
-                    "ref": "bb365da3bb660ca",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                },
-                {
-                    "ref": "548de670755da916",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_bValue": {
-                    "type": "bool",
-                    "value": false
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "f69db51b7181b8c2",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                },
-                {
-                    "ref": "8a4fc682be1d2c17",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                },
-                {
-                    "ref": "b283c7efb56bf529",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_bStartEnabled": {
-                    "type": "bool",
-                    "value": false
-                }
-            }
-        },
-        {
-            "entities": [
-                {
-                    "ref": "604bc6ea3f0018e1",
-                    "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                }
-            ],
-            "properties": {
-                "m_InventoryItemKeys": {
-                    "type": "TArray<SEntityTemplateReference>",
-                    "value": [
-                        {
-                            "ref": "4d9e72755102aba1",
-                            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                        },{
-                            "ref": "ddb36af283bfb5df",
-                            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-                        }
-                    ]
-                }
-            }
-        }
-    ],
-    "overrideDeletes": [
-        {
-            "ref": "caef91260ef42771",
-            "comment": "Band Cutscene",
-            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-        },
-        {
-            "ref": "e1326713ba50b8de",
-            "comment": "Band Cutscene HUD control",
-            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-        },
-        {
-            "ref": "42035ab5d571becf",
-            "comment": "Band Cutscene HUD control",
-            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-        },
-        {
-            "ref": "b193593aa41d4ca1",
-            "comment": "Band Cutscene Stuff",
-            "externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
-        }
-    ],
-    "pinConnectionOverrides": [],
-    "pinConnectionOverrideDeletes": [],
-    "externalScenes": [
-        "[assembly:/_pro/scenes/missions/colombia/gamechanger_hippo_zinnia.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/colombia/scenario_anaconda.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype",
-        "[assembly:/_pro/scenes/missions/colombia/mission_hot_trompo.brick].pc_entitytype"
-    ],
-    "subType": "scene",
-    "quickEntityVersion": 3.1,
-    "extraFactoryDependencies": [],
-    "extraBlueprintDependencies": [],
-    "comments": []
+	"tempHash": "00A2477FF9A560B2",
+	"tbluHash": "00CDFBEBBE9CF3CA",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"feed163dcff6fc27": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger stuff upon game start",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"GetIndex": ["feede78392a3ccd2"],
+					"Pulled_by_rope": [
+						{
+							"ref": "b44a06dd0a733868",
+							"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"feede78392a3ccd2": {
+			"parent": "feed163dcff6fc27",
+			"name": "zmultiparentspatialentity",
+			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "ee87db326b6dce06",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "dfae3d00-e6cb-421e-936d-589afd6be8ec"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "36b29a18c8da2ac3",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_anaconda.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "efae3d00-e6cb-421e-936d-589afd6be8ec"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d490b42f92d8adc4",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "bb365da3bb660ca",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "548de670755da916",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f69db51b7181b8c2",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "8a4fc682be1d2c17",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "b283c7efb56bf529",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "604bc6ea3f0018e1",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "4d9e72755102aba1",
+							"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+						},
+						{
+							"ref": "ddb36af283bfb5df",
+							"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "caef91260ef42771",
+			"comment": "Band Cutscene",
+			"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+		},
+		{
+			"ref": "e1326713ba50b8de",
+			"comment": "Band Cutscene HUD control",
+			"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+		},
+		{
+			"ref": "42035ab5d571becf",
+			"comment": "Band Cutscene HUD control",
+			"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+		},
+		{
+			"ref": "b193593aa41d4ca1",
+			"comment": "Band Cutscene Stuff",
+			"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/colombia/gamechanger_hippo_zinnia.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/scenario_anaconda.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/mission_hot_trompo.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

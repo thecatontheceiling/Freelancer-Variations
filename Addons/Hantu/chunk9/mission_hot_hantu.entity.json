@@ -3710,11 +3710,7 @@
 			"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out": {
-					"TransmitEvent": [
-						"c79b446c60c35f96",
-						"b350cdd5483de7f6",
-						"757b45762e0021a4"
-					]
+					"TransmitEvent": ["c79b446c60c35f96", "b350cdd5483de7f6", "757b45762e0021a4"]
 				}
 			}
 		},
@@ -4347,11 +4343,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a9d78e92fe6a9308",
-						"e8b2687dfdf1292e",
-						"11d66a7f0d7eb3cb"
-					],
+					"value": ["a9d78e92fe6a9308", "e8b2687dfdf1292e", "11d66a7f0d7eb3cb"],
 					"postInit": true
 				}
 			}
@@ -16936,11 +16928,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"92c57dce045b63b4",
-						"4f645352b92e4970",
-						"257b28ef48b42eb6"
-					]
+					"value": ["92c57dce045b63b4", "4f645352b92e4970", "257b28ef48b42eb6"]
 				}
 			}
 		},
@@ -18314,12 +18302,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_CIVMALECH01",
-						"eAVV_CIVMALECH02",
-						"eAVV_HUSH",
-						"eAVV_KONG"
-					]
+					"value": ["eAVV_CIVMALECH01", "eAVV_CIVMALECH02", "eAVV_HUSH", "eAVV_KONG"]
 				}
 			}
 		}

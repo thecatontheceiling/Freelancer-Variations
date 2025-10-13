@@ -673,86 +673,23 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[-6, 0.00737512344494462, 0, 0, 0, 0, 0.0019304618472233415, 0.00737512344494462],
+							[-5.28280782699585, 0.00930558517575264, 0, 0, 0, 0, 0.023692648857831955, 0.00930558517575264],
 							[
-								-6,
-								0.00737512344494462,
-								0,
-								0,
-								0,
-								0,
-								0.0019304618472233415,
-								0.00737512344494462
-							],
-							[
-								-5.28280782699585,
-								0.00930558517575264,
-								0,
-								0,
-								0,
-								0,
-								0.023692648857831955,
-								0.00930558517575264
-							],
-							[
-								-2.042663335800171,
-								0.032998234033584595,
-								0,
-								0,
-								0,
-								0,
-								0.009559597820043564,
+								-2.042663335800171, 0.032998234033584595, 0, 0, 0, 0, 0.009559597820043564,
 								0.032998234033584595
 							],
 							[
-								-0.7353485822677612,
-								0.04255783185362816,
-								0,
-								0,
-								0,
-								0,
-								0.023190023377537727,
+								-0.7353485822677612, 0.04255783185362816, 0, 0, 0, 0, 0.023190023377537727,
 								0.04255783185362816
 							],
 							[
-								-0.005953712854534388,
-								0.06574785709381104,
-								0,
-								0,
-								0,
-								0,
-								0.05404132604598999,
+								-0.005953712854534388, 0.06574785709381104, 0, 0, 0, 0, 0.05404132604598999,
 								0.06574785709381104
 							],
-							[
-								0.9094015955924988,
-								0.11978918313980103,
-								0,
-								0,
-								0,
-								0,
-								0.021822921931743622,
-								0.11978918313980103
-							],
-							[
-								1.3310214281082153,
-								0.14161209762096405,
-								0,
-								0,
-								0,
-								0,
-								0.010183779522776604,
-								0.14161209762096405
-							],
-							[
-								1.8463621139526367,
-								0.1517958790063858,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0.1517958790063858
-							]
+							[0.9094015955924988, 0.11978918313980103, 0, 0, 0, 0, 0.021822921931743622, 0.11978918313980103],
+							[1.3310214281082153, 0.14161209762096405, 0, 0, 0, 0, 0.010183779522776604, 0.14161209762096405],
+							[1.8463621139526367, 0.1517958790063858, 0, 0, 0, 0, 0, 0.1517958790063858]
 						]
 					}
 				}
@@ -1159,86 +1096,20 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[-6, 0.00892084464430809, 0, 0, 0, 0, 0.002681906335055828, 0.00892084464430809],
 							[
-								-6,
-								0.00892084464430809,
-								0,
-								0,
-								0,
-								0,
-								0.002681906335055828,
-								0.00892084464430809
-							],
-							[
-								-2.405212163925171,
-								0.011602750979363918,
-								0,
-								0,
-								0,
-								0,
-								0.004645483568310738,
+								-2.405212163925171, 0.011602750979363918, 0, 0, 0, 0, 0.004645483568310738,
 								0.011602750979363918
 							],
+							[-1.0155340433120728, 0.01624823361635208, 0, 0, 0, 0, 0.01479534525424242, 0.01624823361635208],
 							[
-								-1.0155340433120728,
-								0.01624823361635208,
-								0,
-								0,
-								0,
-								0,
-								0.01479534525424242,
-								0.01624823361635208
-							],
-							[
-								-0.003279192140325904,
-								0.031043579801917076,
-								0,
-								0,
-								0,
-								0,
-								0.0509219728410244,
+								-0.003279192140325904, 0.031043579801917076, 0, 0, 0, 0, 0.0509219728410244,
 								0.031043579801917076
 							],
-							[
-								0.672118067741394,
-								0.08196555078029633,
-								0,
-								0,
-								0,
-								0,
-								0.04761206731200218,
-								0.08196555078029633
-							],
-							[
-								0.9927070736885071,
-								0.1295776218175888,
-								0,
-								0,
-								0,
-								0,
-								0.031003963202238083,
-								0.1295776218175888
-							],
-							[
-								1.6508631706237793,
-								0.1605815887451172,
-								0,
-								0,
-								0,
-								0,
-								0.010018479079008102,
-								0.1605815887451172
-							],
-							[
-								3.014289140701294,
-								0.1706000715494156,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0.1706000715494156
-							]
+							[0.672118067741394, 0.08196555078029633, 0, 0, 0, 0, 0.04761206731200218, 0.08196555078029633],
+							[0.9927070736885071, 0.1295776218175888, 0, 0, 0, 0, 0.031003963202238083, 0.1295776218175888],
+							[1.6508631706237793, 0.1605815887451172, 0, 0, 0, 0, 0.010018479079008102, 0.1605815887451172],
+							[3.014289140701294, 0.1706000715494156, 0, 0, 0, 0, 0, 0.1706000715494156]
 						]
 					}
 				}
@@ -2525,9 +2396,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd1a7707ca665f"
-					],
+					"value": ["abcd1a7707ca665f"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2550,9 +2419,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"GetIndex": [
-						"abcd4be6399231c3"
-					],
+					"GetIndex": ["abcd4be6399231c3"],
 					"Reveal": [
 						{
 							"ref": "5b247d7a40f8a28f",
@@ -2570,12 +2437,7 @@
 			"properties": {
 				"m_aParents": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd92a5042630cc",
-						"abcd8553d05aabb1",
-						"abcd3dd8bd28419e",
-						"abcde0054890f747"
-					]
+					"value": ["abcd92a5042630cc", "abcd8553d05aabb1", "abcd3dd8bd28419e", "abcde0054890f747"]
 				}
 			}
 		},
@@ -2756,9 +2618,7 @@
 				},
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd252c1492c7fd"
-					]
+					"value": ["abcd252c1492c7fd"]
 				},
 				"m_nPriority": {
 					"type": "uint32",
@@ -2771,19 +2631,13 @@
 			},
 			"events": {
 				"OnPlay": {
-					"SetTrue": [
-						"abcd3447565e44f4"
-					]
+					"SetTrue": ["abcd3447565e44f4"]
 				},
 				"OnStop": {
-					"SetFalse": [
-						"abcd3447565e44f4"
-					]
+					"SetFalse": ["abcd3447565e44f4"]
 				},
 				"OnSkip": {
-					"SetFalse": [
-						"abcd3447565e44f4"
-					]
+					"SetFalse": ["abcd3447565e44f4"]
 				}
 			}
 		},
@@ -2802,11 +2656,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdc59d438398c4",
-						"abcdfb8bb6e3d4de",
-						"abcd9bb05a3124b9"
-					],
+					"value": ["abcdc59d438398c4", "abcdfb8bb6e3d4de", "abcd9bb05a3124b9"],
 					"postInit": true
 				}
 			}
@@ -2827,10 +2677,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd0891d8269549",
-						"abcd999e9323a8f1"
-					],
+					"value": ["abcd0891d8269549", "abcd999e9323a8f1"],
 					"postInit": true
 				}
 			}
@@ -2850,9 +2697,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd481ec363f31c"
-					]
+					"value": ["abcd481ec363f31c"]
 				}
 			}
 		},
@@ -2877,9 +2722,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd403544feb4df"
-					]
+					"value": ["abcd403544feb4df"]
 				}
 			}
 		},
@@ -2898,10 +2741,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd773eb3af1516",
-						"abcd5c221f2b324d"
-					],
+					"value": ["abcd773eb3af1516", "abcd5c221f2b324d"],
 					"postInit": true
 				}
 			}
@@ -2983,10 +2823,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcda52d8f4efcc5",
-						"abcda24fadd172a2"
-					],
+					"value": ["abcda52d8f4efcc5", "abcda24fadd172a2"],
 					"postInit": true
 				}
 			}
@@ -3007,9 +2844,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd1ea07e293715"
-					],
+					"value": ["abcd1ea07e293715"],
 					"postInit": true
 				}
 			}
@@ -3030,9 +2865,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcda9fed5d01072"
-					]
+					"value": ["abcda9fed5d01072"]
 				}
 			}
 		},
@@ -3064,9 +2897,7 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [
-						false
-					]
+					"value": [false]
 				}
 			}
 		},
@@ -3098,9 +2929,7 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [
-						true
-					]
+					"value": [true]
 				}
 			}
 		},
@@ -3163,9 +2992,7 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [
-						false
-					]
+					"value": [false]
 				}
 			}
 		},
@@ -3185,10 +3012,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd2bfdfdc31921",
-						"abcd67211ab616a6"
-					],
+					"value": ["abcd2bfdfdc31921", "abcd67211ab616a6"],
 					"postInit": true
 				}
 			}
@@ -3209,10 +3033,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdb9e9b9c37473",
-						"abcd5cd9eda6367d"
-					]
+					"value": ["abcdb9e9b9c37473", "abcd5cd9eda6367d"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -3357,9 +3178,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd2babeb68f4b8"
-					],
+					"value": ["abcd2babeb68f4b8"],
 					"postInit": true
 				}
 			}
@@ -3386,26 +3205,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				}
@@ -3428,10 +3229,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd855835330e68",
-						"abcd0be42de5c51f"
-					],
+					"value": ["abcd855835330e68", "abcd0be42de5c51f"],
 					"postInit": true
 				}
 			}
@@ -3464,9 +3262,7 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [
-						true
-					]
+					"value": [true]
 				}
 			}
 		},
@@ -3498,9 +3294,7 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [
-						false
-					]
+					"value": [false]
 				}
 			}
 		},
@@ -3529,9 +3323,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd03c698ff6e0b"
-					],
+					"value": ["abcd03c698ff6e0b"],
 					"postInit": true
 				}
 			}
@@ -3548,9 +3340,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd8edd3ee3afd5"
-					]
+					"value": ["abcd8edd3ee3afd5"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -3752,9 +3542,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -4002,12 +3790,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/scenario_mamushi.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/hokkaido/scenario_mamushi.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/hokkaido/tod_winter_twilight_clear.brick].pc_entitytype",
@@ -4022,13 +3806,7 @@
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

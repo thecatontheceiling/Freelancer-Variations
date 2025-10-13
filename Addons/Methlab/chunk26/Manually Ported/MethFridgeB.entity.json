@@ -1,1 +1,904 @@
-{"tempHash":"00A44E9175A1995F","tbluHash":"00E2A5365393DC46","rootEntity":"05235bb82e48d974","entities":{"423ab6873fcf8051":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_10","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-155.0000185467278},"position":{"x":0.2749960124492645,"y":-0.022487999871373177,"z":0.5180349946022034},"scale":{"x":0.9999999999999999,"y":0.9999999999999999,"z":1}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"b9aa7646cbf1fe08":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_10","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-109.99998562836245},"position":{"x":0.2807700037956238,"y":0.07091999799013138,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"48239203356d6437":{"parent":"fa8aa8eada763ca2","name":"Laboratory_Tube_Empty_A_02","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.09795212745666504,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"fa8aa8eada763ca2","postInit":true}}},"c2b84341ce88ede8":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_07","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.3429409861564636,"y":0.08328299969434738,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"d90bb81bf37b1c87":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_07","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-109.99998562836245},"position":{"x":0.34170201420783997,"y":0.03576600179076195,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"d152fdd6f687aa64":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_09","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":0.17586399614810944,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"4dd89507a829801d":{"parent":"d4a168669c50251a","name":"Laboratory_Tube_Empty_A_04","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.05211997032165527,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"d4a168669c50251a","postInit":true}}},"fa8aa8eada763ca2":{"parent":"05235bb82e48d974","name":"Laboratory_Tube_Stand_A_02","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_stand_a.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":0.18203799426555634,"y":-0.03143800050020218,"z":0.18988999724388123}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"7e3ec469e08ff8ab":{"parent":"fa8aa8eada763ca2","name":"Laboratory_Tube_Empty_A_05","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.12685899436473846,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"fa8aa8eada763ca2"}}},"7d0479be4c8d4746":{"parent":"d4a168669c50251a","name":"Laboratory_Tube_Empty_A_02","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.09795212745666504,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"d4a168669c50251a","postInit":true}}},"f53359fd28ab818d":{"parent":"fa8aa8eada763ca2","name":"Laboratory_Tube_Empty_A_04","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-0.019767043586382146},"position":{"x":-0.08967600017786026,"y":0.0032110000029206276,"z":0.02811400033533573},"scale":{"x":0.9999999999999999,"y":0.9999999999999999,"z":1}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"fa8aa8eada763ca2"}}},"7687b935886257fc":{"parent":"fa8aa8eada763ca2","name":"Laboratory_Tube_Empty_A_03","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.05934906005859375,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"fa8aa8eada763ca2"}}},"6dada34443b0618e":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_03","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-45},"position":{"x":0.34170201420783997,"y":-0.20138700306415558,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"6afbac68fd917a3f":{"parent":"d4a168669c50251a","name":"Laboratory_Tube_Empty_A_01","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.13446399569511414,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"d4a168669c50251a","postInit":true}}},"2c0680ad07c1fdde":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_00","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":84.99992963343513},"position":{"x":0.3429409861564636,"y":-0.3372440040111542,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"028b71fa602854d0":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_09","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-45},"position":{"x":0.2807700037956238,"y":0.016330000013113022,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"5a572028091c7e80":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_13","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.2807700037956238,"y":-0.2201640009880066,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"5183b1e15ae9eb53":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_09","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-75.0000041809821},"position":{"x":0.2749960124492645,"y":-0.14525100588798523,"z":0.5180349946022034},"scale":{"x":0.9999999999999999,"y":0.9999999999999999,"z":1}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"1cc740dd3a870f8a":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_15","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-109.99998562836245},"position":{"x":0.23335899412631989,"y":-0.164465993642807,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"6d618b015e3eb3a8":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_06","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.07074899971485138,"y":-0.3251799941062927,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"f03035c2d83c78d5":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_08","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.2807700037956238,"y":-0.03760100156068802,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"24b5a9de527346de":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_06","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":0.006186000071465969,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"b10abe2cdbe06ea0":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_14","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.23335899412631989,"y":-0.09042499959468842,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"23a35133e5271982":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_11","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-109.99998562836245},"position":{"x":0.2807700037956238,"y":-0.1116430014371872,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"f3b8080bf9f9575b":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_12","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.10031300038099289,"y":-0.03998899832367897,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"59b3c0a7db07adec":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_04","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-109.99998562836245},"position":{"x":0.34170201420783997,"y":-0.14679700136184692,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"abc3be198b908754":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_02","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.34170201420783997,"y":0.2227189987897873,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"02f39c7745f2577f":{"parent":"d4a168669c50251a","name":"Laboratory_Tube_Empty_A_03","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.05934906005859375,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"d4a168669c50251a","postInit":true}}},"a1728a91b585c342":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_12","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-45},"position":{"x":0.2807700037956238,"y":-0.16623300313949585,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"6555e335381adb04":{"parent":"d4a168669c50251a","name":"Laboratory_Tube_Empty_A_05","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.12685899436473846,"y":0.0032109019812196493,"z":0.02811395935714245}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"d4a168669c50251a","postInit":true}}},"d974879802180d0a":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_08","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":0.12228299677371979,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"b400e38b52eb7018":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_08","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":19.999931072988005},"position":{"x":0.16825799643993378,"y":-0.05147499963641167,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974","postInit":true}}},"05235bb82e48d974":{"parent":null,"name":"Meth_Fridge_B","factory":"[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_fridge_c_00.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_fridge_c_00.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-1.92802095413208,"y":-3.6779470443725586,"z":-0.0000009999999974752427}}}}},"cf842317717461d7":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_07","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":0.061427999287843704,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"d932ac1a43e7d287":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_03","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":84.99992963343513},"position":{"x":0.2749960124492645,"y":-0.26366299390792847,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"304a9e464836c1c0":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_01","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.3429409861564636,"y":-0.284824013710022,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"b2d40961393083f1":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_16","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.23335899412631989,"y":-0.2729870080947876,"z":1.5023499727249146}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"631b99536cc67875":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_10","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":0.22819900512695313,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"93b5bde46abc2e5b":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_11","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.2749960124492645,"y":0.03990599885582924,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"d4a168669c50251a":{"parent":"05235bb82e48d974","name":"Laboratory_Tube_Stand_A_01","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_stand_a.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":0.293971985578537,"y":-0.09096899628639221,"z":0.18988999724388123}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"ef706ca95a46e5cf":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_06","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-45},"position":{"x":0.34170201420783997,"y":0.15933799743652344,"z":1.1759289503097534}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"da845104217adae2":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_B_05","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.34170201420783997,"y":0.21631599962711334,"z":1.1793659925460815}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"bb4f7fa586d04d91":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_02","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-75.0000041809821},"position":{"x":0.3429409861564636,"y":-0.21883200109004974,"z":0.5180349946022034},"scale":{"x":0.9999999999999999,"y":0.9999999999999999,"z":1}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"20ed50a600862b7a":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_05","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.13869400322437286,"y":-0.14761200547218323,"z":0.5180349946022034}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"06a898aedd2149ca":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_05","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":-0.046149998903274536,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"5333346ed75814f7":{"parent":"05235bb82e48d974","name":"Laboratory_Pills_A_04","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-155.0000185467278},"position":{"x":0.13869400322437286,"y":-0.2100059986114502,"z":0.5180349946022034},"scale":{"x":0.9999999999999999,"y":0.9999999999999999,"z":1}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}},"0ab5f8f6e04123f6":{"parent":"fa8aa8eada763ca2","name":"Laboratory_Tube_Empty_A_01","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-0.027960337643270574},"position":{"x":-0.013530000112950802,"y":0.0032110000029206276,"z":0.02811400033533573}}},"m_fMass":{"type":"float32","value":0.5},"m_eidParent":{"type":"SEntityTemplateReference","value":"fa8aa8eada763ca2"}}},"b812a4621a46d9aa":{"parent":"05235bb82e48d974","name":"laboratory_pills_c_00_04","factory":"[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.35735899209976196,"y":-0.09973099827766418,"z":0.8415539860725403}}},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_bIgnoreCharacters":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"05235bb82e48d974"}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00A44E9175A1995F",
+	"tbluHash": "00E2A5365393DC46",
+	"rootEntity": "05235bb82e48d974",
+	"entities": {
+		"423ab6873fcf8051": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_10",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -155.0000185467278 },
+						"position": { "x": 0.2749960124492645, "y": -0.022487999871373177, "z": 0.5180349946022034 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"b9aa7646cbf1fe08": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_10",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -109.99998562836245 },
+						"position": { "x": 0.2807700037956238, "y": 0.07091999799013138, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"48239203356d6437": {
+			"parent": "fa8aa8eada763ca2",
+			"name": "Laboratory_Tube_Empty_A_02",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.09795212745666504, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fa8aa8eada763ca2", "postInit": true }
+			}
+		},
+		"c2b84341ce88ede8": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_07",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.3429409861564636, "y": 0.08328299969434738, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"d90bb81bf37b1c87": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_07",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -109.99998562836245 },
+						"position": { "x": 0.34170201420783997, "y": 0.03576600179076195, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"d152fdd6f687aa64": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_09",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": 0.17586399614810944, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"4dd89507a829801d": {
+			"parent": "d4a168669c50251a",
+			"name": "Laboratory_Tube_Empty_A_04",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.05211997032165527, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "d4a168669c50251a", "postInit": true }
+			}
+		},
+		"fa8aa8eada763ca2": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Tube_Stand_A_02",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_stand_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0.18203799426555634, "y": -0.03143800050020218, "z": 0.18988999724388123 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"7e3ec469e08ff8ab": {
+			"parent": "fa8aa8eada763ca2",
+			"name": "Laboratory_Tube_Empty_A_05",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.12685899436473846, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fa8aa8eada763ca2" }
+			}
+		},
+		"7d0479be4c8d4746": {
+			"parent": "d4a168669c50251a",
+			"name": "Laboratory_Tube_Empty_A_02",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.09795212745666504, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "d4a168669c50251a", "postInit": true }
+			}
+		},
+		"f53359fd28ab818d": {
+			"parent": "fa8aa8eada763ca2",
+			"name": "Laboratory_Tube_Empty_A_04",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -0.019767043586382146 },
+						"position": { "x": -0.08967600017786026, "y": 0.0032110000029206276, "z": 0.02811400033533573 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fa8aa8eada763ca2" }
+			}
+		},
+		"7687b935886257fc": {
+			"parent": "fa8aa8eada763ca2",
+			"name": "Laboratory_Tube_Empty_A_03",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.05934906005859375, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fa8aa8eada763ca2" }
+			}
+		},
+		"6dada34443b0618e": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_03",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -45 },
+						"position": { "x": 0.34170201420783997, "y": -0.20138700306415558, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"6afbac68fd917a3f": {
+			"parent": "d4a168669c50251a",
+			"name": "Laboratory_Tube_Empty_A_01",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.13446399569511414, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "d4a168669c50251a", "postInit": true }
+			}
+		},
+		"2c0680ad07c1fdde": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_00",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 84.99992963343513 },
+						"position": { "x": 0.3429409861564636, "y": -0.3372440040111542, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"028b71fa602854d0": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_09",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -45 },
+						"position": { "x": 0.2807700037956238, "y": 0.016330000013113022, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"5a572028091c7e80": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_13",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.2807700037956238, "y": -0.2201640009880066, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"5183b1e15ae9eb53": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_09",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -75.0000041809821 },
+						"position": { "x": 0.2749960124492645, "y": -0.14525100588798523, "z": 0.5180349946022034 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"1cc740dd3a870f8a": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_15",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -109.99998562836245 },
+						"position": { "x": 0.23335899412631989, "y": -0.164465993642807, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"6d618b015e3eb3a8": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_06",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.07074899971485138, "y": -0.3251799941062927, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"f03035c2d83c78d5": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_08",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.2807700037956238, "y": -0.03760100156068802, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"24b5a9de527346de": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_06",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": 0.006186000071465969, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"b10abe2cdbe06ea0": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_14",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.23335899412631989, "y": -0.09042499959468842, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"23a35133e5271982": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_11",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -109.99998562836245 },
+						"position": { "x": 0.2807700037956238, "y": -0.1116430014371872, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"f3b8080bf9f9575b": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_12",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.10031300038099289, "y": -0.03998899832367897, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"59b3c0a7db07adec": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_04",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -109.99998562836245 },
+						"position": { "x": 0.34170201420783997, "y": -0.14679700136184692, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"abc3be198b908754": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_02",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.34170201420783997, "y": 0.2227189987897873, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"02f39c7745f2577f": {
+			"parent": "d4a168669c50251a",
+			"name": "Laboratory_Tube_Empty_A_03",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.05934906005859375, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "d4a168669c50251a", "postInit": true }
+			}
+		},
+		"a1728a91b585c342": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_12",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -45 },
+						"position": { "x": 0.2807700037956238, "y": -0.16623300313949585, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"6555e335381adb04": {
+			"parent": "d4a168669c50251a",
+			"name": "Laboratory_Tube_Empty_A_05",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.12685899436473846, "y": 0.0032109019812196493, "z": 0.02811395935714245 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "d4a168669c50251a", "postInit": true }
+			}
+		},
+		"d974879802180d0a": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_08",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": 0.12228299677371979, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"b400e38b52eb7018": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_08",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 19.999931072988005 },
+						"position": { "x": 0.16825799643993378, "y": -0.05147499963641167, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974", "postInit": true }
+			}
+		},
+		"05235bb82e48d974": {
+			"parent": null,
+			"name": "Meth_Fridge_B",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_fridge_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_fridge_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -1.92802095413208, "y": -3.6779470443725586, "z": -0.0000009999999974752427 }
+					}
+				}
+			}
+		},
+		"cf842317717461d7": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_07",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": 0.061427999287843704, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"d932ac1a43e7d287": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_03",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 84.99992963343513 },
+						"position": { "x": 0.2749960124492645, "y": -0.26366299390792847, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"304a9e464836c1c0": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_01",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.3429409861564636, "y": -0.284824013710022, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"b2d40961393083f1": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_16",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.23335899412631989, "y": -0.2729870080947876, "z": 1.5023499727249146 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"631b99536cc67875": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_10",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": 0.22819900512695313, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"93b5bde46abc2e5b": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_11",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.2749960124492645, "y": 0.03990599885582924, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"d4a168669c50251a": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Tube_Stand_A_01",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_stand_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0.293971985578537, "y": -0.09096899628639221, "z": 0.18988999724388123 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"ef706ca95a46e5cf": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_06",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -45 },
+						"position": { "x": 0.34170201420783997, "y": 0.15933799743652344, "z": 1.1759289503097534 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"da845104217adae2": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_B_05",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_b_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.34170201420783997, "y": 0.21631599962711334, "z": 1.1793659925460815 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"bb4f7fa586d04d91": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_02",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -75.0000041809821 },
+						"position": { "x": 0.3429409861564636, "y": -0.21883200109004974, "z": 0.5180349946022034 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"20ed50a600862b7a": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_05",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.13869400322437286, "y": -0.14761200547218323, "z": 0.5180349946022034 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"06a898aedd2149ca": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_05",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": -0.046149998903274536, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"5333346ed75814f7": {
+			"parent": "05235bb82e48d974",
+			"name": "Laboratory_Pills_A_04",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_a.wl2?/laboratory_pills_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -155.0000185467278 },
+						"position": { "x": 0.13869400322437286, "y": -0.2100059986114502, "z": 0.5180349946022034 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		},
+		"0ab5f8f6e04123f6": {
+			"parent": "fa8aa8eada763ca2",
+			"name": "Laboratory_Tube_Empty_A_01",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_glassware_a.wl2?/laboratory_tube_empty_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -0.027960337643270574 },
+						"position": { "x": -0.013530000112950802, "y": 0.0032110000029206276, "z": 0.02811400033533573 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 0.5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fa8aa8eada763ca2" }
+			}
+		},
+		"b812a4621a46d9aa": {
+			"parent": "05235bb82e48d974",
+			"name": "laboratory_pills_c_00_04",
+			"factory": "[assembly:/_pro/environment/geometry/props/laboratory/laboratory_pills_c.wl2?/laboratory_pills_c_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.35735899209976196, "y": -0.09973099827766418, "z": 0.8415539860725403 }
+					}
+				},
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "05235bb82e48d974" }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

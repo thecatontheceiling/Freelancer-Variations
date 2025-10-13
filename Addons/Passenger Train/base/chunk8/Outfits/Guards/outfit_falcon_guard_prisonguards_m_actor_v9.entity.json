@@ -350,9 +350,7 @@
 			"properties": {
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -541,9 +539,7 @@
 			"name": "head_montgomery",
 			"factory": "006B81D024028122",
 			"blueprint": "003E4D13D2402465",
-			"properties": {
-
-			}
+			"properties": {}
 		},
 		"7bdfb65f24b507d9": {
 			"parent": "4fdff73a83ef080e",
@@ -568,9 +564,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4fdff73a83ef080e"
-					]
+					"value": ["4fdff73a83ef080e"]
 				},
 				"Texture2D_03_enab": {
 					"type": "bool",
@@ -697,9 +691,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed363a49824701"
-					]
+					"value": ["feed363a49824701"]
 				},
 				"ConstantColorRGB_02_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -788,9 +780,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed363a49824701"
-					]
+					"value": ["feed363a49824701"]
 				},
 				"ConstantColorRGB_02_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -857,21 +847,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -1096,10 +1076,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

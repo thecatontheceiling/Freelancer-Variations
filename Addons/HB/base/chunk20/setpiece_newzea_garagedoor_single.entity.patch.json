@@ -1,1 +1,6 @@
-{"tempHash":"001ED9993E4908B8","tbluHash":"0016F4C0AF75EE7F","patch":[{"SubEntityOperation":["92da2c816c55dce3",{"RemoveAllEventConnectionsForEvent":"DoorOpenByAny"}]}],"patchVersion":6}
+{
+	"tempHash": "001ED9993E4908B8",
+	"tbluHash": "0016F4C0AF75EE7F",
+	"patch": [{ "SubEntityOperation": ["92da2c816c55dce3", { "RemoveAllEventConnectionsForEvent": "DoorOpenByAny" }] }],
+	"patchVersion": 6
+}

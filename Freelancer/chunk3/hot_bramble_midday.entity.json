@@ -1,1 +1,282 @@
-{"tempHash":"002EF59115A7FE4C","tbluHash":"0016EF60A74DD2F4","rootEntity":"fffffffffffffffe","entities":{"fffffffffffffffe":{"parent":null,"name":"Scene","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint"},"8d0b10abe92b0ad4":{"parent":{"ref":"8db168ccb78b59e4","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},"name":"Sky_Sunset_v3_063b_smoothsnake","factory":"00124D909AE83A34","blueprint":"0015E9621CCAB52A","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":31.999992676384405},"position":{"x":-45.23133087158203,"y":109.76349639892578,"z":-17.58654022216797}}},"ConstantVector1D_07_Value":{"type":"float32","value":1.399999976158142},"ConstantColorRGB_01_Value":{"type":"SColorRGB","value":"#ffffff"},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe"}}}},"propertyOverrides":[{"entities":[{"ref":"1fca6391bf4aa22f","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},{"ref":"5094b3cdaee2ca3f","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_bStartEnabled":{"type":"bool","value":true}}},{"entities":[{"ref":"a1b60c18132d74c7","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":165.19148552983003},"position":{"x":-6.31564,"y":42.26371,"z":18.01}}}}},{"entities":[{"ref":"688e41afac53ebea","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":107.56088331344449},"position":{"x":-8.530351,"y":48.261803,"z":18.01453}}},"m_aApproachPath":{"type":"TArray<SEntityTemplateReference>","value":[]}}},{"entities":[{"ref":"505c19a46c7ec11a","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-79.62517738166058},"position":{"x":8.128969,"y":43.536957,"z":18.040684},"scale":{"x":0.9999999999999999,"y":0.9999999999999999,"z":1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe"}}},{"entities":[{"ref":"ee1a6323d69010c7","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":18.141656916734405},"position":{"x":0.79163826,"y":-9.815516,"z":17.999357}}},"m_aApproachPath":{"type":"TArray<SEntityTemplateReference>","value":[]}}},{"entities":[{"ref":"e43e800c4c2c0005","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":179.9999949910437},"position":{"x":-6.5144706,"y":11.772518,"z":18.000004}}},"m_aApproachPath":{"type":"TArray<SEntityTemplateReference>","value":[]}}},{"entities":[{"ref":"4aadb7a4e20837e2","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},{"ref":"9327c665020e437e","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},{"ref":"af08d888a7e7e003","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},{"ref":"c8ae7f1eaec5d23b","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},{"ref":"f86d25397609f732","externalScene":"[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype"},{"ref":"685c10e79c8a53bd","externalScene":"[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype"}],"properties":{"m_bStartEnabled":{"type":"bool","value":false},"m_bValue":{"type":"bool","value":true}}},{"entities":[{"ref":"2819eb0b4ca47eec","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"ColorCorrectionTextureHDR":{"type":"ZRuntimeResourceID","value":{"resource":"001EA6CFE28385E3","flag":"5F"}},"m_fVignetteStrength":{"type":"float32","value":0.4000000059604645},"m_vHDRAdaptationLuminanceMinMax":{"type":"SVector2","value":{"x":0.5,"y":7}}}},{"entities":[{"ref":"71d20fe7a618722d","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_bVisible":{"type":"bool","value":false}}},{"entities":[{"ref":"c2d609c1ab9932c4","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_fInscatterIntensity":{"type":"float32","value":0.4000000059604645},"m_fSunIntensityScale":{"type":"float32","value":130},"m_fSunRadiusScale":{"type":"float32","value":2.5},"m_fWorldScale":{"type":"float32","value":2},"m_MieColor":{"type":"SColorRGB","value":"#b2e2ff"},"m_RayleighColor":{"type":"SColorRGB","value":"#5c8fff"}}},{"entities":[{"ref":"c46e2b98a293b829","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_diffuseColor":{"type":"SColorRGB","value":"#fff4f2"},"m_fDiffusePower":{"type":"float32","value":230},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":47.15695366703731,"y":4.087982978756991,"z":-27.39559125609004},"position":{"x":-2.7200000286102295,"y":-1.190000057220459,"z":9.149999618530273}}},"m_ProjectorMap":{"type":"ZRuntimeResourceID","value":{"resource":"001F9E262E6D9FCF","flag":"5F"}},"m_vBoxSize":{"type":"SVector3","value":{"x":220,"y":250,"z":330}},"m_vCSMCascadeRadii":{"type":"SVector3","value":{"x":-1,"y":-1,"z":33}},"m_vProjectorMapOffset":{"type":"SVector2","value":{"x":0.20000000298023224,"y":0.20000000298023224}},"m_vProjectorMapUVVelocity":{"type":"SVector2","value":{"x":0.0010000000474974513,"y":0.006000000052154064}}}},{"entities":[{"ref":"7f5168b3aced1b10","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"},{"ref":"8e5b2d5779be6101","externalScene":"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"}],"properties":{"m_fHDRBloomScale":{"type":"float32","value":0},"m_fHDRBloomFalloff":{"type":"float32","value":0}}}],"overrideDeletes":[{"ref":"a1b2c83d43b25996","externalScene":"[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype"}],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":["[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype","[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype","[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"],"subType":"scene","quickEntityVersion":3.1,"extraFactoryDependencies":[{"resource":"001EA6CFE28385E3","flag":"5F"},{"resource":"001F9E262E6D9FCF","flag":"5F"}],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "002EF59115A7FE4C",
+	"tbluHash": "0016EF60A74DD2F4",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"8d0b10abe92b0ad4": {
+			"parent": {
+				"ref": "8db168ccb78b59e4",
+				"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+			},
+			"name": "Sky_Sunset_v3_063b_smoothsnake",
+			"factory": "00124D909AE83A34",
+			"blueprint": "0015E9621CCAB52A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 31.999992676384405 },
+						"position": { "x": -45.23133087158203, "y": 109.76349639892578, "z": -17.58654022216797 }
+					}
+				},
+				"ConstantVector1D_07_Value": { "type": "float32", "value": 1.399999976158142 },
+				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#ffffff" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "1fca6391bf4aa22f",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				{
+					"ref": "5094b3cdaee2ca3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bStartEnabled": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "a1b60c18132d74c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 165.19148552983003 },
+						"position": { "x": -6.31564, "y": 42.26371, "z": 18.01 }
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "688e41afac53ebea",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 107.56088331344449 },
+						"position": { "x": -8.530351, "y": 48.261803, "z": 18.01453 }
+					}
+				},
+				"m_aApproachPath": { "type": "TArray<SEntityTemplateReference>", "value": [] }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "505c19a46c7ec11a",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -79.62517738166058 },
+						"position": { "x": 8.128969, "y": 43.536957, "z": 18.040684 },
+						"scale": { "x": 0.9999999999999999, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "ee1a6323d69010c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 18.141656916734405 },
+						"position": { "x": 0.79163826, "y": -9.815516, "z": 17.999357 }
+					}
+				},
+				"m_aApproachPath": { "type": "TArray<SEntityTemplateReference>", "value": [] }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e43e800c4c2c0005",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 179.9999949910437 },
+						"position": { "x": -6.5144706, "y": 11.772518, "z": 18.000004 }
+					}
+				},
+				"m_aApproachPath": { "type": "TArray<SEntityTemplateReference>", "value": [] }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4aadb7a4e20837e2",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				{
+					"ref": "9327c665020e437e",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				{
+					"ref": "af08d888a7e7e003",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				{
+					"ref": "c8ae7f1eaec5d23b",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				{
+					"ref": "f86d25397609f732",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype"
+				},
+				{
+					"ref": "685c10e79c8a53bd",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2819eb0b4ca47eec",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"ColorCorrectionTextureHDR": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "001EA6CFE28385E3", "flag": "5F" }
+				},
+				"m_fVignetteStrength": { "type": "float32", "value": 0.4000000059604645 },
+				"m_vHDRAdaptationLuminanceMinMax": { "type": "SVector2", "value": { "x": 0.5, "y": 7 } }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "71d20fe7a618722d",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bVisible": { "type": "bool", "value": false } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "c2d609c1ab9932c4",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fInscatterIntensity": { "type": "float32", "value": 0.4000000059604645 },
+				"m_fSunIntensityScale": { "type": "float32", "value": 130 },
+				"m_fSunRadiusScale": { "type": "float32", "value": 2.5 },
+				"m_fWorldScale": { "type": "float32", "value": 2 },
+				"m_MieColor": { "type": "SColorRGB", "value": "#b2e2ff" },
+				"m_RayleighColor": { "type": "SColorRGB", "value": "#5c8fff" }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c46e2b98a293b829",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#fff4f2" },
+				"m_fDiffusePower": { "type": "float32", "value": 230 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 47.15695366703731, "y": 4.087982978756991, "z": -27.39559125609004 },
+						"position": { "x": -2.7200000286102295, "y": -1.190000057220459, "z": 9.149999618530273 }
+					}
+				},
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "001F9E262E6D9FCF", "flag": "5F" }
+				},
+				"m_vBoxSize": { "type": "SVector3", "value": { "x": 220, "y": 250, "z": 330 } },
+				"m_vCSMCascadeRadii": { "type": "SVector3", "value": { "x": -1, "y": -1, "z": 33 } },
+				"m_vProjectorMapOffset": {
+					"type": "SVector2",
+					"value": { "x": 0.20000000298023224, "y": 0.20000000298023224 }
+				},
+				"m_vProjectorMapUVVelocity": {
+					"type": "SVector2",
+					"value": { "x": 0.0010000000474974513, "y": 0.006000000052154064 }
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "7f5168b3aced1b10",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				},
+				{
+					"ref": "8e5b2d5779be6101",
+					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fHDRBloomScale": { "type": "float32", "value": 0 },
+				"m_fHDRBloomFalloff": { "type": "float32", "value": 0 }
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "a1b2c83d43b25996",
+			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/elusive_bramble.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "001EA6CFE28385E3", "flag": "5F" },
+		{ "resource": "001F9E262E6D9FCF", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

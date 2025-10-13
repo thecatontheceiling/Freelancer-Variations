@@ -1,18 +1,18 @@
 {
-    "tempHash": "007EFF3CCBCBC1FB",
-    "tbluHash": "00F81810120A5B13",
-    "patch": [
-        {
-            "SubEntityOperation": [
-                "53395ceeef815992",
-                {
-                    "SetPropertyValue": {
-                        "property_name": "m_bIsUIWidgetVisible",
-                        "value": true
-                    }
-                }
-            ]
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "007EFF3CCBCBC1FB",
+	"tbluHash": "00F81810120A5B13",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"53395ceeef815992",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bIsUIWidgetVisible",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

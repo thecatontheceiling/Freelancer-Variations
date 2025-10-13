@@ -16,9 +16,7 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"GetIndex": [
-						"abcdfa437ab78694"
-					]
+					"GetIndex": ["abcdfa437ab78694"]
 				}
 			}
 		},
@@ -30,9 +28,7 @@
 			"properties": {
 				"m_aParents": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -151,9 +147,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"GetIndex": [
-						"abcdbc7df4b8d038"
-					]
+					"GetIndex": ["abcdbc7df4b8d038"]
 				}
 			}
 		},
@@ -1500,9 +1494,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd5e35d5c79681"
-					],
+					"value": ["abcd5e35d5c79681"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1520,11 +1512,7 @@
 			"properties": {
 				"m_aParents": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdfcc8228df57c",
-						"abcd1deff1ded4e5",
-						"abcdd56f73d3c0dc"
-					]
+					"value": ["abcdfcc8228df57c", "abcd1deff1ded4e5", "abcdd56f73d3c0dc"]
 				}
 			}
 		},
@@ -1542,9 +1530,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			}
@@ -1559,66 +1545,18 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[-6, 0.008852937258780003, 0, 0, 0, 0, 0.044573016464710236, 0.008852937258780003],
 							[
-								-6,
-								0.008852937258780003,
-								0,
-								0,
-								0,
-								0,
-								0.044573016464710236,
-								0.008852937258780003
-							],
-							[
-								-0.0720662921667099,
-								0.05342595651745796,
-								0,
-								0,
-								0,
-								0,
-								0.008435580879449844,
+								-0.0720662921667099, 0.05342595651745796, 0, 0, 0, 0, 0.008435580879449844,
 								0.05342595651745796
 							],
 							[
-								0.006004661787301302,
-								0.061861537396907806,
-								0,
-								0,
-								0,
-								0,
-								0.24868744611740112,
+								0.006004661787301302, 0.061861537396907806, 0, 0, 0, 0, 0.24868744611740112,
 								0.061861537396907806
 							],
-							[
-								0.9967738389968872,
-								0.3105489909648895,
-								0,
-								0,
-								0,
-								0,
-								0.04029485210776329,
-								0.3105489909648895
-							],
-							[
-								1.4874383211135864,
-								0.3508438467979431,
-								0,
-								0,
-								0,
-								0,
-								0.00974495429545641,
-								0.3508438467979431
-							],
-							[
-								1.9922049045562744,
-								0.36058878898620605,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0.36058878898620605
-							]
+							[0.9967738389968872, 0.3105489909648895, 0, 0, 0, 0, 0.04029485210776329, 0.3105489909648895],
+							[1.4874383211135864, 0.3508438467979431, 0, 0, 0, 0, 0.00974495429545641, 0.3508438467979431],
+							[1.9922049045562744, 0.36058878898620605, 0, 0, 0, 0, 0, 0.36058878898620605]
 						]
 					}
 				}
@@ -1853,24 +1791,12 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

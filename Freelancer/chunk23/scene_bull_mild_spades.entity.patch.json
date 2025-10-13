@@ -1,22 +1,22 @@
 {
-    "tempHash": "004F725288D61798",
-    "tbluHash": "000A63FD0811B718",
-    "patch": [
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_mild_spades.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/lighting_dusk.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/override_spades.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
-        }
-    ],
-    "patchVersion": 6
+	"tempHash": "004F725288D61798",
+	"tbluHash": "000A63FD0811B718",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_mild_spades.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/lighting_dusk.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/override_spades.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
 }

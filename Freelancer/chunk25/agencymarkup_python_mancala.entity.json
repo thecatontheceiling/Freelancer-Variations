@@ -1,1 +1,1668 @@
-{"tempHash":"00C2093B7812BF21","tbluHash":"00BB823672089E00","rootEntity":"fffffffffffffffe","entities":{"776c0a1264c6c22c":{"parent":"a9ce44dd21a6a84a","name":"CurveItem","factory":"[modules:/zfloatcurvesource.class].pc_entitytype","blueprint":"[modules:/zfloatcurvesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":3177185}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":2065695}},"m_curve":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}}}},"1ad7dc0027af1861":{"parent":"af7482718870ee41","name":"Playing","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"},"a069a03a66a7991a":{"parent":"9acb7a40ad2ca4d9","name":"Cafe_Chair_Marrakesh_A_00","factory":"[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_marrakesh_a.template?/cafe_chair_marrakesh_a_00.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_marrakesh_a.template?/cafe_chair_marrakesh_a_00.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":99.73915100097656},"position":{"x":13.704500198364258,"y":-71.83206176757813,"z":0.0021869840566068888}}},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_DYNAMIC"},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"911c84fc34cf475b":{"parent":"4dc93dfbdb8b46a9","name":"Spatial","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-90.00005340576172,"y":0,"z":-20.628911972045906},"position":{"x":-31.19025993347168,"y":-22.274099349975586,"z":12.53600025177002},"scale":{"x":1,"y":0.9999999999999999,"z":1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"af7482718870ee41":{"parent":"9acb7a40ad2ca4d9","name":"Python_Starting_Point_Plaza","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","exposedInterfaces":{"IBoolCondition":"1ad7dc0027af1861"}},"ab142658998c347":{"parent":"9acb7a40ad2ca4d9","name":"Setpiece_Hips_Sit_Tablet_Read","factory":"[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_tablet_read.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_tablet_read.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-3.278649806976319},"position":{"x":0.08771499991416931,"y":-0.9386839866638184,"z":-0.002185000106692314}}},"m_aUIHighlightGeom":{"type":"TArray<SEntityTemplateReference>","value":["a069a03a66a7991a"]},"m_eidParent":{"type":"SEntityTemplateReference","value":"a069a03a66a7991a"}},"events":{"OnLeaving":{"SetTrue":["3280c5d4ba1fb6dc"]}},"subsets":{"AudioEmitters":["fffffffffffffffe"],"Replicable":["fffffffffffffffe"]}},"a9ce44dd21a6a84a":{"parent":"7d9742f90a4c441d","name":"BlackWeight Track","factory":"[modules:/zentitypropertytrack.class].pc_entitytype","blueprint":"[modules:/zentitypropertytrack.class].pc_entityblueprint","properties":{"m_sPropertyName":{"type":"ZString","value":"BlackWeight"},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["776c0a1264c6c22c"]},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_entityGroup":{"type":"SEntityTemplateReference","value":"7d9742f90a4c441d","postInit":true}}},"a2847f1d2eeacfe7":{"parent":"b7f856489f6ab829","name":"Interpolation","factory":"[modules:/zeventtrackitem.class].pc_entitytype","blueprint":"[modules:/zeventtrackitem.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":10486}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":650117}}},"outputCopying":{"Fired":{"Interpolation_Fired":["b7f856489f6ab829"]}}},"6b9cda027d61714a":{"parent":"d8ba32e167349a17","name":"EntityTrack_ IntroCutCamera","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["a632181184b8cf0b"],"postInit":true}}},"25336e17ca94e764":{"parent":"1c3b3c89d81690a8","name":"EntityTrack_ Agent47_Default","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["688107f5a87e3e35","bbc4470c273d0fee"],"postInit":true}}},"34e0ec0f621c5f57":{"parent":"cb46261738521cd7","name":"CurveItem","factory":"[modules:/zfloatcurvesource.class].pc_entitytype","blueprint":"[modules:/zfloatcurvesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":11838423}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":786432}},"m_curve":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}}}},"23f999c0ef4d01c5":{"parent":"1c3b3c89d81690a8","name":"EntityTrack_ Cam_EmbassyEntrance_Dummy","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["df144586433bd11e"],"postInit":true}}},"75359670d870ee77":{"parent":"82dafc9993819d01","name":"ActiveCameraItem","factory":"[modules:/zsingleactivecamerasource.class].pc_entitytype","blueprint":"[modules:/zsingleactivecamerasource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":10486}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":12614369}},"m_pCamera":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}}}},"16986cdf38c74a1d":{"parent":"4dc93dfbdb8b46a9","name":"Cam_MedinaRoofEntrance_Dummy","factory":"[modules:/zcameraentity.class].pc_entitytype","blueprint":"[modules:/zcameraentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-73.95571899414063,"y":0,"z":96.7946319580078},"position":{"x":-37.12234115600586,"y":-19.14097023010254,"z":16.51078987121582},"scale":{"x":1,"y":1.0000000000000002,"z":1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"efbb6b73efffb4fb":{"parent":"d8ba32e167349a17","name":"Active Camera Track","factory":"[modules:/zrenderdestinationtrack.class].pc_entitytype","blueprint":"[modules:/zrenderdestinationtrack.class].pc_entityblueprint","properties":{"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["82ede7def7b6db4c"],"postInit":true}}},"b8bd4c04043e997d":{"parent":"c48f106684c025c9","name":"Python_Default_Rooftops_SetPiece_AgencyPickup_Case_0cm","factory":"[assembly:/_pro/design/setpieces/setpieces_agencypickups.template?/setpiece_agencypickup_briefcase.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_agencypickups.template?/setpiece_agencypickup_briefcase.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-75.35359954833986,"y":0.011058084666728973,"z":-179.991455078125},"position":{"x":-37.561309814453125,"y":-14.774760246276855,"z":8.189010620117188},"scale":{"x":1,"y":0.9999999999999998,"z":1}}},"m_sId":{"type":"ZGuid","value":"9c33f44b-71ca-46a4-aaa3-18d18e0c4335"},"m_bUnlockedByDefault":{"type":"bool","value":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"a632181184b8cf0b":{"parent":"6b9cda027d61714a","name":"TrajectoryTrack","factory":"[modules:/ztrajectorytrack.class].pc_entitytype","blueprint":"[modules:/ztrajectorytrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"6b9cda027d61714a"},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["b9beae1e0a940175"],"postInit":true}}},"318b325e50398331":{"parent":"bbc4470c273d0fee","name":"BoneResourceItem","factory":"[modules:/zmorphemebonesource.class].pc_entitytype","blueprint":"[modules:/zmorphemebonesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":3858760}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":8766095}},"m_animationResourceID":{"type":"ZRuntimeResourceID","value":{"resource":"0020DC0886121CC2","flag":"5F"}},"m_fBlendIn":{"type":"float32","value":0.7879729866981505},"m_fBlendOut":{"type":"float32","value":0.48026978969573975},"m_triggerIfSpanning":{"type":"bool","value":true}}},"e6de66193af9f41f":{"parent":"4dc93dfbdb8b46a9","name":"HeroOutiftModifier","factory":"[modules:/zherooutfitmodifier.class].pc_entitytype","blueprint":"[modules:/zherooutfitmodifier.class].pc_entityblueprint","properties":{"m_RepositoryId":{"type":"ZGuid","value":"eb48ed16-195a-4de1-bae6-d7e7ec92046c"},"m_bIgnoreOutifChange":{"type":"bool","value":true}}},"1c3b3c89d81690a8":{"parent":"4dc93dfbdb8b46a9","name":"Medina_DarkSniper_Intro_StartingLocation","factory":"[modules:/zsequenceentity.class].pc_entitytype","blueprint":"[modules:/zsequenceentity.class].pc_entityblueprint","properties":{"m_duration":{"type":"ZGameTime","value":{"m_nTicks":12614369}},"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":10486}},"m_bLetterbox":{"type":"bool","value":true},"m_eLetterBoxAspect":{"type":"ZSequenceEntity.ELetterBoxAspect","value":"LETTERBOXASPECT_CINEMASCOPE"},"m_letterboxFadeOut":{"type":"ZGameTime","value":{"m_nTicks":1572864}},"m_sequenceOrigin":{"type":"SEntityTemplateReference","value":"911c84fc34cf475b"},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["49e923d6c5a3db42","25336e17ca94e764","23f999c0ef4d01c5","efa7693a33d9b229","82dafc9993819d01"],"postInit":true}}},"4dc93dfbdb8b46a9":{"parent":"9acb7a40ad2ca4d9","name":"Spider_Starting_Point_SniperRoofDarkSniper","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"9acb7a40ad2ca4d9":{"parent":{"ref":"9fb03bd1c2d1ccdd","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"},"name":"AgencyMarkup_Python","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"df144586433bd11e":{"parent":"23f999c0ef4d01c5","name":"TrajectoryTrack","factory":"[modules:/ztrajectorytrack.class].pc_entitytype","blueprint":"[modules:/ztrajectorytrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"23f999c0ef4d01c5"},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["204f0a3462546ad"],"postInit":true}}},"cd180bb013fe9ccd":{"parent":"af7482718870ee41","name":"IntroCutCamera","factory":"[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-87.15862274169922,"y":0,"z":-93.72225952148438},"position":{"x":15.21654987335205,"y":-71.46188354492188,"z":1.3072559833526611},"scale":{"x":0.9999999999999998,"y":0.9999999999999999,"z":0.9999999999999999}}},"m_eProjectionType":{"type":"ICameraEntity.EProjectionType","value":"ePerspectiveRH"},"m_fFovYDeg":{"type":"float32","value":50},"m_fWidth":{"type":"float32","value":2231.2890625},"m_fAspectWByH":{"type":"float32","value":1},"m_fNearZ":{"type":"float32","value":0.15000000596046448},"m_fFarZ":{"type":"float32","value":3000},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"e028daa3d87fe7fe":{"parent":"d8ba32e167349a17","name":"EntityTrack_Hitman","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":[]}}},"3280c5d4ba1fb6dc":{"parent":"9acb7a40ad2ca4d9","name":"ValueBool_Set_MUSIC_LeftHIPS","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint","properties":{"m_aValueEntities":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"3e269dc9c4db4ddf","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"}]}}},"7d9742f90a4c441d":{"parent":"d8ba32e167349a17","name":"EntityTrack_ FX_PF_PostfilterController","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"de8abf9e3b7573db","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["a9ce44dd21a6a84a"]}}},"b9beae1e0a940175":{"parent":"a632181184b8cf0b","name":"CurveTrajectoryItem","factory":"[modules:/zeulerangletrajectorysource.class].pc_entitytype","blueprint":"[modules:/zeulerangletrajectorysource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5075107}},"m_CurveX":{"type":"ZCurve","value":{"data":[[0,17.01181411743164,-0.8141945004463196,0.3501887321472168,3.397414445877075,-3.7715253829956055,0,17.01181411743164],[1,16.173696517944336,0,0,0,0,0,16.173696517944336]]}},"m_CurveRotX":{"type":"ZCurve","value":{"data":[[0,-114.40193176269533,-81.72848510742188,204.3212127685547,-217.942626953125,122.59273529052734,0,-114.40193176269533],[1,-87.15910339355469,0,0,0,0,0,-87.15910339355469]]}},"m_CurveY":{"type":"ZCurve","value":{"data":[[0,-71.61903381347656,0,0,0,0,0,-71.61903381347656],[1,-71.61903381347656,0,0,0,0,0,-71.61903381347656]]}},"m_CurveRotY":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}},"m_CurveZ":{"type":"ZCurve","value":{"data":[[0,2.8925421237945557,-1.4979757070541382,0.6056550145149231,6.440822124481201,-7.133787155151367,0,2.8925421237945557],[1,1.3072559833526611,0,0,0,0,0,1.3072559833526611]]}},"m_CurveRotZ":{"type":"ZCurve","value":{"data":[[0,-84.65743255615234,59.83501052856445,-149.5875244140625,159.56002807617188,-89.75251770019531,0,-84.65743255615234],[1,-104.60243225097656,0,0,0,0,0,-104.60243225097656]]}},"m_eCoordinateSpace":{"type":"ECoordinateSpace","value":"CSPACE_OBJECT_TO_PARENT"},"m_triggerIfSpanning":{"type":"bool","value":false}}},"efa7693a33d9b229":{"parent":"1c3b3c89d81690a8","name":"Group","factory":"[modules:/znamedgroup.class].pc_entitytype","blueprint":"[modules:/znamedgroup.class].pc_entityblueprint"},"661d2764766d7d4e":{"parent":"cb46261738521cd7","name":"CurveItem01","factory":"[modules:/zfloatcurvesource.class].pc_entitytype","blueprint":"[modules:/zfloatcurvesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":10486}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":2757754}},"m_curve":{"type":"ZCurve","value":{"data":[[0,1,0,0,0,0,0,1],[0.2800000011920929,1,0.09342413395643234,0.09276987612247468,1.522793531417847,-2.693249464035034,-0.015738122165203094,1],[1,0,0,0,0,0,0,0]]}}}},"82dafc9993819d01":{"parent":"1c3b3c89d81690a8","name":"Active Camera Track01","factory":"[modules:/zrenderdestinationtrack.class].pc_entitytype","blueprint":"[modules:/zrenderdestinationtrack.class].pc_entityblueprint","properties":{"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["75359670d870ee77"]}}},"bbc4470c273d0fee":{"parent":"25336e17ca94e764","name":"MorphemeBoneTrack","factory":"[modules:/zmorphemebonetrack.class].pc_entitytype","blueprint":"[modules:/zmorphemebonetrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"25336e17ca94e764"},"m_sSlotName":{"type":"ZString","value":"FullBody"},"m_bUpperBody":{"type":"bool","value":false},"m_bRunAIInGaps":{"type":"bool","value":true},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["318b325e50398331"]}}},"3e495fb3314d19c6":{"parent":"4dc93dfbdb8b46a9","name":"Cam01_MedinaRoofEntrance","factory":"[modules:/zcameraentity.class].pc_entitytype","blueprint":"[modules:/zcameraentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-94.34721374511719,"y":-0.0000003796816372414469,"z":-25.263900756835938},"position":{"x":-23.91053009033203,"y":-37.01708984375,"z":3.9769580364227295}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"c48f106684c025c9":{"parent":{"ref":"755cdcb42cc76b25","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"},"name":"LargeAgencyPickups01","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"fffffffffffffffe":{"parent":null,"name":"Scene","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint"},"55036b8f520749a3":{"parent":"9acb7a40ad2ca4d9","name":"AnyIntroCut_Playing","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":{"m_eEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"m_aValues":{"type":"TArray<SEntityTemplateReference>","value":["af7482718870ee41"]}},"events":{"OnFalse":{"TransmitEvent":["645d8153c85d7e90"]},"OnTrue":{"EnterSafeZoneNoAnim":["ab142658998c347"]}}},"cb46261738521cd7":{"parent":"49e923d6c5a3db42","name":"BlackWeight Track","factory":"[modules:/zentitypropertytrack.class].pc_entitytype","blueprint":"[modules:/zentitypropertytrack.class].pc_entityblueprint","properties":{"m_sPropertyName":{"type":"ZString","value":"BlackWeight"},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["661d2764766d7d4e","34e0ec0f621c5f57"]},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_entityGroup":{"type":"SEntityTemplateReference","value":"49e923d6c5a3db42","postInit":true}}},"645d8153c85d7e90":{"parent":"9acb7a40ad2ca4d9","name":"_LockCar","factory":"[modules:/zeventtransmitterentity_void.class].pc_entitytype","blueprint":"[modules:/zeventtransmitterentity_void.class].pc_entityblueprint","properties":{"m_Receivers":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"9c4c11c85bdfd79f","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"}]}}},"54efbb844ea7e609":{"parent":"688107f5a87e3e35","name":"TrajectoryResourceItem01","factory":"[modules:/zmorphemetrajectorysource.class].pc_entitytype","blueprint":"[modules:/zmorphemetrajectorysource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":3858760}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":8766095}},"m_eCoordinateSpace":{"type":"ECoordinateSpace","value":"CSPACE_SEQUENCE_ORIGIN"},"m_animationResourceID":{"type":"ZRuntimeResourceID","value":{"resource":"0020DC0886121CC2","flag":"5F"}},"m_fBlendOut":{"type":"float32","value":0.3549104630947113},"m_triggerIfSpanning":{"type":"bool","value":true}}},"49e923d6c5a3db42":{"parent":"1c3b3c89d81690a8","name":"EntityTrack_ FX_PF_PostfilterController","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"de8abf9e3b7573db","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["cb46261738521cd7"]}}},"d8ba32e167349a17":{"parent":"af7482718870ee41","name":"Python_Intro_CLEAN_01","factory":"[modules:/zsequenceentity.class].pc_entitytype","blueprint":"[modules:/zsequenceentity.class].pc_entityblueprint","properties":{"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5242880}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["7d9742f90a4c441d","6b9cda027d61714a","e028daa3d87fe7fe","efbb6b73efffb4fb"]},"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_bLetterbox":{"type":"bool","value":true},"m_eLetterBoxAspect":{"type":"ZSequenceEntity.ELetterBoxAspect","value":"LETTERBOXASPECT_CINEMASCOPE"},"m_letterboxFadeOut":{"type":"ZGameTime","value":{"m_nTicks":1572864}}}},"688107f5a87e3e35":{"parent":"25336e17ca94e764","name":"MorphemeTrajectoryTrack","factory":"[modules:/zmorphemetrajectorytrack.class].pc_entitytype","blueprint":"[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"25336e17ca94e764"},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_bRunAIInGaps":{"type":"bool","value":true},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["54efbb844ea7e609"]}}},"bae2c0f086acb0a4":{"parent":"af7482718870ee41","name":"HeroSpawnSequenceDirector","factory":"00A6F689FB19B096","blueprint":"005AEBE4BDFCD1C9","properties":{"m_aSequences":{"type":"TArray<SEntityTemplateReference>","value":["d8ba32e167349a17"]},"m_rSpawner":{"type":"SEntityTemplateReference","value":{"ref":"dfcf4632f0362256","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"}},"m_nPriority":{"type":"uint32","value":190},"m_bHideItems":{"type":"bool","value":false},"m_rItemPlacePosition":{"type":"SEntityTemplateReference","value":"c7804a22afe67f","postInit":true}},"events":{"OnPlay":{"SetTrue":["1ad7dc0027af1861"]},"OnStop":{"SetFalse":["1ad7dc0027af1861"]}},"subsets":{"AudioEmitters":["fffffffffffffffe"]}},"c7804a22afe67f":{"parent":"af7482718870ee41","name":"Spatial","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":16.95832633972168},"position":{"x":13.256879806518555,"y":-71.03295135498047,"z":0.7824339866638184}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe"}}},"204f0a3462546ad":{"parent":"df144586433bd11e","name":"CurveTrajectoryItem","factory":"[modules:/zeulerangletrajectorysource.class].pc_entitytype","blueprint":"[modules:/zeulerangletrajectorysource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":10486}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":12614369}},"m_CurveX":{"type":"ZCurve","value":{"data":[[0,-56.12234115600586,-9.588289260864258,40.16216278076172,-62.20962142944336,43.54505920410156,0,-56.12234115600586],[0.518562912940979,-44.21302795410156,-3.924140691757202,-3.419349431991577,8.03129768371582,-1.510736346244812,12.225680351257324,-44.21302795410156],[1,-32.81027603149414,0,0,0,0,0,-32.81027603149414]]}},"m_CurveRotX":{"type":"ZCurve","value":{"data":[[0,-89.75564575195313,-9.274178504943848,33.524986267089844,-45.7022705078125,27.580453872680664,0,-89.75564575195313],[0.518562912940979,-83.62665557861328,1.1893343925476074,-7.853896617889404,7.366876125335693,-1.000410556793213,5.369106769561768,-83.62665557861328],[1,-78.5556411743164,0,0,0,0,0,-78.5556411743164]]}},"m_CurveY":{"type":"ZCurve","value":{"data":[[0,-19.44096946716309,-1.5439248085021973,4.139555931091309,-5.130361557006836,3.496910810470581,0,-19.44096946716309],[0.518562912940979,-18.478790283203125,3.3615927696228027,-10.133584022521973,13.116490364074709,-8.01641845703125,0.40973949432373047,-18.478790283203125],[1,-19.740970611572266,0,0,0,0,0,-19.740970611572266]]}},"m_CurveRotY":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[0.518562912940979,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}},"m_CurveZ":{"type":"ZCurve","value":{"data":[[0,14.810790061950684,0.02663569711148739,0.2992546856403351,-2.2091660499572754,2.6103224754333496,0,14.810790061950684],[0.518562912940979,15.537837028503418,-0.3137069642543793,1.3132176399230957,0.5572840571403503,-2.642510175704956,-0.07116769254207611,15.537837028503418],[1,14.380953788757324,0,0,0,0,0,14.380953788757324]]}},"m_CurveRotZ":{"type":"ZCurve","value":{"data":[[0,71.3946762084961,-31.410409927368164,114.37207794189452,-154.45973205566406,91.92607879638672,0,71.3946762084961],[0.518562912940979,91.82269287109376,-3.3726143836975098,-6.181714057922363,12.7495698928833,-8.0355224609375,19.412263870239254,91.82269287109376],[1,106.3946762084961,0,0,0,0,0,106.3946762084961]]}},"m_triggerIfSpanning":{"type":"bool","value":true}}},"82ede7def7b6db4c":{"parent":"efbb6b73efffb4fb","name":"ActiveCameraItem","factory":"[modules:/zsingleactivecamerasource.class].pc_entitytype","blueprint":"[modules:/zsingleactivecamerasource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5242880}},"m_pCamera":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}}}},"b7f856489f6ab829":{"parent":"1c3b3c89d81690a8","name":"Event Track","factory":"[modules:/zeventtrack.class].pc_entitytype","blueprint":"[modules:/zeventtrack.class].pc_entityblueprint","properties":{"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["a2847f1d2eeacfe7"]}},"outputCopying":{"Interpolation_Fired":{"Event_Track_Interpolation_Fired":["1c3b3c89d81690a8"]}}},"5248b9661156a574":{"parent":"4dc93dfbdb8b46a9","name":"HeroSpawnSequenceDirector","factory":"00A6F689FB19B096","blueprint":"005AEBE4BDFCD1C9","properties":{"m_aSequences":{"type":"TArray<SEntityTemplateReference>","value":["1c3b3c89d81690a8"]},"m_bPlaceLeftHandItem":{"type":"bool","value":false}},"subsets":{"AudioEmitters":["fffffffffffffffe"]}},"abcd625ebf2974d3":{"parent":"fffffffffffffffe","name":"StartingLocation_DarkSniper","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcdf7d0a823543d":{"parent":"abcd625ebf2974d3","name":"Spider_Starting_Point_SniperRoofDarkSniper","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcd5a311fd612e3":{"parent":"abcdf7d0a823543d","name":"IntroCutCamera","factory":"[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-130.35667419433594,"y":-0.000057295776059618227,"z":161.15396118164063},"position":{"x":-38.02312088012695,"y":51.87556076049805,"z":2.661895990371704},"scale":{"x":0.9999999999999998,"y":1,"z":0.9999999999999998}}},"m_eProjectionType":{"type":"ICameraEntity.EProjectionType","value":"ePerspectiveRH"},"m_fFovYDeg":{"type":"float32","value":50},"m_fWidth":{"type":"float32","value":2231.2890625},"m_fAspectWByH":{"type":"float32","value":1},"m_fNearZ":{"type":"float32","value":0.15000000596046448},"m_fFarZ":{"type":"float32","value":3000}}},"abcd0c2571211609":{"parent":"abcdf7d0a823543d","name":"Spatial","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":31.35472869873047},"position":{"x":-36.382591247558594,"y":46.21615982055664,"z":0.000009999999747378752}}}}},"abcd2292b6925280":{"parent":"abcdf7d0a823543d","name":"Python_Well_DarkSniper","factory":"[modules:/zsequenceentity.class].pc_entitytype","blueprint":"[modules:/zsequenceentity.class].pc_entityblueprint","properties":{"m_duration":{"type":"ZGameTime","value":{"m_nTicks":10506731}},"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_bLetterbox":{"type":"bool","value":true},"m_eLetterBoxAspect":{"type":"ZSequenceEntity.ELetterBoxAspect","value":"LETTERBOXASPECT_CINEMASCOPE"},"m_letterboxFadeOut":{"type":"ZGameTime","value":{"m_nTicks":1572864}},"m_sequenceOrigin":{"type":"SEntityTemplateReference","value":"abcd0c2571211609"},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcd41188a3adc2d","abcdafa14b97a562","abcdf2720cda39b2"],"postInit":true}}},"abcd366691813279":{"parent":"abcdf7d0a823543d","name":"HeroSpawn_Well_DarkSniper","factory":"[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0.04268598929047585,"y":0.31048732995986944,"z":-15.650280952453615},"position":{"x":-36.64440155029297,"y":48.324310302734375,"z":-0.00029200001154094934},"scale":{"x":1,"y":0.9999999999999999,"z":0.9999999999999999}}},"m_sId":{"type":"ZGuid","value":"035838e6-a288-4d1a-a1ae-fba484a7c545"},"m_InitialAmbience":{"type":"SEntityTemplateReference","value":{"ref":"47871ff0b6c3171d","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}}}},"abcd4c0f16f50882":{"parent":"abcdf7d0a823543d","name":"Cam_MedinaRoofEntrance_Dummy","factory":"[modules:/zcameraentity.class].pc_entitytype","blueprint":"[modules:/zcameraentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-73.95571899414063,"y":0,"z":96.7946319580078},"position":{"x":-37.12234115600586,"y":-19.14097023010254,"z":16.51078987121582},"scale":{"x":1,"y":1.0000000000000002,"z":1}}}}},"abcd979f01786a11":{"parent":"abcdf7d0a823543d","name":"HeroSpawnSequenceDirector","factory":"00A6F689FB19B096","blueprint":"005AEBE4BDFCD1C9","properties":{"m_aSequences":{"type":"TArray<SEntityTemplateReference>","value":["abcd2292b6925280"]},"m_rSpawner":{"type":"SEntityTemplateReference","value":"abcd366691813279"}}},"abcd2e55edccf74a":{"parent":"abcdf7d0a823543d","name":"Cam01_MedinaRoofEntrance","factory":"[modules:/zcameraentity.class].pc_entitytype","blueprint":"[modules:/zcameraentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-93.97342681884766,"y":-1.7647597789764409,"z":-1.3509979248046875},"position":{"x":-35.81142044067383,"y":49.744041442871094,"z":0.000011000000085914508},"scale":{"x":1,"y":1,"z":0.9999999999999998}}}}},"abcdf2720cda39b2":{"parent":"abcd2292b6925280","name":"EntityTrack_Hitman","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcd022753bb6ef0","abcd8ca3fbe39295"],"postInit":true}}},"abcdafa14b97a562":{"parent":"abcd2292b6925280","name":"EntityTrack_ IntroCutCamera","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcdad9d1c566eed"]}}},"abcd41188a3adc2d":{"parent":"abcd2292b6925280","name":"EntityTrack_ FX_PF_PostfilterController","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"de8abf9e3b7573db","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcd814ef6269d48"]}}},"abcd8ca3fbe39295":{"parent":"abcdf2720cda39b2","name":"MorphemeBoneTrack","factory":"[modules:/zmorphemebonetrack.class].pc_entitytype","blueprint":"[modules:/zmorphemebonetrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"abcdf2720cda39b2"},"m_sSlotName":{"type":"ZString","value":"FullBody"},"m_bUpperBody":{"type":"bool","value":false},"m_bRunAIInGaps":{"type":"bool","value":true},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcd2b154eafe43b"],"postInit":true}}},"abcd022753bb6ef0":{"parent":"abcdf2720cda39b2","name":"MorphemeTrajectoryTrack","factory":"[modules:/zmorphemetrajectorytrack.class].pc_entitytype","blueprint":"[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"abcdf2720cda39b2"},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcde1ea44849b1d"]},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_bRunAIInGaps":{"type":"bool","value":true}}},"abcd2b154eafe43b":{"parent":"abcd8ca3fbe39295","name":"BoneResourceItem","factory":"[modules:/zmorphemebonesource.class].pc_entitytype","blueprint":"[modules:/zmorphemebonesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":5263851}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5242880}},"m_animationResourceID":{"type":"ZRuntimeResourceID","value":{"resource":"00241D0712D8841B","flag":"5F"}},"m_fBlendOut":{"type":"float32","value":0.8616145849227905}}},"abcde1ea44849b1d":{"parent":"abcd022753bb6ef0","name":"TrajectoryResourceItem","factory":"[modules:/zmorphemetrajectorysource.class].pc_entitytype","blueprint":"[modules:/zmorphemetrajectorysource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":5263851}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5242880}},"m_eCoordinateSpace":{"type":"ECoordinateSpace","value":"CSPACE_SEQUENCE_ORIGIN"},"m_animationResourceID":{"type":"ZRuntimeResourceID","value":{"resource":"00241D0712D8841B","flag":"5F"}},"m_fBlendOut":{"type":"float32","value":1}}},"abcdad9d1c566eed":{"parent":"abcdafa14b97a562","name":"TrajectoryTrack","factory":"[modules:/ztrajectorytrack.class].pc_entitytype","blueprint":"[modules:/ztrajectorytrack.class].pc_entityblueprint","properties":{"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_entityGroup":{"type":"SEntityTemplateReference","value":"abcdafa14b97a562","postInit":true},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcd182e3e38ddbb"],"postInit":true}}},"abcd182e3e38ddbb":{"parent":"abcdad9d1c566eed","name":"CurveTrajectoryItem","factory":"[modules:/zeulerangletrajectorysource.class].pc_entitytype","blueprint":"[modules:/zeulerangletrajectorysource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":9311354}},"m_CurveX":{"type":"ZCurve","value":{"data":[[0,0.4179192781448364,0,0,-0.0018406445160508156,-0.00454187486320734,-0.03160601854324341,0.4179192781448364],[0.06521739810705185,0.3799307346343994,0,0,-0.00810290314257145,-0.007696826942265034,-0.04621170088648796,0.3799307346343994],[0.1304347962141037,0.3179193139076233,2.8289735317230225,-5.042819499969482,3.811899423599243,-2.1948676109313965,-1.0195516347885132,0.3179193139076233],[1,-1.298446774482727,0,0,0,0,0,-1.298446774482727]]}},"m_CurveRotX":{"type":"ZCurve","value":{"data":[[0,-88.6908950805664,0.4725784361362457,-1.138588786125183,0.666010320186615,0,0,-88.6908950805664],[0.1304347962141037,-88.6908950805664,2.158693552017212,-3.345226526260376,1.3799043893814087,-0.13136477768421173,-1.2895457744598389,-88.6908950805664],[1,-89.9184341430664,0,0,0,0,0,-89.9184341430664]]}},"m_CurveY":{"type":"ZCurve","value":{"data":[[0,2.9209506511688232,0,0,0.016395380720496178,0.02540704794228077,0.058197811245918274,2.9209506511688232],[0.1304347962141037,3.0209507942199707,-2.745387315750122,4.9112114906311035,-3.3936655521392822,1.568858981132507,1.125369668006897,3.0209507942199707],[1,4.487338066101074,0,0,0,0,0,4.487338066101074]]}},"m_CurveRotY":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[0.1304347962141037,0,2.42100191116333,-11.546317100524902,10.11854648590088,1.862309455871582,0,0],[1,2.855540990829468,0,0,0,0,0,2.855540990829468]]}},"m_CurveZ":{"type":"ZCurve","value":{"data":[[0,15.524020195007324,0,0,-0.0030744087416678667,-0.003619931871071458,-0.02161661721765995,15.524020195007324],[0.06521739810705185,15.495709419250488,0,0,-0.0018566030776128173,-0.003069654805585742,-0.01903985440731049,15.495709419250488],[0.09782609343528748,15.4717435836792,0,0,-0.015166315250098704,-0.001807641820050776,-0.030748972669243813,15.4717435836792],[0.1304347962141037,15.424019813537598,-9.340095520019531,2.7083590030670166,48.58460235595703,-53.95322036743164,-1.958732008934021,15.424019813537598],[1,1.46493399143219,0,0,0,0,0,1.46493399143219]]}},"m_CurveRotZ":{"type":"ZCurve","value":{"data":[[0,143.3418426513672,0,0,-0.003074047388508916,-0.0036195062566548586,-0.0216140765696764,143.3418426513672],[0.06521739810705185,143.31353759765625,0,0,-0.001856384798884392,-0.0030692939180880785,-0.01903761550784111,143.31353759765625],[0.09782609343528748,143.28958129882813,0,0,-0.015164531767368317,-0.00180742924567312,-0.030745357275009155,143.28958129882813],[0.1304347962141037,143.24185180664065,27.453596115112305,-59.91188049316406,63.235748291015625,-42.77262115478515,-1.7824710607528689,143.24185180664065],[1,129.4642333984375,0,0,0,0,0,129.4642333984375]]}},"m_eCoordinateSpace":{"type":"ECoordinateSpace","value":"CSPACE_SEQUENCE_ORIGIN"}}},"abcd814ef6269d48":{"parent":"abcd41188a3adc2d","name":"BlackWeight Track","factory":"[modules:/zentitypropertytrack.class].pc_entitytype","blueprint":"[modules:/zentitypropertytrack.class].pc_entityblueprint","properties":{"m_sPropertyName":{"type":"ZString","value":"BlackWeight"},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_entityGroup":{"type":"SEntityTemplateReference","value":"abcd41188a3adc2d","postInit":true},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcdda83ca72c749","abcd5236a8b4ca1f"],"postInit":true}}},"abcdda83ca72c749":{"parent":"abcd814ef6269d48","name":"CurveItem","factory":"[modules:/zfloatcurvesource.class].pc_entitytype","blueprint":"[modules:/zfloatcurvesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":2065695}},"m_curve":{"type":"ZCurve","value":{"data":[[0,1,3,-7.5,8,-4.5,0,1],[1,0,0,0,0,0,0,0]]}}}},"abcd5236a8b4ca1f":{"parent":"abcd814ef6269d48","name":"CurveItem01","factory":"[modules:/zfloatcurvesource.class].pc_entitytype","blueprint":"[modules:/zfloatcurvesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":9720299}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":786432}},"m_curve":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}}}},"abcd696ea4dd1b30":{"parent":"fffffffffffffffe","name":"Python_Starting_Point_Plaza2","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","exposedInterfaces":{"IBoolCondition":"1ad7dc0027af1861"}},"abcd1387f419e9d3":{"parent":"abcd696ea4dd1b30","name":"Playing","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"},"abcdddbeef536686":{"parent":"abcd696ea4dd1b30","name":"IntroCutCamera","factory":"[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":-87.15862274169922,"y":0,"z":-93.72225952148438},"position":{"x":15.21654987335205,"y":-71.46188354492188,"z":1.3072559833526611},"scale":{"x":0.9999999999999998,"y":0.9999999999999999,"z":0.9999999999999999}}},"m_eProjectionType":{"type":"ICameraEntity.EProjectionType","value":"ePerspectiveRH"},"m_fFovYDeg":{"type":"float32","value":50},"m_fWidth":{"type":"float32","value":2231.2890625},"m_fAspectWByH":{"type":"float32","value":1},"m_fNearZ":{"type":"float32","value":0.15000000596046448},"m_fFarZ":{"type":"float32","value":3000},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe","postInit":true}}},"abcde11e2b2024c1":{"parent":"abcd696ea4dd1b30","name":"Python_Intro_CLEAN_01","factory":"[modules:/zsequenceentity.class].pc_entitytype","blueprint":"[modules:/zsequenceentity.class].pc_entityblueprint","properties":{"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5242880}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcd1af81eb16486","abcdd0c7d6f07378","abcd31d9205db749","abcd187acab9ef6f"]},"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_bLetterbox":{"type":"bool","value":true},"m_eLetterBoxAspect":{"type":"ZSequenceEntity.ELetterBoxAspect","value":"LETTERBOXASPECT_CINEMASCOPE"},"m_letterboxFadeOut":{"type":"ZGameTime","value":{"m_nTicks":1572864}}}},"abcdc337a6a7e129":{"parent":"abcd696ea4dd1b30","name":"HeroSpawnSequenceDirector","factory":"00A6F689FB19B096","blueprint":"005AEBE4BDFCD1C9","properties":{"m_aSequences":{"type":"TArray<SEntityTemplateReference>","value":["abcde11e2b2024c1"]},"m_rSpawner":{"type":"SEntityTemplateReference","value":"abcd0ac653321d90"},"m_nPriority":{"type":"uint32","value":190},"m_bHideItems":{"type":"bool","value":false},"m_rItemPlacePosition":{"type":"SEntityTemplateReference","value":"abcdc084951184bc","postInit":true}},"events":{"OnPlay":{"SetTrue":["abcd1387f419e9d3"]},"OnStop":{"SetFalse":["abcd1387f419e9d3"]}}},"abcdc084951184bc":{"parent":"abcd696ea4dd1b30","name":"Spatial","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":16.95832633972168},"position":{"x":13.256879806518555,"y":-71.03295135498047,"z":0.7824339866638184}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"fffffffffffffffe"}}},"abcdd0c7d6f07378":{"parent":"abcde11e2b2024c1","name":"EntityTrack_ IntroCutCamera","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcdf8a1c8c1713c"],"postInit":true}}},"abcd187acab9ef6f":{"parent":"abcde11e2b2024c1","name":"Active Camera Track","factory":"[modules:/zrenderdestinationtrack.class].pc_entitytype","blueprint":"[modules:/zrenderdestinationtrack.class].pc_entityblueprint","properties":{"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcd8bf7e36ae048"],"postInit":true}}},"abcd31d9205db749":{"parent":"abcde11e2b2024c1","name":"EntityTrack_Hitman","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":[]}}},"abcd1af81eb16486":{"parent":"abcde11e2b2024c1","name":"EntityTrack_ FX_PF_PostfilterController","factory":"[modules:/zentitygroup.class].pc_entitytype","blueprint":"[modules:/zentitygroup.class].pc_entityblueprint","properties":{"m_targetEntity":{"type":"SEntityTemplateReference","value":{"ref":"de8abf9e3b7573db","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_aTracksAndGroups":{"type":"TArray<SEntityTemplateReference>","value":["abcdebc28f5d300b"]}}},"abcdf8a1c8c1713c":{"parent":"abcdd0c7d6f07378","name":"TrajectoryTrack","factory":"[modules:/ztrajectorytrack.class].pc_entitytype","blueprint":"[modules:/ztrajectorytrack.class].pc_entityblueprint","properties":{"m_entityGroup":{"type":"SEntityTemplateReference","value":"abcdd0c7d6f07378"},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcd2cfb9a97aa30"],"postInit":true}}},"abcd2cfb9a97aa30":{"parent":"abcdf8a1c8c1713c","name":"CurveTrajectoryItem","factory":"[modules:/zeulerangletrajectorysource.class].pc_entitytype","blueprint":"[modules:/zeulerangletrajectorysource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5075107}},"m_CurveX":{"type":"ZCurve","value":{"data":[[0,17.01181411743164,-0.8141945004463196,0.3501887321472168,3.397414445877075,-3.7715253829956055,0,17.01181411743164],[1,16.173696517944336,0,0,0,0,0,16.173696517944336]]}},"m_CurveRotX":{"type":"ZCurve","value":{"data":[[0,-114.40193176269533,-81.72848510742188,204.3212127685547,-217.942626953125,122.59273529052734,0,-114.40193176269533],[1,-87.15910339355469,0,0,0,0,0,-87.15910339355469]]}},"m_CurveY":{"type":"ZCurve","value":{"data":[[0,-71.61903381347656,0,0,0,0,0,-71.61903381347656],[1,-71.61903381347656,0,0,0,0,0,-71.61903381347656]]}},"m_CurveRotY":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}},"m_CurveZ":{"type":"ZCurve","value":{"data":[[0,2.8925421237945557,-1.4979757070541382,0.6056550145149231,6.440822124481201,-7.133787155151367,0,2.8925421237945557],[1,1.3072559833526611,0,0,0,0,0,1.3072559833526611]]}},"m_CurveRotZ":{"type":"ZCurve","value":{"data":[[0,-84.65743255615234,59.83501052856445,-149.5875244140625,159.56002807617188,-89.75251770019531,0,-84.65743255615234],[1,-104.60243225097656,0,0,0,0,0,-104.60243225097656]]}},"m_eCoordinateSpace":{"type":"ECoordinateSpace","value":"CSPACE_OBJECT_TO_PARENT"},"m_triggerIfSpanning":{"type":"bool","value":false}}},"abcd8bf7e36ae048":{"parent":"abcd187acab9ef6f","name":"ActiveCameraItem","factory":"[modules:/zsingleactivecamerasource.class].pc_entitytype","blueprint":"[modules:/zsingleactivecamerasource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":0}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":5242880}},"m_pCamera":{"type":"SEntityTemplateReference","value":{"ref":"ab4a982fa5e95a70","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","exposedEntity":"CameraEntity01"}}}},"abcdebc28f5d300b":{"parent":"abcd1af81eb16486","name":"BlackWeight Track","factory":"[modules:/zentitypropertytrack.class].pc_entitytype","blueprint":"[modules:/zentitypropertytrack.class].pc_entityblueprint","properties":{"m_sPropertyName":{"type":"ZString","value":"BlackWeight"},"m_aItems":{"type":"TArray<SEntityTemplateReference>","value":["abcda8739aeaeece"]},"m_bRestoreValueAfterEnd":{"type":"bool","value":false},"m_entityGroup":{"type":"SEntityTemplateReference","value":"abcd1af81eb16486","postInit":true}}},"abcda8739aeaeece":{"parent":"abcdebc28f5d300b","name":"CurveItem","factory":"[modules:/zfloatcurvesource.class].pc_entitytype","blueprint":"[modules:/zfloatcurvesource.class].pc_entityblueprint","properties":{"m_startTime":{"type":"ZGameTime","value":{"m_nTicks":3177185}},"m_duration":{"type":"ZGameTime","value":{"m_nTicks":2065695}},"m_curve":{"type":"ZCurve","value":{"data":[[0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0]]}}}},"abcd0ac653321d90":{"parent":"abcd696ea4dd1b30","name":"HeroSpawn","factory":"[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":12.97346019744873,"y":-71.941650390625,"z":0.0000019999999949504854}}},"m_sId":{"type":"ZGuid","value":"80b8188c-1783-413a-aff6-516c0ab27ffc"},"m_InitialAmbience":{"type":"SEntityTemplateReference","value":{"ref":"3f0e75d2e7c54c97","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"}},"m_bDefaultHeroSpawn":{"type":"bool","value":false}}}},"propertyOverrides":[{"entities":[{"ref":"29c65b0f6c71b52e","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"1f46f0b884483362","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"bafc27f84d6b473","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"24717afce1aa7d5f","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"414a8d1c80c524ee","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"712e043eb4b7b244","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"78233f6542542079","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"a591f67fd659e3a","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"},{"ref":"5a89f63f8787d1d1","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"}],"properties":{"m_bHide":{"type":"bool","value":true}}},{"entities":[{"ref":"7c893b13ab88b9ff","externalScene":"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"}],"properties":{"m_bHide":{"type":"bool","value":true},"m_bUnlockedByDefault":{"type":"bool","value":false}}}],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":["[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype","[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype","[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"],"subType":"brick","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00C2093B7812BF21",
+	"tbluHash": "00BB823672089E00",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"776c0a1264c6c22c": {
+			"parent": "a9ce44dd21a6a84a",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 3177185 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2065695 } },
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"1ad7dc0027af1861": {
+			"parent": "af7482718870ee41",
+			"name": "Playing",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"a069a03a66a7991a": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "Cafe_Chair_Marrakesh_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_marrakesh_a.template?/cafe_chair_marrakesh_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_marrakesh_a.template?/cafe_chair_marrakesh_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 99.73915100097656 },
+						"position": { "x": 13.704500198364258, "y": -71.83206176757813, "z": 0.0021869840566068888 }
+					}
+				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"911c84fc34cf475b": {
+			"parent": "4dc93dfbdb8b46a9",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.00005340576172, "y": 0, "z": -20.628911972045906 },
+						"position": { "x": -31.19025993347168, "y": -22.274099349975586, "z": 12.53600025177002 },
+						"scale": { "x": 1, "y": 0.9999999999999999, "z": 1 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"af7482718870ee41": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "Python_Starting_Point_Plaza",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"exposedInterfaces": { "IBoolCondition": "1ad7dc0027af1861" }
+		},
+		"ab142658998c347": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "Setpiece_Hips_Sit_Tablet_Read",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_tablet_read.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_tablet_read.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -3.278649806976319 },
+						"position": { "x": 0.08771499991416931, "y": -0.9386839866638184, "z": -0.002185000106692314 }
+					}
+				},
+				"m_aUIHighlightGeom": { "type": "TArray<SEntityTemplateReference>", "value": ["a069a03a66a7991a"] },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a069a03a66a7991a" }
+			},
+			"events": { "OnLeaving": { "SetTrue": ["3280c5d4ba1fb6dc"] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"a9ce44dd21a6a84a": {
+			"parent": "7d9742f90a4c441d",
+			"name": "BlackWeight Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": { "type": "ZString", "value": "BlackWeight" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["776c0a1264c6c22c"] },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "7d9742f90a4c441d", "postInit": true }
+			}
+		},
+		"a2847f1d2eeacfe7": {
+			"parent": "b7f856489f6ab829",
+			"name": "Interpolation",
+			"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
+			"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10486 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 650117 } }
+			},
+			"outputCopying": { "Fired": { "Interpolation_Fired": ["b7f856489f6ab829"] } }
+		},
+		"6b9cda027d61714a": {
+			"parent": "d8ba32e167349a17",
+			"name": "EntityTrack_ IntroCutCamera",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a632181184b8cf0b"],
+					"postInit": true
+				}
+			}
+		},
+		"25336e17ca94e764": {
+			"parent": "1c3b3c89d81690a8",
+			"name": "EntityTrack_ Agent47_Default",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["688107f5a87e3e35", "bbc4470c273d0fee"],
+					"postInit": true
+				}
+			}
+		},
+		"34e0ec0f621c5f57": {
+			"parent": "cb46261738521cd7",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 11838423 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 786432 } },
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"23f999c0ef4d01c5": {
+			"parent": "1c3b3c89d81690a8",
+			"name": "EntityTrack_ Cam_EmbassyEntrance_Dummy",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["df144586433bd11e"],
+					"postInit": true
+				}
+			}
+		},
+		"75359670d870ee77": {
+			"parent": "82dafc9993819d01",
+			"name": "ActiveCameraItem",
+			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10486 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 12614369 } },
+				"m_pCamera": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				}
+			}
+		},
+		"16986cdf38c74a1d": {
+			"parent": "4dc93dfbdb8b46a9",
+			"name": "Cam_MedinaRoofEntrance_Dummy",
+			"factory": "[modules:/zcameraentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -73.95571899414063, "y": 0, "z": 96.7946319580078 },
+						"position": { "x": -37.12234115600586, "y": -19.14097023010254, "z": 16.51078987121582 },
+						"scale": { "x": 1, "y": 1.0000000000000002, "z": 1 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"efbb6b73efffb4fb": {
+			"parent": "d8ba32e167349a17",
+			"name": "Active Camera Track",
+			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+			"properties": {
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["82ede7def7b6db4c"], "postInit": true }
+			}
+		},
+		"b8bd4c04043e997d": {
+			"parent": "c48f106684c025c9",
+			"name": "Python_Default_Rooftops_SetPiece_AgencyPickup_Case_0cm",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_agencypickups.template?/setpiece_agencypickup_briefcase.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_agencypickups.template?/setpiece_agencypickup_briefcase.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -75.35359954833986, "y": 0.011058084666728973, "z": -179.991455078125 },
+						"position": { "x": -37.561309814453125, "y": -14.774760246276855, "z": 8.189010620117188 },
+						"scale": { "x": 1, "y": 0.9999999999999998, "z": 1 }
+					}
+				},
+				"m_sId": { "type": "ZGuid", "value": "9c33f44b-71ca-46a4-aaa3-18d18e0c4335" },
+				"m_bUnlockedByDefault": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"a632181184b8cf0b": {
+			"parent": "6b9cda027d61714a",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "6b9cda027d61714a" },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["b9beae1e0a940175"], "postInit": true }
+			}
+		},
+		"318b325e50398331": {
+			"parent": "bbc4470c273d0fee",
+			"name": "BoneResourceItem",
+			"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 3858760 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 8766095 } },
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0020DC0886121CC2", "flag": "5F" }
+				},
+				"m_fBlendIn": { "type": "float32", "value": 0.7879729866981505 },
+				"m_fBlendOut": { "type": "float32", "value": 0.48026978969573975 },
+				"m_triggerIfSpanning": { "type": "bool", "value": true }
+			}
+		},
+		"e6de66193af9f41f": {
+			"parent": "4dc93dfbdb8b46a9",
+			"name": "HeroOutiftModifier",
+			"factory": "[modules:/zherooutfitmodifier.class].pc_entitytype",
+			"blueprint": "[modules:/zherooutfitmodifier.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": { "type": "ZGuid", "value": "eb48ed16-195a-4de1-bae6-d7e7ec92046c" },
+				"m_bIgnoreOutifChange": { "type": "bool", "value": true }
+			}
+		},
+		"1c3b3c89d81690a8": {
+			"parent": "4dc93dfbdb8b46a9",
+			"name": "Medina_DarkSniper_Intro_StartingLocation",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 12614369 } },
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10486 } },
+				"m_bLetterbox": { "type": "bool", "value": true },
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1572864 } },
+				"m_sequenceOrigin": { "type": "SEntityTemplateReference", "value": "911c84fc34cf475b" },
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"49e923d6c5a3db42",
+						"25336e17ca94e764",
+						"23f999c0ef4d01c5",
+						"efa7693a33d9b229",
+						"82dafc9993819d01"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"4dc93dfbdb8b46a9": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "Spider_Starting_Point_SniperRoofDarkSniper",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"9acb7a40ad2ca4d9": {
+			"parent": {
+				"ref": "9fb03bd1c2d1ccdd",
+				"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+			},
+			"name": "AgencyMarkup_Python",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"df144586433bd11e": {
+			"parent": "23f999c0ef4d01c5",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "23f999c0ef4d01c5" },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["204f0a3462546ad"], "postInit": true }
+			}
+		},
+		"cd180bb013fe9ccd": {
+			"parent": "af7482718870ee41",
+			"name": "IntroCutCamera",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -87.15862274169922, "y": 0, "z": -93.72225952148438 },
+						"position": { "x": 15.21654987335205, "y": -71.46188354492188, "z": 1.3072559833526611 },
+						"scale": { "x": 0.9999999999999998, "y": 0.9999999999999999, "z": 0.9999999999999999 }
+					}
+				},
+				"m_eProjectionType": { "type": "ICameraEntity.EProjectionType", "value": "ePerspectiveRH" },
+				"m_fFovYDeg": { "type": "float32", "value": 50 },
+				"m_fWidth": { "type": "float32", "value": 2231.2890625 },
+				"m_fAspectWByH": { "type": "float32", "value": 1 },
+				"m_fNearZ": { "type": "float32", "value": 0.15000000596046448 },
+				"m_fFarZ": { "type": "float32", "value": 3000 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"e028daa3d87fe7fe": {
+			"parent": "d8ba32e167349a17",
+			"name": "EntityTrack_Hitman",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": [] }
+			}
+		},
+		"3280c5d4ba1fb6dc": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "ValueBool_Set_MUSIC_LeftHIPS",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValueEntities": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "3e269dc9c4db4ddf",
+							"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"7d9742f90a4c441d": {
+			"parent": "d8ba32e167349a17",
+			"name": "EntityTrack_ FX_PF_PostfilterController",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "de8abf9e3b7573db",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["a9ce44dd21a6a84a"] }
+			}
+		},
+		"b9beae1e0a940175": {
+			"parent": "a632181184b8cf0b",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5075107 } },
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 17.01181411743164, -0.8141945004463196, 0.3501887321472168, 3.397414445877075,
+								-3.7715253829956055, 0, 17.01181411743164
+							],
+							[1, 16.173696517944336, 0, 0, 0, 0, 0, 16.173696517944336]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -114.40193176269533, -81.72848510742188, 204.3212127685547, -217.942626953125,
+								122.59273529052734, 0, -114.40193176269533
+							],
+							[1, -87.15910339355469, 0, 0, 0, 0, 0, -87.15910339355469]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, -71.61903381347656, 0, 0, 0, 0, 0, -71.61903381347656],
+							[1, -71.61903381347656, 0, 0, 0, 0, 0, -71.61903381347656]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 2.8925421237945557, -1.4979757070541382, 0.6056550145149231, 6.440822124481201,
+								-7.133787155151367, 0, 2.8925421237945557
+							],
+							[1, 1.3072559833526611, 0, 0, 0, 0, 0, 1.3072559833526611]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -84.65743255615234, 59.83501052856445, -149.5875244140625, 159.56002807617188,
+								-89.75251770019531, 0, -84.65743255615234
+							],
+							[1, -104.60243225097656, 0, 0, 0, 0, 0, -104.60243225097656]
+						]
+					}
+				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_OBJECT_TO_PARENT" },
+				"m_triggerIfSpanning": { "type": "bool", "value": false }
+			}
+		},
+		"efa7693a33d9b229": {
+			"parent": "1c3b3c89d81690a8",
+			"name": "Group",
+			"factory": "[modules:/znamedgroup.class].pc_entitytype",
+			"blueprint": "[modules:/znamedgroup.class].pc_entityblueprint"
+		},
+		"661d2764766d7d4e": {
+			"parent": "cb46261738521cd7",
+			"name": "CurveItem01",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10486 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2757754 } },
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 1, 0, 0, 0, 0, 0, 1],
+							[
+								0.2800000011920929, 1, 0.09342413395643234, 0.09276987612247468, 1.522793531417847,
+								-2.693249464035034, -0.015738122165203094, 1
+							],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"82dafc9993819d01": {
+			"parent": "1c3b3c89d81690a8",
+			"name": "Active Camera Track01",
+			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+			"properties": { "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["75359670d870ee77"] } }
+		},
+		"bbc4470c273d0fee": {
+			"parent": "25336e17ca94e764",
+			"name": "MorphemeBoneTrack",
+			"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "25336e17ca94e764" },
+				"m_sSlotName": { "type": "ZString", "value": "FullBody" },
+				"m_bUpperBody": { "type": "bool", "value": false },
+				"m_bRunAIInGaps": { "type": "bool", "value": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["318b325e50398331"] }
+			}
+		},
+		"3e495fb3314d19c6": {
+			"parent": "4dc93dfbdb8b46a9",
+			"name": "Cam01_MedinaRoofEntrance",
+			"factory": "[modules:/zcameraentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -94.34721374511719, "y": -0.0000003796816372414469, "z": -25.263900756835938 },
+						"position": { "x": -23.91053009033203, "y": -37.01708984375, "z": 3.9769580364227295 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"c48f106684c025c9": {
+			"parent": {
+				"ref": "755cdcb42cc76b25",
+				"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+			},
+			"name": "LargeAgencyPickups01",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"55036b8f520749a3": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "AnyIntroCut_Playing",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"m_aValues": { "type": "TArray<SEntityTemplateReference>", "value": ["af7482718870ee41"] }
+			},
+			"events": {
+				"OnFalse": { "TransmitEvent": ["645d8153c85d7e90"] },
+				"OnTrue": { "EnterSafeZoneNoAnim": ["ab142658998c347"] }
+			}
+		},
+		"cb46261738521cd7": {
+			"parent": "49e923d6c5a3db42",
+			"name": "BlackWeight Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": { "type": "ZString", "value": "BlackWeight" },
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["661d2764766d7d4e", "34e0ec0f621c5f57"]
+				},
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "49e923d6c5a3db42", "postInit": true }
+			}
+		},
+		"645d8153c85d7e90": {
+			"parent": "9acb7a40ad2ca4d9",
+			"name": "_LockCar",
+			"factory": "[modules:/zeventtransmitterentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventtransmitterentity_void.class].pc_entityblueprint",
+			"properties": {
+				"m_Receivers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "9c4c11c85bdfd79f",
+							"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"54efbb844ea7e609": {
+			"parent": "688107f5a87e3e35",
+			"name": "TrajectoryResourceItem01",
+			"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 3858760 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 8766095 } },
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0020DC0886121CC2", "flag": "5F" }
+				},
+				"m_fBlendOut": { "type": "float32", "value": 0.3549104630947113 },
+				"m_triggerIfSpanning": { "type": "bool", "value": true }
+			}
+		},
+		"49e923d6c5a3db42": {
+			"parent": "1c3b3c89d81690a8",
+			"name": "EntityTrack_ FX_PF_PostfilterController",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "de8abf9e3b7573db",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["cb46261738521cd7"] }
+			}
+		},
+		"d8ba32e167349a17": {
+			"parent": "af7482718870ee41",
+			"name": "Python_Intro_CLEAN_01",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["7d9742f90a4c441d", "6b9cda027d61714a", "e028daa3d87fe7fe", "efbb6b73efffb4fb"]
+				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_bLetterbox": { "type": "bool", "value": true },
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1572864 } }
+			}
+		},
+		"688107f5a87e3e35": {
+			"parent": "25336e17ca94e764",
+			"name": "MorphemeTrajectoryTrack",
+			"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "25336e17ca94e764" },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_bRunAIInGaps": { "type": "bool", "value": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["54efbb844ea7e609"] }
+			}
+		},
+		"bae2c0f086acb0a4": {
+			"parent": "af7482718870ee41",
+			"name": "HeroSpawnSequenceDirector",
+			"factory": "00A6F689FB19B096",
+			"blueprint": "005AEBE4BDFCD1C9",
+			"properties": {
+				"m_aSequences": { "type": "TArray<SEntityTemplateReference>", "value": ["d8ba32e167349a17"] },
+				"m_rSpawner": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "dfcf4632f0362256",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+					}
+				},
+				"m_nPriority": { "type": "uint32", "value": 190 },
+				"m_bHideItems": { "type": "bool", "value": false },
+				"m_rItemPlacePosition": { "type": "SEntityTemplateReference", "value": "c7804a22afe67f", "postInit": true }
+			},
+			"events": { "OnPlay": { "SetTrue": ["1ad7dc0027af1861"] }, "OnStop": { "SetFalse": ["1ad7dc0027af1861"] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"c7804a22afe67f": {
+			"parent": "af7482718870ee41",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 16.95832633972168 },
+						"position": { "x": 13.256879806518555, "y": -71.03295135498047, "z": 0.7824339866638184 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			}
+		},
+		"204f0a3462546ad": {
+			"parent": "df144586433bd11e",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10486 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 12614369 } },
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -56.12234115600586, -9.588289260864258, 40.16216278076172, -62.20962142944336,
+								43.54505920410156, 0, -56.12234115600586
+							],
+							[
+								0.518562912940979, -44.21302795410156, -3.924140691757202, -3.419349431991577,
+								8.03129768371582, -1.510736346244812, 12.225680351257324, -44.21302795410156
+							],
+							[1, -32.81027603149414, 0, 0, 0, 0, 0, -32.81027603149414]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -89.75564575195313, -9.274178504943848, 33.524986267089844, -45.7022705078125,
+								27.580453872680664, 0, -89.75564575195313
+							],
+							[
+								0.518562912940979, -83.62665557861328, 1.1893343925476074, -7.853896617889404,
+								7.366876125335693, -1.000410556793213, 5.369106769561768, -83.62665557861328
+							],
+							[1, -78.5556411743164, 0, 0, 0, 0, 0, -78.5556411743164]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -19.44096946716309, -1.5439248085021973, 4.139555931091309, -5.130361557006836,
+								3.496910810470581, 0, -19.44096946716309
+							],
+							[
+								0.518562912940979, -18.478790283203125, 3.3615927696228027, -10.133584022521973,
+								13.116490364074709, -8.01641845703125, 0.40973949432373047, -18.478790283203125
+							],
+							[1, -19.740970611572266, 0, 0, 0, 0, 0, -19.740970611572266]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[0.518562912940979, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 14.810790061950684, 0.02663569711148739, 0.2992546856403351, -2.2091660499572754,
+								2.6103224754333496, 0, 14.810790061950684
+							],
+							[
+								0.518562912940979, 15.537837028503418, -0.3137069642543793, 1.3132176399230957,
+								0.5572840571403503, -2.642510175704956, -0.07116769254207611, 15.537837028503418
+							],
+							[1, 14.380953788757324, 0, 0, 0, 0, 0, 14.380953788757324]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 71.3946762084961, -31.410409927368164, 114.37207794189452, -154.45973205566406,
+								91.92607879638672, 0, 71.3946762084961
+							],
+							[
+								0.518562912940979, 91.82269287109376, -3.3726143836975098, -6.181714057922363,
+								12.7495698928833, -8.0355224609375, 19.412263870239254, 91.82269287109376
+							],
+							[1, 106.3946762084961, 0, 0, 0, 0, 0, 106.3946762084961]
+						]
+					}
+				},
+				"m_triggerIfSpanning": { "type": "bool", "value": true }
+			}
+		},
+		"82ede7def7b6db4c": {
+			"parent": "efbb6b73efffb4fb",
+			"name": "ActiveCameraItem",
+			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
+				"m_pCamera": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				}
+			}
+		},
+		"b7f856489f6ab829": {
+			"parent": "1c3b3c89d81690a8",
+			"name": "Event Track",
+			"factory": "[modules:/zeventtrack.class].pc_entitytype",
+			"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+			"properties": { "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["a2847f1d2eeacfe7"] } },
+			"outputCopying": { "Interpolation_Fired": { "Event_Track_Interpolation_Fired": ["1c3b3c89d81690a8"] } }
+		},
+		"5248b9661156a574": {
+			"parent": "4dc93dfbdb8b46a9",
+			"name": "HeroSpawnSequenceDirector",
+			"factory": "00A6F689FB19B096",
+			"blueprint": "005AEBE4BDFCD1C9",
+			"properties": {
+				"m_aSequences": { "type": "TArray<SEntityTemplateReference>", "value": ["1c3b3c89d81690a8"] },
+				"m_bPlaceLeftHandItem": { "type": "bool", "value": false }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"abcd625ebf2974d3": {
+			"parent": "fffffffffffffffe",
+			"name": "StartingLocation_DarkSniper",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcdf7d0a823543d": {
+			"parent": "abcd625ebf2974d3",
+			"name": "Spider_Starting_Point_SniperRoofDarkSniper",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcd5a311fd612e3": {
+			"parent": "abcdf7d0a823543d",
+			"name": "IntroCutCamera",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -130.35667419433594, "y": -0.000057295776059618227, "z": 161.15396118164063 },
+						"position": { "x": -38.02312088012695, "y": 51.87556076049805, "z": 2.661895990371704 },
+						"scale": { "x": 0.9999999999999998, "y": 1, "z": 0.9999999999999998 }
+					}
+				},
+				"m_eProjectionType": { "type": "ICameraEntity.EProjectionType", "value": "ePerspectiveRH" },
+				"m_fFovYDeg": { "type": "float32", "value": 50 },
+				"m_fWidth": { "type": "float32", "value": 2231.2890625 },
+				"m_fAspectWByH": { "type": "float32", "value": 1 },
+				"m_fNearZ": { "type": "float32", "value": 0.15000000596046448 },
+				"m_fFarZ": { "type": "float32", "value": 3000 }
+			}
+		},
+		"abcd0c2571211609": {
+			"parent": "abcdf7d0a823543d",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 31.35472869873047 },
+						"position": { "x": -36.382591247558594, "y": 46.21615982055664, "z": 0.000009999999747378752 }
+					}
+				}
+			}
+		},
+		"abcd2292b6925280": {
+			"parent": "abcdf7d0a823543d",
+			"name": "Python_Well_DarkSniper",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 10506731 } },
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_bLetterbox": { "type": "bool", "value": true },
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1572864 } },
+				"m_sequenceOrigin": { "type": "SEntityTemplateReference", "value": "abcd0c2571211609" },
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd41188a3adc2d", "abcdafa14b97a562", "abcdf2720cda39b2"],
+					"postInit": true
+				}
+			}
+		},
+		"abcd366691813279": {
+			"parent": "abcdf7d0a823543d",
+			"name": "HeroSpawn_Well_DarkSniper",
+			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.04268598929047585, "y": 0.31048732995986944, "z": -15.650280952453615 },
+						"position": { "x": -36.64440155029297, "y": 48.324310302734375, "z": -0.00029200001154094934 },
+						"scale": { "x": 1, "y": 0.9999999999999999, "z": 0.9999999999999999 }
+					}
+				},
+				"m_sId": { "type": "ZGuid", "value": "035838e6-a288-4d1a-a1ae-fba484a7c545" },
+				"m_InitialAmbience": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "47871ff0b6c3171d",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"abcd4c0f16f50882": {
+			"parent": "abcdf7d0a823543d",
+			"name": "Cam_MedinaRoofEntrance_Dummy",
+			"factory": "[modules:/zcameraentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -73.95571899414063, "y": 0, "z": 96.7946319580078 },
+						"position": { "x": -37.12234115600586, "y": -19.14097023010254, "z": 16.51078987121582 },
+						"scale": { "x": 1, "y": 1.0000000000000002, "z": 1 }
+					}
+				}
+			}
+		},
+		"abcd979f01786a11": {
+			"parent": "abcdf7d0a823543d",
+			"name": "HeroSpawnSequenceDirector",
+			"factory": "00A6F689FB19B096",
+			"blueprint": "005AEBE4BDFCD1C9",
+			"properties": {
+				"m_aSequences": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd2292b6925280"] },
+				"m_rSpawner": { "type": "SEntityTemplateReference", "value": "abcd366691813279" }
+			}
+		},
+		"abcd2e55edccf74a": {
+			"parent": "abcdf7d0a823543d",
+			"name": "Cam01_MedinaRoofEntrance",
+			"factory": "[modules:/zcameraentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -93.97342681884766, "y": -1.7647597789764409, "z": -1.3509979248046875 },
+						"position": { "x": -35.81142044067383, "y": 49.744041442871094, "z": 0.000011000000085914508 },
+						"scale": { "x": 1, "y": 1, "z": 0.9999999999999998 }
+					}
+				}
+			}
+		},
+		"abcdf2720cda39b2": {
+			"parent": "abcd2292b6925280",
+			"name": "EntityTrack_Hitman",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd022753bb6ef0", "abcd8ca3fbe39295"],
+					"postInit": true
+				}
+			}
+		},
+		"abcdafa14b97a562": {
+			"parent": "abcd2292b6925280",
+			"name": "EntityTrack_ IntroCutCamera",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["abcdad9d1c566eed"] }
+			}
+		},
+		"abcd41188a3adc2d": {
+			"parent": "abcd2292b6925280",
+			"name": "EntityTrack_ FX_PF_PostfilterController",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "de8abf9e3b7573db",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd814ef6269d48"] }
+			}
+		},
+		"abcd8ca3fbe39295": {
+			"parent": "abcdf2720cda39b2",
+			"name": "MorphemeBoneTrack",
+			"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "abcdf2720cda39b2" },
+				"m_sSlotName": { "type": "ZString", "value": "FullBody" },
+				"m_bUpperBody": { "type": "bool", "value": false },
+				"m_bRunAIInGaps": { "type": "bool", "value": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd2b154eafe43b"], "postInit": true }
+			}
+		},
+		"abcd022753bb6ef0": {
+			"parent": "abcdf2720cda39b2",
+			"name": "MorphemeTrajectoryTrack",
+			"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "abcdf2720cda39b2" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["abcde1ea44849b1d"] },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_bRunAIInGaps": { "type": "bool", "value": true }
+			}
+		},
+		"abcd2b154eafe43b": {
+			"parent": "abcd8ca3fbe39295",
+			"name": "BoneResourceItem",
+			"factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 5263851 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00241D0712D8841B", "flag": "5F" }
+				},
+				"m_fBlendOut": { "type": "float32", "value": 0.8616145849227905 }
+			}
+		},
+		"abcde1ea44849b1d": {
+			"parent": "abcd022753bb6ef0",
+			"name": "TrajectoryResourceItem",
+			"factory": "[modules:/zmorphemetrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 5263851 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00241D0712D8841B", "flag": "5F" }
+				},
+				"m_fBlendOut": { "type": "float32", "value": 1 }
+			}
+		},
+		"abcdad9d1c566eed": {
+			"parent": "abcdafa14b97a562",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "abcdafa14b97a562", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd182e3e38ddbb"], "postInit": true }
+			}
+		},
+		"abcd182e3e38ddbb": {
+			"parent": "abcdad9d1c566eed",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 9311354 } },
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 0.4179192781448364, 0, 0, -0.0018406445160508156, -0.00454187486320734,
+								-0.03160601854324341, 0.4179192781448364
+							],
+							[
+								0.06521739810705185, 0.3799307346343994, 0, 0, -0.00810290314257145, -0.007696826942265034,
+								-0.04621170088648796, 0.3799307346343994
+							],
+							[
+								0.1304347962141037, 0.3179193139076233, 2.8289735317230225, -5.042819499969482,
+								3.811899423599243, -2.1948676109313965, -1.0195516347885132, 0.3179193139076233
+							],
+							[1, -1.298446774482727, 0, 0, 0, 0, 0, -1.298446774482727]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -88.6908950805664, 0.4725784361362457, -1.138588786125183, 0.666010320186615, 0, 0,
+								-88.6908950805664
+							],
+							[
+								0.1304347962141037, -88.6908950805664, 2.158693552017212, -3.345226526260376,
+								1.3799043893814087, -0.13136477768421173, -1.2895457744598389, -88.6908950805664
+							],
+							[1, -89.9184341430664, 0, 0, 0, 0, 0, -89.9184341430664]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 2.9209506511688232, 0, 0, 0.016395380720496178, 0.02540704794228077, 0.058197811245918274,
+								2.9209506511688232
+							],
+							[
+								0.1304347962141037, 3.0209507942199707, -2.745387315750122, 4.9112114906311035,
+								-3.3936655521392822, 1.568858981132507, 1.125369668006897, 3.0209507942199707
+							],
+							[1, 4.487338066101074, 0, 0, 0, 0, 0, 4.487338066101074]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[
+								0.1304347962141037, 0, 2.42100191116333, -11.546317100524902, 10.11854648590088,
+								1.862309455871582, 0, 0
+							],
+							[1, 2.855540990829468, 0, 0, 0, 0, 0, 2.855540990829468]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 15.524020195007324, 0, 0, -0.0030744087416678667, -0.003619931871071458,
+								-0.02161661721765995, 15.524020195007324
+							],
+							[
+								0.06521739810705185, 15.495709419250488, 0, 0, -0.0018566030776128173, -0.003069654805585742,
+								-0.01903985440731049, 15.495709419250488
+							],
+							[
+								0.09782609343528748, 15.4717435836792, 0, 0, -0.015166315250098704, -0.001807641820050776,
+								-0.030748972669243813, 15.4717435836792
+							],
+							[
+								0.1304347962141037, 15.424019813537598, -9.340095520019531, 2.7083590030670166,
+								48.58460235595703, -53.95322036743164, -1.958732008934021, 15.424019813537598
+							],
+							[1, 1.46493399143219, 0, 0, 0, 0, 0, 1.46493399143219]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 143.3418426513672, 0, 0, -0.003074047388508916, -0.0036195062566548586,
+								-0.0216140765696764, 143.3418426513672
+							],
+							[
+								0.06521739810705185, 143.31353759765625, 0, 0, -0.001856384798884392, -0.0030692939180880785,
+								-0.01903761550784111, 143.31353759765625
+							],
+							[
+								0.09782609343528748, 143.28958129882813, 0, 0, -0.015164531767368317, -0.00180742924567312,
+								-0.030745357275009155, 143.28958129882813
+							],
+							[
+								0.1304347962141037, 143.24185180664065, 27.453596115112305, -59.91188049316406,
+								63.235748291015625, -42.77262115478515, -1.7824710607528689, 143.24185180664065
+							],
+							[1, 129.4642333984375, 0, 0, 0, 0, 0, 129.4642333984375]
+						]
+					}
+				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" }
+			}
+		},
+		"abcd814ef6269d48": {
+			"parent": "abcd41188a3adc2d",
+			"name": "BlackWeight Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": { "type": "ZString", "value": "BlackWeight" },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "abcd41188a3adc2d", "postInit": true },
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdda83ca72c749", "abcd5236a8b4ca1f"],
+					"postInit": true
+				}
+			}
+		},
+		"abcdda83ca72c749": {
+			"parent": "abcd814ef6269d48",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2065695 } },
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 1, 3, -7.5, 8, -4.5, 0, 1],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"abcd5236a8b4ca1f": {
+			"parent": "abcd814ef6269d48",
+			"name": "CurveItem01",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 9720299 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 786432 } },
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"abcd696ea4dd1b30": {
+			"parent": "fffffffffffffffe",
+			"name": "Python_Starting_Point_Plaza2",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"exposedInterfaces": { "IBoolCondition": "1ad7dc0027af1861" }
+		},
+		"abcd1387f419e9d3": {
+			"parent": "abcd696ea4dd1b30",
+			"name": "Playing",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"abcdddbeef536686": {
+			"parent": "abcd696ea4dd1b30",
+			"name": "IntroCutCamera",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/sofa_design_a.template?/camera.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -87.15862274169922, "y": 0, "z": -93.72225952148438 },
+						"position": { "x": 15.21654987335205, "y": -71.46188354492188, "z": 1.3072559833526611 },
+						"scale": { "x": 0.9999999999999998, "y": 0.9999999999999999, "z": 0.9999999999999999 }
+					}
+				},
+				"m_eProjectionType": { "type": "ICameraEntity.EProjectionType", "value": "ePerspectiveRH" },
+				"m_fFovYDeg": { "type": "float32", "value": 50 },
+				"m_fWidth": { "type": "float32", "value": 2231.2890625 },
+				"m_fAspectWByH": { "type": "float32", "value": 1 },
+				"m_fNearZ": { "type": "float32", "value": 0.15000000596046448 },
+				"m_fFarZ": { "type": "float32", "value": 3000 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"abcde11e2b2024c1": {
+			"parent": "abcd696ea4dd1b30",
+			"name": "Python_Intro_CLEAN_01",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd1af81eb16486", "abcdd0c7d6f07378", "abcd31d9205db749", "abcd187acab9ef6f"]
+				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_bLetterbox": { "type": "bool", "value": true },
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1572864 } }
+			}
+		},
+		"abcdc337a6a7e129": {
+			"parent": "abcd696ea4dd1b30",
+			"name": "HeroSpawnSequenceDirector",
+			"factory": "00A6F689FB19B096",
+			"blueprint": "005AEBE4BDFCD1C9",
+			"properties": {
+				"m_aSequences": { "type": "TArray<SEntityTemplateReference>", "value": ["abcde11e2b2024c1"] },
+				"m_rSpawner": { "type": "SEntityTemplateReference", "value": "abcd0ac653321d90" },
+				"m_nPriority": { "type": "uint32", "value": 190 },
+				"m_bHideItems": { "type": "bool", "value": false },
+				"m_rItemPlacePosition": { "type": "SEntityTemplateReference", "value": "abcdc084951184bc", "postInit": true }
+			},
+			"events": { "OnPlay": { "SetTrue": ["abcd1387f419e9d3"] }, "OnStop": { "SetFalse": ["abcd1387f419e9d3"] } }
+		},
+		"abcdc084951184bc": {
+			"parent": "abcd696ea4dd1b30",
+			"name": "Spatial",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 16.95832633972168 },
+						"position": { "x": 13.256879806518555, "y": -71.03295135498047, "z": 0.7824339866638184 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			}
+		},
+		"abcdd0c7d6f07378": {
+			"parent": "abcde11e2b2024c1",
+			"name": "EntityTrack_ IntroCutCamera",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcdf8a1c8c1713c"],
+					"postInit": true
+				}
+			}
+		},
+		"abcd187acab9ef6f": {
+			"parent": "abcde11e2b2024c1",
+			"name": "Active Camera Track",
+			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+			"properties": {
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd8bf7e36ae048"], "postInit": true }
+			}
+		},
+		"abcd31d9205db749": {
+			"parent": "abcde11e2b2024c1",
+			"name": "EntityTrack_Hitman",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": [] }
+			}
+		},
+		"abcd1af81eb16486": {
+			"parent": "abcde11e2b2024c1",
+			"name": "EntityTrack_ FX_PF_PostfilterController",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "de8abf9e3b7573db",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["abcdebc28f5d300b"] }
+			}
+		},
+		"abcdf8a1c8c1713c": {
+			"parent": "abcdd0c7d6f07378",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "abcdd0c7d6f07378" },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["abcd2cfb9a97aa30"], "postInit": true }
+			}
+		},
+		"abcd2cfb9a97aa30": {
+			"parent": "abcdf8a1c8c1713c",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5075107 } },
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 17.01181411743164, -0.8141945004463196, 0.3501887321472168, 3.397414445877075,
+								-3.7715253829956055, 0, 17.01181411743164
+							],
+							[1, 16.173696517944336, 0, 0, 0, 0, 0, 16.173696517944336]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -114.40193176269533, -81.72848510742188, 204.3212127685547, -217.942626953125,
+								122.59273529052734, 0, -114.40193176269533
+							],
+							[1, -87.15910339355469, 0, 0, 0, 0, 0, -87.15910339355469]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, -71.61903381347656, 0, 0, 0, 0, 0, -71.61903381347656],
+							[1, -71.61903381347656, 0, 0, 0, 0, 0, -71.61903381347656]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, 2.8925421237945557, -1.4979757070541382, 0.6056550145149231, 6.440822124481201,
+								-7.133787155151367, 0, 2.8925421237945557
+							],
+							[1, 1.3072559833526611, 0, 0, 0, 0, 0, 1.3072559833526611]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0, -84.65743255615234, 59.83501052856445, -149.5875244140625, 159.56002807617188,
+								-89.75251770019531, 0, -84.65743255615234
+							],
+							[1, -104.60243225097656, 0, 0, 0, 0, 0, -104.60243225097656]
+						]
+					}
+				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_OBJECT_TO_PARENT" },
+				"m_triggerIfSpanning": { "type": "bool", "value": false }
+			}
+		},
+		"abcd8bf7e36ae048": {
+			"parent": "abcd187acab9ef6f",
+			"name": "ActiveCameraItem",
+			"factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
+			"blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
+				"m_pCamera": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ab4a982fa5e95a70",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+						"exposedEntity": "CameraEntity01"
+					}
+				}
+			}
+		},
+		"abcdebc28f5d300b": {
+			"parent": "abcd1af81eb16486",
+			"name": "BlackWeight Track",
+			"factory": "[modules:/zentitypropertytrack.class].pc_entitytype",
+			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": { "type": "ZString", "value": "BlackWeight" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["abcda8739aeaeece"] },
+				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "abcd1af81eb16486", "postInit": true }
+			}
+		},
+		"abcda8739aeaeece": {
+			"parent": "abcdebc28f5d300b",
+			"name": "CurveItem",
+			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
+			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 3177185 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2065695 } },
+				"m_curve": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
+						]
+					}
+				}
+			}
+		},
+		"abcd0ac653321d90": {
+			"parent": "abcd696ea4dd1b30",
+			"name": "HeroSpawn",
+			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 12.97346019744873, "y": -71.941650390625, "z": 0.0000019999999949504854 }
+					}
+				},
+				"m_sId": { "type": "ZGuid", "value": "80b8188c-1783-413a-aff6-516c0ab27ffc" },
+				"m_InitialAmbience": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "3f0e75d2e7c54c97",
+						"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+					}
+				},
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": false }
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "29c65b0f6c71b52e",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "1f46f0b884483362",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "bafc27f84d6b473",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "24717afce1aa7d5f",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "414a8d1c80c524ee",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "712e043eb4b7b244",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "78233f6542542079",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "a591f67fd659e3a",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				},
+				{
+					"ref": "5a89f63f8787d1d1",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bHide": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "7c893b13ab88b9ff",
+					"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bHide": { "type": "bool", "value": true },
+				"m_bUnlockedByDefault": { "type": "bool", "value": false }
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/marrakesh/agencymarkup_location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_python.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -1,1 +1,189 @@
-{"tempHash":"0021D977B508B413","tbluHash":"00A25837A7539CB8","rootEntity":"b73d5fed34bc391f","entities":{"ed209c83d97c0828":{"parent":"b73d5fed34bc391f","name":"SetPieceHelpers_InteractionSpatialsAndGizmos","factory":"[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_interactionspatialsandgizmos.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_interactionspatialsandgizmos.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-180},"position":{"x":0,"y":-0.6305350065231323,"z":0}}},"InteractionPoint":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":179.99999499104388},"position":{"x":0,"y":-0.6000000238418579,"z":1.100000023841858}}},"PromptPoint":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-179.99999499104388},"position":{"x":0,"y":-0.039000000804662704,"z":0.15299999713897705}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"b73d5fed34bc391f","postInit":true}}},"904e2b2e10effbfb":{"parent":"b73d5fed34bc391f","name":"militaryradio_a","factory":"[assembly:/_pro/environment/geometry/props/electronics/militaryradio_a.wl2?/militaryradio_a.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":90},"position":{"x":0,"y":0.00000095367431640625,"z":1}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"b73d5fed34bc391f","postInit":true}}},"83063c10291ea99f":{"parent":"b73d5fed34bc391f","name":"SetPieceHelpers_Activator_NoTool","factory":"[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_activator_notool.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_activator_notool.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-179.99999499104388},"position":{"x":0,"y":0,"z":0}}},"m_aPromptPositions":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"ed209c83d97c0828","externalScene":null,"exposedEntity":"PromptSpatial"}]},"m_rContextLocation":{"type":"SEntityTemplateReference","value":"ed209c83d97c0828"},"m_eidParent":{"type":"SEntityTemplateReference","value":"ed209c83d97c0828"},"m_TurnOnAnim":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/animationnetworks/hitman01/tampering/hm_interact_press_button_120cm.aln].pc_rtn","flag":"9F"}},"m_TurnOffAnim":{"type":"ZRuntimeResourceID","value":null},"m_bIsOn":{"type":"bool","value":false},"m_sTurnOnPromptText":{"type":"ZString","value":"Turn On"},"m_bActionHasValidDisguise":{"type":"bool","value":false},"m_rPromptTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_callmethdealer.sweetline].pc_sweetline","flag":"5F"}},"m_rPromptTextResourceOff":{"type":"ZRuntimeResourceID","value":null},"m_sId":{"type":"ZGuid","value":"e0fc24af-7387-4c63-87d8-9dbbc32ffce4"},"m_aUIHighlightGeom":{"type":"TArray<SEntityTemplateReference>","value":[]},"m_bApplyPromptDescriptionText":{"type":"bool","value":false},"m_bIsIllegal":{"type":"bool","value":false},"m_bIsToggleAction":{"type":"bool","value":false},"m_bUseOnlyOnce":{"type":"bool","value":true},"m_bCanBeOperatedWithItemInLeftHandOn":{"type":"bool","value":true},"m_bCanBeOperatedWithItemInLeftHandOff":{"type":"bool","value":true},"Onm_rPromptDescriptionTextResource":{"type":"ZRuntimeResourceID","value":null},"m_rContextObjectSpatial":{"type":"SEntityTemplateReference","value":{"ref":"ed209c83d97c0828","externalScene":null,"exposedEntity":"InteractionPointSpatial"},"postInit":true},"VisibilityConditions":{"type":"TArray<SEntityTemplateReference>","value":[],"postInit":true}},"events":{"OnTurnOn":{"Reset":["83063c10291ea99f"]},"OnTurnOnAnimEvent01":{"Reset":["83063c10291ea99f"]}},"outputCopying":{"Started":{"Started":["b73d5fed34bc391f"]},"Completed":{"Completed":["b73d5fed34bc391f"]},"OnTurnOn":{"OnTurnOn":["b73d5fed34bc391f"]},"OnTurnOnAnimEvent01":{"OnTurnOn":["b73d5fed34bc391f"]}}},"b73d5fed34bc391f":{"parent":null,"name":"SetPiece_Italy_Unique_CallMethDealer","factory":"[modules:/zcompositeentity.class].pc_entitytype","blueprint":"[modules:/zcompositeentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-23.122520446777344,"y":4.372830867767334,"z":0}}},"m_bActionHasValidDisguise":{"type":"bool","value":false},"m_rPromptTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_callmethdealer.sweetline].pc_sweetline","flag":"5F"}},"m_bOverrideInteractionRange":{"type":"bool","value":false}},"inputCopying":{"Reset":{"Reset":["83063c10291ea99f"]},"TurnOn":{"TurnOn":["83063c10291ea99f"]},"TurnOff":{"TurnOff":["83063c10291ea99f"]}},"propertyAliases":{"EnableAction":[{"originalProperty":"EnableAction","originalEntity":"83063c10291ea99f"}],"Onm_rPromptDescriptionTextResource":[{"originalProperty":"Onm_rPromptDescriptionTextResource","originalEntity":"83063c10291ea99f"}],"VisibilityConditions":[{"originalProperty":"VisibilityConditions","originalEntity":"83063c10291ea99f"}],"m_bActionHasValidDisguise":[{"originalProperty":"m_bActionHasValidDisguise","originalEntity":"83063c10291ea99f"}],"m_bApplyPromptDescriptionText":[{"originalProperty":"m_bApplyPromptDescriptionText","originalEntity":"83063c10291ea99f"}],"m_bIsIllegal":[{"originalProperty":"m_bIsIllegal","originalEntity":"83063c10291ea99f"}],"m_bIsOn":[{"originalProperty":"m_bIsOn","originalEntity":"83063c10291ea99f"}],"m_bIsToggleAction":[{"originalProperty":"m_bIsToggleAction","originalEntity":"83063c10291ea99f"}],"m_bOverrideInteractionRange":[{"originalProperty":"m_bOverrideInteractionRange","originalEntity":"83063c10291ea99f"}],"m_bUseOnlyOnce":[{"originalProperty":"m_bUseOnlyOnce","originalEntity":"83063c10291ea99f"}],"m_fOverrideInteractionRangeValue":[{"originalProperty":"m_fOverrideInteractionRangeValue","originalEntity":"83063c10291ea99f"}],"m_rPromptTextResource":[{"originalProperty":"m_rPromptTextResource","originalEntity":"83063c10291ea99f"}]}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "0021D977B508B413",
+	"tbluHash": "00A25837A7539CB8",
+	"rootEntity": "b73d5fed34bc391f",
+	"entities": {
+		"ed209c83d97c0828": {
+			"parent": "b73d5fed34bc391f",
+			"name": "SetPieceHelpers_InteractionSpatialsAndGizmos",
+			"factory": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_interactionspatialsandgizmos.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_interactionspatialsandgizmos.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": 0, "y": -0.6305350065231323, "z": 0 }
+					}
+				},
+				"InteractionPoint": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 179.99999499104388 },
+						"position": { "x": 0, "y": -0.6000000238418579, "z": 1.100000023841858 }
+					}
+				},
+				"PromptPoint": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -179.99999499104388 },
+						"position": { "x": 0, "y": -0.039000000804662704, "z": 0.15299999713897705 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b73d5fed34bc391f", "postInit": true }
+			}
+		},
+		"904e2b2e10effbfb": {
+			"parent": "b73d5fed34bc391f",
+			"name": "militaryradio_a",
+			"factory": "[assembly:/_pro/environment/geometry/props/electronics/militaryradio_a.wl2?/militaryradio_a.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 0, "y": 0.00000095367431640625, "z": 1 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b73d5fed34bc391f", "postInit": true }
+			}
+		},
+		"83063c10291ea99f": {
+			"parent": "b73d5fed34bc391f",
+			"name": "SetPieceHelpers_Activator_NoTool",
+			"factory": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_activator_notool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelpers_activator_notool.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -179.99999499104388 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_aPromptPositions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "ed209c83d97c0828", "externalScene": null, "exposedEntity": "PromptSpatial" }]
+				},
+				"m_rContextLocation": { "type": "SEntityTemplateReference", "value": "ed209c83d97c0828" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "ed209c83d97c0828" },
+				"m_TurnOnAnim": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/animationnetworks/hitman01/tampering/hm_interact_press_button_120cm.aln].pc_rtn",
+						"flag": "9F"
+					}
+				},
+				"m_TurnOffAnim": { "type": "ZRuntimeResourceID", "value": null },
+				"m_bIsOn": { "type": "bool", "value": false },
+				"m_sTurnOnPromptText": { "type": "ZString", "value": "Turn On" },
+				"m_bActionHasValidDisguise": { "type": "bool", "value": false },
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_callmethdealer.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextResourceOff": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sId": { "type": "ZGuid", "value": "e0fc24af-7387-4c63-87d8-9dbbc32ffce4" },
+				"m_aUIHighlightGeom": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_bApplyPromptDescriptionText": { "type": "bool", "value": false },
+				"m_bIsIllegal": { "type": "bool", "value": false },
+				"m_bIsToggleAction": { "type": "bool", "value": false },
+				"m_bUseOnlyOnce": { "type": "bool", "value": true },
+				"m_bCanBeOperatedWithItemInLeftHandOn": { "type": "bool", "value": true },
+				"m_bCanBeOperatedWithItemInLeftHandOff": { "type": "bool", "value": true },
+				"Onm_rPromptDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rContextObjectSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ed209c83d97c0828",
+						"externalScene": null,
+						"exposedEntity": "InteractionPointSpatial"
+					},
+					"postInit": true
+				},
+				"VisibilityConditions": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true }
+			},
+			"events": {
+				"OnTurnOn": { "Reset": ["83063c10291ea99f"] },
+				"OnTurnOnAnimEvent01": { "Reset": ["83063c10291ea99f"] }
+			},
+			"outputCopying": {
+				"Started": { "Started": ["b73d5fed34bc391f"] },
+				"Completed": { "Completed": ["b73d5fed34bc391f"] },
+				"OnTurnOn": { "OnTurnOn": ["b73d5fed34bc391f"] },
+				"OnTurnOnAnimEvent01": { "OnTurnOn": ["b73d5fed34bc391f"] }
+			}
+		},
+		"b73d5fed34bc391f": {
+			"parent": null,
+			"name": "SetPiece_Italy_Unique_CallMethDealer",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -23.122520446777344, "y": 4.372830867767334, "z": 0 }
+					}
+				},
+				"m_bActionHasValidDisguise": { "type": "bool", "value": false },
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_callmethdealer.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bOverrideInteractionRange": { "type": "bool", "value": false }
+			},
+			"inputCopying": {
+				"Reset": { "Reset": ["83063c10291ea99f"] },
+				"TurnOn": { "TurnOn": ["83063c10291ea99f"] },
+				"TurnOff": { "TurnOff": ["83063c10291ea99f"] }
+			},
+			"propertyAliases": {
+				"EnableAction": [{ "originalProperty": "EnableAction", "originalEntity": "83063c10291ea99f" }],
+				"Onm_rPromptDescriptionTextResource": [
+					{ "originalProperty": "Onm_rPromptDescriptionTextResource", "originalEntity": "83063c10291ea99f" }
+				],
+				"VisibilityConditions": [
+					{ "originalProperty": "VisibilityConditions", "originalEntity": "83063c10291ea99f" }
+				],
+				"m_bActionHasValidDisguise": [
+					{ "originalProperty": "m_bActionHasValidDisguise", "originalEntity": "83063c10291ea99f" }
+				],
+				"m_bApplyPromptDescriptionText": [
+					{ "originalProperty": "m_bApplyPromptDescriptionText", "originalEntity": "83063c10291ea99f" }
+				],
+				"m_bIsIllegal": [{ "originalProperty": "m_bIsIllegal", "originalEntity": "83063c10291ea99f" }],
+				"m_bIsOn": [{ "originalProperty": "m_bIsOn", "originalEntity": "83063c10291ea99f" }],
+				"m_bIsToggleAction": [{ "originalProperty": "m_bIsToggleAction", "originalEntity": "83063c10291ea99f" }],
+				"m_bOverrideInteractionRange": [
+					{ "originalProperty": "m_bOverrideInteractionRange", "originalEntity": "83063c10291ea99f" }
+				],
+				"m_bUseOnlyOnce": [{ "originalProperty": "m_bUseOnlyOnce", "originalEntity": "83063c10291ea99f" }],
+				"m_fOverrideInteractionRangeValue": [
+					{ "originalProperty": "m_fOverrideInteractionRangeValue", "originalEntity": "83063c10291ea99f" }
+				],
+				"m_rPromptTextResource": [
+					{ "originalProperty": "m_rPromptTextResource", "originalEntity": "83063c10291ea99f" }
+				]
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

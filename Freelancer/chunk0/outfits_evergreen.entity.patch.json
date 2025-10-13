@@ -1,1 +1,29 @@
-{"tempHash":"00F8B3FEF212F530","tbluHash":"008800DBBD9353E1","patch":[{"SubEntityOperation":["35c1568e3dee5e69",{"PatchArrayPropertyValue":["m_aCharSets",[{"AddItemAfter":["d8e75f3382c6c1c5","feed7bb70e8ee0ce"]}]]}]},{"AddEntity":["feed7bb70e8ee0ce",{"parent":"35c1568e3dee5e69","name":"CHARSET_civ_fem_formal_05","factory":"[assembly:/_pro/characters/templates/paris/civilians_formal.template?/charset_civ_fem_formal_05.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/characters/templates/paris/civilians_formal.template?/charset_civ_fem_formal_05.entitytemplate].pc_entityblueprint"}]}],"patchVersion":6}
+{
+	"tempHash": "00F8B3FEF212F530",
+	"tbluHash": "008800DBBD9353E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"35c1568e3dee5e69",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aCharSets",
+						[{ "AddItemAfter": ["d8e75f3382c6c1c5", "feed7bb70e8ee0ce"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed7bb70e8ee0ce",
+				{
+					"parent": "35c1568e3dee5e69",
+					"name": "CHARSET_civ_fem_formal_05",
+					"factory": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/charset_civ_fem_formal_05.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/templates/paris/civilians_formal.template?/charset_civ_fem_formal_05.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

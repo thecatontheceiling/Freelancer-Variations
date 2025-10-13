@@ -1,1 +1,257 @@
-{"tempHash":"002B0C4EA6CA0629","tbluHash":"004FE9A8A4E8F0D8","rootEntity":"5a64735a506f9850","entities":{"6a9b223c949b3e8b":{"parent":"5a64735a506f9850","name":"BoxRigidBody","factory":"[assembly:/templates/physics/rigidbodyprimitives.template?/boxrigidbody.entitytemplate].pc_entitytype","blueprint":"[assembly:/templates/physics/rigidbodyprimitives.template?/boxrigidbody.entitytemplate].pc_entityblueprint","properties":{"m_bKinematic":{"type":"bool","value":true},"m_vBoxSize":{"type":"SVector3","value":{"x":0.009999999776482582,"y":0.009999999776482582,"z":0.009999999776482582}},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"e89c7da2b59195d9":{"parent":"5a64735a506f9850","name":"FX_Logic_LampCore","factory":"[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint","properties":{"On":{"type":"bool","value":true},"GlowPower":{"type":"float32","value":200},"DiffusePower":{"type":"float32","value":40},"DiffuseColor":{"type":"SColorRGB","value":"#ffe1ba"},"LampGeometry":{"type":"TArray<SEntityTemplateReference>","value":["486a7f11f7d9d813"],"postInit":true}},"events":{"DiffuseColor":{"DiffuseColor":["403336c268e0c535"],"ConstantColorRGB_01_Value":["9f301e029c678eef"]},"DiffusePower":{"DiffusePower":["403336c268e0c535"]},"On":{"SetVisible":["403336c268e0c535","7275f438af2c56b0"]},"GeomShadowToggle":{"CastShadows":["486a7f11f7d9d813"]},"GlowPower":{"ConstantVector1D_07_Value":["9f301e029c678eef"]}}},"60d8ff4c5b51ee1e":{"parent":"5a64735a506f9850","name":"Wire_Logic","factory":"[assembly:/_pro/environment/templates/props/wires/wires.template?/wire_logic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/environment/templates/props/wires/wires.template?/wire_logic.entitytemplate].pc_entityblueprint","properties":{"m_Material":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/environment/materials/props/wires/copper_wire_a.mi].pc_mi","flag":"5F"}},"m_nNumWires":{"type":"uint32","value":1},"m_nNumSimSegments":{"type":"uint32","value":1},"m_nNumRenderSegments":{"type":"uint32","value":1},"m_bStraightRestPose":{"type":"bool","value":true},"m_fWireWidth":{"type":"float32","value":0.007000000216066837},"m_vGravity":{"type":"SVector3","value":{"x":0,"y":0,"z":0}},"m_rAnchorTransform":{"type":"SEntityTemplateReference","value":"486a7f11f7d9d813","postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"7275f438af2c56b0":{"parent":"5a64735a506f9850","name":"Light_Emissive_00","factory":"[modules:/zlightentity.class].pc_entitytype","blueprint":"[modules:/zlightentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":-45},"position":{"x":0.009236999787390232,"y":-0.0010580000234767795,"z":-1.1207489967346191}}},"m_eLightType":{"type":"ILightEntity.ELightType","value":"LT_ENVIRONMENT"},"m_fDiffusePower":{"type":"float32","value":1},"m_vAngularAttenuation":{"type":"SVector2","value":{"x":0.8981317281723022,"y":0.5453981757164001}},"m_fCapsuleHeight":{"type":"float32","value":1},"m_fAspectXByY":{"type":"float32","value":1},"m_vFarAttenuation":{"type":"SVector2","value":{"x":1.7100000381469729,"y":2.2100000381469727}},"m_vBoxSize":{"type":"SVector3","value":{"x":0.5692769885063171,"y":0.5835350155830383,"z":0.8776220083236694}},"m_vBoxFadePos":{"type":"SVector3","value":{"x":0.20000000298023224,"y":0.20000000298023224,"z":0.4036119878292084}},"m_vBoxFadeNeg":{"type":"SVector3","value":{"x":0.20000000298023224,"y":0.20000000298023224,"z":0.3916710019111634}},"m_bEnableLightFade":{"type":"bool","value":true},"m_bCastShadows":{"type":"bool","value":false},"m_bCrowdCastShadows":{"type":"bool","value":false},"m_ProjectorMap":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/effects/textures/projections/fx_projection_3d_generic_lamp_b.texture?/diffuse_b.tex](ascolormap).pc_tex","flag":"5F"}},"m_fLightFadeDistance":{"type":"float32","value":20},"m_MasterLight":{"type":"SEntityTemplateReference","value":"403336c268e0c535","postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"b6d65b639f17fa23":{"parent":"5a64735a506f9850","name":"D6Constraint","factory":"[modules:/zd6constraintentity.class].pc_entitytype","blueprint":"[modules:/zd6constraintentity.class].pc_entityblueprint","properties":{"m_pEntityA":{"type":"SEntityTemplateReference","value":"6a9b223c949b3e8b"},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":-90,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_fTwistDriveStrength":{"type":"float32","value":0.20000000298023224},"m_fTwistDriveDamping":{"type":"float32","value":0.5},"m_fSwing1Limit":{"type":"float32","value":45},"m_fSwing2Limit":{"type":"float32","value":45},"m_eMotionSwing1":{"type":"EMotionType","value":"MOTION_LIMITED"},"m_eMotionSwing2":{"type":"EMotionType","value":"MOTION_LIMITED"},"m_fSwingDriveStrength":{"type":"float32","value":0.05000000074505806},"m_fSwingDriveDamping":{"type":"float32","value":5},"m_pEntityB":{"type":"SEntityTemplateReference","value":"486a7f11f7d9d813","postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"486a7f11f7d9d813":{"parent":"5a64735a506f9850","name":"lamp_bangkok_wooden_c_00","factory":"004CE4E4CCEA3D4E","blueprint":"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":-0.6539999842643738}}},"m_fMass":{"type":"float32","value":10},"m_fLinearDampening":{"type":"float32","value":0.20000000298023224},"m_fAngularDampening":{"type":"float32","value":0.20000000298023224},"m_fSleepEnergyThreshold":{"type":"float32","value":0.009999999776482582},"m_bStartSleeping":{"type":"bool","value":true},"m_eRoomBehaviour":{"type":"ZSpatialEntity.ERoomBehaviour","value":"ROOM_STATIC"},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"9f301e029c678eef":{"parent":"5a64735a506f9850","name":"lamp_bangkok_wooden_a","factory":"[assembly:/_pro/environment/materials/props/lamps/lamp_bangkok_wooden_a.mi].pc_entitytype","blueprint":"[assembly:/_pro/environment/materials/props/lamps/lamp_bangkok_wooden_a.mi].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["486a7f11f7d9d813"]},"ConstantColorRGB_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_07_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"403336c268e0c535":{"parent":"5a64735a506f9850","name":"Light_Main","factory":"[modules:/zlightentity.class].pc_entitytype","blueprint":"[modules:/zlightentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.03837298974394798,"y":0.02736378088593483,"z":-0.9285550117492676}}},"m_eLightType":{"type":"ILightEntity.ELightType","value":"LT_OMNI"},"m_fDiffusePower":{"type":"float32","value":1},"m_vAngularAttenuation":{"type":"SVector2","value":{"x":0.8981317281723022,"y":0.5453981757164001}},"m_fCapsuleHeight":{"type":"float32","value":1},"m_fAspectXByY":{"type":"float32","value":1},"m_vFarAttenuation":{"type":"SVector2","value":{"x":1,"y":4}},"m_bCastShadows":{"type":"bool","value":false},"m_bEnableLightFade":{"type":"bool","value":true},"m_ProjectorMap":{"type":"ZRuntimeResourceID","value":{"resource":"[assembly:/_pro/effects/textures/projections/fx_projection_3d_generic_lamp_b.texture?/diffuse_b.tex](ascolormap).pc_tex","flag":"5F"}},"m_fLightFadeDistance":{"type":"float32","value":20},"m_eidParent":{"type":"SEntityTemplateReference","value":"5a64735a506f9850","postInit":true}}},"5a64735a506f9850":{"parent":null,"name":"lamp_bangkok_wooden_c_00","factory":"[modules:/zcompositeentity.class].pc_entitytype","blueprint":"[modules:/zcompositeentity.class].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-5.5219950675964355,"y":4.9527740478515625,"z":6.387765884399414}}},"On":{"type":"bool","value":true},"DiffuseColor":{"type":"SColorRGB","value":"#ffe1ba"},"DiffusePower":{"type":"float32","value":40},"GlowPower":{"type":"float32","value":200},"m_vFarAttenuation":{"type":"SVector2","value":{"x":1,"y":4}},"m_bVisibleInBoxReflection":{"type":"bool","value":true}},"inputCopying":{"TurnOn":{"TurnOn":["e89c7da2b59195d9"]},"TurnOff":{"TurnOff":["e89c7da2b59195d9"]}},"propertyAliases":{"On":[{"originalProperty":"On","originalEntity":"e89c7da2b59195d9"}],"m_vFarAttenuation":[{"originalProperty":"m_vFarAttenuation","originalEntity":"403336c268e0c535"}],"m_fLightFadeDistance":[{"originalProperty":"m_fLightFadeDistance","originalEntity":"403336c268e0c535"},{"originalProperty":"m_fLightFadeDistance","originalEntity":"7275f438af2c56b0"}],"m_bCastShadows":[{"originalProperty":"m_bCastShadows","originalEntity":"403336c268e0c535"}],"GlowPower":[{"originalProperty":"GlowPower","originalEntity":"e89c7da2b59195d9"}],"DiffusePower":[{"originalProperty":"DiffusePower","originalEntity":"e89c7da2b59195d9"}],"DiffuseColor":[{"originalProperty":"DiffuseColor","originalEntity":"e89c7da2b59195d9"}]}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "002B0C4EA6CA0629",
+	"tbluHash": "004FE9A8A4E8F0D8",
+	"rootEntity": "5a64735a506f9850",
+	"entities": {
+		"6a9b223c949b3e8b": {
+			"parent": "5a64735a506f9850",
+			"name": "BoxRigidBody",
+			"factory": "[assembly:/templates/physics/rigidbodyprimitives.template?/boxrigidbody.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/rigidbodyprimitives.template?/boxrigidbody.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bKinematic": { "type": "bool", "value": true },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": { "x": 0.009999999776482582, "y": 0.009999999776482582, "z": 0.009999999776482582 }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"e89c7da2b59195d9": {
+			"parent": "5a64735a506f9850",
+			"name": "FX_Logic_LampCore",
+			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"On": { "type": "bool", "value": true },
+				"GlowPower": { "type": "float32", "value": 200 },
+				"DiffusePower": { "type": "float32", "value": 40 },
+				"DiffuseColor": { "type": "SColorRGB", "value": "#ffe1ba" },
+				"LampGeometry": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["486a7f11f7d9d813"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"DiffuseColor": { "DiffuseColor": ["403336c268e0c535"], "ConstantColorRGB_01_Value": ["9f301e029c678eef"] },
+				"DiffusePower": { "DiffusePower": ["403336c268e0c535"] },
+				"On": { "SetVisible": ["403336c268e0c535", "7275f438af2c56b0"] },
+				"GeomShadowToggle": { "CastShadows": ["486a7f11f7d9d813"] },
+				"GlowPower": { "ConstantVector1D_07_Value": ["9f301e029c678eef"] }
+			}
+		},
+		"60d8ff4c5b51ee1e": {
+			"parent": "5a64735a506f9850",
+			"name": "Wire_Logic",
+			"factory": "[assembly:/_pro/environment/templates/props/wires/wires.template?/wire_logic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/wires/wires.template?/wire_logic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/copper_wire_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_nNumWires": { "type": "uint32", "value": 1 },
+				"m_nNumSimSegments": { "type": "uint32", "value": 1 },
+				"m_nNumRenderSegments": { "type": "uint32", "value": 1 },
+				"m_bStraightRestPose": { "type": "bool", "value": true },
+				"m_fWireWidth": { "type": "float32", "value": 0.007000000216066837 },
+				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } },
+				"m_rAnchorTransform": { "type": "SEntityTemplateReference", "value": "486a7f11f7d9d813", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"7275f438af2c56b0": {
+			"parent": "5a64735a506f9850",
+			"name": "Light_Emissive_00",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -45 },
+						"position": { "x": 0.009236999787390232, "y": -0.0010580000234767795, "z": -1.1207489967346191 }
+					}
+				},
+				"m_eLightType": { "type": "ILightEntity.ELightType", "value": "LT_ENVIRONMENT" },
+				"m_fDiffusePower": { "type": "float32", "value": 1 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.8981317281723022, "y": 0.5453981757164001 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 1 },
+				"m_fAspectXByY": { "type": "float32", "value": 1 },
+				"m_vFarAttenuation": { "type": "SVector2", "value": { "x": 1.7100000381469729, "y": 2.2100000381469727 } },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": { "x": 0.5692769885063171, "y": 0.5835350155830383, "z": 0.8776220083236694 }
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0.20000000298023224, "y": 0.20000000298023224, "z": 0.4036119878292084 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0.20000000298023224, "y": 0.20000000298023224, "z": 0.3916710019111634 }
+				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCrowdCastShadows": { "type": "bool", "value": false },
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_3d_generic_lamp_b.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 20 },
+				"m_MasterLight": { "type": "SEntityTemplateReference", "value": "403336c268e0c535", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"b6d65b639f17fa23": {
+			"parent": "5a64735a506f9850",
+			"name": "D6Constraint",
+			"factory": "[modules:/zd6constraintentity.class].pc_entitytype",
+			"blueprint": "[modules:/zd6constraintentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pEntityA": { "type": "SEntityTemplateReference", "value": "6a9b223c949b3e8b" },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": -90, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fTwistDriveStrength": { "type": "float32", "value": 0.20000000298023224 },
+				"m_fTwistDriveDamping": { "type": "float32", "value": 0.5 },
+				"m_fSwing1Limit": { "type": "float32", "value": 45 },
+				"m_fSwing2Limit": { "type": "float32", "value": 45 },
+				"m_eMotionSwing1": { "type": "EMotionType", "value": "MOTION_LIMITED" },
+				"m_eMotionSwing2": { "type": "EMotionType", "value": "MOTION_LIMITED" },
+				"m_fSwingDriveStrength": { "type": "float32", "value": 0.05000000074505806 },
+				"m_fSwingDriveDamping": { "type": "float32", "value": 5 },
+				"m_pEntityB": { "type": "SEntityTemplateReference", "value": "486a7f11f7d9d813", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"486a7f11f7d9d813": {
+			"parent": "5a64735a506f9850",
+			"name": "lamp_bangkok_wooden_c_00",
+			"factory": "004CE4E4CCEA3D4E",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": -0.6539999842643738 }
+					}
+				},
+				"m_fMass": { "type": "float32", "value": 10 },
+				"m_fLinearDampening": { "type": "float32", "value": 0.20000000298023224 },
+				"m_fAngularDampening": { "type": "float32", "value": 0.20000000298023224 },
+				"m_fSleepEnergyThreshold": { "type": "float32", "value": 0.009999999776482582 },
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"9f301e029c678eef": {
+			"parent": "5a64735a506f9850",
+			"name": "lamp_bangkok_wooden_a",
+			"factory": "[assembly:/_pro/environment/materials/props/lamps/lamp_bangkok_wooden_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/props/lamps/lamp_bangkok_wooden_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["486a7f11f7d9d813"] },
+				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_07_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"403336c268e0c535": {
+			"parent": "5a64735a506f9850",
+			"name": "Light_Main",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.03837298974394798, "y": 0.02736378088593483, "z": -0.9285550117492676 }
+					}
+				},
+				"m_eLightType": { "type": "ILightEntity.ELightType", "value": "LT_OMNI" },
+				"m_fDiffusePower": { "type": "float32", "value": 1 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.8981317281723022, "y": 0.5453981757164001 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 1 },
+				"m_fAspectXByY": { "type": "float32", "value": 1 },
+				"m_vFarAttenuation": { "type": "SVector2", "value": { "x": 1, "y": 4 } },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_3d_generic_lamp_b.texture?/diffuse_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 20 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5a64735a506f9850", "postInit": true }
+			}
+		},
+		"5a64735a506f9850": {
+			"parent": null,
+			"name": "lamp_bangkok_wooden_c_00",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -5.5219950675964355, "y": 4.9527740478515625, "z": 6.387765884399414 }
+					}
+				},
+				"On": { "type": "bool", "value": true },
+				"DiffuseColor": { "type": "SColorRGB", "value": "#ffe1ba" },
+				"DiffusePower": { "type": "float32", "value": 40 },
+				"GlowPower": { "type": "float32", "value": 200 },
+				"m_vFarAttenuation": { "type": "SVector2", "value": { "x": 1, "y": 4 } },
+				"m_bVisibleInBoxReflection": { "type": "bool", "value": true }
+			},
+			"inputCopying": { "TurnOn": { "TurnOn": ["e89c7da2b59195d9"] }, "TurnOff": { "TurnOff": ["e89c7da2b59195d9"] } },
+			"propertyAliases": {
+				"On": [{ "originalProperty": "On", "originalEntity": "e89c7da2b59195d9" }],
+				"m_vFarAttenuation": [{ "originalProperty": "m_vFarAttenuation", "originalEntity": "403336c268e0c535" }],
+				"m_fLightFadeDistance": [
+					{ "originalProperty": "m_fLightFadeDistance", "originalEntity": "403336c268e0c535" },
+					{ "originalProperty": "m_fLightFadeDistance", "originalEntity": "7275f438af2c56b0" }
+				],
+				"m_bCastShadows": [{ "originalProperty": "m_bCastShadows", "originalEntity": "403336c268e0c535" }],
+				"GlowPower": [{ "originalProperty": "GlowPower", "originalEntity": "e89c7da2b59195d9" }],
+				"DiffusePower": [{ "originalProperty": "DiffusePower", "originalEntity": "e89c7da2b59195d9" }],
+				"DiffuseColor": [{ "originalProperty": "DiffuseColor", "originalEntity": "e89c7da2b59195d9" }]
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

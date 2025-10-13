@@ -6,1472 +6,1893 @@
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/FV-Autoupdater/main/updates.json",
 	"description": "Gives most maps randomised alternative variants when you visit in Freelancer; includes bonus missions and different times of day/weather. Requires SDK mod or Peacock Plugin to actually work.",
 	"authors": ["Kevin Rudd", "Kercyx"],
-    "loadBefore": ["KevinRudd.TODChange"],
-    "loadAfter": ["KevinRudd.SeafoodMassacre","musicalmushr00m.LightingUltimate","GlacierOrganisation.CommunityPatches"],
+	"loadBefore": ["KevinRudd.TODChange"],
+	"loadAfter": ["KevinRudd.SeafoodMassacre", "musicalmushr00m.LightingUltimate", "GlacierOrganisation.CommunityPatches"],
 	"dependencies": [
-	"00559CF4597C9DCA",
-	"00D1F1997329D563",
-	"009CB35500AB0AAB",
-	"00CEC914C8280520",
+		"00559CF4597C9DCA",
+		"00D1F1997329D563",
+		"009CB35500AB0AAB",
+		"00CEC914C8280520",
 		{
-		"runtimeID": "000DF041FD3F9F32",
-		"comment": "Superfan Charset",
-		"toChunk": 1
-	},{
-		"runtimeID": "00B6F38048DBA6CC",
-		"comment": "Play_Maldives",
-		"toChunk": 1
-	},"0061EF503C4C562E","004C20CB4AEB0573",{
-		"runtimeID": "00386CF911215A4D",
-		"comment": "play_hollyhock",
-		"toChunk": 1
-	},"00AFD8E95E30F785","00B699EFB3802B71","0049E402097FE46D","000BA41D084B1850","00EEB8534D4CC4D1","005415E5BE265EFD","002978EF7EA21E13","001147744AF1F5D3","002CED4A0CC9BC87",
-	{
-		"runtimeID": "009805B6A91D206E",
-		"comment": "play_mumbai",
-		"toChunk": 1
-	},{
-		"runtimeID": "00AA559EFE13DEDE",
-		"toChunk": 1,
-		"comment": "laptop_b_rat"
-	},	"005F1C65A63B1084","003458578AADA57A","004B3B5C68E404C6","00D799D256F71A3C","003927FFC881F072",{
-		"runtimeID": "006D6AC49D3D80FA",
-		"comment": "waterbarrel",
-		"toChunk": 1
-	},{
-		"runtimeID": "0016A3E811DE863C",
-		"comment": "Barber Music"
-	},{
-		"runtimeID": "00839F588FF67E98",
-		"toChunk": 1,
-		"comment": "SF House Party Music"
-	},{
-		"runtimeID": "00FC761F5BC4EF8A",
-		"comment": "hokkaido_wires_lamps",
-		"toChunk": 1
-	},{
-		"runtimeID": "0029222E19CDE0BF",
-		"comment": "WC_wire_lamps",
-		"toChunk": 1
-	}],
+			"runtimeID": "000DF041FD3F9F32",
+			"comment": "Superfan Charset",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00B6F38048DBA6CC",
+			"comment": "Play_Maldives",
+			"toChunk": 1
+		},
+		"0061EF503C4C562E",
+		"004C20CB4AEB0573",
+		{
+			"runtimeID": "00386CF911215A4D",
+			"comment": "play_hollyhock",
+			"toChunk": 1
+		},
+		"00AFD8E95E30F785",
+		"00B699EFB3802B71",
+		"0049E402097FE46D",
+		"000BA41D084B1850",
+		"00EEB8534D4CC4D1",
+		"005415E5BE265EFD",
+		"002978EF7EA21E13",
+		"001147744AF1F5D3",
+		"002CED4A0CC9BC87",
+		{
+			"runtimeID": "009805B6A91D206E",
+			"comment": "play_mumbai",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00AA559EFE13DEDE",
+			"toChunk": 1,
+			"comment": "laptop_b_rat"
+		},
+		"005F1C65A63B1084",
+		"003458578AADA57A",
+		"004B3B5C68E404C6",
+		"00D799D256F71A3C",
+		"003927FFC881F072",
+		{
+			"runtimeID": "006D6AC49D3D80FA",
+			"comment": "waterbarrel",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "0016A3E811DE863C",
+			"comment": "Barber Music"
+		},
+		{
+			"runtimeID": "00839F588FF67E98",
+			"toChunk": 1,
+			"comment": "SF House Party Music"
+		},
+		{
+			"runtimeID": "00FC761F5BC4EF8A",
+			"comment": "hokkaido_wires_lamps",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "0029222E19CDE0BF",
+			"comment": "WC_wire_lamps",
+			"toChunk": 1
+		}
+	],
 	"options": [
 		{
 			"name": "Random ToDs compatibility",
 			"type": "conditional",
 			"condition": "\"TeamRuddcy.RandomToDs\" not in config.loadOrder",
 			"contentFolders": ["SHARED"],
-			"dependencies": [{
-				"runtimeID": "00907BCED9E107EB",
-				"toChunk": 9,
-				"comment": "Magpie Lamp"
-			},"0018AB110B83E417","002E85BC93584A8A","007BE9EAE845E573",{
-				"runtimeID": "007E17AB2A0A1D00",
-				"comment": "Freedom Fighters Sky",
-				"toChunk": 1
-			},{
-				"runtimeID": "005E9A37D4ED9287",
-				"comment": "Hokkaido Sky",
-				"toChunk": 1
-			},"0061EF503C4C562E","004C20CB4AEB0573","00B699EFB3802B71","002978EF7EA21E13","005415E5BE265EFD","00E656CB0E9ED0ED","00032972CFAF8528",{
-				"runtimeID": "003D96EAECB00C82",
-				"comment": "adonis_sky",
-				"toChunk": 1
-			},"0049E402097FE46D","000BA41D084B1850", {
-				"runtimeID": "00C7E997840E11D9",
-				"comment": "skunk_sky",
-				"portFromChunk1": true
-			},	{
-				"runtimeID": "00A01A2790FF4E7D",
-				"toChunk": 1,
-				"comment": "Sgail Night Sky"
-			},	{
-				"runtimeID": "00DBD0E72CCCB165",
-				"comment": "Sky_Falcon",
-				"portFromChunk1": true
-			},	{
-				"runtimeID": "009F206E1EBA5F25",
-				"toChunk": 1,
-				"comment": "lut_colombia"
-			},	{
-				"runtimeID": "0026D710EAF1BFEE",
-				"toChunk": 1,
-				"comment": "sky_sunset_v2_026_a"
-			},	{
-				"runtimeID": "0000BB4D3ACBD175",
-				"toChunk": 1,
-				"comment": "Lamp Ornate Marrakesh"
-			},	{
-				"runtimeID": "002E8103127A9ED2",
-				"toChunk": 1,
-				"comment": "Lamp Ornate Marrakesh"
-			},	{
-				"runtimeID": "001341F87621CA97",
-				"toChunk": 1,
-				"comment": "Lamp Ornate Marrakesh"
-			},	"001147744AF1F5D3", {
-				"runtimeID": "00729EF0B144AF31",
-				"comment": "Mumbai Slums Sound - Daytime Chongqing depends start 1 before this entry",
-				"toChunk": 6
-			},	{
-				"runtimeID": "0023C8B28A69EC05",
-				"comment": "Mumbai Central Sound (Light)",
-				"toChunk": 6
-			},	{
-				"runtimeID": "005BF239676A0332",
-				"comment": "Mumbai Apartment Ambience",
-				"toChunk": 6
-			},	{
-				"runtimeID": "00EEF802B8A0A491",
-				"comment": "Mumbai tiles",
-				"toChunk": 1
-			},	{
-				"runtimeID": "00A756E8CD7DD992",
-				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_a_3mat_blend.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "005259B174CBA1E0",
-				"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "00B89C2DEFFCEE02",
-				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "009258620E53A50B",
-				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "00A904F1C2260F8C",
-				"comment": "[assembly:/_pro/environment/materials/generic/ground/paving_granite_concrete_3mat_blend.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "009A3BDF3EE1684A",
-				"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_b.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "00D9AD4F48B782DD",
-				"comment": "[assembly:/_pro/environment/materials/generic/floor/floor_tiles_ceramic_b_2mat_blend_fox.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "005259B174CBA1E0",
-				"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
-				"toChunk": 1
-			},	{
-				"runtimeID": "00333DA97534256B",
-				"toChunk": 1,
-				"comment": "Dartmoor Outside LUT"
-			},	{
-				"runtimeID": "00E48F94093D37F9",
-				"toChunk": 1,
-				"comment": "Colorado Sky"
-			},	{
-				"runtimeID": "00AA559EFE13DEDE",
-				"toChunk": 1,
-				"comment": "laptop_b_rat"
-			},	{
-				"runtimeID": "00DF65C520255827",
-				"toChunk": 1,
-				"comment": "Infect LUT"
-			},	"001083CD8A6BB32D", {
-				"runtimeID": "008027305D878A5E",
-				"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
-				"toChunk": 1
-			},	{
-				"runtimeID": "0016ECC27E61E9D0",
-				"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
-				"toChunk": 1
-			},	{
-				"runtimeID": "00505C92F53599D0",
-				"toChunk": 1,
-				"comment": "Miami Sky"
-			},	{
-				"runtimeID": "003A3122B5CCDB39",
-				"toChunk": 1,
-				"comment": "Sky_Sunset_v2_029 Berlin"
-			}, {
-				"runtimeID": "009F511F46E65730",
-				"comment": "lamps_outdoor_italy",
-				"toChunk": 1
-			}, {
-				"runtimeID": "0079AFAB0FCE6F29",
-				"comment": "haven_lamps",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "00408BD9834EB7CD",
-				"comment": "hokkaido_cubes_lamps",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "00DD3B02533AD71E",
-				"comment": "hokkaido_little_lamps",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "0011BF67AC6B2AB1",
-				"comment": "ambrose_hanging_lamps",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "00964A71CA18BBD1,0074A528CE4E0F78,006D93EB00EDDD5F,00AE8574A2DF8F00,00B747B0450DFB3B,0099FA407A26CD1A,00CDA374BED0E840",
-				"comment": "Fireworks stuff",
-				"toChunk": 1
-			},{
-				"runtimeID": "00831B9E1275B7C0",
-				"comment": "SkyClearB",
-				"portFromChunk1": true,
-				"toChunk": 0
-			},{
-				"runtimeID": "00464EE06E4AA17D",
-				"comment": "Sky Bulldog",
-				"toChunk": 1
-			},{
-				"runtimeID": "00E1CCC446CD4777",
-				"comment": "Hokkaido Lamp",
-				"toChunk": 9
-			},
-		
-		
-		
-			
-			"00E43E9DD30F2935",	{
-				"runtimeID": "004F5FFA5651FB35",
-				"comment": "starfield",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "00EA33BD94BD2577",
-				"comment": "Moon",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "00FA593C54570ABE",
-				"comment": "Moon text",
-				"toChunk": 1
-			},
-			{
-				"runtimeID": "00A47BD7D49620A3",
-				"comment": "Moon text",
-				"toChunk": 1
-			},{
-				"runtimeID": "00D167B329091046",
-				"comment": "fx_e_rain",
-				"toChunk": 1
-			},{
-				"runtimeID": "00FDB8565FFAA61A",
-				"comment": "hitmanrainwetlogic",
-				"toChunk": 1
-			},{
-				"runtimeID": "008DA82DE27F8837",
-				"comment": "rainkillbox",
-				"toChunk": 1
-			}]
-		}, {
+			"dependencies": [
+				{
+					"runtimeID": "00907BCED9E107EB",
+					"toChunk": 9,
+					"comment": "Magpie Lamp"
+				},
+				"0018AB110B83E417",
+				"002E85BC93584A8A",
+				"007BE9EAE845E573",
+				{
+					"runtimeID": "007E17AB2A0A1D00",
+					"comment": "Freedom Fighters Sky",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005E9A37D4ED9287",
+					"comment": "Hokkaido Sky",
+					"toChunk": 1
+				},
+				"0061EF503C4C562E",
+				"004C20CB4AEB0573",
+				"00B699EFB3802B71",
+				"002978EF7EA21E13",
+				"005415E5BE265EFD",
+				"00E656CB0E9ED0ED",
+				"00032972CFAF8528",
+				{
+					"runtimeID": "003D96EAECB00C82",
+					"comment": "adonis_sky",
+					"toChunk": 1
+				},
+				"0049E402097FE46D",
+				"000BA41D084B1850",
+				{
+					"runtimeID": "00C7E997840E11D9",
+					"comment": "skunk_sky",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00A01A2790FF4E7D",
+					"toChunk": 1,
+					"comment": "Sgail Night Sky"
+				},
+				{
+					"runtimeID": "00DBD0E72CCCB165",
+					"comment": "Sky_Falcon",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "009F206E1EBA5F25",
+					"toChunk": 1,
+					"comment": "lut_colombia"
+				},
+				{
+					"runtimeID": "0026D710EAF1BFEE",
+					"toChunk": 1,
+					"comment": "sky_sunset_v2_026_a"
+				},
+				{
+					"runtimeID": "0000BB4D3ACBD175",
+					"toChunk": 1,
+					"comment": "Lamp Ornate Marrakesh"
+				},
+				{
+					"runtimeID": "002E8103127A9ED2",
+					"toChunk": 1,
+					"comment": "Lamp Ornate Marrakesh"
+				},
+				{
+					"runtimeID": "001341F87621CA97",
+					"toChunk": 1,
+					"comment": "Lamp Ornate Marrakesh"
+				},
+				"001147744AF1F5D3",
+				{
+					"runtimeID": "00729EF0B144AF31",
+					"comment": "Mumbai Slums Sound - Daytime Chongqing depends start 1 before this entry",
+					"toChunk": 6
+				},
+				{
+					"runtimeID": "0023C8B28A69EC05",
+					"comment": "Mumbai Central Sound (Light)",
+					"toChunk": 6
+				},
+				{
+					"runtimeID": "005BF239676A0332",
+					"comment": "Mumbai Apartment Ambience",
+					"toChunk": 6
+				},
+				{
+					"runtimeID": "00EEF802B8A0A491",
+					"comment": "Mumbai tiles",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A756E8CD7DD992",
+					"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_a_3mat_blend.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005259B174CBA1E0",
+					"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00B89C2DEFFCEE02",
+					"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "009258620E53A50B",
+					"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_ground_tiles_b.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A904F1C2260F8C",
+					"comment": "[assembly:/_pro/environment/materials/generic/ground/paving_granite_concrete_3mat_blend.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "009A3BDF3EE1684A",
+					"comment": "[assembly:/_pro/environment/materials/generic/floor/mumbai_sidewalks_tiles_b.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00D9AD4F48B782DD",
+					"comment": "[assembly:/_pro/environment/materials/generic/floor/floor_tiles_ceramic_b_2mat_blend_fox.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005259B174CBA1E0",
+					"comment": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_a.mi].pc_mi",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00333DA97534256B",
+					"toChunk": 1,
+					"comment": "Dartmoor Outside LUT"
+				},
+				{
+					"runtimeID": "00E48F94093D37F9",
+					"toChunk": 1,
+					"comment": "Colorado Sky"
+				},
+				{
+					"runtimeID": "00AA559EFE13DEDE",
+					"toChunk": 1,
+					"comment": "laptop_b_rat"
+				},
+				{
+					"runtimeID": "00DF65C520255827",
+					"toChunk": 1,
+					"comment": "Infect LUT"
+				},
+				"001083CD8A6BB32D",
+				{
+					"runtimeID": "008027305D878A5E",
+					"comment": "[materials/levels/wet/backdrop_building_miami_near_d.mi].pc_entitytyp",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0016ECC27E61E9D0",
+					"comment": "[assembly:/_pro/environment/textures/backdrop/buildings/backdrop_building_miami_near_b/backdrop_building_miami_near_b.texture?/emissive_b.tex](ascolormap).pc_tex",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00505C92F53599D0",
+					"toChunk": 1,
+					"comment": "Miami Sky"
+				},
+				{
+					"runtimeID": "003A3122B5CCDB39",
+					"toChunk": 1,
+					"comment": "Sky_Sunset_v2_029 Berlin"
+				},
+				{
+					"runtimeID": "009F511F46E65730",
+					"comment": "lamps_outdoor_italy",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0079AFAB0FCE6F29",
+					"comment": "haven_lamps",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00408BD9834EB7CD",
+					"comment": "hokkaido_cubes_lamps",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00DD3B02533AD71E",
+					"comment": "hokkaido_little_lamps",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0011BF67AC6B2AB1",
+					"comment": "ambrose_hanging_lamps",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00964A71CA18BBD1,0074A528CE4E0F78,006D93EB00EDDD5F,00AE8574A2DF8F00,00B747B0450DFB3B,0099FA407A26CD1A,00CDA374BED0E840",
+					"comment": "Fireworks stuff",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00831B9E1275B7C0",
+					"comment": "SkyClearB",
+					"portFromChunk1": true,
+					"toChunk": 0
+				},
+				{
+					"runtimeID": "00464EE06E4AA17D",
+					"comment": "Sky Bulldog",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E1CCC446CD4777",
+					"comment": "Hokkaido Lamp",
+					"toChunk": 9
+				},
+
+				"00E43E9DD30F2935",
+				{
+					"runtimeID": "004F5FFA5651FB35",
+					"comment": "starfield",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00EA33BD94BD2577",
+					"comment": "Moon",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00FA593C54570ABE",
+					"comment": "Moon text",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A47BD7D49620A3",
+					"comment": "Moon text",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00D167B329091046",
+					"comment": "fx_e_rain",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00FDB8565FFAA61A",
+					"comment": "hitmanrainwetlogic",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "008DA82DE27F8837",
+					"comment": "rainkillbox",
+					"toChunk": 1
+				}
+			]
+		},
+		{
 			"name": "Peacock Plugin",
 			"tooltip": "Enables Peacock Plugin for those who don't want to use SDK (Do not run at same time). Make sure your FreelancerVariations.json is in Peacock folder or Peacock/Plugins",
 			"peacockPlugins": ["FreelancerVariationsA.plugin.js", "FreelancerVariationsB.plugin.js"],
 			"type": "checkbox"
-		},{
-		"name": "via SDK Mod",
-		"tooltip": "Enables map slot for Hawke's Bay on SDK Mod (IO's vanilla server + Peacock). Used by Hawke's Bay and optionally Hantu Port and Passenger Train. If this is your first time enabling it you may need to restart campaign for it to show.",
-		"type": "select",
-		"group": "Hawke's Bay Map Slot",
-		"contentFolders": ["Addons/HB/base", "Addons/HB/IO Server"],
-		"enabledByDefault": true,
-		"dependencies": [
-			"007BE9EAE845E573",{
-			"runtimeID": "005E9A37D4ED9287",
-			"comment": "Hokkaido Sky",
-			"toChunk": 1
-		},{
-			"runtimeID": "003B9E5A953C3723",
-			"comment": "Militia Elite",
-			"toChunk": 1
-		},"00F289B297BFAE7A","007133D143A1675D",{
-			"runtimeID": "00BD31D6D3A47A76",
-			"comment": "Meal Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "00B844AA74B2D3AA",
-			"comment": "Meal Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "006FCE54ACF663BA",
-			"comment": "Meal Act",
-			"toChunk": 1
-		}]
-	},	{
-		"name": "via Peacock Plugin",
-		"tooltip": "Enables map slot for Hawke's Bay on Peacock plugin only. Hawke's Bay via this method does NOT support variant selection sadly, 4 Hawke's Bay variants are enabled by default.If this is your first time enabling it you may need to restart campaign for it to show.",
-		"type": "select",
-		"group": "Hawke's Bay Map Slot",
-		"contentFolders": ["Addons/HB/base", "Addons/HB/Peacock"],
-		"dependencies": [
-			"007BE9EAE845E573",{
-			"runtimeID": "005E9A37D4ED9287",
-			"comment": "Hokkaido Sky",
-			"toChunk": 1
-		},{
-			"runtimeID": "003B9E5A953C3723",
-			"comment": "Militia Elite",
-			"toChunk": 1
-		},"00F289B297BFAE7A","007133D143A1675D",{
-			"runtimeID": "00BD31D6D3A47A76",
-			"comment": "Meal Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "00B844AA74B2D3AA",
-			"comment": "Meal Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "006FCE54ACF663BA",
-			"comment": "Meal Act",
-			"toChunk": 1
-		}]
-	},	{
-		"name": "Off",
-		"tooltip": "Hawke's Bay map slot will not appear in any syndicates. If you had it on then it may take a campaign reset to take effect.",
-		"type": "select",
-		"group": "Hawke's Bay Map Slot",
-		"contentFolders": []
-	},
-		{
-		"name": "Noodle Massacre - Base Content",
-		"tooltip": "Allows for Noodle Massacre variant of Chongqing. Originally a selectable option due to deploy time concerns, now mandatory.",
-		"type": "conditional",
-		"condition": "\"KevinRudd.SeafoodMassacre\" not in config.loadOrder",
-		"enabledByDefault": true,
-		"contentFolders": ["Addons/Noodle/base","Addons/Noodle/fv"],
-		"dependencies": [
-			{
-			"runtimeID": "00F30A3238B94A60",
-			"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/skunk_bbq_tent_a.entitytemplate].pc_entitytype",
-			"toChunk": 1
-		},	{
-			"runtimeID": "003D4050F05833C9",
-			"comment": "lamp_ceiling_rustic_a_00",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0031D823F015F3DC",
-			"comment": "[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_terrace_table_tall_b_00.entitytemplate].pc_entitytype",
-			"toChunk": 1
-		},	{
-			"runtimeID": "008B5A9614D1DC9B",
-			"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/miami_grid_fence_400_b.entitytemplate].pc_entitytype",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0047981FD0EE3BB4",
-			"comment": "Drivers Lounge Music",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00A740FB993091A9",
-			"comment": "Miami Sound Bank",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00E82C0CA44519E1",
-			"comment": "act_mr_stand_drink_waterbottle_100cm_fallback",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00ACA1DB6E152C28",
-			"comment": "act_mr_stand_waitimpatient",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00E011535789F74B",
-			"comment": "act_mr_stand_wall_lean_phone_text",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00925B1C9F15271B",
-			"comment": "Act_MR_Dance_Rave_01",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0022D892322D674C",
-			"comment": "Charset Kowoon Mechanic",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00AFBAA5F8B55487",
-			"comment": "Charset Moses Lee",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00374B0049834599",
-			"comment": "Dialogue Key Moses",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00E78D64C11F11E3",
-			"comment": "Miami Flag Stand",
-			"toChunk": 1
-		},	{
-			"runtimeID": "006B785E802CC5D3",
-			"comment": "Kowoon Flag texture",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00AB147956863A81",
-			"comment": "Giant Banner",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0061D072820D2424",
-			"comment": "Moses Banner TEXT",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00C48D0C1FE515D4",
-			"comment": "Act_MR_DJ_Stand_Play_Music_100CM",
-			"toChunk": 6
-		}, "00AE34EB206E2FF4","0084DFE53AE76C1F","00F49076916070B5","0020C901B2E4B3ED","00D4993FF3D4CE2A","00229E1C4B60679F","0045CB8C70A17521","00F3286718194013","0044356984A66021","000F8B4F5B8902FF","00546EF49CC05DD1","0021646D7874F2A5","0020E19AE4C26AD1","00AD57CC5D85E92F","0027EDC4FAF48579","0022B6A7DE3C2B71","002213FD7FFF2F57","00F5D3E795BE741E","00546CDEB4C985FE","00BBAEDF15366BB5","00CC38AA092A6FAA","006EE2E2D2412887","00BCB2B0C3219259","008E755A2A4FF385","008B0A4F4FCA8E3F","007D7BD3E9CEE479","00161ECFA6ADD670",{
-			"runtimeID": "0071DA1DB35A2675",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "0024F1CAAB79A762",
-			"toChunk": 6
-		},{
-			"runtimeID": "00FF0E0B584483DA",
-			"comment": "Ted Mendez Jacket Stuff",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00C6E4298F23CDC3",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00F38B3622078CF1",
-			"comment": "Poncho",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "0079517CC97F16B8",
-			"comment": "Tie Kelvin",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00F28962557158CA",
-			"comment": "hat_cap_service_military",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "004B934C71A190BD",
-			"comment": "Mask Hospital",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00F9A0B9A55F005C",
-			"comment": "Ted Mendez Jacket Stuff",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00D2C61706C1E2E9",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00F360478652B519",
-			"comment": "charset_stiletto",
-			"toChunk": 6
-		},{
-			"runtimeID": "00EC55F927A27185",
-			"comment": "Garbage Truck",
-			"toChunk": 1
-		},{
-			"runtimeID": "00D7F248E08D4AD0",
-			"comment": "Brauvomo Hair",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00B612944D71E274",
-			"comment": "Brauvomo Hair MATT",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00CEBE48D5363B37",
-			"comment": "Bag Shoulder",
-			"portFromChunk1": true
-		}]
-	},	{
-		"name": "Noodle Massacre - Compatibility",
-		"type": "conditional",
-		"condition": "\"KevinRudd.SeafoodMassacre\" in config.loadOrder",
-		"contentFolders": ["Addons/Noodle/fv"],
-		"dependencies": [
-			{
-			"runtimeID": "00F30A3238B94A60",
-			"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/skunk_bbq_tent_a.entitytemplate].pc_entitytype",
-			"toChunk": 1
-		},	{
-			"runtimeID": "003D4050F05833C9",
-			"comment": "lamp_ceiling_rustic_a_00",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0031D823F015F3DC",
-			"comment": "[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_terrace_table_tall_b_00.entitytemplate].pc_entitytype",
-			"toChunk": 1
-		},	{
-			"runtimeID": "008B5A9614D1DC9B",
-			"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/miami_grid_fence_400_b.entitytemplate].pc_entitytype",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0047981FD0EE3BB4",
-			"comment": "Drivers Lounge Music",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00A740FB993091A9",
-			"comment": "Miami Sound Bank",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00E82C0CA44519E1",
-			"comment": "act_mr_stand_drink_waterbottle_100cm_fallback",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00ACA1DB6E152C28",
-			"comment": "act_mr_stand_waitimpatient",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00E011535789F74B",
-			"comment": "act_mr_stand_wall_lean_phone_text",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00925B1C9F15271B",
-			"comment": "Act_MR_Dance_Rave_01",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0022D892322D674C",
-			"comment": "Charset Kowoon Mechanic",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00AFBAA5F8B55487",
-			"comment": "Charset Moses Lee",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00374B0049834599",
-			"comment": "Dialogue Key Moses",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00E78D64C11F11E3",
-			"comment": "Miami Flag Stand",
-			"toChunk": 1
-		},	{
-			"runtimeID": "006B785E802CC5D3",
-			"comment": "Kowoon Flag texture",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00AB147956863A81",
-			"comment": "Giant Banner",
-			"toChunk": 1
-		},	{
-			"runtimeID": "0061D072820D2424",
-			"comment": "Moses Banner TEXT",
-			"toChunk": 1
-		},	{
-			"runtimeID": "00C48D0C1FE515D4",
-			"comment": "Act_MR_DJ_Stand_Play_Music_100CM",
-			"toChunk": 6
-		}]
-	}, {
-		"name": "The Brothers Content",
-		"type": "conditional",
-		"condition": "\"KevinRudd.TheBrothers\" not in config.loadOrder",
-		"contentFolders": ["Addons/TheBrothers"],
-		"dependencies": [{
-			"runtimeID": "00E14A9BC22CF067,003AE0409E7B398E,009CDDA9654D4041,0060C6EA7E1E7949,00505DAEB7FF61D1",
-			"toChunk": 25
-		},{
-			"runtimeID": "00871CD7E6883D90,0054377FCA807749,0041832395E4E883,009B39888DB8586B,0036B8A9C033E5F0",
-			"toChunk": 25
-		},"0023F0D0EFF828CF","00D2EA9F1AC346A9",{
-			"runtimeID": "007958CA8FCCE469,0069D5263B85EBA1,00578B12377C6BF0",
-			"toChunk": 21
-		}]
-	}, {
-		"name": "No Hantu Port",
-		"type": "conditional",
-		"condition": "\"KevinRudd.SandboxHantu\" not in config.loadOrder",
-		"contentFolders": ["NoHantu"],
-		"dependencies": []
-	}, {
-		"name": "Hantu Port",
-		"type": "conditional",
-		"condition": "\"KevinRudd.SandboxHantu\" in config.loadOrder",
-		"contentFolders": ["Addons/Hantu"],
-		"dependencies": []
-	}, {
-		"name": "Methlab Content",
-		"type": "conditional",
-		"condition": "\"KevinRudd.Methlab\" not in config.loadOrder",
-		"contentFolders": ["Addons/Methlab"],
-		"dependencies": [
-			"0026237F6C47888E","00917ED74B627C53",{
-			"runtimeID": "0011D0EE6C252479",
-			"toChunk": 8
-		},{
-			"runtimeID": "00FEB54EBB5FF51B",
-			"toChunk": 8
-		},{
-			"runtimeID": "002836D45FC6E769",
-			"toChunk": 8
-		},{
-			"runtimeID": "00201A4A84A623E6",
-			"toChunk": 8
-		},{
-			"runtimeID": "006D7E3C47797974",
-			"toChunk": 8
-		},{
-			"runtimeID": "009C03382EA3532E",
-			"toChunk": 8
-		},{
-			"runtimeID": "00F5E204C9605B12",
-			"toChunk": 8
-		},{
-			"runtimeID": "008F77D13CCAC10B",
-			"toChunk": 8
-		},{
-			"runtimeID": "00547A7B3C52BD39",
-			"toChunk": 8
-		},{
-			"runtimeID": "006E0865EFDE6C2B",
-			"toChunk": 8
-		},{
-			"runtimeID": "001CC51B15F7A667",
-			"toChunk": 8
-		},{
-			"runtimeID": "00949E1B1863E47A",
-			"toChunk": 8
-		},{
-			"runtimeID": "008B505A47F5B2C4",
-			"toChunk": 8
-		},{
-			"runtimeID": "0018C72D35CCFBE9",
-			"toChunk": 8
-		},{
-			"runtimeID": "005CEED9D3803167",
-			"toChunk": 8
-		},{
-			"runtimeID": "00C68C00D9CB75FD",
-			"toChunk": 8
-		},{
-			"runtimeID": "0090BB0EF713B02E",
-			"toChunk": 8
-		},{
-			"runtimeID": "00CBB837381E9B61",
-			"toChunk": 8
-		},{
-			"runtimeID": "0026E85F136CC702",
-			"toChunk": 8
-		},{
-			"runtimeID": "00E46CDC41EA5D9B",
-			"toChunk": 8
-		}]
-	}, {
-		"name": "Passenger Train",
-		"type": "conditional",
-		"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
-		"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv", "Addons/Passenger Train/sigfix"],
-		"dependencies": [
-			"002BF35A526696D2","00760A6102503E67","00C1253FE9B34540","00BA6D023DB8CE9D","004477157143B8D3","004143CD137810AA","0076A0A69DD6EE33","0063C3B17A9686D3","00AD6700C1A7ED33","007C447438A950D3","00614ADA9857D0E2","007AC61B86C3C0C9","00A740FB993091A9","0098DA0E68D0F761","0069BC955624CEC1","005A3DA89D0D46FB","009051C31AA605DF","0030FDC6896FD335","006BE0454186E4AA","005946462F4EF718","008EDCF30CB12BD2","006D529EB01058A5","007D03F6DBCF9B27","001C7EFE78C71BEB",{
-			"runtimeID": "00C9FDC130E919B1",
-			"comment": "Female seated Wine Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "00A406C41D39F5E8",
-			"comment": "Miranda Jameson Shit",
-			"toChunk": 1
-		},{
-			"runtimeID": "00DE8905C9EE35CA",
-			"comment": "Spider Lily Coat",
-			"toChunk": 1
-		},{
-			"runtimeID": "002086A3E6C23AB9",
-			"comment": "Spider Lily",
-			"toChunk": 1
-		},{
-			"runtimeID": "006D137C1D85AD92",
-			"comment": "Spider Lily",
-			"toChunk": 1
-		},{
-			"runtimeID": "005F5EDD76316D18",
-			"comment": "Spider Lily",
-			"toChunk": 1
-		},{
-			"runtimeID": "00FBD4C2124B1A13",
-			"comment": "Randomised Outfit part",
-			"toChunk": 8
-		},{
-			"runtimeID": "005BFAAC7C16848A",
-			"comment": "Randomised Outfit part",
-			"toChunk": 8
-		},{
-			"runtimeID": "00473B9CCD4153DC",
-			"comment": "s02_act_fr_sit_smoke_vape",
-			"toChunk": 1
-		},{
-			"runtimeID": "004C67F0DA870166",
-			"comment": "Act Stir Wok",
-			"toChunk": 1
-		},{
-			"runtimeID": "00ECB60609492D48",
-			"comment": "Act Slice Lime",
-			"toChunk": 1
-		},{
-			"runtimeID": "004B678CAC4D7656",
-			"comment": "Sambuca Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "0087E000B41D60F8",
-			"comment": "ET_FABA SDEF",
-			"toChunk": 1
-		},{
-			"runtimeID": "00B9657DB841BFEE",
-			"comment": "Meal Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "009BA9B9EC958320",
-			"comment": "NY Music",
-			"toChunk": 1
-		},{
-			"runtimeID": "0095439E192FDCF7",
-			"comment": "Snow Scooter",
-			"toChunk": 1
-		},{
-			"runtimeID": "000E2A63407134BF",
-			"comment": "NY Customer Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "00BAC1B53D5544DB",
-			"comment": "NY Customer Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "005A3856903FD35E",
-			"comment": "NY Customer Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "0015498D02C005E7",
-			"comment": "NY Teller Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "00F1DFDC1256EC75",
-			"comment": "Russian Guard Charset",
-			"toChunk": 8
-		},{
-			"runtimeID": "00BE95669226F7FC",
-			"comment": "NY F Teller Charset",
-			"toChunk": 1
 		},
 		{
-			"runtimeID": "007189077F0626FF",
-			"comment": "Kitchen prop",
-			"toChunk": 1
+			"name": "via SDK Mod",
+			"tooltip": "Enables map slot for Hawke's Bay on SDK Mod (IO's vanilla server + Peacock). Used by Hawke's Bay and optionally Hantu Port and Passenger Train. If this is your first time enabling it you may need to restart campaign for it to show.",
+			"type": "select",
+			"group": "Hawke's Bay Map Slot",
+			"contentFolders": ["Addons/HB/base", "Addons/HB/IO Server"],
+			"enabledByDefault": true,
+			"dependencies": [
+				"007BE9EAE845E573",
+				{
+					"runtimeID": "005E9A37D4ED9287",
+					"comment": "Hokkaido Sky",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "003B9E5A953C3723",
+					"comment": "Militia Elite",
+					"toChunk": 1
+				},
+				"00F289B297BFAE7A",
+				"007133D143A1675D",
+				{
+					"runtimeID": "00BD31D6D3A47A76",
+					"comment": "Meal Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00B844AA74B2D3AA",
+					"comment": "Meal Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "006FCE54ACF663BA",
+					"comment": "Meal Act",
+					"toChunk": 1
+				}
+			]
 		},
 		{
-			"runtimeID": "007DA054E9594C2A",
-			"comment": "Laundry cart wet",
-			"toChunk": 1
+			"name": "via Peacock Plugin",
+			"tooltip": "Enables map slot for Hawke's Bay on Peacock plugin only. Hawke's Bay via this method does NOT support variant selection sadly, 4 Hawke's Bay variants are enabled by default.If this is your first time enabling it you may need to restart campaign for it to show.",
+			"type": "select",
+			"group": "Hawke's Bay Map Slot",
+			"contentFolders": ["Addons/HB/base", "Addons/HB/Peacock"],
+			"dependencies": [
+				"007BE9EAE845E573",
+				{
+					"runtimeID": "005E9A37D4ED9287",
+					"comment": "Hokkaido Sky",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "003B9E5A953C3723",
+					"comment": "Militia Elite",
+					"toChunk": 1
+				},
+				"00F289B297BFAE7A",
+				"007133D143A1675D",
+				{
+					"runtimeID": "00BD31D6D3A47A76",
+					"comment": "Meal Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00B844AA74B2D3AA",
+					"comment": "Meal Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "006FCE54ACF663BA",
+					"comment": "Meal Act",
+					"toChunk": 1
+				}
+			]
 		},
 		{
-			"runtimeID": "00AB86D10346024C",
-			"comment": "Laundry liquid",
-			"toChunk": 1
+			"name": "Off",
+			"tooltip": "Hawke's Bay map slot will not appear in any syndicates. If you had it on then it may take a campaign reset to take effect.",
+			"type": "select",
+			"group": "Hawke's Bay Map Slot",
+			"contentFolders": []
 		},
 		{
-			"runtimeID": "00501B18151D6980",
-			"comment": "container cardbox",
-			"toChunk": 1
+			"name": "Noodle Massacre - Base Content",
+			"tooltip": "Allows for Noodle Massacre variant of Chongqing. Originally a selectable option due to deploy time concerns, now mandatory.",
+			"type": "conditional",
+			"condition": "\"KevinRudd.SeafoodMassacre\" not in config.loadOrder",
+			"enabledByDefault": true,
+			"contentFolders": ["Addons/Noodle/base", "Addons/Noodle/fv"],
+			"dependencies": [
+				{
+					"runtimeID": "00F30A3238B94A60",
+					"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/skunk_bbq_tent_a.entitytemplate].pc_entitytype",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "003D4050F05833C9",
+					"comment": "lamp_ceiling_rustic_a_00",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0031D823F015F3DC",
+					"comment": "[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_terrace_table_tall_b_00.entitytemplate].pc_entitytype",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "008B5A9614D1DC9B",
+					"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/miami_grid_fence_400_b.entitytemplate].pc_entitytype",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0047981FD0EE3BB4",
+					"comment": "Drivers Lounge Music",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A740FB993091A9",
+					"comment": "Miami Sound Bank",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E82C0CA44519E1",
+					"comment": "act_mr_stand_drink_waterbottle_100cm_fallback",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00ACA1DB6E152C28",
+					"comment": "act_mr_stand_waitimpatient",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E011535789F74B",
+					"comment": "act_mr_stand_wall_lean_phone_text",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00925B1C9F15271B",
+					"comment": "Act_MR_Dance_Rave_01",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0022D892322D674C",
+					"comment": "Charset Kowoon Mechanic",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00AFBAA5F8B55487",
+					"comment": "Charset Moses Lee",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00374B0049834599",
+					"comment": "Dialogue Key Moses",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E78D64C11F11E3",
+					"comment": "Miami Flag Stand",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "006B785E802CC5D3",
+					"comment": "Kowoon Flag texture",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00AB147956863A81",
+					"comment": "Giant Banner",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0061D072820D2424",
+					"comment": "Moses Banner TEXT",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00C48D0C1FE515D4",
+					"comment": "Act_MR_DJ_Stand_Play_Music_100CM",
+					"toChunk": 6
+				},
+				"00AE34EB206E2FF4",
+				"0084DFE53AE76C1F",
+				"00F49076916070B5",
+				"0020C901B2E4B3ED",
+				"00D4993FF3D4CE2A",
+				"00229E1C4B60679F",
+				"0045CB8C70A17521",
+				"00F3286718194013",
+				"0044356984A66021",
+				"000F8B4F5B8902FF",
+				"00546EF49CC05DD1",
+				"0021646D7874F2A5",
+				"0020E19AE4C26AD1",
+				"00AD57CC5D85E92F",
+				"0027EDC4FAF48579",
+				"0022B6A7DE3C2B71",
+				"002213FD7FFF2F57",
+				"00F5D3E795BE741E",
+				"00546CDEB4C985FE",
+				"00BBAEDF15366BB5",
+				"00CC38AA092A6FAA",
+				"006EE2E2D2412887",
+				"00BCB2B0C3219259",
+				"008E755A2A4FF385",
+				"008B0A4F4FCA8E3F",
+				"007D7BD3E9CEE479",
+				"00161ECFA6ADD670",
+				{
+					"runtimeID": "0071DA1DB35A2675",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0024F1CAAB79A762",
+					"toChunk": 6
+				},
+				{
+					"runtimeID": "00FF0E0B584483DA",
+					"comment": "Ted Mendez Jacket Stuff",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00C6E4298F23CDC3",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F38B3622078CF1",
+					"comment": "Poncho",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0079517CC97F16B8",
+					"comment": "Tie Kelvin",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F28962557158CA",
+					"comment": "hat_cap_service_military",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "004B934C71A190BD",
+					"comment": "Mask Hospital",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F9A0B9A55F005C",
+					"comment": "Ted Mendez Jacket Stuff",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00D2C61706C1E2E9",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F360478652B519",
+					"comment": "charset_stiletto",
+					"toChunk": 6
+				},
+				{
+					"runtimeID": "00EC55F927A27185",
+					"comment": "Garbage Truck",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00D7F248E08D4AD0",
+					"comment": "Brauvomo Hair",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00B612944D71E274",
+					"comment": "Brauvomo Hair MATT",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00CEBE48D5363B37",
+					"comment": "Bag Shoulder",
+					"portFromChunk1": true
+				}
+			]
 		},
 		{
-			"runtimeID": "00596C4252F362FD",
-			"comment": "miami trash",
-			"toChunk": 1
+			"name": "Noodle Massacre - Compatibility",
+			"type": "conditional",
+			"condition": "\"KevinRudd.SeafoodMassacre\" in config.loadOrder",
+			"contentFolders": ["Addons/Noodle/fv"],
+			"dependencies": [
+				{
+					"runtimeID": "00F30A3238B94A60",
+					"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/skunk_bbq_tent_a.entitytemplate].pc_entitytype",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "003D4050F05833C9",
+					"comment": "lamp_ceiling_rustic_a_00",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0031D823F015F3DC",
+					"comment": "[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_terrace_table_tall_b_00.entitytemplate].pc_entitytype",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "008B5A9614D1DC9B",
+					"comment": "[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/miami_grid_fence_400_b.entitytemplate].pc_entitytype",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0047981FD0EE3BB4",
+					"comment": "Drivers Lounge Music",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A740FB993091A9",
+					"comment": "Miami Sound Bank",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E82C0CA44519E1",
+					"comment": "act_mr_stand_drink_waterbottle_100cm_fallback",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00ACA1DB6E152C28",
+					"comment": "act_mr_stand_waitimpatient",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E011535789F74B",
+					"comment": "act_mr_stand_wall_lean_phone_text",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00925B1C9F15271B",
+					"comment": "Act_MR_Dance_Rave_01",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0022D892322D674C",
+					"comment": "Charset Kowoon Mechanic",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00AFBAA5F8B55487",
+					"comment": "Charset Moses Lee",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00374B0049834599",
+					"comment": "Dialogue Key Moses",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00E78D64C11F11E3",
+					"comment": "Miami Flag Stand",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "006B785E802CC5D3",
+					"comment": "Kowoon Flag texture",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00AB147956863A81",
+					"comment": "Giant Banner",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0061D072820D2424",
+					"comment": "Moses Banner TEXT",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00C48D0C1FE515D4",
+					"comment": "Act_MR_DJ_Stand_Play_Music_100CM",
+					"toChunk": 6
+				}
+			]
 		},
 		{
-			"runtimeID": "00516836F8B7F8C7",
-			"comment": "miami table",
-			"toChunk": 1
+			"name": "The Brothers Content",
+			"type": "conditional",
+			"condition": "\"KevinRudd.TheBrothers\" not in config.loadOrder",
+			"contentFolders": ["Addons/TheBrothers"],
+			"dependencies": [
+				{
+					"runtimeID": "00E14A9BC22CF067,003AE0409E7B398E,009CDDA9654D4041,0060C6EA7E1E7949,00505DAEB7FF61D1",
+					"toChunk": 25
+				},
+				{
+					"runtimeID": "00871CD7E6883D90,0054377FCA807749,0041832395E4E883,009B39888DB8586B,0036B8A9C033E5F0",
+					"toChunk": 25
+				},
+				"0023F0D0EFF828CF",
+				"00D2EA9F1AC346A9",
+				{
+					"runtimeID": "007958CA8FCCE469,0069D5263B85EBA1,00578B12377C6BF0",
+					"toChunk": 21
+				}
+			]
 		},
 		{
-			"runtimeID": "00C92C7DD5D3C19D",
-			"comment": "suitcase green",
-			"toChunk": 1
+			"name": "No Hantu Port",
+			"type": "conditional",
+			"condition": "\"KevinRudd.SandboxHantu\" not in config.loadOrder",
+			"contentFolders": ["NoHantu"],
+			"dependencies": []
 		},
 		{
-			"runtimeID": "004A0CA76F8AB312,00C0F64E2A492B44,00353055CD9B26BE",
-			"comment": "fox targetidentifier related entities",
-			"portFromChunk1": true
+			"name": "Hantu Port",
+			"type": "conditional",
+			"condition": "\"KevinRudd.SandboxHantu\" in config.loadOrder",
+			"contentFolders": ["Addons/Hantu"],
+			"dependencies": []
 		},
 		{
-			"runtimeID": "00CFBF38EE15C50A,0092EDF340143E05",
-			"comment": "ah there you are"
+			"name": "Methlab Content",
+			"type": "conditional",
+			"condition": "\"KevinRudd.Methlab\" not in config.loadOrder",
+			"contentFolders": ["Addons/Methlab"],
+			"dependencies": [
+				"0026237F6C47888E",
+				"00917ED74B627C53",
+				{
+					"runtimeID": "0011D0EE6C252479",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00FEB54EBB5FF51B",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "002836D45FC6E769",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00201A4A84A623E6",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "006D7E3C47797974",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "009C03382EA3532E",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00F5E204C9605B12",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "008F77D13CCAC10B",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00547A7B3C52BD39",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "006E0865EFDE6C2B",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "001CC51B15F7A667",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00949E1B1863E47A",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "008B505A47F5B2C4",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "0018C72D35CCFBE9",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "005CEED9D3803167",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00C68C00D9CB75FD",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "0090BB0EF713B02E",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00CBB837381E9B61",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "0026E85F136CC702",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00E46CDC41EA5D9B",
+					"toChunk": 8
+				}
+			]
 		},
 		{
-			"runtimeID": "003BB10D1CDD9055,00E5773A4FA77965",
-			"comment": "it was nothing"
+			"name": "Passenger Train",
+			"type": "conditional",
+			"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
+			"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv", "Addons/Passenger Train/sigfix"],
+			"dependencies": [
+				"002BF35A526696D2",
+				"00760A6102503E67",
+				"00C1253FE9B34540",
+				"00BA6D023DB8CE9D",
+				"004477157143B8D3",
+				"004143CD137810AA",
+				"0076A0A69DD6EE33",
+				"0063C3B17A9686D3",
+				"00AD6700C1A7ED33",
+				"007C447438A950D3",
+				"00614ADA9857D0E2",
+				"007AC61B86C3C0C9",
+				"00A740FB993091A9",
+				"0098DA0E68D0F761",
+				"0069BC955624CEC1",
+				"005A3DA89D0D46FB",
+				"009051C31AA605DF",
+				"0030FDC6896FD335",
+				"006BE0454186E4AA",
+				"005946462F4EF718",
+				"008EDCF30CB12BD2",
+				"006D529EB01058A5",
+				"007D03F6DBCF9B27",
+				"001C7EFE78C71BEB",
+				{
+					"runtimeID": "00C9FDC130E919B1",
+					"comment": "Female seated Wine Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A406C41D39F5E8",
+					"comment": "Miranda Jameson Shit",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00DE8905C9EE35CA",
+					"comment": "Spider Lily Coat",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "002086A3E6C23AB9",
+					"comment": "Spider Lily",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "006D137C1D85AD92",
+					"comment": "Spider Lily",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005F5EDD76316D18",
+					"comment": "Spider Lily",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00FBD4C2124B1A13",
+					"comment": "Randomised Outfit part",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "005BFAAC7C16848A",
+					"comment": "Randomised Outfit part",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00473B9CCD4153DC",
+					"comment": "s02_act_fr_sit_smoke_vape",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "004C67F0DA870166",
+					"comment": "Act Stir Wok",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00ECB60609492D48",
+					"comment": "Act Slice Lime",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "004B678CAC4D7656",
+					"comment": "Sambuca Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0087E000B41D60F8",
+					"comment": "ET_FABA SDEF",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00B9657DB841BFEE",
+					"comment": "Meal Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "009BA9B9EC958320",
+					"comment": "NY Music",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0095439E192FDCF7",
+					"comment": "Snow Scooter",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "000E2A63407134BF",
+					"comment": "NY Customer Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00BAC1B53D5544DB",
+					"comment": "NY Customer Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005A3856903FD35E",
+					"comment": "NY Customer Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0015498D02C005E7",
+					"comment": "NY Teller Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00F1DFDC1256EC75",
+					"comment": "Russian Guard Charset",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00BE95669226F7FC",
+					"comment": "NY F Teller Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "007189077F0626FF",
+					"comment": "Kitchen prop",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "007DA054E9594C2A",
+					"comment": "Laundry cart wet",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00AB86D10346024C",
+					"comment": "Laundry liquid",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00501B18151D6980",
+					"comment": "container cardbox",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00596C4252F362FD",
+					"comment": "miami trash",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00516836F8B7F8C7",
+					"comment": "miami table",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00C92C7DD5D3C19D",
+					"comment": "suitcase green",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "004A0CA76F8AB312,00C0F64E2A492B44,00353055CD9B26BE",
+					"comment": "fox targetidentifier related entities",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00CFBF38EE15C50A,0092EDF340143E05",
+					"comment": "ah there you are"
+				},
+				{
+					"runtimeID": "003BB10D1CDD9055,00E5773A4FA77965",
+					"comment": "it was nothing"
+				}
+			],
+			"scripts": ["scripts/CopyTrain.ts"]
+		},
+		{
+			"name": "Passenger Train without SigFix",
+			"type": "conditional",
+			"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" in config.loadOrder",
+			"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv"],
+			"dependencies": [
+				"002BF35A526696D2",
+				"00760A6102503E67",
+				"00C1253FE9B34540",
+				"00BA6D023DB8CE9D",
+				"004477157143B8D3",
+				"004143CD137810AA",
+				"0076A0A69DD6EE33",
+				"0063C3B17A9686D3",
+				"00AD6700C1A7ED33",
+				"007C447438A950D3",
+				"00614ADA9857D0E2",
+				"007AC61B86C3C0C9",
+				"00A740FB993091A9",
+				"0098DA0E68D0F761",
+				"0069BC955624CEC1",
+				"005A3DA89D0D46FB",
+				"009051C31AA605DF",
+				"0030FDC6896FD335",
+				"006BE0454186E4AA",
+				"005946462F4EF718",
+				"008EDCF30CB12BD2",
+				"006D529EB01058A5",
+				"007D03F6DBCF9B27",
+				"001C7EFE78C71BEB",
+				{
+					"runtimeID": "00C9FDC130E919B1",
+					"comment": "Female seated Wine Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00A406C41D39F5E8",
+					"comment": "Miranda Jameson Shit",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00DE8905C9EE35CA",
+					"comment": "Spider Lily Coat",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "002086A3E6C23AB9",
+					"comment": "Spider Lily",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "006D137C1D85AD92",
+					"comment": "Spider Lily",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005F5EDD76316D18",
+					"comment": "Spider Lily",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00FBD4C2124B1A13",
+					"comment": "Randomised Outfit part",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "005BFAAC7C16848A",
+					"comment": "Randomised Outfit part",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00473B9CCD4153DC",
+					"comment": "s02_act_fr_sit_smoke_vape",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "004C67F0DA870166",
+					"comment": "Act Stir Wok",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00ECB60609492D48",
+					"comment": "Act Slice Lime",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "004B678CAC4D7656",
+					"comment": "Sambuca Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0087E000B41D60F8",
+					"comment": "ET_FABA SDEF",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00B9657DB841BFEE",
+					"comment": "Meal Act",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "009BA9B9EC958320",
+					"comment": "NY Music",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0095439E192FDCF7",
+					"comment": "Snow Scooter",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "000E2A63407134BF",
+					"comment": "NY Customer Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00BAC1B53D5544DB",
+					"comment": "NY Customer Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "005A3856903FD35E",
+					"comment": "NY Customer Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0015498D02C005E7",
+					"comment": "NY Teller Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00F1DFDC1256EC75",
+					"comment": "Russian Guard Charset",
+					"toChunk": 8
+				},
+				{
+					"runtimeID": "00BE95669226F7FC",
+					"comment": "NY F Teller Charset",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "007189077F0626FF",
+					"comment": "Kitchen prop",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "007DA054E9594C2A",
+					"comment": "Laundry cart wet",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00AB86D10346024C",
+					"comment": "Laundry liquid",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00501B18151D6980",
+					"comment": "container cardbox",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00596C4252F362FD",
+					"comment": "miami trash",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00516836F8B7F8C7",
+					"comment": "miami table",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "00C92C7DD5D3C19D",
+					"comment": "suitcase green",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "004A0CA76F8AB312,00C0F64E2A492B44,00353055CD9B26BE",
+					"comment": "fox targetidentifier related entities",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00CFBF38EE15C50A,0092EDF340143E05",
+					"comment": "ah there you are"
+				},
+				{
+					"runtimeID": "003BB10D1CDD9055,00E5773A4FA77965",
+					"comment": "it was nothing"
+				}
+			],
+			"scripts": ["scripts/CopyTrain.ts"]
+		},
+		{
+			"name": "Passenger Train External",
+			"type": "conditional",
+			"condition": "\"KevinRudd.PassengerTrain\" in config.loadOrder",
+			"contentFolders": ["Addons/Passenger Train/fv"]
+		},
+		{
+			"name": "Cuba",
+			"type": "conditional",
+			"condition": "\"KevinRudd.WelcomeToCuba\" not in config.loadOrder",
+			"contentFolders": ["Addons/Cuba/base", "Addons/Cuba/fv"],
+			"dependencies": [
+				"0049E402097FE46D,000BA41D084B1850",
+				{
+					"runtimeID": "0016857FFC1B3C75,00C9828BAE046227,00C312F3F201A74E",
+					"comment": "Dugong Music",
+					"toChunk": 1
+				},
+				"005731A0439FDF16,008B845B79C7713E,00D65881050E89B4",
+				"004DD64E7E835FE5",
+				"0075E0E64FC8B786",
+				"0094346108D3BCE8",
+				"00EDAC6AB40BE5A6",
+				"002C7C6085542586",
+				"0065DA77A1B050D1",
+				"000A90EDC108755A",
+				"0018B5C337EFA649",
+				"00E675905F89B5AD",
+				"00E569DC2B6F19FC",
+				"0017C8E59931B20A",
+				"008214A87DB0C179",
+				"00B2F001F8A53617",
+				"001EAAAD78B8E60F",
+				"0011FB3B3151F8B6",
+				"0083308AE7CBFD90",
+				"00F2352B1AC67B47",
+				"000E29678C0117A1",
+				"00B02F9BD6357B46",
+				"00E67884F5C3E391",
+				"00C32BA588A2EF4E",
+				"0029FCEC8F733B1F",
+				"006011AB83514A04",
+				"002D55ADB4FF1E70",
+				"00FB8C9E12E38D5C",
+				"0080629981257C5E",
+				"00B6D07E7B3D6043",
+				"0054E48D9845DA22",
+				"00B908AB403626C2",
+				"00719C5A3511A5B6",
+				"00A724DB06D5163F",
+				"005AC9F8B99CF507",
+				"001C0A3B26E38A14",
+				"0013D8676507FD49",
+				"000EDF8447896471",
+				"0000BE483C5B58A9",
+				"0043EA47A8A6B7DA",
+				{
+					"runtimeID": "00D03F330BE61DCF",
+					"comment": "Radio Tower",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "007F8E94792894A6",
+					"comment": "Mendoza Head of Security",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0074BC921646CEE2",
+					"comment": "Mendoza Mercenaries",
+					"toChunk": 1
+				},
+				"00746FB20D1C98C1",
+				{
+					"runtimeID": "003C7A98980FF033",
+					"comment": "Colombia Ground Piece",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00753F60E3B43D71",
+					"comment": "Colombia Rock",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AAF9822C3D6E65",
+					"comment": "prison_int_doorframe_4x4_a",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0072FE537EEDC5D5",
+					"comment": "prison_int_wall_4x4_a",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00B026278CDB88C2",
+					"comment": "prison_int_wall_2x4_a",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00FB43EBAA65ADCB",
+					"comment": "a_int_wall_3x4_blank_a",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00C36C7B4E06B56D",
+					"comment": "villa_inside_wall_4x5m_a",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AE4095BD7B4BB8",
+					"comment": "Soviet Helicopter",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00630331F49279F5",
+					"comment": "Dugong Sound",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00032972CFAF8528",
+					"comment": "Dugong Soundbank",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "009C39B3346B3B49",
+					"comment": "Seagull Ground",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00E84516663E9657",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0023F4A8D8717388",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0008624B83DED7D8",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "003EBC8B1A766A14",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0066646AE9C60502",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0079290FD6E771A4",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0039B4652887765A",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00733CE031C9B295",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00734B15D9F0AC56",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00163D2EAF77F128",
+					"comment": "Colombia Trees",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0084CF8B5BF10A5C",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0086D3FF5A23FF8A",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0067A506309E7D77",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F82189E98CD993",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0056A6A178FACFD8",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00221C101D068B09",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0078FF6B669DFF1B",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "007F678C6A46FDA0",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F878A932945D3C",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "009B154F0B68AD75",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00209FAC41BD6DAA",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00CCAFE9AEF51E7E",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00203DB8E381114D",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00A576E96BDF9513",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "004AF57E9565D7E6",
+					"comment": "Colombia Vistas",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0076553EF3989023",
+					"comment": "Colorado Ground Stuff",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F4CEFCBC28FEB9",
+					"comment": "Colorado Ground Stuff",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0002AEAE2EF54B46",
+					"comment": "Colorado Ground Stuff",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "003D6A1767EA2DEB",
+					"comment": "[assembly:/_pro/environment/materials/generic/ground/colombia_blend_sandstone_mud_dirt_g.mi].pc_mi",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00DBD0E72CCCB165",
+					"comment": "Sky_Falcon",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "004F5FFA5651FB35",
+					"comment": "starfield",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0026E1082076FBA6",
+					"comment": "starfield",
+					"portFromChunk1": true
+				}
+			],
+			"localisation": {
+				"english": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"french": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"italian": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"german": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"
+				},
+				"spanish": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"russian": {
+					"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"
+				},
+				"chineseSimplified": {
+					"ui_location_parent_cuba_name": "古巴塞拉坎坦特"
+				},
+				"chineseTraditional": {
+					"ui_location_parent_cuba_name": "古巴塞拉坎坦特"
+				},
+				"japanese": {
+					"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"
+				}
+			},
+			"localisedlines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
+		},
+		{
+			"name": "Cuba External",
+			"type": "conditional",
+			"condition": "\"KevinRudd.WelcomeToCuba\" in config.loadOrder",
+			"contentFolders": ["Addons/Cuba/fv"],
+			"localisation": {
+				"english": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"french": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"italian": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"german": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"
+				},
+				"spanish": {
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+				},
+				"russian": {
+					"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"
+				},
+				"chineseSimplified": {
+					"ui_location_parent_cuba_name": "古巴塞拉坎坦特"
+				},
+				"chineseTraditional": {
+					"ui_location_parent_cuba_name": "古巴塞拉坎坦特"
+				},
+				"japanese": {
+					"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"
+				}
+			},
+			"localisedlines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
+		},
+		{
+			"name": "Yacht",
+			"type": "conditional",
+			"condition": "\"TeamRuddcy.RealYacht\" not in config.loadOrder",
+			"contentFolders": ["Addons/Yacht/base", "Addons/Yacht/fv"],
+			"dependencies": [
+				"008BE5C899A3C36F",
+				"00875085D6135309",
+				"005415E5BE265EFD",
+				{ "runtimeID": "003D96EAECB00C82", "comment": "adonis_sky", "toChunk": 1 },
+				{
+					"runtimeID": "0069DB569844D774",
+					"toChunk": 9,
+					"comment": "Mumbai Pier"
+				},
+				{
+					"runtimeID": "00A4A5DCDA87B315",
+					"toChunk": 9,
+					"comment": "Hantu DryDock Wall"
+				},
+				{
+					"runtimeID": "00B0574C76BBCED5",
+					"toChunk": 1,
+					"comment": "Berlin Interior Column"
+				},
+				{
+					"runtimeID": "00A0B579589BB5B9",
+					"toChunk": 1,
+					"comment": "llama_silo_support_beam_a"
+				},
+				{
+					"runtimeID": "004DA0BCD65E10E7",
+					"toChunk": 9,
+					"comment": "Hantu car park boom"
+				},
+				{
+					"runtimeID": "00C0A4B77E103881",
+					"toChunk": 8,
+					"comment": "Marrakesh Security Hut"
+				},
+				{
+					"runtimeID": "009A796EAA4E0505",
+					"toChunk": 8,
+					"comment": "Marrakesh Security Hut"
+				},
+				{
+					"runtimeID": "00BE8CA1B743C8BD",
+					"toChunk": 8,
+					"comment": "Marrakesh Security Hut"
+				},
+				{
+					"runtimeID": "00F630EB7A2172F9",
+					"toChunk": 8,
+					"comment": "Marrakesh Security Door"
+				},
+				{
+					"runtimeID": "005EBB3070863681",
+					"toChunk": 8,
+					"comment": "Marrakesh Security Window"
+				},
+				{
+					"runtimeID": "00E461BC6BF94251",
+					"toChunk": 8,
+					"comment": "Marrakesh Security Window"
+				},
+				{
+					"runtimeID": "000D8D650E4A3EA7",
+					"toChunk": 8,
+					"comment": "Colorado Garage"
+				},
+				{
+					"runtimeID": "000A16A2852C87F8",
+					"toChunk": 8,
+					"comment": "Colorado Garage Interior"
+				},
+				{
+					"runtimeID": "00FDB14B98C446E0",
+					"toChunk": 8,
+					"comment": "Colorado Garage Side Room Interior"
+				},
+				{
+					"runtimeID": "00CD2A7E2F524136",
+					"toChunk": 8,
+					"comment": "Colorado Garage Door"
+				},
+				{
+					"runtimeID": "00E495B00562187A",
+					"toChunk": 8,
+					"comment": "Colorado Garage Setpieces"
+				},
+				{
+					"runtimeID": "00BE40A890B142A5",
+					"toChunk": 8,
+					"comment": "Colorado Garage Setpieces"
+				},
+				{
+					"runtimeID": "007C34ECCD87B5D4",
+					"toChunk": 8,
+					"comment": "window_tractor_storage_vent_a"
+				},
+				{
+					"runtimeID": "009C39B3346B3B49",
+					"toChunk": 9,
+					"comment": "seagull_terrain_asphalt_panels_zmapped_a"
+				},
+				{
+					"runtimeID": "000BECE1AF7121AA",
+					"toChunk": 19,
+					"comment": "wooden plank mati"
+				},
+				{
+					"runtimeID": "00197D3FF3856194",
+					"toChunk": 19,
+					"comment": "pool wall"
+				},
+				{
+					"runtimeID": "001FB4CBE8E811B6",
+					"toChunk": 19,
+					"comment": "pool lights sound"
+				},
+				{
+					"runtimeID": "00FB64C2FE7BAB66",
+					"toChunk": 19,
+					"comment": "Sgail Bar"
+				},
+				{
+					"runtimeID": "00053CC7257FECEF",
+					"toChunk": 19,
+					"comment": "Sgail Bar Blueprint"
+				},
+				{
+					"runtimeID": "00BBA6C6AFB823C0",
+					"toChunk": 19,
+					"comment": "Resin Bar"
+				},
+				{
+					"runtimeID": "006637A440D0C0EE",
+					"toChunk": 19,
+					"comment": "Resin Bar Blueprint"
+				},
+				{
+					"runtimeID": "008A353B9903C975",
+					"toChunk": 19,
+					"comment": "Hantu helipad"
+				},
+				{
+					"runtimeID": "007DFE9269EB5C3D",
+					"toChunk": 19,
+					"comment": "Hantu helipad"
+				},
+
+				{
+					"runtimeID": "00E469188552EC1F",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00BF85ABEE02BB26",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "005929AF3EB3D40A",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+
+				{
+					"runtimeID": "00D792CB012B3D99",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "0047E7572AEAEF41",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "0054FD4816B6EC72",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "000A8A7677074525",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00AD48CD4FD9CD32",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00967033D800E1F0",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "006B2E5F060937CD",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "0018B43ABE250084",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00CEFE0660C52EB3",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00B636F671A5D2E2",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00A9D09B4D03607E",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00060EA3F8C0C77C",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "0044F0686221A475",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00E41485D255A973",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00FFF64EFA2503BB",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "00316A7197B8CB91",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "0021E8649925C8A0",
+					"toChunk": 19,
+					"comment": "Haven scuba diving stuff"
+				},
+				{
+					"runtimeID": "004AC276338CB677",
+					"toChunk": 19,
+					"comment": "Paris tree foot for palm tree"
+				}
+			]
+		},
+		{
+			"name": "Yacht External",
+			"type": "conditional",
+			"condition": "\"TeamRuddcy.RealYacht\" in config.loadOrder",
+			"contentFolders": ["Addons/Yacht/fv"]
+		},
+		{
+			"name": "No AOM",
+			"type": "conditional",
+			"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
+			"contentFolders": ["AOM Shit"],
+			"dependencies": [
+				{
+					"runtimeID": "0094930EFDEEA0FE",
+					"comment": "Janus",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00BDAFDA7A6DDAF4",
+					"comment": "Strandberg",
+					"portFromChunk1": true
+				},
+				"00C971B032756DED",
+				"00F29C6A6DA00025",
+				"009D17D65711801C",
+				"00460299421C52FD",
+				"000A7DE3CEC42211,000BEC396C2BAD91,00A0643DD17950B4,00BBAEDF15366BB5,00CB7C98B353E3AE",
+				"00CB8322D4F6D24C,00DEFA8E60B9ECDA,00E3C1E2BC359EBA,00E67AEF969515D9,00F5D3E795BE741E",
+				"00F9E885939193A1,002D35A6E9D65CFD,004B2773BC324E6D,004EC0D09BD3E743,005A4CC68543C45F",
+				"005AFA48720347FB,005DE1A991DDB1CC,005EE826E481F870,008D16EC4822B1D5,008D31A6DCAF94E4",
+				"0011CFF15E85D184,0055E33191F7DB95,0097A3CEE439C72C,00169F006BB653AE,00235CF5B58E832D",
+				"00268D40B5C62DCD,00923BF7048EB387,001939DD2D4EDE0B,006480FC59F70734,007618FB4712C8AC",
+				"0014378454472B7B,00579731181846AB,0028212600519399"
+			]
 		}
-	],"scripts": [
-		"scripts/CopyTrain.ts"
-	]
-	},{
-		"name": "Passenger Train without SigFix",
-		"type": "conditional",
-		"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" in config.loadOrder",
-		"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv"],
-		"dependencies": [
-			"002BF35A526696D2","00760A6102503E67","00C1253FE9B34540","00BA6D023DB8CE9D","004477157143B8D3","004143CD137810AA","0076A0A69DD6EE33","0063C3B17A9686D3","00AD6700C1A7ED33","007C447438A950D3","00614ADA9857D0E2","007AC61B86C3C0C9","00A740FB993091A9","0098DA0E68D0F761","0069BC955624CEC1","005A3DA89D0D46FB","009051C31AA605DF","0030FDC6896FD335","006BE0454186E4AA","005946462F4EF718","008EDCF30CB12BD2","006D529EB01058A5","007D03F6DBCF9B27","001C7EFE78C71BEB",{
-			"runtimeID": "00C9FDC130E919B1",
-			"comment": "Female seated Wine Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "00A406C41D39F5E8",
-			"comment": "Miranda Jameson Shit",
-			"toChunk": 1
-		},{
-			"runtimeID": "00DE8905C9EE35CA",
-			"comment": "Spider Lily Coat",
-			"toChunk": 1
-		},{
-			"runtimeID": "002086A3E6C23AB9",
-			"comment": "Spider Lily",
-			"toChunk": 1
-		},{
-			"runtimeID": "006D137C1D85AD92",
-			"comment": "Spider Lily",
-			"toChunk": 1
-		},{
-			"runtimeID": "005F5EDD76316D18",
-			"comment": "Spider Lily",
-			"toChunk": 1
-		},{
-			"runtimeID": "00FBD4C2124B1A13",
-			"comment": "Randomised Outfit part",
-			"toChunk": 8
-		},{
-			"runtimeID": "005BFAAC7C16848A",
-			"comment": "Randomised Outfit part",
-			"toChunk": 8
-		},{
-			"runtimeID": "00473B9CCD4153DC",
-			"comment": "s02_act_fr_sit_smoke_vape",
-			"toChunk": 1
-		},{
-			"runtimeID": "004C67F0DA870166",
-			"comment": "Act Stir Wok",
-			"toChunk": 1
-		},{
-			"runtimeID": "00ECB60609492D48",
-			"comment": "Act Slice Lime",
-			"toChunk": 1
-		},{
-			"runtimeID": "004B678CAC4D7656",
-			"comment": "Sambuca Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "0087E000B41D60F8",
-			"comment": "ET_FABA SDEF",
-			"toChunk": 1
-		},{
-			"runtimeID": "00B9657DB841BFEE",
-			"comment": "Meal Act",
-			"toChunk": 1
-		},{
-			"runtimeID": "009BA9B9EC958320",
-			"comment": "NY Music",
-			"toChunk": 1
-		},{
-			"runtimeID": "0095439E192FDCF7",
-			"comment": "Snow Scooter",
-			"toChunk": 1
-		},{
-			"runtimeID": "000E2A63407134BF",
-			"comment": "NY Customer Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "00BAC1B53D5544DB",
-			"comment": "NY Customer Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "005A3856903FD35E",
-			"comment": "NY Customer Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "0015498D02C005E7",
-			"comment": "NY Teller Charset",
-			"toChunk": 1
-		},{
-			"runtimeID": "00F1DFDC1256EC75",
-			"comment": "Russian Guard Charset",
-			"toChunk": 8
-		},{
-			"runtimeID": "00BE95669226F7FC",
-			"comment": "NY F Teller Charset",
-			"toChunk": 1
-		},
+	],
+	"packagedefinition": [
 		{
-			"runtimeID": "007189077F0626FF",
-			"comment": "Kitchen prop",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "007DA054E9594C2A",
-			"comment": "Laundry cart wet",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "00AB86D10346024C",
-			"comment": "Laundry liquid",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "00501B18151D6980",
-			"comment": "container cardbox",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "00596C4252F362FD",
-			"comment": "miami trash",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "00516836F8B7F8C7",
-			"comment": "miami table",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "00C92C7DD5D3C19D",
-			"comment": "suitcase green",
-			"toChunk": 1
-		},
-		{
-			"runtimeID": "004A0CA76F8AB312,00C0F64E2A492B44,00353055CD9B26BE",
-			"comment": "fox targetidentifier related entities",
-			"portFromChunk1": true
-		},
-		{
-			"runtimeID": "00CFBF38EE15C50A,0092EDF340143E05",
-			"comment": "ah there you are"
-		},
-		{
-			"runtimeID": "003BB10D1CDD9055,00E5773A4FA77965",
-			"comment": "it was nothing"
+			"type": "entity",
+			"partition": "sheep",
+			"path": "[assembly:/_pro/scenes/missions/sheep/scene_hex.entity].entitytemplate"
 		}
-	],"scripts": [
-		"scripts/CopyTrain.ts"
-	]
-	},{
-		"name": "Passenger Train External",
-		"type": "conditional",
-		"condition": "\"KevinRudd.PassengerTrain\" in config.loadOrder",
-		"contentFolders": ["Addons/Passenger Train/fv"]
-	},{
-		"name": "Cuba",
-		"type": "conditional",
-		"condition": "\"KevinRudd.WelcomeToCuba\" not in config.loadOrder",
-		"contentFolders": ["Addons/Cuba/base", "Addons/Cuba/fv"],
-		"dependencies": [
-		"0049E402097FE46D,000BA41D084B1850",{
-			"runtimeID": "0016857FFC1B3C75,00C9828BAE046227,00C312F3F201A74E",
-			"comment": "Dugong Music",
-			"toChunk": 1
-		},"005731A0439FDF16,008B845B79C7713E,00D65881050E89B4","004DD64E7E835FE5","0075E0E64FC8B786","0094346108D3BCE8","00EDAC6AB40BE5A6","002C7C6085542586",
-		"0065DA77A1B050D1","000A90EDC108755A","0018B5C337EFA649","00E675905F89B5AD",
-		"00E569DC2B6F19FC", "0017C8E59931B20A", "008214A87DB0C179","00B2F001F8A53617",
-		"001EAAAD78B8E60F","0011FB3B3151F8B6","0083308AE7CBFD90","00F2352B1AC67B47",
-		"000E29678C0117A1","00B02F9BD6357B46","00E67884F5C3E391","00C32BA588A2EF4E",
-		"0029FCEC8F733B1F","006011AB83514A04","002D55ADB4FF1E70","00FB8C9E12E38D5C","0080629981257C5E","00B6D07E7B3D6043",
-		"0054E48D9845DA22","00B908AB403626C2","00719C5A3511A5B6","00A724DB06D5163F","005AC9F8B99CF507",
-		"001C0A3B26E38A14","0013D8676507FD49","000EDF8447896471","0000BE483C5B58A9","0043EA47A8A6B7DA",{
-			"runtimeID": "00D03F330BE61DCF",
-			"comment": "Radio Tower",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "007F8E94792894A6",
-			"comment": "Mendoza Head of Security",
-			"toChunk": 1
-		},{
-			"runtimeID": "0074BC921646CEE2",
-			"comment": "Mendoza Mercenaries",
-			"toChunk": 1
-		},"00746FB20D1C98C1",{
-		"runtimeID": "003C7A98980FF033",
-		"comment": "Colombia Ground Piece",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00753F60E3B43D71",
-		"comment": "Colombia Rock",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00AAF9822C3D6E65",
-		"comment": "prison_int_doorframe_4x4_a",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0072FE537EEDC5D5",
-		"comment": "prison_int_wall_4x4_a",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00B026278CDB88C2",
-		"comment": "prison_int_wall_2x4_a",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00FB43EBAA65ADCB",
-		"comment": "a_int_wall_3x4_blank_a",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00C36C7B4E06B56D",
-		"comment": "villa_inside_wall_4x5m_a",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00AE4095BD7B4BB8",
-		"comment": "Soviet Helicopter",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00630331F49279F5",
-		"comment": "Dugong Sound",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00032972CFAF8528",
-		"comment": "Dugong Soundbank",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "009C39B3346B3B49",
-		"comment": "Seagull Ground",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00E84516663E9657",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0023F4A8D8717388",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0008624B83DED7D8",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "003EBC8B1A766A14",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0066646AE9C60502",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0079290FD6E771A4",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0039B4652887765A",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00733CE031C9B295",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00734B15D9F0AC56",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00163D2EAF77F128",
-		"comment": "Colombia Trees",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0084CF8B5BF10A5C",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0086D3FF5A23FF8A",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0067A506309E7D77",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00F82189E98CD993",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0056A6A178FACFD8",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00221C101D068B09",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0078FF6B669DFF1B",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "007F678C6A46FDA0",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00F878A932945D3C",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "009B154F0B68AD75",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00209FAC41BD6DAA",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00CCAFE9AEF51E7E",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00203DB8E381114D",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00A576E96BDF9513",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "004AF57E9565D7E6",
-		"comment": "Colombia Vistas",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0076553EF3989023",
-		"comment": "Colorado Ground Stuff",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00F4CEFCBC28FEB9",
-		"comment": "Colorado Ground Stuff",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0002AEAE2EF54B46",
-		"comment": "Colorado Ground Stuff",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "003D6A1767EA2DEB",
-		"comment": "[assembly:/_pro/environment/materials/generic/ground/colombia_blend_sandstone_mud_dirt_g.mi].pc_mi",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "00DBD0E72CCCB165",
-		"comment": "Sky_Falcon",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "004F5FFA5651FB35",
-		"comment": "starfield",
-		"portFromChunk1": true
-	},{
-		"runtimeID": "0026E1082076FBA6",
-		"comment": "starfield",
-		"portFromChunk1": true
-	}],
-	"localisation": {
-	"english": {
-		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-	"french": {
-		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-	"italian": {
-		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-	"german": {
-		"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"},
-	"spanish": {
-		"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-	"russian": {
-		"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"},
-	"chineseSimplified": {
-		"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
-	"chineseTraditional": {
-		"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
-	"japanese": {
-		"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"}
-},"localisedlines":{"001D551B1AC17F6E":  "ui_location_parent_cuba_name"}
-	},{
-		"name": "Cuba External",
-		"type": "conditional",
-		"condition": "\"KevinRudd.WelcomeToCuba\" in config.loadOrder",
-		"contentFolders": ["Addons/Cuba/fv"],
-		"localisation": {
-		"english": {
-			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-		"french": {
-			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-		"italian": {
-			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-		"german": {
-			"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"},
-		"spanish": {
-			"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"},
-		"russian": {
-			"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"},
-		"chineseSimplified": {
-			"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
-		"chineseTraditional": {
-			"ui_location_parent_cuba_name": "古巴塞拉坎坦特"},
-		"japanese": {
-			"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"}
-	},"localisedlines":{"001D551B1AC17F6E":  "ui_location_parent_cuba_name"}
-	},{
-		"name": "Yacht",
-		"type": "conditional",
-		"condition": "\"TeamRuddcy.RealYacht\" not in config.loadOrder",
-		"contentFolders": ["Addons/Yacht/base", "Addons/Yacht/fv"],
-		"dependencies": [
-			"008BE5C899A3C36F","00875085D6135309","005415E5BE265EFD",{"runtimeID":"003D96EAECB00C82","comment":"adonis_sky","toChunk":1},
-		{
-			"runtimeID": "0069DB569844D774",
-			"toChunk": 9,
-			"comment": "Mumbai Pier"
-		},{
-			"runtimeID": "00A4A5DCDA87B315",
-			"toChunk": 9,
-			"comment": "Hantu DryDock Wall"
-		},{
-			"runtimeID": "00B0574C76BBCED5",
-			"toChunk": 1,
-			"comment": "Berlin Interior Column"
-		},{
-			"runtimeID": "00A0B579589BB5B9",
-			"toChunk": 1,
-			"comment": "llama_silo_support_beam_a"
-		},{
-			"runtimeID": "004DA0BCD65E10E7",
-			"toChunk": 9,
-			"comment": "Hantu car park boom"
-		},{
-			"runtimeID": "00C0A4B77E103881",
-			"toChunk": 8,
-			"comment": "Marrakesh Security Hut"
-		},
-		{
-			"runtimeID": "009A796EAA4E0505",
-			"toChunk": 8,
-			"comment": "Marrakesh Security Hut"
-		},
-		{
-			"runtimeID": "00BE8CA1B743C8BD",
-			"toChunk": 8,
-			"comment": "Marrakesh Security Hut"
-		},
-		{
-			"runtimeID": "00F630EB7A2172F9",
-			"toChunk": 8,
-			"comment": "Marrakesh Security Door"
-		},
-		{
-			"runtimeID": "005EBB3070863681",
-			"toChunk": 8,
-			"comment": "Marrakesh Security Window"
-		},
-		{
-			"runtimeID": "00E461BC6BF94251",
-			"toChunk": 8,
-			"comment": "Marrakesh Security Window"
-		},
-		{
-			"runtimeID": "000D8D650E4A3EA7",
-			"toChunk": 8,
-			"comment": "Colorado Garage"
-		},
-		{
-			"runtimeID": "000A16A2852C87F8",
-			"toChunk": 8,
-			"comment": "Colorado Garage Interior"
-		},
-		{
-			"runtimeID": "00FDB14B98C446E0",
-			"toChunk": 8,
-			"comment": "Colorado Garage Side Room Interior"
-		},
-		{
-			"runtimeID": "00CD2A7E2F524136",
-			"toChunk": 8,
-			"comment": "Colorado Garage Door"
-		},
-		{
-			"runtimeID": "00E495B00562187A",
-			"toChunk": 8,
-			"comment": "Colorado Garage Setpieces"
-		},
-		{
-			"runtimeID": "00BE40A890B142A5",
-			"toChunk": 8,
-			"comment": "Colorado Garage Setpieces"
-		},
-		{
-			"runtimeID": "007C34ECCD87B5D4",
-			"toChunk": 8,
-			"comment": "window_tractor_storage_vent_a"
-		},
-		{
-			"runtimeID": "009C39B3346B3B49",
-			"toChunk": 9,
-			"comment": "seagull_terrain_asphalt_panels_zmapped_a"
-		},
-		{
-			"runtimeID": "000BECE1AF7121AA",
-			"toChunk": 19,
-			"comment": "wooden plank mati"
-		},
-		{
-			"runtimeID": "00197D3FF3856194",
-			"toChunk": 19,
-			"comment": "pool wall"
-		},
-		{
-			"runtimeID": "001FB4CBE8E811B6",
-			"toChunk": 19,
-			"comment": "pool lights sound"
-		},
-		{
-			"runtimeID": "00FB64C2FE7BAB66",
-			"toChunk": 19,
-			"comment": "Sgail Bar"
-		},
-		{
-			"runtimeID": "00053CC7257FECEF",
-			"toChunk": 19,
-			"comment": "Sgail Bar Blueprint"
-		},
-		{
-			"runtimeID": "00BBA6C6AFB823C0",
-			"toChunk": 19,
-			"comment": "Resin Bar"
-		},
-		{
-			"runtimeID": "006637A440D0C0EE",
-			"toChunk": 19,
-			"comment": "Resin Bar Blueprint"
-		},
-		{
-			"runtimeID": "008A353B9903C975",
-			"toChunk": 19,
-			"comment": "Hantu helipad"
-		},
-		{
-			"runtimeID": "007DFE9269EB5C3D",
-			"toChunk": 19,
-			"comment": "Hantu helipad"
-		},
-
-
-
-
-		{
-			"runtimeID": "00E469188552EC1F",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00BF85ABEE02BB26",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "005929AF3EB3D40A",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-	
-		{
-			"runtimeID": "00D792CB012B3D99",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "0047E7572AEAEF41",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "0054FD4816B6EC72",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "000A8A7677074525",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00AD48CD4FD9CD32",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00967033D800E1F0",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "006B2E5F060937CD",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "0018B43ABE250084",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00CEFE0660C52EB3",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00B636F671A5D2E2",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00A9D09B4D03607E",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00060EA3F8C0C77C",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "0044F0686221A475",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00E41485D255A973",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00FFF64EFA2503BB",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "00316A7197B8CB91",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "0021E8649925C8A0",
-			"toChunk": 19,
-			"comment": "Haven scuba diving stuff"
-		},
-		{
-			"runtimeID": "004AC276338CB677",
-			"toChunk": 19,
-			"comment": "Paris tree foot for palm tree"
-		}]
-	},{
-		"name": "Yacht External",
-		"type": "conditional",
-		"condition": "\"TeamRuddcy.RealYacht\" in config.loadOrder",
-		"contentFolders": ["Addons/Yacht/fv"]
-	},{
-		"name": "No AOM",
-		"type": "conditional",
-		"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
-		"contentFolders": ["AOM Shit"],
-		"dependencies": [{
-			"runtimeID": "0094930EFDEEA0FE",
-			"comment": "Janus",
-			"portFromChunk1": true
-		},{
-			"runtimeID": "00BDAFDA7A6DDAF4",
-			"comment": "Strandberg",
-			"portFromChunk1": true
-		}, "00C971B032756DED","00F29C6A6DA00025",
-	"009D17D65711801C","00460299421C52FD","000A7DE3CEC42211,000BEC396C2BAD91,00A0643DD17950B4,00BBAEDF15366BB5,00CB7C98B353E3AE",
-"00CB8322D4F6D24C,00DEFA8E60B9ECDA,00E3C1E2BC359EBA,00E67AEF969515D9,00F5D3E795BE741E",
-"00F9E885939193A1,002D35A6E9D65CFD,004B2773BC324E6D,004EC0D09BD3E743,005A4CC68543C45F",
-"005AFA48720347FB,005DE1A991DDB1CC,005EE826E481F870,008D16EC4822B1D5,008D31A6DCAF94E4",
-"0011CFF15E85D184,0055E33191F7DB95,0097A3CEE439C72C,00169F006BB653AE,00235CF5B58E832D",
-"00268D40B5C62DCD,00923BF7048EB387,001939DD2D4EDE0B,006480FC59F70734,007618FB4712C8AC",
-"0014378454472B7B,00579731181846AB,0028212600519399"]
-	}],
-	"packagedefinition": [{
-		"type": "entity",
-		"partition": "sheep",
-		"path": "[assembly:/_pro/scenes/missions/sheep/scene_hex.entity].entitytemplate"
-	}],
+	],
 	"frameworkVersion": "2.2.0"
 }

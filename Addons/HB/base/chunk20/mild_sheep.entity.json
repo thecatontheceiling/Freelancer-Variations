@@ -78,9 +78,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"TransmitEvent": [
-						"ef1efb277ef470e4"
-					]
+					"TransmitEvent": ["ef1efb277ef470e4"]
 				}
 			}
 		},
@@ -117,9 +115,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"ExitTriggered": [
-						"d5f77ef38954d199"
-					]
+					"ExitTriggered": ["d5f77ef38954d199"]
 				}
 			}
 		},
@@ -288,12 +284,8 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"TransmitEvent": [
-						"b64e74550c4abddf"
-					],
-					"InsideMildMission": [
-						"7ec2352413214177"
-					]
+					"TransmitEvent": ["b64e74550c4abddf"],
+					"InsideMildMission": ["7ec2352413214177"]
 				}
 			}
 		},
@@ -320,9 +312,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"TransmitEvent": [
-						"8eedea04e13c41e0"
-					]
+					"TransmitEvent": ["8eedea04e13c41e0"]
 				}
 			}
 		},
@@ -438,9 +428,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"TransmitEvent": [
-						"7bfc07d27835a059"
-					]
+					"TransmitEvent": ["7bfc07d27835a059"]
 				}
 			}
 		},
@@ -473,9 +461,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"TransmitEvent": [
-						"158b43a1aa8999d7"
-					]
+					"TransmitEvent": ["158b43a1aa8999d7"]
 				}
 			}
 		},
@@ -609,12 +595,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed4d4c29bf9a44": {
@@ -665,12 +647,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed68bbc4c67377": {
@@ -734,12 +712,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed75be7f7e68ab": {
@@ -750,9 +724,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed638b2f376282"
-					]
+					"value": ["feed638b2f376282"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -821,12 +793,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedca54c79fe251": {
@@ -881,12 +849,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed12915628a164": {
@@ -937,12 +901,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed6ecab91923b8": {
@@ -953,9 +913,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedca9518b0e244"
-					]
+					"value": ["feedca9518b0e244"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1024,12 +982,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed21b84234fb09": {
@@ -1085,12 +1039,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed584d8bcd3571": {
@@ -1141,12 +1091,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed6578a88b827c": {
@@ -1206,12 +1152,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedd1bb001aed3f": {
@@ -1222,9 +1164,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed7acf9ae1eb4f"
-					]
+					"value": ["feed7acf9ae1eb4f"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1292,12 +1232,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed90f65ac7604c": {
@@ -1308,9 +1244,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedcadbb08c0464"
-					]
+					"value": ["feedcadbb08c0464"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1334,9 +1268,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb5f91999f588"
-					]
+					"value": ["feedb5f91999f588"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1400,12 +1332,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed030e9432398a": {
@@ -1416,9 +1344,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbffb03766214"
-					]
+					"value": ["feedbffb03766214"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1442,9 +1368,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feede0fe11003d2c"
-					]
+					"value": ["feede0fe11003d2c"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1468,9 +1392,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed7cc810ec4f9e"
-					]
+					"value": ["feed7cc810ec4f9e"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1494,9 +1416,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed35fb13d530a9"
-					]
+					"value": ["feed35fb13d530a9"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1520,9 +1440,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feede510fe01162f"
-					]
+					"value": ["feede510fe01162f"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1546,9 +1464,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed2df59d94accf"
-					]
+					"value": ["feed2df59d94accf"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1572,9 +1488,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed120253466a38"
-					]
+					"value": ["feed120253466a38"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -1637,15 +1551,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd41e7667113c"
-					]
+					"Start": ["feedd41e7667113c"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedd41e7667113c": {
@@ -1690,15 +1600,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd60d6d2d78c7"
-					]
+					"Start": ["feedd60d6d2d78c7"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedd873f98e372e": {
@@ -1714,9 +1620,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedd60d6d2d78c7"
-					]
+					"Start": ["feedd60d6d2d78c7"]
 				}
 			}
 		},
@@ -1771,9 +1675,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed965e9b528732"
-					]
+					"Start": ["feed965e9b528732"]
 				}
 			}
 		},
@@ -1815,15 +1717,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedbd996d7bf382"
-					]
+					"Start": ["feedbd996d7bf382"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedff4e9cde2c0e": {
@@ -1839,9 +1737,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedbd996d7bf382"
-					]
+					"Start": ["feedbd996d7bf382"]
 				}
 			}
 		},
@@ -1896,15 +1792,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed116007e0bc5b"
-					]
+					"Start": ["feed116007e0bc5b"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedc9bbf3fdab9e": {
@@ -1921,9 +1813,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed41ad2fcb1ac6"
-					]
+					"Start": ["feed41ad2fcb1ac6"]
 				}
 			}
 		},
@@ -1965,14 +1855,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed41ad2fcb1ac6"
-					]
+					"Start": ["feed41ad2fcb1ac6"]
 				}
 			},
-			"subsets": {
-
-			}
+			"subsets": {}
 		},
 		"feedc973b0503a07": {
 			"parent": "feed90f65ac7604c",
@@ -2012,15 +1898,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed7423e581470c"
-					]
+					"Start": ["feed7423e581470c"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed30245bd5c697": {
@@ -2037,9 +1919,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed7423e581470c"
-					]
+					"Start": ["feed7423e581470c"]
 				}
 			}
 		},
@@ -2077,15 +1957,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedc973b0503a07"
-					]
+					"Start": ["feedc973b0503a07"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedcadbb08c0464": {
@@ -2128,9 +2004,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed68d0d4465dce"
-					]
+					"Start": ["feed68d0d4465dce"]
 				}
 			}
 		},
@@ -2172,9 +2046,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed68d0d4465dce"
-					]
+					"Start": ["feed68d0d4465dce"]
 				}
 			}
 		},
@@ -2221,15 +2093,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd3a56018ebd9"
-					]
+					"Start": ["feedd3a56018ebd9"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed6a735370e1f4": {
@@ -2266,9 +2134,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed7c3be1292390"
-					]
+					"Start": ["feed7c3be1292390"]
 				}
 			}
 		},
@@ -2286,9 +2152,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed6a735370e1f4"
-					]
+					"Start": ["feed6a735370e1f4"]
 				}
 			}
 		},
@@ -2335,9 +2199,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed6a735370e1f4"
-					]
+					"Start": ["feed6a735370e1f4"]
 				}
 			}
 		},
@@ -2410,9 +2272,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedff0703b8df93"
-					]
+					"Start": ["feedff0703b8df93"]
 				}
 			}
 		},
@@ -2458,15 +2318,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd4abf8dd8e56"
-					]
+					"Start": ["feedd4abf8dd8e56"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedf51c3d9b6ee3": {
@@ -2483,9 +2339,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedff0703b8df93"
-					]
+					"Start": ["feedff0703b8df93"]
 				}
 			}
 		},
@@ -2528,9 +2382,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed8e8638936938"
-					]
+					"Start": ["feed8e8638936938"]
 				}
 			}
 		},
@@ -2548,9 +2400,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedd9d9cb32ab17"
-					]
+					"Start": ["feedd9d9cb32ab17"]
 				}
 			}
 		},
@@ -2609,15 +2459,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd9d9cb32ab17"
-					]
+					"Start": ["feedd9d9cb32ab17"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedd106434be057": {
@@ -2654,15 +2500,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed9f817dfc999a"
-					]
+					"Start": ["feed9f817dfc999a"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feeda36bb385e4b1": {
@@ -2679,9 +2521,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedd106434be057"
-					]
+					"Start": ["feedd106434be057"]
 				}
 			}
 		},
@@ -2735,15 +2575,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd106434be057"
-					]
+					"Start": ["feedd106434be057"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedc522a0df3c5e": {
@@ -2784,15 +2620,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed835d5f60ae60"
-					]
+					"Start": ["feed835d5f60ae60"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedb7fcff680eed": {
@@ -2809,9 +2641,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedc522a0df3c5e"
-					]
+					"Start": ["feedc522a0df3c5e"]
 				}
 			}
 		},
@@ -2861,15 +2691,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedc522a0df3c5e"
-					]
+					"Start": ["feedc522a0df3c5e"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feeda240052ed37f": {
@@ -2886,9 +2712,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed83ccac74b91f"
-					]
+					"Start": ["feed83ccac74b91f"]
 				}
 			}
 		},
@@ -2934,15 +2758,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feeddd61074002fa"
-					]
+					"Start": ["feeddd61074002fa"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed2df59d94accf": {
@@ -2995,9 +2815,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed83ccac74b91f"
-					]
+					"Start": ["feed83ccac74b91f"]
 				}
 			}
 		},
@@ -3043,15 +2861,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed81d6cfd1d655"
-					]
+					"Start": ["feed81d6cfd1d655"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed38003d232cb3": {
@@ -3068,9 +2882,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed81d6cfd1d655"
-					]
+					"Start": ["feed81d6cfd1d655"]
 				}
 			}
 		},
@@ -3112,15 +2924,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd38c154a93e9"
-					]
+					"Start": ["feedd38c154a93e9"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed120253466a38": {
@@ -3136,18 +2944,10 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/sheep/override_sheep.brick].pc_entitytype",
@@ -3155,13 +2955,7 @@
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

@@ -14,10 +14,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cbc2c96c2b02b6cb",
-						"c29099086ceefd7e"
-					],
+					"value": ["cbc2c96c2b02b6cb", "c29099086ceefd7e"],
 					"postInit": true
 				}
 			},
@@ -72,9 +69,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -247,14 +242,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"b99a3d40ca29255f"
-					]
+					"Increment": ["b99a3d40ca29255f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"b99a3d40ca29255f"
-					]
+					"Decrement": ["b99a3d40ca29255f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -350,9 +341,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					],
+					"value": ["dd89142243a677a8"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -380,9 +369,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"40e5b6ca3be88e36"
-					],
+					"value": ["40e5b6ca3be88e36"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -424,9 +411,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					],
+					"value": ["c7d0b2a042f7b749"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -436,12 +421,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -462,9 +443,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8f3fb1ca64e914b4"
-					],
+					"value": ["8f3fb1ca64e914b4"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -506,9 +485,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					],
+					"value": ["c7d0b2a042f7b749"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -518,12 +495,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -534,9 +507,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4382dc887e212ca2"
-					],
+					"value": ["4382dc887e212ca2"],
 					"postInit": true
 				}
 			},
@@ -549,9 +520,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"879a46b2fc4b32d1"
-					],
+					"value": ["879a46b2fc4b32d1"],
 					"postInit": true
 				}
 			},
@@ -652,22 +621,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ad122d4eb1bcb2dc"
-					],
+					"value": ["ad122d4eb1bcb2dc"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -694,9 +657,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"8f3fb1ca64e914b4"
-					]
+					"SetVisible": ["8f3fb1ca64e914b4"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -740,22 +701,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2139d4ed72acfb68"
-					],
+					"value": ["2139d4ed72acfb68"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -804,9 +759,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"48537127607a0401"
-					]
+					"Start": ["48537127607a0401"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -862,9 +815,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"cce3faec012311ed"
-					]
+					"SetVisible": ["cce3faec012311ed"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -936,22 +887,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5c3ab134048089d0"
-					],
+					"value": ["5c3ab134048089d0"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -1137,9 +1082,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"afb7c64f46ec4974"
-					]
+					"Start": ["afb7c64f46ec4974"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -1151,9 +1094,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b138899130c89994"
-					],
+					"value": ["b138899130c89994"],
 					"postInit": true
 				}
 			},
@@ -1221,9 +1162,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					],
+					"value": ["dd89142243a677a8"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -1502,9 +1441,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"ecca5aaa3c095fcc"
-					]
+					"SetVisible": ["ecca5aaa3c095fcc"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -1526,9 +1463,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"af070eadd634d4dc"
-					],
+					"value": ["af070eadd634d4dc"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -1578,9 +1513,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					],
+					"value": ["5ce36dd2544e2c73"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -1590,12 +1523,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -1638,22 +1567,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"aa676b86d6e12a45"
-					],
+					"value": ["aa676b86d6e12a45"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -1699,22 +1622,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1e072a24d005b20f"
-					],
+					"value": ["1e072a24d005b20f"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -1792,22 +1709,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dbd223b358a4a89f"
-					],
+					"value": ["dbd223b358a4a89f"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -1986,9 +1897,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"23e324ceff7208d8"
-					]
+					"Start": ["23e324ceff7208d8"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -2004,22 +1913,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"04fbca9e2c1d22d7"
-					],
+					"value": ["04fbca9e2c1d22d7"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2036,9 +1939,7 @@
 				},
 				"m_aEventReceivers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cb5a026c32c8a976"
-					],
+					"value": ["cb5a026c32c8a976"],
 					"postInit": true
 				}
 			},
@@ -2110,9 +2011,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"d7949398db1a784c"
-					]
+					"SetVisible": ["d7949398db1a784c"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2373,9 +2272,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"84bf8948b0721cb4"
-					]
+					"SetVisible": ["84bf8948b0721cb4"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2417,14 +2314,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"f6df23d1ad09c196"
-					]
+					"SetTrue": ["f6df23d1ad09c196"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"52baf4fc4e95a36a"
-					]
+					"SetTrue": ["52baf4fc4e95a36a"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -2436,11 +2329,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a4a9ee87014b9b2d",
-						"3f8fcecbff97bca4",
-						"4b83ee6fe615cbd6"
-					],
+					"value": ["a4a9ee87014b9b2d", "3f8fcecbff97bca4", "4b83ee6fe615cbd6"],
 					"postInit": true
 				}
 			},
@@ -2485,22 +2374,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"37eee555e91866e0"
-					],
+					"value": ["37eee555e91866e0"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2516,22 +2399,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cddeb03349e7a291"
-					],
+					"value": ["cddeb03349e7a291"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2736,9 +2613,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ba54b1f7c5e51166"
-					],
+					"value": ["ba54b1f7c5e51166"],
 					"postInit": true
 				}
 			},
@@ -2803,9 +2678,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"66920396a18a1e30"
-					]
+					"SetVisible": ["66920396a18a1e30"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2877,22 +2750,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c1fbe9ff6069b254"
-					],
+					"value": ["c1fbe9ff6069b254"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -2936,22 +2803,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"83fda0f08e62f8cb"
-					],
+					"value": ["83fda0f08e62f8cb"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -3047,9 +2908,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30db7fba3de8feb6"
-					]
+					"value": ["30db7fba3de8feb6"]
 				}
 			},
 			"factory": "[modules:/zprioritynode.class].pc_entitytype"
@@ -3105,9 +2964,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"4afe2b23c334688b"
-					]
+					"SetVisible": ["4afe2b23c334688b"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -3209,9 +3066,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6485871c5a281517"
-					]
+					"value": ["6485871c5a281517"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -3220,9 +3075,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -3237,22 +3090,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e09ab39a3e5cabfc"
-					],
+					"value": ["e09ab39a3e5cabfc"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -3485,12 +3332,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -3511,9 +3354,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c8b9fed6a326081f"
-					],
+					"value": ["c8b9fed6a326081f"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -3551,9 +3392,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					],
+					"value": ["59caf45dc123067b"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -3563,12 +3402,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -3583,21 +3418,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"67f38210917f7734"
-					]
+					"value": ["67f38210917f7734"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -3672,9 +3501,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"049baafb1b02f22e"
-					],
+					"value": ["049baafb1b02f22e"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -3712,9 +3539,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -3723,12 +3548,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -3744,9 +3565,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"5081d7d0f1860032"
-					]
+					"Start": ["5081d7d0f1860032"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -3774,14 +3593,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"c796b280b355cdff"
-					]
+					"Increment": ["c796b280b355cdff"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"c796b280b355cdff"
-					]
+					"Decrement": ["c796b280b355cdff"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -3824,9 +3639,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c47e575272300613"
-					],
+					"value": ["c47e575272300613"],
 					"postInit": true
 				}
 			},
@@ -3924,14 +3737,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"45ba546a7c74b1bd"
-					]
+					"Increment": ["45ba546a7c74b1bd"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"45ba546a7c74b1bd"
-					]
+					"Decrement": ["45ba546a7c74b1bd"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -3953,9 +3762,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4d0dd88063663ef9"
-					],
+					"value": ["4d0dd88063663ef9"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -3997,9 +3804,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -4008,12 +3813,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -4058,9 +3859,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"593f6d2191d866dd"
-					],
+					"value": ["593f6d2191d866dd"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -4070,9 +3869,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -4277,14 +4074,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"6e0041ef995a667c"
-					]
+					"SetTrue": ["6e0041ef995a667c"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"dc2f8b360b153f1d"
-					]
+					"SetTrue": ["dc2f8b360b153f1d"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -4312,9 +4105,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"be0bae4aaa60796a"
-					]
+					"SetVisible": ["be0bae4aaa60796a"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -4364,9 +4155,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c8a77a99814560e1"
-					],
+					"value": ["c8a77a99814560e1"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -4408,9 +4197,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -4419,12 +4206,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -4590,22 +4373,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ed9a6730dcea3f46"
-					],
+					"value": ["ed9a6730dcea3f46"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -4627,9 +4404,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetValue": [
-						"c39136a4a9fce86e"
-					]
+					"SetValue": ["c39136a4a9fce86e"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype"
@@ -4683,9 +4458,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -4820,9 +4593,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"6f4b17e65c9e4568"
-					]
+					"Start": ["6f4b17e65c9e4568"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -5059,12 +4830,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -5214,9 +4981,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					],
+					"value": ["dd89142243a677a8"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -5272,22 +5037,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b9bf5d25f3e6e484"
-					],
+					"value": ["b9bf5d25f3e6e484"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5359,22 +5118,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f6c951d840b55024"
-					],
+					"value": ["f6c951d840b55024"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5561,9 +5314,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -5585,22 +5336,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e978547087ab087f"
-					],
+					"value": ["e978547087ab087f"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5631,9 +5376,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"f6932451fc2582eb"
-					]
+					"Start": ["f6932451fc2582eb"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -5676,22 +5419,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5a76b9a5afab7ef2"
-					],
+					"value": ["5a76b9a5afab7ef2"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5719,14 +5456,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"b99a3d40ca29255f"
-					]
+					"Increment": ["b99a3d40ca29255f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"b99a3d40ca29255f"
-					]
+					"Decrement": ["b99a3d40ca29255f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5754,21 +5487,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8eec69a094d49839"
-					]
+					"value": ["8eec69a094d49839"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5812,22 +5539,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c03e6ac934d7a2bd"
-					],
+					"value": ["c03e6ac934d7a2bd"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -5952,12 +5673,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -5972,22 +5689,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"74fd962126386053"
-					],
+					"value": ["74fd962126386053"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -6140,12 +5851,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -6258,9 +5965,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30db7fba3de8feb6"
-					]
+					"value": ["30db7fba3de8feb6"]
 				}
 			},
 			"factory": "[modules:/zprioritynode.class].pc_entitytype"
@@ -6413,12 +6118,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -6483,9 +6184,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"592d1d8ec595a332"
-					]
+					"SetVisible": ["592d1d8ec595a332"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -6560,9 +6259,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armscrossed.entitytemplate].pc_entitytype"
 		},
@@ -6682,9 +6379,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"OnExitTriggered": [
-						"b2199ae6384232e8"
-					]
+					"OnExitTriggered": ["b2199ae6384232e8"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -6695,9 +6390,7 @@
 			"blueprint": "[modules:/zeventreceiverentity_int32.class].pc_entityblueprint",
 			"events": {
 				"EventReceived": {
-					"SetValue": [
-						"6b14aeafa2386839"
-					]
+					"SetValue": ["6b14aeafa2386839"]
 				}
 			},
 			"factory": "[modules:/zeventreceiverentity_int32.class].pc_entitytype"
@@ -6736,9 +6429,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					],
+					"value": ["dd89142243a677a8"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -6761,9 +6452,7 @@
 				},
 				"m_aEventReceivers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1d462a7b856b8df2"
-					],
+					"value": ["1d462a7b856b8df2"],
 					"postInit": true
 				}
 			},
@@ -6780,22 +6469,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"958bce5688069a2f"
-					],
+					"value": ["958bce5688069a2f"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -6970,22 +6653,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"393e3406d3f924e3"
-					],
+					"value": ["393e3406d3f924e3"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -7024,9 +6701,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					],
+					"value": ["dd89142243a677a8"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -7144,9 +6819,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"47e016f80b098953"
-					]
+					"Start": ["47e016f80b098953"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -7186,9 +6859,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			},
 			"factory": "[modules:/zprioritynode.class].pc_entitytype"
@@ -7204,22 +6875,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b8e5056231fac79d"
-					],
+					"value": ["b8e5056231fac79d"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -7261,14 +6926,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"1e3d8121d9e53140"
-					]
+					"SetTrue": ["1e3d8121d9e53140"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"921ea9a7acfb51ab"
-					]
+					"SetTrue": ["921ea9a7acfb51ab"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -7290,9 +6951,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"158fa1dcb54fab8e"
-					],
+					"value": ["158fa1dcb54fab8e"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -7334,9 +6993,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -7345,12 +7002,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -7367,9 +7020,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"05a2ae381ec15069"
-					]
+					"Start": ["05a2ae381ec15069"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -7395,9 +7046,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -7419,22 +7068,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a579ee825211c1f4"
-					],
+					"value": ["a579ee825211c1f4"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -7484,9 +7127,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1a5fedf60fe9fd56"
-					],
+					"value": ["1a5fedf60fe9fd56"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -7532,9 +7173,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					],
+					"value": ["5ce36dd2544e2c73"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -7544,12 +7183,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -7829,9 +7464,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"1a5fedf60fe9fd56"
-					]
+					"SetVisible": ["1a5fedf60fe9fd56"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -7978,9 +7611,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"c8a77a99814560e1"
-					]
+					"SetVisible": ["c8a77a99814560e1"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -8009,9 +7640,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"08c0f16114b7777e"
-					],
+					"value": ["08c0f16114b7777e"],
 					"postInit": true
 				}
 			},
@@ -8076,9 +7705,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"c798249506ea1e4a"
-					]
+					"SetVisible": ["c798249506ea1e4a"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -8094,22 +7721,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d04b0cfd5569d2f5"
-					],
+					"value": ["d04b0cfd5569d2f5"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -8177,9 +7798,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"65b39a3962daf6fb"
-					],
+					"value": ["65b39a3962daf6fb"],
 					"postInit": true
 				}
 			},
@@ -8311,12 +7930,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -8453,9 +8068,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00E03F07F21AFFFE"
 		},
@@ -8495,9 +8108,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "0027F6E5D5DE6D6D"
 		},
@@ -8572,9 +8183,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d7949398db1a784c"
-					],
+					"value": ["d7949398db1a784c"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -8620,9 +8229,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					],
+					"value": ["5ce36dd2544e2c73"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -8632,12 +8239,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -8761,12 +8364,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -8800,9 +8399,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ecca5aaa3c095fcc"
-					],
+					"value": ["ecca5aaa3c095fcc"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -8840,9 +8437,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -8851,12 +8446,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -8998,9 +8589,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"66ae0321624c4308"
-					],
+					"value": ["66ae0321624c4308"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -9010,9 +8599,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -9138,21 +8725,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b84b05fb87cea94b"
-					]
+					"value": ["b84b05fb87cea94b"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -9194,14 +8775,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"b7fe5048e0804168"
-					]
+					"SetTrue": ["b7fe5048e0804168"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"363d13e04d0a2ec7"
-					]
+					"SetTrue": ["363d13e04d0a2ec7"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -9326,12 +8903,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -9346,21 +8919,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2dd3798bbac844db"
-					]
+					"value": ["2dd3798bbac844db"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -9416,9 +8983,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"67164b3e1a2c1845"
-					]
+					"SetVisible": ["67164b3e1a2c1845"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -9430,9 +8995,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"487a1b9512b172c2"
-					],
+					"value": ["487a1b9512b172c2"],
 					"postInit": true
 				}
 			},
@@ -9617,22 +9180,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6dc030d01ceb2494"
-					],
+					"value": ["6dc030d01ceb2494"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -9710,9 +9267,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"67164b3e1a2c1845"
-					]
+					"value": ["67164b3e1a2c1845"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -9757,9 +9312,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -9768,12 +9321,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -9798,9 +9347,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -9860,9 +9407,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -9911,21 +9456,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"adbe73e8691063bf"
-					]
+					"value": ["adbe73e8691063bf"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -9981,9 +9520,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"104fc53b271863b0"
-					]
+					"SetVisible": ["104fc53b271863b0"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -10068,9 +9605,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"708c02875f515b21"
-					],
+					"value": ["708c02875f515b21"],
 					"postInit": true
 				}
 			},
@@ -10170,9 +9705,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armscrossed.entitytemplate].pc_entitytype"
 		},
@@ -10351,12 +9884,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -10399,21 +9928,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee16f69d02f02901"
-					]
+					"value": ["ee16f69d02f02901"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -10458,9 +9981,7 @@
 				},
 				"m_aEventReceivers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1186946731c88f3f"
-					],
+					"value": ["1186946731c88f3f"],
 					"postInit": true
 				}
 			},
@@ -10543,22 +10064,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bcf856bd065dbd8d"
-					],
+					"value": ["bcf856bd065dbd8d"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -10580,9 +10095,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ce81d7217968bcc1"
-					]
+					"value": ["ce81d7217968bcc1"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -10627,9 +10140,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -10638,12 +10149,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -10809,9 +10316,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6b728586ef874f34"
-					],
+					"value": ["6b728586ef874f34"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -10849,9 +10354,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -10860,12 +10363,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -10937,9 +10436,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "0027F6E5D5DE6D6D"
 		},
@@ -11143,22 +10640,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3464f481734fde96"
-					],
+					"value": ["3464f481734fde96"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -11263,9 +10754,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6485871c5a281517"
-					]
+					"value": ["6485871c5a281517"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -11274,9 +10763,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -11370,9 +10857,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -11393,21 +10878,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d5c09135da82107d"
-					]
+					"value": ["d5c09135da82107d"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -11493,9 +10972,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"487a1b9512b172c2"
-					],
+					"value": ["487a1b9512b172c2"],
 					"postInit": true
 				}
 			},
@@ -11510,9 +10987,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"a4a9ee87014b9b2d"
-					]
+					"refersTo": ["a4a9ee87014b9b2d"]
 				}
 			},
 			"exposedInterfaces": {
@@ -11784,9 +11259,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3d540adb49302972"
-					]
+					"value": ["3d540adb49302972"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -11835,9 +11308,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -11846,12 +11317,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -11876,9 +11343,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -11900,22 +11365,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c8837135a5611722"
-					],
+					"value": ["c8837135a5611722"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -11943,9 +11402,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"e9dd3bdff6ac694f"
-					]
+					"SetVisible": ["e9dd3bdff6ac694f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -11988,22 +11445,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b199dbf1fb49f651"
-					],
+					"value": ["b199dbf1fb49f651"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -12148,21 +11599,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ff0901a812af04e2"
-					]
+					"value": ["ff0901a812af04e2"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -12290,22 +11735,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"738f8230c987a6b5"
-					],
+					"value": ["738f8230c987a6b5"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -12347,14 +11786,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"1db33b0a8f566e5e"
-					]
+					"SetTrue": ["1db33b0a8f566e5e"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"af72996dd3b0c9e6"
-					]
+					"SetTrue": ["af72996dd3b0c9e6"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -12410,9 +11845,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dcac56a961c9d340"
-					]
+					"value": ["dcac56a961c9d340"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -12449,9 +11882,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -12460,12 +11891,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -12480,21 +11907,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b028ab50b025a4cf"
-					]
+					"value": ["b028ab50b025a4cf"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -12548,9 +11969,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -12606,9 +12025,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cce3faec012311ed"
-					],
+					"value": ["cce3faec012311ed"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -12646,9 +12063,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -12657,12 +12072,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -12683,9 +12094,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a48795d35c12d631"
-					],
+					"value": ["a48795d35c12d631"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -12731,9 +12140,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -12742,12 +12149,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -12846,21 +12249,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"19d59fef980e9381"
-					]
+					"value": ["19d59fef980e9381"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -12929,9 +12326,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"4a909859757861b4"
-					]
+					"SetVisible": ["4a909859757861b4"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -12955,9 +12350,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"7f468bc3889735aa"
-					]
+					"Start": ["7f468bc3889735aa"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -13041,9 +12434,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"4093aaf65e1e6a03"
-					]
+					"SetVisible": ["4093aaf65e1e6a03"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13061,9 +12452,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30db7fba3de8feb6"
-					]
+					"value": ["30db7fba3de8feb6"]
 				}
 			},
 			"propertyAliases": {
@@ -13077,9 +12466,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"879a46b2fc4b32d1"
-					]
+					"refersTo": ["879a46b2fc4b32d1"]
 				}
 			},
 			"exposedInterfaces": {
@@ -13126,21 +12513,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"33f326586c17eee1"
-					]
+					"value": ["33f326586c17eee1"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13201,9 +12582,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"3d540adb49302972"
-					]
+					"SetVisible": ["3d540adb49302972"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13215,9 +12594,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c85694cd7d9bb615"
-					],
+					"value": ["c85694cd7d9bb615"],
 					"postInit": true
 				}
 			},
@@ -13278,22 +12655,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"52ddc7c0db46e005"
-					],
+					"value": ["52ddc7c0db46e005"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13371,9 +12742,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -13447,9 +12816,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00E90CEEE18DF30A"
 		},
@@ -13476,9 +12843,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"8889763ba3623e6c"
-					]
+					"SetVisible": ["8889763ba3623e6c"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13550,21 +12915,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"63458a00b8affad5"
-					]
+					"value": ["63458a00b8affad5"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13580,21 +12939,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7067142d906b6d4f"
-					]
+					"value": ["7067142d906b6d4f"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13610,11 +12963,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6a43073dd89a6ff5",
-						"9e3c4acb286b600f",
-						"547a3ebfe0d0e9de"
-					],
+					"value": ["6a43073dd89a6ff5", "9e3c4acb286b600f", "547a3ebfe0d0e9de"],
 					"postInit": true
 				}
 			},
@@ -13699,9 +13048,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"cb5b45bbe25f02ec"
-					]
+					"SetVisible": ["cb5b45bbe25f02ec"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -13853,14 +13200,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"789c6758dd3f8169"
-					]
+					"SetTrue": ["789c6758dd3f8169"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"4f1f4dffe4daffec"
-					]
+					"SetTrue": ["4f1f4dffe4daffec"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -13872,9 +13215,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cc9d59c127fa6e3a"
-					],
+					"value": ["cc9d59c127fa6e3a"],
 					"postInit": true
 				}
 			},
@@ -13980,9 +13321,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"c6984749299c06b5"
-					]
+					"Start": ["c6984749299c06b5"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -14301,9 +13640,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"de69653c545d83ae"
-					]
+					"Start": ["de69653c545d83ae"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -14325,9 +13662,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"66920396a18a1e30"
-					],
+					"value": ["66920396a18a1e30"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -14373,9 +13708,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -14384,12 +13717,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -14443,9 +13772,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"dcac56a961c9d340"
-					]
+					"SetVisible": ["dcac56a961c9d340"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -14628,22 +13955,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7f9c3d453f8e2ac0"
-					],
+					"value": ["7f9c3d453f8e2ac0"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -14671,9 +13992,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"a74cd47b502eba6a"
-					]
+					"SetVisible": ["a74cd47b502eba6a"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -15049,12 +14368,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -15080,9 +14395,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"a48795d35c12d631"
-					]
+					"SetVisible": ["a48795d35c12d631"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -15207,12 +14520,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -15578,9 +14887,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"66ae0321624c4308"
-					],
+					"value": ["66ae0321624c4308"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -15590,9 +14897,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -15664,22 +14969,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5415954ddcad919f"
-					],
+					"value": ["5415954ddcad919f"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -15733,9 +15032,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -15894,12 +15191,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -15926,9 +15219,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"a0dde567fd0c6286"
-					]
+					"SetVisible": ["a0dde567fd0c6286"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -16109,9 +15400,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"40fee2458883c4ed"
-					]
+					"value": ["40fee2458883c4ed"]
 				}
 			},
 			"factory": "[modules:/zprioritynode.class].pc_entitytype"
@@ -16138,9 +15427,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"40e5b6ca3be88e36"
-					]
+					"SetVisible": ["40e5b6ca3be88e36"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -16178,9 +15465,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -16350,9 +15635,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -16381,9 +15664,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7eab3e8284b7ee4d"
-					]
+					"value": ["7eab3e8284b7ee4d"]
 				}
 			},
 			"propertyAliases": {
@@ -16461,9 +15742,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"734d9f2aeef894ca"
-					]
+					"value": ["734d9f2aeef894ca"]
 				}
 			},
 			"propertyAliases": {
@@ -16487,22 +15766,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c50a884da867c483"
-					],
+					"value": ["c50a884da867c483"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -16583,9 +15856,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					],
+					"value": ["7d5442b63cac8721"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -16603,9 +15874,7 @@
 			"properties": {
 				"m_aEventReceivers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7eb8eed6c68bbe5d"
-					]
+					"value": ["7eb8eed6c68bbe5d"]
 				},
 				"m_rChannelToken": {
 					"type": "SEntityTemplateReference",
@@ -16744,9 +16013,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e97589e9d8604776"
-					],
+					"value": ["e97589e9d8604776"],
 					"postInit": true
 				}
 			},
@@ -16855,21 +16122,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e031cf2e289ae9de"
-					]
+					"value": ["e031cf2e289ae9de"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -16924,9 +16185,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"4d0dd88063663ef9"
-					]
+					"SetVisible": ["4d0dd88063663ef9"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -16942,21 +16201,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5987a74f13f61d99"
-					]
+					"value": ["5987a74f13f61d99"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -17091,9 +16344,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd8534706b5a56f2"
-					],
+					"value": ["dd8534706b5a56f2"],
 					"postInit": true
 				}
 			},
@@ -17174,9 +16425,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8ae520f28adabc24"
-					],
+					"value": ["8ae520f28adabc24"],
 					"postInit": true
 				}
 			},
@@ -17215,9 +16464,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -17249,9 +16496,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"af070eadd634d4dc"
-					]
+					"SetVisible": ["af070eadd634d4dc"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -17273,9 +16518,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cb5b45bbe25f02ec"
-					]
+					"value": ["cb5b45bbe25f02ec"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -17312,9 +16555,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -17323,12 +16564,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -17399,21 +16636,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a98109ea58d4421c"
-					]
+					"value": ["a98109ea58d4421c"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -17487,9 +16718,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"593f6d2191d866dd"
-					]
+					"value": ["593f6d2191d866dd"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -17498,9 +16727,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -17521,9 +16748,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a74cd47b502eba6a"
-					]
+					"value": ["a74cd47b502eba6a"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -17564,9 +16789,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -17575,12 +16798,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -17638,9 +16857,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e9dd3bdff6ac694f"
-					],
+					"value": ["e9dd3bdff6ac694f"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -17678,9 +16895,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -17689,12 +16904,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -17858,12 +17069,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -17918,9 +17125,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"3fb88d38b517162e"
-					]
+					"SetVisible": ["3fb88d38b517162e"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -18022,9 +17227,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8f4236256fd963e7"
-					],
+					"value": ["8f4236256fd963e7"],
 					"postInit": true
 				}
 			},
@@ -18102,14 +17305,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"a49010c14d9bacc1"
-					]
+					"SetTrue": ["a49010c14d9bacc1"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"ecd90ab9b822b421"
-					]
+					"SetTrue": ["ecd90ab9b822b421"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -18185,9 +17384,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4624eaebd014f6c9"
-					]
+					"value": ["4624eaebd014f6c9"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -18228,9 +17425,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -18239,12 +17434,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -18255,9 +17446,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30db7fba3de8feb6"
-					]
+					"value": ["30db7fba3de8feb6"]
 				}
 			},
 			"factory": "[modules:/zprioritynode.class].pc_entitytype"
@@ -18409,12 +17598,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -18481,9 +17666,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00D2433060B1CB4B"
 		},
@@ -18505,9 +17688,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2ef7272858b94c85"
-					]
+					"value": ["2ef7272858b94c85"]
 				}
 			},
 			"propertyAliases": {
@@ -18618,22 +17799,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b8d3787b7b5349b5"
-					],
+					"value": ["b8d3787b7b5349b5"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -18699,9 +17874,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c1000349da7d3a2f"
-					],
+					"value": ["c1000349da7d3a2f"],
 					"postInit": true
 				}
 			},
@@ -18724,9 +17897,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a0dde567fd0c6286"
-					],
+					"value": ["a0dde567fd0c6286"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -18764,9 +17935,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -18775,12 +17944,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -18795,22 +17960,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ef6facc2aab6572f"
-					],
+					"value": ["ef6facc2aab6572f"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -18930,9 +18089,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"879a46b2fc4b32d1"
-					]
+					"value": ["879a46b2fc4b32d1"]
 				}
 			},
 			"propertyAliases": {
@@ -18946,9 +18103,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"4b83ee6fe615cbd6"
-					]
+					"refersTo": ["4b83ee6fe615cbd6"]
 				}
 			},
 			"exposedInterfaces": {
@@ -19211,12 +18366,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -19353,9 +18504,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"958d3e9ed6a99ad8"
-					],
+					"value": ["958d3e9ed6a99ad8"],
 					"postInit": true
 				}
 			},
@@ -19372,21 +18521,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7a7a3e844adcce83"
-					]
+					"value": ["7a7a3e844adcce83"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -19402,21 +18545,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5e33b78679552c7d"
-					]
+					"value": ["5e33b78679552c7d"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -19451,9 +18588,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"086880a934dc3c9b"
-					]
+					"value": ["086880a934dc3c9b"]
 				}
 			},
 			"propertyAliases": {
@@ -19593,9 +18728,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c3426b34b6bb9bce"
-					]
+					"value": ["c3426b34b6bb9bce"]
 				}
 			},
 			"factory": "[modules:/zprioritynode.class].pc_entitytype"
@@ -19644,9 +18777,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"be0bae4aaa60796a"
-					]
+					"value": ["be0bae4aaa60796a"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -19687,9 +18818,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -19698,12 +18827,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -19827,14 +18952,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"45ba546a7c74b1bd"
-					]
+					"Increment": ["45ba546a7c74b1bd"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"45ba546a7c74b1bd"
-					]
+					"Decrement": ["45ba546a7c74b1bd"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -19856,9 +18977,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"104fc53b271863b0"
-					],
+					"value": ["104fc53b271863b0"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -19904,9 +19023,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -19915,12 +19032,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -19935,21 +19048,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c36f983f7b4e43b1"
-					]
+					"value": ["c36f983f7b4e43b1"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -20128,12 +19235,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -20213,9 +19316,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a8d1ac089bf5f2be"
-					]
+					"value": ["a8d1ac089bf5f2be"]
 				}
 			},
 			"propertyAliases": {
@@ -20245,9 +19346,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c798249506ea1e4a"
-					]
+					"value": ["c798249506ea1e4a"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -20284,9 +19383,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -20295,12 +19392,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -20345,9 +19438,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"66ae0321624c4308"
-					]
+					"value": ["66ae0321624c4308"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -20356,9 +19447,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -20425,9 +19514,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00E03F07F21AFFFE"
 		},
@@ -20537,9 +19624,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00E03F07F21AFFFE"
 		},
@@ -20616,9 +19701,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30db7fba3de8feb6"
-					]
+					"value": ["30db7fba3de8feb6"]
 				}
 			},
 			"propertyAliases": {
@@ -20632,9 +19715,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"487a1b9512b172c2"
-					]
+					"refersTo": ["487a1b9512b172c2"]
 				}
 			},
 			"exposedInterfaces": {
@@ -20710,12 +19791,8 @@
 				"ZValueInt": "cef788ae331906cb"
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001A8C2F1645FF10"
 		},
@@ -20731,9 +19808,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"8e2b7ce5fb5cf5fc"
-					]
+					"Start": ["8e2b7ce5fb5cf5fc"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -20749,21 +19824,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b651dd685767a83d"
-					]
+					"value": ["b651dd685767a83d"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -20817,14 +19886,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"c796b280b355cdff"
-					]
+					"Increment": ["c796b280b355cdff"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"c796b280b355cdff"
-					]
+					"Decrement": ["c796b280b355cdff"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -20851,14 +19916,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"c796b280b355cdff"
-					]
+					"Increment": ["c796b280b355cdff"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"c796b280b355cdff"
-					]
+					"Decrement": ["c796b280b355cdff"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -20870,33 +19931,23 @@
 			"exposedEntities": {
 				"Routing 1": {
 					"isArray": false,
-					"refersTo": [
-						"c1caf8add873552d"
-					]
+					"refersTo": ["c1caf8add873552d"]
 				},
 				"Routing 2": {
 					"isArray": false,
-					"refersTo": [
-						"f7749091750a887f"
-					]
+					"refersTo": ["f7749091750a887f"]
 				},
 				"Routing 3": {
 					"isArray": false,
-					"refersTo": [
-						"c69d4175c3c9c1de"
-					]
+					"refersTo": ["c69d4175c3c9c1de"]
 				},
 				"Routing 4": {
 					"isArray": false,
-					"refersTo": [
-						"9fab15b3a0702aa8"
-					]
+					"refersTo": ["9fab15b3a0702aa8"]
 				},
 				"Routing 5": {
 					"isArray": false,
-					"refersTo": [
-						"5994d7734675bc5a"
-					]
+					"refersTo": ["5994d7734675bc5a"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -20915,9 +19966,7 @@
 				},
 				"567270498": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"639dcac3e722bcf4"
-					]
+					"value": ["639dcac3e722bcf4"]
 				},
 				"602349646": {
 					"type": "ZGuid",
@@ -21184,9 +20233,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"442f6c498aaae73d"
-					]
+					"Start": ["442f6c498aaae73d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -21282,9 +20329,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4afe2b23c334688b"
-					]
+					"value": ["4afe2b23c334688b"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -21329,9 +20374,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -21340,12 +20383,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -21356,9 +20395,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30db7fba3de8feb6"
-					]
+					"value": ["30db7fba3de8feb6"]
 				}
 			},
 			"propertyAliases": {
@@ -21372,9 +20409,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"c47e575272300613"
-					]
+					"refersTo": ["c47e575272300613"]
 				}
 			},
 			"exposedInterfaces": {
@@ -21480,9 +20515,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"592d1d8ec595a332"
-					]
+					"value": ["592d1d8ec595a332"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -21519,9 +20552,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -21530,12 +20561,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -21611,9 +20638,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"552f698917d6e9d9"
-					]
+					"Start": ["552f698917d6e9d9"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -21739,99 +20764,67 @@
 			"exposedEntities": {
 				"Lookout 1": {
 					"isArray": false,
-					"refersTo": [
-						"58460b90effc46d3"
-					]
+					"refersTo": ["58460b90effc46d3"]
 				},
 				"Act 1 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"f306238dfc177105"
-					]
+					"refersTo": ["f306238dfc177105"]
 				},
 				"Act 2 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"52366abcaca91d61"
-					]
+					"refersTo": ["52366abcaca91d61"]
 				},
 				"Act 3 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"48af0597d01ee839"
-					]
+					"refersTo": ["48af0597d01ee839"]
 				},
 				"Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"13dd6f00486884f8"
-					]
+					"refersTo": ["13dd6f00486884f8"]
 				},
 				"Act 1 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"a783974a821dc289"
-					]
+					"refersTo": ["a783974a821dc289"]
 				},
 				"Act 2 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"56cb9ceeabed1451"
-					]
+					"refersTo": ["56cb9ceeabed1451"]
 				},
 				"Act 3 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"a014f27579a1852d"
-					]
+					"refersTo": ["a014f27579a1852d"]
 				},
 				"Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"51df5000839aa6b5"
-					]
+					"refersTo": ["51df5000839aa6b5"]
 				},
 				"Act 1 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"723cf399e7cbc125"
-					]
+					"refersTo": ["723cf399e7cbc125"]
 				},
 				"Act 2 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"e38c48f35cf78b84"
-					]
+					"refersTo": ["e38c48f35cf78b84"]
 				},
 				"Act 3 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"827bdae17cb4f99d"
-					]
+					"refersTo": ["827bdae17cb4f99d"]
 				},
 				"Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"415aa08f18c84831"
-					]
+					"refersTo": ["415aa08f18c84831"]
 				},
 				"Act 1 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"7773f9e1d1173eef"
-					]
+					"refersTo": ["7773f9e1d1173eef"]
 				},
 				"Act 2 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"bdf7bfba14c5d2d1"
-					]
+					"refersTo": ["bdf7bfba14c5d2d1"]
 				},
 				"Act 3 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"d95a36403c9beb32"
-					]
+					"refersTo": ["d95a36403c9beb32"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -21884,9 +20877,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					]
+					"value": ["7d5442b63cac8721"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -21907,21 +20898,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"51ac5561d7ecbe34"
-					]
+					"value": ["51ac5561d7ecbe34"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -21937,21 +20922,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9be5c27c1398194c"
-					]
+					"value": ["9be5c27c1398194c"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -21994,21 +20973,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a6dd0408d40942fe"
-					]
+					"value": ["a6dd0408d40942fe"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -22061,9 +21034,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7d5442b63cac8721"
-					]
+					"value": ["7d5442b63cac8721"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -22109,9 +21080,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00D2433060B1CB4B"
 		},
@@ -22235,12 +21204,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -22267,21 +21232,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f9a1d823ad4b43cb"
-					]
+					"value": ["f9a1d823ad4b43cb"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -22298,9 +21257,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"c827086b5b28a336"
-					]
+					"Start": ["c827086b5b28a336"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -22371,9 +21328,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"65af8c785cee07ce"
-					]
+					"Start": ["65af8c785cee07ce"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -22742,9 +21697,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"b17b688bd1b242e9"
-					]
+					"Start": ["b17b688bd1b242e9"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -22805,21 +21758,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"89d23422256ebded"
-					]
+					"value": ["89d23422256ebded"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -22868,9 +21815,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"84bf8948b0721cb4"
-					],
+					"value": ["84bf8948b0721cb4"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -22908,9 +21853,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -22919,12 +21862,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -22951,14 +21890,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"b99a3d40ca29255f"
-					]
+					"Increment": ["b99a3d40ca29255f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"b99a3d40ca29255f"
-					]
+					"Decrement": ["b99a3d40ca29255f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -23156,9 +22091,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"593f6d2191d866dd"
-					]
+					"value": ["593f6d2191d866dd"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -23167,9 +22100,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -23277,21 +22208,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"900af4d48e302e16"
-					]
+					"value": ["900af4d48e302e16"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"04934c28146cab65"
-					]
+					"Increment": ["04934c28146cab65"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"04934c28146cab65"
-					]
+					"Decrement": ["04934c28146cab65"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -23456,9 +22381,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4a909859757861b4"
-					],
+					"value": ["4a909859757861b4"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -23496,9 +22419,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -23507,12 +22428,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -23523,9 +22440,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8cd0e669da12b1e7"
-					],
+					"value": ["8cd0e669da12b1e7"],
 					"postInit": true
 				}
 			},
@@ -23696,21 +22611,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3ad503d5e329e6e7"
-					]
+					"value": ["3ad503d5e329e6e7"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -23732,9 +22641,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1b5d6987532d8207"
-					],
+					"value": ["1b5d6987532d8207"],
 					"postInit": true
 				},
 				"1720099492": {
@@ -23772,9 +22679,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"59caf45dc123067b"
-					]
+					"value": ["59caf45dc123067b"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -23783,12 +22688,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -23809,9 +22710,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4093aaf65e1e6a03"
-					]
+					"value": ["4093aaf65e1e6a03"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -23856,9 +22755,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -23867,12 +22764,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -23916,9 +22809,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"52b15dc4ab1048f7"
-					]
+					"Start": ["52b15dc4ab1048f7"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -24042,22 +22933,16 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"221efb9e47cf9b12"
-					],
+					"value": ["221efb9e47cf9b12"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -24137,9 +23022,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -24160,11 +23043,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d682400903164803",
-						"75f42f437709bf1e",
-						"86186930ec344136"
-					]
+					"value": ["d682400903164803", "75f42f437709bf1e", "86186930ec344136"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -24191,9 +23070,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"049baafb1b02f22e"
-					]
+					"SetVisible": ["049baafb1b02f22e"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -24220,9 +23097,7 @@
 			"blueprint": "[modules:/zeventreceiverentity_int32.class].pc_entityblueprint",
 			"events": {
 				"EventReceived": {
-					"SetValue": [
-						"5d559ec57c9de6db"
-					]
+					"SetValue": ["5d559ec57c9de6db"]
 				}
 			},
 			"factory": "[modules:/zeventreceiverentity_int32.class].pc_entitytype"
@@ -24233,9 +23108,7 @@
 			"blueprint": "[modules:/zeventreceiverentity_int32.class].pc_entityblueprint",
 			"events": {
 				"EventReceived": {
-					"SetValue": [
-						"26d7814b31105c10"
-					]
+					"SetValue": ["26d7814b31105c10"]
 				}
 			},
 			"factory": "[modules:/zeventreceiverentity_int32.class].pc_entitytype"
@@ -24335,9 +23208,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2f8e656168e87294"
-					]
+					"value": ["2f8e656168e87294"]
 				}
 			},
 			"propertyAliases": {
@@ -24414,14 +23285,10 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"SetTrue": [
-						"92d7f3902c687aa4"
-					]
+					"SetTrue": ["92d7f3902c687aa4"]
 				},
 				"OnStart": {
-					"SetTrue": [
-						"8bfdb95238264d01"
-					]
+					"SetTrue": ["8bfdb95238264d01"]
 				}
 			},
 			"factory": "00251CC86224019D"
@@ -24488,9 +23355,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_phone_text_pace.entitytemplate].pc_entitytype"
 		},
@@ -24532,21 +23397,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3d68c39b7686dbe4"
-					]
+					"value": ["3d68c39b7686dbe4"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"ff7ac33af8dcbeda"
-					]
+					"Increment": ["ff7ac33af8dcbeda"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"ff7ac33af8dcbeda"
-					]
+					"Decrement": ["ff7ac33af8dcbeda"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -24627,9 +23486,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"c8b9fed6a326081f"
-					]
+					"SetVisible": ["c8b9fed6a326081f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -24671,9 +23528,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c47e575272300613"
-					]
+					"value": ["c47e575272300613"]
 				}
 			},
 			"propertyAliases": {
@@ -24687,9 +23542,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"3f8fcecbff97bca4"
-					]
+					"refersTo": ["3f8fcecbff97bca4"]
 				}
 			},
 			"exposedInterfaces": {
@@ -24719,9 +23572,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"1b5d6987532d8207"
-					]
+					"SetVisible": ["1b5d6987532d8207"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -24757,9 +23608,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_a.template?/food_plate_d_00.entitytemplate].pc_entitytype"
 		},
@@ -24856,9 +23705,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"64c5ee1578f71b41"
-					]
+					"Start": ["64c5ee1578f71b41"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -24904,9 +23751,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6485871c5a281517"
-					]
+					"value": ["6485871c5a281517"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -24915,9 +23760,7 @@
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "00EAA0BB0A29425D"
 		},
@@ -24942,9 +23785,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"40fee2458883c4ed"
-					]
+					"refersTo": ["40fee2458883c4ed"]
 				}
 			},
 			"exposedInterfaces": {
@@ -24998,9 +23839,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"40fee2458883c4ed"
-					]
+					"value": ["40fee2458883c4ed"]
 				}
 			},
 			"propertyAliases": {
@@ -25264,9 +24103,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"c3426b34b6bb9bce"
-					]
+					"refersTo": ["c3426b34b6bb9bce"]
 				}
 			},
 			"exposedInterfaces": {
@@ -25394,12 +24231,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -25414,21 +24247,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0010109c5cac4e84"
-					]
+					"value": ["0010109c5cac4e84"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -25467,9 +24294,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"6b728586ef874f34"
-					]
+					"SetVisible": ["6b728586ef874f34"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -25536,9 +24361,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1115f76a5db872c7"
-					],
+					"value": ["1115f76a5db872c7"],
 					"postInit": true
 				}
 			},
@@ -25676,9 +24499,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"f628cbc1e6af17ca"
-					]
+					"SetVisible": ["f628cbc1e6af17ca"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -25807,9 +24628,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetValue": [
-						"4ae85c3920d81c9c"
-					]
+					"SetValue": ["4ae85c3920d81c9c"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype"
@@ -25825,21 +24644,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"326c3016a79a4236"
-					]
+					"value": ["326c3016a79a4236"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -25920,9 +24733,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"158fa1dcb54fab8e"
-					]
+					"SetVisible": ["158fa1dcb54fab8e"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -25939,9 +24750,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"3d7e0bbfb4a6c5b7"
-					]
+					"Start": ["3d7e0bbfb4a6c5b7"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -25979,12 +24788,8 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"InsideHotMission": [
-						"2b64b7ec21f75a40"
-					],
-					"TransmitEvent": [
-						"b8f1553c229d69cb"
-					]
+					"InsideHotMission": ["2b64b7ec21f75a40"],
+					"TransmitEvent": ["b8f1553c229d69cb"]
 				}
 			},
 			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype"
@@ -26000,11 +24805,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"33a76b0bb3b39c94",
-						"102bcb02d24015a0",
-						"5ca605c1d2dea8a8"
-					]
+					"value": ["33a76b0bb3b39c94", "102bcb02d24015a0", "5ca605c1d2dea8a8"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -26104,21 +24905,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"28ce487240fe3bbd"
-					]
+					"value": ["28ce487240fe3bbd"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"0cb0dd9d0113fe63"
-					]
+					"Increment": ["0cb0dd9d0113fe63"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"0cb0dd9d0113fe63"
-					]
+					"Decrement": ["0cb0dd9d0113fe63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -26134,21 +24929,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b1c01d504c23b46e"
-					]
+					"value": ["b1c01d504c23b46e"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"dfb8c98c0472550d"
-					]
+					"Increment": ["dfb8c98c0472550d"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"dfb8c98c0472550d"
-					]
+					"Decrement": ["dfb8c98c0472550d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -26287,9 +25076,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"ce81d7217968bcc1"
-					]
+					"SetVisible": ["ce81d7217968bcc1"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -26311,9 +25098,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f628cbc1e6af17ca"
-					]
+					"value": ["f628cbc1e6af17ca"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -26358,9 +25143,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -26369,12 +25152,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -26510,9 +25289,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8889763ba3623e6c"
-					]
+					"value": ["8889763ba3623e6c"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -26553,9 +25330,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c7d0b2a042f7b749"
-					]
+					"value": ["c7d0b2a042f7b749"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -26564,12 +25339,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -26643,9 +25414,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"79631be7290fab63"
-					]
+					"Start": ["79631be7290fab63"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
@@ -26836,12 +25605,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -26939,99 +25704,67 @@
 			"exposedEntities": {
 				"Lookout 1": {
 					"isArray": false,
-					"refersTo": [
-						"318017e8135925e8"
-					]
+					"refersTo": ["318017e8135925e8"]
 				},
 				"Act 1 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"6121fcf9e49de565"
-					]
+					"refersTo": ["6121fcf9e49de565"]
 				},
 				"Act 2 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"b3aa3436010659e6"
-					]
+					"refersTo": ["b3aa3436010659e6"]
 				},
 				"Act 3 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"65becd22b5db666c"
-					]
+					"refersTo": ["65becd22b5db666c"]
 				},
 				"Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"99da621c0a8c929d"
-					]
+					"refersTo": ["99da621c0a8c929d"]
 				},
 				"Act 1 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"2f2c0de555f49c57"
-					]
+					"refersTo": ["2f2c0de555f49c57"]
 				},
 				"Act 2 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"6b42e054a402f931"
-					]
+					"refersTo": ["6b42e054a402f931"]
 				},
 				"Act 3 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"a7fc5c14bfd60f82"
-					]
+					"refersTo": ["a7fc5c14bfd60f82"]
 				},
 				"Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"85899dcb0629c69c"
-					]
+					"refersTo": ["85899dcb0629c69c"]
 				},
 				"Act 1 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"025b3145dc0b51f3"
-					]
+					"refersTo": ["025b3145dc0b51f3"]
 				},
 				"Act 2 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"4bd257bb787605be"
-					]
+					"refersTo": ["4bd257bb787605be"]
 				},
 				"Act 3 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"97128e7ec5e7f0a6"
-					]
+					"refersTo": ["97128e7ec5e7f0a6"]
 				},
 				"Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"13912530a0c36a98"
-					]
+					"refersTo": ["13912530a0c36a98"]
 				},
 				"Act 1 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"a6e32c778fcddb6f"
-					]
+					"refersTo": ["a6e32c778fcddb6f"]
 				},
 				"Act 2 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"17d6fc4d9c588f3a"
-					]
+					"refersTo": ["17d6fc4d9c588f3a"]
 				},
 				"Act 3 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"c624ed15d59b24f4"
-					]
+					"refersTo": ["c624ed15d59b24f4"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -27047,21 +25780,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"13a3c2dae9d6114b"
-					]
+					"value": ["13a3c2dae9d6114b"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -27139,21 +25866,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5d4be6dd8eab9c54"
-					]
+					"value": ["5d4be6dd8eab9c54"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"92e592425b215462"
-					]
+					"Increment": ["92e592425b215462"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"92e592425b215462"
-					]
+					"Decrement": ["92e592425b215462"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -27169,21 +25890,15 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"003d95daf4a2e48f"
-					]
+					"value": ["003d95daf4a2e48f"]
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"31fb517daa19522f"
-					]
+					"Increment": ["31fb517daa19522f"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"31fb517daa19522f"
-					]
+					"Decrement": ["31fb517daa19522f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -27390,99 +26105,67 @@
 			"exposedEntities": {
 				"Lookout 1": {
 					"isArray": false,
-					"refersTo": [
-						"43856efb31e1bc62"
-					]
+					"refersTo": ["43856efb31e1bc62"]
 				},
 				"Act 1 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"3355476d3ce2a18e"
-					]
+					"refersTo": ["3355476d3ce2a18e"]
 				},
 				"Act 2 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"408aea09a3d99de6"
-					]
+					"refersTo": ["408aea09a3d99de6"]
 				},
 				"Act 3 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"e42777ebeecf6927"
-					]
+					"refersTo": ["e42777ebeecf6927"]
 				},
 				"Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"2526fc36d1c44694"
-					]
+					"refersTo": ["2526fc36d1c44694"]
 				},
 				"Act 1 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"9859d3170cefc64f"
-					]
+					"refersTo": ["9859d3170cefc64f"]
 				},
 				"Act 2 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"f64925d1f4c121c0"
-					]
+					"refersTo": ["f64925d1f4c121c0"]
 				},
 				"Act 3 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"90a8787060b17433"
-					]
+					"refersTo": ["90a8787060b17433"]
 				},
 				"Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"fbc2c0c11b3bb1b4"
-					]
+					"refersTo": ["fbc2c0c11b3bb1b4"]
 				},
 				"Act 1 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"3179566fa3ddfd20"
-					]
+					"refersTo": ["3179566fa3ddfd20"]
 				},
 				"Act 2 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"f753e9898e4f3abc"
-					]
+					"refersTo": ["f753e9898e4f3abc"]
 				},
 				"Act 3 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"d81785e5fdd2c242"
-					]
+					"refersTo": ["d81785e5fdd2c242"]
 				},
 				"Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"44a03722daef03c6"
-					]
+					"refersTo": ["44a03722daef03c6"]
 				},
 				"Act 1 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"b88e8ef020c550ff"
-					]
+					"refersTo": ["b88e8ef020c550ff"]
 				},
 				"Act 2 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"0c9c0b0f35bff448"
-					]
+					"refersTo": ["0c9c0b0f35bff448"]
 				},
 				"Act 3 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"f281fcc56a40e433"
-					]
+					"refersTo": ["f281fcc56a40e433"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -27508,11 +26191,7 @@
 				},
 				"m_aAvailableLoopPoints": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e1ca4ce572c9f131",
-						"4a1cabe50e73cf1b",
-						"80b7696baa004fac"
-					]
+					"value": ["e1ca4ce572c9f131", "4a1cabe50e73cf1b", "80b7696baa004fac"]
 				},
 				"m_rMaxLoopPoints": {
 					"type": "SEntityTemplateReference",
@@ -27564,14 +26243,10 @@
 			},
 			"events": {
 				"OnTargetChanged": {
-					"TransmitEvent": [
-						"19c9e60c1c4376b8"
-					]
+					"TransmitEvent": ["19c9e60c1c4376b8"]
 				},
 				"disableTarget": {
-					"disableActors": [
-						"e2307fd832d1b239"
-					]
+					"disableActors": ["e2307fd832d1b239"]
 				}
 			},
 			"factory": "0091F29AE3C1069E"
@@ -27598,14 +26273,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Increment": [
-						"45ba546a7c74b1bd"
-					]
+					"Increment": ["45ba546a7c74b1bd"]
 				},
 				"OnFalse": {
-					"Decrement": [
-						"45ba546a7c74b1bd"
-					]
+					"Decrement": ["45ba546a7c74b1bd"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -27635,9 +26306,7 @@
 			"properties": {
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c3426b34b6bb9bce"
-					]
+					"value": ["c3426b34b6bb9bce"]
 				}
 			},
 			"propertyAliases": {
@@ -27651,9 +26320,7 @@
 			"exposedEntities": {
 				"PriorityNode": {
 					"isArray": false,
-					"refersTo": [
-						"4382dc887e212ca2"
-					]
+					"refersTo": ["4382dc887e212ca2"]
 				}
 			},
 			"exposedInterfaces": {
@@ -27894,99 +26561,67 @@
 			"exposedEntities": {
 				"Lookout 1": {
 					"isArray": false,
-					"refersTo": [
-						"ee6c1c05472ad72e"
-					]
+					"refersTo": ["ee6c1c05472ad72e"]
 				},
 				"Act 1 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"d51ca33bc74d3f4e"
-					]
+					"refersTo": ["d51ca33bc74d3f4e"]
 				},
 				"Act 2 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"cfbf691b37fa8a16"
-					]
+					"refersTo": ["cfbf691b37fa8a16"]
 				},
 				"Act 3 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"5afdeb3f1d5d0265"
-					]
+					"refersTo": ["5afdeb3f1d5d0265"]
 				},
 				"Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"2a3fba2a6bdc4e38"
-					]
+					"refersTo": ["2a3fba2a6bdc4e38"]
 				},
 				"Act 1 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"701841f947c468f3"
-					]
+					"refersTo": ["701841f947c468f3"]
 				},
 				"Act 2 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"34070b3c4ff9c338"
-					]
+					"refersTo": ["34070b3c4ff9c338"]
 				},
 				"Act 3 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"f36c005365ab4376"
-					]
+					"refersTo": ["f36c005365ab4376"]
 				},
 				"Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"960b84dd322f4e43"
-					]
+					"refersTo": ["960b84dd322f4e43"]
 				},
 				"Act 1 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"aa1d89ceb668d4ea"
-					]
+					"refersTo": ["aa1d89ceb668d4ea"]
 				},
 				"Act 2 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"4037aa71d0f2d95e"
-					]
+					"refersTo": ["4037aa71d0f2d95e"]
 				},
 				"Act 3 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"abc57823abcfd514"
-					]
+					"refersTo": ["abc57823abcfd514"]
 				},
 				"Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"f1976c3341a31563"
-					]
+					"refersTo": ["f1976c3341a31563"]
 				},
 				"Act 1 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"889d2957165abc57"
-					]
+					"refersTo": ["889d2957165abc57"]
 				},
 				"Act 2 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"d2cc650fc508fa9d"
-					]
+					"refersTo": ["d2cc650fc508fa9d"]
 				},
 				"Act 3 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"8e5ce2ce36b87176"
-					]
+					"refersTo": ["8e5ce2ce36b87176"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -28202,9 +26837,7 @@
 			"blueprint": "[modules:/zeventreceiverentity_int32.class].pc_entityblueprint",
 			"events": {
 				"EventReceived": {
-					"SetValue": [
-						"3d876d83a9e3de37"
-					]
+					"SetValue": ["3d876d83a9e3de37"]
 				}
 			},
 			"factory": "[modules:/zeventreceiverentity_int32.class].pc_entitytype"
@@ -28285,9 +26918,7 @@
 			},
 			"events": {
 				"OnValue": {
-					"SetVisible": [
-						"4624eaebd014f6c9"
-					]
+					"SetVisible": ["4624eaebd014f6c9"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype"
@@ -28378,9 +27009,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"dd89142243a677a8"
-					]
+					"value": ["dd89142243a677a8"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -28675,12 +27304,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -28778,99 +27403,67 @@
 			"exposedEntities": {
 				"Lookout 1": {
 					"isArray": false,
-					"refersTo": [
-						"59378a9e6be27588"
-					]
+					"refersTo": ["59378a9e6be27588"]
 				},
 				"Act 1 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"b390cf09a0d6305b"
-					]
+					"refersTo": ["b390cf09a0d6305b"]
 				},
 				"Act 2 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"5a59c07b341dd43a"
-					]
+					"refersTo": ["5a59c07b341dd43a"]
 				},
 				"Act 3 Gen 1": {
 					"isArray": false,
-					"refersTo": [
-						"409bb21c1404e087"
-					]
+					"refersTo": ["409bb21c1404e087"]
 				},
 				"Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"3d23ad2d8fc2d41d"
-					]
+					"refersTo": ["3d23ad2d8fc2d41d"]
 				},
 				"Act 1 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"b97036ebb3ef0972"
-					]
+					"refersTo": ["b97036ebb3ef0972"]
 				},
 				"Act 2 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"d8cd7729a8d382d7"
-					]
+					"refersTo": ["d8cd7729a8d382d7"]
 				},
 				"Act 3 Lookout 2": {
 					"isArray": false,
-					"refersTo": [
-						"266f30c594394551"
-					]
+					"refersTo": ["266f30c594394551"]
 				},
 				"Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"43204c9526cb6b42"
-					]
+					"refersTo": ["43204c9526cb6b42"]
 				},
 				"Act 1 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"b50a093cd3249056"
-					]
+					"refersTo": ["b50a093cd3249056"]
 				},
 				"Act 2 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"1558116a20df3a38"
-					]
+					"refersTo": ["1558116a20df3a38"]
 				},
 				"Act 3 Lookout 3": {
 					"isArray": false,
-					"refersTo": [
-						"710f27449ce57e46"
-					]
+					"refersTo": ["710f27449ce57e46"]
 				},
 				"Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"ba34aa07271c3c1a"
-					]
+					"refersTo": ["ba34aa07271c3c1a"]
 				},
 				"Act 1 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"a3ea5c1eab91a57d"
-					]
+					"refersTo": ["a3ea5c1eab91a57d"]
 				},
 				"Act 2 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"511b99f21cb9f75c"
-					]
+					"refersTo": ["511b99f21cb9f75c"]
 				},
 				"Act 3 Lookout 4": {
 					"isArray": false,
-					"refersTo": [
-						"d72e427113a1d6d9"
-					]
+					"refersTo": ["d72e427113a1d6d9"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -29492,9 +28085,7 @@
 				},
 				"1698853021": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3fb88d38b517162e"
-					]
+					"value": ["3fb88d38b517162e"]
 				},
 				"1720099492": {
 					"type": "int32",
@@ -29539,9 +28130,7 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce36dd2544e2c73"
-					]
+					"value": ["5ce36dd2544e2c73"]
 				},
 				"m_rSuspectHandler": {
 					"type": "SEntityTemplateReference",
@@ -29549,12 +28138,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "001880A30468A070"
 		},
@@ -29592,33 +28177,23 @@
 			"exposedEntities": {
 				"generic_1": {
 					"isArray": false,
-					"refersTo": [
-						"2103413d7b75ced9"
-					]
+					"refersTo": ["2103413d7b75ced9"]
 				},
 				"generic_2": {
 					"isArray": false,
-					"refersTo": [
-						"4ff0c7de398560a0"
-					]
+					"refersTo": ["4ff0c7de398560a0"]
 				},
 				"generic_3": {
 					"isArray": false,
-					"refersTo": [
-						"61561fe396bc9453"
-					]
+					"refersTo": ["61561fe396bc9453"]
 				},
 				"generic_4": {
 					"isArray": false,
-					"refersTo": [
-						"7d9620a5e66c2f75"
-					]
+					"refersTo": ["7d9620a5e66c2f75"]
 				},
 				"generic_5": {
 					"isArray": false,
-					"refersTo": [
-						"9e3e19b6fc24ff46"
-					]
+					"refersTo": ["9e3e19b6fc24ff46"]
 				}
 			},
 			"factory": "[modules:/zentity.class].pc_entitytype"
@@ -29684,9 +28259,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"277285c358a64ee7"
-					],
+					"value": ["277285c358a64ee7"],
 					"postInit": true
 				}
 			},
@@ -29825,9 +28398,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"SpawnItem": [
-						"feed5322683f4942"
-					]
+					"SpawnItem": ["feed5322683f4942"]
 				}
 			},
 			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype"
@@ -29887,9 +28458,7 @@
 			},
 			"events": {
 				"OnLeft": {
-					"SetFalse": [
-
-					]
+					"SetFalse": []
 				}
 			},
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_standlaenrailing_100cm.entitytemplate].pc_entitytype"
@@ -29951,14 +28520,10 @@
 			},
 			"events": {
 				"Item": {
-					"SetItem": [
-						"feed4875289bd68f"
-					]
+					"SetItem": ["feed4875289bd68f"]
 				},
 				"ItemReady": {
-					"PickupIntoPocket": [
-						"feed4875289bd68f"
-					]
+					"PickupIntoPocket": ["feed4875289bd68f"]
 				}
 			},
 			"factory": "[modules:/zitemspawner.class].pc_entitytype"
@@ -30019,9 +28584,7 @@
 			},
 			"events": {
 				"OnSpawn": {
-					"EnterSafeZoneNoAnim": [
-						"feed9dfac262daae"
-					]
+					"EnterSafeZoneNoAnim": ["feed9dfac262daae"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype"
@@ -30059,11 +28622,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed035c8566bb78",
-						"feed9a0b6c7a7515",
-						"feed76095186f4a7"
-					],
+					"value": ["feed035c8566bb78", "feed9a0b6c7a7515", "feed76095186f4a7"],
 					"postInit": true
 				}
 			},
@@ -30076,9 +28635,7 @@
 			"properties": {
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed39ca30eb1d5b"
-					]
+					"value": ["feed39ca30eb1d5b"]
 				},
 				"m_rSpawner": {
 					"type": "SEntityTemplateReference",
@@ -30099,20 +28656,14 @@
 			},
 			"events": {
 				"OnSkip": {
-					"In": [
-
-					]
+					"In": []
 				},
 				"OnPlay": {
-					"EnterSafeZoneNoAnim": [
-						"feed9dfac262daae"
-					]
+					"EnterSafeZoneNoAnim": ["feed9dfac262daae"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			},
 			"factory": "00A6F689FB19B096"
 		},
@@ -30143,9 +28694,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed81611c5b85b6"
-					]
+					"value": ["feed81611c5b85b6"]
 				}
 			},
 			"factory": "[modules:/zentitygroup.class].pc_entitytype"
@@ -30157,9 +28706,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed63b9dad9478d"
-					]
+					"value": ["feed63b9dad9478d"]
 				}
 			},
 			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype"
@@ -30186,9 +28733,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedc90c53f16641"
-					]
+					"value": ["feedc90c53f16641"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -30224,25 +28769,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-42.72367858886719,
-								-0.31300032138824463,
-								0.7825008034706116,
-								-0.8346675038337708,
-								0.46950048208236694,
-								0,
-								-42.72367858886719
+								0, -42.72367858886719, -0.31300032138824463, 0.7825008034706116, -0.8346675038337708,
+								0.46950048208236694, 0, -42.72367858886719
 							],
-							[
-								1,
-								-42.619346618652344,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-42.619346618652344
-							]
+							[1, -42.619346618652344, 0, 0, 0, 0, 0, -42.619346618652344]
 						]
 					}
 				},
@@ -30251,25 +28781,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-102.63945007324219,
-								-61.70417404174805,
-								154.26043701171875,
-								-164.54446411132812,
-								92.55626678466797,
-								0,
-								-102.63945007324219
+								0, -102.63945007324219, -61.70417404174805, 154.26043701171875, -164.54446411132812,
+								92.55626678466797, 0, -102.63945007324219
 							],
-							[
-								1,
-								-82.07139587402344,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-82.07139587402344
-							]
+							[1, -82.07139587402344, 0, 0, 0, 0, 0, -82.07139587402344]
 						]
 					}
 				},
@@ -30278,25 +28793,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								46.11716842651367,
-								4.027851104736328,
-								-10.06962776184082,
-								10.740936279296875,
-								-6.041776657104492,
-								0,
-								46.11716842651367
+								0, 46.11716842651367, 4.027851104736328, -10.06962776184082, 10.740936279296875,
+								-6.041776657104492, 0, 46.11716842651367
 							],
-							[
-								1,
-								44.77455139160156,
-								0,
-								0,
-								0,
-								0,
-								0,
-								44.77455139160156
-							]
+							[1, 44.77455139160156, 0, 0, 0, 0, 0, 44.77455139160156]
 						]
 					}
 				},
@@ -30304,26 +28804,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -30332,25 +28814,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								4.732309341430664,
-								5.215503215789795,
-								-13.038758277893066,
-								13.90800952911377,
-								-7.8232550621032715,
-								0,
-								4.732309341430664
+								0, 4.732309341430664, 5.215503215789795, -13.038758277893066, 13.90800952911377,
+								-7.8232550621032715, 0, 4.732309341430664
 							],
-							[
-								1,
-								2.9938080310821533,
-								0,
-								0,
-								0,
-								0,
-								0,
-								2.9938080310821533
-							]
+							[1, 2.9938080310821533, 0, 0, 0, 0, 0, 2.9938080310821533]
 						]
 					}
 				},
@@ -30359,25 +28826,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-157.87356567382812,
-								44.494144439697266,
-								-111.23535919189453,
-								118.65104675292969,
-								-66.74121856689453,
-								0,
-								-157.87356567382812
+								0, -157.87356567382812, 44.494144439697266, -111.23535919189453, 118.65104675292969,
+								-66.74121856689453, 0, -157.87356567382812
 							],
-							[
-								1,
-								-172.70494079589844,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-172.70494079589844
-							]
+							[1, -172.70494079589844, 0, 0, 0, 0, 0, -172.70494079589844]
 						]
 					}
 				}
@@ -30452,10 +28904,7 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda6eb22686846",
-						"feed6e57f65a9a1c"
-					]
+					"value": ["feeda6eb22686846", "feed6e57f65a9a1c"]
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -30472,12 +28921,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -30498,9 +28943,7 @@
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed50f8b0b8d8d7"
-					]
+					"value": ["feed50f8b0b8d8d7"]
 				}
 			},
 			"propertyAliases": {
@@ -30524,17 +28967,13 @@
 				},
 				"m_aWaypoints": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedaf88bafe1763"
-					],
+					"value": ["feedaf88bafe1763"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnActorReleased": {
-					"Start": [
-						"feedbe517b961f4f"
-					]
+					"Start": ["feedbe517b961f4f"]
 				}
 			},
 			"factory": "[modules:/zactorproviderapproach.class].pc_entitytype"
@@ -30575,9 +29014,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed00cfc1f697c5"
-					]
+					"Start": ["feed00cfc1f697c5"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype"
@@ -30618,9 +29055,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedaf88bafe1763"
-					]
+					"Start": ["feedaf88bafe1763"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype"
@@ -30632,17 +29067,13 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed24b4ef5a4625"
-					],
+					"value": ["feed24b4ef5a4625"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedaf88bafe1763"
-					]
+					"Start": ["feedaf88bafe1763"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype"
@@ -30684,9 +29115,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedbe517b961f4f"
-					]
+					"Start": ["feedbe517b961f4f"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype"
@@ -30698,9 +29127,7 @@
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed50f8b0b8d8d7"
-					]
+					"value": ["feed50f8b0b8d8d7"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype"
@@ -30866,10 +29293,7 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed5ceba76f6cf4",
-						"feed5d6310cbd2a6"
-					]
+					"value": ["feed5ceba76f6cf4", "feed5d6310cbd2a6"]
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -30885,12 +29309,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
@@ -30911,9 +29331,7 @@
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedfb02e72c6d1d"
-					]
+					"value": ["feedfb02e72c6d1d"]
 				}
 			},
 			"propertyAliases": {
@@ -30943,17 +29361,13 @@
 				},
 				"m_aWaypoints": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedfd679e42f394"
-					],
+					"value": ["feedfd679e42f394"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnActorReleased": {
-					"Start": [
-						"feed00335bcc220e"
-					]
+					"Start": ["feed00335bcc220e"]
 				}
 			},
 			"factory": "[modules:/zactorproviderapproach.class].pc_entitytype"
@@ -30994,9 +29408,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed9b6edffa41c1"
-					]
+					"Start": ["feed9b6edffa41c1"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype"
@@ -31037,9 +29449,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedfd679e42f394"
-					]
+					"Start": ["feedfd679e42f394"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype"
@@ -31051,17 +29461,13 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed499fcaa769a4"
-					],
+					"value": ["feed499fcaa769a4"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedfd679e42f394"
-					]
+					"Start": ["feedfd679e42f394"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype"
@@ -31102,9 +29508,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed00335bcc220e"
-					]
+					"Start": ["feed00335bcc220e"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entitytype"
@@ -31116,9 +29520,7 @@
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedfb02e72c6d1d"
-					]
+					"value": ["feedfb02e72c6d1d"]
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype"
@@ -31163,9 +29565,7 @@
 			"properties": {
 				"m_ConditionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -31327,9 +29727,7 @@
 			"toPin": "Trigger"
 		}
 	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype",
 		"00956C60068DE4B4",
@@ -34690,7 +33088,5 @@
 		"[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_pray.entitytemplate].pc_entityblueprint",
 		"[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_stand_cleansurface_100cm.entitytemplate].pc_entityblueprint"
 	],
-	"comments": [
-
-	]
+	"comments": []
 }

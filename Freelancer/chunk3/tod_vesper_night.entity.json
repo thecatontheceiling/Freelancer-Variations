@@ -353,9 +353,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fbc66003c6026572"
-					],
+					"value": ["fbc66003c6026572"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4361,9 +4359,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"GetIndex": [
-						"abcd812edbe58538"
-					]
+					"GetIndex": ["abcd812edbe58538"]
 				}
 			}
 		},
@@ -6645,9 +6641,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -6710,9 +6704,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -6741,9 +6733,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -10666,12 +10656,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/ancestral/elusive_vesper.brick].pc_entitytype",
@@ -10697,10 +10683,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

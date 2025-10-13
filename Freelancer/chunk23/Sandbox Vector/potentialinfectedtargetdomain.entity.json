@@ -1,1 +1,846 @@
-{"tempHash":"00529903F5B9724E","tbluHash":"001449026C399EA8","rootEntity":"a2df086fb1943ea4","entities":{"9d86e16e7cb44137":{"parent":"85ac4e95ef549498","name":"ActStateCondition04","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"85ac4e95ef549498":{"parent":"a2df086fb1943ea4","name":"Hint 3","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint","properties":{"HandlerSpeech":{"type":"ZRuntimeResourceID","value":null},"m_pHintTextResource":{"type":"ZRuntimeResourceID","value":null},"m_sHintTextFallback":{"type":"ZString","value":""},"m_objectiveGuid":{"type":"ZGuid","value":"00000000-0000-0000-0000-000000000000"},"Timeout":{"type":"int32","value":30000},"Acknowledged":{"type":"TArray<SEntityTemplateReference>","value":[]},"AcknowledgedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint2BEnabled"},{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint2BEnabled"}],"postInit":true},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint2BUnpaused"},{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint2BUnpaused"}],"postInit":true}},"events":{"OnDone":{"NextHint":["bf4f9bcfa8d1d8b6","c2821728caf91c82"]}}},"dd1ec4390428a840":{"parent":"85ac4e95ef549498","name":"ActStateCondition11","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"f1c3abe65201bd6c":{"parent":"419e1b4491b4251","name":"ActStateCondition04","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"9e6c59840b47efb6":{"parent":"85ac4e95ef549498","name":"ActStateCondition12","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"ff9d06ab9f059b63":{"parent":"a2df086fb1943ea4","name":"Hint 4","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint","properties":{"HandlerSpeech":{"type":"ZRuntimeResourceID","value":null},"m_pHintTextResource":{"type":"ZRuntimeResourceID","value":null},"m_sHintTextFallback":{"type":"ZString","value":""},"m_objectiveGuid":{"type":"ZGuid","value":"00000000-0000-0000-0000-000000000000"},"Timeout":{"type":"int32","value":30000},"Acknowledged":{"type":"TArray<SEntityTemplateReference>","value":[]},"AcknowledgedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint2BEnabled"},{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint2BEnabled"}],"postInit":true},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint2BUnpaused"},{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint2BUnpaused"}],"postInit":true}},"events":{"OnDone":{"NextHint":["e315974349bec8df","28fd65a5e2585622"]}}},"7a220ec39a5e3fd0":{"parent":"ff9d06ab9f059b63","name":"Drinking beer 1","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"78a435388b676c10":{"parent":"85ac4e95ef549498","name":"ActStateCondition08","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"85792ed91eba9f85":{"parent":"a2df086fb1943ea4","name":"Hint 2","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint","properties":{"HandlerSpeech":{"type":"ZRuntimeResourceID","value":null},"m_pHintTextResource":{"type":"ZRuntimeResourceID","value":null},"m_sHintTextFallback":{"type":"ZString","value":""},"m_objectiveGuid":{"type":"ZGuid","value":"00000000-0000-0000-0000-000000000000"},"Timeout":{"type":"int32","value":30000},"Acknowledged":{"type":"TArray<SEntityTemplateReference>","value":[]},"AcknowledgedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint2AEnabled"},{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint2AEnabled"}],"postInit":true},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint2AUnpaused"},{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint2AUnpaused"}],"postInit":true}},"events":{"OnDone":{"NextHint":["c2821728caf91c82","e315974349bec8df"]}}},"956e3f66ce178e78":{"parent":"ff9d06ab9f059b63","name":"Drinking beer 2","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"eb3dd07a25c74cbb":{"parent":"85ac4e95ef549498","name":"ActStateCondition07","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"c2821728caf91c82":{"parent":"a2df086fb1943ea4","name":"Actor 3","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[]},"Actor":{"type":"SEntityTemplateReference","value":null},"HandlerResumeSpeech":{"type":"ZRuntimeResourceID","value":null},"m_fConditionValidDistance":{"type":"float32","value":30},"EscapingContractsEvent":{"type":"ZString","value":"InfectedEscaping"},"EscapedContractsEvent":{"type":"ZString","value":"InfectedEscaped"},"m_rActBehavior":{"type":"SEntityTemplateReference","value":null},"EnabledEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"ActiveHintDelay":{"type":"int32","value":60000},"UnpausedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"EscapeReceivers":{"type":"TArray<SEntityTemplateReference>","value":[]},"CanFailMission":{"type":"SEntityTemplateReference","value":null},"EscapeSuccesful":{"type":"SEntityTemplateReference","value":null}},"outputCopying":{"OnEscaping":{"OnEscaping":["a2df086fb1943ea4"]}}},"8d2f955c2ed72767":{"parent":"419e1b4491b4251","name":"ActStateCondition03","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true},"m_fMinDuration":{"type":"float32","value":1}}},"8f92debdae08c1ba":{"parent":"a2df086fb1943ea4","name":"Live hint 3","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint4Unpaused"}]},"Actor":{"type":"SEntityTemplateReference","value":null},"DramaSituationPriority":{"type":"int32","value":10},"Actor_ZLinkedEntity":{"type":"SEntityTemplateReference","value":null,"postInit":true}},"events":{"OnDone":{"NextHint":["c2821728caf91c82"]}},"subsets":{"Replicable":["a2df086fb1943ea4"]}},"cc95be0398dd3749":{"parent":"85ac4e95ef549498","name":"ActStateCondition","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"ae3e04050fda93c7":{"parent":"419e1b4491b4251","name":"ActStateCondition","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true},"m_fMinDuration":{"type":"float32","value":1}}},"16da7086887056c6":{"parent":"85ac4e95ef549498","name":"ActStateCondition03","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"14b9ccff9e09c55f":{"parent":"85ac4e95ef549498","name":"ActStateCondition02","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"e02f29a689d656f":{"parent":"a2df086fb1943ea4","name":"Live hint 2","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint","properties":{"Actor":{"type":"SEntityTemplateReference","value":null},"DramaSituationPriority":{"type":"int32","value":10},"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint4Enabled"}],"postInit":true},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint4Unpaused"}],"postInit":true},"Actor_ZLinkedEntity":{"type":"SEntityTemplateReference","value":null,"postInit":true}},"events":{"OnDone":{"NextHint":["28fd65a5e2585622"]}},"subsets":{"Replicable":["a2df086fb1943ea4"]}},"4a5ea4d483385eea":{"parent":"85ac4e95ef549498","name":"ActStateCondition06","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"419e1b4491b4251":{"parent":"a2df086fb1943ea4","name":"Hint 1","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint","properties":{"HandlerSpeech":{"type":"ZRuntimeResourceID","value":null},"m_pHintTextResource":{"type":"ZRuntimeResourceID","value":null},"m_sHintTextFallback":{"type":"ZString","value":""},"m_objectiveGuid":{"type":"ZGuid","value":"00000000-0000-0000-0000-000000000000"},"Timeout":{"type":"int32","value":20000},"Acknowledged":{"type":"TArray<SEntityTemplateReference>","value":[]},"AcknowledgedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint2AEnabled"},{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint2AEnabled"}],"postInit":true},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint2AUnpaused"},{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint2AUnpaused"}],"postInit":true}},"events":{"OnDone":{"NextHint":["bf4f9bcfa8d1d8b6","28fd65a5e2585622"]}}},"bf4f9bcfa8d1d8b6":{"parent":"a2df086fb1943ea4","name":"Actor 1","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[]},"Actor":{"type":"SEntityTemplateReference","value":null},"HandlerResumeSpeech":{"type":"ZRuntimeResourceID","value":null},"m_fConditionValidDistance":{"type":"float32","value":30},"EscapingContractsEvent":{"type":"ZString","value":"InfectedEscaping"},"EscapedContractsEvent":{"type":"ZString","value":"InfectedEscaped"},"m_rActBehavior":{"type":"SEntityTemplateReference","value":null},"EnabledEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"ActiveHintDelay":{"type":"int32","value":60000},"UnpausedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"EscapeReceivers":{"type":"TArray<SEntityTemplateReference>","value":[]},"CanFailMission":{"type":"SEntityTemplateReference","value":null},"EscapeSuccesful":{"type":"SEntityTemplateReference","value":null}},"outputCopying":{"OnEscaping":{"OnEscaping":["a2df086fb1943ea4"]}}},"28fd65a5e2585622":{"parent":"a2df086fb1943ea4","name":"Actor 2","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[]},"Actor":{"type":"SEntityTemplateReference","value":null},"HandlerResumeSpeech":{"type":"ZRuntimeResourceID","value":null},"m_fConditionValidDistance":{"type":"float32","value":30},"EscapingContractsEvent":{"type":"ZString","value":"InfectedEscaping"},"EscapedContractsEvent":{"type":"ZString","value":"InfectedEscaped"},"m_rActBehavior":{"type":"SEntityTemplateReference","value":null},"EnabledEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"ActiveHintDelay":{"type":"int32","value":60000},"UnpausedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"EscapeReceivers":{"type":"TArray<SEntityTemplateReference>","value":[]},"CanFailMission":{"type":"SEntityTemplateReference","value":null},"EscapeSuccesful":{"type":"SEntityTemplateReference","value":null}},"outputCopying":{"OnEscaping":{"OnEscaping":["a2df086fb1943ea4"]}}},"82df12a423f8ddcd":{"parent":"85792ed91eba9f85","name":"Playing guitar 1","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"42ffcbd9bacc254e":{"parent":"419e1b4491b4251","name":"ActStateCondition01","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"fefe9150329fa01c":{"parent":"85792ed91eba9f85","name":"Playing guitar 2","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"98ec7bc11774f5d":{"parent":"85ac4e95ef549498","name":"ActStateCondition10","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"6bc4125817805266":{"parent":"419e1b4491b4251","name":"ActStateCondition02","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true},"m_fMinDuration":{"type":"float32","value":1}}},"e315974349bec8df":{"parent":"a2df086fb1943ea4","name":"Actor 4","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[]},"Actor":{"type":"SEntityTemplateReference","value":null},"HandlerResumeSpeech":{"type":"ZRuntimeResourceID","value":null},"m_fConditionValidDistance":{"type":"float32","value":30},"EscapingContractsEvent":{"type":"ZString","value":"InfectedEscaping"},"EscapedContractsEvent":{"type":"ZString","value":"InfectedEscaped"},"m_rActBehavior":{"type":"SEntityTemplateReference","value":null},"EnabledEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"ActiveHintDelay":{"type":"int32","value":60000},"UnpausedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"EscapeReceivers":{"type":"TArray<SEntityTemplateReference>","value":[]},"CanFailMission":{"type":"SEntityTemplateReference","value":null},"EscapeSuccesful":{"type":"SEntityTemplateReference","value":null}},"outputCopying":{"OnEscaping":{"OnEscaping":["a2df086fb1943ea4"]}}},"2f0e5559da6b3613":{"parent":"a2df086fb1943ea4","name":"Domain","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint1Enabled"},{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint1Enabled"},{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint1Enabled"},{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint1Enabled"}]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint1Unpaused"},{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint1Unpaused"},{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint1Unpaused"},{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint1Unpaused"}]},"HandlerSpeech":{"type":"ZRuntimeResourceID","value":null},"m_objectiveGuid":{"type":"ZGuid","value":"00000000-0000-0000-0000-000000000000"},"m_pHintTextResource":{"type":"ZRuntimeResourceID","value":null},"m_sHintTextFallback":{"type":"ZString","value":""},"Timeout":{"type":"int32","value":20000},"Acknowledged":{"type":"TArray<SEntityTemplateReference>","value":[]},"AcknowledgedEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"}},"events":{"OnDone":{"NextHint":["bf4f9bcfa8d1d8b6","28fd65a5e2585622","c2821728caf91c82","e315974349bec8df"]}}},"8159326fda577da4":{"parent":"85ac4e95ef549498","name":"ActStateCondition05","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"7cba91b4727258a8":{"parent":"419e1b4491b4251","name":"ActStateCondition05","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"b7984ff3034dc8c7":{"parent":"85ac4e95ef549498","name":"ActStateCondition09","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"a29e0b4ab4765303":{"parent":"a2df086fb1943ea4","name":"Live hint 1","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint4Unpaused"}]},"Actor":{"type":"SEntityTemplateReference","value":null},"DramaSituationPriority":{"type":"int32","value":10},"Actor_ZLinkedEntity":{"type":"SEntityTemplateReference","value":null,"postInit":true}},"events":{"OnDone":{"NextHint":["bf4f9bcfa8d1d8b6"]}},"subsets":{"Replicable":["a2df086fb1943ea4"]}},"c3ac5aca1394afdd":{"parent":"85ac4e95ef549498","name":"ActStateCondition01","factory":"007E378EA87BA806","blueprint":"0018FB9506135A96","properties":{"m_bIsPlaying":{"type":"bool","value":true},"m_bIsStopping":{"type":"bool","value":true}}},"43bd6fd4efce567":{"parent":"a2df086fb1943ea4","name":"Live hint 4","factory":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint","properties":{"Enabled":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Unpaused":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint4Unpaused"}]},"Actor":{"type":"SEntityTemplateReference","value":null},"DramaSituationPriority":{"type":"int32","value":10},"Actor_ZLinkedEntity":{"type":"SEntityTemplateReference","value":null,"postInit":true}},"events":{"OnDone":{"NextHint":["e315974349bec8df"]}},"subsets":{"Replicable":["a2df086fb1943ea4"]}},"a2df086fb1943ea4":{"parent":null,"name":"PotentialInfectedTargetDomain","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","inputCopying":{"NextHint":{"NextHint":["bf4f9bcfa8d1d8b6","28fd65a5e2585622","c2821728caf91c82","e315974349bec8df"]}},"propertyAliases":{"Enabled":[{"originalProperty":"Enabled","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"Enabled","originalEntity":"28fd65a5e2585622"},{"originalProperty":"Enabled","originalEntity":"c2821728caf91c82"},{"originalProperty":"Enabled","originalEntity":"e315974349bec8df"}],"Unpaused":[{"originalProperty":"Unpaused","originalEntity":"e315974349bec8df"},{"originalProperty":"Unpaused","originalEntity":"c2821728caf91c82"},{"originalProperty":"Unpaused","originalEntity":"28fd65a5e2585622"},{"originalProperty":"Unpaused","originalEntity":"bf4f9bcfa8d1d8b6"}],"Actor1":[{"originalProperty":"Actor","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"Actor","originalEntity":"a29e0b4ab4765303"}],"Actor2":[{"originalProperty":"Actor","originalEntity":"28fd65a5e2585622"},{"originalProperty":"Actor","originalEntity":"e02f29a689d656f"}],"Actor3":[{"originalProperty":"Actor","originalEntity":"c2821728caf91c82"},{"originalProperty":"Actor","originalEntity":"8f92debdae08c1ba"}],"Actor4":[{"originalProperty":"Actor","originalEntity":"e315974349bec8df"},{"originalProperty":"Actor","originalEntity":"43bd6fd4efce567"}],"Hint1HandlerSpeech":[{"originalProperty":"HandlerSpeech","originalEntity":"419e1b4491b4251"}],"Hint2HandlerSpeech":[{"originalProperty":"HandlerSpeech","originalEntity":"85792ed91eba9f85"}],"Hint3HandlerSpeech":[{"originalProperty":"HandlerSpeech","originalEntity":"85ac4e95ef549498"}],"Hint4HandlerSpeech":[{"originalProperty":"HandlerSpeech","originalEntity":"ff9d06ab9f059b63"}],"Hint1IntelHeadlineResource":[{"originalProperty":"IntelHeadlineResource","originalEntity":"419e1b4491b4251"}],"Hint1IntelTextResource":[{"originalProperty":"IntelTextResource","originalEntity":"419e1b4491b4251"}],"Hint1IntelImage":[{"originalProperty":"IntelImage","originalEntity":"419e1b4491b4251"}],"Hint2IntelHeadlineResource":[{"originalProperty":"IntelHeadlineResource","originalEntity":"85792ed91eba9f85"}],"Hint2IntelTextResource":[{"originalProperty":"IntelTextResource","originalEntity":"85792ed91eba9f85"}],"Hint2IntelImage":[{"originalProperty":"IntelImage","originalEntity":"85792ed91eba9f85"}],"Hint3IntelHeadlineResource":[{"originalProperty":"IntelHeadlineResource","originalEntity":"85ac4e95ef549498"}],"Hint3IntelTextResource":[{"originalProperty":"IntelTextResource","originalEntity":"85ac4e95ef549498"}],"Hint3IntelImage":[{"originalProperty":"IntelImage","originalEntity":"85ac4e95ef549498"}],"Hint4IntelHeadlineResource":[{"originalProperty":"IntelHeadlineResource","originalEntity":"ff9d06ab9f059b63"}],"Hint4IntelTextResource":[{"originalProperty":"IntelTextResource","originalEntity":"ff9d06ab9f059b63"}],"Hint4IntelImage":[{"originalProperty":"IntelImage","originalEntity":"ff9d06ab9f059b63"}],"Hint1Confirmed":[{"originalProperty":"Confirmed","originalEntity":"419e1b4491b4251"}],"Hint2Confirmed":[{"originalProperty":"Confirmed","originalEntity":"85792ed91eba9f85"}],"Hint3Confirmed":[{"originalProperty":"Confirmed","originalEntity":"85ac4e95ef549498"}],"Hint4Confirmed":[{"originalProperty":"Confirmed","originalEntity":"ff9d06ab9f059b63"}],"DomainHintHandlerSpeech":[{"originalProperty":"HandlerSpeech","originalEntity":"2f0e5559da6b3613"}],"DomainHintIntelHeadlineResource":[{"originalProperty":"IntelHeadlineResource","originalEntity":"2f0e5559da6b3613"}],"DomainHintIntelTextResource":[{"originalProperty":"IntelTextResource","originalEntity":"2f0e5559da6b3613"}],"DomainHintIntelImage":[{"originalProperty":"IntelImage","originalEntity":"2f0e5559da6b3613"}],"DomainHintConfirmed":[{"originalProperty":"Confirmed","originalEntity":"2f0e5559da6b3613"}],"HandlerResumeSpeech":[{"originalProperty":"HandlerResumeSpeech","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"HandlerResumeSpeech","originalEntity":"28fd65a5e2585622"},{"originalProperty":"HandlerResumeSpeech","originalEntity":"c2821728caf91c82"},{"originalProperty":"HandlerResumeSpeech","originalEntity":"e315974349bec8df"}],"Hint1TextResource":[{"originalProperty":"m_pHintTextResource","originalEntity":"419e1b4491b4251"}],"Hint1Text":[{"originalProperty":"m_sHintTextFallback","originalEntity":"419e1b4491b4251"}],"Hint2TextResource":[{"originalProperty":"m_pHintTextResource","originalEntity":"85792ed91eba9f85"}],"Hint2Text":[{"originalProperty":"m_sHintTextFallback","originalEntity":"85792ed91eba9f85"}],"Hint3TextResource":[{"originalProperty":"m_pHintTextResource","originalEntity":"85ac4e95ef549498"}],"Hint3Text":[{"originalProperty":"m_sHintTextFallback","originalEntity":"85ac4e95ef549498"}],"Hint4TextResource":[{"originalProperty":"m_pHintTextResource","originalEntity":"ff9d06ab9f059b63"}],"Hint4Text":[{"originalProperty":"m_sHintTextFallback","originalEntity":"ff9d06ab9f059b63"}],"m_objectiveGuid":[{"originalProperty":"m_objectiveGuid","originalEntity":"419e1b4491b4251"},{"originalProperty":"m_objectiveGuid","originalEntity":"85792ed91eba9f85"},{"originalProperty":"m_objectiveGuid","originalEntity":"85ac4e95ef549498"},{"originalProperty":"m_objectiveGuid","originalEntity":"ff9d06ab9f059b63"},{"originalProperty":"m_objectiveGuid","originalEntity":"2f0e5559da6b3613"}],"DomainHintTextResource":[{"originalProperty":"m_pHintTextResource","originalEntity":"2f0e5559da6b3613"}],"DomainHintText":[{"originalProperty":"m_sHintTextFallback","originalEntity":"2f0e5559da6b3613"}],"m_fConditionValidDistance":[{"originalProperty":"m_fConditionValidDistance","originalEntity":"e315974349bec8df"},{"originalProperty":"m_fConditionValidDistance","originalEntity":"c2821728caf91c82"},{"originalProperty":"m_fConditionValidDistance","originalEntity":"28fd65a5e2585622"},{"originalProperty":"m_fConditionValidDistance","originalEntity":"bf4f9bcfa8d1d8b6"}],"EscapingContractsEvent":[{"originalProperty":"EscapingContractsEvent","originalEntity":"e315974349bec8df"},{"originalProperty":"EscapingContractsEvent","originalEntity":"c2821728caf91c82"},{"originalProperty":"EscapingContractsEvent","originalEntity":"28fd65a5e2585622"},{"originalProperty":"EscapingContractsEvent","originalEntity":"bf4f9bcfa8d1d8b6"}],"EscapedContractsEvent":[{"originalProperty":"EscapedContractsEvent","originalEntity":"e315974349bec8df"},{"originalProperty":"EscapedContractsEvent","originalEntity":"c2821728caf91c82"},{"originalProperty":"EscapedContractsEvent","originalEntity":"28fd65a5e2585622"},{"originalProperty":"EscapedContractsEvent","originalEntity":"bf4f9bcfa8d1d8b6"}],"Actor1EscapePoint":[{"originalProperty":"m_rActBehavior","originalEntity":"bf4f9bcfa8d1d8b6"}],"Actor2EscapePoint":[{"originalProperty":"m_rActBehavior","originalEntity":"28fd65a5e2585622"}],"Actor3EscapePoint":[{"originalProperty":"m_rActBehavior","originalEntity":"c2821728caf91c82"}],"Actor4EscapePoint":[{"originalProperty":"m_rActBehavior","originalEntity":"e315974349bec8df"}],"TextHintsEnabled":[{"originalProperty":"TextHintEnabled","originalEntity":"85ac4e95ef549498"},{"originalProperty":"TextHintEnabled","originalEntity":"ff9d06ab9f059b63"},{"originalProperty":"TextHintEnabled","originalEntity":"85792ed91eba9f85"},{"originalProperty":"TextHintEnabled","originalEntity":"2f0e5559da6b3613"},{"originalProperty":"TextHintEnabled","originalEntity":"419e1b4491b4251"}],"EnabledEvaluation":[{"originalProperty":"EnabledEvaluation","originalEntity":"e315974349bec8df"},{"originalProperty":"EnabledEvaluation","originalEntity":"c2821728caf91c82"},{"originalProperty":"EnabledEvaluation","originalEntity":"28fd65a5e2585622"},{"originalProperty":"EnabledEvaluation","originalEntity":"bf4f9bcfa8d1d8b6"}],"DomainHintTimeout":[{"originalProperty":"Timeout","originalEntity":"2f0e5559da6b3613"}],"Hint1Timeout":[{"originalProperty":"Timeout","originalEntity":"419e1b4491b4251"}],"Hint2Timeout":[{"originalProperty":"Timeout","originalEntity":"85792ed91eba9f85"}],"Hint3Timeout":[{"originalProperty":"Timeout","originalEntity":"85ac4e95ef549498"}],"Hint4Timeout":[{"originalProperty":"Timeout","originalEntity":"ff9d06ab9f059b63"}],"ActiveHintDelay":[{"originalProperty":"ActiveHintDelay","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"ActiveHintDelay","originalEntity":"28fd65a5e2585622"},{"originalProperty":"ActiveHintDelay","originalEntity":"c2821728caf91c82"},{"originalProperty":"ActiveHintDelay","originalEntity":"e315974349bec8df"}],"DomainHintAcknowledged":[{"originalProperty":"Acknowledged","originalEntity":"2f0e5559da6b3613"}],"Hint1Acknowledged":[{"originalProperty":"Acknowledged","originalEntity":"419e1b4491b4251"}],"Hint2Acknowledged":[{"originalProperty":"Acknowledged","originalEntity":"85792ed91eba9f85"}],"Hint3Acknowledged":[{"originalProperty":"Acknowledged","originalEntity":"85ac4e95ef549498"}],"Hint4Acknowledged":[{"originalProperty":"Acknowledged","originalEntity":"ff9d06ab9f059b63"}],"UnpausedEvaluation":[{"originalProperty":"UnpausedEvaluation","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"UnpausedEvaluation","originalEntity":"28fd65a5e2585622"},{"originalProperty":"UnpausedEvaluation","originalEntity":"c2821728caf91c82"},{"originalProperty":"UnpausedEvaluation","originalEntity":"e315974349bec8df"}],"EscapeIconVisibilityRange":[{"originalProperty":"EscapeIconVisibilityRange","originalEntity":"28fd65a5e2585622"},{"originalProperty":"EscapeIconVisibilityRange","originalEntity":"c2821728caf91c82"},{"originalProperty":"EscapeIconVisibilityRange","originalEntity":"e315974349bec8df"},{"originalProperty":"EscapeIconVisibilityRange","originalEntity":"bf4f9bcfa8d1d8b6"}],"DomainHintAcknowledgedEvaluation":[{"originalProperty":"AcknowledgedEvaluation","originalEntity":"2f0e5559da6b3613"}],"Hint1AcknowledgedEvaluation":[{"originalProperty":"AcknowledgedEvaluation","originalEntity":"419e1b4491b4251"}],"Hint2AcknowledgedEvaluation":[{"originalProperty":"AcknowledgedEvaluation","originalEntity":"85792ed91eba9f85"}],"Hint3AcknowledgedEvaluation":[{"originalProperty":"AcknowledgedEvaluation","originalEntity":"85ac4e95ef549498"}],"Hint4AcknowledgedEvaluation":[{"originalProperty":"AcknowledgedEvaluation","originalEntity":"ff9d06ab9f059b63"}],"Actor1_ZLinkedEntity":[{"originalProperty":"Actor_ZLinkedEntity","originalEntity":"a29e0b4ab4765303"}],"Actor2_ZLinkedEntity":[{"originalProperty":"Actor_ZLinkedEntity","originalEntity":"e02f29a689d656f"}],"Actor3_ZLinkedEntity":[{"originalProperty":"Actor_ZLinkedEntity","originalEntity":"8f92debdae08c1ba"}],"Actor4_ZLinkedEntity":[{"originalProperty":"Actor_ZLinkedEntity","originalEntity":"43bd6fd4efce567"}],"DramaSituationPriority":[{"originalProperty":"DramaSituationPriority","originalEntity":"8f92debdae08c1ba"},{"originalProperty":"DramaSituationPriority","originalEntity":"43bd6fd4efce567"},{"originalProperty":"DramaSituationPriority","originalEntity":"e02f29a689d656f"},{"originalProperty":"DramaSituationPriority","originalEntity":"a29e0b4ab4765303"}],"Actor1EscapeReceivers":[{"originalProperty":"EscapeReceivers","originalEntity":"bf4f9bcfa8d1d8b6"}],"Actor2EscapeReceivers":[{"originalProperty":"EscapeReceivers","originalEntity":"28fd65a5e2585622"}],"Actor3EscapeReceivers":[{"originalProperty":"EscapeReceivers","originalEntity":"c2821728caf91c82"}],"Actor4EscapeReceivers":[{"originalProperty":"EscapeReceivers","originalEntity":"e315974349bec8df"}],"CanFailMission":[{"originalProperty":"CanFailMission","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"CanFailMission","originalEntity":"28fd65a5e2585622"},{"originalProperty":"CanFailMission","originalEntity":"c2821728caf91c82"},{"originalProperty":"CanFailMission","originalEntity":"e315974349bec8df"}],"EscapeSuccesful":[{"originalProperty":"EscapeSuccesful","originalEntity":"bf4f9bcfa8d1d8b6"},{"originalProperty":"EscapeSuccesful","originalEntity":"28fd65a5e2585622"},{"originalProperty":"EscapeSuccesful","originalEntity":"c2821728caf91c82"},{"originalProperty":"EscapeSuccesful","originalEntity":"e315974349bec8df"}]},"exposedEntities":{"DomainHintActive":{"isArray":false,"refersTo":["2f0e5559da6b3613"]},"Hint1Active":{"isArray":false,"refersTo":["419e1b4491b4251"]},"Hint2Active":{"isArray":false,"refersTo":["85792ed91eba9f85"]},"Hint3Active":{"isArray":false,"refersTo":["85ac4e95ef549498"]},"Hint4Active":{"isArray":false,"refersTo":["ff9d06ab9f059b63"]},"Actor1LiveHintEnabled":{"isArray":false,"refersTo":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Actor1LiveHintUnpaused":{"isArray":false,"refersTo":[{"ref":"bf4f9bcfa8d1d8b6","externalScene":null,"exposedEntity":"Hint4Unpaused"}]},"Actor2LiveHintEnabled":{"isArray":false,"refersTo":[{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Actor2LiveHintUnpaused":{"isArray":false,"refersTo":[{"ref":"28fd65a5e2585622","externalScene":null,"exposedEntity":"Hint4Unpaused"}]},"Actor3LiveHintEnabled":{"isArray":false,"refersTo":[{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Actor3LiveHintUnpaused":{"isArray":false,"refersTo":[{"ref":"c2821728caf91c82","externalScene":null,"exposedEntity":"Hint4Unpaused"}]},"Actor4LiveHintEnabled":{"isArray":false,"refersTo":[{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint4Enabled"}]},"Actor4LiveHintUnpaused":{"isArray":false,"refersTo":[{"ref":"e315974349bec8df","externalScene":null,"exposedEntity":"Hint4Unpaused"}]}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00529903F5B9724E",
+	"tbluHash": "001449026C399EA8",
+	"rootEntity": "a2df086fb1943ea4",
+	"entities": {
+		"9d86e16e7cb44137": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition04",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"85ac4e95ef549498": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Hint 3",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HandlerSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_pHintTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sHintTextFallback": { "type": "ZString", "value": "" },
+				"m_objectiveGuid": { "type": "ZGuid", "value": "00000000-0000-0000-0000-000000000000" },
+				"Timeout": { "type": "int32", "value": 30000 },
+				"Acknowledged": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"AcknowledgedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint2BEnabled" },
+						{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint2BEnabled" }
+					],
+					"postInit": true
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint2BUnpaused" },
+						{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint2BUnpaused" }
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnDone": { "NextHint": ["bf4f9bcfa8d1d8b6", "c2821728caf91c82"] } }
+		},
+		"dd1ec4390428a840": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition11",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"f1c3abe65201bd6c": {
+			"parent": "419e1b4491b4251",
+			"name": "ActStateCondition04",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"9e6c59840b47efb6": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition12",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"ff9d06ab9f059b63": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Hint 4",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HandlerSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_pHintTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sHintTextFallback": { "type": "ZString", "value": "" },
+				"m_objectiveGuid": { "type": "ZGuid", "value": "00000000-0000-0000-0000-000000000000" },
+				"Timeout": { "type": "int32", "value": 30000 },
+				"Acknowledged": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"AcknowledgedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint2BEnabled" },
+						{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint2BEnabled" }
+					],
+					"postInit": true
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint2BUnpaused" },
+						{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint2BUnpaused" }
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnDone": { "NextHint": ["e315974349bec8df", "28fd65a5e2585622"] } }
+		},
+		"7a220ec39a5e3fd0": {
+			"parent": "ff9d06ab9f059b63",
+			"name": "Drinking beer 1",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"78a435388b676c10": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition08",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"85792ed91eba9f85": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Hint 2",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HandlerSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_pHintTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sHintTextFallback": { "type": "ZString", "value": "" },
+				"m_objectiveGuid": { "type": "ZGuid", "value": "00000000-0000-0000-0000-000000000000" },
+				"Timeout": { "type": "int32", "value": 30000 },
+				"Acknowledged": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"AcknowledgedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint2AEnabled" },
+						{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint2AEnabled" }
+					],
+					"postInit": true
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint2AUnpaused" },
+						{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint2AUnpaused" }
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnDone": { "NextHint": ["c2821728caf91c82", "e315974349bec8df"] } }
+		},
+		"956e3f66ce178e78": {
+			"parent": "ff9d06ab9f059b63",
+			"name": "Drinking beer 2",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"eb3dd07a25c74cbb": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition07",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"c2821728caf91c82": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Actor 3",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Unpaused": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"HandlerResumeSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_fConditionValidDistance": { "type": "float32", "value": 30 },
+				"EscapingContractsEvent": { "type": "ZString", "value": "InfectedEscaping" },
+				"EscapedContractsEvent": { "type": "ZString", "value": "InfectedEscaped" },
+				"m_rActBehavior": { "type": "SEntityTemplateReference", "value": null },
+				"EnabledEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"ActiveHintDelay": { "type": "int32", "value": 60000 },
+				"UnpausedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"EscapeReceivers": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"CanFailMission": { "type": "SEntityTemplateReference", "value": null },
+				"EscapeSuccesful": { "type": "SEntityTemplateReference", "value": null }
+			},
+			"outputCopying": { "OnEscaping": { "OnEscaping": ["a2df086fb1943ea4"] } }
+		},
+		"8d2f955c2ed72767": {
+			"parent": "419e1b4491b4251",
+			"name": "ActStateCondition03",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true },
+				"m_fMinDuration": { "type": "float32", "value": 1 }
+			}
+		},
+		"8f92debdae08c1ba": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Live hint 3",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				},
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"DramaSituationPriority": { "type": "int32", "value": 10 },
+				"Actor_ZLinkedEntity": { "type": "SEntityTemplateReference", "value": null, "postInit": true }
+			},
+			"events": { "OnDone": { "NextHint": ["c2821728caf91c82"] } },
+			"subsets": { "Replicable": ["a2df086fb1943ea4"] }
+		},
+		"cc95be0398dd3749": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"ae3e04050fda93c7": {
+			"parent": "419e1b4491b4251",
+			"name": "ActStateCondition",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true },
+				"m_fMinDuration": { "type": "float32", "value": 1 }
+			}
+		},
+		"16da7086887056c6": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition03",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"14b9ccff9e09c55f": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition02",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"e02f29a689d656f": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Live hint 2",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"DramaSituationPriority": { "type": "int32", "value": 10 },
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint4Enabled" }],
+					"postInit": true
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint4Unpaused" }],
+					"postInit": true
+				},
+				"Actor_ZLinkedEntity": { "type": "SEntityTemplateReference", "value": null, "postInit": true }
+			},
+			"events": { "OnDone": { "NextHint": ["28fd65a5e2585622"] } },
+			"subsets": { "Replicable": ["a2df086fb1943ea4"] }
+		},
+		"4a5ea4d483385eea": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition06",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"419e1b4491b4251": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Hint 1",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"HandlerSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_pHintTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sHintTextFallback": { "type": "ZString", "value": "" },
+				"m_objectiveGuid": { "type": "ZGuid", "value": "00000000-0000-0000-0000-000000000000" },
+				"Timeout": { "type": "int32", "value": 20000 },
+				"Acknowledged": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"AcknowledgedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint2AEnabled" },
+						{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint2AEnabled" }
+					],
+					"postInit": true
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint2AUnpaused" },
+						{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint2AUnpaused" }
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnDone": { "NextHint": ["bf4f9bcfa8d1d8b6", "28fd65a5e2585622"] } }
+		},
+		"bf4f9bcfa8d1d8b6": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Actor 1",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Unpaused": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"HandlerResumeSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_fConditionValidDistance": { "type": "float32", "value": 30 },
+				"EscapingContractsEvent": { "type": "ZString", "value": "InfectedEscaping" },
+				"EscapedContractsEvent": { "type": "ZString", "value": "InfectedEscaped" },
+				"m_rActBehavior": { "type": "SEntityTemplateReference", "value": null },
+				"EnabledEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"ActiveHintDelay": { "type": "int32", "value": 60000 },
+				"UnpausedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"EscapeReceivers": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"CanFailMission": { "type": "SEntityTemplateReference", "value": null },
+				"EscapeSuccesful": { "type": "SEntityTemplateReference", "value": null }
+			},
+			"outputCopying": { "OnEscaping": { "OnEscaping": ["a2df086fb1943ea4"] } }
+		},
+		"28fd65a5e2585622": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Actor 2",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Unpaused": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"HandlerResumeSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_fConditionValidDistance": { "type": "float32", "value": 30 },
+				"EscapingContractsEvent": { "type": "ZString", "value": "InfectedEscaping" },
+				"EscapedContractsEvent": { "type": "ZString", "value": "InfectedEscaped" },
+				"m_rActBehavior": { "type": "SEntityTemplateReference", "value": null },
+				"EnabledEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"ActiveHintDelay": { "type": "int32", "value": 60000 },
+				"UnpausedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"EscapeReceivers": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"CanFailMission": { "type": "SEntityTemplateReference", "value": null },
+				"EscapeSuccesful": { "type": "SEntityTemplateReference", "value": null }
+			},
+			"outputCopying": { "OnEscaping": { "OnEscaping": ["a2df086fb1943ea4"] } }
+		},
+		"82df12a423f8ddcd": {
+			"parent": "85792ed91eba9f85",
+			"name": "Playing guitar 1",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"42ffcbd9bacc254e": {
+			"parent": "419e1b4491b4251",
+			"name": "ActStateCondition01",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"fefe9150329fa01c": {
+			"parent": "85792ed91eba9f85",
+			"name": "Playing guitar 2",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"98ec7bc11774f5d": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition10",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"6bc4125817805266": {
+			"parent": "419e1b4491b4251",
+			"name": "ActStateCondition02",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true },
+				"m_fMinDuration": { "type": "float32", "value": 1 }
+			}
+		},
+		"e315974349bec8df": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Actor 4",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/potentialinfectedtargetlinear.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Unpaused": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"HandlerResumeSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_fConditionValidDistance": { "type": "float32", "value": 30 },
+				"EscapingContractsEvent": { "type": "ZString", "value": "InfectedEscaping" },
+				"EscapedContractsEvent": { "type": "ZString", "value": "InfectedEscaped" },
+				"m_rActBehavior": { "type": "SEntityTemplateReference", "value": null },
+				"EnabledEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"ActiveHintDelay": { "type": "int32", "value": 60000 },
+				"UnpausedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+				"EscapeReceivers": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"CanFailMission": { "type": "SEntityTemplateReference", "value": null },
+				"EscapeSuccesful": { "type": "SEntityTemplateReference", "value": null }
+			},
+			"outputCopying": { "OnEscaping": { "OnEscaping": ["a2df086fb1943ea4"] } }
+		},
+		"2f0e5559da6b3613": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Domain",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethintintel.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint1Enabled" },
+						{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint1Enabled" },
+						{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint1Enabled" },
+						{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint1Enabled" }
+					]
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint1Unpaused" },
+						{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint1Unpaused" },
+						{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint1Unpaused" },
+						{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint1Unpaused" }
+					]
+				},
+				"HandlerSpeech": { "type": "ZRuntimeResourceID", "value": null },
+				"m_objectiveGuid": { "type": "ZGuid", "value": "00000000-0000-0000-0000-000000000000" },
+				"m_pHintTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sHintTextFallback": { "type": "ZString", "value": "" },
+				"Timeout": { "type": "int32", "value": 20000 },
+				"Acknowledged": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"AcknowledgedEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" }
+			},
+			"events": {
+				"OnDone": { "NextHint": ["bf4f9bcfa8d1d8b6", "28fd65a5e2585622", "c2821728caf91c82", "e315974349bec8df"] }
+			}
+		},
+		"8159326fda577da4": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition05",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"7cba91b4727258a8": {
+			"parent": "419e1b4491b4251",
+			"name": "ActStateCondition05",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"b7984ff3034dc8c7": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition09",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"a29e0b4ab4765303": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Live hint 1",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				},
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"DramaSituationPriority": { "type": "int32", "value": 10 },
+				"Actor_ZLinkedEntity": { "type": "SEntityTemplateReference", "value": null, "postInit": true }
+			},
+			"events": { "OnDone": { "NextHint": ["bf4f9bcfa8d1d8b6"] } },
+			"subsets": { "Replicable": ["a2df086fb1943ea4"] }
+		},
+		"c3ac5aca1394afdd": {
+			"parent": "85ac4e95ef549498",
+			"name": "ActStateCondition01",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": { "type": "bool", "value": true },
+				"m_bIsStopping": { "type": "bool", "value": true }
+			}
+		},
+		"43bd6fd4efce567": {
+			"parent": "a2df086fb1943ea4",
+			"name": "Live hint 4",
+			"factory": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/scenes/missions/colorado_2/helpers_rabies.template?/targethint_randomlive.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Enabled": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Unpaused": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				},
+				"Actor": { "type": "SEntityTemplateReference", "value": null },
+				"DramaSituationPriority": { "type": "int32", "value": 10 },
+				"Actor_ZLinkedEntity": { "type": "SEntityTemplateReference", "value": null, "postInit": true }
+			},
+			"events": { "OnDone": { "NextHint": ["e315974349bec8df"] } },
+			"subsets": { "Replicable": ["a2df086fb1943ea4"] }
+		},
+		"a2df086fb1943ea4": {
+			"parent": null,
+			"name": "PotentialInfectedTargetDomain",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": {
+				"NextHint": { "NextHint": ["bf4f9bcfa8d1d8b6", "28fd65a5e2585622", "c2821728caf91c82", "e315974349bec8df"] }
+			},
+			"propertyAliases": {
+				"Enabled": [
+					{ "originalProperty": "Enabled", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "Enabled", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "Enabled", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "Enabled", "originalEntity": "e315974349bec8df" }
+				],
+				"Unpaused": [
+					{ "originalProperty": "Unpaused", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "Unpaused", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "Unpaused", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "Unpaused", "originalEntity": "bf4f9bcfa8d1d8b6" }
+				],
+				"Actor1": [
+					{ "originalProperty": "Actor", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "Actor", "originalEntity": "a29e0b4ab4765303" }
+				],
+				"Actor2": [
+					{ "originalProperty": "Actor", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "Actor", "originalEntity": "e02f29a689d656f" }
+				],
+				"Actor3": [
+					{ "originalProperty": "Actor", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "Actor", "originalEntity": "8f92debdae08c1ba" }
+				],
+				"Actor4": [
+					{ "originalProperty": "Actor", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "Actor", "originalEntity": "43bd6fd4efce567" }
+				],
+				"Hint1HandlerSpeech": [{ "originalProperty": "HandlerSpeech", "originalEntity": "419e1b4491b4251" }],
+				"Hint2HandlerSpeech": [{ "originalProperty": "HandlerSpeech", "originalEntity": "85792ed91eba9f85" }],
+				"Hint3HandlerSpeech": [{ "originalProperty": "HandlerSpeech", "originalEntity": "85ac4e95ef549498" }],
+				"Hint4HandlerSpeech": [{ "originalProperty": "HandlerSpeech", "originalEntity": "ff9d06ab9f059b63" }],
+				"Hint1IntelHeadlineResource": [
+					{ "originalProperty": "IntelHeadlineResource", "originalEntity": "419e1b4491b4251" }
+				],
+				"Hint1IntelTextResource": [{ "originalProperty": "IntelTextResource", "originalEntity": "419e1b4491b4251" }],
+				"Hint1IntelImage": [{ "originalProperty": "IntelImage", "originalEntity": "419e1b4491b4251" }],
+				"Hint2IntelHeadlineResource": [
+					{ "originalProperty": "IntelHeadlineResource", "originalEntity": "85792ed91eba9f85" }
+				],
+				"Hint2IntelTextResource": [
+					{ "originalProperty": "IntelTextResource", "originalEntity": "85792ed91eba9f85" }
+				],
+				"Hint2IntelImage": [{ "originalProperty": "IntelImage", "originalEntity": "85792ed91eba9f85" }],
+				"Hint3IntelHeadlineResource": [
+					{ "originalProperty": "IntelHeadlineResource", "originalEntity": "85ac4e95ef549498" }
+				],
+				"Hint3IntelTextResource": [
+					{ "originalProperty": "IntelTextResource", "originalEntity": "85ac4e95ef549498" }
+				],
+				"Hint3IntelImage": [{ "originalProperty": "IntelImage", "originalEntity": "85ac4e95ef549498" }],
+				"Hint4IntelHeadlineResource": [
+					{ "originalProperty": "IntelHeadlineResource", "originalEntity": "ff9d06ab9f059b63" }
+				],
+				"Hint4IntelTextResource": [
+					{ "originalProperty": "IntelTextResource", "originalEntity": "ff9d06ab9f059b63" }
+				],
+				"Hint4IntelImage": [{ "originalProperty": "IntelImage", "originalEntity": "ff9d06ab9f059b63" }],
+				"Hint1Confirmed": [{ "originalProperty": "Confirmed", "originalEntity": "419e1b4491b4251" }],
+				"Hint2Confirmed": [{ "originalProperty": "Confirmed", "originalEntity": "85792ed91eba9f85" }],
+				"Hint3Confirmed": [{ "originalProperty": "Confirmed", "originalEntity": "85ac4e95ef549498" }],
+				"Hint4Confirmed": [{ "originalProperty": "Confirmed", "originalEntity": "ff9d06ab9f059b63" }],
+				"DomainHintHandlerSpeech": [{ "originalProperty": "HandlerSpeech", "originalEntity": "2f0e5559da6b3613" }],
+				"DomainHintIntelHeadlineResource": [
+					{ "originalProperty": "IntelHeadlineResource", "originalEntity": "2f0e5559da6b3613" }
+				],
+				"DomainHintIntelTextResource": [
+					{ "originalProperty": "IntelTextResource", "originalEntity": "2f0e5559da6b3613" }
+				],
+				"DomainHintIntelImage": [{ "originalProperty": "IntelImage", "originalEntity": "2f0e5559da6b3613" }],
+				"DomainHintConfirmed": [{ "originalProperty": "Confirmed", "originalEntity": "2f0e5559da6b3613" }],
+				"HandlerResumeSpeech": [
+					{ "originalProperty": "HandlerResumeSpeech", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "HandlerResumeSpeech", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "HandlerResumeSpeech", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "HandlerResumeSpeech", "originalEntity": "e315974349bec8df" }
+				],
+				"Hint1TextResource": [{ "originalProperty": "m_pHintTextResource", "originalEntity": "419e1b4491b4251" }],
+				"Hint1Text": [{ "originalProperty": "m_sHintTextFallback", "originalEntity": "419e1b4491b4251" }],
+				"Hint2TextResource": [{ "originalProperty": "m_pHintTextResource", "originalEntity": "85792ed91eba9f85" }],
+				"Hint2Text": [{ "originalProperty": "m_sHintTextFallback", "originalEntity": "85792ed91eba9f85" }],
+				"Hint3TextResource": [{ "originalProperty": "m_pHintTextResource", "originalEntity": "85ac4e95ef549498" }],
+				"Hint3Text": [{ "originalProperty": "m_sHintTextFallback", "originalEntity": "85ac4e95ef549498" }],
+				"Hint4TextResource": [{ "originalProperty": "m_pHintTextResource", "originalEntity": "ff9d06ab9f059b63" }],
+				"Hint4Text": [{ "originalProperty": "m_sHintTextFallback", "originalEntity": "ff9d06ab9f059b63" }],
+				"m_objectiveGuid": [
+					{ "originalProperty": "m_objectiveGuid", "originalEntity": "419e1b4491b4251" },
+					{ "originalProperty": "m_objectiveGuid", "originalEntity": "85792ed91eba9f85" },
+					{ "originalProperty": "m_objectiveGuid", "originalEntity": "85ac4e95ef549498" },
+					{ "originalProperty": "m_objectiveGuid", "originalEntity": "ff9d06ab9f059b63" },
+					{ "originalProperty": "m_objectiveGuid", "originalEntity": "2f0e5559da6b3613" }
+				],
+				"DomainHintTextResource": [
+					{ "originalProperty": "m_pHintTextResource", "originalEntity": "2f0e5559da6b3613" }
+				],
+				"DomainHintText": [{ "originalProperty": "m_sHintTextFallback", "originalEntity": "2f0e5559da6b3613" }],
+				"m_fConditionValidDistance": [
+					{ "originalProperty": "m_fConditionValidDistance", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "m_fConditionValidDistance", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "m_fConditionValidDistance", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "m_fConditionValidDistance", "originalEntity": "bf4f9bcfa8d1d8b6" }
+				],
+				"EscapingContractsEvent": [
+					{ "originalProperty": "EscapingContractsEvent", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "EscapingContractsEvent", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "EscapingContractsEvent", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "EscapingContractsEvent", "originalEntity": "bf4f9bcfa8d1d8b6" }
+				],
+				"EscapedContractsEvent": [
+					{ "originalProperty": "EscapedContractsEvent", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "EscapedContractsEvent", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "EscapedContractsEvent", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "EscapedContractsEvent", "originalEntity": "bf4f9bcfa8d1d8b6" }
+				],
+				"Actor1EscapePoint": [{ "originalProperty": "m_rActBehavior", "originalEntity": "bf4f9bcfa8d1d8b6" }],
+				"Actor2EscapePoint": [{ "originalProperty": "m_rActBehavior", "originalEntity": "28fd65a5e2585622" }],
+				"Actor3EscapePoint": [{ "originalProperty": "m_rActBehavior", "originalEntity": "c2821728caf91c82" }],
+				"Actor4EscapePoint": [{ "originalProperty": "m_rActBehavior", "originalEntity": "e315974349bec8df" }],
+				"TextHintsEnabled": [
+					{ "originalProperty": "TextHintEnabled", "originalEntity": "85ac4e95ef549498" },
+					{ "originalProperty": "TextHintEnabled", "originalEntity": "ff9d06ab9f059b63" },
+					{ "originalProperty": "TextHintEnabled", "originalEntity": "85792ed91eba9f85" },
+					{ "originalProperty": "TextHintEnabled", "originalEntity": "2f0e5559da6b3613" },
+					{ "originalProperty": "TextHintEnabled", "originalEntity": "419e1b4491b4251" }
+				],
+				"EnabledEvaluation": [
+					{ "originalProperty": "EnabledEvaluation", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "EnabledEvaluation", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "EnabledEvaluation", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "EnabledEvaluation", "originalEntity": "bf4f9bcfa8d1d8b6" }
+				],
+				"DomainHintTimeout": [{ "originalProperty": "Timeout", "originalEntity": "2f0e5559da6b3613" }],
+				"Hint1Timeout": [{ "originalProperty": "Timeout", "originalEntity": "419e1b4491b4251" }],
+				"Hint2Timeout": [{ "originalProperty": "Timeout", "originalEntity": "85792ed91eba9f85" }],
+				"Hint3Timeout": [{ "originalProperty": "Timeout", "originalEntity": "85ac4e95ef549498" }],
+				"Hint4Timeout": [{ "originalProperty": "Timeout", "originalEntity": "ff9d06ab9f059b63" }],
+				"ActiveHintDelay": [
+					{ "originalProperty": "ActiveHintDelay", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "ActiveHintDelay", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "ActiveHintDelay", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "ActiveHintDelay", "originalEntity": "e315974349bec8df" }
+				],
+				"DomainHintAcknowledged": [{ "originalProperty": "Acknowledged", "originalEntity": "2f0e5559da6b3613" }],
+				"Hint1Acknowledged": [{ "originalProperty": "Acknowledged", "originalEntity": "419e1b4491b4251" }],
+				"Hint2Acknowledged": [{ "originalProperty": "Acknowledged", "originalEntity": "85792ed91eba9f85" }],
+				"Hint3Acknowledged": [{ "originalProperty": "Acknowledged", "originalEntity": "85ac4e95ef549498" }],
+				"Hint4Acknowledged": [{ "originalProperty": "Acknowledged", "originalEntity": "ff9d06ab9f059b63" }],
+				"UnpausedEvaluation": [
+					{ "originalProperty": "UnpausedEvaluation", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "UnpausedEvaluation", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "UnpausedEvaluation", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "UnpausedEvaluation", "originalEntity": "e315974349bec8df" }
+				],
+				"EscapeIconVisibilityRange": [
+					{ "originalProperty": "EscapeIconVisibilityRange", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "EscapeIconVisibilityRange", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "EscapeIconVisibilityRange", "originalEntity": "e315974349bec8df" },
+					{ "originalProperty": "EscapeIconVisibilityRange", "originalEntity": "bf4f9bcfa8d1d8b6" }
+				],
+				"DomainHintAcknowledgedEvaluation": [
+					{ "originalProperty": "AcknowledgedEvaluation", "originalEntity": "2f0e5559da6b3613" }
+				],
+				"Hint1AcknowledgedEvaluation": [
+					{ "originalProperty": "AcknowledgedEvaluation", "originalEntity": "419e1b4491b4251" }
+				],
+				"Hint2AcknowledgedEvaluation": [
+					{ "originalProperty": "AcknowledgedEvaluation", "originalEntity": "85792ed91eba9f85" }
+				],
+				"Hint3AcknowledgedEvaluation": [
+					{ "originalProperty": "AcknowledgedEvaluation", "originalEntity": "85ac4e95ef549498" }
+				],
+				"Hint4AcknowledgedEvaluation": [
+					{ "originalProperty": "AcknowledgedEvaluation", "originalEntity": "ff9d06ab9f059b63" }
+				],
+				"Actor1_ZLinkedEntity": [
+					{ "originalProperty": "Actor_ZLinkedEntity", "originalEntity": "a29e0b4ab4765303" }
+				],
+				"Actor2_ZLinkedEntity": [{ "originalProperty": "Actor_ZLinkedEntity", "originalEntity": "e02f29a689d656f" }],
+				"Actor3_ZLinkedEntity": [
+					{ "originalProperty": "Actor_ZLinkedEntity", "originalEntity": "8f92debdae08c1ba" }
+				],
+				"Actor4_ZLinkedEntity": [{ "originalProperty": "Actor_ZLinkedEntity", "originalEntity": "43bd6fd4efce567" }],
+				"DramaSituationPriority": [
+					{ "originalProperty": "DramaSituationPriority", "originalEntity": "8f92debdae08c1ba" },
+					{ "originalProperty": "DramaSituationPriority", "originalEntity": "43bd6fd4efce567" },
+					{ "originalProperty": "DramaSituationPriority", "originalEntity": "e02f29a689d656f" },
+					{ "originalProperty": "DramaSituationPriority", "originalEntity": "a29e0b4ab4765303" }
+				],
+				"Actor1EscapeReceivers": [{ "originalProperty": "EscapeReceivers", "originalEntity": "bf4f9bcfa8d1d8b6" }],
+				"Actor2EscapeReceivers": [{ "originalProperty": "EscapeReceivers", "originalEntity": "28fd65a5e2585622" }],
+				"Actor3EscapeReceivers": [{ "originalProperty": "EscapeReceivers", "originalEntity": "c2821728caf91c82" }],
+				"Actor4EscapeReceivers": [{ "originalProperty": "EscapeReceivers", "originalEntity": "e315974349bec8df" }],
+				"CanFailMission": [
+					{ "originalProperty": "CanFailMission", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "CanFailMission", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "CanFailMission", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "CanFailMission", "originalEntity": "e315974349bec8df" }
+				],
+				"EscapeSuccesful": [
+					{ "originalProperty": "EscapeSuccesful", "originalEntity": "bf4f9bcfa8d1d8b6" },
+					{ "originalProperty": "EscapeSuccesful", "originalEntity": "28fd65a5e2585622" },
+					{ "originalProperty": "EscapeSuccesful", "originalEntity": "c2821728caf91c82" },
+					{ "originalProperty": "EscapeSuccesful", "originalEntity": "e315974349bec8df" }
+				]
+			},
+			"exposedEntities": {
+				"DomainHintActive": { "isArray": false, "refersTo": ["2f0e5559da6b3613"] },
+				"Hint1Active": { "isArray": false, "refersTo": ["419e1b4491b4251"] },
+				"Hint2Active": { "isArray": false, "refersTo": ["85792ed91eba9f85"] },
+				"Hint3Active": { "isArray": false, "refersTo": ["85ac4e95ef549498"] },
+				"Hint4Active": { "isArray": false, "refersTo": ["ff9d06ab9f059b63"] },
+				"Actor1LiveHintEnabled": {
+					"isArray": false,
+					"refersTo": [{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Actor1LiveHintUnpaused": {
+					"isArray": false,
+					"refersTo": [{ "ref": "bf4f9bcfa8d1d8b6", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				},
+				"Actor2LiveHintEnabled": {
+					"isArray": false,
+					"refersTo": [{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Actor2LiveHintUnpaused": {
+					"isArray": false,
+					"refersTo": [{ "ref": "28fd65a5e2585622", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				},
+				"Actor3LiveHintEnabled": {
+					"isArray": false,
+					"refersTo": [{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Actor3LiveHintUnpaused": {
+					"isArray": false,
+					"refersTo": [{ "ref": "c2821728caf91c82", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				},
+				"Actor4LiveHintEnabled": {
+					"isArray": false,
+					"refersTo": [{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint4Enabled" }]
+				},
+				"Actor4LiveHintUnpaused": {
+					"isArray": false,
+					"refersTo": [{ "ref": "e315974349bec8df", "externalScene": null, "exposedEntity": "Hint4Unpaused" }]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

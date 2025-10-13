@@ -1249,9 +1249,7 @@
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1290,9 +1288,7 @@
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1332,9 +1328,7 @@
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1874,14 +1868,12 @@
 						"data": [
 							[0, 1, 0, 0, 0, 0, 0, 1],
 							[
-								0.13976240158081055, 1, 0, 0,
-								0.21460182964801788, -0.7146018147468567,
+								0.13976240158081055, 1, 0, 0, 0.21460182964801788, -0.7146018147468567,
 								-4.8090179775077144e-17, 1
 							],
 							[
-								0.5698812007904053, 0.5, 0, 0,
-								0.21460182964801788, 0.07079632580280304,
-								-0.7853981852531433, 0.5
+								0.5698812007904053, 0.5, 0, 0, 0.21460182964801788, 0.07079632580280304, -0.7853981852531433,
+								0.5
 							],
 							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
@@ -2501,14 +2493,12 @@
 						"data": [
 							[0, 1, 0, 0, 0, 0, 0, 1],
 							[
-								0.13976240158081055, 1, 0, 0,
-								0.21460182964801788, -0.7146018147468567,
+								0.13976240158081055, 1, 0, 0, 0.21460182964801788, -0.7146018147468567,
 								-4.8090179775077144e-17, 1
 							],
 							[
-								0.5698812007904053, 0.5, 0, 0,
-								0.21460182964801788, 0.07079632580280304,
-								-0.7853981852531433, 0.5
+								0.5698812007904053, 0.5, 0, 0, 0.21460182964801788, 0.07079632580280304, -0.7853981852531433,
+								0.5
 							],
 							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
@@ -4429,11 +4419,7 @@
 			"properties": {
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_THUGES01",
-						"eAVV_THUGES02",
-						"eAVV_THUGES03"
-					]
+					"value": ["eAVV_THUGES01", "eAVV_THUGES02", "eAVV_THUGES03"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",

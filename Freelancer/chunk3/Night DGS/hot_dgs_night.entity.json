@@ -9014,9 +9014,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"33c733b6024074f5"
-					],
+					"value": ["33c733b6024074f5"],
 					"postInit": true
 				}
 			}
@@ -9212,9 +9210,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ff717e64b5edd5bc"
-					],
+					"value": ["ff717e64b5edd5bc"],
 					"postInit": true
 				}
 			}
@@ -9406,9 +9402,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d496a203f9d0ad42"
-					],
+					"value": ["d496a203f9d0ad42"],
 					"postInit": true
 				}
 			}
@@ -9604,9 +9598,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f911c501bec702f8"
-					],
+					"value": ["f911c501bec702f8"],
 					"postInit": true
 				}
 			}
@@ -9802,9 +9794,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6d90a1170bdbc097"
-					],
+					"value": ["6d90a1170bdbc097"],
 					"postInit": true
 				}
 			}
@@ -9996,9 +9986,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6c9103276ab4c209"
-					],
+					"value": ["6c9103276ab4c209"],
 					"postInit": true
 				}
 			}
@@ -10194,9 +10182,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"27ab09030a91d415"
-					],
+					"value": ["27ab09030a91d415"],
 					"postInit": true
 				}
 			}
@@ -10392,9 +10378,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"42c72a24c463699b"
-					],
+					"value": ["42c72a24c463699b"],
 					"postInit": true
 				}
 			}
@@ -10586,9 +10570,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2880da080338aabb"
-					],
+					"value": ["2880da080338aabb"],
 					"postInit": true
 				}
 			}
@@ -10784,9 +10766,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f55002f91cf32ae4"
-					],
+					"value": ["f55002f91cf32ae4"],
 					"postInit": true
 				}
 			}
@@ -10982,9 +10962,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"39018aba1a02638d"
-					],
+					"value": ["39018aba1a02638d"],
 					"postInit": true
 				}
 			}
@@ -11176,9 +11154,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"05aaea857c32baef"
-					],
+					"value": ["05aaea857c32baef"],
 					"postInit": true
 				}
 			}
@@ -11374,9 +11350,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8f8932874d77859e"
-					],
+					"value": ["8f8932874d77859e"],
 					"postInit": true
 				}
 			}
@@ -11572,9 +11546,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ab79d068e552e975"
-					],
+					"value": ["ab79d068e552e975"],
 					"postInit": true
 				}
 			}
@@ -11766,9 +11738,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"705059bf4ac8449c"
-					],
+					"value": ["705059bf4ac8449c"],
 					"postInit": true
 				}
 			}
@@ -11964,9 +11934,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4000bde52ee0b151"
-					],
+					"value": ["4000bde52ee0b151"],
 					"postInit": true
 				}
 			}
@@ -12162,9 +12130,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"40243023f2d0be1a"
-					],
+					"value": ["40243023f2d0be1a"],
 					"postInit": true
 				}
 			}
@@ -12356,9 +12322,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"135a7d299edfed98"
-					],
+					"value": ["135a7d299edfed98"],
 					"postInit": true
 				}
 			}
@@ -12554,9 +12518,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"37578b254f15b167"
-					],
+					"value": ["37578b254f15b167"],
 					"postInit": true
 				}
 			}
@@ -12752,9 +12714,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a6358e23414c9ab3"
-					],
+					"value": ["a6358e23414c9ab3"],
 					"postInit": true
 				}
 			}
@@ -12946,9 +12906,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee96666a78ab7b13"
-					],
+					"value": ["ee96666a78ab7b13"],
 					"postInit": true
 				}
 			}
@@ -13144,9 +13102,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d20d252149531655"
-					],
+					"value": ["d20d252149531655"],
 					"postInit": true
 				}
 			}
@@ -13338,9 +13294,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fbeadef3f3ae2f10"
-					],
+					"value": ["fbeadef3f3ae2f10"],
 					"postInit": true
 				}
 			}
@@ -13536,9 +13490,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"884809179c9bdd1f"
-					],
+					"value": ["884809179c9bdd1f"],
 					"postInit": true
 				}
 			}
@@ -13730,9 +13682,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cde146bbf9e6a4aa"
-					],
+					"value": ["cde146bbf9e6a4aa"],
 					"postInit": true
 				}
 			}
@@ -13928,9 +13878,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c1c987bea5d132b7"
-					],
+					"value": ["c1c987bea5d132b7"],
 					"postInit": true
 				}
 			}
@@ -14122,9 +14070,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fba7a641173785a2"
-					],
+					"value": ["fba7a641173785a2"],
 					"postInit": true
 				}
 			}
@@ -14320,9 +14266,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b84d8fa40d9f0f4b"
-					],
+					"value": ["b84d8fa40d9f0f4b"],
 					"postInit": true
 				}
 			}
@@ -14514,9 +14458,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"aad0a3d7db44c842"
-					],
+					"value": ["aad0a3d7db44c842"],
 					"postInit": true
 				}
 			}
@@ -14712,9 +14654,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"42b1847ed7fb17b7"
-					],
+					"value": ["42b1847ed7fb17b7"],
 					"postInit": true
 				}
 			}
@@ -14910,9 +14850,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e07db148e83fdad6"
-					],
+					"value": ["e07db148e83fdad6"],
 					"postInit": true
 				}
 			}
@@ -15108,9 +15046,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1e971fa22e50dbed"
-					],
+					"value": ["1e971fa22e50dbed"],
 					"postInit": true
 				}
 			}
@@ -15306,9 +15242,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1af628fb0c1d0207"
-					],
+					"value": ["1af628fb0c1d0207"],
 					"postInit": true
 				}
 			}
@@ -15504,9 +15438,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5018b59cc36ed44c"
-					],
+					"value": ["5018b59cc36ed44c"],
 					"postInit": true
 				}
 			}
@@ -15702,9 +15634,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"322c4627e4919479"
-					],
+					"value": ["322c4627e4919479"],
 					"postInit": true
 				}
 			}
@@ -15900,9 +15830,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"222c6ff6af171f2b"
-					],
+					"value": ["222c6ff6af171f2b"],
 					"postInit": true
 				}
 			}
@@ -16098,9 +16026,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b32e5bc0d3262907"
-					],
+					"value": ["b32e5bc0d3262907"],
 					"postInit": true
 				}
 			}
@@ -16296,9 +16222,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"23f9fbccad101644"
-					],
+					"value": ["23f9fbccad101644"],
 					"postInit": true
 				}
 			}
@@ -16490,9 +16414,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ab837e3db5594420"
-					],
+					"value": ["ab837e3db5594420"],
 					"postInit": true
 				}
 			}
@@ -16688,9 +16610,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"96982be9f3fb472f"
-					],
+					"value": ["96982be9f3fb472f"],
 					"postInit": true
 				}
 			}
@@ -16886,9 +16806,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8d13305078cc0897"
-					],
+					"value": ["8d13305078cc0897"],
 					"postInit": true
 				}
 			}
@@ -17084,9 +17002,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e260aefa7bf3343a"
-					],
+					"value": ["e260aefa7bf3343a"],
 					"postInit": true
 				}
 			}
@@ -17282,9 +17198,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9bf0203cbaae6f43"
-					],
+					"value": ["9bf0203cbaae6f43"],
 					"postInit": true
 				}
 			}
@@ -17476,9 +17390,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c32c506420103011"
-					],
+					"value": ["c32c506420103011"],
 					"postInit": true
 				}
 			}
@@ -17674,9 +17586,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3aa23e6396ed831e"
-					],
+					"value": ["3aa23e6396ed831e"],
 					"postInit": true
 				}
 			}
@@ -17872,9 +17782,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f8c58426948e9845"
-					],
+					"value": ["f8c58426948e9845"],
 					"postInit": true
 				}
 			}
@@ -18070,9 +17978,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1c8ddc33393b2d01"
-					],
+					"value": ["1c8ddc33393b2d01"],
 					"postInit": true
 				}
 			}
@@ -18268,9 +18174,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"527e9c3810bb6b9d"
-					],
+					"value": ["527e9c3810bb6b9d"],
 					"postInit": true
 				}
 			}
@@ -18466,9 +18370,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9e5bffec55baf665"
-					],
+					"value": ["9e5bffec55baf665"],
 					"postInit": true
 				}
 			}
@@ -18660,9 +18562,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"081c7cd215acbae8"
-					],
+					"value": ["081c7cd215acbae8"],
 					"postInit": true
 				}
 			}
@@ -18858,9 +18758,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"84972321f736a260"
-					],
+					"value": ["84972321f736a260"],
 					"postInit": true
 				}
 			}
@@ -19056,9 +18954,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"353c18a56a0bd0b9"
-					],
+					"value": ["353c18a56a0bd0b9"],
 					"postInit": true
 				}
 			}
@@ -19379,9 +19275,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"95f48200cb51c020"
-					],
+					"value": ["95f48200cb51c020"],
 					"postInit": true
 				}
 			}
@@ -19448,9 +19342,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"368bd596191041d1"
-					],
+					"value": ["368bd596191041d1"],
 					"postInit": true
 				}
 			}
@@ -19646,9 +19538,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5cd8dc53e062466e"
-					],
+					"value": ["5cd8dc53e062466e"],
 					"postInit": true
 				}
 			}
@@ -19844,9 +19734,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"baf8caeae44329e5"
-					],
+					"value": ["baf8caeae44329e5"],
 					"postInit": true
 				}
 			}
@@ -20042,9 +19930,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3f408fa1aa4ead3b"
-					],
+					"value": ["3f408fa1aa4ead3b"],
 					"postInit": true
 				}
 			}
@@ -20236,9 +20122,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1fe966c05367297c"
-					],
+					"value": ["1fe966c05367297c"],
 					"postInit": true
 				}
 			}
@@ -22211,9 +22095,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"950b91a4af550f95"
-					],
+					"value": ["950b91a4af550f95"],
 					"postInit": true
 				}
 			}
@@ -22433,9 +22315,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4265dc3a0d5d11d3"
-					]
+					"value": ["4265dc3a0d5d11d3"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -22514,9 +22394,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"27b99f7ac1686a75"
-					],
+					"value": ["27b99f7ac1686a75"],
 					"postInit": true
 				}
 			}
@@ -22736,9 +22614,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a94a7085cbc93690"
-					]
+					"value": ["a94a7085cbc93690"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -22817,9 +22693,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"00c2d0b92c571f0a"
-					],
+					"value": ["00c2d0b92c571f0a"],
 					"postInit": true
 				}
 			}
@@ -23039,9 +22913,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6f0ef960bd5e4b65"
-					]
+					"value": ["6f0ef960bd5e4b65"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -23120,9 +22992,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8f8636753c67bf0d"
-					],
+					"value": ["8f8636753c67bf0d"],
 					"postInit": true
 				}
 			}
@@ -23342,9 +23212,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4a4959d6dab1503d"
-					]
+					"value": ["4a4959d6dab1503d"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -23423,9 +23291,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"989f748ed52c92a8"
-					],
+					"value": ["989f748ed52c92a8"],
 					"postInit": true
 				}
 			}
@@ -23645,9 +23511,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"466a194f351c4dee"
-					]
+					"value": ["466a194f351c4dee"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -23726,9 +23590,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4c176f63bed55184"
-					],
+					"value": ["4c176f63bed55184"],
 					"postInit": true
 				}
 			}
@@ -23948,9 +23810,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a2335051d64005d1"
-					]
+					"value": ["a2335051d64005d1"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -24029,9 +23889,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f2732c01ce4dca5d"
-					],
+					"value": ["f2732c01ce4dca5d"],
 					"postInit": true
 				}
 			}
@@ -24251,9 +24109,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d69ac6963a125f24"
-					]
+					"value": ["d69ac6963a125f24"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -24332,9 +24188,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9b3a83d7f70e9893"
-					],
+					"value": ["9b3a83d7f70e9893"],
 					"postInit": true
 				}
 			}
@@ -24554,9 +24408,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2e45d41d1a6c528f"
-					]
+					"value": ["2e45d41d1a6c528f"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -24635,9 +24487,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cbc9e933cb3f2f34"
-					],
+					"value": ["cbc9e933cb3f2f34"],
 					"postInit": true
 				}
 			}
@@ -24857,9 +24707,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e30ade3e4e6a6501"
-					]
+					"value": ["e30ade3e4e6a6501"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -24938,9 +24786,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5c5bf0683ebe24bc"
-					],
+					"value": ["5c5bf0683ebe24bc"],
 					"postInit": true
 				}
 			}
@@ -25160,9 +25006,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a3c97c22fed313b3"
-					]
+					"value": ["a3c97c22fed313b3"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -25241,9 +25085,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5cd14f7a6e051625"
-					],
+					"value": ["5cd14f7a6e051625"],
 					"postInit": true
 				}
 			}
@@ -25463,9 +25305,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b442e7f6f1acf546"
-					]
+					"value": ["b442e7f6f1acf546"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -25544,9 +25384,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fcc178ae8fa1db16"
-					],
+					"value": ["fcc178ae8fa1db16"],
 					"postInit": true
 				}
 			}
@@ -25766,9 +25604,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9417c6e476cffb18"
-					]
+					"value": ["9417c6e476cffb18"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -25847,9 +25683,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d4d538d36c242d7c"
-					],
+					"value": ["d4d538d36c242d7c"],
 					"postInit": true
 				}
 			}
@@ -26069,9 +25903,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"aaf0a2a887620036"
-					]
+					"value": ["aaf0a2a887620036"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -26150,9 +25982,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d67236a658b38fc5"
-					],
+					"value": ["d67236a658b38fc5"],
 					"postInit": true
 				}
 			}
@@ -26372,9 +26202,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0161bd6ba475ef37"
-					]
+					"value": ["0161bd6ba475ef37"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -26453,9 +26281,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b163b329fc258774"
-					],
+					"value": ["b163b329fc258774"],
 					"postInit": true
 				}
 			}
@@ -26675,9 +26501,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cf5ecd5b5c2f682b"
-					]
+					"value": ["cf5ecd5b5c2f682b"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -26756,9 +26580,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d23497c627424524"
-					],
+					"value": ["d23497c627424524"],
 					"postInit": true
 				}
 			}
@@ -26978,9 +26800,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bd25ebb3bcf12fd8"
-					]
+					"value": ["bd25ebb3bcf12fd8"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -27059,9 +26879,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d568e8dc85cd6eed"
-					],
+					"value": ["d568e8dc85cd6eed"],
 					"postInit": true
 				}
 			}
@@ -27281,9 +27099,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7e4f79d1821826b3"
-					]
+					"value": ["7e4f79d1821826b3"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -27362,9 +27178,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2136b6be5eaa389f"
-					],
+					"value": ["2136b6be5eaa389f"],
 					"postInit": true
 				}
 			}
@@ -27584,9 +27398,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fc6969639a7b0b0a"
-					]
+					"value": ["fc6969639a7b0b0a"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -27665,9 +27477,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c6d5400b2e375e58"
-					],
+					"value": ["c6d5400b2e375e58"],
 					"postInit": true
 				}
 			}
@@ -27887,9 +27697,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1d623263988a5c72"
-					]
+					"value": ["1d623263988a5c72"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -27968,9 +27776,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"908446bf913d2a4e"
-					],
+					"value": ["908446bf913d2a4e"],
 					"postInit": true
 				}
 			}
@@ -28190,9 +27996,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e8e2a5c5891ca29e"
-					]
+					"value": ["e8e2a5c5891ca29e"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -28271,9 +28075,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d87d85a5bf9504ee"
-					],
+					"value": ["d87d85a5bf9504ee"],
 					"postInit": true
 				}
 			}
@@ -28493,9 +28295,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d47147e64a7b7afb"
-					]
+					"value": ["d47147e64a7b7afb"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -28574,9 +28374,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cbaf066d31d039c1"
-					],
+					"value": ["cbaf066d31d039c1"],
 					"postInit": true
 				}
 			}
@@ -28796,9 +28594,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6f86788e0b820bae"
-					]
+					"value": ["6f86788e0b820bae"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -28828,12 +28624,8 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"GetIndex": [
-						"abcd812edbe58538"
-					],
-					"In": [
-						"abcd2b3baa42ac24"
-					]
+					"GetIndex": ["abcd812edbe58538"],
+					"In": ["abcd2b3baa42ac24"]
 				}
 			}
 		},
@@ -29948,9 +29740,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fbc66003c6026572"
-					],
+					"value": ["fbc66003c6026572"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -38910,9 +38700,7 @@
 				},
 				"HeavyWindBool": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -38986,9 +38774,7 @@
 				},
 				"HeavyWindBool": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -39062,9 +38848,7 @@
 				},
 				"HeavyWindBool": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -39138,9 +38922,7 @@
 				},
 				"HeavyWindBool": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -39214,9 +38996,7 @@
 				},
 				"HeavyWindBool": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -39290,9 +39070,7 @@
 				},
 				"HeavyWindBool": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -39434,22 +39212,16 @@
 				},
 				"m_aVolumes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"events": {
 				"ActivateFX": {
-					"Activate": [
-						"abcdd7f04ea39d73"
-					]
+					"Activate": ["abcdd7f04ea39d73"]
 				},
 				"DeactivateFX": {
-					"Deactivate": [
-						"abcdd7f04ea39d73"
-					]
+					"Deactivate": ["abcdd7f04ea39d73"]
 				}
 			}
 		},
@@ -39472,42 +39244,15 @@
 			},
 			"inputCopying": {
 				"Activate": {
-					"Activate": [
-						"abcd1ce174513894",
-						"abcde14abab3a3e7",
-						"abcd0c3faebfa2b1",
-						"abcdc1e803b5f7c1"
-					],
-					"Enable": [
-						"abcd1243adff58c2",
-						"abcd317158cd307a",
-						"abcdb18100adb6f9"
-					],
-					"TransmitTrue": [
-						"abcdefd2739a2e2c"
-					]
+					"Activate": ["abcd1ce174513894", "abcde14abab3a3e7", "abcd0c3faebfa2b1", "abcdc1e803b5f7c1"],
+					"Enable": ["abcd1243adff58c2", "abcd317158cd307a", "abcdb18100adb6f9"],
+					"TransmitTrue": ["abcdefd2739a2e2c"]
 				},
 				"Deactivate": {
-					"Deactivate": [
-						"abcdc1e803b5f7c1",
-						"abcde14abab3a3e7",
-						"abcd1ce174513894",
-						"abcd0c3faebfa2b1"
-					],
-					"Disable": [
-						"abcdb18100adb6f9",
-						"abcd317158cd307a",
-						"abcd1243adff58c2"
-					],
-					"TransmitFalse": [
-						"abcdefd2739a2e2c"
-					],
-					"Stop2": [
-						"abcd7528cd5b49e6",
-						"abcdb4929245476b",
-						"abcd20ba7ee606fe",
-						"abcdbf50aaa3c0ca"
-					]
+					"Deactivate": ["abcdc1e803b5f7c1", "abcde14abab3a3e7", "abcd1ce174513894", "abcd0c3faebfa2b1"],
+					"Disable": ["abcdb18100adb6f9", "abcd317158cd307a", "abcd1243adff58c2"],
+					"TransmitFalse": ["abcdefd2739a2e2c"],
+					"Stop2": ["abcd7528cd5b49e6", "abcdb4929245476b", "abcd20ba7ee606fe", "abcdbf50aaa3c0ca"]
 				}
 			},
 			"propertyAliases": {
@@ -39607,59 +39352,37 @@
 			},
 			"events": {
 				"ChangeSmokeColorOrange": {
-					"Orange": [
-						"abcda4b0f5dce9d8"
-					]
+					"Orange": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorGreen": {
-					"Green": [
-						"abcda4b0f5dce9d8"
-					]
+					"Green": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorWhite": {
-					"White": [
-						"abcda4b0f5dce9d8"
-					]
+					"White": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorBlue": {
-					"Blue": [
-						"abcda4b0f5dce9d8"
-					]
+					"Blue": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorRed": {
-					"Red": [
-						"abcda4b0f5dce9d8"
-					]
+					"Red": ["abcda4b0f5dce9d8"]
 				},
 				"Audio_1_MainBoom": {
-					"Input": [
-						"abcd187f0624a30a"
-					]
+					"Input": ["abcd187f0624a30a"]
 				},
 				"Audio_2_MainBoom": {
-					"Input": [
-						"abcd187f0624a30a"
-					]
+					"Input": ["abcd187f0624a30a"]
 				},
 				"Audio_3_MainBoom": {
-					"Input": [
-						"abcd187f0624a30a"
-					]
+					"Input": ["abcd187f0624a30a"]
 				},
 				"Audio_4_MainBoom": {
-					"Input": [
-						"abcd187f0624a30a"
-					]
+					"Input": ["abcd187f0624a30a"]
 				},
 				"Audio_SwirlOn": {
-					"Send1": [
-						"abcdb4929245476b"
-					]
+					"Send1": ["abcdb4929245476b"]
 				},
 				"Audio_SwirlOff": {
-					"Stop": [
-						"abcdb4929245476b"
-					]
+					"Stop": ["abcdb4929245476b"]
 				}
 			}
 		},
@@ -39729,9 +39452,7 @@
 			"blueprint": "[assembly:/_pro/effects/templates/fire/fx_fireworks.template?/fx_e_fireworks_smokecolorlogic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"FinalColor": {
-					"ConstantColorRGB_01_Value": [
-						"abcd0ed73ce7e5a4"
-					],
+					"ConstantColorRGB_01_Value": ["abcd0ed73ce7e5a4"],
 					"DiffuseColor": [
 						"abcddadfd4529803",
 						"abcd236115d93725",
@@ -39752,9 +39473,7 @@
 			},
 			"outputCopying": {
 				"FinalColor": {
-					"FinalColor": [
-						"abcdd7f04ea39d73"
-					]
+					"FinalColor": ["abcdd7f04ea39d73"]
 				}
 			}
 		},
@@ -39771,12 +39490,8 @@
 			},
 			"events": {
 				"OnLast": {
-					"Reset": [
-						"abcd380629b3c85c"
-					],
-					"Send": [
-						"abcd6416f479ab6f"
-					]
+					"Reset": ["abcd380629b3c85c"],
+					"Send": ["abcd6416f479ab6f"]
 				}
 			}
 		},
@@ -40099,12 +39814,8 @@
 			},
 			"events": {
 				"OnLast": {
-					"Send": [
-						"abcd6416f479ab6f"
-					],
-					"Reset": [
-						"abcdbff6c764471e"
-					]
+					"Send": ["abcd6416f479ab6f"],
+					"Reset": ["abcdbff6c764471e"]
 				}
 			}
 		},
@@ -40175,12 +39886,8 @@
 			},
 			"events": {
 				"OnLast": {
-					"Reset": [
-						"abcd187f0624a30a"
-					],
-					"Send": [
-						"abcd6416f479ab6f"
-					]
+					"Reset": ["abcd187f0624a30a"],
+					"Send": ["abcd6416f479ab6f"]
 				}
 			}
 		},
@@ -40212,39 +39919,25 @@
 			},
 			"events": {
 				"ChangeSmokeColorOrange": {
-					"Orange": [
-						"abcda4b0f5dce9d8"
-					]
+					"Orange": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorGreen": {
-					"Green": [
-						"abcda4b0f5dce9d8"
-					]
+					"Green": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorWhite": {
-					"White": [
-						"abcda4b0f5dce9d8"
-					]
+					"White": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorBlue": {
-					"Blue": [
-						"abcda4b0f5dce9d8"
-					]
+					"Blue": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorRed": {
-					"Red": [
-						"abcda4b0f5dce9d8"
-					]
+					"Red": ["abcda4b0f5dce9d8"]
 				},
 				"Audio_SwirlOn": {
-					"Send1": [
-						"abcd7528cd5b49e6"
-					]
+					"Send1": ["abcd7528cd5b49e6"]
 				},
 				"Audio_SwirlOff": {
-					"Stop": [
-						"abcd7528cd5b49e6"
-					]
+					"Stop": ["abcd7528cd5b49e6"]
 				},
 				"Audio_LaunchSomething": {
 					"Play_NewFireworks_SomethingLaunched": [
@@ -40261,9 +39954,7 @@
 						"abcd20ba7ee606fe",
 						"abcdbf50aaa3c0ca"
 					],
-					"Input": [
-						"abcda90d7aafe2f5"
-					]
+					"Input": ["abcda90d7aafe2f5"]
 				},
 				"Audio_1_Secondary": {
 					"Play_NewFireworks_MassiveSpray": [
@@ -40296,9 +39987,7 @@
 						"abcd20ba7ee606fe",
 						"abcdbf50aaa3c0ca"
 					],
-					"Input": [
-						"abcda90d7aafe2f5"
-					]
+					"Input": ["abcda90d7aafe2f5"]
 				},
 				"Audio_4_MainBoom": {
 					"Play_NewFireworks_MassiveSpray": [
@@ -40307,9 +39996,7 @@
 						"abcd20ba7ee606fe",
 						"abcdbf50aaa3c0ca"
 					],
-					"Input": [
-						"abcda90d7aafe2f5"
-					]
+					"Input": ["abcda90d7aafe2f5"]
 				},
 				"Audio_4_Secondary": {
 					"Play_NewFireworks_Multiblast": [
@@ -40345,9 +40032,7 @@
 			},
 			"events": {
 				"OnFalse": {
-					"In": [
-						"abcde0d422c5d4fc"
-					]
+					"In": ["abcde0d422c5d4fc"]
 				}
 			}
 		},
@@ -40598,59 +40283,37 @@
 			},
 			"events": {
 				"ChangeSmokeColorOrange": {
-					"Orange": [
-						"abcda4b0f5dce9d8"
-					]
+					"Orange": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorGreen": {
-					"Green": [
-						"abcda4b0f5dce9d8"
-					]
+					"Green": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorWhite": {
-					"White": [
-						"abcda4b0f5dce9d8"
-					]
+					"White": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorBlue": {
-					"Blue": [
-						"abcda4b0f5dce9d8"
-					]
+					"Blue": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorRed": {
-					"Red": [
-						"abcda4b0f5dce9d8"
-					]
+					"Red": ["abcda4b0f5dce9d8"]
 				},
 				"Audio_1_MainBoom": {
-					"Input": [
-						"abcdbff6c764471e"
-					]
+					"Input": ["abcdbff6c764471e"]
 				},
 				"Audio_2_MainBoom": {
-					"Input": [
-						"abcdbff6c764471e"
-					]
+					"Input": ["abcdbff6c764471e"]
 				},
 				"Audio_3_MainBoom": {
-					"Input": [
-						"abcdbff6c764471e"
-					]
+					"Input": ["abcdbff6c764471e"]
 				},
 				"Audio_4_MainBoom": {
-					"Input": [
-						"abcdbff6c764471e"
-					]
+					"Input": ["abcdbff6c764471e"]
 				},
 				"Audio_SwirlOn": {
-					"Send1": [
-						"abcd20ba7ee606fe"
-					]
+					"Send1": ["abcd20ba7ee606fe"]
 				},
 				"Audio_SwirlOff": {
-					"Stop": [
-						"abcd20ba7ee606fe"
-					]
+					"Stop": ["abcd20ba7ee606fe"]
 				}
 			}
 		},
@@ -40661,12 +40324,7 @@
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
 			"events": {
 				"Out": {
-					"Stop2": [
-						"abcd7528cd5b49e6",
-						"abcdb4929245476b",
-						"abcd20ba7ee606fe",
-						"abcdbf50aaa3c0ca"
-					]
+					"Stop2": ["abcd7528cd5b49e6", "abcdb4929245476b", "abcd20ba7ee606fe", "abcdbf50aaa3c0ca"]
 				}
 			}
 		},
@@ -40683,12 +40341,8 @@
 			},
 			"events": {
 				"OnLast": {
-					"Reset": [
-						"abcda90d7aafe2f5"
-					],
-					"Send": [
-						"abcd6416f479ab6f"
-					]
+					"Reset": ["abcda90d7aafe2f5"],
+					"Send": ["abcd6416f479ab6f"]
 				}
 			}
 		},
@@ -40778,9 +40432,7 @@
 			"properties": {
 				"m_aEmitters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdc5d57795d012"
-					]
+					"value": ["abcdc5d57795d012"]
 				}
 			},
 			"propertyAliases": {
@@ -40874,59 +40526,37 @@
 			},
 			"events": {
 				"ChangeSmokeColorOrange": {
-					"Orange": [
-						"abcda4b0f5dce9d8"
-					]
+					"Orange": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorGreen": {
-					"Green": [
-						"abcda4b0f5dce9d8"
-					]
+					"Green": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorWhite": {
-					"White": [
-						"abcda4b0f5dce9d8"
-					]
+					"White": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorBlue": {
-					"Blue": [
-						"abcda4b0f5dce9d8"
-					]
+					"Blue": ["abcda4b0f5dce9d8"]
 				},
 				"ChangeSmokeColorRed": {
-					"Red": [
-						"abcda4b0f5dce9d8"
-					]
+					"Red": ["abcda4b0f5dce9d8"]
 				},
 				"Audio_1_MainBoom": {
-					"Input": [
-						"abcd380629b3c85c"
-					]
+					"Input": ["abcd380629b3c85c"]
 				},
 				"Audio_2_MainBoom": {
-					"Input": [
-						"abcd380629b3c85c"
-					]
+					"Input": ["abcd380629b3c85c"]
 				},
 				"Audio_3_MainBoom": {
-					"Input": [
-						"abcd380629b3c85c"
-					]
+					"Input": ["abcd380629b3c85c"]
 				},
 				"Audio_4_MainBoom": {
-					"Input": [
-						"abcd380629b3c85c"
-					]
+					"Input": ["abcd380629b3c85c"]
 				},
 				"Audio_SwirlOn": {
-					"Send1": [
-						"abcdbf50aaa3c0ca"
-					]
+					"Send1": ["abcdbf50aaa3c0ca"]
 				},
 				"Audio_SwirlOff": {
-					"Stop": [
-						"abcdbf50aaa3c0ca"
-					]
+					"Stop": ["abcdbf50aaa3c0ca"]
 				}
 			}
 		},
@@ -40949,9 +40579,7 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"Trigger": [
-						"abcd8d8f959a0058"
-					]
+					"Trigger": ["abcd8d8f959a0058"]
 				}
 			}
 		},
@@ -40962,14 +40590,10 @@
 			"blueprint": "[modules:/zsoundambienceinsideoutsideswitch.class].pc_entityblueprint",
 			"events": {
 				"Outside": {
-					"Poll": [
-						"abcd025c7c74fb65"
-					]
+					"Poll": ["abcd025c7c74fb65"]
 				},
 				"Inside": {
-					"Poll": [
-						"abcdbb3a8f044b32"
-					]
+					"Poll": ["abcdbb3a8f044b32"]
 				}
 			}
 		},
@@ -41010,12 +40634,8 @@
 			},
 			"events": {
 				"PollValue": {
-					"Input": [
-						"abcd27663ad292a4"
-					],
-					"SetValue": [
-						"abcdf71d93b84217"
-					]
+					"Input": ["abcd27663ad292a4"],
+					"SetValue": ["abcdf71d93b84217"]
 				}
 			}
 		},
@@ -41032,9 +40652,7 @@
 			},
 			"events": {
 				"PollValue": {
-					"Input": [
-						"abcd27663ad292a4"
-					]
+					"Input": ["abcd27663ad292a4"]
 				}
 			}
 		},
@@ -41051,9 +40669,7 @@
 			},
 			"events": {
 				"Output": {
-					"SetValue": [
-						"abcde97d7b5e61cf"
-					]
+					"SetValue": ["abcde97d7b5e61cf"]
 				}
 			}
 		},
@@ -41069,9 +40685,7 @@
 				},
 				"m_aEmitters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcdc5d57795d012"
-					]
+					"value": ["abcdc5d57795d012"]
 				}
 			}
 		},
@@ -41082,9 +40696,7 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"Poll": [
-						"abcd198b8e0de391"
-					]
+					"Poll": ["abcd198b8e0de391"]
 				}
 			}
 		},
@@ -41101,9 +40713,7 @@
 			},
 			"events": {
 				"PollValue": {
-					"Input": [
-						"abcd27663ad292a4"
-					]
+					"Input": ["abcd27663ad292a4"]
 				}
 			}
 		},
@@ -41120,12 +40730,8 @@
 			},
 			"events": {
 				"Out": {
-					"Activate": [
-						"abcdd7f04ea39d73"
-					],
-					"In": [
-						"abcd245607f7df8c"
-					]
+					"Activate": ["abcdd7f04ea39d73"],
+					"In": ["abcd245607f7df8c"]
 				}
 			}
 		},
@@ -41142,12 +40748,8 @@
 			},
 			"events": {
 				"Out": {
-					"Deactivate": [
-						"abcdd7f04ea39d73"
-					],
-					"In": [
-						"abcd2b3baa42ac24"
-					]
+					"Deactivate": ["abcdd7f04ea39d73"],
+					"In": ["abcd2b3baa42ac24"]
 				}
 			}
 		},
@@ -45434,12 +45036,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_smoothsnake.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/ancestral/scenario_smoothsnake.brick].pc_entitytype",
@@ -45469,10 +45067,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

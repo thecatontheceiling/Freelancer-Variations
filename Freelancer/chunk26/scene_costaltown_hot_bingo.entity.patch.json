@@ -1,44 +1,45 @@
 {
-    "tempHash": "0092976042C186C9",
-    "tbluHash": "00EDAB865290BFCA",
-    "patch": [
-        {
-            "RemovePropertyOverrideConnection": {
-                "entity": {
-                    "ref": "c50c6e25c2ff757d",
-                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
-                },
-                "propertyName": "CustomEventStart",
-                "propertyOverride": {
-                    "type": "ZRuntimeResourceID",
-                    "value": null
-                }
-            }
-        },
-        {
-            "RemovePropertyOverrideConnection": {
-                "entity": {
-                    "ref": "1bc19c72512449d9",
-                    "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
-                },
-                "propertyName": "CustomEventStart",
-                "propertyOverride": {
-                    "type": "ZRuntimeResourceID",
-                    "value": null
-                }
-            }
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_guidance.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/override_bingo.brick].pc_entitytype"
-        },
-        {
-            "RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_hot_bingo.brick].pc_entitytype"
-        }],
-    "patchVersion": 6
+	"tempHash": "0092976042C186C9",
+	"tbluHash": "00EDAB865290BFCA",
+	"patch": [
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "c50c6e25c2ff757d",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+				},
+				"propertyName": "CustomEventStart",
+				"propertyOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				}
+			}
+		},
+		{
+			"RemovePropertyOverrideConnection": {
+				"entity": {
+					"ref": "1bc19c72512449d9",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+				},
+				"propertyName": "CustomEventStart",
+				"propertyOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				}
+			}
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission01.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_guidance.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/override_bingo.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_hot_bingo.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
 }

@@ -27373,11 +27373,7 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe792a340ab9f0",
-						"cafe524dd187db66",
-						"cafed614e2d17c5b"
-					],
+					"value": ["cafe792a340ab9f0", "cafe524dd187db66", "cafed614e2d17c5b"],
 					"postInit": true
 				}
 			},
@@ -46298,11 +46294,7 @@
 			"properties": {
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_CIVMALEES01",
-						"eAVV_CIVMALEES02",
-						"eAVV_CIVMALEES03"
-					]
+					"value": ["eAVV_CIVMALEES01", "eAVV_CIVMALEES02", "eAVV_CIVMALEES03"]
 				}
 			}
 		},
@@ -46316,11 +46308,7 @@
 			"properties": {
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_JANUS",
-						"eAVV_STRANDBERG",
-						"eAVV_STUYVESANT"
-					]
+					"value": ["eAVV_JANUS", "eAVV_STRANDBERG", "eAVV_STUYVESANT"]
 				}
 			}
 		},
@@ -46334,11 +46322,7 @@
 			"properties": {
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_THUGES01",
-						"eAVV_THUGES02",
-						"eAVV_THUGES03"
-					]
+					"value": ["eAVV_THUGES01", "eAVV_THUGES02", "eAVV_THUGES03"]
 				}
 			}
 		},

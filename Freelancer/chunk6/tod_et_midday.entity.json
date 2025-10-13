@@ -4428,11 +4428,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafefff877ebbede",
-						"cafeac2f4b07ea3b",
-						"cafef49ace299c83"
-					]
+					"value": ["cafefff877ebbede", "cafeac2f4b07ea3b", "cafef49ace299c83"]
 				}
 			}
 		},
@@ -6352,11 +6348,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafef3ee17217707",
-						"cafe2be617a679ae",
-						"cafe99e01bbaa151"
-					],
+					"value": ["cafef3ee17217707", "cafe2be617a679ae", "cafe99e01bbaa151"],
 					"postInit": true
 				}
 			}
@@ -20480,12 +20472,7 @@
 			"properties": {
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_KONG",
-						"eAVV_HUSH",
-						"eAVV_CIVMALECH01",
-						"eAVV_CIVMALECH02"
-					]
+					"value": ["eAVV_KONG", "eAVV_HUSH", "eAVV_CIVMALECH01", "eAVV_CIVMALECH02"]
 				}
 			}
 		},

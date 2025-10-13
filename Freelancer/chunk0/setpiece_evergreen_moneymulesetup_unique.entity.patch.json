@@ -3,16 +3,10 @@
 	"tbluHash": "0025CD93E3A002EF",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"f75161b8fc77ae3b",
-				{ "SetFactory": "006D0A4F28A5533C" }
-			]
+			"SubEntityOperation": ["f75161b8fc77ae3b", { "SetFactory": "006D0A4F28A5533C" }]
 		},
 		{
-			"SubEntityOperation": [
-				"f75161b8fc77ae3b",
-				{ "SetBlueprint": "007F4DF7BF767FFF" }
-			]
+			"SubEntityOperation": ["f75161b8fc77ae3b", { "SetBlueprint": "007F4DF7BF767FFF" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -71,11 +65,7 @@
 			"SubEntityOperation": [
 				"71976e5492e4bbcc",
 				{
-					"AddOutputCopyConnection": [
-						"Out05",
-						"Out05",
-						"1873905943477113"
-					]
+					"AddOutputCopyConnection": ["Out05", "Out05", "1873905943477113"]
 				}
 			]
 		},
@@ -126,11 +116,7 @@
 			"SubEntityOperation": [
 				"17838685f2b9653a",
 				{
-					"AddEventConnection": [
-						"Out07",
-						"Start",
-						"feed6254ab52d734"
-					]
+					"AddEventConnection": ["Out07", "Start", "feed6254ab52d734"]
 				}
 			]
 		},
@@ -186,16 +172,10 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"ae8524595c5e0d17",
-				{ "SetFactory": "001AB6E074296EAC" }
-			]
+			"SubEntityOperation": ["ae8524595c5e0d17", { "SetFactory": "001AB6E074296EAC" }]
 		},
 		{
-			"SubEntityOperation": [
-				"ae8524595c5e0d17",
-				{ "SetBlueprint": "00018C437C0125B3" }
-			]
+			"SubEntityOperation": ["ae8524595c5e0d17", { "SetBlueprint": "00018C437C0125B3" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -209,16 +189,10 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"8cef4ea5aa169271",
-				{ "SetFactory": "001AB6E074296EAC" }
-			]
+			"SubEntityOperation": ["8cef4ea5aa169271", { "SetFactory": "001AB6E074296EAC" }]
 		},
 		{
-			"SubEntityOperation": [
-				"8cef4ea5aa169271",
-				{ "SetBlueprint": "00018C437C0125B3" }
-			]
+			"SubEntityOperation": ["8cef4ea5aa169271", { "SetBlueprint": "00018C437C0125B3" }]
 		},
 		{
 			"SubEntityOperation": [

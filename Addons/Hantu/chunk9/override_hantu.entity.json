@@ -1732,11 +1732,7 @@
 				"muleTalking": { "type": "bool", "value": true },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f9451fbfb3907982",
-						"bdc89a738d923b54",
-						"b0827643a2a5ea34"
-					],
+					"value": ["f9451fbfb3907982", "bdc89a738d923b54", "b0827643a2a5ea34"],
 					"postInit": true
 				}
 			},
@@ -2008,10 +2004,7 @@
 			},
 			"events": {
 				"MoveHitmanBack": {
-					"ReturnHitmanToEntrance": [
-						"9c7a2067f750efd7",
-						"4a7da649ad67a3f3"
-					]
+					"ReturnHitmanToEntrance": ["9c7a2067f750efd7", "4a7da649ad67a3f3"]
 				}
 			},
 			"subsets": {
@@ -2767,11 +2760,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 5 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"691c016463b4265a",
-						"13e487c90453c81f",
-						"c4278b0498ba016a"
-					],
+					"value": ["691c016463b4265a", "13e487c90453c81f", "c4278b0498ba016a"],
 					"postInit": true
 				}
 			},
@@ -3055,11 +3044,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 5 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"381e114ec31122cc",
-						"b0fddf02ff749857",
-						"e56c1dbc0f0c5bea"
-					],
+					"value": ["381e114ec31122cc", "b0fddf02ff749857", "e56c1dbc0f0c5bea"],
 					"postInit": true
 				}
 			},
@@ -3425,11 +3410,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 5 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"10e4e788906a4b12",
-						"979ad28594db7f1c",
-						"2b413734ef10a98e"
-					],
+					"value": ["10e4e788906a4b12", "979ad28594db7f1c", "2b413734ef10a98e"],
 					"postInit": true
 				}
 			},
@@ -3484,11 +3465,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 5 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b174315286f4c47",
-						"e9a3f9539f7f8f33",
-						"bbe68c69c82913f4"
-					],
+					"value": ["2b174315286f4c47", "e9a3f9539f7f8f33", "bbe68c69c82913f4"],
 					"postInit": true
 				}
 			},
@@ -4760,11 +4737,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 5 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8a144483fe22562f",
-						"1f92ce6d85150517",
-						"c89ec6075b0fa767"
-					],
+					"value": ["8a144483fe22562f", "1f92ce6d85150517", "c89ec6075b0fa767"],
 					"postInit": true
 				}
 			},
@@ -5413,11 +5386,7 @@
 				"forcedVoiceVar": { "type": "int32", "value": 5 },
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bed4740f484c0440",
-						"bb41a9d80890147d",
-						"c5bc49badd25c62d"
-					],
+					"value": ["bed4740f484c0440", "bb41a9d80890147d", "c5bc49badd25c62d"],
 					"postInit": true
 				}
 			},
@@ -6503,11 +6472,7 @@
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7307059440282338",
-						"37d8a71080a56829",
-						"8ad0fa110556999b"
-					]
+					"value": ["7307059440282338", "37d8a71080a56829", "8ad0fa110556999b"]
 				},
 				"muleTalking": { "type": "bool", "value": true },
 				"m_bStartEnabled": { "type": "bool", "value": false },
@@ -7403,11 +7368,7 @@
 			"properties": {
 				"m_aProviders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed3f148f883be6",
-						"feed4feab26837de",
-						"feed274dcdbe45fd"
-					]
+					"value": ["feed3f148f883be6", "feed4feab26837de", "feed274dcdbe45fd"]
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
