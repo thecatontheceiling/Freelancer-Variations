@@ -1,0 +1,59 @@
+{
+	"tempHash": "00BB609E702AF5D3",
+	"tbluHash": "0001CB807DCC507F",
+	"patch": [
+		{ "RemoveEntityByID": "fa94e2b1e9bb4753" },
+		{ "SubEntityOperation": ["28ad3d0fa488f15d", { "SetFactory": "00F7C4EF9331E699" }] },
+		{ "SubEntityOperation": ["28ad3d0fa488f15d", { "SetBlueprint": "0002815AAAC4A6A8" }] },
+		{
+			"SubEntityOperation": [
+				"28ad3d0fa488f15d",
+				{ "SetPropertyValue": { "property_name": "m_fConditionValidDistance", "value": 1 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f3f079a874dd2994",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+					}
+				}
+			]
+		},
+		{ "SubEntityOperation": ["d60d15d9a3e2d3c7", { "SetFactory": "00DD85AD14557F61" }] },
+		{ "SubEntityOperation": ["d60d15d9a3e2d3c7", { "SetBlueprint": "0014298597F56FEB" }] },
+		{ "SubEntityOperation": ["78e43676b9308b58", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["78e43676b9308b58", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"78e43676b9308b58",
+				{ "SetPropertyValue": { "property_name": "m_fMinDuration", "value": 1 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0df86c3cb666963f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0df86c3cb666963f",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"Actor",
+						{ "originalProperty": "m_rActor", "originalEntity": "fa94e2b1e9bb4753" }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

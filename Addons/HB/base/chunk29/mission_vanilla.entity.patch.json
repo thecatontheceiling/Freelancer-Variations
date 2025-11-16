@@ -60,6 +60,32 @@
 		},
 		{
 			"SubEntityOperation": [
+				"9350c4035d36fea3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "7561dd30bddd6309",
+										"externalScene": null,
+										"exposedEntity": "AllCpdLoaded"
+									},
+									{
+										"ref": "feed654190b5b149",
+										"externalScene": null,
+										"exposedEntity": "AllCpdLoaded"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"49c2b4f331cfe1de",
 				{
 					"PatchArrayPropertyValue": [
@@ -996,9 +1022,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed8236cfae79d5"]
-						}
+						"OnValue": { "SetValue": ["feed8236cfae79d5"] }
 					}
 				}
 			]
@@ -1040,9 +1064,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedbd61a29f0bde"]
-						}
+						"OnValue": { "SetValue": ["feedbd61a29f0bde"] }
 					}
 				}
 			]
@@ -1103,9 +1125,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed657a06c8835e"]
-						}
+						"OnValue": { "SetValue": ["feed657a06c8835e"] }
 					}
 				}
 			]
@@ -1237,9 +1257,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed3304d39c79bd"]
-						}
+						"OnValue": { "SetValue": ["feed3304d39c79bd"] }
 					}
 				}
 			]
@@ -1276,9 +1294,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedfb3feae02c87"]
-						}
+						"OnValue": { "SetValue": ["feedfb3feae02c87"] }
 					}
 				}
 			]
@@ -1316,9 +1332,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed82083790648d"]
-						}
+						"OnValue": { "SetValue": ["feed82083790648d"] }
 					}
 				}
 			]
@@ -1355,9 +1369,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedfc46d4935a00"]
-						}
+						"OnValue": { "SetValue": ["feedfc46d4935a00"] }
 					}
 				}
 			]
@@ -1394,9 +1406,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed5f9a91dc343e"]
-						}
+						"OnValue": { "SetValue": ["feed5f9a91dc343e"] }
 					}
 				}
 			]
@@ -1452,9 +1462,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed2070831fc5d7"]
-						}
+						"OnValue": { "SetValue": ["feed2070831fc5d7"] }
 					}
 				}
 			]
@@ -1479,9 +1487,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed4381aee8c1b7"]
-						}
+						"OnValue": { "SetValue": ["feed4381aee8c1b7"] }
 					}
 				}
 			]
@@ -1523,9 +1529,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed9f08cdb05d2d"]
-						}
+						"OnValue": { "SetValue": ["feed9f08cdb05d2d"] }
 					}
 				}
 			]
@@ -1567,9 +1571,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed193b739fe797"]
-						}
+						"OnValue": { "SetValue": ["feed193b739fe797"] }
 					}
 				}
 			]
@@ -1629,9 +1631,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed98d4fe431355"]
-						}
+						"OnValue": { "SetValue": ["feed98d4fe431355"] }
 					}
 				}
 			]
@@ -1674,9 +1674,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed36e7451263c3"]
-						}
+						"OnValue": { "SetValue": ["feed36e7451263c3"] }
 					}
 				}
 			]
@@ -1718,9 +1716,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed0e720210c9a2"]
-						}
+						"OnValue": { "SetValue": ["feed0e720210c9a2"] }
 					}
 				}
 			]
@@ -1762,9 +1758,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedcaf8ff7d5a03"]
-						}
+						"OnValue": { "SetValue": ["feedcaf8ff7d5a03"] }
 					}
 				}
 			]
@@ -1806,9 +1800,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feed4d56153bf025"]
-						}
+						"OnValue": { "SetValue": ["feed4d56153bf025"] }
 					}
 				}
 			]
@@ -1850,9 +1842,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedc9ea67a4472c"]
-						}
+						"OnValue": { "SetValue": ["feedc9ea67a4472c"] }
 					}
 				}
 			]
@@ -1893,9 +1883,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedd9b8b96c0ebc"]
-						}
+						"OnValue": { "SetValue": ["feedd9b8b96c0ebc"] }
 					}
 				}
 			]
@@ -2190,9 +2178,7 @@
 						}
 					},
 					"events": {
-						"GetValue": {
-							"SetValue": ["feedf1663f3a2255"]
-						}
+						"GetValue": { "SetValue": ["feedf1663f3a2255"] }
 					}
 				}
 			]
@@ -2234,9 +2220,7 @@
 						}
 					},
 					"events": {
-						"OnValue": {
-							"SetValue": ["feedf1663f3a2255"]
-						}
+						"OnValue": { "SetValue": ["feedf1663f3a2255"] }
 					}
 				}
 			]
@@ -2261,11 +2245,7 @@
 							]
 						}
 					},
-					"events": {
-						"OnTrue": {
-							"Get": ["feed10214c3cbbaf"]
-						}
-					}
+					"events": { "OnTrue": { "Get": ["feed10214c3cbbaf"] } }
 				}
 			]
 		},
@@ -2286,35 +2266,45 @@
 					"events": {
 						"IsTravelDestination": {
 							"SetVisible": ["f0ba5e152f462871"],
-							"SetValue": ["f42aefeaa2347061"]
+							"SetValue": ["f42aefeaa2347061"],
+							"TransmitEvent": ["cafe3ccefde5b483"]
 						}
 					}
 				}
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"9350c4035d36fea3",
+			"AddEntity": [
+				"cafe3ccefde5b483",
 				{
-					"PatchArrayPropertyValue": [
-						"m_aValues",
-						[
-							{
-								"AddItemAfter": [
-									{
-										"ref": "7561dd30bddd6309",
-										"externalScene": null,
-										"exposedEntity": "AllCpdLoaded"
-									},
-									{
-										"ref": "feed654190b5b149",
-										"externalScene": null,
-										"exposedEntity": "AllCpdLoaded"
-									}
-								]
-							}
-						]
-					]
+					"parent": "feed5eac8b94190b",
+					"name": "Event Transmitter",
+					"factory": "0037A7E362011A78",
+					"blueprint": "003D29EFE5AC1BCC",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": true },
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe5834dbb5a845"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5834dbb5a845",
+				{
+					"parent": "cafe3ccefde5b483",
+					"name": "Token Identity",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "Freelancer_Variations_Bay_Selected"
+						}
+					}
 				}
 			]
 		}

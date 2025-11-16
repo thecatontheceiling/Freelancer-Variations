@@ -1,0 +1,240 @@
+{
+	"tempHash": "00FAAAF2546A44D5",
+	"tbluHash": "003179BE5F6E2AC2",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f9238914d20f6b90",
+				{
+					"AddEventConnection": ["OnStart", "Send", "abcdcdc3550648dd"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["cc03dc3170dc3023", { "SetFactory": "007E378EA87BA806" }]
+		},
+		{
+			"SubEntityOperation": ["cc03dc3170dc3023", { "SetBlueprint": "0018FB9506135A96" }]
+		},
+		{
+			"SubEntityOperation": [
+				"cc03dc3170dc3023",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fMinDuration",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4d4033622b27df47",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4d4033622b27df47",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fActTimeout",
+						"value": 15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4d4033622b27df47",
+				{
+					"AddEventConnection": ["IsTalking", "Start", "abcde4e9e072ddc3"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4d4033622b27df47",
+				{
+					"AddEventConnection": ["IsTalking", "Stop", "abcdcdc3550648dd"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["8fb0de582ddaf741", { "SetFactory": "007E378EA87BA806" }]
+		},
+		{
+			"SubEntityOperation": ["8fb0de582ddaf741", { "SetBlueprint": "0018FB9506135A96" }]
+		},
+		{
+			"SubEntityOperation": [
+				"8fb0de582ddaf741",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fMinDuration",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["4171908287c0f4b6", { "SetFactory": "007E378EA87BA806" }]
+		},
+		{
+			"SubEntityOperation": ["4171908287c0f4b6", { "SetBlueprint": "0018FB9506135A96" }]
+		},
+		{
+			"SubEntityOperation": [
+				"48b56ce12373e77a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 0, "y": 0, "z": 0 },
+							"position": { "x": 0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48b56ce12373e77a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fActTimeout",
+						"value": 15
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48b56ce12373e77a",
+				{
+					"AddEventConnection": ["IsTalking", "Start", "abcde4e9e072ddc3"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48b56ce12373e77a",
+				{
+					"AddEventConnection": ["IsTalking", "Stop", "abcdcdc3550648dd"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3d431b8802682f3f",
+				{
+					"AddPropertyAliasConnection": [
+						"Actor",
+						{
+							"originalProperty": "m_eidParent",
+							"originalEntity": "abcd671d01a9a73c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["66ade2a24e276059", { "SetFactory": "007E378EA87BA806" }]
+		},
+		{
+			"SubEntityOperation": ["66ade2a24e276059", { "SetBlueprint": "0018FB9506135A96" }]
+		},
+		{
+			"AddEntity": [
+				"abcde4e9e072ddc3",
+				{
+					"parent": "3d431b8802682f3f",
+					"name": "AnswerPhone",
+					"factory": "[modules:/zspeakentity_sounddef.class].pc_entitytype",
+					"blueprint": "[modules:/zspeakentity_sounddef.class].pc_entityblueprint",
+					"properties": {
+						"m_eSoundDef": {
+							"type": "EActorSoundDefs",
+							"value": "Gen_PhnPckUP"
+						},
+						"m_rActor": {
+							"type": "SEntityTemplateReference",
+							"value": "cd90e6a20b07c819",
+							"postInit": true
+						},
+						"m_bEnableCulling": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcdcdc3550648dd",
+				{
+					"parent": "abcde4e9e072ddc3",
+					"name": "AudioEventEntity",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_aEmitters": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["abcd671d01a9a73c"]
+						},
+						"m_bUseOcclusionForCulling": {
+							"type": "bool",
+							"value": true
+						},
+						"m_fTransitionTime": {
+							"type": "float32",
+							"value": 0.5
+						},
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00C3CBCA329C1C31",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"abcd671d01a9a73c",
+				{
+					"parent": "abcdcdc3550648dd",
+					"name": "3DAE_ExaminationRoom_Phone",
+					"factory": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 0, "y": 0, "z": 0 }
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						}
+					},
+					"subsets": { "AudioEmitters": ["3d431b8802682f3f"] }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

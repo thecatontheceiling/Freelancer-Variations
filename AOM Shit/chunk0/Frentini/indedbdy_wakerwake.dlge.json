@@ -1,0 +1,20 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/et_frentini/indedbdy_wakerwake_et_frentini.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "dr3790_bsment47wake_et_frentini_002",
+				"weight": 1.0,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3790_bsment47wake_et_frentini_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3790_bsment47wake_et_frentini_002.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

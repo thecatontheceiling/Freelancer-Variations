@@ -1,0 +1,29 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/et_frentini/gen_thumbsup_et_frentini.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "dr3789_loopplayer2_et_frentini_017",
+				"weight": 0.49999997019767584,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3789_loopplayer2_et_frentini_017.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3789_loopplayer2_et_frentini_017.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "gen_grtgrd47wgun_et_frentini_002",
+				"weight": 0.49999997019767584,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/gen_thumbsup_et_frentini_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/bdygrd04/gen_thumbsup_bdygrd04_bdygrd04_001.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

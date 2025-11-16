@@ -1,0 +1,30 @@
+{
+	"tempHash": "00CC1BC4C1815542",
+	"tbluHash": "009AAF75FF18DFD9",
+	"patch": [
+		{ "RemoveEntityByID": "255df13c9717e365" },
+		{
+			"SubEntityOperation": [
+				"ef2071a274c14369",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 2.5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ef2071a274c14369",
+				{
+					"SetPropertyValue": {
+						"property_name": "On",
+						"value": true
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

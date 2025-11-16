@@ -1,0 +1,47 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/et_frentini/cmbt_beg_et_frentini.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "cmbt_beg_et_frentini_et_frentini_001",
+				"weight": 0.249999999999,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/cmbt_beg_et_frentini_et_frentini_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/et_frentini/cmbt_beg_et_frentini_et_frentini_001.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr3780_loopintro_et_frentini_002",
+				"weight": 0.249999999999,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3780_loopintro_et_frentini_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3780_loopintro_et_frentini_002.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr3805_dicrmexecute_et_frentini_005",
+				"weight": 0.25,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3805_dicrmexecute_et_frentini_005.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3805_dicrmexecute_et_frentini_005.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr3805_dicrmexecute_et_frentini_009",
+				"weight": 0.249999999999,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3805_dicrmexecute_et_frentini_009.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3805_dicrmexecute_et_frentini_009.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

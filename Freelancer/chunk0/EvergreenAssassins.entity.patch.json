@@ -1,0 +1,175 @@
+{
+	"tempHash": "001A8C2F1645FF10",
+	"tbluHash": "008C167D6B172F16",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "f48d75c269475e9a"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "42b1c1b6b010f9eb"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "3fdd723da88a525e"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "82f57fff4fabd2e9"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "258de8e44a7c5dda"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "ebba3c2af22ea1d1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "4a4d258f11849518"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "883e1132aef5ea7f"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "15c99e4c93be94fe"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "132b64820ed43c49"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "b827012a796ff6cc"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"009ad797a9732dc6",
+				{
+					"AddPropertyAliasConnection": [
+						"m_nMax",
+						{
+							"originalProperty": "m_nMax",
+							"originalEntity": "b78236068de042ed"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

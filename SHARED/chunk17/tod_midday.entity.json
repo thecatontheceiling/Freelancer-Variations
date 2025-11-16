@@ -1,0 +1,188 @@
+{
+	"tempHash": "00B9C3F584F4E487",
+	"tbluHash": "00410413E1CF7530",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ToD_Midday",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"abcdb03a8129fc2d": {
+			"parent": "fffffffffffffffe",
+			"name": "BoxReflectionCache",
+			"factory": "[modules:/zboxreflectioncacheentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectioncacheentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBoxReflectionCache": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005342751DF36344",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"abcda1ef0d7af7f3": {
+			"parent": "fffffffffffffffe",
+			"name": "Sky_Sunset_v3_063b",
+			"factory": "003D80CEEDCAAAD4",
+			"blueprint": "00EB0D8C4945FE01",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -46.00002503191362
+						},
+						"position": {
+							"x": -36.96014022827149,
+							"y": -33.24663162231445,
+							"z": -91.05570220947266
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "3bc75086bded761b",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0049E402097FE46D",
+						"flag": "5F"
+					}
+				},
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fHDRBloomFalloff": {
+					"type": "float32",
+					"value": 1.7999999523162842
+				},
+				"m_fHDRBloomScale": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.05999999865889549
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": { "x": 1, "y": 20 }
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f21c78bd8145f9a8",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bVisible": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "5a79b0a6de707805",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fInscatterIntensity": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fMieAnisotropy": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fWorldScale": { "type": "float32", "value": 2 },
+				"m_MieColor": { "type": "SColorRGB", "value": "#ffffff" },
+				"m_RayleighColor": {
+					"type": "SColorRGB",
+					"value": "#8aafff"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a3b2a637b6b73897",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f0f9ff"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 450 }
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "8e5f451881081f7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "06e787bce76f6a70",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"fromPin": "OnLeft",
+			"toEntity": {
+				"ref": "7797283b86778151",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"toPin": "SetFalse"
+		}
+	],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/mumbai/scene_mongoose.entity].pc_entitytemplate"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [{ "resource": "0049E402097FE46D", "flag": "5F" }],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

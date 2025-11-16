@@ -28357,6 +28357,52 @@
 					"value": ["feed72ca8322f202"]
 				}
 			}
+		},
+		"cafef462cf610070": {
+			"parent": "fffffffffffffffe",
+			"name": "Blackmarket Suppliers Compatibility",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe2989071cee11": {
+			"parent": "cafef462cf610070",
+			"name": "GameplayStart",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "TransmitEvent": ["cafec772194dc087"] }
+			}
+		},
+		"cafec772194dc087": {
+			"parent": "cafe2989071cee11",
+			"name": "Event Transmitter",
+			"factory": "0037A7E362011A78",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe3a6859bf6ea4"
+				}
+			}
+		},
+		"cafe3a6859bf6ea4": {
+			"parent": "cafec772194dc087",
+			"name": "Token Identity",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "Freelancer_Variations_Author"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [

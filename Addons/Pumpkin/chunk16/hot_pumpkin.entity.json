@@ -1,0 +1,423 @@
+{
+	"tempHash": "00CB2B4CAF1AC43D",
+	"tbluHash": "003AA83FBE21629D",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"abcd368c8c4f7d45": {
+			"parent": "fffffffffffffffe",
+			"name": "FV Additions",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "036536652575aa68",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "7f58eff6b9cfa280",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "e64da26378927db0",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "12d4681115a6ed14",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "ae7421d0facd6892",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "7fde2233-318b-4032-ba01-e64d883e5de4"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "74f463e64536f091",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "657e1bb72d182dcc",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "4af59b0ac44b7283",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "e1f1e9a8b4009659",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "e2482ef4625dda36",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "b210be64-ea03-4983-aa0f-8d18882a23c7"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "311fa7a96aae313e",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "5d19c9f8-7df2-4113-b81d-b32d5e231717"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "35c561d97ad0ec68",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "92836546a9827edf",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_nOutfitVariation": { "type": "int32", "value": 0 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "14bc2c4679b868d1",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				{
+					"ref": "22d8e179cea12755",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				{
+					"ref": "c566ddf1afbe3d2e",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				{
+					"ref": "90d782784c2b0f9c",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				{
+					"ref": "2f16afb4c773578d",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"On": { "type": "bool", "value": true },
+				"DiffusePower": { "type": "float32", "value": 200 },
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_fLightFadeDistance": { "type": "float32", "value": 75 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2dbb900382a2cfe5",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"Trim": { "type": "SColorRGB", "value": "#504c48" },
+				"LOD0_Color": { "type": "SColorRGB", "value": "#9c2525" },
+				"Wall_Color": { "type": "SColorRGB", "value": "#504c48" }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4ed50c1c86566311",
+					"externalScene": "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafec4ca9148c6c2",
+							"externalScene": "[assembly:/_pro/scenes/missions/pumpkin/outfits_bank.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a02c09f4401100c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_nMax": { "type": "int32", "value": 8 } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "de001a85110d3681",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -97.079506 },
+						"position": {
+							"x": 82.1053,
+							"y": -54.513573,
+							"z": 4.9404244
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "0d7380e70c42f45f",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -100 },
+						"position": {
+							"x": 73.39531,
+							"y": -56.12275,
+							"z": 5
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2bba5dfb0bf60790",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 31.899532 },
+						"position": {
+							"x": -31.552519,
+							"y": -38.60535,
+							"z": 6.993841
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1d92daa7120bc8d8",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.65913266,
+							"y": 44.307434,
+							"z": -0.95320904
+						},
+						"position": {
+							"x": -15.105101,
+							"y": -37.274815,
+							"z": 5.6903343
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1fb8feabd0679501",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 60.069706 },
+						"position": {
+							"x": -22.31225,
+							"y": -41.34018,
+							"z": 6.999335
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "39814219d90de6d0",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -64.12832 },
+						"position": {
+							"x": -17.446577,
+							"y": -27.675007,
+							"z": 6.0008717
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "67bd17d846e3faea",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": {
+							"x": -20.35686,
+							"y": -29.608486,
+							"z": 4.96761
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "8c10e5329a36e3f9",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "e0dcccd6-7e08-48ba-a1f0-aec0f83fedb5"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cafe75598bcff059",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "a03e5494-9861-475f-a116-2fa937dcb34c"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "cafe9c3f760fb5cc",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe107bd64c22c5",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe11ba41ce3a80",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe6c4014d99a93",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype"
+		},
+		{
+			"ref": "cafe2c8bc02c0b09",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/skunk/scenario_pumpkin.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/skunk/mission_hot_solitaire.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/pumpkin/outfits_bank.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/environment/materials/props/decorative/carpet_big_soft_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/generic/wall/wallpaper_basic_a.texture?/diffuse_b.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/materials/generic/wall/wallpaper_satin_a_white.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/materials/generic/wall/plaster_wall_shrine_green.mi].pc_mi",
+			"flag": "5F"
+		},
+		{ "resource": "00CC056F2AA1499C", "flag": "5F" },
+		{ "resource": "0061EF503C4C562E", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

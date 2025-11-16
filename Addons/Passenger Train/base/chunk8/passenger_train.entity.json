@@ -350,8 +350,8 @@
 					"value": {
 						"data": [
 							[
-								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801,
-								5.4754903010592447e-17, -1.5376640558242798
+								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801, 5.475490301059245e-17,
+								-1.5376640558242798
 							],
 							[
 								0.5, -0.9683700203895568, 0, 0, -0.2443430870771408, -0.08060785382986069,
@@ -1122,8 +1122,8 @@
 						"eAVV_CIVFEM07",
 						"eAVV_CIVFEM08",
 						"eAVV_CIVFEM09",
-						"eAVV_CIVFEMCHI02",
-						"eAVV_CIVFEMCHI01",
+						"eAVV_CIVFEMCH02",
+						"eAVV_CIVFEMCH01",
 						"eAVV_CIVFEMES03",
 						"eAVV_CIVFEMES02",
 						"eAVV_CIVFEMES01",
@@ -6634,8 +6634,8 @@
 					"value": {
 						"data": [
 							[
-								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801,
-								5.4754903010592447e-17, -1.5376640558242798
+								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801, 5.475490301059245e-17,
+								-1.5376640558242798
 							],
 							[
 								0.5, -0.9683700203895568, 0, 0, -0.2443430870771408, -0.08060785382986069,
@@ -6866,8 +6866,8 @@
 					"value": {
 						"data": [
 							[
-								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801,
-								5.4754903010592447e-17, -1.5376640558242798
+								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801, 5.475490301059245e-17,
+								-1.5376640558242798
 							],
 							[
 								0.5, -0.9683700203895568, 0, 0, -0.2443430870771408, -0.08060785382986069,
@@ -7118,21 +7118,6 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"feed3da678c27648": {
-			"parent": "feed086ae1adab5f",
-			"name": "a_ext_door_2x3_blank_a_01",
-			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a.template?/a_ext_door_2x3_blank_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a.template?/a_ext_door_2x3_blank_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": -180 }, "position": { "x": 1, "y": 10, "z": 0 } }
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed81e34e8052b5" },
-				"m_OpenDir": { "type": "IHM5Door.EOpenDir", "value": "OD_OUT" }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"feede5d83d17c45e": {
 			"parent": "feed92e8fd495e0d",
 			"name": "Car E 6 Lockerroom",
@@ -7186,8 +7171,7 @@
 					},
 					"postInit": true
 				}
-			},
-			"events": { "OnTrue": { "OpenDoorIn": ["feed3da678c27648"] }, "OnFalse": { "CloseDoor": ["feed3da678c27648"] } }
+			}
 		},
 		"feed1f0f0a880b67": {
 			"parent": "feed086ae1adab5f",
@@ -7196,12 +7180,7 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_nDelayOnTrue": { "type": "float32", "value": 0.05000000074505806 },
-				"m_nDelayOnFalse": { "type": "float32", "value": 0.05000000074505806 },
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": { "ref": "feed3da678c27648", "externalScene": null, "exposedEntity": "IsOpen" },
-					"postInit": true
-				}
+				"m_nDelayOnFalse": { "type": "float32", "value": 0.05000000074505806 }
 			},
 			"events": {
 				"OnTrue": {
@@ -14699,24 +14678,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 21.472374245496404, "y": -88.50095375482374, "z": 19.29949331557002 },
-						"position": { "x": -1.822350263595581, "y": 296.1209411621094, "z": 1.314233422279358 }
-					}
-				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
-			}
-		},
-		"feeda00a8181e4be": {
-			"parent": "feede814026b6c47",
-			"name": "Suitcase_B02_Red",
-			"factory": "001D9FB1A2E00B66",
-			"blueprint": "0006135958AF7EE9",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0943407593470784, "y": -0.1642124332488039, "z": 117.42897340639983 },
-						"position": { "x": -1.0729289054870603, "y": 295.5739440917969, "z": 0.9953017830848694 }
+						"rotation": { "x": 21.46785001195829, "y": -88.50063424228082, "z": -70.01153201099807 },
+						"position": { "x": 1.837195634841919, "y": 295.82672119140625, "z": 1.314233422279358 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
@@ -19926,8 +19889,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 174.52081359639377 },
-						"position": { "x": -1.0506897, "y": 596.5272, "z": 1.037262 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -173.91014906786364 },
+						"position": { "x": -0.14894475042819977, "y": 597.12353515625, "z": 0.9999964833259584 }
 					}
 				},
 				"m_fActTimeout": { "type": "float32", "value": 15 },
@@ -19944,8 +19907,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -89.38334570545274 },
-						"position": { "x": -1.7036133, "y": 425.9319, "z": 1 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.3833414931268 },
+						"position": { "x": -1.9668148756027224, "y": 425.9768981933594, "z": 1.0 }
 					}
 				},
 				"m_fActTimeout": { "type": "float32", "value": 20 },
@@ -20733,8 +20696,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -149.8583897085797 },
-						"position": { "x": -1.500946044921875, "y": 714.2855224609375, "z": 1 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 145.55476443909902 },
+						"position": { "x": 1.346057653427124, "y": 714.4000244140625, "z": 0.9999999403953552 }
 					}
 				},
 				"m_pActor": { "type": "SEntityTemplateReference", "value": "cafeecc3cb50dcf9" },
@@ -20956,8 +20919,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -93.14872407427904 },
-						"position": { "x": -1.1563060283660889, "y": 692.4672241210938, "z": 1 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -93.14872407427904 },
+						"position": { "x": -1.1563060283660889, "y": 692.9290161132812, "z": 1.0 }
 					}
 				},
 				"m_fActTimeout": { "type": "float32", "value": 38 },
@@ -26316,8 +26279,8 @@
 					"value": {
 						"data": [
 							[
-								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801,
-								5.4754903010592447e-17, -1.5376640558242798
+								0, -1.5376640558242798, 0, 0, -0.2443430870771408, 0.8136370778083801, 5.475490301059245e-17,
+								-1.5376640558242798
 							],
 							[
 								0.5, -0.9683700203895568, 0, 0, -0.2443430870771408, -0.08060785382986069,
@@ -42171,9 +42134,403 @@
 				"m_bEnabled": { "type": "bool", "value": true },
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
 			}
+		},
+		"cafe3b9973b4ea29": {
+			"parent": "feed9deab943eafd",
+			"name": "musiccore_s2_ambientbiome",
+			"factory": "[assembly:/sound/wwise/exportedwwisedata/states/ingamemusic_states/musiccore_s2_ambientbiome.wwisestategroup].pc_entitytype",
+			"blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/ingamemusic_states/musiccore_s2_ambientbiome.wwisestategroup].pc_entityblueprint"
+		},
+		"cafeea23e278e94f": {
+			"parent": "feed92e8fd495e0d",
+			"name": "a_ext_wall_bumper_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.00005464151336 },
+						"position": { "x": -0.00012969970703125, "y": 10.61346435546875, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1.0, "z": 1.0 } },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed92e8fd495e0d", "postInit": true }
+			}
+		},
+		"cafe6db457f8aaaf": {
+			"parent": "feed92e8fd495e0d",
+			"name": "a_ext_wall_bumper_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.00005464151336 },
+						"position": { "x": -0.00012969970703125, "y": 10.0068359375, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1.0, "z": 1.0 } },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed92e8fd495e0d", "postInit": true }
+			}
+		},
+		"cafe19829c61ee78": {
+			"parent": "feed92e8fd495e0d",
+			"name": "a_ext_wall_bumper_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.00005464151336 },
+						"position": { "x": -0.00012969970703125, "y": 10.16522216796875, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.2000000476837158, "y": 1.0, "z": 1.0 } },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed92e8fd495e0d", "postInit": true }
+			}
+		},
+		"cafea3929edc738a": {
+			"parent": "feed92e8fd495e0d",
+			"name": "a_ext_wall_bumper_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_bumper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.00005464151336 },
+						"position": { "x": -0.00012969970703125, "y": 10.37518310546875, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.2000000476837158, "y": 1.0, "z": 1.0 } },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed92e8fd495e0d", "postInit": true }
+			}
+		},
+		"cafedfa7c598702a": {
+			"parent": "feed5f65be611f7a",
+			"name": "c_ext_door_ext_blank_b CONSTANT OFFICE",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/c_ext_door_ext_blank_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/c_ext_door_ext_blank_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -0.613660991191864, "y": -11.5, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b59b6a138e030258",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe3fb6c03d8bef": {
+			"parent": "feed5f65be611f7a",
+			"name": "c_ext_door_ext_blank_b_01 CONFERENCE",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/c_ext_door_ext_blank_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/c_ext_door_ext_blank_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -0.613660991191864, "y": -11.5, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "dc7b9d26e99ac444",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe7667079ecb2a": {
+			"parent": "cafe7c68d69d821b",
+			"name": "GymBag_A",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/suitcases_a.template?/gymbag_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/suitcases_a.template?/gymbag_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -12.184535284170568 },
+						"position": { "x": -0.22867800295352936, "y": 0.25258898735046387, "z": 2.316793918609619 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.7749999761581421, "y": 0.7749999761581421, "z": 0.7749999761581421 }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "cafe7c68d69d821b", "postInit": true }
+			}
+		},
+		"cafe7c68d69d821b": {
+			"parent": "feed14f6f5c69129",
+			"name": "SetPiece_Container_Body_Closet_Locker_A_Chrome",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_locker_a_chrome.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_locker_a_chrome.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -1.4055898189544678, "y": 661.022705078125, "z": 1.0000001192092896 }
+					}
+				},
+				"m_sId": { "type": "ZGuid", "value": "4fe90c6e-e394-4cb7-b6dc-4c5d8217c19c" },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe2e41543b9b4a": {
+			"parent": "feeda8b415ccc14e",
+			"name": "Sofa_leather_modern_c_01",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/sofa_leather_modern_c.entitytemplate].entitytype,[modules:/zshadowlodaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/sofa_leather_modern_c.entitytemplate].entitytype,[modules:/zshadowlodaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -1.2290593385696411, "y": -9.60546875, "z": -0.004257023334503174 }
+					}
+				},
+				"m_nMaxShadowLOD": { "type": "uint32", "value": 7 },
+				"m_bDisableCSMLODOffset": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1, "z": 1.0 } },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b59b6a138e030258",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#8b6541" }
+			}
+		},
+		"cafed4b6270d729b": {
+			"parent": "cafe3b9973b4ea29",
+			"name": "VBO_InOfficeArea",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": { "type": "TArray<SEntityTemplateReference>", "value": ["cafe43b2d63ac88a"], "postInit": true }
+			},
+			"events": {
+				"OnFalse": { "Poll": ["cafe1a4dad44fd4a"] },
+				"OnTrue": { "Poll": ["cafe8c6e7f51080f"], "AmbientBiome_02": ["cafe3b9973b4ea29"] }
+			}
+		},
+		"cafe96eee27bd0c1": {
+			"parent": "cafed4b6270d729b",
+			"name": "SmoothOperator",
+			"factory": "[modules:/zsmoothoperator.class].pc_entitytype",
+			"blueprint": "[modules:/zsmoothoperator.class].pc_entityblueprint",
+			"properties": { "m_fTransitionTime": { "type": "float32", "value": 3 } },
+			"events": { "Output": { "SetValue": ["cafeb7a62fb075be"] } }
+		},
+		"cafe1f0a2fb867d4": {
+			"parent": "cafe1a4dad44fd4a",
+			"name": "ValueFloat_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe1a4dad44fd4a": {
+			"parent": "cafed4b6270d729b",
+			"name": "ValueFloat_Poll",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "cafe1f0a2fb867d4" } },
+			"events": { "PollValue": { "Input": ["cafe96eee27bd0c1"] } }
+		},
+		"cafe55907457868a": {
+			"parent": "cafe8c6e7f51080f",
+			"name": "ValueFloat_Basic_01",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_fValue": { "type": "float32", "value": 100 } }
+		},
+		"cafe8c6e7f51080f": {
+			"parent": "cafed4b6270d729b",
+			"name": "ValueFloat_Poll_01",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "cafe55907457868a" } },
+			"events": { "PollValue": { "Input": ["cafe96eee27bd0c1"] } }
+		},
+		"cafeb7a62fb075be": {
+			"parent": "cafed4b6270d729b",
+			"name": "RTPC_Zachary_AddOn_Intensity",
+			"factory": "[modules:/zaudioparamentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioparamentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": { "type": "ZString", "value": "AddOn_Intensity" },
+				"m_pEmitter": { "type": "SEntityTemplateReference", "value": null }
+			}
+		},
+		"cafef6e4f55618b0": {
+			"parent": "cafe43b2d63ac88a",
+			"name": "VolumeBox 2",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": 0.13208968937397003, "y": 687.5974731445312, "z": 0.9999999403953552 }
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 5.0, "y": 15.22700023651123, "z": 17.391000747680664 }
+				}
+			}
+		},
+		"cafe43b2d63ac88a": {
+			"parent": "cafed4b6270d729b",
+			"name": "VolumeTriggerCharacter 2",
+			"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+			"properties": { "m_Boxes": { "type": "TArray<SEntityTemplateReference>", "value": ["cafef6e4f55618b0"] } },
+			"events": { "OnTrue": { "AmbientBiome_02": ["cafe3b9973b4ea29"] }, "OnFalse": { "AmbientBiome_02": [] } }
+		},
+		"cafe136d4c29cb2b": {
+			"parent": "cafe3b9973b4ea29",
+			"name": "VBO_InPassengerArea",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": { "type": "TArray<SEntityTemplateReference>", "value": ["cafe3492b5a94303"], "postInit": true }
+			},
+			"events": {
+				"OnFalse": { "Poll": ["cafe1ba3581a8798"] },
+				"OnTrue": { "Poll": ["cafe140eded4314f"], "AmbientBiome_01": ["cafe3b9973b4ea29"] }
+			}
+		},
+		"cafe85ae67211666": {
+			"parent": "cafe136d4c29cb2b",
+			"name": "SmoothOperator",
+			"factory": "[modules:/zsmoothoperator.class].pc_entitytype",
+			"blueprint": "[modules:/zsmoothoperator.class].pc_entityblueprint",
+			"properties": { "m_fTransitionTime": { "type": "float32", "value": 3 } },
+			"events": { "Output": { "SetValue": ["cafefabb60bafc2b"] } }
+		},
+		"cafee60015716f49": {
+			"parent": "cafe1ba3581a8798",
+			"name": "ValueFloat_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint"
+		},
+		"cafe1ba3581a8798": {
+			"parent": "cafe136d4c29cb2b",
+			"name": "ValueFloat_Poll",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "cafee60015716f49" } },
+			"events": { "PollValue": { "Input": ["cafe85ae67211666"] } }
+		},
+		"cafead9e112103f0": {
+			"parent": "cafe140eded4314f",
+			"name": "ValueFloat_Basic_01",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_fValue": { "type": "float32", "value": 100 } }
+		},
+		"cafe140eded4314f": {
+			"parent": "cafe136d4c29cb2b",
+			"name": "ValueFloat_Poll_01",
+			"factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "cafead9e112103f0" } },
+			"events": { "PollValue": { "Input": ["cafe85ae67211666"] } }
+		},
+		"cafefabb60bafc2b": {
+			"parent": "cafe136d4c29cb2b",
+			"name": "RTPC_Zachary_AddOn_Intensity",
+			"factory": "[modules:/zaudioparamentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaudioparamentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": { "type": "ZString", "value": "AddOn_Intensity" },
+				"m_pEmitter": { "type": "SEntityTemplateReference", "value": null }
+			}
+		},
+		"cafead6c99cc02fb": {
+			"parent": "cafe3492b5a94303",
+			"name": "VolumeBox Vending Machine entrance",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -0.3289094567298889, "y": 290.0491638183594, "z": 0.9999999403953552 }
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 16.899999618530273, "y": 2.7269999980926514, "z": 17.391000747680664 }
+				}
+			}
+		},
+		"cafe3492b5a94303": {
+			"parent": "cafe136d4c29cb2b",
+			"name": "VolumeTriggerCharacter 2",
+			"factory": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+			"properties": { "m_Boxes": { "type": "TArray<SEntityTemplateReference>", "value": ["cafead6c99cc02fb"] } },
+			"events": { "OnTrue": { "AmbientBiome_01": ["cafe3b9973b4ea29"] }, "OnFalse": { "AmbientBiome_02": [] } }
+		},
+		"cafe9e5cab9a508d": {
+			"parent": "cafe3492b5a94303",
+			"name": "VolumeBox Early Carriage Connection",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": -0.31126832962036133, "y": 259.9415283203125, "z": 0.9999998211860656 }
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 16.899999618530273, "y": 11.126999855041504, "z": 17.391000747680664 }
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "2ea40d41b858f379",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": -0.0, "y": 0.0, "z": -0.0 }, "position": { "x": 1.0, "y": 500, "z": 3.0 } }
+				},
+				"m_vGlobalSize": { "type": "SVector3", "value": { "x": 12, "y": 593, "z": 12 } }
+			}
+		},
 		{
 			"entities": [
 				{
@@ -42579,7 +42936,7 @@
 				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_JANUS", "eAVV_STUYVESANT", "eAVV_STRANDBERG", "eAVV_JANUS"]
+					"value": ["eAVV_JANUS", "eAVV_STUYVESANT", "eAVV_STRANDBERG", "eAVV_JANUS", "eAVV_ET_FRENTINI"]
 				}
 			}
 		},
@@ -42612,20 +42969,6 @@
 				}
 			],
 			"properties": { "m_sId": { "type": "ZGuid", "value": "e21b1a1a-bec9-4a06-9a4a-d615e9721e3a" } }
-		},
-		{
-			"entities": [
-				{
-					"ref": "45df0d95ca6c0d5b",
-					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_bIsLocked": { "type": "bool", "value": false },
-				"m_bPathfindingObstacleEnabled": { "type": "bool", "value": false },
-				"Reinforced": { "type": "bool", "value": false },
-				"RequireActivation": { "type": "bool", "value": false }
-			}
 		},
 		{
 			"entities": [
@@ -43019,7 +43362,11 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_nOutfitVariation": { "type": "int32", "value": 8 } }
+			"properties": {
+				"m_nOutfitVariation": { "type": "int32", "value": 8 },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_ET_FRENTINI" },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": ["feed0642e28d299e"] }
+			}
 		},
 		{
 			"entities": [
@@ -43305,7 +43652,8 @@
 						"eAVV_BDYGRD06",
 						"eAVV_BDYGRD07",
 						"eAVV_SPECOPS01",
-						"eAVV_SPECOPS02"
+						"eAVV_SPECOPS02",
+						"eAVV_ET_FRENTINI"
 					]
 				}
 			}
@@ -43740,7 +44088,8 @@
 						"eAVV_CIVMALE11",
 						"eAVV_STUYVESANT",
 						"eAVV_STRANDBERG",
-						"eAVV_JANUS"
+						"eAVV_JANUS",
+						"eAVV_ET_FRENTINI"
 					]
 				}
 			}
@@ -43893,17 +44242,6 @@
 		{
 			"entities": [
 				{
-					"ref": "7d13ced2237e69c0",
-					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
-				}
-			],
-			"properties": {
-				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": ["feed0642e28d299e"] }
-			}
-		},
-		{
-			"entities": [
-				{
 					"ref": "f1222f3c06d1a609",
 					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 				},
@@ -43995,6 +44333,94 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "fa47d1003f0eb4f4",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "753d612995682f98",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "4d44e766b5211bdf",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "a6ad4bc8f237f336",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "8b3379ae773245b2",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "45df0d95ca6c0d5b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "cf38eec238ce70d6",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "926a10931abc16d6",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "fe042d7670c132a8",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "5564758ac05d8132",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "a49eb728ea5937c6",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "a49eb728ea5937c6",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "6764ae32915c82eb",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "07db0d1a5e855e3f",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "ff993c573ef18409",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "80b1281472106062",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "5fc4b053f8ce3add",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "7cdbce26150168e5",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "768e2a6f4c8e8d22",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "5e945761a34fdb23",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "32a4658ce75dcb9f",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "c7c4a37bae9127fb",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
 		{
 			"ref": "cd03a518fffe8646",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"

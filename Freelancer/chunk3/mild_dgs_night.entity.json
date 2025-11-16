@@ -1,0 +1,34 @@
+{
+	"tempHash": "005E377CDB0B0496",
+	"tbluHash": "0091B6C9833C81D9",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Mild_DGS_Night",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_smoothsnake.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/mission_mild_dgs.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/tod_night_garden_show.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00E656CB0E9ED0ED", "flag": "5F" },
+		{ "resource": "00856C0B95E7430D", "flag": "5F" },
+		{ "resource": "0061EF503C4C562E", "flag": "5F" },
+		{ "resource": "00CC056F2AA1499C", "flag": "5F" },
+		{ "resource": "00DFB0D8BC29D607", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

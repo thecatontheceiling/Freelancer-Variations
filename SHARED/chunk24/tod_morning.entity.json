@@ -2061,6 +2061,10 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "1ed405718e014496",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/tod_summer_evening_clear.brick].pc_entitytype"
+		},
+		{
 			"ref": "d21e556d8987e9f2",
 			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/dressing_hotel_floor3_tiger.brick].pc_entitytype"
 		},

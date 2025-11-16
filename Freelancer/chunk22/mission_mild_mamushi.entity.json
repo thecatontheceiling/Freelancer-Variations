@@ -5,29 +5,19 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Mission_Mild_Mamushi",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-		},
-		"abcdda5116b3226e": {
-			"parent": "fffffffffffffffe",
-			"name": "Trigger stuff upon game start",
-			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-			"properties": { "m_eEvent": { "type": "EGameEventType", "value": "GET_GameplayStart" } },
-			"events": { "EventOccurred": { "GetIndex": ["abcd4be6399231c3"] } }
-		},
-		"abcd4be6399231c3": {
-			"parent": "abcdda5116b3226e",
-			"name": "zmultiparentspatialentity",
-			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
-			"properties": { "m_aParents": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
 		}
 	},
 	"propertyOverrides": [
 		{
-			"entities": [{ "ref": "a8689ac0c9d21c7f", "externalScene": "00D6C83B2487913C" }],
+			"entities": [
+				{
+					"ref": "a8689ac0c9d21c7f",
+					"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+				}
+			],
 			"properties": {
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -132,26 +122,86 @@
 							"ref": "2e530b7677abf9e9",
 							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
 						},
-						{ "ref": "fed8c5753341aef3", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "23dfc40e2f5aadcc", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "7c2349323b97e94a", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "e27c190fcbfd5ec9", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "e80cae0f48aba0a", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "4817e3acf9a6fc32", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "8f2374341952df66", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "d5c9be264e4049a1", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "230dead1ccf61762", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "9a0c4b361162e0ca", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "4850604b0aaa0ce2", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "dc545ae410b8fb46", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "4e878d95f63854ef", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "271ece453922ca52", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "23c76d40c6169b43", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "11e8a31d4bea8f91", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "f9cb02ec231c996c", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "f504ad25557989e", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "85a8203ec25fd385", "externalScene": "00D6C83B2487913C" },
-						{ "ref": "ed6199c4413ecd82", "externalScene": "00D6C83B2487913C" },
+						{
+							"ref": "fed8c5753341aef3",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "23dfc40e2f5aadcc",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "7c2349323b97e94a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "e27c190fcbfd5ec9",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "0e80cae0f48aba0a",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "4817e3acf9a6fc32",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "8f2374341952df66",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "d5c9be264e4049a1",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "230dead1ccf61762",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "9a0c4b361162e0ca",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "4850604b0aaa0ce2",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "dc545ae410b8fb46",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "4e878d95f63854ef",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "271ece453922ca52",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "23c76d40c6169b43",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "11e8a31d4bea8f91",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "f9cb02ec231c996c",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "0f504ad25557989e",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "85a8203ec25fd385",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
+						{
+							"ref": "ed6199c4413ecd82",
+							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
+						},
 						{
 							"ref": "7be5e217132bd47a",
 							"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
@@ -176,10 +226,22 @@
 				}
 			],
 			"properties": {
-				"RepositoryId": { "type": "ZGuid", "value": "e8c47afb-8d83-495d-89ff-144adf9e245a" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "cfc20192-0c87-4490-936f-7ae7ef038c55" },
-				"m_sActorName": { "type": "ZString", "value": "Akira Suzuki" },
-				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALECH02" },
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "e8c47afb-8d83-495d-89ff-144adf9e245a"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Akira Suzuki"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALECH02"
+				},
 				"m_nOutfitVariation": { "type": "int32", "value": 0 }
 			}
 		}
@@ -192,10 +254,10 @@
 		"[assembly:/_pro/scenes/missions/hokkaido/_scene_dirtyoctopus.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/hokkaido/_scene_moscowmule.brick].pc_entitytype",
-		"00D6C83B2487913C",
-		"[assembly:/_pro/scenes/missions/hokkaido/hsf_night.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/hokkaido/hsf_night.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hokkaido/mission_mild_shogi.brick].pc_entitytype"
 	],
-	"subType": "scene",
+	"subType": "brick",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],

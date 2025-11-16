@@ -2522,6 +2522,17 @@
 		{
 			"entities": [
 				{
+					"ref": "775e3ba7abe61b15",
+					"externalScene": "[assembly:/_pro/scenes/missions/paris/scenario_frenchmartini.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "20a4b99aeab89e0e",
 					"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_hot_craps.brick].pc_entitytype"
 				}
@@ -2851,6 +2862,18 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "7a3f83bab39fc957",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/scenario_frenchmartini.brick].pc_entitytype"
+		},
+		{
+			"ref": "c736f358bf2616ec",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/scenario_frenchmartini.brick].pc_entitytype"
+		},
+		{
+			"ref": "5956586aef667f43",
+			"externalScene": "[assembly:/_pro/scenes/missions/paris/scenario_frenchmartini.brick].pc_entitytype"
+		},
+		{
 			"ref": "f97394cbd82cf9cc",
 			"externalScene": "[assembly:/_pro/scenes/missions/paris/mission_hot_craps.brick].pc_entitytype"
 		},
@@ -2890,7 +2913,8 @@
 		"[assembly:/_pro/scenes/missions/paris/location.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/paris/thebanker.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/paris/outfits_paris.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/paris/gameplay_palace_fashionshow.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/paris/scenario_frenchmartini.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

@@ -5,7 +5,7 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "ToD_Night",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
@@ -5071,6 +5071,37 @@
 					"m_fWorldScale": { "type": "float32", "value": 2 }
 				}
 			}
+		},
+		"cafee5e5698afde1": {
+			"parent": "822c908f7ff01900",
+			"name": "BoxReflection",
+			"factory": "[modules:/zboxreflectionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxreflectionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 800, "y": 800, "z": 400 }
+				},
+				"m_vSampleOffset": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 5 }
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_eType": {
+					"type": "ZBoxReflectionEntity.EType",
+					"value": "eFallback"
+				},
+				"m_eBoundsType": {
+					"type": "ZBoxReflectionEntity.EBoundsType",
+					"value": "eBox"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -6450,6 +6481,18 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "3d6492c0651007b5",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		},
+		{
+			"ref": "3bc75086bded761b",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		},
+		{
+			"ref": "8e5f451881081f7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		},
 		{
 			"ref": "16e3862a6d4df91b",
 			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"

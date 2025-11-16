@@ -1674,7 +1674,7 @@
 							"z": -178.98649597167972
 						},
 						"position": {
-							"x": 31.641250610351562,
+							"x": 31.64125061035156,
 							"y": 33.05704116821289,
 							"z": 0.000011000000085914508
 						}
@@ -2192,7 +2192,7 @@
 						},
 						"position": {
 							"x": 96.65518188476564,
-							"y": 2.6888809204101562,
+							"y": 2.688880920410156,
 							"z": 11.855469703674316
 						}
 					}
@@ -10079,7 +10079,7 @@
 						"position": {
 							"x": 14.076290130615234,
 							"y": -69.53682708740234,
-							"z": 2.4182510375976562
+							"z": 2.418251037597656
 						}
 					}
 				},
@@ -11361,6 +11361,52 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafeea0495203020": {
+			"parent": "fffffffffffffffe",
+			"name": "Blackmarket Suppliers Compatibility",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed72eb949235a": {
+			"parent": "cafeea0495203020",
+			"name": "GameplayStart",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "TransmitEvent": ["cafe52ee8aa5bdfd"] }
+			}
+		},
+		"cafe52ee8aa5bdfd": {
+			"parent": "cafed72eb949235a",
+			"name": "Event Transmitter",
+			"factory": "0037A7E362011A78",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe997675a0485e"
+				}
+			}
+		},
+		"cafe997675a0485e": {
+			"parent": "cafe52ee8aa5bdfd",
+			"name": "Token Identity",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "Freelancer_Variations_Python"
 				}
 			}
 		}

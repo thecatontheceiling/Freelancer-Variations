@@ -1,0 +1,16 @@
+{
+	"tempHash": "00A012003324DCDF",
+	"tbluHash": "00853BBC8543D499",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/mission_hot_blackjack.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/override_blackjack.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

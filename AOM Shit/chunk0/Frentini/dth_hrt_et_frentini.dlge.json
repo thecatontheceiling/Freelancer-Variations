@@ -1,0 +1,101 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/et_frentini/dth_hrt_et_frentini.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_001",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_001.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_002",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_002.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_003",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_003.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_003.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_004",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_004.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_004.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_005",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_005.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_005.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_006",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_006.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_006.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_007",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_007.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_007.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_008",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_008.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_008.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_009",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_009.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_009.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dth_hrt_et_frentini_010",
+				"weight": 0.1,
+				"soundtag": "In-world_AI_Normal",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_frentini/dth_hrt_et_frentini_010.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/fod_male/dth_hrt_fod_male_male_010.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

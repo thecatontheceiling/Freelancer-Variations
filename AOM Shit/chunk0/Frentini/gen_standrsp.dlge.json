@@ -1,0 +1,38 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/et_frentini/gen_standrsp_et_frentini.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "dr3854_bsment47wakealt_et_frentini_016",
+				"weight": 0.3333333333333333,
+				"soundtag": "In-world_Mission_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3854_bsment47wakealt_et_frentini_016.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3854_bsment47wakealt_et_frentini_016.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr3799_vipfrentinilose_et_frentini_007",
+				"weight": 0.3333333333333333,
+				"soundtag": "In-world_Mission_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3799_vipfrentinilose_et_frentini_007.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3799_vipfrentinilose_et_frentini_007.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "dr3786_loopbar_et_frentini_013",
+				"weight": 0.3333333333333333,
+				"soundtag": "In-world_Mission_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3786_loopbar_et_frentini_013.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_elusive/3700_frenchmartini/3700_story/dr3786_loopbar_et_frentini_013.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

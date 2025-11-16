@@ -1,0 +1,49 @@
+{
+	"tempHash": "00F630EB7A2172F9",
+	"tbluHash": "00E426FA40B02175",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"abaf83a164073063",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bValueOpenFromInside",
+						{
+							"originalProperty": "m_bValueOpenFromInside",
+							"originalEntity": "60e3c7ccb63bf3dd"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"abaf83a164073063",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bValueOpenFromOutside",
+						{
+							"originalProperty": "m_bValueOpenFromOutside",
+							"originalEntity": "60e3c7ccb63bf3dd"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"abaf83a164073063",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bValueUnlockIfOpened",
+						{
+							"originalProperty": "m_bValueUnlockIfOpened",
+							"originalEntity": "60e3c7ccb63bf3dd"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

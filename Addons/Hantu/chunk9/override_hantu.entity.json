@@ -6681,201 +6681,6 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"abcdda1f7dda1add": {
-			"parent": "fffffffffffffffe",
-			"name": "Trigger stuff upon game start",
-			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-			"properties": {
-				"m_eEvent": {
-					"type": "EGameEventType",
-					"value": "GET_GameplayStart"
-				}
-			},
-			"events": {
-				"EventOccurred": {
-					"GetIndex": ["abcda341d5a5d816"],
-					"TransmitEvent": ["abcda2a3d23a6abb"]
-				}
-			}
-		},
-		"abcda341d5a5d816": {
-			"parent": "abcdda1f7dda1add",
-			"name": "zmultiparentspatialentity",
-			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
-			"properties": {
-				"m_aParents": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d09ec4115c7c8281",
-						"3b98fd686f33955e",
-						"769db846926d9e01",
-						"168d70209f335270",
-						"ee5d54aa640aabf8",
-						"5044a0aa74d3a822",
-						"6065dd64ed6bc3c4",
-						"9c7a2067f750efd7",
-						"13e487c90453c81f",
-						"c5a336d0489a24a2",
-						"bbe68c69c82913f4",
-						"17695ecbee6a75d8",
-						"deb577dbbb38ff87",
-						"ebec9f9c2445d551",
-						"0652e7c433b2a79b",
-						"530a253164077912",
-						"9538454e51bbecc3",
-						"e116bcf3899a736d",
-						"e39aa74052475ef7",
-						"71363d619561d93e",
-						"aeac78bed69cd589",
-						"2ec2092cbcbf733c",
-						"8b99dfbd41b9da2c",
-						"50ac423436dadbd7",
-						"4c41c1be50987550",
-						"1f92ce6d85150517",
-						"b0fddf02ff749857",
-						"17b31f580bd3e4b9",
-						"4a7da649ad67a3f3",
-						"f9451fbfb3907982",
-						"4bf500d09c80805c",
-						"1fdc7bd6b53183a4",
-						"81c9ab425c91a5d5",
-						"4c137256771a7b6b",
-						"2347874927ba2f04",
-						"3ae57f54263c08eb",
-						"6427a2b1f4554ade",
-						"2a748cb8efc042e1",
-						"9d3caa73cdd2c9cf",
-						"e2d976b02491e35c",
-						"dd37078bc9cb4caf",
-						"aa1fced032197d51",
-						"087f4a1744c5a1f1",
-						"0d90364db9a45dfa",
-						"a750f37b665c2b0f",
-						"88ec355ce7126331",
-						"31b0ed1509059ec3",
-						"915f610cb7a3e817",
-						"351298b12cd510aa",
-						"979ad28594db7f1c",
-						"d91846f2c7bf200e",
-						"6c01c08547e5dc43",
-						"8ed329944294a125",
-						"fd8057f9119b9e23",
-						"b05e0d25240dca15",
-						"28ef1b3ad91d3948",
-						"257e86a517041673",
-						"16db8e1d4cadee9b",
-						"ef298a07d7fe0cb2",
-						"200f93ee418e43d8",
-						"0e42381a689ef5bc",
-						"ef7c5c484a1dffb3",
-						"53854c2eaad26657",
-						"0b0f970b4692d9e1",
-						"53b53f6d70b1e321",
-						"cd6b56c136ee3b85",
-						"ae1dda105aeb3aa2",
-						"1340554791320950",
-						"2e9b69b775f14543",
-						"fbc19ab88a27ca1c",
-						"419a64938ccffb69",
-						"7d7835fceeba44eb",
-						"d34e95f2f2f6891f",
-						"37d8a71080a56829",
-						"381e114ec31122cc",
-						"c4936a72dd56d7d9",
-						"fdace3aa6e020c71",
-						"7c236786f9ef9a2f",
-						"d92ea7ae608d0376",
-						"8af6732fec2cdc70",
-						"4f8ae325d00552d6",
-						"f4164900a357e6d1",
-						"c81d2e10e03e83f1",
-						"e9a3f9539f7f8f33",
-						"bb41a9d80890147d",
-						"726722d03532b539",
-						"57d2b6e1035ea2da",
-						"fffffffffffffffe",
-						"cff08c307055cb09",
-						"4d45c423c9816d46",
-						"09d113b6ba43d472",
-						"a4e805069eec74d3",
-						"7904ea981d627d5a",
-						"4bc5435a8cf12c3c",
-						"72d941b7ae43d0d4",
-						"91dc781431926c01",
-						"4dd27d50e0032ec5",
-						"7346117a342b8da3",
-						"943dbdf55e89bfef",
-						"8ad0fa110556999b",
-						"1e4aa2868148c733",
-						"4b361b0e91d23c1d",
-						"e56c1dbc0f0c5bea",
-						"fe5a42b0cfa3f1c1",
-						"00c479550d70f46c",
-						"7307059440282338",
-						"1691294760330403",
-						"3bf87cf80dad65a5",
-						"3a7413fb7323f307",
-						"64c007aaf8738129",
-						"6edc675e603cc85d",
-						"6783d23eef20a591",
-						"ae794499de2d11c4",
-						"c94a67ab5d711726",
-						"bed4740f484c0440",
-						"6038df96891e3554",
-						"dbbc930b1ce7f493",
-						"57857ad0965b072e",
-						"b76750f1d220a7ff",
-						"8a144483fe22562f",
-						"0d655bbd0315ae7f",
-						"b060a9bd2494622d",
-						"d022a65f1231c819",
-						"10e4e788906a4b12",
-						"914fdc380efb25e1",
-						"57de19dd61e0b97b",
-						"dcf88017f9031b01",
-						"57d7103559535b6c",
-						"e72511bd3dcff93c",
-						"b9d0856e7d1d0cbc",
-						"2b174315286f4c47",
-						"d3743bf1dc5bf1d2",
-						"5d23b422f3117e8a",
-						"ac8fa2757bbac8e1",
-						"c5bc49badd25c62d",
-						"8a8a865eeaa2b7cf",
-						"cf615a28d3bc1f0c",
-						"54bb0268d6c250a0",
-						"9def76ae9fafd991",
-						"2bd26c4f31b7dd21",
-						"6c54ada8e0bc392c",
-						"71c7e0704d0adee8",
-						"b275dce082886946",
-						"48cc267affa216b2",
-						"b0827643a2a5ea34",
-						"bdc89a738d923b54",
-						"846e32d29100f63a",
-						"c89ec6075b0fa767",
-						"4d80d05eefc5e0be",
-						"1e37f4c60f15f833",
-						"e27d484df7c61e33",
-						"c4278b0498ba016a",
-						"49a1d171e0dc38e3",
-						"a72b44e06e707c61",
-						"2b413734ef10a98e",
-						"5bd716ade00d2659",
-						"06f59d0c2eaa0337",
-						"691c016463b4265a",
-						"629e6a7c66534412",
-						"5100e97e2e201dbf",
-						"df6c916666e31de5",
-						"41a1fd5e9a6e48cb",
-						"038539601891caa0",
-						"647b2595e64f4a8c"
-					]
-				}
-			}
-		},
 		"abcd84e0a6e673e5": {
 			"parent": "fffffffffffffffe",
 			"name": "CHAR_Boat Hut Guard",
@@ -7026,27 +6831,6 @@
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["abcdc954ff57bc7e"] } }
-		},
-		"abcda2a3d23a6abb": {
-			"parent": "fffffffffffffffe",
-			"name": "EventChannelTransmitter_void_01",
-			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "abcd87616b0e0870"
-				}
-			}
-		},
-		"abcd87616b0e0870": {
-			"parent": "abcda2a3d23a6abb",
-			"name": "IsHantu",
-			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
-			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
-			"properties": {
-				"m_sName": { "type": "ZString", "value": "IsHantu" }
-			}
 		},
 		"feed833a31d3684f": {
 			"parent": "fffffffffffffffe",
@@ -7471,6 +7255,46 @@
 					]
 				}
 			}
+		},
+		"cafe737b88a66a8e": {
+			"parent": "fffffffffffffffe",
+			"name": "GameplayStart",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "TransmitEvent": ["cafe6c5d0b0ba4ea"] }
+			}
+		},
+		"cafe6c5d0b0ba4ea": {
+			"parent": "cafe737b88a66a8e",
+			"name": "Event Transmitter",
+			"factory": "0037A7E362011A78",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe285e6f636882"
+				}
+			}
+		},
+		"cafe285e6f636882": {
+			"parent": "cafe6c5d0b0ba4ea",
+			"name": "Token Identity",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "Freelancer_Variations_Hantu"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -7832,10 +7656,7 @@
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-		{ "resource": "00A54816A96A08FE", "flag": "5F" },
-		{ "resource": "01C021BBA3818C70", "flag": "5F" }
-	],
+	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []
 }

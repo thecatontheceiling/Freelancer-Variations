@@ -1,0 +1,135 @@
+{
+	"tempHash": "007EFF3CCBCBC1FB",
+	"tbluHash": "00F81810120A5B13",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6804785590071afa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.027960337643270577,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": 0.01687600091099739,
+								"y": 0.24001100659370425,
+								"z": -9.999999974752427e-7
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["552567caf9318f4c", { "RemovePropertyByName": "YMaxInfoPanel" }]
+		},
+		{
+			"SubEntityOperation": [
+				"552567caf9318f4c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+							"position": {
+								"x": -0.961,
+								"y": -0.165,
+								"z": -0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"552567caf9318f4c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vPositionOffset",
+						"value": { "x": 1082.9, "y": 979, "z": 0.0 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"552567caf9318f4c",
+				{
+					"AddProperty": ["m_bIsUIWidgetVisible", { "type": "bool", "value": true }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1259a13b112920b5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.027960337643270577,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": -1.2786600589752195,
+								"y": 0.0508820004761219,
+								"z": -9.999999974752427e-7
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"00439f0de565b76b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.027960337643270577,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": 0.9537349939346312,
+								"y": -0.23465700447559357,
+								"z": -9.999999974752427e-7
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ba1d8135a638ed4b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.027960337643270577,
+								"y": 0.0,
+								"z": -0.0
+							},
+							"position": {
+								"x": -0.17110300064086914,
+								"y": 0.23262999951839447,
+								"z": -9.999999974752427e-7
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

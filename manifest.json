@@ -1,11 +1,11 @@
 {
-	"version": "1.9.9",
+	"version": "1.10.0",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/FV-Autoupdater/main/updates.json",
 	"description": "Gives most maps randomised alternative variants when you visit in Freelancer; includes bonus missions and different times of day/weather. Requires SDK mod or Peacock Plugin to actually work.",
-	"authors": ["Kevin Rudd", "Kercyx"],
+	"authors": ["Kevin Rudd"],
 	"loadBefore": ["KevinRudd.TODChange"],
 	"loadAfter": ["KevinRudd.SeafoodMassacre", "musicalmushr00m.LightingUltimate", "GlacierOrganisation.CommunityPatches"],
 	"dependencies": [
@@ -48,16 +48,6 @@
 			"runtimeID": "00AA559EFE13DEDE",
 			"toChunk": 1,
 			"comment": "laptop_b_rat"
-		},
-		"005F1C65A63B1084",
-		"003458578AADA57A",
-		"004B3B5C68E404C6",
-		"00D799D256F71A3C",
-		"003927FFC881F072",
-		{
-			"runtimeID": "006D6AC49D3D80FA",
-			"comment": "waterbarrel",
-			"toChunk": 1
 		},
 		{
 			"runtimeID": "0016A3E811DE863C",
@@ -748,6 +738,24 @@
 				{
 					"runtimeID": "007958CA8FCCE469,0069D5263B85EBA1,00578B12377C6BF0",
 					"toChunk": 21
+				}
+			]
+		},
+		{
+			"name": "Sandbox Vector Content",
+			"type": "conditional",
+			"condition": "\"KevinRudd.SandboxVector\" not in config.loadOrder",
+			"contentFolders": ["Addons/Vector"],
+			"dependencies": [
+				"005F1C65A63B1084",
+				"003458578AADA57A",
+				"004B3B5C68E404C6",
+				"00D799D256F71A3C",
+				"003927FFC881F072",
+				{
+					"runtimeID": "006D6AC49D3D80FA",
+					"comment": "waterbarrel",
+					"toChunk": 1
 				}
 			]
 		},
@@ -1527,31 +1535,67 @@
 			],
 			"localisation": {
 				"english": {
-					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+					"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_CUBA_CITY": "Sierra Cantante"
 				},
 				"french": {
-					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+					"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_CUBA_CITY": "Sierra Cantante"
 				},
 				"italian": {
-					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+					"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_CUBA_CITY": "Sierra Cantante"
 				},
 				"german": {
-					"ui_location_parent_cuba_name": "Sierra Cantante, Kuba"
+					"ui_location_parent_cuba_name": "Sierra Cantante, Kuba",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "Kuba",
+					"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+					"UI_LOCATION_CUBA_COUNTRY": "Kuba",
+					"UI_LOCATION_CUBA_CITY": "Sierra Cantante"
 				},
 				"spanish": {
-					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba"
+					"ui_location_parent_cuba_name": "Sierra Cantante, Cuba",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_PARENT_CUBA_CITY": "Sierra Cantante",
+					"UI_LOCATION_CUBA_COUNTRY": "Cuba",
+					"UI_LOCATION_CUBA_CITY": "Sierra Cantante"
 				},
 				"russian": {
-					"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба"
+					"ui_location_parent_cuba_name": "Сьерра-Кантанте, Куба",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "Куба",
+					"UI_LOCATION_PARENT_CUBA_CITY": "Сьерра Кантанте",
+					"UI_LOCATION_CUBA_COUNTRY": "Куба",
+					"UI_LOCATION_CUBA_CITY": "Сьерра Кантанте"
 				},
 				"chineseSimplified": {
-					"ui_location_parent_cuba_name": "古巴塞拉坎坦特"
+					"ui_location_parent_cuba_name": "古巴塞拉坎坦特",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "古巴",
+					"UI_LOCATION_PARENT_CUBA_CITY": "歌唱山脉",
+					"UI_LOCATION_CUBA_COUNTRY": "古巴",
+					"UI_LOCATION_CUBA_CITY": "歌唱山脉"
 				},
 				"chineseTraditional": {
-					"ui_location_parent_cuba_name": "古巴塞拉坎坦特"
+					"ui_location_parent_cuba_name": "古巴塞拉坎坦特",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "古巴",
+					"UI_LOCATION_PARENT_CUBA_CITY": "歌唱山脈",
+					"UI_LOCATION_CUBA_COUNTRY": "古巴",
+					"UI_LOCATION_CUBA_CITY": "歌唱山脈"
 				},
 				"japanese": {
-					"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"
+					"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ",
+					"UI_LOCATION_PARENT_CUBA_COUNTRY": "キューバ",
+					"UI_LOCATION_PARENT_CUBA_CITY": "歌う山脈",
+					"UI_LOCATION_CUBA_COUNTRY": "キューバ",
+					"UI_LOCATION_CUBA_CITY": "歌う山脈"
 				}
 			},
 			"localisedlines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
@@ -1858,6 +1902,12 @@
 			"contentFolders": ["Addons/Yacht/fv"]
 		},
 		{
+			"name": "Pumpkin",
+			"type": "conditional",
+			"condition": "\"Bryn.Halloween\" in config.loadOrder",
+			"contentFolders": ["Addons/Pumpkin"]
+		},
+		{
 			"name": "No AOM",
 			"type": "conditional",
 			"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
@@ -1883,8 +1933,78 @@
 				"005AFA48720347FB,005DE1A991DDB1CC,005EE826E481F870,008D16EC4822B1D5,008D31A6DCAF94E4",
 				"0011CFF15E85D184,0055E33191F7DB95,0097A3CEE439C72C,00169F006BB653AE,00235CF5B58E832D",
 				"00268D40B5C62DCD,00923BF7048EB387,001939DD2D4EDE0B,006480FC59F70734,007618FB4712C8AC",
-				"0014378454472B7B,00579731181846AB,0028212600519399"
+				"0014378454472B7B,00579731181846AB,0028212600519399",
+
+				"001999D07B270C7A,00C62EC6AB0A6580,00B58F8E83C59CAE,00524426CA740C2F,00974BE1279D6BF9",
+				"006C16037B55ABC9,004EE7BB94BDD782,00B5340759C13B03,00A45E6E15A8C2D3,007834123F5AA33D",
+				"00D588A27489309E,00C7BED89556F48D,0022CF02C3B3B9B6"
 			]
+		},
+		{
+			"name": "Haven Island",
+			"tooltip": "Haven Island's map entry will be moved to Cuba. Combine with Mission Companion for name change",
+			"type": "select",
+			"group": "Replace with Sierra Cantante, Cuba on world map",
+			"contentFolders": ["WorldMap/HavenToCuba"]
+		},
+		{
+			"name": "Ambrose Island",
+			"tooltip": "Ambrose Island's map entry will be moved to Cuba. Combine with Mission Companion for name change",
+			"type": "select",
+			"group": "Replace with Sierra Cantante, Cuba on world map",
+			"contentFolders": ["WorldMap/AmbroseToCuba"]
+		},
+		{
+			"name": "None",
+			"tooltip": "Cuba will not show up as a world map entry",
+			"type": "select",
+			"enabledByDefault": true,
+			"group": "Replace with Sierra Cantante, Cuba on world map",
+			"contentFolders": []
+		},
+		{
+			"name": "Colorado",
+			"tooltip": "Colorado's map entry will be moved to Romania. Combine with Mission Companion for name change",
+			"type": "select",
+			"group": "Replace with Carpathian Mountains, Romania on world map",
+			"contentFolders": ["WorldMap/ColoradoToTrain"]
+		},
+		{
+			"name": "New York",
+			"tooltip": "New York's map entry will be moved to Romania. Combine with Mission Companion for name change",
+			"type": "select",
+			"group": "Replace with Carpathian Mountains, Romania on world map",
+			"contentFolders": ["WorldMap/NYToTrain"]
+		},
+		{
+			"name": "None",
+			"tooltip": "Romania will not show up as a world map entry",
+			"type": "select",
+			"enabledByDefault": true,
+			"group": "Replace with Carpathian Mountains, Romania on world map",
+			"contentFolders": []
+		},
+		{
+			"name": "Hawke's Bay",
+			"tooltip": "Hawke's Bay map entry will be moved to Singapore. Combine with Mission Companion for name change",
+			"type": "select",
+			"group": "Replace with Hantu Port, Singapore on world map",
+			"contentFolders": ["WorldMap/HBToHantu"]
+		},
+		{
+			"name": "Isle of Sgail",
+			"tooltip": "Isle of Sgail's map entry will be moved to Singapore. Combine with Mission Companion for name change",
+			"type": "select",
+			"group": "Replace with Hantu Port, Singapore on world map",
+			"contentFolders": ["WorldMap/SgailToHantu"]
+		},
+		{
+			"name": "None",
+			"tooltip": "Hantu Port will not show up as a world map entry",
+			"type": "select",
+			"enabledByDefault": true,
+			"group": "Replace with Hantu Port, Singapore on world map",
+			"contentFolders": []
 		}
 	],
 	"packagedefinition": [

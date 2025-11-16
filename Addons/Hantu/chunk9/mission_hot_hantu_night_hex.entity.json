@@ -8,35 +8,6 @@
 			"name": "Scene",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-		},
-		"abcdda5116b3226e": {
-			"parent": "fffffffffffffffe",
-			"name": "Trigger stuff upon game start",
-			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
-			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
-			"properties": {
-				"m_eEvent": {
-					"type": "EGameEventType",
-					"value": "GET_GameplayStart"
-				}
-			},
-			"events": {
-				"EventOccurred": {
-					"GetIndex": ["abcd4be6399231c3"]
-				}
-			}
-		},
-		"abcd4be6399231c3": {
-			"parent": "abcdda5116b3226e",
-			"name": "zmultiparentspatialentity",
-			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
-			"properties": {
-				"m_aParents": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				}
-			}
 		}
 	},
 	"propertyOverrides": [],

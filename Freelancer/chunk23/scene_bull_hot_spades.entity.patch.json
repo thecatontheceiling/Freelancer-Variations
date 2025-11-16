@@ -1,0 +1,22 @@
+{
+	"tempHash": "00315546FBBDA565",
+	"tbluHash": "009C821B6C23DD32",
+	"patch": [
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_guidance_bull.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/lighting_dusk.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_hot_spades.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/colorado_2/override_spades.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,125 @@
+{
+	"tempHash": "00529903F5B9724E",
+	"tbluHash": "001449026C399EA8",
+	"patch": [
+		{ "SubEntityOperation": ["9d86e16e7cb44137", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["9d86e16e7cb44137", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"85ac4e95ef549498",
+				{ "SetPropertyValue": { "property_name": "Timeout", "value": 30000 } }
+			]
+		},
+		{ "SubEntityOperation": ["dd1ec4390428a840", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["dd1ec4390428a840", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["f1c3abe65201bd6c", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["f1c3abe65201bd6c", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["9e6c59840b47efb6", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["9e6c59840b47efb6", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"ff9d06ab9f059b63",
+				{ "SetPropertyValue": { "property_name": "Timeout", "value": 30000 } }
+			]
+		},
+		{ "SubEntityOperation": ["7a220ec39a5e3fd0", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["7a220ec39a5e3fd0", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["78a435388b676c10", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["78a435388b676c10", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"85792ed91eba9f85",
+				{ "SetPropertyValue": { "property_name": "Timeout", "value": 30000 } }
+			]
+		},
+		{ "SubEntityOperation": ["956e3f66ce178e78", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["956e3f66ce178e78", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["eb3dd07a25c74cbb", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["eb3dd07a25c74cbb", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"c2821728caf91c82",
+				{ "SetPropertyValue": { "property_name": "m_fConditionValidDistance", "value": 30 } }
+			]
+		},
+		{ "SubEntityOperation": ["8d2f955c2ed72767", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["8d2f955c2ed72767", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"8d2f955c2ed72767",
+				{ "SetPropertyValue": { "property_name": "m_fMinDuration", "value": 1 } }
+			]
+		},
+		{ "SubEntityOperation": ["cc95be0398dd3749", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["cc95be0398dd3749", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["ae3e04050fda93c7", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["ae3e04050fda93c7", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"ae3e04050fda93c7",
+				{ "SetPropertyValue": { "property_name": "m_fMinDuration", "value": 1 } }
+			]
+		},
+		{ "SubEntityOperation": ["16da7086887056c6", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["16da7086887056c6", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["14b9ccff9e09c55f", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["14b9ccff9e09c55f", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["4a5ea4d483385eea", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["4a5ea4d483385eea", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"0419e1b4491b4251",
+				{ "SetPropertyValue": { "property_name": "Timeout", "value": 20000 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bf4f9bcfa8d1d8b6",
+				{ "SetPropertyValue": { "property_name": "m_fConditionValidDistance", "value": 30 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"28fd65a5e2585622",
+				{ "SetPropertyValue": { "property_name": "m_fConditionValidDistance", "value": 30 } }
+			]
+		},
+		{ "SubEntityOperation": ["82df12a423f8ddcd", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["82df12a423f8ddcd", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["42ffcbd9bacc254e", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["42ffcbd9bacc254e", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["fefe9150329fa01c", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["fefe9150329fa01c", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["098ec7bc11774f5d", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["098ec7bc11774f5d", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["6bc4125817805266", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["6bc4125817805266", { "SetBlueprint": "0018FB9506135A96" }] },
+		{
+			"SubEntityOperation": [
+				"6bc4125817805266",
+				{ "SetPropertyValue": { "property_name": "m_fMinDuration", "value": 1 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e315974349bec8df",
+				{ "SetPropertyValue": { "property_name": "m_fConditionValidDistance", "value": 30 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2f0e5559da6b3613",
+				{ "SetPropertyValue": { "property_name": "Timeout", "value": 20000 } }
+			]
+		},
+		{ "SubEntityOperation": ["8159326fda577da4", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["8159326fda577da4", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["7cba91b4727258a8", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["7cba91b4727258a8", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["b7984ff3034dc8c7", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["b7984ff3034dc8c7", { "SetBlueprint": "0018FB9506135A96" }] },
+		{ "SubEntityOperation": ["c3ac5aca1394afdd", { "SetFactory": "007E378EA87BA806" }] },
+		{ "SubEntityOperation": ["c3ac5aca1394afdd", { "SetBlueprint": "0018FB9506135A96" }] }
+	],
+	"patchVersion": 6
+}

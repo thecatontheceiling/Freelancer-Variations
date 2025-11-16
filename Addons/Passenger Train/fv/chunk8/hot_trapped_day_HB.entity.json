@@ -1,0 +1,83 @@
+{
+	"tempHash": "00171F9E26BBDB2C",
+	"tbluHash": "00B076FA2342DD8E",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "cafe75d2aa9ebf75",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "78477425-7330-4092-ad71-6548e07ccc93"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feedd0a3cc185c94",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "d08b7d6d-9b1f-4131-bb44-4ebd2cdb1cec"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feede61cf1cdcc66",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "0f13f00b-abb4-4cdd-bd9d-748514b941d5"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "788924b8b75db594",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/hot_trapped_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "0215d1cf-a9a4-49af-aded-d6575928324b"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/hot_trapped_day.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

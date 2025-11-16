@@ -1,0 +1,583 @@
+{
+	"tempHash": "006B794EA561DC1D",
+	"tbluHash": "001A1B12279D356D",
+	"patch": [
+		{ "RemoveEntityByID": "dbdd3c34cd546734" },
+		{ "RemoveEntityByID": "be66d027e7693102" },
+		{ "RemoveEntityByID": "e84d23f5509358fd" },
+		{ "RemoveEntityByID": "e3ef50eb29b72c20" },
+		{
+			"SubEntityOperation": [
+				"ecee8beea2246d46",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": -2.2994539737701416,
+								"y": -4.034,
+								"z": 0.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ecee8beea2246d46",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_PrimitiveScale",
+						"value": {
+							"x": 5.49,
+							"y": 4.599999904632568,
+							"z": 1.0
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["a1e27820be5e557f", { "RemovePropertyByName": "SpotLightChange" }]
+		},
+		{
+			"SubEntityOperation": ["a1e27820be5e557f", { "RemovePropertyByName": "On" }]
+		},
+		{
+			"SubEntityOperation": ["a1e27820be5e557f", { "RemovePropertyByName": "CapsuleDiffusePower" }]
+		},
+		{
+			"SubEntityOperation": [
+				"a1e27820be5e557f",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 20.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a1e27820be5e557f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": {
+							"x": 3.0199999809265137,
+							"y": 8.130000114440918
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a1e27820be5e557f",
+				{
+					"AddProperty": [
+						"m_vFarAttenuationCapsule",
+						{
+							"type": "SVector2",
+							"value": {
+								"x": 0.30758199095726013,
+								"y": 1.6355299949645996
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a1e27820be5e557f",
+				{
+					"AddProperty": ["DiffuseColor", { "type": "SColorRGB", "value": "#e0f2ff" }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["d2159a48a55fa907", { "SetName": "a_ext_wall_2x3_window_a_frame_a" }]
+		},
+		{
+			"SubEntityOperation": [
+				"d2159a48a55fa907",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_2x3_window_a_frame_a.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2159a48a55fa907",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_2x3_window_a_frame_a.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2159a48a55fa907",
+				{
+					"AddProperty": ["m_bAccessibleFromRight", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2159a48a55fa907",
+				{
+					"AddProperty": ["m_bAccessibleFromLeft", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2159a48a55fa907",
+				{
+					"AddProperty": ["m_fCoverLength", { "type": "float32", "value": 1.0518089532852173 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d2159a48a55fa907",
+				{
+					"AddProperty": [
+						"OpenCondition",
+						{
+							"type": "SEntityTemplateReference",
+							"value": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["d2159a48a55fa907", { "AddSubset": ["AudioEmitters", "95bbcb9dbf883d05"] }]
+		},
+		{
+			"SubEntityOperation": ["5016461787b01d0e", { "RemovePropertyByName": "On" }]
+		},
+		{
+			"SubEntityOperation": ["5016461787b01d0e", { "RemovePropertyByName": "CapsuleDiffusePower" }]
+		},
+		{
+			"SubEntityOperation": [
+				"5016461787b01d0e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bCastShadows",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5016461787b01d0e",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 20.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5016461787b01d0e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": {
+							"x": 3.0199999809265137,
+							"y": 8.130000114440918
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5016461787b01d0e",
+				{
+					"AddProperty": [
+						"m_vFarAttenuationCapsule",
+						{
+							"type": "SVector2",
+							"value": {
+								"x": 0.30758199095726013,
+								"y": 1.6355299949645996
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5016461787b01d0e",
+				{
+					"AddProperty": ["DiffuseColor", { "type": "SColorRGB", "value": "#e0f2ff" }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_AutoOpen",
+						{
+							"originalProperty": "AutoOpen",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_Reinforced",
+						{
+							"originalProperty": "Reinforced",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_RequireActivation",
+						{
+							"originalProperty": "RequireActivation",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_m_bAutoClose",
+						{
+							"originalProperty": "m_bAutoClose",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_m_bEnabled",
+						{
+							"originalProperty": "m_bEnabled",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_m_bIsLocked",
+						{
+							"originalProperty": "m_bIsLocked",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"FrontDoubleDoors_m_bPathfindingObstacleEnabled",
+						{
+							"originalProperty": "m_bPathfindingObstacleEnabled",
+							"originalEntity": "be66d027e7693102"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_AutoOpen",
+						{
+							"originalProperty": "AutoOpen",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_Locked",
+						{
+							"originalProperty": "m_bIsLocked",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_Reinforced",
+						{
+							"originalProperty": "Reinforced",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_RequireActivation",
+						{
+							"originalProperty": "RequireActivation",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_m_bAutoClose",
+						{
+							"originalProperty": "m_bAutoClose",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_m_bEnabled",
+						{
+							"originalProperty": "m_bEnabled",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"04201993279e4862",
+				{
+					"RemoveConnectionForPropertyAlias": [
+						"RearDoubleDoors_m_bPathfindingObstacleEnabled",
+						{
+							"originalProperty": "m_bPathfindingObstacleEnabled",
+							"originalEntity": "e3ef50eb29b72c20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["04201993279e4862", { "RemoveExposedEntity": "RearDoubleDoors" }]
+		},
+		{
+			"SubEntityOperation": ["04201993279e4862", { "RemoveExposedEntity": "FrontDoubleDoors" }]
+		},
+		{
+			"SubEntityOperation": ["942090d12c6e9183", { "RemovePropertyByName": "On" }]
+		},
+		{
+			"SubEntityOperation": ["942090d12c6e9183", { "RemovePropertyByName": "CapsuleDiffusePower" }]
+		},
+		{
+			"SubEntityOperation": [
+				"942090d12c6e9183",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bCastShadows",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"942090d12c6e9183",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 20.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"942090d12c6e9183",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": {
+							"x": 3.0199999809265137,
+							"y": 8.130000114440918
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"942090d12c6e9183",
+				{
+					"AddProperty": [
+						"m_vFarAttenuationCapsule",
+						{
+							"type": "SVector2",
+							"value": {
+								"x": 0.30758199095726013,
+								"y": 1.6355299949645996
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"942090d12c6e9183",
+				{
+					"AddProperty": ["DiffuseColor", { "type": "SColorRGB", "value": "#e0f2ff" }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"be6cf855ef9286ef",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Clients",
+						[{ "RemoveItemByValue": "be66d027e7693102" }, { "RemoveItemByValue": "e3ef50eb29b72c20" }]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["95bbcb9dbf883d05", { "RemoveExposedEntity": "RearDoubleDoors" }]
+		},
+		{
+			"SubEntityOperation": ["95bbcb9dbf883d05", { "RemoveExposedEntity": "FrontDoubleDoors" }]
+		},
+		{
+			"SubEntityOperation": ["7a20dc23aca49525", { "SetName": "a_ext_wall_2x3_window_a_frame_a_06" }]
+		},
+		{
+			"SubEntityOperation": [
+				"7a20dc23aca49525",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_2x3_window_a_frame_a.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7a20dc23aca49525",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_2x3_window_a_frame_a.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7a20dc23aca49525",
+				{
+					"AddProperty": ["m_bAccessibleFromRight", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7a20dc23aca49525",
+				{
+					"AddProperty": ["m_bAccessibleFromLeft", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7a20dc23aca49525",
+				{
+					"AddProperty": ["m_fCoverLength", { "type": "float32", "value": 1.0518089532852173 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7a20dc23aca49525",
+				{
+					"AddProperty": [
+						"OpenCondition",
+						{
+							"type": "SEntityTemplateReference",
+							"value": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["7a20dc23aca49525", { "SetPropertyPostInit": ["m_eidParent", true] }]
+		},
+		{
+			"SubEntityOperation": ["7a20dc23aca49525", { "AddSubset": ["AudioEmitters", "95bbcb9dbf883d05"] }]
+		}
+	],
+	"patchVersion": 6
+}

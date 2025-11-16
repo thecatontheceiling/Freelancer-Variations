@@ -1,0 +1,427 @@
+{
+	"tempHash": "004A3C5163FE3C37",
+	"tbluHash": "0062B056B47BD521",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ETs_Night",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "d06adf72b2cd757b",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "2917f7e839e04150",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "be4da646be3c2e1c",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "7ac4a948d0ec4309",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "5a0b413d96cd5bd3",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "bda3181cfb687901",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "4d0bb2d0b7e09e8f",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "222edb98a7b7a415",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "a5ac041c874a0877",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "7dba59bf5dcfcff8",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "90ef7d0b1cfaba8d",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "f78e301b6b68a28f",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "760dc010e50c8837",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "1a1918f6be49ad4d",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": true },
+				"m_EnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "08562585f311aeaf",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"Composition_PlayEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/ingame_music_event/musiccore_discretecompositions/play_composition_09_niels03.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"ProceduralMoment_PlayEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/ingame_music_event/musiccore_v3_events/moments_discretecompositions/c03/play_c03_moment.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"ProceduralMoment_StopEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/ingame_music_event/musiccore_v3_events/moments_discretecompositions/c03/mtl_c03_stop_moment.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "41942d4c65519868",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -162.78122105475924
+						},
+						"position": {
+							"x": -83.803116,
+							"y": 41.047817,
+							"z": 12.917961
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9060408a89798dfc",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 157.20762276748877
+						},
+						"position": {
+							"x": -80.40104,
+							"y": 53.250305,
+							"z": 12.917961
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "11eb94d5e800e193",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 173.74292335182102
+						},
+						"position": {
+							"x": -83.70482,
+							"y": 52.575325,
+							"z": 12.917962
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "62db317c3db9e14e",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.33640881756978
+						},
+						"position": {
+							"x": -82.51941,
+							"y": 42.017437,
+							"z": 12.892157
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "47a5eee7ff993246",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -175.52858068767247
+						},
+						"position": {
+							"x": -81.75511,
+							"y": 48.302505,
+							"z": 12.917962
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "095ba779e3636455",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "972fdd2da1fb99d0",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "222edb98a7b7a415",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "a5ac041c874a0877",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "8a9360538c633953",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "8cba3d0303aafe7c",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "0387a64365ee8c2e",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				},
+				{
+					"ref": "87b827d19aa0fdcf",
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "9dc9c2567e9e88dc",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "f222b37efb56694e",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "87a95da81dd15fa6",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "fb56ae3aff2e0b92",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "4002c32e95c0f23c",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "b6bbc54107d21991",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ef73764f0e221b2",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "76bc896743f17dde",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "55fbb05d5d76e40d",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "1d3e1c9ea59c753c",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "65aabc0ea597c889",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "5771d0b0e5eb95c9",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "c16358134dab7146",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "0b2ace8dd520d469",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "4da8228dbffa0445",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "f752f6707d7c9fde",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "254f78878d1d4a55",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "93c62d2047a69b41",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "1f439abf9a7def91",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "a86965e61c502b27",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype"
+		},
+		{
+			"ref": "f000be9bb1f1e645",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_bushwacker.brick].pc_entitytype"
+		},
+		{
+			"ref": "35c6150cc59fc357",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_bushwacker.brick].pc_entitytype"
+		},
+		{
+			"ref": "973d691c5eaaa31c",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_bushwacker.brick].pc_entitytype"
+		},
+		{
+			"ref": "f7ef7c08ba790877",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "7565214c541370ec",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "4fa9be3acc1be23d",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "90200ebfc4437e59",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "a66c7aa910c6aacb",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "b4569a1f7402d8fd",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "f5fbd9bb0198cb59",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		},
+		{
+			"ref": "c1b7df2483af53a1",
+			"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"007A68DB070A092E",
+		"[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colorado_2/_scene_bushwacker.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colorado_2/mission_bull.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

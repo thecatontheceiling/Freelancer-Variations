@@ -28174,6 +28174,52 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe3f90039133b2": {
+			"parent": "fffffffffffffffe",
+			"name": "Blackmarket Compatibility",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe549f999f2a1b": {
+			"parent": "cafe3f90039133b2",
+			"name": "GameplayStart",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "TransmitEvent": ["cafe8429c6b04a70"] }
+			}
+		},
+		"cafe8429c6b04a70": {
+			"parent": "cafe549f999f2a1b",
+			"name": "Event Transmitter",
+			"factory": "0037A7E362011A78",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb684d1a501c7"
+				}
+			}
+		},
+		"cafeb684d1a501c7": {
+			"parent": "cafe8429c6b04a70",
+			"name": "Token Identity",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "Freelancer_Variations_Noodle"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -29365,6 +29411,10 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "2d16cfe64fa9332d",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/outfits_rat.brick].pc_entitytype"
+		},
+		{
 			"ref": "dbb5188ba3377f31",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat_ruddy.brick].pc_entitytype"
 		},
@@ -30081,7 +30131,8 @@
 		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/mumbai/outfits_mongoose.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/edgy/mission_fox/outfits_fox.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/outfits_fox.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/wet/outfits_rat.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

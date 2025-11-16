@@ -1,0 +1,266 @@
+{
+	"tempHash": "00B8B578739EB9E4",
+	"tbluHash": "00E88CF93CDEAD71",
+	"patch": [
+		{ "RemoveEntityByID": "53b3ce7f799b5e66" },
+		{
+			"SubEntityOperation": [
+				"5bb857a203056274",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_PrimitiveScale",
+						"value": {
+							"x": 5.01,
+							"y": 4.599999904632568,
+							"z": 1.0
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["c38a0e626176f1c2", { "RemovePropertyByName": "CapsuleDiffusePower" }]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bCastShadows",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 50
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": { "x": 8, "y": 8 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"SetPropertyValue": {
+						"property_name": "On",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"AddProperty": [
+						"SpotLightChange",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 169.0001812358735
+								},
+								"position": {
+									"x": -0.036375999450683594,
+									"y": 0.06602001190185547,
+									"z": 0.5637819766998291
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"AddProperty": [
+						"m_vAngularAttenuation",
+						{
+							"type": "SVector2",
+							"value": { "x": 0, "y": 1.0099999904632568 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_1x3_window_a_frame_a.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_1x3_window_a_frame_a.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"AddProperty": ["m_bAccessibleFromRight", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"AddProperty": ["m_bAccessibleFromLeft", { "type": "bool", "value": false }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"AddProperty": ["m_fCoverLength", { "type": "float32", "value": 1.0418089628219604 }]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["a0530126150cfccd", { "AddSubset": ["AudioEmitters", "7e69550e967a0edc"] }]
+		},
+		{
+			"SubEntityOperation": ["e3f7eccae3a90511", { "RemovePropertyByName": "m_rEntity" }]
+		},
+		{
+			"SubEntityOperation": ["46d6a3e245652ed4", { "RemovePropertyByName": "CapsuleDiffusePower" }]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_bCastShadows",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 50
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": { "x": 8, "y": 8 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"SetPropertyValue": {
+						"property_name": "On",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"AddProperty": [
+						"SpotLightChange",
+						{
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 0,
+									"y": 0,
+									"z": 169.0001812358735
+								},
+								"position": {
+									"x": -0.036375999450683594,
+									"y": 0.06602001190185547,
+									"z": 0.5637819766998291
+								}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"AddProperty": [
+						"m_vAngularAttenuation",
+						{
+							"type": "SVector2",
+							"value": { "x": 0, "y": 1.0099999904632568 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": ["13de96fcde011589", { "RemoveAllInputCopyConnectionsForInput": "OpenDoors" }]
+		}
+	],
+	"patchVersion": 6
+}

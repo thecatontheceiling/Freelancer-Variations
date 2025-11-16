@@ -11,7 +11,7 @@
 		},
 		"abcd863690ad90f3": {
 			"parent": "fffffffffffffffe",
-			"name": "Trigger stuff upon game start",
+			"name": "Trigger Events",
 			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"properties": {
