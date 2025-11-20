@@ -3136,7 +3136,7 @@
 		},
 		"73bbb98a15c4ad3d": {
 			"parent": "0b2e226873042a7b",
-			"name": "Spatial Kitchen",
+			"name": "Spatial Snowmobile",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"properties": {

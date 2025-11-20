@@ -14,6 +14,24 @@
 		{
 			"entities": [
 				{
+					"ref": "6a8ec0f3fa669e84",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "e90fdd558b638d85",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "b210be64-ea03-4983-aa0f-8d18882a23c7"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "14bc2c4679b868d1",
 					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 				},

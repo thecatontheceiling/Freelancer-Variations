@@ -266,8 +266,7 @@
 							"x": -25.596298,
 							"y": 92.998726,
 							"z": 4.5328784
-						},
-						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+						}
 					}
 				},
 				"m_fActTimeout": { "type": "float32", "value": 22 },
@@ -275,6 +274,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "abcdae5294a62ef4",
 					"postInit": true
+				},
+				"m_aApproachPath": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe46b7b885fc1e"]
 				}
 			},
 			"events": { "OnActTimeout": { "Start": ["abcd479bd989dc94"] } }
@@ -328,11 +331,6 @@
 							"x": 57.12176,
 							"y": 57.601124,
 							"z": 5
-						},
-						"scale": {
-							"x": 1.0000000000000002,
-							"y": 1.0000000000000002,
-							"z": 1
 						}
 					}
 				},
@@ -341,7 +339,11 @@
 					"value": "abcdae5294a62ef4"
 				},
 				"m_fActTimeout": { "type": "float32", "value": 30 },
-				"m_bAlignPosition": { "type": "bool", "value": true }
+				"m_bAlignPosition": { "type": "bool", "value": true },
+				"m_aApproachPath": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe46b7b885fc1e"]
+				}
 			},
 			"events": {
 				"OnActTimeout": { "Start": ["abcd6e06c2b773a5"] }
@@ -2474,10 +2476,7 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"exposedEntities": {
-				"OnVacatiohouse": {
-					"isArray": true,
-					"refersTo": []
-				}
+				"OnVacatiohouse": { "isArray": true, "refersTo": [] }
 			}
 		},
 		"abcd28d6ab67039c": {
@@ -10083,6 +10082,25 @@
 					"value": "EO_HIGH"
 				}
 			}
+		},
+		"cafe46b7b885fc1e": {
+			"parent": "abcd31419946bd42",
+			"name": "Spatial Avoid Cassidy House",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -88.68431 },
+						"position": {
+							"x": 24.722147,
+							"y": 49.498726,
+							"z": 4.9964676
+						}
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -10370,11 +10388,11 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 						},
 						{
-							"ref": "11252343b3fd5a62",
+							"ref": "a9e5340d45a1083d",
 							"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 						},
 						{
-							"ref": "a9e5340d45a1083d",
+							"ref": "11252343b3fd5a62",
 							"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 						},
 						{
@@ -11128,6 +11146,10 @@
 				},
 				{
 					"ref": "c2b7d67578523fe6",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+				},
+				{
+					"ref": "a9e5340d45a1083d",
 					"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
 				}
 			],

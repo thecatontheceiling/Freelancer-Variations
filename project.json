@@ -106,6 +106,8 @@
 		"[assembly:/_pro/scenes/missions/ancestral/tod_night_garden_show.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/ancestral/tod_midday.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/coastaltown/mission_hot_icon.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/coastaltown/mission_hot_icon.brick].pc_entityblueprint"
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_hot_icon.brick].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/trapped/hot_trapped_day_ny.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/hot_trapped_day_ny.brick].pc_entityblueprint"
 	]
 }
