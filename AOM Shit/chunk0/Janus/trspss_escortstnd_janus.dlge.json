@@ -1,0 +1,14 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/janus/trspss_escortstnd_janus.sweetdialog].pc_dialogevent",
+	"DITL": "[assembly:/localization/hitman6.sweet].pc_dialogsoundtemplatelist",
+	"CLNG": "[assembly:/localization/hitman6.sweet].pc_cascadinglanguagedependencies",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr27090_healthjanus47nursesendoff_janus_001",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/suburbia/27000_skunk/27000_story/dr27090_healthjanus47nursesendoff_janus_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/suburbia/27000_skunk/27000_story/dr27090_healthjanus47nursesendoff_janus_001.animset].pc_animset",
+		"languages": {}
+	}
+}

@@ -1426,7 +1426,15 @@
 				}
 			},
 			"events": {
-				"EventOccurred": { "TransmitEvent": ["cafe5e21c99ab3d0"] }
+				"EventOccurred": {
+					"TransmitEvent": ["cafe5e21c99ab3d0"],
+					"SetTrue": [
+						{
+							"ref": "3e1bd7a6e073fa3f",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_copperhead.brick].pc_entitytype"
+						}
+					]
+				}
 			}
 		},
 		"cafe5e21c99ab3d0": {
@@ -19646,6 +19654,37 @@
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "8259135e4918e3ae",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_copperhead.brick].pc_entitytype"
+				},
+				{
+					"ref": "24f9f26a022354e5",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_copperhead.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "0c285fadf7d81d2d",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_copperhead.brick].pc_entitytype"
+				},
+				{
+					"ref": "89132d450fa99044",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_copperhead.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": true }
+			}
+		},
 		{
 			"entities": [
 				{

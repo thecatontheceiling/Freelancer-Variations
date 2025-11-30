@@ -12,15 +12,29 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 1.8194760084152222, "y": 1.097661018371582, "z": 0.015607000328600407 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.8194760084152222,
+							"y": 1.097661018371582,
+							"z": 0.015607000328600407
+						}
 					}
 				},
 				"m_pBonesAndCollisionResource": {
 					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00E6D746D26D3871", "flag": "5F" }
+					"value": {
+						"resource": "00E6D746D26D3871",
+						"flag": "5F"
+					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["5b9d22e21189b26c", "ae4eeafaaa1a9bef", "c3db119648e5070b", "c4e85f7e7c5dc8a5"],
@@ -36,17 +50,47 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
 				},
-				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00F497DBC2EDB8CC", "flag": "5F" }
+					"value": {
+						"resource": "00F497DBC2EDB8CC",
+						"flag": "5F"
+					}
 				},
-				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#d0c8c4" },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "dc4a85ea86615ba2" },
-				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["ae4eeafaaa1a9bef"], "postInit": true }
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#d0c8c4"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "dc4a85ea86615ba2"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ae4eeafaaa1a9bef"],
+					"postInit": true
+				}
 			}
 		},
 		"5b9d22e21189b26c": {
@@ -55,8 +99,17 @@
 			"factory": "008736C2691685B1",
 			"blueprint": "00692FFA2F8F0EB5",
 			"properties": {
-				"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#99aec7" },
-				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "002C93A0E9106D98", "flag": "5F" } }
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#99aec7"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002C93A0E9106D98",
+						"flag": "5F"
+					}
+				}
 			}
 		},
 		"c4e85f7e7c5dc8a5": {
@@ -65,11 +118,26 @@
 			"factory": "00538F0D8B33EA7C",
 			"blueprint": "00616A7BAAB2C145",
 			"properties": {
-				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#473728" },
-				"ConstantColorRGB_03_Value": { "type": "SColorRGB", "value": "#473728" },
-				"ConstantVector1D_05_Value": { "type": "float32", "value": 0.7200000286102295 },
-				"ConstantColorRGB_05_Value": { "type": "SColorRGB", "value": "#ffa575" },
-				"ConstantVector1D_04_Value": { "type": "float32", "value": 0 }
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#473728"
+				},
+				"ConstantColorRGB_03_Value": {
+					"type": "SColorRGB",
+					"value": "#473728"
+				},
+				"ConstantVector1D_05_Value": {
+					"type": "float32",
+					"value": 0.7200000286102295
+				},
+				"ConstantColorRGB_05_Value": {
+					"type": "SColorRGB",
+					"value": "#ffa575"
+				},
+				"ConstantVector1D_04_Value": {
+					"type": "float32",
+					"value": 0
+				}
 			}
 		},
 		"c3db119648e5070b": {
@@ -83,7 +151,12 @@
 			"name": "Head_LabDoctor",
 			"factory": "0053B3D64FC6A337",
 			"blueprint": "000F76683F72A685",
-			"properties": { "ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#e6dada" } }
+			"properties": {
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#e6dada"
+				}
+			}
 		},
 		"feedd1c65e09d23c": {
 			"parent": "dc4a85ea86615ba2",
@@ -99,26 +172,7 @@
 	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-		{ "resource": "009FE4BCDE2966EC", "flag": "5F" },
-		{ "resource": "00751F249D042475", "flag": "5F" },
-		{ "resource": "0091FBA017372507", "flag": "5F" },
-		{ "resource": "002E7541DF988823", "flag": "5F" },
-		{
-			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
-			"flag": "5F"
-		},
-		{ "resource": "007AB310F7DB3836", "flag": "5F" },
-		{ "resource": "008B9B82794B4DF3", "flag": "5F" },
-		{ "resource": "003F6FE3FE730188", "flag": "5F" },
-		{
-			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](ascolormap).pc_tex",
-			"flag": "5F"
-		},
-		{ "resource": "00C8529E0CCA9EC1", "flag": "5F" },
-		{ "resource": "00D927084DA11024", "flag": "5F" },
-		{ "resource": "00A545F0FE26C2B3", "flag": "5F" }
-	],
+	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []
 }

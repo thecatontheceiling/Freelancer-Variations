@@ -1,0 +1,22 @@
+{
+    "hash_value": "005C90734846D42A",
+    "hash_path": "[assembly:/sound/wwise/exportedwwisedata/events/ambience_events/amb_serpienza/amb_backgrounds_serpienza/laboratory/play_bjorn_jacobsen___laboratory___test_lab___static_noise_from_ventilation.wwiseevent].pc_wwisebank",
+    "hash_offset": 462233048,
+    "hash_size": 2147483750,
+    "hash_resource_type": "WWEV",
+    "hash_reference_table_size": 22,
+    "hash_reference_table_dummy": 0,
+    "hash_size_final": 104,
+    "hash_size_in_memory": 4294967295,
+    "hash_size_in_video_memory": 4294967295,
+    "hash_reference_data": [
+        {
+            "hash": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/globaldata/main.wwisesoundbank].pc_wwisebank",
+            "flag": "1F"
+        },
+        {
+            "hash": "[assembly:/sound/wwise/originals/sfx/bjorn jacobsen - laboratory - test lab - static noise from ventilation.wav](default,603284184).pc_wem",
+            "flag": "9F"
+        }
+    ]
+}

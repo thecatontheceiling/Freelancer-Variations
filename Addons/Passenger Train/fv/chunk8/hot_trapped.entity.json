@@ -11245,7 +11245,7 @@
 		},
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Hot_Trapped",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},

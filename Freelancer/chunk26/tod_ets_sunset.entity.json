@@ -8,9 +8,385 @@
 			"name": "ToD_ETs_Sunset",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafeec76f0bc6622": {
+			"parent": "cafeb2c1589f6a08",
+			"name": "CoverPlane199",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.9359120752107716,
+							"y": 0.0134878164442539,
+							"z": 0.20729594521597736
+						},
+						"position": {
+							"x": 0.01016916986554861,
+							"y": 1.7822610139846802,
+							"z": 0.20111480355262756
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.5702470541000366
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08",
+					"postInit": true
+				}
+			}
+		},
+		"cafea5a742d628c2": {
+			"parent": "cafeb2c1589f6a08",
+			"name": "CoverPlane194",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.007087021505855234,
+							"y": 0.8555891896579705,
+							"z": -89.47288957498837
+						},
+						"position": {
+							"x": -0.7867251038551331,
+							"y": 0.5044376254081726,
+							"z": 0.1818125993013382
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.561583995819092
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08",
+					"postInit": true
+				}
+			}
+		},
+		"cafebf94efb3eefc": {
+			"parent": "cafeb2c1589f6a08",
+			"name": "CoverPlane196",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.9659166662273264,
+							"y": -0.0245812541023091,
+							"z": 179.51508818473596
+						},
+						"position": {
+							"x": -0.005349363200366497,
+							"y": -1.8400349617004397,
+							"z": 0.14701509475708008
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.4544429779052734
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08",
+					"postInit": true
+				}
+			}
+		},
+		"cafe725e2b3fa04c": {
+			"parent": "cafeb2c1589f6a08",
+			"name": "CoverPlane195",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.06758232219019045,
+							"y": 0.8534268017909388,
+							"z": -93.52730530321551
+						},
+						"position": {
+							"x": -0.7655214071273804,
+							"y": -1.3112009763717651,
+							"z": 0.15470820665359497
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.07225501537323
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08",
+					"postInit": true
+				}
+			}
+		},
+		"cafededaa7dba61d": {
+			"parent": "cafeb2c1589f6a08",
+			"name": "CoverPlane197",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.027733460200002447,
+							"y": -0.8553814556544487,
+							"z": 92.8426671780443
+						},
+						"position": {
+							"x": 0.7505167722702026,
+							"y": -1.2564740180969238,
+							"z": 0.1559305042028427
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.1562210321426392
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08",
+					"postInit": true
+				}
+			}
+		},
+		"cafec8f23c00abd5": {
+			"parent": "cafeb2c1589f6a08",
+			"name": "CoverPlane198",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.009315509720713069,
+							"y": -0.8556489682342693,
+							"z": 90.37554728755008
+						},
+						"position": {
+							"x": 0.7872279286384583,
+							"y": 0.5501654744148254,
+							"z": 0.1829151064157486
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.458930015563965
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb2c1589f6a08": {
+			"parent": "fffffffffffffffe",
+			"name": "Avance_Alpha_1_A_00",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_alpha_1_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_alpha_1_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.975986891651065,
+							"y": -4.982357405796662,
+							"z": -2.049858984144043
+						},
+						"position": {
+							"x": -6.149932861328125,
+							"y": -29.63797950744629,
+							"z": -0.08881500363349915
+						}
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#117432"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a3abfc17113fa981",
+						"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"events": {
+				"OnExplode": {
+					"SetTrue": [
+						{
+							"ref": "b114005c4fadd11d",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+						}
+					]
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "59c4c0f8fca5187b",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#117432"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "91535a5cd7c86164",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb2c1589f6a08"
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -272,6 +648,34 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "13fdfbafed41a220",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+		},
+		{
+			"ref": "fb95a309c2871fca",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "cbefcb5fdd543047",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "e90ad5571b190875",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+		},
+		{
+			"ref": "8fe2f4f3497e714b",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+		},
+		{
+			"ref": "d6518c12359e84f1",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_ceramicsstore_day.brick].pc_entitytype"
+		},
+		{
+			"ref": "d80238fddc675470",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+		},
+		{
 			"ref": "1cfff86be21b6e12",
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
 		},
@@ -369,7 +773,10 @@
 		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/coastaltown/mamba_outfits.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/coastaltown/tod_wot_sunset.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/coastaltown/tod_wot_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_ceramicsstore_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

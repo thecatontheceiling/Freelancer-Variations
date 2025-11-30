@@ -2567,15 +2567,7 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 				}
 			],
-			"properties": {
-				"m_pDecalMesh": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "004552D6E9E41183",
-						"flag": "5F"
-					}
-				}
-			}
+			"properties": {}
 		},
 		{
 			"entities": [
@@ -5096,82 +5088,7 @@
 	"externalScenes": ["[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-		{ "resource": "00FB57DD1AE8A0A3", "flag": "5F" },
-		{ "resource": "009CAC335AE92E3B", "flag": "5F" },
-		{ "resource": "0095ABFAF1968335", "flag": "5F" },
-		{ "resource": "00726B011E152E56", "flag": "5F" },
-		{ "resource": "0036FDD5FAB19C81", "flag": "5F" },
-		{ "resource": "00D17B01777642E8", "flag": "5F" },
-		{ "resource": "0049A52C5D91832E", "flag": "5F" },
-		{ "resource": "00DE39E99F359D25", "flag": "5F" },
-		{ "resource": "003736CB93908E85", "flag": "5F" },
-		{ "resource": "00CE9F78ADFDB1DB", "flag": "5F" },
-		{ "resource": "0089D4CAB07A251B", "flag": "5F" },
-		{ "resource": "00EB08B9C65E2237", "flag": "5F" },
-		{ "resource": "008E9BD26C96EC44", "flag": "5F" },
-		{ "resource": "0094DEE508617462", "flag": "5F" },
-		{ "resource": "009E9CA2690BB783", "flag": "5F" },
-		{ "resource": "00EBC7142CB2913B", "flag": "5F" },
-		{ "resource": "0059CDEB47424F16", "flag": "5F" },
-		{ "resource": "00B65BC7E56537A3", "flag": "5F" },
-		{ "resource": "006EA96660BA7E48", "flag": "5F" },
-		{ "resource": "00AA8C0A20BFD3E1", "flag": "5F" },
-		{ "resource": "006AB3BEAD54A6FB", "flag": "5F" },
-		{ "resource": "003B0819A575DB6C", "flag": "5F" },
-		{ "resource": "00E270B57329F924", "flag": "5F" },
-		{
-			"resource": "[assembly:/_pro/environment/materials/generic/ground/blend_tilesstreet_tilesstreetworn_concreterough_a.mi].pc_mi",
-			"flag": "5F"
-		},
-		{ "resource": "00CC189907CB47A4", "flag": "5F" },
-		{
-			"resource": "[assembly:/_pro/environment/materials/generic/ground/asphalt_pavement_3mat_blend_b_skunk.mi].pc_mi",
-			"flag": "5F"
-		},
-		{ "resource": "007B5B8C98FA5E6B", "flag": "5F" },
-		{ "resource": "0052EA9245CD61B8", "flag": "5F" },
-		{ "resource": "006FBAFCA560B352", "flag": "5F" },
-		{ "resource": "00BFFCDDCE1F6737", "flag": "5F" },
-		{ "resource": "00A2F350692284B4", "flag": "5F" },
-		{ "resource": "00A894AC78028104", "flag": "5F" },
-		{ "resource": "00BC286B4E7191C6", "flag": "5F" },
-		{ "resource": "00C8230CFE602BE5", "flag": "5F" },
-		{ "resource": "00CB7FFA00B29CD1", "flag": "5F" },
-		{ "resource": "00CF43CED7DEA6B8", "flag": "5F" },
-		{ "resource": "00D4879B40F3277C", "flag": "5F" },
-		{ "resource": "00D09264D9845565", "flag": "5F" },
-		{ "resource": "00D11933D823CA08", "flag": "5F" },
-		{ "resource": "00DB701662D9F48D", "flag": "5F" },
-		{ "resource": "00E6E1B7BCACE5DD", "flag": "5F" },
-		{ "resource": "00E85A4BA5814F15", "flag": "5F" },
-		{ "resource": "00EA4F7C6537E19F", "flag": "5F" },
-		{ "resource": "00FF2547B1CF6938", "flag": "5F" },
-		{ "resource": "00FF4350E410C3CC", "flag": "5F" },
-		{ "resource": "001C2A2B64670D9D", "flag": "5F" },
-		{ "resource": "0002A3741E6B9B6C", "flag": "5F" },
-		{ "resource": "0003DDF8A39B9C69", "flag": "5F" },
-		{ "resource": "003B9050072001F9", "flag": "5F" },
-		{ "resource": "0004A9D56041FC30", "flag": "5F" },
-		{ "resource": "006FA05D21701982", "flag": "5F" },
-		{ "resource": "008D07A584A1E47E", "flag": "5F" },
-		{ "resource": "009EE26CCCCD5F17", "flag": "5F" },
-		{ "resource": "0011FCA3C72FB2B3", "flag": "5F" },
-		{ "resource": "0012E38233CD49FE", "flag": "5F" },
-		{ "resource": "0043D7399896A098", "flag": "5F" },
-		{ "resource": "0055E368E285A590", "flag": "5F" },
-		{ "resource": "0070C8C29C0FBAAE", "flag": "5F" },
-		{ "resource": "0077AA6E4A8785D2", "flag": "5F" },
-		{ "resource": "00568FA144036F49", "flag": "5F" },
-		{ "resource": "00748F5809098761", "flag": "5F" },
-		{ "resource": "004403E141650443", "flag": "5F" },
-		{ "resource": "004552D6E9E41183", "flag": "5F" },
-		{ "resource": "006671FC00E50861", "flag": "5F" },
-		{ "resource": "00245994D0137A9E", "flag": "5F" },
-		"005BF239676A0332",
-		{ "resource": "00729EF0B144AF31", "flag": "5F" },
-		{ "resource": "0023C8B28A69EC05", "flag": "5F" }
-	],
+	"extraFactoryDependencies": [],
 	"extraBlueprintDependencies": [],
 	"comments": []
 }

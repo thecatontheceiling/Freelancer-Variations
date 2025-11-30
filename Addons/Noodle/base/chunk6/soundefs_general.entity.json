@@ -15,7 +15,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_YAMASAKI" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_YAMASAKI"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/yamasaki.sdefs].pc_sdefs"
@@ -28,7 +31,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_KONG" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_KONG"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/kong.sdefs].pc_sdefs"
@@ -41,7 +47,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_HUSH" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_HUSH"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/hush.sdefs].pc_sdefs"
@@ -54,7 +63,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_THUGES01" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_THUGES01"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/thuges01.sdefs].pc_sdefs"
@@ -67,7 +79,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_MARTINEZ" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_MARTINEZ"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/martinez.sdefs].pc_sdefs"
@@ -80,7 +95,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_STUYVESANT" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_STUYVESANT"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/stuyvesant.sdefs].pc_sdefs"
@@ -93,7 +111,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_MENDOLA" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_MENDOLA"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/mendola.sdefs].pc_sdefs"
@@ -106,7 +127,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_STRANDBERG" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_STRANDBERG"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/strandberg.sdefs].pc_sdefs"
@@ -119,7 +143,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_JANUS" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_JANUS"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/janus.sdefs].pc_sdefs"
@@ -132,7 +159,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_DESANTIS" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_DESANTIS"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/desantis.sdefs].pc_sdefs"
@@ -145,7 +175,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_REYNARD" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_REYNARD"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/reynard.sdefs].pc_sdefs"
@@ -158,7 +191,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_VIDAL" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_VIDAL"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/vidal.sdefs].pc_sdefs"
@@ -171,7 +207,10 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_MAELSTROM" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_MAELSTROM"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
 					"value": "[assembly:/sound/sounddefinitions/maelstrom.sdefs].pc_sdefs"
@@ -180,14 +219,17 @@
 		},
 		"3a4fd7620d2fc615": {
 			"parent": null,
-			"name": "ET_FABA",
+			"name": "ET_BAIJ",
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_ET_FABA" },
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_ET_BAIJ"
+				},
 				"m_pResource": {
 					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/sound/sounddefinitions/et_faba.sdefs].pc_sdefs"
+					"value": "[assembly:/sound/sounddefinitions/et_BAIJ.sdefs].pc_sdefs"
 				}
 			}
 		},
@@ -197,8 +239,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_THUGHI01" },
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "0047B31DD258926C" }
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_THUGHI01"
+				},
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "0047B31DD258926C"
+				}
 			}
 		},
 		"3a4fd7620d2fc619": {
@@ -207,8 +255,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_THUGHI02" },
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "00353EFAF4555D2E" }
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_THUGHI02"
+				},
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "00353EFAF4555D2E"
+				}
 			}
 		},
 		"3a4fd7620d2fc617": {
@@ -217,8 +271,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_THUGHI03" },
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "0066A32F1952E1BC" }
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_THUGHI03"
+				},
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "0066A32F1952E1BC"
+				}
 			}
 		},
 		"3a4fd7620d2fc618": {
@@ -227,8 +287,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_JOB_MUMBSECHI02" },
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "00B6CF427E11FA0B" }
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_JOB_MUMBSECHI02"
+				},
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "00B6CF427E11FA0B"
+				}
 			}
 		},
 		"3a4fd7620d2fc620": {
@@ -237,8 +303,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_JOB_MUMBSECHI03" },
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "008604A166FEFD95" }
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_JOB_MUMBSECHI03"
+				},
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "008604A166FEFD95"
+				}
 			}
 		},
 		"abcdc9b1c9817ee3": {
@@ -247,8 +319,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "008B4C04D285442F" },
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_RANGAN" }
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "008B4C04D285442F"
+				},
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_RANGAN"
+				}
 			}
 		},
 		"abcd7c63f8432ad3": {
@@ -257,8 +335,14 @@
 			"factory": "[modules:/zsounddefresource.class].pc_entitytype",
 			"blueprint": "[modules:/zsounddefresource.class].pc_entityblueprint",
 			"properties": {
-				"m_pResource": { "type": "ZRuntimeResourceID", "value": "005F9C23EB8CE51E" },
-				"m_eVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FRANCO" }
+				"m_pResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "005F9C23EB8CE51E"
+				},
+				"m_eVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_FRANCO"
+				}
 			}
 		}
 	},

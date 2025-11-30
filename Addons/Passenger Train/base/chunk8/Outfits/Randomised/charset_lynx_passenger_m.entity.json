@@ -64,15 +64,7 @@
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_unique.template?/outfit_lynx_passenger_m_nude_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
+			"properties": {}
 		},
 		"be1fdb5c12b52e10": {
 			"parent": "e572709a8f20ad34",
@@ -97,7 +89,12 @@
 			"name": "HeroA",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["7eb5ff5a517d515e"] } }
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["7eb5ff5a517d515e"]
+				}
+			}
 		},
 		"cafe6c41905628a3": {
 			"parent": "be1fdb5c12b52e10",

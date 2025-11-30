@@ -1,5 +1,5 @@
 {
-	"version": "1.10.1",
+	"version": "1.10.2",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
@@ -9,10 +9,6 @@
 	"loadBefore": ["KevinRudd.TODChange"],
 	"loadAfter": ["KevinRudd.SeafoodMassacre", "musicalmushr00m.LightingUltimate", "GlacierOrganisation.CommunityPatches"],
 	"dependencies": [
-		"00559CF4597C9DCA",
-		"00D1F1997329D563",
-		"009CB35500AB0AAB",
-		"00CEC914C8280520",
 		{
 			"runtimeID": "000DF041FD3F9F32",
 			"comment": "Superfan Charset",
@@ -763,15 +759,20 @@
 			"name": "No Hantu Port",
 			"type": "conditional",
 			"condition": "\"KevinRudd.SandboxHantu\" not in config.loadOrder",
-			"contentFolders": ["NoHantu"],
-			"dependencies": []
+			"contentFolders": ["NoHantu"]
 		},
 		{
 			"name": "Hantu Port",
 			"type": "conditional",
 			"condition": "\"KevinRudd.SandboxHantu\" in config.loadOrder",
 			"contentFolders": ["Addons/Hantu"],
-			"dependencies": []
+			"packagedefinition": [
+				{
+					"type": "entity",
+					"partition": "season2",
+					"path": "[assembly:/_pro/scenes/missions/theark/difficulty_hard_northsea_magpie.brick].entitytype"
+				}
+			]
 		},
 		{
 			"name": "Methlab Content",
@@ -868,6 +869,12 @@
 			"type": "conditional",
 			"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
 			"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv", "Addons/Passenger Train/sigfix"],
+			"blobsFolders": ["Addons/Passenger Train/blobs"],
+			"localisedLines": {
+				"00E9017E9A3C704E": "UI_LYNX_LAPTOP_CLUE",
+				"00B7274417C7259B": "UI_LYNX_TARGET_OBJ_ELIMINATE",
+				"00B0048B94671681": "UI_LYNX_TARGET_OBJ_STASH"
+			},
 			"dependencies": [
 				"002BF35A526696D2",
 				"00760A6102503E67",
@@ -1059,6 +1066,12 @@
 			"type": "conditional",
 			"condition": "\"KevinRudd.PassengerTrain\" not in config.loadOrder and \"musicalmushr00m.UntouchableSigSuitFix\" in config.loadOrder",
 			"contentFolders": ["Addons/Passenger Train/base", "Addons/Passenger Train/fv"],
+			"blobsFolders": ["Addons/Passenger Train/blobs"],
+			"localisedLines": {
+				"00E9017E9A3C704E": "UI_LYNX_LAPTOP_CLUE",
+				"00B7274417C7259B": "UI_LYNX_TARGET_OBJ_ELIMINATE",
+				"00B0048B94671681": "UI_LYNX_TARGET_OBJ_STASH"
+			},
 			"dependencies": [
 				"002BF35A526696D2",
 				"00760A6102503E67",
@@ -1598,7 +1611,7 @@
 					"UI_LOCATION_CUBA_CITY": "歌う山脈"
 				}
 			},
-			"localisedlines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
+			"localisedLines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
 		},
 		{
 			"name": "Cuba External",
@@ -1634,7 +1647,7 @@
 					"ui_location_parent_cuba_name": "シエラ カンタンテ、キューバ"
 				}
 			},
-			"localisedlines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
+			"localisedLines": { "001D551B1AC17F6E": "ui_location_parent_cuba_name" }
 		},
 		{
 			"name": "Yacht",
@@ -1925,6 +1938,7 @@
 				},
 				"00C971B032756DED",
 				"00F29C6A6DA00025",
+
 				"009D17D65711801C",
 				"00460299421C52FD",
 				"000A7DE3CEC42211,000BEC396C2BAD91,00A0643DD17950B4,00BBAEDF15366BB5,00CB7C98B353E3AE",
@@ -1934,6 +1948,15 @@
 				"0011CFF15E85D184,0055E33191F7DB95,0097A3CEE439C72C,00169F006BB653AE,00235CF5B58E832D",
 				"00268D40B5C62DCD,00923BF7048EB387,001939DD2D4EDE0B,006480FC59F70734,007618FB4712C8AC",
 				"0014378454472B7B,00579731181846AB,0028212600519399",
+
+				"00D50376379040BB",
+				"00068B0C410730C8,00BFA0FF1ADACCF7,009EF76C5523F118,003E0716978A1CB5,003B9E918DFF4DE1",
+				"007383328717E7E3,00D3C76B804FAFC0,00C724B24A902E97,004E586BB960FDAB,00945974A16CD1DD",
+				"00DA2B7D1A002507,00D714D01B869678",
+
+				"00D7B997EBF39D57,000DCEC9FD074643",
+
+				"008BE39E5D648AF8,00B002A10448C9A5",
 
 				"001999D07B270C7A,00C62EC6AB0A6580,00B58F8E83C59CAE,00524426CA740C2F,00974BE1279D6BF9",
 				"006C16037B55ABC9,004EE7BB94BDD782,00B5340759C13B03,00A45E6E15A8C2D3,007834123F5AA33D",

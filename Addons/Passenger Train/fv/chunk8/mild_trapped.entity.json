@@ -601,7 +601,7 @@
 		},
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Mild_Trapped",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
@@ -1098,7 +1098,7 @@
 						},
 						"position": {
 							"x": -5.143056114320643e-8,
-							"y": 0.00000332851595885586,
+							"y": 3.32851595885586e-6,
 							"z": 0
 						}
 					}
@@ -1152,7 +1152,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0.9272513272387101
+							"z": 0.92725132723871
 						},
 						"position": {
 							"x": 0.32489818,

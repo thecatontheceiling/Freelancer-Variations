@@ -2600,6 +2600,10 @@
 	],
 	"overrideDeletes": [
 		{
+			"ref": "e90ad5571b190875",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+		},
+		{
 			"ref": "5b0f4cbbc99f5fe4",
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
 		},
@@ -2636,7 +2640,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
 		},
 		{
-			"ref": "39122418c5b2367",
+			"ref": "039122418c5b2367",
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
 		},
 		{
@@ -2648,7 +2652,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
 		},
 		{
-			"ref": "e0b169fa15de769",
+			"ref": "0e0b169fa15de769",
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
 		},
 		{
@@ -2732,7 +2736,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
 		},
 		{
-			"ref": "4c80b0204516344",
+			"ref": "04c80b0204516344",
 			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype"
 		},
 		{
