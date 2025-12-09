@@ -108,6 +108,8 @@
 		"[assembly:/_pro/scenes/missions/coastaltown/mission_hot_icon.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/coastaltown/mission_hot_icon.brick].pc_entityblueprint",
 		"[assembly:/_pro/scenes/missions/trapped/hot_trapped_day_ny.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/trapped/hot_trapped_day_ny.brick].pc_entityblueprint"
+		"[assembly:/_pro/scenes/missions/trapped/hot_trapped_day_ny.brick].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/colorado_2/mission_hot_rabies.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colorado_2/mission_hot_rabies.brick].pc_entityblueprint"
 	]
 }

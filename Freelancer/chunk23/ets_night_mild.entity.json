@@ -121,7 +121,7 @@
 			"entities": [
 				{
 					"ref": "7bc8436345790d03",
-					"externalScene": "0055FB7FD3AA2DA1"
+					"externalScene": "[assembly:/_pro/scenes/missions/colorado_2/mission_mild_spades.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -567,7 +567,7 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"0055FB7FD3AA2DA1",
+		"[assembly:/_pro/scenes/missions/colorado_2/mission_mild_spades.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/colorado_2/npc_mission_bull.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/colorado_2/_scene_flirtini.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/colorado_2/_scene_bushwacker.brick].pc_entitytype",
