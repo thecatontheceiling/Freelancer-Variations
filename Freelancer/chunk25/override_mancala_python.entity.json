@@ -7380,7 +7380,11 @@
 			"properties": {
 				"m_rEnabled": {
 					"type": "SEntityTemplateReference",
-					"value": "abcd07c8235ac291"
+					"value": {
+						"ref": "abcd8956d2689e0d",
+						"externalScene": null,
+						"exposedEntity": "IsWorking"
+					}
 				},
 				"m_aPotentialOperators": {
 					"type": "TArray<SEntityTemplateReference>",

@@ -28008,35 +28008,6 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"feed289fe0bc13e7": {
-			"parent": "feed05fffc9b49b8",
-			"name": "SetPiece_Container_Body_StorageCrate",
-			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_storagecrate.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_storagecrate.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -94.5512237548828,
-							"y": 25.186370849609375,
-							"z": 101
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"feed4a028f217eff": {
 			"parent": "feed05fffc9b49b8",
 			"name": "SetPiece_Container_Body_Chest_Wicker_A",
@@ -28220,9 +28191,69 @@
 					"value": "Freelancer_Variations_Noodle"
 				}
 			}
+		},
+		"cafec5d00fb3e5b5": {
+			"parent": "fffffffffffffffe",
+			"name": "a_ext_door_2x4_singledoor_b VANILLA BATHROOM",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/windows_wet_a.template?/a_ext_door_2x4_singledoor_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/windows_wet_a.template?/a_ext_door_2x4_singledoor_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": {
+							"x": 3.9993820190429688,
+							"y": -4.999996185302734,
+							"z": 0.0018309999722987411
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8374ed815902a20",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat_ruddy.brick].pc_entitytype"
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "e6b2cb738c11773e",
+						"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat_ruddy.brick].pc_entitytype"
+					}
+				},
+				"m_bIsLocked": { "type": "bool", "value": true },
+				"m_bValueUnlockIfOpened": { "type": "bool", "value": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "abcd86dd69a8cbe0",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_noodle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafec5d00fb3e5b5",
+							"externalScene": null,
+							"exposedEntity": "KeyWord_Key"
+						}
+					]
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -29410,6 +29441,10 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "abcd252bc988cbbe",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_noodle.brick].pc_entitytype"
+		},
 		{
 			"ref": "2d16cfe64fa9332d",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/outfits_rat.brick].pc_entitytype"

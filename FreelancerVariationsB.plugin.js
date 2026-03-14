@@ -45,6 +45,25 @@ module.exports = function FreelancerVariations(controller) {
 
 		if (patch["clearDefaultBricks"]) contract["Data"]["Bricks"] = []
 
+		if (patch["resetVRBricks"])
+			contract["Data"]["VR"] = [
+				{
+					Quality: "base",
+					Bricks: [
+						"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+						"assembly:/_pro/Scenes/Bricks/evergreen_vr_setup.brick",
+						"assembly:/_pro/scenes/missions/coastaltown/vr_overrides_low_performance.brick"
+					]
+				},
+				{
+					Quality: "better",
+					Bricks: [
+						"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+						"assembly:/_pro/Scenes/Bricks/evergreen_vr_setup.brick"
+					]
+				}
+			]
+
 		if ("RandomBricks" in contract["Data"]) {
 			if ("TimeOfDay" in contract["Data"]["RandomBricks"]) {
 				contract["Data"]["RandomBricks"]["TimeOfDay"].concat(patch["bricks"])

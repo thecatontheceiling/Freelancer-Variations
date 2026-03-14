@@ -1,0 +1,27 @@
+{
+	"tempHash": "00BBD54C03B80307",
+	"tbluHash": "00AB809997184250",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f94ac1e9631b31c3",
+				{
+					"SetExposedEntity": [
+						"ValueBool_Exploded",
+						{
+							"isArray": false,
+							"refersTo": [
+								{
+									"ref": "a6b3461367558469",
+									"externalScene": null,
+									"exposedEntity": "ValueBool_Exploded"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

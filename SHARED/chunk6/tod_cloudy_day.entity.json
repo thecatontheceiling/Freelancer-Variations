@@ -124,7 +124,10 @@
 					"type": "float32",
 					"value": 1
 				},
-				"m_fSunIntensityScale": { "type": "float32", "value": 0 },
+				"m_fSunIntensityScale": {
+					"type": "float32",
+					"value": 86.5999984741211
+				},
 				"m_fShadowedRayleighDepthScale": {
 					"type": "float32",
 					"value": 2
@@ -137,11 +140,14 @@
 					"type": "float32",
 					"value": 0.10000000149011612
 				},
-				"m_fSunRadiusScale": { "type": "float32", "value": 0 },
+				"m_fSunRadiusScale": {
+					"type": "float32",
+					"value": 7.699999809265137
+				},
 				"m_fShadowedRange": { "type": "float32", "value": 100 },
 				"m_RayleighColor": {
 					"type": "SColorRGB",
-					"value": "#96bcfa"
+					"value": "#eeedd1"
 				}
 			}
 		},
@@ -1333,13 +1339,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 102.7439763663997
+							"x": -0.0,
+							"y": 0.0,
+							"z": 79.05328219928234
 						},
 						"position": {
 							"x": 0.6654052734375,
-							"y": 0.0476989746094,
+							"y": 0.047698974609375,
 							"z": -300.324951171875
 						}
 					}
@@ -1350,12 +1356,12 @@
 				},
 				"ConstantVector1D_07_Value": {
 					"type": "float32",
-					"value": 4
+					"value": 9.0
 				},
 				"m_bVisible": { "type": "bool", "value": true },
 				"ConstantVector1D_02_Value": {
 					"type": "float32",
-					"value": 1
+					"value": 1.399999976158142
 				},
 				"m_bForceVisible": { "type": "bool", "value": true }
 			}
@@ -2676,6 +2682,30 @@
 		},
 		{
 			"ref": "6f512b5e9551463c",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "8b280d1f746f4266",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "fb71e7e1c02a5574",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "1b3f9e8e95e94027",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "11a96a2a7c2983f1",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "13da44672261bca6",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "08dcd00cdc663afc",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 		}
 	],

@@ -4,6 +4,12 @@
 	"patch": [
 		{
 			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/wet/mission_hot_mahjong.brick].pc_entitytype"
+		},
+		{
+			"RemoveExternalScene": "[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype"
 		}
 	],
 	"patchVersion": 6

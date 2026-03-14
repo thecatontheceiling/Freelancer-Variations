@@ -12345,7 +12345,23 @@ const contracts = [
 					Bricks: []
 				}
 			],
-			VR: null,
+			VR: [
+				{
+					Quality: "base",
+					Bricks: [
+						"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+						"assembly:/_pro/Scenes/Bricks/evergreen_vr_setup.brick",
+						"assembly:/_pro/scenes/missions/coastaltown/vr_overrides_low_performance.brick"
+					]
+				},
+				{
+					Quality: "better",
+					Bricks: [
+						"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+						"assembly:/_pro/Scenes/Bricks/evergreen_vr_setup.brick"
+					]
+				}
+			],
 			GameChangers: [
 				"d5b80447-6545-4336-aba7-4e389b0b877f",
 				"57dbb412-f797-4e77-9dac-cd3ba0d1675c",
@@ -39057,7 +39073,23 @@ const contracts = [
 					Bricks: []
 				}
 			],
-			VR: null,
+			VR: [
+				{
+					Quality: "base",
+					Bricks: [
+						"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+						"assembly:/_pro/Scenes/Bricks/evergreen_vr_setup.brick",
+						"assembly:/_pro/scenes/missions/coastaltown/vr_overrides_low_performance.brick"
+					]
+				},
+				{
+					Quality: "better",
+					Bricks: [
+						"assembly:/_pro/Scenes/Bricks/vr_setup.brick",
+						"assembly:/_pro/Scenes/Bricks/evergreen_vr_setup.brick"
+					]
+				}
+			],
 			GameChangers: [
 				"325740ad-7289-43d0-acfd-7133d695a586",
 				"d5b80447-6545-4336-aba7-4e389b0b877f",

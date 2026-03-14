@@ -1,0 +1,425 @@
+{
+	"tempHash": "003085371AC638F6",
+	"tbluHash": "00434A6AD86F0BAC",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Mild_Filur",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "06dc1e5e15d8e381",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f1a9ef80b4754d59",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "0d527460820c4056",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "cafee1722ae8b7fb",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "cafecd2e9c2e1c04",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "61859f37e258bd11",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 83.69106399958254
+						},
+						"position": {
+							"x": 26.04743766784668,
+							"y": 45.997928619384766,
+							"z": 10.999999046325684
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a11f9d7b5100f64a",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -177.28171 },
+						"position": {
+							"x": 41.476746,
+							"y": 51.479664,
+							"z": 11
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f6462aaae57c7567",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -19.88192371192132
+						},
+						"position": {
+							"x": 42.50617980957031,
+							"y": 42.86581802368164,
+							"z": 11.0
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cdb36a30a0d4a708",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 77.33304624231063
+						},
+						"position": {
+							"x": 28.689584732055664,
+							"y": 47.06292724609375,
+							"z": 11.0
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b4ead3d8d9214bd5",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe1550fbc6607c",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "dc9161e5d6031b70",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "66101a5043c07e6f",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "4a577c476a8b82ea",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "188c03554af8e001",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "eab0d0936b7708a1",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "4cc5b82af4075e91",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "dbc41bca193c4637",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "bf4c2ebfd726ca7e",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "da7b967451014a82",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "1bd0e19ab4650427",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "23747430712978b0",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "7513f910f6d1a506",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "3ffca8696180e7fe",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "70dc52f0265c8747",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "a5e96f0199f1b275",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "cf318f6ffcfcf00e",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "f56384c22abc7c9b",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "949396cef1ac9642",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "fb53cf9105445108",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "4046b8f57bf987d6",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "ec19f2e0f45b14db",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "1e9ff165bbf93705",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "c328819e0b0a933a",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "f791901004e89920",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "70f0aa6095366a0a",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "06e83eb68b2a1968",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "580167b8ba1da22b",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "8c0676622b64cbcd",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "1466aa93992ad92e",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "7e843557c750d6c4",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "2b0b01b46768bb9b",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "6dc00eeedb320d09",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "670558a26aa51c07",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "2f7d7efe9f75a542",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "c0d4bce3c7dcac2e",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "11b0bbfc35f1dc30",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "1fca6391bf4aa22f",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "dad774a5ec8c868b",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "e811292a25010a7b",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "b0dcf62d59440904",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "e58adf4df9ac47cd",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "429c29d2d34d01fe",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "dddddc67ee38bdce",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "719e142d4246c193",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "abc9dd41d5f2a294",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "864a32d4e24e7a37",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "92cdd4f9973f518e",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "9a4ed8333e87d8d4",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "d24075322df4b638",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "911236d6c9e265d7",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "721b4c3175756f2c",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "6f74d45bc187e02e",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "d611c4cca22f9da8",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "9c02b35247f4b925",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "440970ad816dbd4c",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "b5f17302abf19749",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "8b157cf3d89fc873",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "c15f4cd8e96f6c0c",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "9d0e47a29194bb90",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						},
+						{
+							"ref": "71e6b47560bc6baa",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/Missions/Ancestral/mission_mild_bridge.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00E656CB0E9ED0ED", "flag": "5F" },
+		{ "resource": "0061EF503C4C562E", "flag": "5F" },
+		{ "resource": "00CC056F2AA1499C", "flag": "5F" },
+		{ "resource": "00DFB0D8BC29D607", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

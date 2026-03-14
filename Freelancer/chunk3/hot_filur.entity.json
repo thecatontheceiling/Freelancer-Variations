@@ -1,0 +1,4524 @@
+{
+	"tempHash": "005AAF1AED4E0F8F",
+	"tbluHash": "003318F455600C24",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Hot_Filur",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe407f3c2ecd77": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_2",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 2 },
+				"drinkHeight": { "type": "int32", "value": 3 },
+				"drinkType": { "type": "int32", "value": 3 },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"],
+					"postInit": true
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeddfa016da962",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe56ea004aa2b1",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9a10b548e654",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed20d7a876457",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea490c3afdbd2",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeab8ea56cde31",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb26df2a4f78c",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafed9c8dc545043"],
+					"postInit": true
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"foodHeight": { "type": "int32", "value": 3 }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe0c8d53d29e1e": {
+			"parent": "cafedf0653545262",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafedf0653545262",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnValue": {
+					"SetVisible": ["cafe46a5ecdeec42", "cafeeeeaa24e6d02"]
+				}
+			}
+		},
+		"cafeab8ea56cde31": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -143.92497060307963
+						},
+						"position": {
+							"x": -3.43603777885437,
+							"y": 56.902923583984375,
+							"z": 4.000002384185791
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe24c7ae03fb69": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 5",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4d33f21af8ee"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe42e7d1afdde3": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -93.74379168291682
+						},
+						"position": {
+							"x": 8.914982795715332,
+							"y": 13.091039657592772,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe94a6c522ecff": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -93.18430231001966
+						},
+						"position": {
+							"x": 31.483009338378903,
+							"y": 20.54618263244629,
+							"z": 3.9999890327453618
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2b0f9e89755a": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.9790032789125808
+						},
+						"position": {
+							"x": 4.576819896697998,
+							"y": 38.87192916870117,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8881e87e55d6": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -85.94540356784836
+						},
+						"position": {
+							"x": -15.40038013458252,
+							"y": 51.12850189208984,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe240ff0ac6005": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 15.722856970676895
+						},
+						"position": {
+							"x": -8.72263240814209,
+							"y": 42.0758171081543,
+							"z": 4.020111560821533
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb6333320056e": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -178.86013973727202
+						},
+						"position": {
+							"x": 6.994472980499268,
+							"y": 31.75197982788086,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe19e15c1f02ca": {
+			"parent": "cafe2670bfcc8073",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe2670bfcc8073",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnValue": { "SetVisible": ["cafe5f68830b4138"] } }
+		},
+		"cafede98cb381fd3": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.88810125983227
+						},
+						"position": {
+							"x": 15.889180183410645,
+							"y": 62.05617904663086,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3d092e2e2bbb": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 3",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe6a9d7b6122cd"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafea9c290b3d6d0": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "bread_f",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_f.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -63.103251493646795
+						},
+						"position": {
+							"x": -0.016759872436523438,
+							"y": -0.9349212646484376,
+							"z": 1.1684823036193848
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef193a390f236",
+					"postInit": true
+				},
+				"m_bVisible": { "type": "bool", "value": false }
+			}
+		},
+		"cafeeeeaa24e6d02": {
+			"parent": "cafedf0653545262",
+			"name": "napkin_bar_a",
+			"factory": "[assembly:/_pro/environment/geometry/props/accessories/napkin_bar_a.wl2?/napkin_bar_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 69.11239684496073
+						},
+						"position": {
+							"x": -0.006221999879926443,
+							"y": -0.5148159861564636,
+							"z": 0.7453699707984924
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecf3cbe1f5b9e",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1420b70dea3b": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe6a9d7b6122cd",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnValue": { "SetVisible": ["cafea9c290b3d6d0"] } }
+		},
+		"cafecc76ef0bec5d": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -44.15549383440237
+						},
+						"position": {
+							"x": 31.918195724487305,
+							"y": 23.824951171875,
+							"z": 3.999988317489624
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2715c922bc21": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 140.70414075892484
+						},
+						"position": {
+							"x": 34.091548919677734,
+							"y": 44.43292999267578,
+							"z": 4.005664825439453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe03940b54f491": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -159.8119736193144
+						},
+						"position": {
+							"x": 19.88862991333008,
+							"y": 31.562240600585938,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb4c9dc95fe6d": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 12",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafefc6374e13894"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe35e2a30ba398": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 114.36299245022408
+						},
+						"position": {
+							"x": -27.474929809570312,
+							"y": 48.474979400634766,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeddcdfcf2b857": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.5974364265548
+						},
+						"position": {
+							"x": 37.252960205078125,
+							"y": 47.582889556884766,
+							"z": 4.005664825439453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb0f67567d29c": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 17.65760489456071
+						},
+						"position": {
+							"x": 23.82731056213379,
+							"y": 42.66072082519531,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe7ef7a21e2ce4": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 85.38689237322129
+						},
+						"position": {
+							"x": -19.400360107421875,
+							"y": 29.939449310302734,
+							"z": 4.000000953674316
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6187e502e395": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 66.30410587865967
+						},
+						"position": {
+							"x": -28.964990615844727,
+							"y": 9.430978775024414,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafee66268c99f63": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 176.74625758164802
+						},
+						"position": {
+							"x": 24.58783912658691,
+							"y": 12.377799987792969,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9b1ea4cc4917": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_10",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 10 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"drinkHeight": { "type": "int32", "value": 2 },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"],
+					"postInit": true
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe8c29b1f34b99",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5e1ef352a870",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe99a564de3311",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe61d7904a4392",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebfc69848b80f",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe04187e893740",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebec763cbc163",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe290ec9e7dcd1"],
+					"postInit": true
+				},
+				"foodHeight": { "type": "int32", "value": 3 }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe9945904ecf8b": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 69.13243342872357
+						},
+						"position": {
+							"x": 37.514129638671875,
+							"y": 45.62887954711914,
+							"z": 4.005664825439453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe99a564de3311": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -13.689158842603362
+						},
+						"position": {
+							"x": -6.33439826965332,
+							"y": 42.447635650634766,
+							"z": 4.020112037658691
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafee971a20a934a": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 85.34864963178083
+						},
+						"position": {
+							"x": -1.4950711727142334,
+							"y": -2.3998570442199707,
+							"z": 4.000000953674316
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafef6c71e2962c6": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -145.97297626494077
+						},
+						"position": {
+							"x": 40.92015838623047,
+							"y": 34.58848190307617,
+							"z": 4.0130109786987305
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafef193a390f236": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 33.413776875167166
+						},
+						"position": {
+							"x": -8.341084480285645,
+							"y": 42.21782302856445,
+							"z": 4.020111560821533
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafed83e2609f4fc": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 10.753789184311971
+						},
+						"position": {
+							"x": 40.17424011230469,
+							"y": 49.05263137817383,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4fdddcccae33": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 179.71953605144782
+						},
+						"position": {
+							"x": -15.72387981414795,
+							"y": 61.96535110473633,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb5decc6f6ce6": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 32.83611814976007
+						},
+						"position": {
+							"x": -10.92389965057373,
+							"y": -16.062650680541992,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4a4f8949fab5": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_4",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 4 },
+				"drinkHeight": { "type": "int32", "value": 1 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"],
+					"postInit": true
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb329c4a9d08a",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9caea0c61252",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeaf1b9b5ed26c",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe02a9f5434855",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee82050e932d9",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe8881e87e55d6",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2b0f9e89755a",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe6f57dfbf02a9"],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafeca19f1bdd3d6": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_9",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 9 },
+				"drinkHeight": { "type": "int32", "value": 2 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"],
+					"postInit": true
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed75eaf8158cc",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe431953358a6d",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebbdea8621bd2",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeddcdfcf2b857",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefddc1d59b874",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe49be3f112c27",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef20630d2974f",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "36c050c5ae06985f",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						"cafe11b2a3d364f0",
+						"cafe89a8c754e686"
+					],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe61d7904a4392": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -177.20474746643262
+						},
+						"position": {
+							"x": 27.805240631103516,
+							"y": 45.57120132446289,
+							"z": 4.005664825439453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1a108576b8a6": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -17.17546539338083
+						},
+						"position": {
+							"x": -0.5655019879341125,
+							"y": 50.80986022949219,
+							"z": 4.0178728103637695
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeef3f8fe0a96a": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.9803781867878286
+						},
+						"position": {
+							"x": -17.445049285888672,
+							"y": 6.302198886871338,
+							"z": 4.00068998336792
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2d76927fd798": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe407f3c2ecd77",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					]
+				}
+			},
+			"events": { "OnValue": { "SetVisible": ["cafed9c8dc545043"] } }
+		},
+		"cafe04187e893740": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 177.6506460615735
+						},
+						"position": {
+							"x": 32.942115783691406,
+							"y": 18.86101722717285,
+							"z": 3.999988317489624
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe89a8c754e686": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "napkin_bar_a",
+			"factory": "[assembly:/_pro/environment/geometry/props/accessories/napkin_bar_a.wl2?/napkin_bar_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 114.20125867434176
+						},
+						"position": {
+							"x": -0.039879001677036285,
+							"y": -0.9250149726867676,
+							"z": 0.9513019919395448
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe431953358a6d",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4f1bb5cef602": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -55.736559081944826
+						},
+						"position": {
+							"x": 30.265390396118164,
+							"y": 54.230411529541016,
+							"z": 4.000000953674316
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2670bfcc8073": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_7",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 7 },
+				"drinkHeight": { "type": "int32", "value": 1 },
+				"drinkType": { "type": "int32", "value": 3 },
+				"foodHeight": { "type": "int32", "value": 1 },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"],
+					"postInit": true
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec9f5e7f369b0",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef5c5d0dbdfff",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefbecb9391182",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee66268c99f63",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef319b74dd946",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe42e7d1afdde3",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeef3f8fe0a96a",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe5f68830b4138"],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafec96fcf915d11": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -122.01080052875804
+						},
+						"position": {
+							"x": -15.112460136413574,
+							"y": 15.9343900680542,
+							"z": 11.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe79fccc9c7a5a": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 11",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe40105e3efd88"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe431953358a6d": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.57738259391708
+						},
+						"position": {
+							"x": 36.78078079223633,
+							"y": 23.314640045166016,
+							"z": 4.0554399490356445
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe94f5a393f079": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -95.03383451261948
+						},
+						"position": {
+							"x": 10.479740142822266,
+							"y": 51.805721282958984,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafebca4f7e72c6f": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -80.63513087261053
+						},
+						"position": {
+							"x": 37.848880767822266,
+							"y": 15.222960472106934,
+							"z": 3.999988079071045
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafea490c3afdbd2": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -135.04249871731182
+						},
+						"position": {
+							"x": 12.254420280456545,
+							"y": 66.82038879394531,
+							"z": 3.0000159740448
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafebad2197b5e4a": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe407f3c2ecd77"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafee5ec958c0615": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 87.0438871214089
+						},
+						"position": {
+							"x": 15.255209922790527,
+							"y": 42.43172073364258,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe49fdebbff3d4": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -97.36968329243706
+						},
+						"position": {
+							"x": -11.810833930969238,
+							"y": 41.91323471069336,
+							"z": 4.000002384185791
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe50052af4b938": {
+			"parent": "cafeb2f572316f05",
+			"name": "ValueInt_StepCount",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_stepcount.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_stepcount.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueInt": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0f1c4451bce1",
+					"postInit": true
+				}
+			}
+		},
+		"cafec578f266d503": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -66.59238232751403
+						},
+						"position": {
+							"x": -26.152019500732425,
+							"y": 9.656415939331056,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafeb26df2a4f78c": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 111.04763845658108
+						},
+						"position": {
+							"x": -9.433954238891602,
+							"y": 52.01594924926758,
+							"z": 4.0178728103637695
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafecea4356dc161": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "PriorityNode 2",
+			"factory": "[modules:/zprioritynode.class].pc_entitytype",
+			"blueprint": "[modules:/zprioritynode.class].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				}
+			}
+		},
+		"cafecd73ed8bf9c9": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 1",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafedf0653545262"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe428fcb81efbf": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -22.185968519134093
+						},
+						"position": {
+							"x": 5.881524085998535,
+							"y": 4.839241981506348,
+							"z": 4.0105438232421875
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe66d984285509": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 136.64944108207962
+						},
+						"position": {
+							"x": 2.4681379795074463,
+							"y": 44.30754852294922,
+							"z": 4.0178728103637695
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5d4b4190369a": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe4a4f8949fab5",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					]
+				}
+			},
+			"events": { "OnValue": { "SetVisible": ["cafe6f57dfbf02a9"] } }
+		},
+		"cafedc6a0e5e2eec": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe9b1ea4cc4917",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					]
+				},
+				"m_bFireOnLevelStart": { "type": "bool", "value": true }
+			},
+			"events": { "OnValue": { "SetVisible": ["cafe290ec9e7dcd1"] } }
+		},
+		"cafe40105e3efd88": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_11",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 11 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"drinkHeight": { "type": "int32", "value": 3 },
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "25aa0ee7cb771b98",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						}
+					]
+				},
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe281c3b35994c",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebc0c66609daf",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb6333320056e",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe240ff0ac6005",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef6c71e2962c6",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee5ec958c0615",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb0f67567d29c",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafef20630d2974f": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -119.41994090027418
+						},
+						"position": {
+							"x": 27.091869354248047,
+							"y": 45.563438415527344,
+							"z": 4.005664825439453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafefddc1d59b874": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -166.83489087919216
+						},
+						"position": {
+							"x": 18.07295036315918,
+							"y": 56.243900299072266,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe4573b38b473c": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -54.222489751445295
+						},
+						"position": {
+							"x": 45.48086166381836,
+							"y": 32.02729034423828,
+							"z": 2.9931769371032715
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe0c515a3ef0ff": {
+			"parent": "cafe8bd1be959121",
+			"name": "bread_f",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_f.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -57.26133674250316
+						},
+						"position": {
+							"x": -0.01270699966698885,
+							"y": -0.9152910113334656,
+							"z": 1.0005279779434204
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec578f266d503"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"cafef319b74dd946": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -6.037076471764358
+						},
+						"position": {
+							"x": 6.942986965179443,
+							"y": -16.02712059020996,
+							"z": 4.000000953674316
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe05bd3bfdd16e": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 150.30987622908108
+						},
+						"position": {
+							"x": 15.046930313110352,
+							"y": 58.52040100097656,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafed707846afe53": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 8",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe99520253fc7c"],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe64addc8f5fe6": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 71.69972671603595
+						},
+						"position": {
+							"x": -31.66408920288086,
+							"y": 5.229279041290283,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe158bfbf29b0a": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -48.36972981571136
+						},
+						"position": {
+							"x": -27.097780227661133,
+							"y": 15.76648998260498,
+							"z": 4.0105438232421875
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafebc0c66609daf": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -4.273838745524146
+						},
+						"position": {
+							"x": 33.25065612792969,
+							"y": 17.86825180053711,
+							"z": 3.999988317489624
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8c29b1f34b99": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 162.91158062030442
+						},
+						"position": {
+							"x": 17.836599349975586,
+							"y": 52.507930755615234,
+							"z": 4.0078349113464355
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe9a10b548e654": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 25.720315883289175
+						},
+						"position": {
+							"x": 2.1695542335510254,
+							"y": 65.18769073486328,
+							"z": 4.000000476837158
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafedf0653545262": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_1",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 1 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"foodHeight": { "type": "int32", "value": 1 },
+				"smokerRailActs": { "type": "bool", "value": true },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecb2f3e3bd7a1",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecf3cbe1f5b9e",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe49fdebbff3d4",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe030700f5715f",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4fdddcccae33",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe35e2a30ba398",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1a108576b8a6",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "31f6cf9edcc9eda9",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						"cafe46a5ecdeec42",
+						"cafeeeeaa24e6d02"
+					],
+					"postInit": true
+				},
+				"drinkHeight": { "type": "int32", "value": 3 }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe290ec9e7dcd1": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "bread_f",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_f.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -72.11556841788281
+						},
+						"position": {
+							"x": -0.02902507781982422,
+							"y": -0.9119606018066406,
+							"z": 1.180302619934082
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe99a564de3311"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bVisible": { "type": "bool", "value": false }
+			}
+		},
+		"cafefbf725a6da37": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -148.46226782789483
+						},
+						"position": {
+							"x": -25.9637393951416,
+							"y": 12.066149711608888,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8addb04aa3f7": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -11.200858403818602
+						},
+						"position": {
+							"x": -13.70561981201172,
+							"y": 2.9805870056152344,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"cafe11b2a3d364f0": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "bread_d",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.57743987522323
+						},
+						"position": {
+							"x": -0.02115200087428093,
+							"y": -0.9265789985656738,
+							"z": 0.9428899884223938
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe431953358a6d"
+				}
+			}
+		},
+		"cafe030700f5715f": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 152.07479641316056
+						},
+						"position": {
+							"x": -8.751054763793945,
+							"y": 40.43669509887695,
+							"z": 4.020112037658691
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafee82050e932d9": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -176.42293643118188
+						},
+						"position": {
+							"x": -21.958709716796875,
+							"y": 61.990379333496094,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafeb5ac90f9e7f1": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 104.85904214998168
+						},
+						"position": {
+							"x": -25.55238914489746,
+							"y": 31.683589935302734,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafeb329c4a9d08a": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 163.43062741317183
+						},
+						"position": {
+							"x": -17.765539169311523,
+							"y": 55.99946975708008,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe99520253fc7c": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_8",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 8 },
+				"drinkHeight": { "type": "int32", "value": 2 },
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "bafcf2b8d11acfc6",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						}
+					]
+				},
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2715c922bc21",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4f58fb07bd14",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe03940b54f491",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecc76ef0bec5d",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4573b38b473c",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe39b1227f7be4",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafebca4f7e72c6f",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe4d33f21af8ee": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_5",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 5 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"foodHeight": { "type": "int32", "value": 1 },
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafea414e3ff9f0f",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe428fcb81efbf",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe158bfbf29b0a",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed2801fac97da",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb5decc6f6ce6",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefbf725a6da37",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6187e502e395",
+					"postInit": true
+				},
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecdb0d5c3d801"],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafec24722ec3564": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 4",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe4a4f8949fab5"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe39b1227f7be4": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -92.97782757526328
+						},
+						"position": {
+							"x": 25.55691909790039,
+							"y": 10.44116497039795,
+							"z": 4.000001430511475
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe15927009b958": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -79.40118502691558
+						},
+						"position": {
+							"x": 16.32748031616211,
+							"y": 20.01279067993164,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe5f68830b4138": {
+			"parent": "cafe2670bfcc8073",
+			"name": "bread_f",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_f.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 50.47002663821974
+						},
+						"position": {
+							"x": 0.015212000347673891,
+							"y": -0.48863500356674194,
+							"z": 0.7450469732284546
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef5c5d0dbdfff",
+					"postInit": true
+				}
+			}
+		},
+		"cafe810dcec228fc": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "PriorityNode",
+			"factory": "[modules:/zprioritynode.class].pc_entitytype",
+			"blueprint": "[modules:/zprioritynode.class].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafedf0653545262",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe407f3c2ecd77",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe6a9d7b6122cd",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe4a4f8949fab5",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe4d33f21af8ee",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe8bd1be959121",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe2670bfcc8073",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe99520253fc7c",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafeca19f1bdd3d6",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe9b1ea4cc4917",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafe40105e3efd88",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						},
+						{
+							"ref": "cafefc6374e13894",
+							"externalScene": null,
+							"exposedEntity": "EvergreenTargetDrama"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafef5c5d0dbdfff": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -1.38296745709501
+						},
+						"position": {
+							"x": 24.62700080871582,
+							"y": 16.400129318237305,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafeb2f572316f05": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "Debug_Drama active",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafed21159060e2e"],
+					"postInit": true
+				}
+			}
+		},
+		"cafea414e3ff9f0f": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 168.00578649866762
+						},
+						"position": {
+							"x": 0.7993720173835754,
+							"y": 39.27320861816406,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe4f58fb07bd14": {
+			"parent": "cafe99520253fc7c",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -4.034490790793242
+						},
+						"position": {
+							"x": 23.943010330200195,
+							"y": 42.30784225463867,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafed86740a98870": {
+			"parent": "cafefc6374e13894",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 23.163795281055837
+						},
+						"position": {
+							"x": 1.6053049564361572,
+							"y": 30.65690040588379,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafecdb0d5c3d801": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "bread_f",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_f.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 48.48877043499689
+						},
+						"position": {
+							"x": 0.0071310000494122505,
+							"y": -0.4950020015239715,
+							"z": 0.7346479892730713
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe428fcb81efbf"
+				}
+			}
+		},
+		"cafe9caea0c61252": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -141.92794741505332
+						},
+						"position": {
+							"x": -38.416690826416016,
+							"y": 36.03388977050781,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafec1b37efdab5c": {
+			"parent": "cafe8bd1be959121",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe8bd1be959121",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					],
+					"postInit": true
+				}
+			},
+			"events": { "OnValue": { "SetVisible": ["cafe0c515a3ef0ff"] } }
+		},
+		"cafed9c8dc545043": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "bread_d",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 111.09262718219844
+						},
+						"position": {
+							"x": -0.01045989990234375,
+							"y": -0.9201087951660156,
+							"z": 1.171419620513916
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe56ea004aa2b1",
+					"postInit": true
+				},
+				"m_bVisible": { "type": "bool", "value": true }
+			}
+		},
+		"cafecb2f3e3bd7a1": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 63.94434957696749
+						},
+						"position": {
+							"x": -9.60196304321289,
+							"y": 54.20565032958984,
+							"z": 4.0178728103637695
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe46a5ecdeec42": {
+			"parent": "cafedf0653545262",
+			"name": "bread_d",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 44.488825360602824
+						},
+						"position": {
+							"x": 0.008120999671518803,
+							"y": -0.5026320219039917,
+							"z": 0.7369589805603027
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafecf3cbe1f5b9e",
+					"postInit": true
+				}
+			}
+		},
+		"cafe1e0ff5092d3b": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 172.63233307813258
+						},
+						"position": {
+							"x": 0.6239129900932312,
+							"y": 56.28971099853515,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe281c3b35994c": {
+			"parent": "cafe40105e3efd88",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 24.57329654753861
+						},
+						"position": {
+							"x": 6.747920989990234,
+							"y": 16.725910186767578,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafefbecb9391182": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 92.12375350299266
+						},
+						"position": {
+							"x": 9.361639022827148,
+							"y": 3.051517963409424,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe0f1c4451bce1": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "Active Dramas",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint"
+		},
+		"cafe8bd1be959121": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_6",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 6 },
+				"foodHeight": { "type": "int32", "value": 2 },
+				"drinkHeight": { "type": "int32", "value": 1 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe0c515a3ef0ff"]
+				},
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeb5ac90f9e7f1",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec578f266d503",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0f8c3f43d96f",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec96fcf915d11",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe64addc8f5fe6",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe8addb04aa3f7",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe7ef7a21e2ce4",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafebec763cbc163": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial generic stand",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 168.90367621498916
+						},
+						"position": {
+							"x": 23.21990966796875,
+							"y": 21.05862045288086,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe6f57dfbf02a9": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "bread_f",
+			"factory": "[assembly:/_pro/environment/geometry/props/food/bread_a.wl2?/bread_f.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -133.72138482049692
+						},
+						"position": {
+							"x": -0.026789000257849693,
+							"y": -0.9106370210647584,
+							"z": 0.9928770065307616
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9caea0c61252"
+				}
+			}
+		},
+		"cafe6a9d7b6122cd": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_3",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 3 },
+				"drinkHeight": { "type": "int32", "value": 1 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafea9c290b3d6d0"]
+				},
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe66d984285509",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafef193a390f236",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4f1bb5cef602",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe4564409a1ba8",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafede98cb381fd3",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe94f5a393f079",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe1e0ff5092d3b",
+					"postInit": true
+				},
+				"foodHeight": { "type": "int32", "value": 3 }
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafebbdea8621bd2": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 164.3009181375147
+						},
+						"position": {
+							"x": 40.32120895385742,
+							"y": 44.91109085083008,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafefc6374e13894": {
+			"parent": "cafebe3ed5cacd29",
+			"name": "1st floor_12",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreentargetdrama.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafecea4356dc161"]
+				},
+				"suspectStateSelector": { "type": "int32", "value": 3 },
+				"suspectID": { "type": "int32", "value": 12 },
+				"drinkType": { "type": "int32", "value": 4 },
+				"drinkHeight": { "type": "int32", "value": 2 },
+				"hungryFoodSource": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "2621522b5c5e0b90",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype"
+						}
+					]
+				},
+				"timeOutSmokeAct": { "type": "float32", "value": 15.0 },
+				"timeOutDrinkingAct": { "type": "float32", "value": 5.0 },
+				"timeOutBookwormAct": { "type": "float32", "value": 12.0 },
+				"timeOutGenStandAct": { "type": "float32", "value": 8.0 },
+				"timeOutGenPonderAct": { "type": "float32", "value": 8.0 },
+				"timeOutHungryAct": { "type": "float32", "value": 8.0 },
+				"timeOutSweetToothAct": {
+					"type": "float32",
+					"value": 12.0
+				},
+				"m_rSuspectHandler": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "892ffb14334170a6",
+						"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+					}
+				},
+				"transformSweetTooth": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed86740a98870",
+					"postInit": true
+				},
+				"transformHungry": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe94a6c522ecff",
+					"postInit": true
+				},
+				"transformBookworm": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed83e2609f4fc",
+					"postInit": true
+				},
+				"transformThirsty": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe9945904ecf8b",
+					"postInit": true
+				},
+				"transformSmoking": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe05bd3bfdd16e",
+					"postInit": true
+				},
+				"transformGenPonder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe15927009b958",
+					"postInit": true
+				},
+				"transformGenStand": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee971a20a934a",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe56ea004aa2b1": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 51.796686063471576
+						},
+						"position": {
+							"x": 10.247626304626465,
+							"y": 53.29784393310547,
+							"z": 4.020112037658691
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafefbc2af05e8e8": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 9",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafeca19f1bdd3d6"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe61fa10144691": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 10",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe9b1ea4cc4917"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe3f5884b0634a": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafe4d33f21af8ee",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					]
+				}
+			},
+			"events": { "OnValue": { "SetVisible": ["cafecdb0d5c3d801"] } }
+		},
+		"cafe3592777dffda": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "ValueBool_Operation",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bFireOnLevelStart": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "cafeca19f1bdd3d6",
+							"externalScene": null,
+							"exposedEntity": "hungry"
+						}
+					]
+				}
+			},
+			"events": {
+				"OnValue": {
+					"SetVisible": ["cafe11b2a3d364f0", "cafe89a8c754e686"]
+				}
+			}
+		},
+		"cafe4564409a1ba8": {
+			"parent": "cafe6a9d7b6122cd",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -82.79816766189344
+						},
+						"position": {
+							"x": 23.094560623168945,
+							"y": 50.18558883666992,
+							"z": 4.000002861022949
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe02a9f5434855": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -171.9860604376671
+						},
+						"position": {
+							"x": -39.97734069824219,
+							"y": 45.81726837158203,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe0f8c3f43d96f": {
+			"parent": "cafe8bd1be959121",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 110.827396570878
+						},
+						"position": {
+							"x": -16.44908905029297,
+							"y": 5.0394182205200195,
+							"z": 4.0105438232421875
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafe5e1ef352a870": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -110.82028734811142
+						},
+						"position": {
+							"x": 15.059820175170898,
+							"y": 50.7784309387207,
+							"z": 4.0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafed2801fac97da": {
+			"parent": "cafe4d33f21af8ee",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 90.24041383336036
+						},
+						"position": {
+							"x": -21.997739791870117,
+							"y": 8.718364715576172,
+							"z": 4.001677989959717
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafeca2c745dbcac": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 6",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe8bd1be959121"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafeddfa016da962": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 9.721139092251454
+						},
+						"position": {
+							"x": 0.16050300002098083,
+							"y": 50.84553909301758,
+							"z": 4.017873764038086
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafed20d7a876457": {
+			"parent": "cafe407f3c2ecd77",
+			"name": "Spatial thirsty",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 7.234350591316906
+						},
+						"position": {
+							"x": 6.8911027908325195,
+							"y": 41.99606704711914,
+							"z": 4.020112037658691
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafebe3ed5cacd29": {
+			"parent": "fffffffffffffffe",
+			"name": "1st floor",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "749b6296408a22ad",
+							"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+						}
+					]
+				}
+			},
+			"propertyAliases": {
+				"m_aHigherPriority": [
+					{
+						"originalProperty": "m_aHigherPriority",
+						"originalEntity": "cafecea4356dc161"
+					}
+				]
+			},
+			"exposedEntities": {
+				"PriorityNode": {
+					"isArray": false,
+					"refersTo": ["cafe810dcec228fc"]
+				}
+			},
+			"exposedInterfaces": { "ZValueInt": "cafe0f1c4451bce1" }
+		},
+		"cafe5c77f8648538": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active 7",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe2670bfcc8073"]
+				}
+			},
+			"events": {
+				"OnTrue": { "Increment": ["cafe50052af4b938"] },
+				"OnFalse": { "Decrement": ["cafe50052af4b938"] }
+			}
+		},
+		"cafe49be3f112c27": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial generic ponder",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -93.0388452176032
+						},
+						"position": {
+							"x": 18.60029029846191,
+							"y": 42.05511093139648,
+							"z": 4.0078349113464355
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafebfc69848b80f": {
+			"parent": "cafe9b1ea4cc4917",
+			"name": "Spatial smoking",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -124.99837781830657
+						},
+						"position": {
+							"x": 45.19770812988281,
+							"y": 35.3167610168457,
+							"z": 3.054966926574707
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafeaf1b9b5ed26c": {
+			"parent": "cafe4a4f8949fab5",
+			"name": "Spatial Bookworm",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -129.74673711597376
+						},
+						"position": {
+							"x": -26.15250015258789,
+							"y": 44.60995101928711,
+							"z": 4.03079080581665
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafec9f5e7f369b0": {
+			"parent": "cafe2670bfcc8073",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -101.56566766635022
+						},
+						"position": {
+							"x": 28.786460876464844,
+							"y": 20.704729080200195,
+							"z": 3.999988079071045
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafed75eaf8158cc": {
+			"parent": "cafeca19f1bdd3d6",
+			"name": "Spatial sweet tooth",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 3.667543098366284
+						},
+						"position": {
+							"x": 23.56818962097168,
+							"y": 18.13719940185547,
+							"z": 4.000001907348633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		},
+		"cafed21159060e2e": {
+			"parent": "cafeb2f572316f05",
+			"name": "Any drama active",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafecd73ed8bf9c9",
+						"cafebad2197b5e4a",
+						"cafe3d092e2e2bbb",
+						"cafec24722ec3564",
+						"cafe24c7ae03fb69",
+						"cafeca2c745dbcac",
+						"cafe5c77f8648538",
+						"cafed707846afe53",
+						"cafefbc2af05e8e8",
+						"cafe61fa10144691",
+						"cafe79fccc9c7a5a",
+						"cafeb4c9dc95fe6d"
+					]
+				}
+			}
+		},
+		"cafecf3cbe1f5b9e": {
+			"parent": "cafedf0653545262",
+			"name": "Spatial Hungry",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 155.06305856322012
+						},
+						"position": {
+							"x": -4.399899482727051,
+							"y": 63.98722839355469,
+							"z": 4.000000476837158
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "08c771d0bcb80789",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"exit1": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f1a9ef80b4754d59",
+						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype"
+					}
+				},
+				"exit2": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafee1722ae8b7fb",
+						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype"
+					}
+				},
+				"exit3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafecd2e9c2e1c04",
+						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype"
+					}
+				},
+				"exit4": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "0d527460820c4056",
+						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "de16c1b5a7c9cc2c",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				},
+				{
+					"ref": "dff30b8b02e6d1c6",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "88246749-2118-2101-5575-991052571240"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "687346cd5426bd90",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				},
+				{
+					"ref": "0b7e76c36995aa15",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "d7caaf48-6583-4b18-a268-3704f5020cca"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "591500ff03158412",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "d45833e103b745db",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "ef5185910c327628",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/outfits_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "49588f9213e46a36",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/outfits_filur.brick].pc_entitytype"
+						},
+						{
+							"ref": "a88e24de6c0a5c66",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "66f9bf9c87739db8",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "dbfa72b59f1b4b96",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "5fcfd877b5441914",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "12d1c57a34ee2e55",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "ba24c82d0ca2b273",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "e3920d4ef6de0ffb",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "61921270b67b44e2",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "6c793b377c13d4c3",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "27f1d7888ab81105",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "47f9ef3f0d486cee",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "3f221eb83469a00d",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						},
+						{
+							"ref": "52096da7b7eb1487",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1430922f04e3130c",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_nMax": { "type": "int32", "value": 14 } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "03603fbedfc709fc",
+					"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "f1a9ef80b4754d59",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "0d527460820c4056",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "cafee1722ae8b7fb",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "cafecd2e9c2e1c04",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4ed50c1c86566311",
+					"externalScene": "[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "04939fedd05220be",
+							"externalScene": "[assembly:/_pro/scenes/missions/ancestral/outfits_filur.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "3adc4ffe10673ffc",
+			"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+		},
+		{
+			"ref": "c877488615eb2b53",
+			"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+		},
+		{
+			"ref": "c331dbda5bf190a0",
+			"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ae38f51b91f1aac",
+			"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+		},
+		{
+			"ref": "6ca141972afd4665",
+			"externalScene": "[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/Missions/Ancestral/mission_hot_bridge.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/override_bridge.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/override_filur.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/scenario_filur.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/ancestral/outfits_filur.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "001EA6CFE28385E3", "flag": "5F" },
+		{ "resource": "001F9E262E6D9FCF", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

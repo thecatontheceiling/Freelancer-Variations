@@ -1,0 +1,1956 @@
+{
+	"tempHash": "0041C8F0A1072B54",
+	"tbluHash": "008B84425E22FF26",
+	"rootEntity": "f94ac1e9631b31c3",
+	"entities": {
+		"31cddabe2b0ecc03": {
+			"parent": "1b713bbf67116cd7",
+			"name": "limousine_b_exterior",
+			"factory": "[assembly:/_pro/vehicles/materials/limousine_b/limousine_b_exterior.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/materials/limousine_b/limousine_b_exterior.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_24_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_24_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#232329"
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1b713bbf67116cd7"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				}
+			}
+		},
+		"a1d5b03e6bccb25a": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Valiant_Limousine_Wheel_A03",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": {
+							"x": 0.8633113,
+							"y": 2.8574648,
+							"z": 0
+						}
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"WheelTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 68.00000702211831,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_06_Value": {
+					"type": "SColorRGB",
+					"value": "#e0e0e0"
+				},
+				"m_pEntityB": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"beb945363bab2ded": {
+			"parent": "5a5be70b2ed19087",
+			"name": "EntityTrack_ Avance_Pongo_1800cc_Wheel_A_BackLeft",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "1e33e8ffc4327e6f",
+					"postInit": true
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["90714ba45a19a9ce"],
+					"postInit": true
+				}
+			}
+		},
+		"3e8c704271167491": {
+			"parent": "a6b3461367558469",
+			"name": "PFBox",
+			"factory": "[modules:/zpfboxentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfboxentity.class].pc_entityblueprint",
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.056829929351806,
+						"y": 8.01377010345459,
+						"z": 1.710379958152771
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.02087399922311306,
+							"y": 2.846266984939575,
+							"z": 0.6890419721603394
+						}
+					}
+				},
+				"m_eType": {
+					"type": "EPathFinderBoxType",
+					"value": "PFBT_EXCLUDE_MESH_COLLISION"
+				},
+				"m_bAffectVisibility": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a6b3461367558469",
+					"postInit": true
+				}
+			}
+		},
+		"88c8a638333bbfec": {
+			"parent": "1b713bbf67116cd7",
+			"name": "DarkLight",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.9462029933929443,
+						"y": 7.215463161468506,
+						"z": 0.4361679852008819
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0577239990234375,
+							"y": 0.06583999842405319,
+							"z": 0.11047299951314926
+						}
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.5078650116920471,
+						"y": 1.0040719509124756,
+						"z": 0.1834769994020462
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4611740112304687,
+						"y": 1.190876007080078,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 0.75 },
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				}
+			}
+		},
+		"355001c5855601b0": {
+			"parent": "364085cd9864b1e3",
+			"name": "Light_Spot_Front_01",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -81.87600733739876,
+							"y": -0.18277404662858868,
+							"z": 178.7242546194113
+						},
+						"position": {
+							"x": 0.6385350227355957,
+							"y": -3.088218927383423,
+							"z": 0.928056001663208
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SPOT"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 1.0 },
+				"m_fAspectXByY": { "type": "float32", "value": 1.0 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.019999999552965164,
+						"y": 0.27194899320602417
+					}
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 2.660759925842285, "y": 11.0 }
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCrowdCastShadows": { "type": "bool", "value": false },
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9800000190734864,
+						"y": 1.0199999809265137
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_rings.texture?/diffuse_c.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_MasterLight": {
+					"type": "SEntityTemplateReference",
+					"value": "302b4e5c0c66180e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "364085cd9864b1e3",
+					"postInit": true
+				}
+			}
+		},
+		"66fe0eb6b756ff4d": {
+			"parent": "1b713bbf67116cd7",
+			"name": "limousine_b_glass",
+			"factory": "[assembly:/_pro/vehicles/geometry/limousine_b/limousine_b.wl2?/limousine_b_glass.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bKinematic": { "type": "bool", "value": true },
+				"m_bStartSleeping": { "type": "bool", "value": true },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				}
+			}
+		},
+		"e3f00bad534f3d75": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "FX_E_ExplosionFireSmoke_Car_Spritebased",
+			"factory": "[assembly:/_pro/effects/templates/fire/fx_fire.template?/fx_e_explosionfiresmoke_car_spritebased.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/fire/fx_fire.template?/fx_e_explosionfiresmoke_car_spritebased.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ExplosionDebriShockwaveDecalTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 2.823730945587158,
+							"z": 0.03719300031661987
+						}
+					}
+				},
+				"InitialExplosionTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 25.00000125874878,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.005148999858647585,
+							"y": 7,
+							"z": 0.699999988079071
+						}
+					}
+				},
+				"InitialExplosionFireTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 25.00000125874878,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": -0.005164000205695629,
+							"y": 3.0,
+							"z": 0.699999988079071
+						}
+					}
+				},
+				"FourWindows": { "type": "bool", "value": true },
+				"WindowFrontTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 136.8919212922995,
+							"y": 0.456934699963451,
+							"z": -179.57229980798132
+						},
+						"position": {
+							"x": 0.03148600086569786,
+							"y": -2.0,
+							"z": 1.100000023841858
+						}
+					}
+				},
+				"WindowRightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 136.89192596003988,
+							"y": 0.4568232669643677,
+							"z": -89.57240403775242
+						},
+						"position": {
+							"x": -0.7234839797019958,
+							"y": 0.20000000298023224,
+							"z": 1.100000023841858
+						}
+					}
+				},
+				"WindowLeftTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 136.89192596003988,
+							"y": 0.4568232669643677,
+							"z": 90.42759596224758
+						},
+						"position": {
+							"x": 0.7663149833679199,
+							"y": 0.20000000298023224,
+							"z": 1.100000023841858
+						}
+					}
+				},
+				"WindowBackTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 136.89193296164893,
+							"y": 0.4548187843673178,
+							"z": 0.4321995143362052
+						},
+						"position": {
+							"x": 0.03148899972438812,
+							"y": 3.0,
+							"z": 1.100000023841858
+						}
+					}
+				},
+				"MainFireBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1234400272369385,
+						"y": 4.25,
+						"z": 0.0
+					}
+				},
+				"MainSmokeBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1234400272369385,
+						"y": 4.25,
+						"z": 0.0
+					}
+				},
+				"MainFireBoxTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.05634799972176552,
+							"y": 0.30000001192092896,
+							"z": 0.6027389764785767
+						}
+					}
+				},
+				"DashboardFireOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 42.53106814697793,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": -2.546381950378418,
+							"z": 0.3914290070533752
+						}
+					}
+				},
+				"Fire_FrontSeatOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": -1.5, "z": 0.0 }
+					}
+				},
+				"BackSeatFireOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -72.4306413886853,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 2.5119540691375732,
+							"z": 0.10621900111436844
+						}
+					}
+				},
+				"TrunkFireOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 2.609673976898194,
+							"z": 0.35496199131011963
+						}
+					}
+				},
+				"MainFireParticlesPerSecond": {
+					"type": "float32",
+					"value": 15.0
+				},
+				"FrontSeatFirePerSecond": {
+					"type": "float32",
+					"value": 5.0
+				},
+				"SideFireBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0,
+						"y": 3.80745005607605,
+						"z": 0.3675529956817627
+					}
+				},
+				"LeftSideFireTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.6330999732017517,
+							"y": 0.12539899349212646,
+							"z": 0.2300000041723251
+						}
+					}
+				},
+				"RightSideFireOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -0.6331110000610352,
+							"y": 0.12540000677108765,
+							"z": 0.2300000041723251
+						}
+					}
+				},
+				"SideFirePerSecond": { "type": "float32", "value": 10.0 },
+				"FireFrontSeatBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6506360173225403,
+						"y": 0.6646379828453064,
+						"z": 0.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				},
+				"Ground": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a6b3461367558469",
+						"externalScene": null,
+						"exposedEntity": "OilLeak"
+					},
+					"postInit": true
+				},
+				"IsBurning": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a6b3461367558469",
+						"externalScene": null,
+						"exposedEntity": "ValueBool_Burning"
+					},
+					"postInit": true
+				},
+				"BackLeftWheelFire": {
+					"type": "SEntityTemplateReference",
+					"value": "b7155cad4e00d095",
+					"postInit": true
+				},
+				"BackRightWheelFire": {
+					"type": "SEntityTemplateReference",
+					"value": "1e33e8ffc4327e6f",
+					"postInit": true
+				}
+			},
+			"events": {
+				"Explosion": { "SmallExplosioons": ["16184c8c0fc6ffe0"] }
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"72d0547e8df80b8b": {
+			"parent": "a6b3461367558469",
+			"name": "CollisionBox_HeroBlocker",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.006360999774187803,
+							"y": 2.8195009231567383,
+							"z": 0.5242350101470947
+						}
+					}
+				},
+				"m_bCollideHitman": { "type": "bool", "value": true },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9911400079727173,
+						"y": 8.027609825134277,
+						"z": 1.811579942703247
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a6b3461367558469",
+					"postInit": true
+				}
+			}
+		},
+		"413a3e57f6ddbdd7": {
+			"parent": "ec4056aa033ee212",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "ec4056aa033ee212",
+					"postInit": true
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a4b245233bc6e5b4"],
+					"postInit": true
+				}
+			}
+		},
+		"1e33e8ffc4327e6f": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Valiant_Limousine_Wheel_A01",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": {
+							"x": 0.9195943,
+							"y": -3.0056949,
+							"z": 0
+						}
+					}
+				},
+				"WheelTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 151.00001766358602,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"m_pEntityB": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"0f602345df447df7": {
+			"parent": "90714ba45a19a9ce",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 639631 }
+				},
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.8611373901367188, 0.0, 0.0, 0.0, -0.0, 0.0, 0.8611373901367188],
+							[0.29508212208747864, 0.8611373901367188, 0.0, 0.0, 0.0, -0.0, 0.0, 0.8611373901367188],
+							[1.0, 0.8611373901367188, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8611373901367188]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[0.29508212208747864, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, -2.840481996536255, 0.0, 0.0, 0.0, -0.0, 0.0, -2.840481996536255],
+							[0.29508212208747864, -2.840481996536255, 0.0, 0.0, 0.0, -0.0, 0.0, -2.840481996536255],
+							[1.0, -2.840481996536255, 0.0, 0.0, 0.0, 0.0, 0.0, -2.840481996536255]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 0.0, 24.006572723388672, -60.01642990112305, 64.01752471923828, -36.009857177734375,
+								0.0, 0.0
+							],
+							[
+								0.29508212208747864, -8.002190589904785, -24.006572723388672, 60.01642990112305,
+								-64.01752471923828, 36.009857177734375, 0.0, -8.002190589904785
+							],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 0.0, -0.05660700052976608, 0.1415174901485443, -0.15095199644565582,
+								0.08491049706935883, 0.0, 0.0
+							],
+							[
+								0.29508212208747864, 0.018868999555706974, 0.05660700052976608, -0.1415174901485443,
+								0.15095199644565582, -0.08491049706935883, 0.0, 0.018868999555706974
+							],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[0.29508212208747864, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				}
+			}
+		},
+		"1abbe8cfdf58fd1f": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "FX_E_Smoke_EngineExhaust",
+			"factory": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_e_smoke_engineexhaust.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_e_smoke_engineexhaust.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 99.26645569120788,
+							"y": 0.0,
+							"z": -180.0
+						},
+						"position": {
+							"x": 0.5160369873046875,
+							"y": -4.111843109130859,
+							"z": 0.36886999011039734
+						}
+					}
+				},
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a6b3461367558469",
+						"externalScene": null,
+						"exposedEntity": "ValueBool_EngineOn"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			}
+		},
+		"ee1fb39d9b26790f": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "FX_E_Smoke_EngineExhaust01",
+			"factory": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_e_smoke_engineexhaust.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_e_smoke_engineexhaust.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 99.26645569120788,
+							"y": 0.0,
+							"z": -180.0
+						},
+						"position": {
+							"x": -0.5475389957427979,
+							"y": -4.111843109130859,
+							"z": 0.3688710033893585
+						}
+					}
+				},
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a6b3461367558469",
+						"externalScene": null,
+						"exposedEntity": "ValueBool_EngineOn"
+					},
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			}
+		},
+		"f7a341420e380950": {
+			"parent": "1b713bbf67116cd7",
+			"name": "PhysicsCollision",
+			"factory": "[modules:/zphysicscollisionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zphysicscollisionentity.class].pc_entityblueprint",
+			"properties": {
+				"m_EntityListA": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1b713bbf67116cd7", "66fe0eb6b756ff4d"],
+					"postInit": true
+				}
+			}
+		},
+		"a4b245233bc6e5b4": {
+			"parent": "413a3e57f6ddbdd7",
+			"name": "CurveTrajectoryItem",
+			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
+			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+			"properties": {
+				"m_startTime": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 0 }
+				},
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 639631 }
+				},
+				"m_CurveX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, -0.8610000610351562, 0.0, 0.0, 0.0, -0.0, 0.0, -0.8610000610351562],
+							[0.22950832545757296, -0.8610000610351562, 0.0, 0.0, 0.0, -0.0, 0.0, -0.8610000610351562],
+							[1.0, -0.8610000610351562, 0.0, 0.0, 0.0, 0.0, 0.0, -0.8610000610351562]
+						]
+					}
+				},
+				"m_CurveRotX": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[0.22950832545757296, 0.0, 0.0, 0.0, 0.0, -0.0, 0.0, 0.0],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, -2.8409149646759033, 0.0, 0.0, 0.0, -0.0, 0.0, -2.8409149646759033],
+							[0.22950832545757296, -2.8409149646759033, 0.0, 0.0, 0.0, -0.0, 0.0, -2.8409149646759033],
+							[1.0, -2.8409149646759033, 0.0, 0.0, 0.0, 0.0, 0.0, -2.8409149646759033]
+						]
+					}
+				},
+				"m_CurveRotY": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, 0.0, -28.91895294189453, 72.2973861694336, -77.1172103881836, 43.3784294128418, 0.0, 0.0],
+							[
+								0.22950832545757296, 9.63965129852295, 28.91895294189453, -72.2973861694336,
+								77.1172103881836, -43.3784294128418, 0.0, 9.63965129852295
+							],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[
+								0.0, 0.0, -0.5877269506454468, 1.4693174362182615, -1.5672719478607178, 0.8815904855728149,
+								0.0, 0.0
+							],
+							[
+								0.22950832545757296, 0.19590899348258972, 0.5877269506454468, -1.4693174362182615,
+								1.5672719478607178, -0.8815904855728149, 0.0, 0.19590899348258972
+							],
+							[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+						]
+					}
+				},
+				"m_CurveRotZ": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[0.0, -180.0, 0.0, 0.0, 0.0, -0.0, 0.0, -180.0],
+							[0.22950832545757296, -180.0, 0.0, 0.0, 0.0, -0.0, 0.0, -180.0],
+							[1.0, -180.0, 0.0, 0.0, 0.0, 0.0, 0.0, -180.0]
+						]
+					}
+				}
+			}
+		},
+		"90714ba45a19a9ce": {
+			"parent": "beb945363bab2ded",
+			"name": "TrajectoryTrack",
+			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
+			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+			"properties": {
+				"m_entityGroup": {
+					"type": "SEntityTemplateReference",
+					"value": "beb945363bab2ded"
+				},
+				"m_aItems": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["0f602345df447df7"]
+				}
+			}
+		},
+		"45f28a3c1a1a371f": {
+			"parent": "364085cd9864b1e3",
+			"name": "Light_Spot_Back01",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -91.85979536460717,
+							"y": -0.417059456243236,
+							"z": -6.66570309554823
+						},
+						"position": {
+							"x": -0.5897899866104126,
+							"y": 3.973752021789551,
+							"z": 0.8245009779930115
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SPOT"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 0.5 },
+				"m_fAspectXByY": { "type": "float32", "value": 1.0 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 0.921949028968811 }
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fc3c2b"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.47999998927116394, "y": 5.0 }
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCrowdCastShadows": { "type": "bool", "value": false },
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.25, "y": 0.3199999928474426 }
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_rings.texture?/diffuse_c.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_MasterLight": {
+					"type": "SEntityTemplateReference",
+					"value": "302b4e5c0c66180e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "364085cd9864b1e3",
+					"postInit": true
+				}
+			}
+		},
+		"b5c9df9f38ddb1f8": {
+			"parent": "364085cd9864b1e3",
+			"name": "limousine_b_lights",
+			"factory": "[assembly:/_pro/vehicles/materials/limousine_b/limousine_b_lights.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/materials/limousine_b/limousine_b_lights.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantVector1D_07_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eLeave"
+				},
+				"Active": { "type": "bool", "value": true },
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1b713bbf67116cd7"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "364085cd9864b1e3",
+					"postInit": true
+				}
+			}
+		},
+		"fbb8279f692f43bf": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "License_Plate_A01",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicle_license_plates.template?/license_plate_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicle_license_plates.template?/license_plate_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.7558678440829901,
+							"y": 0.0,
+							"z": -180.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": 4.148213863372803,
+							"z": 0.49152499437332153
+						}
+					}
+				},
+				"Height": {
+					"type": "float32",
+					"value": 0.8299999833106995
+				},
+				"Width": {
+					"type": "float32",
+					"value": 0.8100000023841858
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				}
+			}
+		},
+		"7894b41cc831fed4": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "License_Plate_A",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicle_license_plates.template?/license_plate_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicle_license_plates.template?/license_plate_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.18128415543340431,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": {
+							"x": 0.0,
+							"y": -4.011232852935791,
+							"z": 0.40819698572158813
+						}
+					}
+				},
+				"Height": {
+					"type": "float32",
+					"value": 0.8600000143051147
+				},
+				"Width": {
+					"type": "float32",
+					"value": 0.8899999856948853
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				}
+			}
+		},
+		"302b4e5c0c66180e": {
+			"parent": "364085cd9864b1e3",
+			"name": "Light_Spot_Front_00",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -82.0086805914073,
+							"y": 1.4760438323242182,
+							"z": -169.59745885978634
+						},
+						"position": {
+							"x": -0.4640580117702484,
+							"y": -3.06705093383789,
+							"z": 0.9231320023536682
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SPOT"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 200.0 },
+				"m_fAspectXByY": { "type": "float32", "value": 1.0 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.019999999552965164,
+						"y": 0.27194899320602417
+					}
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#c7e9ff"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 2.660759925842285, "y": 11.0 }
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCrowdCastShadows": { "type": "bool", "value": false },
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.9800000190734864,
+						"y": 1.0199999809265137
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_rings.texture?/diffuse_c.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "364085cd9864b1e3",
+					"postInit": true
+				}
+			}
+		},
+		"364085cd9864b1e3": {
+			"parent": "1b713bbf67116cd7",
+			"name": "Lights",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bVisible": { "type": "bool", "value": false },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7",
+					"postInit": true
+				}
+			},
+			"inputCopying": {
+				"DiffusePower": { "DiffusePower": ["302b4e5c0c66180e"] },
+				"GlowPower": {
+					"ConstantVector1D_07_Value": ["b5c9df9f38ddb1f8"]
+				}
+			},
+			"propertyAliases": {
+				"m_bCastShadows": [
+					{
+						"originalProperty": "m_bCastShadows",
+						"originalEntity": "355001c5855601b0"
+					},
+					{
+						"originalProperty": "m_bCastShadows",
+						"originalEntity": "302b4e5c0c66180e"
+					}
+				]
+			}
+		},
+		"1b713bbf67116cd7": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Valiant_Limousine_A_01",
+			"factory": "[assembly:/_pro/vehicles/geometry/limousine_b/limousine_b.wl2?/limousine_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0 },
+						"position": {
+							"x": 7.999999979801942e-6,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bKinematic": { "type": "bool", "value": true },
+				"m_bStartSleeping": { "type": "bool", "value": false },
+				"m_bIgnoreCharacters": { "type": "bool", "value": true },
+				"m_fMass": { "type": "float32", "value": 0 },
+				"m_sVertexPaintSourceResourceId": {
+					"type": "ZString",
+					"value": "[assembly:/runtimeresources/vertexpaint/_pro/vehicles/templates/vehicles_france_a/valiant_limousine_a_01_b0ff406ad23e438f9b011031369b48cd.vertexpaint].vertexpaint"
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/vehicles/templates/vehicles_france_a/valiant_limousine_a_01_b0ff406ad23e438f9b011031369b48cd.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"m_bRemovePhysicsGlass": {
+					"type": "bool",
+					"value": false
+				},
+				"LightCastShadows": { "type": "bool", "value": true },
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#232329"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"inputCopying": {
+				"LightOn": { "SetVisible": ["364085cd9864b1e3"] },
+				"DiffusePower": { "DiffusePower": ["364085cd9864b1e3"] },
+				"GlowPower": { "GlowPower": ["364085cd9864b1e3"] },
+				"ConstantVector1D_24_Value": {
+					"ConstantVector1D_24_Value": ["31cddabe2b0ecc03"]
+				},
+				"DestroyWindows": {
+					"SetInPhysicsWorld": ["66fe0eb6b756ff4d"],
+					"SetVisible": ["66fe0eb6b756ff4d"]
+				}
+			},
+			"propertyAliases": {
+				"LightCastShadows": [
+					{
+						"originalProperty": "m_bCastShadows",
+						"originalEntity": "364085cd9864b1e3"
+					}
+				],
+				"VehiclePaintDiffuse": [
+					{
+						"originalProperty": "ConstantColorRGB_01_Value",
+						"originalEntity": "31cddabe2b0ecc03"
+					}
+				],
+				"m_bRemovePhysicsGlass": [
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "66fe0eb6b756ff4d"
+					}
+				]
+			}
+		},
+		"3618baa597fceebd": {
+			"parent": "364085cd9864b1e3",
+			"name": "Light_Spot_Back",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -93.7226534853976,
+							"y": -1.5863203915585111,
+							"z": 3.3160787445022444
+						},
+						"position": {
+							"x": 0.6207050085067749,
+							"y": 3.9430689811706543,
+							"z": 0.8447510004043579
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SPOT"
+				},
+				"m_fDiffusePower": { "type": "float32", "value": 0.5 },
+				"m_fAspectXByY": { "type": "float32", "value": 1.0 },
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.0, "y": 0.921949028968811 }
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fc3c2b"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.47999998927116394, "y": 5.0 }
+				},
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_bCrowdCastShadows": { "type": "bool", "value": false },
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.25, "y": 0.3199999928474426 }
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 50.0
+				},
+				"m_bEnableLightFade": { "type": "bool", "value": true },
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_rings.texture?/diffuse_c.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_MasterLight": {
+					"type": "SEntityTemplateReference",
+					"value": "302b4e5c0c66180e"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "364085cd9864b1e3"
+				}
+			}
+		},
+		"ec4056aa033ee212": {
+			"parent": "5a5be70b2ed19087",
+			"name": "EntityTrack_ Avance_Pongo_1800cc_Wheel_A_BackRight",
+			"factory": "[modules:/zentitygroup.class].pc_entitytype",
+			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+			"properties": {
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["413a3e57f6ddbdd7"]
+				},
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "b7155cad4e00d095",
+					"postInit": true
+				}
+			}
+		},
+		"16184c8c0fc6ffe0": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Sound_ExplodingVehicle",
+			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/sound_explodingvehicle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/sound_explodingvehicle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 1.997650980949402,
+							"z": 1.6729780435562134
+						}
+					}
+				},
+				"FireSound_StartStop": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "a6b3461367558469",
+							"externalScene": null,
+							"exposedEntity": "ValueBool_Burning"
+						}
+					],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"b7155cad4e00d095": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Valiant_Limousine_Wheel_A",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -180 },
+						"position": {
+							"x": -0.91381407,
+							"y": -3.0519688,
+							"z": 0
+						}
+					}
+				},
+				"WheelTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -82.99997340382411,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_pEntityB": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7"
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"5f742f5bc7e534a8": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Valiant_Limousine_Wheel_A02",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_limousine_wheel_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -180 },
+						"position": {
+							"x": -0.85559654,
+							"y": 2.8195324,
+							"z": 0
+						}
+					}
+				},
+				"m_pEntityB": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7"
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"WheelTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 68.00000702211831,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"ConstantColorRGB_06_Value": {
+					"type": "SColorRGB",
+					"value": "#e0e0e0"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"5a5be70b2ed19087": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Sequence_Explode",
+			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_duration": {
+					"type": "ZGameTime",
+					"value": { "m_nTicks": 639631 }
+				},
+				"m_aTracksAndGroups": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ec4056aa033ee212", "beb945363bab2ded"]
+				}
+			}
+		},
+		"e14deb6adc139e06": {
+			"parent": "a6b3461367558469",
+			"name": "CollisionBox_ExplosionBlocker",
+			"factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": {
+							"x": 0.0,
+							"y": 2.819506883621216,
+							"z": 0.5242350101470947
+						}
+					}
+				},
+				"m_bCollideHitman": { "type": "bool", "value": false },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.1006900072097778,
+						"y": 7.557610034942627,
+						"z": 1.811579942703247
+					}
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"m_bEnableExplosionBlocker": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a6b3461367558469",
+					"postInit": true
+				}
+			}
+		},
+		"a6b3461367558469": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Vehicle_Core",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicle_logic.template?/vehicle_core.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicle_logic.template?/vehicle_core.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"EngineOn": { "type": "bool", "value": false },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": -2.9146320819854736,
+							"z": 0.0
+						}
+					}
+				},
+				"CarBody": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1b713bbf67116cd7", "66fe0eb6b756ff4d"]
+				},
+				"FuelTankSetDestroyed": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"Car_Size_Int": { "type": "int32", "value": 4 },
+				"m_bRemovePhysics": { "type": "bool", "value": false },
+				"LightOn": { "type": "bool", "value": false },
+				"GlowPower": { "type": "float32", "value": 50.0 },
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"OilSpillTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": { "x": 0.2, "y": 5.5, "z": 0.03 }
+					}
+				},
+				"HasAlarm": { "type": "bool", "value": true },
+				"m_aRenderables": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1b713bbf67116cd7"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "f94ac1e9631b31c3",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnExplode": {
+					"ExplosionStart": ["16184c8c0fc6ffe0"],
+					"Start": ["5a5be70b2ed19087"],
+					"ActivateExplosion": ["e3f00bad534f3d75"]
+				},
+				"BurnAmount": {
+					"BurnAmount": ["b7155cad4e00d095", "1e33e8ffc4327e6f"],
+					"ConstantVector1D_24_Value": ["1b713bbf67116cd7"]
+				},
+				"SelectLicensePlateSymbol": {
+					"SelectSymbols": ["7894b41cc831fed4", "fbb8279f692f43bf"]
+				},
+				"LightOn": { "LightOn": ["1b713bbf67116cd7"] },
+				"LightPower": { "DiffusePower": ["1b713bbf67116cd7"] },
+				"LightGlow": { "GlowPower": ["1b713bbf67116cd7"] },
+				"DestroyWindows": {
+					"DestroyWindows": ["1b713bbf67116cd7"]
+				}
+			},
+			"propertyAliases": {
+				"m_bRemovePhysics": [
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "72d0547e8df80b8b"
+					},
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "e14deb6adc139e06"
+					}
+				]
+			},
+			"subsets": { "AudioEmitters": ["f94ac1e9631b31c3"] }
+		},
+		"f94ac1e9631b31c3": {
+			"parent": null,
+			"name": "Valiant_Limousine_A_00",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0 },
+						"position": {
+							"x": -78.33545684814453,
+							"y": 0.0,
+							"z": 0.0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bRemovePhysics": { "type": "bool", "value": true },
+				"LightCastShadows": { "type": "bool", "value": true }
+			},
+			"inputCopying": {
+				"TriggerAlarm": { "TriggerAlarm": ["a6b3461367558469"] },
+				"LightOn": { "LightOn": ["a6b3461367558469"] },
+				"LightOff": { "LightOff": ["a6b3461367558469"] }
+			},
+			"propertyAliases": {
+				"CanExplode": [],
+				"ConstantColorRGB_06_Value": [
+					{
+						"originalProperty": "ConstantColorRGB_06_Value",
+						"originalEntity": "a1d5b03e6bccb25a"
+					},
+					{
+						"originalProperty": "ConstantColorRGB_06_Value",
+						"originalEntity": "5f742f5bc7e534a8"
+					}
+				],
+				"DiffusePower": [
+					{
+						"originalProperty": "DiffusePower",
+						"originalEntity": "a6b3461367558469"
+					}
+				],
+				"EngineOn": [
+					{
+						"originalProperty": "EngineOn",
+						"originalEntity": "a6b3461367558469"
+					}
+				],
+				"GlowPower": [
+					{
+						"originalProperty": "GlowPower",
+						"originalEntity": "a6b3461367558469"
+					}
+				],
+				"HasAlarm": [
+					{
+						"originalProperty": "HasAlarm",
+						"originalEntity": "a6b3461367558469"
+					}
+				],
+				"LightCastShadows": [
+					{
+						"originalProperty": "LightCastShadows",
+						"originalEntity": "1b713bbf67116cd7"
+					}
+				],
+				"LightOn": [
+					{
+						"originalProperty": "LightOn",
+						"originalEntity": "a6b3461367558469"
+					}
+				],
+				"OilSpillTransform": [
+					{
+						"originalProperty": "OilSpillTransform",
+						"originalEntity": "a6b3461367558469"
+					}
+				],
+				"VehiclePaintDiffuse": [
+					{
+						"originalProperty": "VehiclePaintDiffuse",
+						"originalEntity": "1b713bbf67116cd7"
+					}
+				],
+				"WheelTransform": [
+					{
+						"originalProperty": "WheelTransform",
+						"originalEntity": "a1d5b03e6bccb25a"
+					},
+					{
+						"originalProperty": "WheelTransform",
+						"originalEntity": "5f742f5bc7e534a8"
+					}
+				],
+				"m_bEnabled": [
+					{
+						"originalProperty": "m_bEnabled",
+						"originalEntity": "1b713bbf67116cd7"
+					}
+				],
+				"m_bKinematic": [
+					{
+						"originalProperty": "m_bKinematic",
+						"originalEntity": "1b713bbf67116cd7"
+					}
+				],
+				"m_bRemovePhysics": [
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "a6b3461367558469"
+					},
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "b7155cad4e00d095"
+					},
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "1e33e8ffc4327e6f"
+					},
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "5f742f5bc7e534a8"
+					},
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "a1d5b03e6bccb25a"
+					},
+					{
+						"originalProperty": "m_bRemovePhysics",
+						"originalEntity": "1b713bbf67116cd7"
+					},
+					{
+						"originalProperty": "m_bRemovePhysicsGlass",
+						"originalEntity": "1b713bbf67116cd7"
+					}
+				]
+			},
+			"exposedEntities": {
+				"Chassis": {
+					"isArray": false,
+					"refersTo": ["1b713bbf67116cd7"]
+				}
+			}
+		},
+		"cafe8d6585030edf": {
+			"parent": "f94ac1e9631b31c3",
+			"name": "Vehicle_FuelTank_A",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicle_logic.template?/vehicle_fueltank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicle_logic.template?/vehicle_fueltank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 2.8705849647521973,
+							"z": 0.4233430027961731
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1b713bbf67116cd7"
+				},
+				"Chassis": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1b713bbf67116cd7"]
+				},
+				"CanExplode": { "type": "bool", "value": true },
+				"m_bRemovePhysics": { "type": "bool", "value": true }
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": ["f94ac1e9631b31c3"],
+				"AudioEmitters": ["f94ac1e9631b31c3"]
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/sfx_explosive_props/sfx_explosiveprop_explodingvehicle/play_sfx_preexplosion_explodingvehicle.wwiseevent].pc_wwisebank",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/sound/wwise/exportedwwisedata/events/effects/sfx_explosions/s2_explosions/play_s2_explosion_car.wwiseevent].pc_wwisebank",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/sfx_explosive_props/sfx_explosiveprop_explodingvehicle/play_smallexplosions.wwiseevent].pc_wwisebank",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/geometry/limousine_b/limousine_b.wl2?/limousine_b.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/geometry/limousine_b/limousine_b.wl2?/limousine_b.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_lights.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_lights.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_lights.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_lights.texture?/emissive_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_exterior.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/masks/vehicle_mask_s2.texture?/mask_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_exterior.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/limousine_b/limousine_b_exterior.texture?/mask_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/textures/car_paint_flakes.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/geometry/limousine_b/limousine_b.wl2?/limousine_b_glass.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/vehicles/geometry/limousine_b/limousine_b.wl2?/limousine_b_glass.prim].pc_coll",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

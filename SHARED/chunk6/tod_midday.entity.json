@@ -1016,6 +1016,45 @@
 		{
 			"entities": [
 				{
+					"ref": "345c61ce937dc909",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "189f927f2a255ae3",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "373e0524a6b8ad3d",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "0847479148a60d53",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "6161d6e21ad423d6",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "6418516b4e43565f",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "4fa99852d7121aac",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "b9ad2057c9bf0afd",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"RainParticlesEnabled": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "62d866a3a55bfc0f",
 					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 				},

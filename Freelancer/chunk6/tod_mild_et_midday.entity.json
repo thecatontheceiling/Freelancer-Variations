@@ -154,9 +154,112 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafe2aeb7274c73b": {
+			"parent": "fffffffffffffffe",
+			"name": "Further Tweaks - 2026",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe1c162152283c": {
+			"parent": "cafe2aeb7274c73b",
+			"name": "Prof_Wet_Guard_Block",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_wet_guard_block.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_wet_guard_block.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "abcd1098e6fa90a2",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/outfits_noodle.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"cafec6ccd5dfba68": {
+			"parent": "cafe2aeb7274c73b",
+			"name": "PFObstacle Arcade Door",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -135.81181 },
+						"position": {
+							"x": -41.652637,
+							"y": 82.19137,
+							"z": 97.582375
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 3.599, "y": 1.878, "z": 3.235 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_bEnabled": { "type": "bool", "value": true }
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "2a1fdb701d64f1cf",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "f30a33f9db2644b3",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "ad244d0d141e80b4",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "db29ef83eba540b3",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "54ffb2353c232698",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
+				},
+				{
+					"ref": "fcb8e4c916812a45",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
+				},
+				{
+					"ref": "7844ff118af8e5cd",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
+				},
+				{
+					"ref": "afa941ae788c2311",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
+				},
+				{
+					"ref": "b4043dfe5ee74202",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "88f1516f-f81d-4a7b-a593-0674e4091d36"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_Undefined"
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 }
+			}
+		},
 		{
 			"entities": [
 				{
@@ -848,6 +951,10 @@
 						{
 							"ref": "c87ad28d9b215b7f",
 							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype"
+						},
+						{
+							"ref": "ad244d0d141e80b4",
+							"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 						}
 					]
 				}
@@ -877,11 +984,39 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 				},
 				{
-					"ref": "5d10af193f86a17",
+					"ref": "87ecd2bd33ee57b3",
 					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 				},
 				{
-					"ref": "dd6faed4266507d",
+					"ref": "8168e50e40ce5df5",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "9b0eadb03fafcd6e",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "66dd982d6f006400",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "62d866a3a55bfc0f",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "5f1acb8186e69cda",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "fdebea5d34809394",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "05d10af193f86a17",
+					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+				},
+				{
+					"ref": "0dd6faed4266507d",
 					"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
 				}
 			],
@@ -906,6 +1041,74 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "a9f53dcd11384077",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "8da40c70ebb9d969",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "3070a0596c7c2bde",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "5b90111624df7efe",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "a17f236eb5ca82b2",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "5dcc825be2150744",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "1bc9776590dc62d7",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "a547ca94cda3c7ea",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "86135a04b578f14d",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "559941f24ab2ce85",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "c60e83d9fad63ca7",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "72b96f57f856241d",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "9e6eddc60c3edc0a",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "db473ceaf9e504b7",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "d4ae114ecf2ae7ee",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "29bc0685724dea54",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
+		{
+			"ref": "ef892b5b112ad8cc",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_rat.brick].pc_entitytype"
+		},
 		{
 			"ref": "1b79be67d1ee975b",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype"
@@ -976,6 +1179,10 @@
 		},
 		{
 			"ref": "04cc33d6436d0a3b",
+			"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
+		},
+		{
+			"ref": "70848ca8ec3ba597",
 			"externalScene": "[assembly:/_pro/scenes/missions/wet/elusive_redsnapper.brick].pc_entitytype"
 		}
 	],
@@ -1082,7 +1289,8 @@
 		"[assembly:/_pro/scenes/missions/wet/mission_mild_mahjong.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/wet/override_mahjong.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/wet/scenario_lambic.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/wet/tod_midday.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/wet/tod_midday.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/wet/outfits_noodle.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

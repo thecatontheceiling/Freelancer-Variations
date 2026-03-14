@@ -1,5 +1,5 @@
 {
-	"version": "1.10.3",
+	"version": "1.12.0",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
@@ -9,6 +9,8 @@
 	"loadBefore": ["KevinRudd.TODChange"],
 	"loadAfter": ["KevinRudd.SeafoodMassacre", "musicalmushr00m.LightingUltimate", "GlacierOrganisation.CommunityPatches"],
 	"dependencies": [
+		"004EBE8812FB98B8",
+		"00BE0F3241F61356",
 		{
 			"runtimeID": "000DF041FD3F9F32",
 			"comment": "Superfan Charset",
@@ -21,11 +23,6 @@
 		},
 		"0061EF503C4C562E",
 		"004C20CB4AEB0573",
-		{
-			"runtimeID": "00386CF911215A4D",
-			"comment": "play_hollyhock",
-			"toChunk": 1
-		},
 		"00AFD8E95E30F785",
 		"00B699EFB3802B71",
 		"0049E402097FE46D",
@@ -62,6 +59,16 @@
 		{
 			"runtimeID": "0029222E19CDE0BF",
 			"comment": "WC_wire_lamps",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00DB336E24657BDD",
+			"comment": "Charset_Chauffeur",
+			"toChunk": 1
+		},
+		{
+			"runtimeID": "00D247A995ED71E2",
+			"comment": "Act_MR_Stand_Basic_Umbrella",
 			"toChunk": 1
 		}
 	],
