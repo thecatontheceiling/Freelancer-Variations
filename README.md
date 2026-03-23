@@ -2,4 +2,4 @@
 
 https://www.nexusmods.com/hitman3/mods/437
 
-1.10.3
+1.12.0
